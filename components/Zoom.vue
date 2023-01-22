@@ -34,8 +34,8 @@ export default {
         return {
             items: [
                 {
-                    src: `https://res.cloudinary.com/dg6smdedp/image/upload${src}`,
-                    thumbnail: `https://res.cloudinary.com/dg6smdedp/image/upload${thumbnail}`,
+                    src,
+                    thumbnail,
                     w,
                     h,
                 },
