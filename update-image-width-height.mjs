@@ -2,7 +2,7 @@ import probe from 'probe-image-size'
 import fs from 'fs'
 
 async function updateImageDimensions(painting, imageType) {
-  const result = await probe(`https://res.cloudinary.com/dg6smdedp/image/upload${painting[imageType]}`)
+  const result = await probe(painting[imageType])
 	painting[`${imageType}Width`] = result.width
 	painting[`${imageType}Height`] = result.height
 }
