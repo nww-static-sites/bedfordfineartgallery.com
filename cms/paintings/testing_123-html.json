@@ -1,0 +1,35 @@
+{
+  "paintingWidth": 23,
+  "body": "T﻿EST",
+  "artist": "charles_waltensperger_artwork-html",
+  "paintingHeight": 23,
+  "slug": "testing_123-html",
+  "dimensions": "xxYxx",
+  "featured": true,
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1674346955/curnock_full.jpg",
+  "status": "New",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1674346955/frank_bromley_grid.jpg",
+  "scrollingHomepageImage": false,
+  "title": "Test",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1674346956/thumb18.jpg",
+  "tinyDescription": "Test",
+  "categories": [
+    "Genre",
+    "American Historic / Political"
+  ],
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1674346955/curnock_full.jpg",
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively Priced $7,500"
+    },
+    {
+      "highlight": "Custom framing available"
+    }
+  ]
+}
