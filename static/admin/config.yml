@@ -40,7 +40,7 @@ collections:
                 display_fields: ['title', 'tinyDescription'],
                 value_field: 'slug',
             }
-          - { label: 'Slug', name: 'slug', widget: 'string', required: true, hint: 'Example: a_t_smith_artist-html NEVER CHANGE THE SLUG ONCE IT IS CREATED. THIS WILL BREAK THE ARTIST ON THE SITE AND POSSIBLY HIS PAINTINGS.', pattern: ["^(\\w|-)+-html$", "Slug must contain only letters, numbers, dashes, or underscores, and must end in -html"]  }
+          - { label: 'Slug', name: 'slug', widget: 'string', required: true, hint: 'Example: a_t_smith_artist-html File name that will appear in the browser address bar. NEVER CHANGE THE SLUG ONCE IT IS CREATED. THIS WILL BREAK THE ARTIST ON THE SITE AND POSSIBLY HIS PAINTINGS.', pattern: ["^(\\w|-)+-html$", "Slug must contain only letters, numbers, dashes, or underscores, and must end in -html"]  }
           - {
                 label: 'Meta Title',
                 name: 'metaTitle',
@@ -74,14 +74,14 @@ collections:
       fields:
           - { label: 'Title', name: 'title', widget: 'string', hint: "Title of Painting\nExample: Ornery Duo", required: true, pattern: ["^\\S+$", "Title cannot be empty"] }
           - { label: 'Tiny Description (shows beneath name)', name: 'tinyDescription', widget: 'string', required: false, hint: "Alternate name or nickname that artist may be known by ( helpful for SEO )\nExample: aka JDolph" }
-          - { label: 'Dimensions', name: 'dimensions', widget: 'string', required: false }
+          - { label: 'Dimensions', name: 'dimensions', widget: 'string', required: false, hint: "Painting medium, height and width, signed ( if applicable)\nExample: Oil on canvas, 18.75 x 14.75 inches / Signed upper left" }
           - {
                 label: 'Gallery Crop Image',
                 name: 'galleryCropImage',
                 widget: 'image',
                 allow_multiple: false,
                 required: false,
-                hint: 'This will show on the gallery pages.'
+                hint: ' Image dimensions: 392 x 261 with black background. Full painting (without frame) cropped image used on the main gallery pages. This will show on the gallery pages.'
             }
           - {
                 label: 'Grid Image',
@@ -89,7 +89,7 @@ collections:
                 widget: 'image',
                 allow_multiple: false,
                 required: false,
-                hint: 'This will show on pages that list multiple paintings.'
+                hint: 'Image dimensions: 392 x 261. Zoomed in (without frame) cropped image used on artist landing pages and the sold page. This will show on pages that list multiple paintings.'
             }
           - {
                 label: 'Medium Res Image',
@@ -97,6 +97,7 @@ collections:
                 widget: 'image',
                 allow_multiple: false,
                 required: false,
+                hint: "Keep width or height around 1200px depending on painting orientation. Full painting with fame cropped image for mobile devices."
             }
           - {
                 label: 'High Res Image',
@@ -104,7 +105,7 @@ collections:
                 widget: 'image',
                 allow_multiple: false,
                 required: false,
-                hint: 'This will show on the painting detail pages.'
+                hint: 'Keep width or height around 2800px depending on painting orientation. Full painting with fame cropped image for desktop computers. This will show on the painting detail pages.'
             }
           - {
                 label: 'Painting Width',
@@ -112,7 +113,7 @@ collections:
                 widget: 'number',
                 value_type: float,
                 required: false,
-                hint: 'This is used for the art wall placer',
+                hint: 'Example: 25 Width of painting, including frame. Number only. This is used for the art wall placer.'
             }
           - {
                 label: 'Painting Height',
@@ -120,7 +121,7 @@ collections:
                 widget: 'number',
                 value_type: float,
                 required: false,
-                hint: 'This is used for the art wall placer',
+                hint: 'Example: 25 Width of painting, including frame. Number only. This is used for the art wall placer.'
             }
           - label: Highlights
             name: "highlights"
@@ -140,7 +141,7 @@ collections:
                     display_fields: ['title', 'tinyDescription'],
                     value_field: 'slug',
                   }
-          - { label: 'Body', name: 'body', widget: 'markdown', required: true }
+          - { label: 'Body', name: 'body', widget: 'markdown', required: true, hint: "Artist description/bio. Use 'Ctrl + Shift + V' to paste from a Word doc without the odd formatting." }
           - {
                 label: 'Artist',
                 name: 'artist',
@@ -151,6 +152,7 @@ collections:
                 search_fields: ['name', 'tinyDescription'],
                 display_fields: ['name', 'tinyDescription'],
                 value_field: 'slug',
+                hint: "Artist description/bio. Use 'Ctrl + Shift + V' to paste from a Word doc without the odd formatting."
             }
           - {
                 label: 'Status',
@@ -158,6 +160,7 @@ collections:
                 widget: 'select',
                 default: 'None',
                 options: ['None', 'New', 'Sold', 'Hold'],
+                hint: 'Mark painting as new, sold or hold if applicable.',
             }
           - {
                 label: 'Featured?',
@@ -165,6 +168,7 @@ collections:
                 widget: boolean,
                 default: false,
                 required: false,
+                hint: 'Toggle on if painting is to be featured at the top of the gallery page.',
             }
           - {
                 label: 'Scrolling Homepage Image?',
@@ -172,6 +176,7 @@ collections:
                 widget: boolean,
                 default: false,
                 required: false,
+                hint: 'Toggle on if painting should be included in the homepage scrolling images.',
             }
           - {
                 label: 'Categories',
@@ -181,28 +186,28 @@ collections:
                 options: ['Landscape', 'Marine', 'Still Life', 'Genre', 'American Historic / Political', 'Sporting Art', 'Animal', 'Sculpture'],
                 required: false,
             }
-          - { label: 'YouTube Link', name: 'youtubeEmbedLink', widget: 'string', required: false, pattern: ["^((?:https?:)?\\/\\/)?((?:www|m)\\.)?((?:youtube\\.com|youtu.be))(\\/(?:[\\w\\-]+\\?v=|embed\\/|v\\/)?)([\\w\\-]+)(\\S+)?$", "Enter a valid YouTube URL"] }
-          - { label: 'Slug', name: 'slug', widget: 'string', hint: 'Example: a_t_smith_flowers-html NEVER CHANGE THE SLUG ONCE IT IS CREATED. THIS WILL BREAK THE PAINTING ON THE SITE AND POSSIBLY ITS ARTIST.', pattern: ["^(\\w|-)+-html$", "Slug must contain only letters, numbers, dashes, or underscores, and must end in -html"] }
+          - { label: 'YouTube Link', name: 'youtubeEmbedLink', widget: 'string', required: false, pattern: ["^((?:https?:)?\\/\\/)?((?:www|m)\\.)?((?:youtube\\.com|youtu.be))(\\/(?:[\\w\\-]+\\?v=|embed\\/|v\\/)?)([\\w\\-]+)(\\S+)?$", "Enter a valid YouTube URL"], hint: "Example link: https://www.youtube.com/embed/bGDNytl-QM0?rel=0 Can be obtained by viewing the video on your YouTube channel and clicking the 'share' button." }
+          - { label: 'Slug', name: 'slug', widget: 'string', hint: 'Example: Example: albert_francis_king_fishing_hole-html File name that will appear in the browser address bar. NEVER CHANGE THE SLUG ONCE IT IS CREATED. THIS WILL BREAK THE PAINTING ON THE SITE AND POSSIBLY ITS ARTIST.', pattern: ["^(\\w|-)+-html$", "Slug must contain only letters, numbers, dashes, or underscores, and must end in -html"] }
           - {
                 label: 'Meta Title',
                 name: 'metaTitle',
                 widget: 'text',
                 required: false,
-                hint: 'C. Myron Clark - USS Constitution Painting For Sale',
+                hint: 'Example: Albert Francis King Painting - The Fishing Hole - 19th Century American Fine Art Title that will appear in the browser tab.'
             }
           - {
                 label: 'Meta Description',
                 name: 'metaDescription',
                 widget: 'text',
                 required: false,
-                hint: 'C. Myron Clark was a Massachusetts mountain landscapist, who also is known for his paintings of ships. Buy This USS Constitution Painting by C. Myron Clark',
+                hint: 'SEO description. Example: Albert Francis King was born in Pittsburgh, Pennsylvania and was recognized as Pittsburgh's primary still-life painter during the 19th century.',
             }
           - {
                 label: 'Meta Keywords',
                 name: 'metaKeywords',
                 widget: 'text',
                 required: false,
-                hint: 'The keywords for this painting separated by commas',
+                hint: 'SEO keywords. Example: David John Gue, 1836 - 1917, American, 19th century artist, Breakers at Dawn, Oil on canvas, marine, marine artwork, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery',
             }
     - name: 'articles'
       label: 'Articles'
