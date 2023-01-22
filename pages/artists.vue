@@ -40,7 +40,9 @@ export default {
     async asyncData({ $content }) {
         const artists = await $content('artists').fetch()
         artists.sort((a, b) => {
-            return a.name.trim().split(' ').pop().toLowerCase().localeCompare(b.name.trim().split(' ').pop().toLowerCase())
+            const artistNameA = a.name || ''
+            const artistNameB = b.name || ''
+            return artistNameA.trim().split(' ').pop().toLowerCase().localeCompare(artistNameB.trim().split(' ').pop().toLowerCase())
         })
         const paintingSlugs = artists.map((artist) => artist.paintings[0])
 

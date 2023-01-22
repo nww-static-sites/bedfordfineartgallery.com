@@ -41,7 +41,7 @@ export default {
 			return this.artist.hasLandingPage ? this.artist.slug.replace('-html', '.html') : this.artist.paintings.length > 0 ? this.artist.paintings[0].replace('-html', '.html') : ''
 		},
 		nameWithTinyDescription() {
-			let nameWithTinyDescription = this.artist.name
+			let nameWithTinyDescription = this.artist.name || ''
 			if (this.artist.tinyDescription) {
 				nameWithTinyDescription += ` (${this.artist.tinyDescription})`
 			}
