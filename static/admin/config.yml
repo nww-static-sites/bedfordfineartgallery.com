@@ -1,0 +1,348 @@
+backend:
+    name: git-gateway
+    branch: master
+
+site_url: https://www.bedfordfineartgallery.com
+logo_url: https://www.bedfordfineartgallery.com/logo.png
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: dg6smdedp
+    api_key: 874875498277852
+    output_filename_only: true
+show_preview_links: false
+publish_mode: editorial_workflow
+
+collections:
+    - name: 'artists'
+      label: 'Artists'
+      label_singular: Artist
+      editor:
+          preview: false
+      format: 'json'
+      folder: 'cms/artists'
+      create: true
+      slug: '{{fields.slug}}'
+      fields:
+          - { label: 'Name', name: 'name', widget: 'string' }
+          - { label: 'Alias', name: 'alias', widget: 'string', required: false }
+          - { label: 'Tiny Description (shows next to name)', name: 'tinyDescription', widget: 'string' }
+          - { label: 'Has Landing Page?', name: 'hasLandingPage', widget: 'boolean', default: false }
+          - { label: 'Body', name: 'body', widget: 'markdown', required: false }
+          - {
+                label: 'Paintings',
+                name: 'paintings',
+                widget: 'relation',
+                required: false,
+                multiple: true,
+                collection: 'paintings',
+                search_fields: ['title', 'tinyDescription'],
+                display_fields: ['title', 'tinyDescription'],
+                value_field: 'slug',
+            }
+          - { label: 'Slug', name: 'slug', widget: 'string' }
+          - {
+                label: 'Meta Title',
+                name: 'metaTitle',
+                widget: 'text',
+                required: false,
+                hint: 'This will default to the name of the artist',
+            }
+          - {
+                label: 'Meta Description',
+                name: 'metaDescription',
+                widget: 'text',
+                required: false,
+                hint: 'This will default to a preview from the body (about the first 250 characters)',
+            }
+          - {
+                label: 'Meta Keywords',
+                name: 'metaKeywords',
+                widget: 'text',
+                required: false,
+                hint: 'Keywords for the artist separated by commas',
+            }
+    - name: 'paintings'
+      label: 'Paintings'
+      label_singular: Painting
+      editor:
+          preview: false
+      format: 'json'
+      folder: 'cms/paintings'
+      create: true
+      slug: '{{fields.slug}}'
+      fields:
+          - { label: 'Title', name: 'title', widget: 'string', hint: "Title of Painting\nExample: Ornery Duo" }
+          - { label: 'Tiny Description (shows beneath name)', name: 'tinyDescription', widget: 'string', required: false }
+          - { label: 'Dimensions', name: 'dimensions', widget: 'string', required: false }
+          - {
+                label: 'Gallery Crop Image',
+                name: 'galleryCropImage',
+                widget: 'image',
+                allow_multiple: false,
+                required: false,
+                hint: 'This will show on the gallery pages.'
+            }
+          - {
+                label: 'Grid Image',
+                name: 'gridImage',
+                widget: 'image',
+                allow_multiple: false,
+                required: false,
+                hint: 'This will show on pages that list multiple paintings.'
+            }
+          - {
+                label: 'Medium Res Image',
+                name: 'mediumResImage',
+                widget: 'image',
+                allow_multiple: false,
+                required: false,
+            }
+          - {
+                label: 'High Res Image',
+                name: 'highResImage',
+                widget: 'image',
+                allow_multiple: false,
+                required: false,
+                hint: 'This will show on the painting detail pages.'
+            }
+          - {
+                label: 'Painting Width',
+                name: 'paintingWidth',
+                widget: 'number',
+                value_type: float,
+                required: false,
+                hint: 'This is used for the art wall placer',
+            }
+          - {
+                label: 'Painting Height',
+                name: 'paintingHeight',
+                widget: 'number',
+                value_type: float,
+                required: false,
+                hint: 'This is used for the art wall placer',
+            }
+          - label: Highlights
+            name: "highlights"
+            widget: "list"
+            summary: '{{fields.highlight}}'
+            fields:
+                - {label: Text, name: highlight, widget: string }
+                - {
+                    label: 'Paired Painting',
+                    name: pairedPainting,
+                    widget: relation,
+                    multiple: false,
+                    required: false,
+                    collection: paintings,
+                    hint: 'Painting that is sold as a pair with this one',
+                    search_fields: ['title', 'tinyDescription'],
+                    display_fields: ['title', 'tinyDescription'],
+                    value_field: 'slug',
+                  }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - {
+                label: 'Artist',
+                name: 'artist',
+                widget: 'relation',
+                required: false,
+                multiple: false,
+                collection: 'artists',
+                search_fields: ['name', 'tinyDescription'],
+                display_fields: ['name', 'tinyDescription'],
+                value_field: 'slug',
+            }
+          - {
+                label: 'Status',
+                name: 'status',
+                widget: 'select',
+                default: 'None',
+                options: ['None', 'New', 'Sold', 'Hold'],
+            }
+          - {
+                label: 'Featured?',
+                name: 'featured',
+                widget: boolean,
+                default: false,
+                required: false,
+            }
+          - {
+                label: 'Scrolling Homepage Image?',
+                name: 'scrollingHomepageImage',
+                widget: boolean,
+                default: false,
+                required: false,
+            }
+          - {
+                label: 'Categories',
+                name: 'categories',
+                widget: 'select',
+                multiple: true,
+                options: ['Landscape', 'Marine', 'Still Life', 'Genre', 'American Historic / Political', 'Sporting Art', 'Animal', 'Sculpture'],
+                required: false,
+            }
+          - { label: 'YouTube Link', name: 'youtubeEmbedLink', widget: 'string', required: false, pattern: ["^((?:https?:)?\\/\\/)?((?:www|m)\\.)?((?:youtube\\.com|youtu.be))(\\/(?:[\\w\\-]+\\?v=|embed\\/|v\\/)?)([\\w\\-]+)(\\S+)?$", "Enter a valid YouTube URL"] }
+          - { label: 'Slug', name: 'slug', widget: 'string', hint: 'Example: a_t_smith_flowers-html' }
+          - {
+                label: 'Meta Title',
+                name: 'metaTitle',
+                widget: 'text',
+                required: false,
+                hint: 'C. Myron Clark - USS Constitution Painting For Sale',
+            }
+          - {
+                label: 'Meta Description',
+                name: 'metaDescription',
+                widget: 'text',
+                required: false,
+                hint: 'C. Myron Clark was a Massachusetts mountain landscapist, who also is known for his paintings of ships. Buy This USS Constitution Painting by C. Myron Clark',
+            }
+          - {
+                label: 'Meta Keywords',
+                name: 'metaKeywords',
+                widget: 'text',
+                required: false,
+                hint: 'The keywords for this painting separated by commas',
+            }
+    - name: 'articles'
+      label: 'Articles'
+      label_singular: Article
+      editor:
+          preview: false
+      format: 'json'
+      folder: 'cms/articles'
+      create: true
+      slug: '{{fields.slug}}'
+      fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+                label: 'Publish Date',
+                name: 'date',
+                widget: 'datetime',
+                required: false,
+                date_format: 'MM/DD/YYYY',
+                time_format: false,
+            }
+          - { label: 'Show Publish Date', name: 'showPublishDate', widget: 'boolean' }
+          - {
+                label: 'Grid Image',
+                name: 'gridImage',
+                widget: 'image',
+                allow_multiple: false,
+                required: false,
+                hint: 'This will be the grid image for the post on the highlights page',
+            }
+          - {
+                label: 'Image',
+                name: 'image',
+                widget: 'image',
+                allow_multiple: false,
+                required: false,
+                hint: 'This will be the image for the post',
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Use control, shift, v to paste when copying from Microsoft Word' }
+          - { label: 'YouTube Link', name: 'youtubeEmbedLink', widget: 'string', required: false, pattern: ["^((?:https?:)?\\/\\/)?((?:www|m)\\.)?((?:youtube\\.com|youtu.be))(\\/(?:[\\w\\-]+\\?v=|embed\\/|v\\/)?)([\\w\\-]+)(\\S+)?$", "Enter a valid YouTube URL"] }
+          - label: "Additonal Link"
+            name: "additionalLink"
+            widget: "object"
+            summary: '{{fields.text}} -> {{fields.link}}'
+            required: false
+            fields:
+                - { label: 'Text', name: 'text', widget: 'string' }
+                - { label: 'Link', name: 'link', widget: 'string' }
+          - { label: 'Slug', name: 'slug', widget: 'string' }
+          - {
+                label: 'Meta Title',
+                name: 'metaTitle',
+                widget: 'text',
+                required: false,
+                hint: 'This will default to the title of the post',
+            }
+          - {
+                label: 'Meta Description',
+                name: 'metaDescription',
+                widget: 'text',
+                required: false,
+                hint: 'This will default to a preview from the post (about the first 250 characters)',
+            }
+          - {
+                label: 'Meta Keywords',
+                name: 'metaKeywords',
+                widget: 'text',
+                required: false,
+                hint: 'The keywords for this painting separated by commas',
+            }
+    - name: 'artLoversNicheArticles'
+      label: 'Art Lovers Niche Articles'
+      label_singular: Art Lovers Niche Article
+      editor:
+          preview: false
+      format: 'json'
+      folder: 'cms/artLoversNicheArticles'
+      create: true
+      slug: '{{fields.slug}}'
+      fields:
+          - {
+                label: 'Publish Date',
+                name: 'date',
+                widget: 'datetime',
+                required: false,
+                date_format: 'MM/DD/YYYY',
+                time_format: false,
+            }
+          - {
+                label: 'Preview',
+                name: 'preview',
+                widget: 'text',
+                hint: 'This will show on the highlights list page'
+            }
+          - { label: 'Body', name: 'body', widget: 'text' }
+          - { label: 'Slug', name: 'slug', widget: 'string' }
+          - {
+                label: 'Meta Title',
+                name: 'metaTitle',
+                widget: 'text',
+                required: false,
+                hint: 'This will default to the title of the post',
+            }
+          - {
+                label: 'Meta Description',
+                name: 'metaDescription',
+                widget: 'text',
+                required: false,
+                hint: 'This will default to a preview from the post (about the first 250 characters)',
+            }
+          - {
+                label: 'Meta Keywords',
+                name: 'metaKeywords',
+                widget: 'text',
+                required: false,
+                hint: 'The keywords for this painting separated by commas',
+            }
+    - name: 'testimonials'
+      label: 'Testimonials'
+      label_singular: Testimonial
+      editor:
+          preview: false
+      format: 'json'
+      folder: 'cms/testimonials'
+      create: true
+      fields:
+          - {
+                label: 'Name',
+                name: 'name',
+                widget: string,
+                required: true,
+            }
+          - {
+                label: 'Long Testimonial',
+                name: 'longTestimonial',
+                widget: text,
+                required: true,
+            }
+          - {
+                label: 'Short Testimonial',
+                name: 'shortTestimonial',
+                widget: text,
+                required: true,
+            }
