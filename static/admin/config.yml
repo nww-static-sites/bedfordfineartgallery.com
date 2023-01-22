@@ -1,9 +1,9 @@
 backend:
     name: git-gateway
-    branch: master
+    branch: main
 
 site_url: https://www.bedfordfineartgallery.com
-logo_url: https://www.bedfordfineartgallery.com/logo.png
+logo_url: https://res.cloudinary.com/dg6smdedp/image/upload/logo.png
 media_library:
   name: cloudinary
   config:
