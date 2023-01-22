@@ -112,7 +112,7 @@ collections:
                 name: 'paintingWidth',
                 widget: 'number',
                 value_type: float,
-                required: false,
+                required: true,
                 hint: 'Example: 25 Width of painting, including frame. Number only. This is used for the art wall placer.'
             }
           - {
@@ -120,7 +120,7 @@ collections:
                 name: 'paintingHeight',
                 widget: 'number',
                 value_type: float,
-                required: false,
+                required: true,
                 hint: 'Example: 25 Width of painting, including frame. Number only. This is used for the art wall placer.'
             }
           - label: Highlights
