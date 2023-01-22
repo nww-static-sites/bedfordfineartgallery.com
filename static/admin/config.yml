@@ -24,7 +24,7 @@ collections:
       create: true
       slug: '{{fields.slug}}'
       fields:
-          - { label: 'Name', name: 'name', widget: 'string' }
+          - { label: 'Name', name: 'name', widget: 'string', required: true }
           - { label: 'Alias', name: 'alias', widget: 'string', required: false }
           - { label: 'Tiny Description (shows next to name)', name: 'tinyDescription', widget: 'string' }
           - { label: 'Has Landing Page?', name: 'hasLandingPage', widget: 'boolean', default: false }
@@ -72,7 +72,7 @@ collections:
       create: true
       slug: '{{fields.slug}}'
       fields:
-          - { label: 'Title', name: 'title', widget: 'string', hint: "Title of Painting<br>Example: Ornery Duo" }
+          - { label: 'Title', name: 'title', widget: 'string', hint: "Title of Painting\nExample: Ornery Duo" }
           - { label: 'Tiny Description (shows beneath name)', name: 'tinyDescription', widget: 'string', required: false, hint: "Alternate name or nickname that artist may be known by ( helpful for SEO )\nExample: aka JDolph" }
           - { label: 'Dimensions', name: 'dimensions', widget: 'string', required: false }
           - {
@@ -182,7 +182,7 @@ collections:
                 required: false,
             }
           - { label: 'YouTube Link', name: 'youtubeEmbedLink', widget: 'string', required: false, pattern: ["^((?:https?:)?\\/\\/)?((?:www|m)\\.)?((?:youtube\\.com|youtu.be))(\\/(?:[\\w\\-]+\\?v=|embed\\/|v\\/)?)([\\w\\-]+)(\\S+)?$", "Enter a valid YouTube URL"] }
-          - { label: 'Slug', name: 'slug', widget: 'string', hint: 'Example: a_t_smith_flowers-html', hint: 'NEVER CHANGE THE SLUG ONCE IT IS CREATED. THIS WILL BREAK THE PAINTING ON THE SITE AND POSSIBLY ITS ARTIST.' }
+          - { label: 'Slug', name: 'slug', widget: 'string', hint: 'Example: a_t_smith_flowers-html NEVER CHANGE THE SLUG ONCE IT IS CREATED. THIS WILL BREAK THE PAINTING ON THE SITE AND POSSIBLY ITS ARTIST.', pattern: ["^(\\w|-)+-html$", "Slug must contain only letters, numbers, dashes, or underscores, and must end in -html"] }
           - {
                 label: 'Meta Title',
                 name: 'metaTitle',
