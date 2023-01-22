@@ -32,7 +32,8 @@ export default {
     methods: {
       artistNameWithTinyDescription,
       getPaintingImage(painting) {
-        return painting.gridImage || painting.mediumResImage || ''
+        const image = painting.gridImage || painting.mediumResImage || ''
+        return image.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
       }
     },
 }
