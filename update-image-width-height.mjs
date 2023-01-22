@@ -1,16 +1,10 @@
+import probe from 'probe-image-size'
 import fs from 'fs'
 
-const getImageMetaData = async (path) => {
-  const img = new Image();
-  img.src = `https://res.cloudinary.com/dg6smdedp/image/fetch${path}`;
-  await img.decode();
-  return img
-};
-
 async function updateImageDimensions(painting, imageType) {
-  const img = await getImageMetaData(painting[imageType])
-	painting[`${imageType}Width`] = img.naturalWidth
-	painting[`${imageType}Height`] = img.naturalHeight
+  const result = await probe(`https://res.cloudinary.com/dg6smdedp/image/upload${painting[imageType]}`)
+	painting[`${imageType}Width`] = result.width
+	painting[`${imageType}Height`] = result.height
 }
 
 async function main() {
