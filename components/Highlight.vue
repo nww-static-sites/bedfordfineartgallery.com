@@ -11,7 +11,7 @@
                     <nuxt-img provider="cloudinary"
                         loading="lazy"
                         class="art_detail"
-                        :src="highlight.image"
+                        :src="image"
                         alt="19th Century Fine Art Legacy"
                         style="width: 100%; height: auto; border: 1px solid #222222"
                     />
@@ -54,5 +54,10 @@ export default {
             required: true,
         }
 	},
+    computed: {
+        image() {
+            return this.highlight.image.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
+        }
+    }
 }
 </script>
