@@ -24,7 +24,7 @@ collections:
       create: true
       slug: '{{fields.slug}}'
       fields:
-          - { label: 'Name', name: 'name', widget: 'string', required: true }
+          - { label: 'Name', name: 'name', widget: 'string', required: true, pattern: ["^\\S+$", "Name cannot be empty"] }
           - { label: 'Alias', name: 'alias', widget: 'string', required: false }
           - { label: 'Tiny Description (shows next to name)', name: 'tinyDescription', widget: 'string' }
           - { label: 'Has Landing Page?', name: 'hasLandingPage', widget: 'boolean', default: false }
@@ -40,7 +40,7 @@ collections:
                 display_fields: ['title', 'tinyDescription'],
                 value_field: 'slug',
             }
-          - { label: 'Slug', name: 'slug', widget: 'string' }
+          - { label: 'Slug', name: 'slug', widget: 'string', required: true, hint: 'Example: a_t_smith_artist-html NEVER CHANGE THE SLUG ONCE IT IS CREATED. THIS WILL BREAK THE ARTIST ON THE SITE AND POSSIBLY HIS PAINTINGS.', pattern: ["^(\\w|-)+-html$", "Slug must contain only letters, numbers, dashes, or underscores, and must end in -html"]  }
           - {
                 label: 'Meta Title',
                 name: 'metaTitle',
@@ -72,7 +72,7 @@ collections:
       create: true
       slug: '{{fields.slug}}'
       fields:
-          - { label: 'Title', name: 'title', widget: 'string', hint: "Title of Painting\nExample: Ornery Duo" }
+          - { label: 'Title', name: 'title', widget: 'string', hint: "Title of Painting\nExample: Ornery Duo", required: true, pattern: ["^\\S+$", "Title cannot be empty"] }
           - { label: 'Tiny Description (shows beneath name)', name: 'tinyDescription', widget: 'string', required: false, hint: "Alternate name or nickname that artist may be known by ( helpful for SEO )\nExample: aka JDolph" }
           - { label: 'Dimensions', name: 'dimensions', widget: 'string', required: false }
           - {
@@ -140,7 +140,7 @@ collections:
                     display_fields: ['title', 'tinyDescription'],
                     value_field: 'slug',
                   }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - { label: 'Body', name: 'body', widget: 'markdown', required: true }
           - {
                 label: 'Artist',
                 name: 'artist',
