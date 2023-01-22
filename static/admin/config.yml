@@ -200,7 +200,7 @@ collections:
                 name: 'metaDescription',
                 widget: 'text',
                 required: false,
-                hint: 'SEO description. Example: Albert Francis King was born in Pittsburgh, Pennsylvania and was recognized as Pittsburgh's primary still-life painter during the 19th century.',
+                hint: "SEO description. Example: Albert Francis King was born in Pittsburgh, Pennsylvania and was recognized as Pittsburgh's primary still-life painter during the 19th century.",
             }
           - {
                 label: 'Meta Keywords',
