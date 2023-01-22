@@ -7,7 +7,7 @@
                     ><nuxt-link :to="painting.slug.replace('-html', '.html')"
                         ><nuxt-picture provider="cloudinary"
                             loading="lazy"
-                            :src="painting.gridImage || painting.mediumResImage || ''"
+                            :src="getImage(painting)"
                             :img-attrs="{alt: nameWithTinyDescription(painting.artist)}"
                         />
                         <p class="artist_gallery_title">{{ nameWithTinyDescription(painting.artist) }}</p>
@@ -55,6 +55,10 @@ export default {
 
             return nameWithTinyDescription
         },
+        getImage(painting) {
+            const image = painting.gridImage || painting.mediumResImage || ''
+            return image.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
+        }
     },
 }
 </script>
