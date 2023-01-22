@@ -72,9 +72,10 @@ export default {
     },
     methods: {
         getImage(scrollingHomepageImage) {
-            return scrollingHomepageImage.gridImage
+            const image = scrollingHomepageImage.gridImage
                 ? scrollingHomepageImage.gridImage
                 : scrollingHomepageImage.mediumResImage
+            return image.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
         },
     },
 }
