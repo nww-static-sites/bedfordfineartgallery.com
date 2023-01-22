@@ -72,7 +72,7 @@ collections:
       create: true
       slug: '{{fields.slug}}'
       fields:
-          - { label: 'Title', name: 'title', widget: 'string', hint: "Title of Painting\nExample: Ornery Duo" }
+          - { label: 'Title', name: 'title', widget: 'string', hint: "Title of Painting<br>Example: Ornery Duo" }
           - { label: 'Tiny Description (shows beneath name)', name: 'tinyDescription', widget: 'string', required: false, hint: "Alternate name or nickname that artist may be known by ( helpful for SEO )\nExample: aka JDolph" }
           - { label: 'Dimensions', name: 'dimensions', widget: 'string', required: false }
           - {
