@@ -8,11 +8,11 @@
    ],
    "dimensions" : "Gouache, 17 x 12.5 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/strain_feathers_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/strain_feathers_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strain_feathers_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strain_feathers_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/strain_feathers_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strain_feathers_full.jpg",
    "highResImageHeight" : 3331,
    "highResImageWidth" : 2961,
    "highlights" : [
@@ -29,7 +29,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/strain_feathers_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strain_feathers_small.jpg",
    "mediumResImageHeight" : 1233,
    "mediumResImageWidth" : 1096,
    "metaDescription" : "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",

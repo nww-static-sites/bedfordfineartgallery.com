@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil/canvas 13.75 x 21.75 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/bromley_fishing_spot_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/bromley_fishing_spot_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bromley_fishing_spot_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bromley_fishing_spot_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/bromley_fishing_spot_small.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bromley_fishing_spot_small.jpg",
    "highResImageHeight" : "1113",
    "highResImageWidth" : "1528",
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/bromley_fishing_spot_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bromley_fishing_spot_small.jpg",
    "mediumResImageHeight" : 1113,
    "mediumResImageWidth" : 1528,
    "metaDescription" : null,

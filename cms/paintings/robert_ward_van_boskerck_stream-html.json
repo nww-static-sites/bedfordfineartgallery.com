@@ -10,22 +10,22 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/van_boskerck_stream_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/van_boskerck_stream_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Robert Ward Van Boskerck - Rocky New England Stream Painting",
-  "gridImage": "/cms-uploads/van_boskerck_stream_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/van_boskerck_stream_grid.jpg",
   "mediumResImageWidth": 1105,
   "mediumResImageHeight": 876,
   "metaDescription": "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",
   "scrollingHomepageImage": true,
   "title": "Rocky New England Stream",
-  "galleryCropImage": "/cms-uploads/van_boskerck_stream_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/van_boskerck_stream_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/van_boskerck_stream_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/van_boskerck_stream_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

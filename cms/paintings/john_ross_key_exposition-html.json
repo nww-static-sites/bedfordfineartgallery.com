@@ -4,10 +4,10 @@
    "categories" : [],
    "dimensions" : "Oil on canvas, 23 x 39.5 inches / Signed lower right",
    "featured" : false,
-   "gridImage" : "/cms-uploads/grid_ce.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/grid_ce.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/ce.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ce.jpg",
    "highResImageHeight" : 2059,
    "highResImageWidth" : 3132,
    "highlights" : [
@@ -24,7 +24,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/ce_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ce_small.jpg",
    "mediumResImageHeight" : 853,
    "mediumResImageWidth" : 1300,
    "metaDescription" : "John Ross Key was born in Hagerstown, Maryland, the son of U.S. Attorney for the District of Columbia and grandson of Francis Scott Key, who penned the lyrics to our",

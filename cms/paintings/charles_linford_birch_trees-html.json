@@ -4,10 +4,10 @@
    "categories" : [],
    "dimensions" : "Oil on canvas, 17 x 12 inches/Signed lower left",
    "featured" : false,
-   "gridImage" : "/cms-uploads/linford_trees_grid.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/linford_trees_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/linford_trees_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/linford_trees_full.jpg",
    "highResImageHeight" : 3417,
    "highResImageWidth" : 2771,
    "highlights" : [
@@ -24,7 +24,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/linford_trees_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/linford_trees_small.jpg",
    "mediumResImageHeight" : 1099,
    "mediumResImageWidth" : 909,
    "metaDescription" : "Landscape painter, Charles Linford was born in Pittsburgh, Pennsylvania and was a student of noted Scalp Level founder, George Hetzel. Linford's characteristic sty",

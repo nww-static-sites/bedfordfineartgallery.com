@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on canvas, 13.75 x 19.5 inches / Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/8_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/8_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/8_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/8_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/reflections_origina.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/reflections_origina.jpg",
    "highResImageHeight" : 1727,
    "highResImageWidth" : 2306,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/reflections_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/reflections_small.jpg",
    "mediumResImageHeight" : 945,
    "mediumResImageWidth" : 1262,
    "metaDescription" : "Olive Parker Black (American, 1868 - 1948) (Aka  Olive P Black) Reflections Painting For Sale - Oil On Canvas - 13.75 X 19.5 Inches - Signed On The Lower Left.",

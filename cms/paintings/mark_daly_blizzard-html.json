@@ -4,10 +4,10 @@
    "categories" : [],
    "dimensions" : "Oil on board, 20.5 x 16 inches/Signed lower right",
    "featured" : false,
-   "gridImage" : "/cms-uploads/daly_grid.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/daly_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/daly_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/daly_full.jpg",
    "highResImageHeight" : 3026,
    "highResImageWidth" : 2604,
    "highlights" : [
@@ -24,7 +24,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/daly_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/daly_small.jpg",
    "mediumResImageHeight" : 1438,
    "mediumResImageWidth" : 1238,
    "metaDescription" : "Contemporary Impressionist artist Daly was born on Long Island, New York. As a child his mother taught him drawing and he spent time in the studio of artist Woodhull",

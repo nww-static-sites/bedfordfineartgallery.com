@@ -4,10 +4,10 @@
    "categories" : [],
    "dimensions" : "Oil on board, 4.25 x 5.88 inches/Signed lower left",
    "featured" : false,
-   "gridImage" : "/cms-uploads/enneking_venice_grid.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/enneking_venice_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/enneking_venice_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/enneking_venice_full.jpg",
    "highResImageHeight" : 2422,
    "highResImageWidth" : 2768,
    "highlights" : [
@@ -24,7 +24,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/enneking_venice_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/enneking_venice_small.jpg",
    "mediumResImageHeight" : 969,
    "mediumResImageWidth" : 1108,
    "metaDescription" : "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",

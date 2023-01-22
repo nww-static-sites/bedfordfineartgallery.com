@@ -4,17 +4,17 @@
   "slug": "g_hetzel_boulder-strewn-creek-html",
   "dimensions": "Oil on canvas, 17.25 x 29.5 inches/Signed lower left",
   "featured": false,
-  "mediumResImage": "/cms-uploads/hetzel-boulders-img_1507-sm-cr-fr.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hetzel-boulders-img_1507-sm-cr-fr.jpg",
   "status": "Sold",
-  "gridImage": "/cms-uploads/hetzel-boulders-img_1507-cr-zoom.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hetzel-boulders-img_1507-cr-zoom.jpg",
   "scrollingHomepageImage": false,
   "title": "Boulder-strewn creek",
-  "galleryCropImage": "/cms-uploads/hetzel-boulders-img_1507-gall-full-cr.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hetzel-boulders-img_1507-gall-full-cr.jpg",
   "tinyDescription": "",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "/cms-uploads/hetzel-boulders-img_1507-lrg-cr-fr.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hetzel-boulders-img_1507-lrg-cr-fr.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

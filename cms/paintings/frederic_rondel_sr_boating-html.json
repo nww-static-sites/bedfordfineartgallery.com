@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on canvas, 12.75 x 22.5 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/rondel_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/rondel_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rondel_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rondel_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/rondel_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rondel_full.jpg",
    "highResImageHeight" : 2028,
    "highResImageWidth" : 3050,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/rondel_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rondel_small.jpg",
    "mediumResImageHeight" : 1018,
    "mediumResImageWidth" : 1523,
    "metaDescription" : "Frederick Rondel, born in Paris in 1826, where he had studied under romantic marine and landscape painters Auguste Jungelet and Theodore Gudin.",

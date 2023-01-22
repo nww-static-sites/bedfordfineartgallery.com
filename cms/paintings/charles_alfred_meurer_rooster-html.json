@@ -10,23 +10,23 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/meurer_rooster_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/meurer_rooster_small.jpg",
   "gridImageWidth": 392,
   "status": "Sold",
   "metaTitle": "Charles Alfred Meurer - Rooster and Friends - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/meurer_rooster_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/meurer_rooster_grid.jpg",
   "mediumResImageWidth": 1190,
   "mediumResImageHeight": 1000,
   "metaDescription": "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",
   "scrollingHomepageImage": true,
   "title": "Rooster and Friends",
-  "galleryCropImage": "/cms-uploads/meurer_rooster_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/meurer_rooster_grid_gallery_crop.jpg",
   "categories": [
     "Landscape",
     "Animal"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/meurer_rooster_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/meurer_rooster_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

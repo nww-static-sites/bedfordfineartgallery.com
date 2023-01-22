@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "https://www.youtube.com/embed/oFoKmNRrIro?rel=0",
-  "mediumResImage": "/cms-uploads/weyl_small2.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/weyl_small2.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Max Weyl - Sunset Landscape with Cabin Painting For Sale",
-  "gridImage": "/cms-uploads/max_weyl_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/max_weyl_grid.jpg",
   "mediumResImageWidth": 1430,
   "mediumResImageHeight": 1008,
   "metaDescription": "Born in Germany, Weyl immigrated to Williamsport, Pennsylvania in 1853 and in 1861 moved to Washington, D.C., where he opened a jewelry store. Not trained as an arti",
   "title": "Sunset Landscape with Cabin",
-  "galleryCropImage": "/cms-uploads/max_weyl_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/max_weyl_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/weyl_original2.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/weyl_original2.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

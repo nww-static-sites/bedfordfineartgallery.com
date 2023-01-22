@@ -8,18 +8,18 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/key_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/key_small.jpg",
   "gridImageWidth": 392,
   "status": "Sold",
   "metaTitle": "John Ross Key Painting - Lake Vista - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/key_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/key_grid.jpg",
   "mediumResImageWidth": 1638,
   "mediumResImageHeight": 1042,
   "metaDescription": "Key was born in Hagerstown, Maryland, but was raised in Washington, D.C. by his famous grandfather, Francis Scott, who penned the lyrics to our national Anthem. Key",
   "title": "Lake Tahoe",
   "categories": [],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/key_large.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/key_large.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

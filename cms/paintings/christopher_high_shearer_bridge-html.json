@@ -4,10 +4,10 @@
    "categories" : [],
    "dimensions" : "Oil on canvas, 21.5 x 35.5 inches/Signed lower left",
    "featured" : false,
-   "gridImage" : "/cms-uploads/shearer_grid.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/shearer_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/shearer_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/shearer_full.jpg",
    "highResImageHeight" : 1957,
    "highResImageWidth" : 2918,
    "highlights" : [
@@ -24,7 +24,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/shearer_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/shearer_small.jpg",
    "mediumResImageHeight" : 768,
    "mediumResImageWidth" : 1140,
    "metaDescription" : "Born at family farm at Shearertown (Tuckerton), near Reading, Pennsylvania, Shearer spent youthful hours in the studios of noted Reading artists, F. D. Devlan and Jo",

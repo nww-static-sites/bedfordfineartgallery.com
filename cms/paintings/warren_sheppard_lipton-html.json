@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "https://www.youtube.com/embed/fed260cCii4?rel=0",
-  "mediumResImage": "/cms-uploads/sheppard_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/sheppard_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Warren Sheppard - Brooklyn Y.C. Ocean Race for Lipton Cup",
-  "gridImage": "/cms-uploads/sheppard_grid3.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/sheppard_grid3.jpg",
   "mediumResImageWidth": 1031,
   "mediumResImageHeight": 774,
   "metaDescription": "Warren Sheppard - American, 1858-1937 - Brooklyn Y.c. Ocean Race For Lipton Cup Oil On Canvas Paint For Sale - 15.5 X 25.75 Inches - Signed On Lower Left.",
   "title": "Brooklyn Y.C. Ocean Race for Lipton Cup",
-  "galleryCropImage": "/cms-uploads/sheppard_grid3_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/sheppard_grid3_gallery_crop.jpg",
   "categories": [
     "Marine"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/sheppard_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/sheppard_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

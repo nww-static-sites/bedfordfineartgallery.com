@@ -10,22 +10,22 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "https://www.youtube.com/embed/n8CFCUx7Y3c?rel=0",
-  "mediumResImage": "/cms-uploads/black_creek_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/black_creek_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Olive Parker Black Painting - Fall Landscape with Creek - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/black_creek_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/black_creek_grid.jpg",
   "mediumResImageWidth": 1422,
   "mediumResImageHeight": 1019,
   "metaDescription": "Black was born in Cambridge, Massachusetts. She enrolled in the School of Painting at the Museum of Fine Arts in Boston, where she studied with Otto Grundmann and Fr",
   "scrollingHomepageImage": true,
   "title": "Fall Landscape with Creek",
-  "galleryCropImage": "/cms-uploads/black_creek_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/black_creek_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/black_creek_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/black_creek_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

@@ -10,22 +10,22 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/stokes_cows_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/stokes_cows_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Marianne Preindlsberger Stokes - Cows at River’s Edge",
-  "gridImage": "/cms-uploads/stokes_cows_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/stokes_cows_grid.jpg",
   "mediumResImageWidth": 876,
   "mediumResImageHeight": 1224,
   "metaDescription": "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",
   "title": "Cows at River’s Edge",
-  "galleryCropImage": "/cms-uploads/stokes_cows_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/stokes_cows_grid_gallery_crop.jpg",
   "categories": [
     "Landscape",
     "Animal"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/stokes_cows_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/stokes_cows_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

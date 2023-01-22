@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on canvas, 7 x 15 inches/Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/strahalm_stream_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/strahalm_stream_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strahalm_stream_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strahalm_stream_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/strahalm_stream_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strahalm_stream_full.jpg",
    "highResImageHeight" : 1998,
    "highResImageWidth" : 3312,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/strahalm_stream_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strahalm_stream_small.jpg",
    "mediumResImageHeight" : 800,
    "mediumResImageWidth" : 1325,
    "metaDescription" : "Strahalm was born in Vienna, Austria, the son of a Viennese artist. He received his early training from his father and later studied at the Academy of Fine Arts in V",

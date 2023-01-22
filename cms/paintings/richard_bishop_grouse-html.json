@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on canvas, 14.5 x 9.75 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/bishop_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/bishop_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bishop_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bishop_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/bishop_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bishop_full.jpg",
    "highResImageHeight" : 3254,
    "highResImageWidth" : 2525,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/bishop_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bishop_small.jpg",
    "mediumResImageHeight" : 1204,
    "mediumResImageWidth" : 935,
    "metaDescription" : "Bishop was born in Syracuse, New York and first studied electrical engineering at Cornell University (Ithaca, NY). In 1909 he joined the Cutler-Hammer Manufacturing",

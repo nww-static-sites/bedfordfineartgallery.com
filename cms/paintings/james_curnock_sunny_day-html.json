@@ -7,11 +7,11 @@
    ],
    "dimensions" : "Oil on canvas, 11.5 x 17.5 inches/Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/curnock_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/curnock_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/curnock_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/curnock_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/curnock_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/curnock_full.jpg",
    "highResImageHeight" : 2558,
    "highResImageWidth" : 3258,
    "highlights" : [
@@ -28,7 +28,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/curnock_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/curnock_small.jpg",
    "mediumResImageHeight" : 947,
    "mediumResImageWidth" : 1206,
    "metaDescription" : "Curnock was born in Bristol, on the River Avon in England. He was the son of the genre and portrait painter James Curnock. Curnock is best known for his paintings of",

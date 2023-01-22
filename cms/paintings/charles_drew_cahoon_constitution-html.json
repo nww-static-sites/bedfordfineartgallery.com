@@ -7,11 +7,11 @@
    ],
    "dimensions" : "Oil on canvas, 14.5 x 23.5 inches / Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/cons_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/cons_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cons_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cons_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/us_constitution_original.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/us_constitution_original.jpg",
    "highResImageHeight" : 2376,
    "highResImageWidth" : 3353,
    "highlights" : [
@@ -28,7 +28,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/us_constitution_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/us_constitution_small.jpg",
    "mediumResImageHeight" : 1031,
    "mediumResImageWidth" : 1454,
    "metaDescription" : "Cahoon, born in Harwich, Massachusetts, as a child copied drawings by his father, a sea captain and amateur artist. Cahoon spent time at sea himself and made sketche",

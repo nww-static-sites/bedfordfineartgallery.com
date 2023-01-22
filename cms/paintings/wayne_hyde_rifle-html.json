@@ -4,7 +4,7 @@
    "categories" : [],
    "dimensions" : "",
    "featured" : false,
-   "gridImage" : "/cms-uploads/hyde_rifle_grid.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hyde_rifle_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
    "highResImage" : "",
@@ -13,7 +13,7 @@
          "highlight" : "Available for purchase"
       }
    ],
-   "mediumResImage" : "/cms-uploads/hyde_rifle_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hyde_rifle_small.jpg",
    "mediumResImageHeight" : 1128,
    "mediumResImageWidth" : 656,
    "metaDescription" : "Contemporary sculptor Wayne Hyde was born and raised in the Allegheny Mountains, near Bedford, Pennsylvania. His early experiences in rural Bedford, County, led to h",

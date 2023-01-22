@@ -7,11 +7,11 @@
    ],
    "dimensions" : "Oil on Canvas, 14.5 x 19.5 inches/Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/hess_boy_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/hess_boy_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hess_boy_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hess_boy_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/hess_boy_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hess_boy_full.jpg",
    "highResImageHeight" : 2253,
    "highResImageWidth" : 2810,
    "highlights" : [
@@ -28,7 +28,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/hess_boy_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hess_boy_small.jpg",
    "mediumResImageHeight" : 1155,
    "mediumResImageWidth" : 1440,
    "metaDescription" : "Hess was born in Philadelphia, PA, and as a child, he contracted Typhoid fever, which left him crippled. Hess must have expressed an early interest in art and shown",

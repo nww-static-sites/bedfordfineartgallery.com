@@ -6,18 +6,18 @@
   "slug": "j_r_key_garden-html",
   "dimensions": "Oil on canvas, 26.25 x 31.25 inches/Signed lower right",
   "featured": true,
-  "mediumResImage": "/cms-uploads/country-garden-img_1513-sm-cr-fr.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/country-garden-img_1513-sm-cr-fr.jpg",
   "status": "New",
   "metaTitle": "John Ross Key - A Country Garden painting for sale",
-  "gridImage": "/cms-uploads/country-garden-img_1513-zoom-cr.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/country-garden-img_1513-zoom-cr.jpg",
   "metaDescription": "Key was born in Hagerstown, Maryland, but was raised in Washington, D.C. by his famous grandfather, Francis Scott Key",
   "scrollingHomepageImage": false,
   "title": "A Country Garden",
-  "galleryCropImage": "/cms-uploads/country-garden-img_1513-gall-full-cr.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/country-garden-img_1513-gall-full-cr.jpg",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "/cms-uploads/country-garden-img_1513-lrg-cr-fr.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/country-garden-img_1513-lrg-cr-fr.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

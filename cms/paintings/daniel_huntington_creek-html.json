@@ -7,11 +7,11 @@
    ],
    "dimensions" : "Oil on canvas, 13.5 x 11.5 inches / Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/hunt_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/hunt_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hunt_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hunt_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/huntingdon_original.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/huntingdon_original.jpg",
    "highResImageHeight" : 1200,
    "highResImageWidth" : 1082,
    "highlights" : [
@@ -28,7 +28,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/huntingdon_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/huntingdon_small.jpg",
    "mediumResImageHeight" : 986,
    "mediumResImageWidth" : 889,
    "metaDescription" : "Huntington was regarded as the successor to both Hudson River School founder, Thomas Cole and history painter, Washington Allston. He was a distant relative of Ameri",

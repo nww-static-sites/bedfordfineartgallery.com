@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on canvas, 21.5 x 17.25 inches/Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/briggs_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/briggs_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/briggs_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/briggs_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/briggs_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/briggs_full.jpg",
    "highResImageHeight" : 2937,
    "highResImageWidth" : 2517,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/briggs_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/briggs_small.jpg",
    "mediumResImageHeight" : 1513,
    "mediumResImageWidth" : 1297,
    "metaDescription" : "Warren C. Briggs (American, 1867 - 1903) - Forest Interior With Birch Tree Painting For Sale - Oil On Canvas - 21.5 X 17.25 Inches - Signed On The Lower Left.",

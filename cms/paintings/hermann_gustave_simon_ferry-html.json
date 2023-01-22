@@ -8,18 +8,18 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "https://www.youtube.com/embed/ZicyLhp1Dy0?rel=0",
-  "mediumResImage": "/cms-uploads/hgs_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hgs_small.jpg",
   "gridImageWidth": 392,
   "status": "Sold",
   "metaTitle": "Hermann Gustave Simon Painting - Glimpse of the Delaware at Dingman's Ferry - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/hgs_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hgs_grid.jpg",
   "mediumResImageWidth": 1568,
   "mediumResImageHeight": 1295,
   "metaDescription": "Simon was born in Schlietz in Saxony and 1848 was bought to Philadelphia by his family who were escaping the impacts of the revolution, which had engulfed Europe at",
   "title": "Glimpse of the Delaware at Dingman’s Ferry",
   "categories": [],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/hgs_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hgs_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

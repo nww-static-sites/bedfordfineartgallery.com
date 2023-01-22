@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on canvas, 11.75 x 14.5 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/wooster_still_life_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/wooster_still_life_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wooster_still_life_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wooster_still_life_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/wooster_still_life_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wooster_still_life_full.jpg",
    "highResImageHeight" : 2796,
    "highResImageWidth" : 3247,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/wooster_still_life_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wooster_still_life_small.jpg",
    "mediumResImageHeight" : 917,
    "mediumResImageWidth" : 1066,
    "metaDescription" : "Austin C. Wooster was born in Chartiers Valley, Allegheny County, Pennsylvania (Thornburg).  Wooster began his career as a painter of river landscapes, but later foc",

@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on board, 11.75 x 17.75 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/poole_stream_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/poole_stream_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/poole_stream_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/poole_stream_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/poole_stream_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/poole_stream_full.jpg",
    "highResImageHeight" : 2507,
    "highResImageWidth" : 3368,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/poole_stream_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/poole_stream_small.jpg",
    "mediumResImageHeight" : 1028,
    "mediumResImageWidth" : 1380,
    "metaDescription" : "Eugene Poole was southwestern Pennsylvania landscape painter—one of the Scalp Level artists who painted alongside George Hetzel, founder of the Scalp Level School.",

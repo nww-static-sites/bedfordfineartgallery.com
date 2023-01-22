@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/batcheller_haystacks_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/batcheller_haystacks_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Frederick Stone Batcheller - Haystacks with Pumpkins - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/batcheller_haystacks_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/batcheller_haystacks_grid.jpg",
   "mediumResImageWidth": 1030,
   "mediumResImageHeight": 743,
   "metaDescription": "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",
   "title": "Haystacks with Pumpkins",
-  "galleryCropImage": "/cms-uploads/batcheller_haystacks_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/batcheller_haystacks_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/batcheller_haystacks_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/batcheller_haystacks_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

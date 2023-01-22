@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "David John Gue, American, 1836 - 1917, 19th century artist, 20th century artist, Shoreline Breakers, Oil on canvas, marine, marine artwork, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery ",
   "youtubeEmbedLink": "https://www.youtube.com/embed/Tdh00irmRts?rel=0",
-  "mediumResImage": "/cms-uploads/gue_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/gue_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "David John Gue - Shoreline Breakers Painting For Sale",
-  "gridImage": "/cms-uploads/gue_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/gue_grid.jpg",
   "mediumResImageWidth": 1441,
   "mediumResImageHeight": 1037,
   "metaDescription": "David John Gue was not the typical artist of the 19th Century—although he exhibited a keen artistic sense as a child, he did not become an artist.",
   "title": "Shoreline Breakers",
-  "galleryCropImage": "/cms-uploads/gue_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/gue_grid_gallery_crop.jpg",
   "categories": [
     "Marine"
   ],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/gue_large.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/gue_large.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

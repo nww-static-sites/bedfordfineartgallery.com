@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on board, 13.63 x 16.63 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/clark_sails_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/clark_sails_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/clark_sails_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/clark_sails_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/clark_sails_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/clark_sails_full.jpg",
    "highResImageHeight" : 3281,
    "highResImageWidth" : 3420,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/clark_sails_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/clark_sails_small.jpg",
    "mediumResImageHeight" : 861,
    "mediumResImageWidth" : 898,
    "metaDescription" : "C. Myron Clark was a Massachusetts mountain landscapist, who is known for his paintings of sailing ships, the best-known of which is of the USS Constitution. In 1906",

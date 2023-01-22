@@ -10,22 +10,22 @@
   "featured": true,
   "metaKeywords": "",
   "youtubeEmbedLink": "https://www.youtube.com/embed/znaeB4HIxaI?rel=0",
-  "mediumResImage": "/cms-uploads/de_breanski_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/de_breanski_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Alfred De Breanski, Sr. - Swans on the Thames Painting",
-  "gridImage": "/cms-uploads/de_breanski_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/de_breanski_grid.jpg",
   "mediumResImageWidth": 992,
   "mediumResImageHeight": 720,
   "metaDescription": "Alfred De Breanski was born in London, England and is best today known for his paintings of the rugged Welsh mountains and the isolated Scottish lochs.",
   "scrollingHomepageImage": true,
   "title": "Swans on the Thames",
-  "galleryCropImage": "/cms-uploads/de_breanski_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/de_breanski_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/de_breanski_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/de_breanski_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

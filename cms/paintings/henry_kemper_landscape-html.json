@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/kemper_small2.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/kemper_small2.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Henry W. Kemper Painting - Landscape - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/henry_kemper_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/henry_kemper_grid.jpg",
   "mediumResImageWidth": 1633,
   "mediumResImageHeight": 1218,
   "metaDescription": "Little is known of Kemper's background or art training; however, he is known primarily for his landscapes typically depicting river valley settings. He had made at",
   "title": "Landscape",
-  "galleryCropImage": "/cms-uploads/henry_kemper_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/henry_kemper_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/kemper_original2.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/kemper_original2.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

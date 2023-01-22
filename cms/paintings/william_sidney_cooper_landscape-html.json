@@ -10,22 +10,22 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "https://www.youtube.com/embed/e1Q_gbR6X0c?rel=0",
-  "mediumResImage": "/cms-uploads/sidney_cooper_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/sidney_cooper_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "William Sidney Cooper Painting - Landscape with Sheep - 19th Century British Fine Art",
-  "gridImage": "/cms-uploads/sidney_cooper_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/sidney_cooper_grid.jpg",
   "mediumResImageWidth": 1588,
   "mediumResImageHeight": 1109,
   "metaDescription": "William Sidney Cooper studied with his great-uncle Thomas Sidney Cooper at his School of Art in Canterbury (now he University College for the Creative Arts at Canter",
   "title": "Landscape with Sheep",
-  "galleryCropImage": "/cms-uploads/sidney_cooper_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/sidney_cooper_grid_gallery_crop.jpg",
   "categories": [
     "Landscape",
     "Animal"
   ],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/sidney_cooper_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/sidney_cooper_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

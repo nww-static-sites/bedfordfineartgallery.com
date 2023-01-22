@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on canvas, 11.63 x 15.38 inches/Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/ryder_coast_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/ryder_coast_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ryder_coast_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ryder_coast_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/ryder_coast_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ryder_coast_full.jpg",
    "highResImageHeight" : 2547,
    "highResImageWidth" : 3178,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/ryder_coast_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ryder_coast_small.jpg",
    "mediumResImageHeight" : 816,
    "mediumResImageWidth" : 1017,
    "metaDescription" : "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",

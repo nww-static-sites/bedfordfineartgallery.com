@@ -10,22 +10,22 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/the_prize_in_sight_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/the_prize_in_sight_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Fletcher Charles Ransom - The Prize in Sight Painting",
-  "gridImage": "/cms-uploads/pis_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/pis_grid.jpg",
   "mediumResImageWidth": 1195,
   "mediumResImageHeight": 1470,
   "metaDescription": "Ransom was born at Alamo, Michigan, the son of Kalamazoo pioneers. He studied at the School of the Art Institute of Chicago and later at the New York Academy of Art",
   "scrollingHomepageImage": true,
   "title": "The Prize in Sight",
-  "galleryCropImage": "/cms-uploads/pis_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/pis_grid_gallery_crop.jpg",
   "categories": [
     "Sporting Art"
   ],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/the_prize_in_sight_original.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/the_prize_in_sight_original.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

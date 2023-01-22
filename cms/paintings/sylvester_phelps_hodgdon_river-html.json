@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on Canvas, 13.5 x 19.75 inches / Signed lower center",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/img_0389-sm_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/img_0389-sm.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0389-sm_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0389-sm.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/img_0389.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0389.jpg",
    "highResImageHeight" : 2356,
    "highResImageWidth" : 3068,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/img_0389-m.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0389-m.jpg",
    "mediumResImageHeight" : 1191,
    "mediumResImageWidth" : 1551,
    "metaDescription" : "Hodgdon was born in Salem, Massachusetts on Christmas Day 1830, the son of a wealthy Salem currier. His formal art training was with Salem portrait painter, Edward H",

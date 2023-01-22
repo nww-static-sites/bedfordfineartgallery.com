@@ -4,11 +4,11 @@
    "categories" : [],
    "dimensions" : "Oil on  canvas, 9 x 22 inches / Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/6313_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/6313_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/6313_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/6313_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/img_6313_original.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_6313_original.jpg",
    "highResImageHeight" : 2313,
    "highResImageWidth" : 1146,
    "highlights" : [
@@ -25,7 +25,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/img_6313_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_6313_small.jpg",
    "mediumResImageHeight" : 1314,
    "mediumResImageWidth" : 651,
    "metaDescription" : "Exene Reed Meyersham was born in Northville, Michigan, but she is more closely associated with Rhode Island and Massachusettsas an artist. She studied at the Rhode I",

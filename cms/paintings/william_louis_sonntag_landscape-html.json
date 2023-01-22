@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on canvas, 26.5 x 39 inches / Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/23_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/23_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/23_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/23_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/ls_original.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ls_original.jpg",
    "highResImageHeight" : 1591,
    "highResImageWidth" : 2169,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/ls_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ls_small.jpg",
    "mediumResImageHeight" : 902,
    "mediumResImageWidth" : 1229,
    "metaDescription" : "Considered one of the major Hudson River School artists, Sonntag was born in the East Liberty section of Pittsburgh, PA. Despite his parent's objections, he left P",

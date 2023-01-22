@@ -4,10 +4,10 @@
    "categories" : [],
    "dimensions" : "Oil on board canvas, 23 x 38 inches/Signed lower left",
    "featured" : false,
-   "gridImage" : "/cms-uploads/cohen_path_grid.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cohen_path_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/cohen_path_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cohen_path_full.jpg",
    "highResImageHeight" : 2775,
    "highResImageWidth" : 4201,
    "highlights" : [
@@ -24,7 +24,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/cohen_path_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cohen_path_small.jpg",
    "mediumResImageHeight" : 873,
    "mediumResImageWidth" : 1322,
    "metaDescription" : "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",

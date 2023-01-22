@@ -10,22 +10,22 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "https://www.youtube.com/embed/K8IRw_Ib6Bk?rel=0",
-  "mediumResImage": "/cms-uploads/img_4481_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4481_small.jpg",
   "gridImageWidth": 392,
   "status": "Sold",
   "metaTitle": "Paul Gorka Painting - Contemplation - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/img_4481_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4481_grid.jpg",
   "mediumResImageWidth": 1292,
   "mediumResImageHeight": 790,
   "metaDescription": "Paul Gorka was born in Nanticoke, Pennsylvania, the heart of the anthracite coal region. Having an artistic bent that deviated from academic pursuits considered \"n",
   "title": "Contemplation",
-  "galleryCropImage": "/cms-uploads/img_4481_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4481_grid_gallery_crop.jpg",
   "categories": [
     "Landscape",
     "Genre"
   ],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/img_4481_original.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4481_original.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/marple_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/marple_small.jpg",
   "gridImageWidth": 392,
   "status": "Hold",
   "metaTitle": "William Lewis Marple Painting - Reflections on the Lake - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/marple_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/marple_grid.jpg",
   "mediumResImageWidth": 1520,
   "mediumResImageHeight": 1107,
   "metaDescription": "Self-taught landscape painter Lewis Marple was born in New York City in 1827.  In 1867 his paintings were among those sold along with works by well-known California",
   "title": "Reflections on the Lake",
-  "galleryCropImage": "/cms-uploads/marple_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/marple_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/marple_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/marple_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

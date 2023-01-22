@@ -10,23 +10,23 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/weber_sheep_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/weber_sheep_small.jpg",
   "gridImageWidth": 392,
   "status": "New",
   "metaTitle": "Carl Philipp Weber - Sheep on a Rocky Coastal Path - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/weber_sheep_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/weber_sheep_grid.jpg",
   "mediumResImageWidth": 1254,
   "mediumResImageHeight": 876,
   "metaDescription": "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",
   "scrollingHomepageImage": true,
   "title": "Sheep on a Rocky Coastal Path",
-  "galleryCropImage": "/cms-uploads/weber_sheep_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/weber_sheep_grid_gallery_crop.jpg",
   "categories": [
     "Landscape",
     "Animal"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/weber_sheep_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/weber_sheep_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

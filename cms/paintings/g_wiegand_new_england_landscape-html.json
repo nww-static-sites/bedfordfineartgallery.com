@@ -6,17 +6,17 @@
   "slug": "g_wiegand_new_england_landscape-html",
   "dimensions": "Oil on canvas, 15.75 x 19.5 inches/Signed lower right",
   "featured": false,
-  "mediumResImage": "/cms-uploads/wiegand-img_1290-2-full-sm-cr-fr.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiegand-img_1290-2-full-sm-cr-fr.jpg",
   "status": "New",
   "metaTitle": "Gustave Wiegand - A New England Landscape with Pond for sale",
-  "gridImage": "/cms-uploads/wiegand-img_1290-2-crop-zoom.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiegand-img_1290-2-crop-zoom.jpg",
   "scrollingHomepageImage": false,
   "title": "A New England Landscape with Pond",
-  "galleryCropImage": "/cms-uploads/wiegand-img_1290-2-gall-full-cr.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiegand-img_1290-2-gall-full-cr.jpg",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "/cms-uploads/wiegand-img_1290-2-full-lrg-cr-fr.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiegand-img_1290-2-full-lrg-cr-fr.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

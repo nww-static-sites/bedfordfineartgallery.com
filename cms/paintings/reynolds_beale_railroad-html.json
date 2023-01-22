@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Crayon on Paper, 12 x 15.25 inches / Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/img_0393-sm_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/img_0393-sm.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0393-sm_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0393-sm.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/img_0393.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0393.jpg",
    "highResImageHeight" : 2286,
    "highResImageWidth" : 2673,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/img_0393-m.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0393-m.jpg",
    "mediumResImageHeight" : 1187,
    "mediumResImageWidth" : 1388,
    "metaDescription" : "Reynolds Beal (American Painter 1866 - 1951) Poughkeepsie Railroad Bridge Crayon On Paper Art For Sale - 12 X 15.25 Inches - Signed On The Lower Left.",

@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/elten_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/elten_small.jpg",
   "gridImageWidth": 392,
   "status": "Hold",
   "metaTitle": "Hendrik-Dirk Kruseman Van Elten - Spring Steam Painting",
-  "gridImage": "/cms-uploads/elten_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/elten_grid.jpg",
   "mediumResImageWidth": 1129,
   "mediumResImageHeight": 1342,
   "metaDescription": "Van Elten was born in Alkmaar, Holland and studied painting in Haarlem under landscape painter Cornelis Lieste. During his studies with Lieste, Van Elten with Jan de",
   "title": "Spring Stream",
-  "galleryCropImage": "/cms-uploads/elten_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/elten_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/elten_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/elten_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

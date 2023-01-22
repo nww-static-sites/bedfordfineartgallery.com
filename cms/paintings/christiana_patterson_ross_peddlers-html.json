@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Watercolor, 21 x 29.5 inches / Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/img_4191_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/img_4191_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4191_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4191_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/img_4191_original.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4191_original.jpg",
    "highResImageHeight" : 1581,
    "highResImageWidth" : 2048,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/img_4191_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4191_small.jpg",
    "mediumResImageHeight" : 903,
    "mediumResImageWidth" : 1170,
    "metaDescription" : "Christiana Ross was a well-known watercolour landscape and figure painter. She was a member of the Royal Scottish Watercolorists. Ross was a prolific exhibitor, exhi",

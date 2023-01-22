@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/poole_sheep_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/poole_sheep_small.jpg",
   "gridImageWidth": 392,
   "status": "Sold",
   "metaTitle": "Eugene Alonzo Poole - Autumn Landscape with Sheep - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/poole_sheep_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/poole_sheep_grid.jpg",
   "mediumResImageWidth": 1221,
   "mediumResImageHeight": 971,
   "metaDescription": "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",
   "title": "Autumn Landscape with Sheep",
-  "galleryCropImage": "/cms-uploads/poole_sheep_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/poole_sheep_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/poole_sheep_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/poole_sheep_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

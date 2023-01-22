@@ -8,18 +8,18 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/frost_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/frost_small.jpg",
   "gridImageWidth": 392,
   "status": "Sold",
   "metaTitle": "George Albert Frost Painting - White Mountain Stream - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/frost_grid1.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/frost_grid1.jpg",
   "mediumResImageWidth": 910,
   "mediumResImageHeight": 1087,
   "metaDescription": "Frost was born in Boston, Massachusetts, and in the early1850s left school to work on a farm. The Civil War intervened and Frost served two years, and some have said",
   "title": "White Mountain Stream",
   "categories": [],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/frost_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/frost_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

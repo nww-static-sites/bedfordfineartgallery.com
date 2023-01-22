@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/heitmuller_meadow_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/heitmuller_meadow_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Louis Heitmuller - Hillside Meadow - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/heitmuller_meadow_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/heitmuller_meadow_grid.jpg",
   "mediumResImageWidth": 1037,
   "mediumResImageHeight": 730,
   "metaDescription": "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",
   "title": "Hillside Meadow",
-  "galleryCropImage": "/cms-uploads/heitmuller_meadow_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/heitmuller_meadow_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/heitmuller_meadow_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/heitmuller_meadow_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

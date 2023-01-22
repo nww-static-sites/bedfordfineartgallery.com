@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on canvas, 19.25 x 23.25 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/cook_rockport_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/cook_rockport_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cook_rockport_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cook_rockport_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/cook_rockport_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cook_rockport_full.jpg",
    "highResImageHeight" : 2717,
    "highResImageWidth" : 3183,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/cook_rockport_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cook_rockport_small.jpg",
    "mediumResImageHeight" : 1087,
    "mediumResImageWidth" : 1274,
    "metaDescription" : "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",

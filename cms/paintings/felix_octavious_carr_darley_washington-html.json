@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Sepia and ink wash, 10 x 14.25 inches / Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/darley_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/darley_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/darley_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/darley_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/darley.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/darley.jpg",
    "highResImageHeight" : 2304,
    "highResImageWidth" : 2841,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/darley_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/darley_small.jpg",
    "mediumResImageHeight" : 1115,
    "mediumResImageWidth" : 1375,
    "metaDescription" : "Felix Octavius Carr Darley was a self-taught artist, who had a meteoric rise to become America's first and finest illustrators. Darley was born in Philadelphia, Pe",

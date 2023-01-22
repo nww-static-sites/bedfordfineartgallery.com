@@ -10,19 +10,19 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "https://www.youtube.com/embed/NwaYFajwCZc?rel=0",
-  "mediumResImage": "/cms-uploads/img_4379_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4379_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Paul de Longpre Painting - Victorian Roses, 1902 - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/img_4379_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4379_grid.jpg",
   "mediumResImageWidth": 1097,
   "mediumResImageHeight": 1285,
   "metaDescription": "Paul De Longpre was born to an aristocratic family in Lyons, France, which was the center of the French textile design industry and home to many flower painters. He",
   "title": "Victorian Roses, 1902",
-  "galleryCropImage": "/cms-uploads/img_4379_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4379_grid_gallery_crop.jpg",
   "categories": [],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/img_4379_original.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4379_original.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

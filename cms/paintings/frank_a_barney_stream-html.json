@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on canvas, 19.5 x 27.25 inches/Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/barney_stream_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/barney_stream_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barney_stream_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barney_stream_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/barney_stream_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barney_stream_full.jpg",
    "highResImageHeight" : 2726,
    "highResImageWidth" : 3608,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/barney_stream_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barney_stream_small.jpg",
    "mediumResImageHeight" : 1091,
    "mediumResImageWidth" : 1444,
    "metaDescription" : "Frank A. Barney (American, 1862 - 1954) - Stream In Landscape Painting For Sale - Oil On Canvas Painting - 19.5 X 27.25 Inches - Signed On Lower Left.",

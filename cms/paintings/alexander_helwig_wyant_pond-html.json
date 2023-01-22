@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/wyant_pond_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wyant_pond_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Alexander Helwig Wyant - Farm Pond at Sunset Painting",
-  "gridImage": "/cms-uploads/wyant_pond_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wyant_pond_grid.jpg",
   "mediumResImageWidth": 1010,
   "mediumResImageHeight": 795,
   "metaDescription": "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",
   "title": "Farm Pond at Sunset",
-  "galleryCropImage": "/cms-uploads/wyant_pond_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wyant_pond_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/wyant_pond.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wyant_pond.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

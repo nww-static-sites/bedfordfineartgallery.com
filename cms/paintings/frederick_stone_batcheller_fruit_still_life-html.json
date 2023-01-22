@@ -10,22 +10,22 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/batcheller_fruit_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/batcheller_fruit_small.jpg",
   "gridImageWidth": 392,
   "status": "New",
   "metaTitle": "Frederick Stone Batcheller - Fruit Still Life Painting",
-  "gridImage": "/cms-uploads/batcheller_fruit_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/batcheller_fruit_grid.jpg",
   "mediumResImageWidth": 1016,
   "mediumResImageHeight": 773,
   "metaDescription": "Frederick Stone Batcheller (American Painter 1837-1889) Still-life With Fruit And Compote Oil On Canvas Painting For Sale. 23.75 X 29.25 In. Signed Lower Left.",
   "scrollingHomepageImage": true,
   "title": "Fruit Still Life",
-  "galleryCropImage": "/cms-uploads/batcheller_fruit_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/batcheller_fruit_grid_gallery_crop.jpg",
   "categories": [
     "Still Life"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/batcheller_fruit_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/batcheller_fruit_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

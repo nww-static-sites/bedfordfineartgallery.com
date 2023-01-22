@@ -4,10 +4,10 @@
    "categories" : [],
    "dimensions" : "Oil on canvas, 18 x 20 inches/Signed lower right",
    "featured" : false,
-   "gridImage" : "/cms-uploads/img_0232-sm.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0232-sm.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/img_0232.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0232.jpg",
    "highResImageHeight" : 2692,
    "highResImageWidth" : 3180,
    "highlights" : [
@@ -24,7 +24,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/img_0232-m.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0232-m.jpg",
    "mediumResImageHeight" : 1154,
    "mediumResImageWidth" : 1364,
    "metaDescription" : "Impressionist painter Edward Volkert was born was born in Cincinnati, Ohio. Volkert studied at the Art Academy of Cincinnati under Frank Duveneck and later at the Ar",

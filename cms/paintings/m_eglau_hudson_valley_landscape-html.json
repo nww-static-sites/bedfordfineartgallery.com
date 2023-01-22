@@ -6,17 +6,17 @@
   "slug": "m_eglau_hudson_valley_landscape-html",
   "dimensions": "Oil on panel, 4.75 x 8.25 inches",
   "featured": false,
-  "mediumResImage": "/cms-uploads/eglau-img_1519-sm-cr-fr.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/eglau-img_1519-sm-cr-fr.jpg",
   "status": "New",
   "metaTitle": "Max Eglau - Hudson Valley Sunset painting for sale",
-  "gridImage": "/cms-uploads/eglau-img_1519-zoom-cr.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/eglau-img_1519-zoom-cr.jpg",
   "scrollingHomepageImage": false,
   "title": "Hudson Valley Sunset",
-  "galleryCropImage": "/cms-uploads/eglau-img_1519-gall-full-cr.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/eglau-img_1519-gall-full-cr.jpg",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "/cms-uploads/eglau-img_1519-lrg-cr-fr.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/eglau-img_1519-lrg-cr-fr.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

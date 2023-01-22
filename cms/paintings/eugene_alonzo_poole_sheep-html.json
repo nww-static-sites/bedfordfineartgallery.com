@@ -7,11 +7,11 @@
    ],
    "dimensions" : "Oil on canvas, 22 x 36 inches / signed lower left E. A. Poole",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/e_a_poole_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/e_a_poole_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/e_a_poole_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/e_a_poole_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/e_a_poole_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/e_a_poole_full.jpg",
    "highResImageHeight" : 1949,
    "highResImageWidth" : 2779,
    "highlights" : [
@@ -28,7 +28,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/e_a_poole_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/e_a_poole_small.jpg",
    "mediumResImageHeight" : 977,
    "mediumResImageWidth" : 1394,
    "metaDescription" : "Eugene Poole was southwestern Pennsylvania landscape painter—one of the Scalp Level artists who painted alongside George Hetzel, founder of the Scalp Level Movemen",

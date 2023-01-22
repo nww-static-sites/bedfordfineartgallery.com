@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Water Color, 22.5 x 16.5 inches inside matte/Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/strueber_grid1_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/strueber_grid1.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber_grid1_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber_grid1.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/strueber_full5.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber_full5.jpg",
    "highResImageHeight" : 3156,
    "highResImageWidth" : 2550,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/strueber_small5.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber_small5.jpg",
    "mediumResImageHeight" : 1668,
    "mediumResImageWidth" : 1348,
    "metaDescription" : "Born in Pittsburgh, Pennsylvania, Strueber is an accomplished watercolorist and plein air painter. Strueber regards his approach to watercolor painting as spirituall",

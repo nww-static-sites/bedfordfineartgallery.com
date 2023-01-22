@@ -7,11 +7,11 @@
    ],
    "dimensions" : "Oil on canvas, 19.5 x 29.5 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/laux_path_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/laux_path_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/laux_path_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/laux_path_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/laux_path_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/laux_path_full.jpg",
    "highResImageHeight" : 2029,
    "highResImageWidth" : 2724,
    "highlights" : [
@@ -28,7 +28,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/laux_path_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/laux_path_small.jpg",
    "mediumResImageHeight" : 1010,
    "mediumResImageWidth" : 1356,
    "metaDescription" : "Laux is primarily known for his exquisitely rendered tromp l'oeil still-lifes and genre scenes. Born in the Rhineland, Germany, he came to the United States with h",

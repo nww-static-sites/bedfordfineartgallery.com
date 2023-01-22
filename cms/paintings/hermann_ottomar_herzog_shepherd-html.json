@@ -10,22 +10,22 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/herzog_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/herzog_small.jpg",
   "gridImageWidth": 392,
   "status": "Hold",
   "metaTitle": "Hermann Ottomar Herzog - Shepherd Under a Dark Sky Painting",
-  "gridImage": "/cms-uploads/herzog_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/herzog_grid.jpg",
   "mediumResImageWidth": 951,
   "mediumResImageHeight": 1116,
   "metaDescription": "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",
   "scrollingHomepageImage": true,
   "title": "Shepherd Under a Dark Sky",
-  "galleryCropImage": "/cms-uploads/herzog_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/herzog_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/herzog_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/herzog_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

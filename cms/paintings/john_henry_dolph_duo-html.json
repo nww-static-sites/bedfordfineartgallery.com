@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/ord_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ord_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "John Henry Dolph Painting - Ornery Duo - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/grid_duo.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/grid_duo.jpg",
   "mediumResImageWidth": 1582,
   "mediumResImageHeight": 1252,
   "metaDescription": "Dolph was a versatile and talented artist who became the foremost \"cat-painter\" in America. He left home (Fort Ann, New York) at a young age, after the death of",
   "title": "Ornery Duo",
-  "galleryCropImage": "/cms-uploads/grid_duo_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/grid_duo_gallery_crop.jpg",
   "categories": [
     "Animal"
   ],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/ord.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ord.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

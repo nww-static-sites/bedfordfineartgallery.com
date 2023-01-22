@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/bott_path_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bott_path_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Emil von Bott - Man on Path to the Lake, 1852 - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/bott_path_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bott_path_grid.jpg",
   "mediumResImageWidth": 1120,
   "mediumResImageHeight": 848,
   "metaDescription": "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",
   "title": "Man on Path to the Lake, 1852",
-  "galleryCropImage": "/cms-uploads/bott_path_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bott_path_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/bott_path_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bott_path_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on canvas, 17.25 x 22 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/rice_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/rice_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rice_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rice_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/rice_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rice_full.jpg",
    "highResImageHeight" : 2604,
    "highResImageWidth" : 3184,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/rice_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rice_small.jpg",
    "mediumResImageHeight" : 964,
    "mediumResImageWidth" : 1179,
    "metaDescription" : "Contemporary sculptor Bill Rice has a deep love for America's landscape and its wildlife. Rice keeps an aviary at his home in Connecticut and takes field trips to",

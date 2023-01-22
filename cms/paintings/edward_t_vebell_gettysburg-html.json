@@ -4,11 +4,11 @@
    "categories" : [],
    "dimensions" : "Watercolor and gouache, 13 x 22 inches / Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/img_4347_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/img_4347_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4347_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4347_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/img_4347_original.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4347_original.jpg",
    "highResImageHeight" : 1643,
    "highResImageWidth" : 2025,
    "highlights" : [
@@ -25,7 +25,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/img_4347_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4347_small.jpg",
    "mediumResImageHeight" : 973,
    "mediumResImageWidth" : 1199,
    "metaDescription" : "Edward Vebell grew up in Chicago during the depression and spent hours copying cartoons from the Chicago Tribune. While attending a private Catholic school, the nuns",

@@ -7,11 +7,11 @@
    ],
    "dimensions" : "OOB, 11.25 x 17.25 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/zuckerman_pheasants_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/zuckerman_pheasants_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/zuckerman_pheasants_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/zuckerman_pheasants_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/zuckerman_pheasants_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/zuckerman_pheasants_full.jpg",
    "highResImageHeight" : 2683,
    "highResImageWidth" : 3694,
    "highlights" : [
@@ -28,7 +28,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/zuckerman_pheasants_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/zuckerman_pheasants_small.jpg",
    "mediumResImageHeight" : 704,
    "mediumResImageWidth" : 970,
    "metaDescription" : "Connecticut artist, Scott Zuckerman studied at the Pratt Institute of Art (Brooklyn, NYC) and the Art Students League (Manhattan, NYC). He believes that \"the zenit",

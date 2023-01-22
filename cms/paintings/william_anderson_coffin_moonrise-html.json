@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "https://www.youtube.com/embed/WB8HUev2uCw",
-  "mediumResImage": "/cms-uploads/coffin_small2.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/coffin_small2.jpg",
   "gridImageWidth": 392,
   "status": "Sold",
   "metaTitle": "William Anderson Coffin Painting - Moonrise in May - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/coffin_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/coffin_grid.jpg",
   "mediumResImageWidth": 1215,
   "mediumResImageHeight": 1425,
   "metaDescription": "Coffin was born in Allegheny City, PA (now the North Side of Pittsburgh). He received his art training at Yale University graduating in 1874. As was common for many",
   "title": "Moonrise in May",
-  "galleryCropImage": "/cms-uploads/coffin_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/coffin_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/coffin_full2.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/coffin_full2.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

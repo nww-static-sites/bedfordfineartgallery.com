@@ -7,11 +7,11 @@
    ],
    "dimensions" : "Oil on board, 12.5 x 17.75 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/corbin_geese_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/corbin_geese_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/corbin_geese_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/corbin_geese_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/corbin_geese_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/corbin_geese_full.jpg",
    "highResImageHeight" : 2132,
    "highResImageWidth" : 2770,
    "highlights" : [
@@ -28,7 +28,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/corbin_geese_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/corbin_geese_small.jpg",
    "mediumResImageHeight" : 853,
    "mediumResImageWidth" : 1108,
    "metaDescription" : "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",

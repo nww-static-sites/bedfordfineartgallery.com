@@ -5,15 +5,15 @@
   "slug": "g_hetzel_wildlife-html",
   "dimensions": "Oil on Canvas, 39.25 x 29.25 inches/Signed lower middle",
   "featured": false,
-  "mediumResImage": "/cms-uploads/hetzel-wild-game-stilllifeimg_1476-sm-cr-fr.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hetzel-wild-game-stilllifeimg_1476-sm-cr-fr.jpg",
   "status": "Sold",
   "metaTitle": "George Hetzel - Wild Game Stilll-life for sale",
-  "gridImage": "/cms-uploads/hetzel-wild-game-stilllifeimg_1476-zoom-cr.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hetzel-wild-game-stilllifeimg_1476-zoom-cr.jpg",
   "metaDescription": "Hetzel quickly established himself as one of Pittsburgh’s leading artists. His early paintings reflect his Dusseldorf training--the use of chiaroscuro and the realism for which the Academy was known.",
   "scrollingHomepageImage": false,
   "title": "Wild Game Still-life",
-  "galleryCropImage": "/cms-uploads/hetzel-wild-game-stilllife-img_1476-gall-full-cr.jpg",
-  "highResImage": "/cms-uploads/hetzel-wild-game-stilllife-img_1476-lrg-cr-fr.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hetzel-wild-game-stilllife-img_1476-gall-full-cr.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hetzel-wild-game-stilllife-img_1476-lrg-cr-fr.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

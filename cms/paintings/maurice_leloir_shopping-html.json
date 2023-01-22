@@ -10,22 +10,22 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/img_4199_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4199_small.jpg",
   "gridImageWidth": 392,
   "status": "Sold",
   "metaTitle": "Maurice Leloir Painting - Shopping for Eggs - 19th Century French Fine Art",
-  "gridImage": "/cms-uploads/img_4199_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4199_grid.jpg",
   "mediumResImageWidth": 975,
   "mediumResImageHeight": 1204,
   "metaDescription": "Maurice Leloir is considered a historical painter, watercolorist, engraver, illustrator and film producer. As an illustrator, he illustrated works by philosopher Jea",
   "scrollingHomepageImage": false,
   "title": "Shopping for Eggs",
-  "galleryCropImage": "/cms-uploads/img_4199_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4199_grid_gallery_crop.jpg",
   "categories": [
     "Genre"
   ],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/img_4199_original.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4199_original.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

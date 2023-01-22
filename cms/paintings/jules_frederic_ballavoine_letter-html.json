@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "https://www.youtube.com/embed/yV8lWlnhZs8?rel=0",
-  "mediumResImage": "/cms-uploads/ballavoine_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ballavoine_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Jules Frederic Ballavoine Penning a Love Letter Painting",
-  "gridImage": "/cms-uploads/ballavoine_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ballavoine_grid.jpg",
   "mediumResImageWidth": 1245,
   "mediumResImageHeight": 1407,
   "metaDescription": "Ballavoine was born in Paris and was to become a highly recognized Parisian illustrator and painter. He received some notoriety during the early decades.",
   "title": "Penning a Love Letter",
-  "galleryCropImage": "/cms-uploads/ballavoine_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ballavoine_grid_gallery_crop.jpg",
   "categories": [
     "Genre"
   ],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/ballavoine_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ballavoine_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

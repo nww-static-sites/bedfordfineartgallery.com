@@ -7,11 +7,11 @@
    ],
    "dimensions" : "Gouache, 13.5 x 18.5 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/img_0286-sm_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/img_0286-sm.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0286-sm_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0286-sm.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/img_0286.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0286.jpg",
    "highResImageHeight" : 3189,
    "highResImageWidth" : 2616,
    "highlights" : [
@@ -28,7 +28,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/img_0286-m.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0286-m.jpg",
    "mediumResImageHeight" : 1368,
    "mediumResImageWidth" : 1122,
    "metaDescription" : "Contemporary artist John Strain was born in Nashville, Tennessee and currently resides in Benbrook, Texas. Strain specializes in authentic depictions of the American",

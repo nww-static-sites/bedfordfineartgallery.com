@@ -10,22 +10,22 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/pease_small2.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/pease_small2.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Robert Pease Painting - Norther Nomad - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/pease_grid_2.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/pease_grid_2.jpg",
   "mediumResImageWidth": 1397,
   "mediumResImageHeight": 1013,
   "metaDescription": "Pease was born in Boston, Massachusetts in 1925 and from his childhood he loved being outdoors and observing nature. His knowledge of the animals he paints, his eye",
   "title": "Northern Nomad",
-  "galleryCropImage": "/cms-uploads/pease_grid_2_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/pease_grid_2_gallery_crop.jpg",
   "categories": [
     "Sporting Art",
     "Animal"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/pease_full2.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/pease_full2.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

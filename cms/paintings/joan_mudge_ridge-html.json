@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on board, 9 x 7 inches/Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/mudge_ridge_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/mudge_ridge_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/mudge_ridge_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/mudge_ridge_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/mudge_ridge_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/mudge_ridge_full.jpg",
    "highResImageHeight" : 2991,
    "highResImageWidth" : 2547,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/mudge_ridge_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/mudge_ridge_small.jpg",
    "mediumResImageHeight" : 1317,
    "mediumResImageWidth" : 1121,
    "metaDescription" : "Contemporary artist Joan Mudge has always enjoyed art, both the act of creating art and studying art history.  Watching the light hit the trees before a storm, or no",

@@ -10,22 +10,22 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/donaghy_woodsman_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/donaghy_woodsman_small.jpg",
   "gridImageWidth": 392,
   "status": "Sold",
   "metaTitle": "John Donaghy - The Woodsman - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/donaghy_woodsman_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/donaghy_woodsman_grid.jpg",
   "mediumResImageWidth": 968,
   "mediumResImageHeight": 1159,
   "metaDescription": "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",
   "title": "The Woodsman",
-  "galleryCropImage": "/cms-uploads/donaghy_woodsman_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/donaghy_woodsman_grid_gallery_crop.jpg",
   "categories": [
     "Landscape",
     "Genre"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/donaghy_woodsman_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/donaghy_woodsman_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

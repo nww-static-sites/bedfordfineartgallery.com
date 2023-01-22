@@ -8,11 +8,11 @@
    ],
    "dimensions" : "Oil on canvas, 24.75 x 34 inches / Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/sc_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/sc_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/sc_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/sc_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/steeplechase_original_2.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/steeplechase_original_2.jpg",
    "highResImageHeight" : 1435,
    "highResImageWidth" : 1900,
    "highlights" : [
@@ -29,7 +29,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/steeplechase_small_2.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/steeplechase_small_2.jpg",
    "mediumResImageHeight" : 839,
    "mediumResImageWidth" : 1111,
    "metaDescription" : "Owen, a noted Impressionist landscapist, was born in North Adams, Massachusetts. He studied at the Eric Pape Art School (Boston), Art Students League of New York, Na",

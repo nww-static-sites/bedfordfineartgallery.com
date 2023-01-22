@@ -10,21 +10,21 @@
   "featured": true,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/img_0164-m.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0164-m.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "John Paul Strain - Flag Day - Central Park South Painting",
-  "gridImage": "/cms-uploads/img_0164-sm.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0164-sm.jpg",
   "mediumResImageWidth": 1130,
   "mediumResImageHeight": 1525,
   "metaDescription": "Contemporary artist John Strain was born in Nashville, TN and currently resides in Benbrook, TX. Strain specializes in authentic depictions of the American West",
   "title": "FLAG DAY - CENTRAL PARK SOUTH",
-  "galleryCropImage": "/cms-uploads/img_0164-sm_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0164-sm_gallery_crop.jpg",
   "categories": [
     "American Historic / Political"
   ],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/img_0164.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0164.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

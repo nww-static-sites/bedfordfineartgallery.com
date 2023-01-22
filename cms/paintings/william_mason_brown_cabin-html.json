@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/brown-cabin-retake-img_1481-sm-cr-fr.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/brown-cabin-retake-img_1481-sm-cr-fr.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "William Mason Brown - Landscape with Cabin - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/brown-cabin-retake-img_1481-zoom-cr.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/brown-cabin-retake-img_1481-zoom-cr.jpg",
   "mediumResImageWidth": 1298,
   "mediumResImageHeight": 960,
   "metaDescription": "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",
   "title": "Landscape with Cabin",
-  "galleryCropImage": "/cms-uploads/brown-cabin-retake-img_1481-gall-full-cr.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/brown-cabin-retake-img_1481-gall-full-cr.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/brown-cabin-retake-img_1481-lrg-cr-fr.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/brown-cabin-retake-img_1481-lrg-cr-fr.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

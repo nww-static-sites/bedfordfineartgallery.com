@@ -8,18 +8,18 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/kluth_fisherman_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/kluth_fisherman_small.jpg",
   "gridImageWidth": 392,
   "status": "Sold",
   "metaTitle": "Robert C. Kluth Painting - Young Fisherman - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/kluth_fisherman_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/kluth_fisherman_grid.jpg",
   "mediumResImageWidth": 1220,
   "mediumResImageHeight": 926,
   "metaDescription": "Kluth, known as a marine and landscape painter, was born in Macklenburg-Schwerin, Germany in 1854. In 1861 he immigrated to America with his parents, where he spent",
   "title": "Young Fisherman",
   "categories": [],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/kluth_fisherman_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/kluth_fisherman_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

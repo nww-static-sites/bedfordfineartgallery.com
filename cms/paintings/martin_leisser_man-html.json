@@ -10,19 +10,19 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/mwb_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/mwb_small.jpg",
   "gridImageWidth": 392,
   "status": "Sold",
   "metaTitle": "Martin Leisser Painting - Man with Bread - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/21_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/21_grid.jpg",
   "mediumResImageWidth": 1100,
   "mediumResImageHeight": 1370,
   "metaDescription": "Leisser was the noted Pittsburgh artist who convinced Pittsburgh Industrialist, Andrew Carnegie to add a School of Applied Design to the Carnegie School of Technolog",
   "title": "Man with Beard",
-  "galleryCropImage": "/cms-uploads/21_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/21_grid_gallery_crop.jpg",
   "categories": [],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/mwb_original.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/mwb_original.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

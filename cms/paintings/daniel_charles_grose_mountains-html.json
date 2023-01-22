@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on canvas, 7.5 x 11.5 inches/Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/grose_mountains_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/grose_mountains_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/grose_mountains_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/grose_mountains_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/grose_mountains_full2.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/grose_mountains_full2.jpg",
    "highResImageHeight" : 1880,
    "highResImageWidth" : 2532,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/grose_mountains_small2.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/grose_mountains_small2.jpg",
    "mediumResImageHeight" : 752,
    "mediumResImageWidth" : 1013,
    "metaDescription" : "Daniel Charles Grose - American Painter 1838-1900 - White Mountains – Island Pond Oil On Canvas Painting For Sale - 7.5 X 11.5 Inches - Signed On Lower Left.",

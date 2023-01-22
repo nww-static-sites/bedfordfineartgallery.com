@@ -4,11 +4,11 @@
    "categories" : [],
    "dimensions" : "Oil on canvas, 29.5 x 23.5 inches / Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/albert_francis_king_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/albert_francis_king_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/albert_francis_king_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/albert_francis_king_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/albert_francis_king.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/albert_francis_king.jpg",
    "highResImageHeight" : 2985,
    "highResImageWidth" : 2493,
    "highlights" : [
@@ -25,7 +25,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/albert_francis_king_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/albert_francis_king_small.jpg",
    "mediumResImageHeight" : 1580,
    "mediumResImageWidth" : 1319,
    "metaDescription" : "Albert Francis King was born in Pittsburgh, Pennsylvania and was recognized as Pittsburgh's primary still-life painter during the 19th century. King was largely self",

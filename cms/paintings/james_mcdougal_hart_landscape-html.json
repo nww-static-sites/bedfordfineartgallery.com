@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on canvas, 20.75 x 13.25 inches / Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/hart_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/hart_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hart_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hart_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/hart_original.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hart_original.jpg",
    "highResImageHeight" : 1943,
    "highResImageWidth" : 1389,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/hart_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hart_small.jpg",
    "mediumResImageHeight" : 1212,
    "mediumResImageWidth" : 866,
    "metaDescription" : "Hart was born in Kilmarnock, East Ayrshire, Scotland, but when he was two, his parents immigrated to Albany, New York. It is possible that his interest in art as a c",

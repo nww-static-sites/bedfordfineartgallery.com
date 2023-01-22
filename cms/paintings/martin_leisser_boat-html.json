@@ -10,22 +10,22 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/leisser_boats_small2.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/leisser_boats_small2.jpg",
   "gridImageWidth": 392,
   "status": "Sold",
   "metaTitle": "Martin Leisser - Pier with Sailboats at Sunrise - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/leisser_boats_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/leisser_boats_grid.jpg",
   "mediumResImageWidth": 1078,
   "mediumResImageHeight": 897,
   "metaDescription": "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",
   "title": "Pier with Sailboats at Sunrise",
-  "galleryCropImage": "/cms-uploads/leisser_boats_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/leisser_boats_grid_gallery_crop.jpg",
   "categories": [
     "Landscape",
     "Marine"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/leisser_boats_full2.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/leisser_boats_full2.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

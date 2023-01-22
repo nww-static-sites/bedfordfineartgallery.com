@@ -4,10 +4,10 @@
    "categories" : [],
    "dimensions" : "Oil on canvas, 16.63 x 20.63 inches/Signed lower right",
    "featured" : false,
-   "gridImage" : "/cms-uploads/moran_grid2.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/moran_grid2.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/moran_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/moran_full.jpg",
    "highResImageHeight" : 2777,
    "highResImageWidth" : 3296,
    "highlights" : [
@@ -24,7 +24,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/moran_small2.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/moran_small2.jpg",
    "mediumResImageHeight" : 1000,
    "mediumResImageWidth" : 1187,
    "metaDescription" : "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",

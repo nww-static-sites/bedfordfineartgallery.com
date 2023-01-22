@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/woodcock_hunting_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/woodcock_hunting_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "James Henry Beard - Woodcock Hunting Painting For Sale",
-  "gridImage": "/cms-uploads/wc2.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wc2.jpg",
   "mediumResImageWidth": 1154,
   "mediumResImageHeight": 743,
   "metaDescription": "Although James Henry Beard was largely self-taught, in 1827 he received his first art instruction in Painesville from noted itinerant artist, Jarvas Frary Hanks",
   "title": "Woodcock Hunting",
-  "galleryCropImage": "/cms-uploads/wc2_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wc2_gallery_crop.jpg",
   "categories": [
     "Sporting Art"
   ],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/woodcock_hunting_original.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/woodcock_hunting_original.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on board, 20.5 x 8.5 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/hill_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/hill_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hill_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hill_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/hill_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hill_full.jpg",
    "highResImageHeight" : 3402,
    "highResImageWidth" : 1746,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/hill_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hill_small.jpg",
    "mediumResImageHeight" : 1361,
    "mediumResImageWidth" : 699,
    "metaDescription" : "John William Hill - American 1812-1879 - Waterfall Oil On Board Paint For Sale - 20.5 X 8.5 Inches - Signed On Lower Right.",

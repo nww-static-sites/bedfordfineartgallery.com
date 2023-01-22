@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on canvas, 11.5 x 15.5 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/barney_trees_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/barney_trees_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barney_trees_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barney_trees_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/barney_trees_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barney_trees_full.jpg",
    "highResImageHeight" : 2583,
    "highResImageWidth" : 3348,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/barney_trees_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barney_trees_small.jpg",
    "mediumResImageHeight" : 848,
    "mediumResImageWidth" : 1099,
    "metaDescription" : "Frank A. Barney (American Painter, 1862 - 1954) Impression Of Fir Trees Oil On Canvas Painting For Sale, 11.5 X 15.5 Inches Signed On The Lower Right.",

@@ -31,7 +31,7 @@
                                 loading="lazy"
                                 class="art_detail"
                                 :alt="artistNameWithTinyDescription"
-                                :src="painting.mediumResImage"
+                                :src="mediumResImage"
                                 :width="painting.mediumResImageWidth"
                                 :height="painting.mediumResImageHeight"
                             />
@@ -217,7 +217,7 @@ export default {
 			return this.painting.status === 'Sold'
 		},
         artworkUrl() {
-            return `https://res.cloudinary.com/dg6smdedp/image/upload/${this.painting.highResImage}`
+            return this.painting.highResImage
         },
         showArtPlacer() {
             return this.painting.status !== 'Sold' && !this.painting.categories.includes('Sculpture')
@@ -231,6 +231,9 @@ export default {
         showHighlights() {
             return this.painting.highlights && this.painting.highlights.length > 0 && !this.sold
         },
+        mediumResImage() {
+            return this.painting.mediumResImage.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
+        }
     },
 }
 </script>

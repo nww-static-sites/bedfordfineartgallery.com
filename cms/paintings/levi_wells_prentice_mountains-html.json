@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "https://www.youtube.com/embed/J6YiLUHtpXg?rel=0",
-  "mediumResImage": "/cms-uploads/prentice_mountains_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/prentice_mountains_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Levi Prentice - Lake Placid, Adirondack Mountains Painting",
-  "gridImage": "/cms-uploads/prentice_mountains_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/prentice_mountains_grid.jpg",
   "mediumResImageWidth": 1313,
   "mediumResImageHeight": 993,
   "metaDescription": "Levi Wells Prentice Aka  L.W. Prentice (American 1851 - 1935) - Near Lake Placid, Adirondack Mountains, NY Oil On Canvas Painting For Sale.",
   "title": "Near Lake Placid, Adirondack Mountains, NY",
-  "galleryCropImage": "/cms-uploads/prentice_mountains_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/prentice_mountains_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/prentice_mountains_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/prentice_mountains_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

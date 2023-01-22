@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Charcoal on paper, 11 x 19 inches / Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/7_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/7_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/7_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/7_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/across_the_potomac_original.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/across_the_potomac_original.jpg",
    "highResImageHeight" : 1824,
    "highResImageWidth" : 2365,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/across_the_potomac_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/across_the_potomac_small.jpg",
    "mediumResImageHeight" : 1016,
    "mediumResImageWidth" : 1318,
    "metaDescription" : "John Ross Key was born in Hagerstown, Maryland, the son of U.S. Attorney for the District of Columbia and grandson of Francis Scott Key, who penned the lyrics to our",

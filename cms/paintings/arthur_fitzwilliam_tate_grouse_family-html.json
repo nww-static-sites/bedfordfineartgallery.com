@@ -10,22 +10,22 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/tait_grousse_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/tait_grousse_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Arthur Fitzwilliam Tait - Grouse Family Painting For Sale",
-  "gridImage": "/cms-uploads/tait_grousse_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/tait_grousse_grid.jpg",
   "mediumResImageWidth": 1338,
   "mediumResImageHeight": 1070,
   "metaDescription": "Aurthur Tait was born in Liverpool, England and later moved to Manchester. He taught himself to paint by copying art works at the Royal Manchester Institute.",
   "title": "Grouse Family",
-  "galleryCropImage": "/cms-uploads/tait_grousse_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/tait_grousse_grid_gallery_crop.jpg",
   "categories": [
     "Sporting Art",
     "Animal"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/tait_grousse_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/tait_grousse_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

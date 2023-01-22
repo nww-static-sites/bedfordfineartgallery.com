@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on board, 15.5 x 19.25 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/schwartz_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/schwartz_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/schwartz_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/schwartz_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/schwartz_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/schwartz_full.jpg",
    "highResImageHeight" : 2711,
    "highResImageWidth" : 3263,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/schwartz_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/schwartz_small.jpg",
    "mediumResImageHeight" : 1085,
    "mediumResImageWidth" : 1306,
    "metaDescription" : "Schwartz was born in Louisville, Kentucky.  Schwartz painted murals for the Baptist Church in South Londonderry, Vermont, which is his best known, and also the Court",

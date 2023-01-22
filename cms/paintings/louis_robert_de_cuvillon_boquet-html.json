@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/img_4395_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4395_small.jpg",
   "gridImageWidth": 392,
   "status": "Sold",
   "metaTitle": "Louis-Robert de Cuvillon Painting - Reclining Woman with Bouquet - 19th Century French Fine Art",
-  "gridImage": "/cms-uploads/img_4395_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4395_grid.jpg",
   "mediumResImageWidth": 1344,
   "mediumResImageHeight": 1038,
   "metaDescription": "Listed French artist Louis-Robert de Cuvillon's watercolors are very subtle and delicate. Many of his passionate works such as \"Woman with a Tambourine\", \"Wo",
   "title": "Reclining Woman with Bouquet",
-  "galleryCropImage": "/cms-uploads/img_4395_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4395_grid_gallery_crop.jpg",
   "categories": [
     "Genre"
   ],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/img_4395_original.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4395_original.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

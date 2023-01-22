@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Pastel, 19.25 x 15.5 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/wiedenbaum_grid3_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/wiedenbaum_grid3.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiedenbaum_grid3_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiedenbaum_grid3.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/wiedenbaum_full3.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiedenbaum_full3.jpg",
    "highResImageHeight" : 3120,
    "highResImageWidth" : 2277,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/wiedenbaum_small3.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiedenbaum_small3.jpg",
    "mediumResImageHeight" : 1248,
    "mediumResImageWidth" : 911,
    "metaDescription" : "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",

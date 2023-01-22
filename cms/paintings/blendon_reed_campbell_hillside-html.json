@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on board, 9.5 x 13.25 inches/Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/campbell_hillside_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/campbell_hillside_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/campbell_hillside_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/campbell_hillside_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/campbell_hillside_full2.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/campbell_hillside_full2.jpg",
    "highResImageHeight" : 2191,
    "highResImageWidth" : 2785,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/campbell_hillside_small2.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/campbell_hillside_small2.jpg",
    "mediumResImageHeight" : 833,
    "mediumResImageWidth" : 1059,
    "metaDescription" : "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",

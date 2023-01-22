@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil/canvas 30.25 x 36 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/busch_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/busch_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/busch_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/busch_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/busch_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/busch_full.jpg",
    "highResImageHeight" : 2325,
    "highResImageWidth" : 2766,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/busch_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/busch_small.jpg",
    "mediumResImageHeight" : 930,
    "mediumResImageWidth" : 1107,
    "metaDescription" : "Peter Johan Valdemar Busch (1861-1942) Path Through The Beech Trees Oil on Canvas Painting For Sale - 30.25 X 36 Inches - Signed On Lower Right.",

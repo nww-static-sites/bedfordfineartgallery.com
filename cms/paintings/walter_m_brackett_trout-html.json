@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on canvas, 11.75 x 19.5 inches / Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/trout_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/trout_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/trout_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/trout_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/trout_on_a_bank_original.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/trout_on_a_bank_original.jpg",
    "highResImageHeight" : 1377,
    "highResImageWidth" : 2036,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/trout_on_a_bank_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/trout_on_a_bank_small.jpg",
    "mediumResImageHeight" : 843,
    "mediumResImageWidth" : 1247,
    "metaDescription" : "Walter M. Brackett (American, 1823 - 1919) (aka  W.M.Brackett) Trout On A Bank Painting For Sale - Oil On Canvas - 11.75 X 19.5 Inches - Signed On Lower Right.",

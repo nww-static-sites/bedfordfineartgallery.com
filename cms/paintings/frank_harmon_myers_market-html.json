@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on board, 13 x 16 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/img_0181-sm_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/img_0181-sm.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0181-sm_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0181-sm.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/img_0181.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0181.jpg",
    "highResImageHeight" : 2440,
    "highResImageWidth" : 2876,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/img_0181-m.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0181-m.jpg",
    "mediumResImageHeight" : 1299,
    "mediumResImageWidth" : 1531,
    "metaDescription" : "Born in Cleves, OH, Myers first studied with Frank Duveneck and John Weiss at the Cincinnati Art Academy and later at the Pennsylvania Academy of the Fine Arts Summe",

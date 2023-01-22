@@ -6,18 +6,18 @@
   "slug": "e_longstaffe_landscape-html",
   "dimensions": "Oil on canvas, 19.75 x 29.75 inches/Signed lower Right",
   "featured": false,
-  "mediumResImage": "/cms-uploads/longstaffe-img_1406-sm-cr-fr.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/longstaffe-img_1406-sm-cr-fr.jpg",
   "status": "Sold",
   "metaTitle": "Edgar Longstaffe Painting - Stone Bridge by Waterfall Painting For Sale",
-  "gridImage": "/cms-uploads/longstaffe-img_1406-cr-zoom.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/longstaffe-img_1406-cr-zoom.jpg",
   "metaDescription": "British artist Edgar Longstaffe is best known for his landscapes of the English moors, Welsh country-side, Scottish Highlands and Lochs",
   "scrollingHomepageImage": false,
   "title": "Stone Bridge by Waterfall",
-  "galleryCropImage": "/cms-uploads/img_1406-gall-full-cr2.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_1406-gall-full-cr2.jpg",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "/cms-uploads/longstaffe-img_1406-lrg-cr-fr.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/longstaffe-img_1406-lrg-cr-fr.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

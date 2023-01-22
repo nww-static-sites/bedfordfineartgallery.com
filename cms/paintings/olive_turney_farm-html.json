@@ -8,18 +8,18 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/turney_small_3.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/turney_small_3.jpg",
   "gridImageWidth": 392,
   "status": "Sold",
   "metaTitle": "Olive Turney Painting - Lehman Farm, 1911 - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/turney_grid3.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/turney_grid3.jpg",
   "mediumResImageWidth": 1087,
   "mediumResImageHeight": 779,
   "metaDescription": "Olive Turney was born in Westmoreland County, Pennsylvania and raised in the Lawrenceville section of Pittsburgh. Her father was a carpenter and served on the Lawren",
   "title": "Lehman Farm, 1911",
   "categories": [],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/turney_full_3.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/turney_full_3.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

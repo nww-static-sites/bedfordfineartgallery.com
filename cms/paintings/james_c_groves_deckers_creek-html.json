@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/groves_creek_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/groves_creek_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "James C. Groves - Spring: Late Morning, Decker’s Creek",
-  "gridImage": "/cms-uploads/groves_creek_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/groves_creek_grid.jpg",
   "mediumResImageWidth": 1096,
   "mediumResImageHeight": 1278,
   "metaDescription": "James C. Groves - American Painter - Spring: Late Morning, Decker’s Creek Oil On Canvas Painting For Sale - 13.5 X 19.5 Inches - Signed On Lower Right.",
   "title": "Spring: Late Morning, Decker’s Creek",
-  "galleryCropImage": "/cms-uploads/groves_creek_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/groves_creek_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/groves_creek_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/groves_creek_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

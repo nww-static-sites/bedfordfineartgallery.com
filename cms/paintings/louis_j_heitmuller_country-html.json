@@ -10,22 +10,22 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/heitmuller_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/heitmuller_small.jpg",
   "gridImageWidth": 392,
   "status": "Sold",
   "metaTitle": "Louis Heitmuller Painting - Country Road - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/heit_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/heit_grid.jpg",
   "mediumResImageWidth": 1346,
   "mediumResImageHeight": 998,
   "metaDescription": "Heitmuller, a portraitist and landscapist, was born at Klein Palubin in Poland in 1863. He studied at The Royal Academy of Fine Arts in Dusseldorf, Germany, Ecole de",
   "scrollingHomepageImage": false,
   "title": "Country Road",
-  "galleryCropImage": "/cms-uploads/heit_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/heit_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/heitmuller_original.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/heitmuller_original.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

@@ -49,7 +49,8 @@ export default {
 			return this.painting.status === 'Sold' ? 'sold' : 'hold'
         },
         galleryImage() {
-            return this.painting.galleryCropImage || this.painting.gridImage || this.painting.mediumResImage || ''
+            const galleryImage = this.painting.galleryCropImage || this.painting.gridImage || this.painting.mediumResImage || ''
+            return galleryImage.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
         }
 	}
 }

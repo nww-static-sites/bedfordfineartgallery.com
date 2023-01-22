@@ -10,19 +10,19 @@
   "featured": true,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/lavalley_small2.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/lavalley_small2.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Jonas Joseph LaValley - Roses in a Glass Vase, 1872 Painting",
-  "gridImage": "/cms-uploads/0263_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/0263_grid.jpg",
   "mediumResImageWidth": 1153,
   "mediumResImageHeight": 1425,
   "metaDescription": "Jonas Joseph (\"J.J.\") LaValley was born in Rouse Point, New York. His early eclectic \"career\" runs contrary to what one would expect from someone with an art",
   "title": "Roses in a Glass Vase, 1872",
-  "galleryCropImage": "/cms-uploads/0263_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/0263_grid_gallery_crop.jpg",
   "categories": [],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/lavalley_full2.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/lavalley_full2.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

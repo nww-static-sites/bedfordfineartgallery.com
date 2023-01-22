@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on canvas, 33.7.5 x 21.25 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/hetzel_tree_grid_new_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/hetzel_tree_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hetzel_tree_grid_new_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hetzel_tree_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/hetzel_tree_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hetzel_tree_full.jpg",
    "highResImageHeight" : 2970,
    "highResImageWidth" : 2014,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/hetzel_tree_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hetzel_tree_small.jpg",
    "mediumResImageHeight" : 1068,
    "mediumResImageWidth" : 731,
    "metaDescription" : "Lila Hetzel was born in the Pittsburgh neighborhood of Edgewood, the youngest child of Pittsburgh artist and Scalp Level School founder George Hetzel.  Lila studied",

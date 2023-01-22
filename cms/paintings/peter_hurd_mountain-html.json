@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on board, 22 x 17.5 inches/Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/hurd_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/hurd_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hurd_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hurd_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/hurd_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hurd_full.jpg",
    "highResImageHeight" : 3216,
    "highResImageWidth" : 2544,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/hurd_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hurd_small.jpg",
    "mediumResImageHeight" : 1618,
    "mediumResImageWidth" : 1280,
    "metaDescription" : "Born in Roswell, New Mexico, Peter Hurd had attended New Mexico Military Institute in Roswell from 1917 to 1920, and in 1921 he was appointed to West Point Military",

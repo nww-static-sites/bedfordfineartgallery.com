@@ -7,11 +7,11 @@
    ],
    "dimensions" : "Watercolor, 13 x 19.75 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/riab_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/riab_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/riab_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/riab_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/riab_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/riab_full.jpg",
    "highResImageHeight" : 2269,
    "highResImageWidth" : 3075,
    "highlights" : [
@@ -28,7 +28,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/riab_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/riab_small.jpg",
    "mediumResImageHeight" : 1202,
    "mediumResImageWidth" : 1629,
    "metaDescription" : "Riab was to become one of France's most accomplished painters of sporting dogs, waterfowl and gamebirds. Born Boris Riabouchinsky into a prosperous Moscow family,",

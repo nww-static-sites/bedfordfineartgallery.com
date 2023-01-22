@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on canvas, 24.5 x 16.5 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/antlers_forest_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/antlers_forest_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/antlers_forest_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/antlers_forest_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/antlers_forest_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/antlers_forest_full.jpg",
    "highResImageHeight" : 2888,
    "highResImageWidth" : 2176,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/antlers_forest_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/antlers_forest_small.jpg",
    "mediumResImageHeight" : 1184,
    "mediumResImageWidth" : 892,
    "metaDescription" : "Max H. Antlers -German-American Painter 1873-1952 - Spirits Of The Forest Oil On Canvas Painting For Sale - 24.5 X 16.5 Inches - Signed On Lower Right.",

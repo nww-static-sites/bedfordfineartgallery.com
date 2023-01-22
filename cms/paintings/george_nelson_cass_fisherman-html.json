@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/cass_fisherman_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cass_fisherman_small.jpg",
   "gridImageWidth": 392,
   "status": "New",
   "metaTitle": "George Nelson Cass - Fishermen at Sunrise Painting For Sale",
-  "gridImage": "/cms-uploads/cass_fisherman_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cass_fisherman_grid.jpg",
   "mediumResImageWidth": 1260,
   "mediumResImageHeight": 896,
   "metaDescription": "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",
   "title": "Fishermen at Sunrise",
-  "galleryCropImage": "/cms-uploads/cass_fisherman_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cass_fisherman_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/cass_fisherman_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cass_fisherman_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

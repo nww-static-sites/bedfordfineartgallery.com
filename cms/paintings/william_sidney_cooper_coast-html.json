@@ -7,11 +7,11 @@
    ],
    "dimensions" : "Watercolor, 7.75 x 10.8 inches / Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/img_4029_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/img_4029_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4029_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4029_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/img_4029_original.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4029_original.jpg",
    "highResImageHeight" : 701,
    "highResImageWidth" : 786,
    "highlights" : [
@@ -28,7 +28,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/img_4029_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4029_small.jpg",
    "mediumResImageHeight" : 655,
    "mediumResImageWidth" : 783,
    "metaDescription" : "William Sidney Cooper was an English landscape artist, best known for his paintings of the countryside around Herne Bay in Kent. Cooper studied under his great-uncle",

@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Pencil on paper, 8 x 10 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/kuhler_steam_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/kuhler_steam_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/kuhler_steam_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/kuhler_steam_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/kuhler_steam_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/kuhler_steam_full.jpg",
    "highResImageHeight" : 2773,
    "highResImageWidth" : 3182,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/kuhler_steam_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/kuhler_steam_small.jpg",
    "mediumResImageHeight" : 1110,
    "mediumResImageWidth" : 1273,
    "metaDescription" : "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",

@@ -25,12 +25,12 @@
                         <div v-if="isSoldOrHold(painting)" class="sold">
                             <span class="soldTag">{{ soldOrHoldText(painting) }}</span>
                             <nuxt-link :to="`/${painting.replace('-html', '.html')}`"
-                                ><nuxt-img provider="cloudinary" :src="artist.paintingToObj[painting].gridImage" :alt="nameWithTinyDescription" />
+                                ><nuxt-img provider="cloudinary" :src="getGridImage(artist.paintingToObj[painting].gridImage)" :alt="nameWithTinyDescription" />
                             </nuxt-link>
                         </div>
 						<template v-else>
                             <nuxt-link :to="`/${painting.replace('-html', '.html')}`"
-                                ><nuxt-img provider="cloudinary" :src="artist.paintingToObj[painting].gridImage" :alt="nameWithTinyDescription" />
+                                ><nuxt-img provider="cloudinary" :src="getGridImage(artist.paintingToObj[painting].gridImage)" :alt="nameWithTinyDescription" />
                             </nuxt-link>
 						</template>
                     </li>
@@ -134,6 +134,9 @@ export default {
         soldOrHoldText(painting) {
 			return this.artist.paintingToObj[painting].status === 'Sold' ? 'sold' : 'hold'
         },
+        getGridImage(image) {
+            return image.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
+        }
 	},
 }
 </script>

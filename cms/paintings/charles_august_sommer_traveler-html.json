@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "Carl Sommer, 1829  1894, 19th century artist, lone traveler, Oil on canvas, landscape, landscape artwork, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery ",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/sommer_traveler_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/sommer_traveler_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Carl Sommer Painting - Lone Traveler - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/sommer_traveler_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/sommer_traveler_grid.jpg",
   "mediumResImageWidth": 1451,
   "mediumResImageHeight": 905,
   "metaDescription": "Very little biographical information is currently available for Carl Sommer.  That he was a landscape artist in the style of the Hudson River School seems apparent f",
   "title": "Lone Traveler",
-  "galleryCropImage": "/cms-uploads/sommer_traveler_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/sommer_traveler_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/sommer_traveler_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/sommer_traveler_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

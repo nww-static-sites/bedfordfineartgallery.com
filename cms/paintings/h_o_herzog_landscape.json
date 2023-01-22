@@ -6,18 +6,18 @@
   "slug": "h_o_herzog_landscape",
   "dimensions": "Oil on canvas, 23.5 x 29.25 inches/Signed lower right",
   "featured": false,
-  "mediumResImage": "/cms-uploads/herzog-landscape-img_-sm-cr-fr.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/herzog-landscape-img_-sm-cr-fr.jpg",
   "status": "New",
   "metaTitle": "Hermann Herzog - Landscape painting for sale",
-  "gridImage": "/cms-uploads/herzog-landscape-img_-zoom-cr.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/herzog-landscape-img_-zoom-cr.jpg",
   "metaDescription": "Herzog traveled to Bavaria, Belgium, Holland, Norway, and Italy painting dramatic landscapes awash in luminous light.",
   "scrollingHomepageImage": false,
   "title": "Landscape",
-  "galleryCropImage": "/cms-uploads/herzog-landscape-img_-gall-full-cr.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/herzog-landscape-img_-gall-full-cr.jpg",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "/cms-uploads/herzog-landscape-img_lrg-cr-fr.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/herzog-landscape-img_lrg-cr-fr.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

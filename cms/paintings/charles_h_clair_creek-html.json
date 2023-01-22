@@ -10,23 +10,23 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/clair_creek_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/clair_creek_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Charles H Clair - Sheep at a Creek - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/clair_creek_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/clair_creek_grid.jpg",
   "mediumResImageWidth": 993,
   "mediumResImageHeight": 838,
   "metaDescription": "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",
   "scrollingHomepageImage": true,
   "title": "Sheep at a Creek",
-  "galleryCropImage": "/cms-uploads/clair_creek_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/clair_creek_grid_gallery_crop.jpg",
   "categories": [
     "Landscape",
     "Animal"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/clair_creek_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/clair_creek_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/woodcock_on_point_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/woodcock_on_point_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "James Henry Beard Painting - Woodcock on Point - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/wc3.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wc3.jpg",
   "mediumResImageWidth": 1330,
   "mediumResImageHeight": 1072,
   "metaDescription": "Beard was born in Buffalo, New York. When he was eleven he moved with his family to Painesville, Ohio where his younger brother, painter William Holbrook Beard was b",
   "title": "Woodcock on Point",
-  "galleryCropImage": "/cms-uploads/wc3_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wc3_gallery_crop.jpg",
   "categories": [
     "Sporting Art"
   ],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/woodcock_on_point_original.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/woodcock_on_point_original.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

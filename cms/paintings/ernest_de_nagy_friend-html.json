@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/nagy_friend_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/nagy_friend_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Ernest de Nagy - Little Yellow Friend - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/nagy_friend_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/nagy_friend_grid.jpg",
   "mediumResImageWidth": 1024,
   "mediumResImageHeight": 1170,
   "metaDescription": "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",
   "title": "Little Yellow Friend",
-  "galleryCropImage": "/cms-uploads/nagy_friend_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/nagy_friend_grid_gallery_crop.jpg",
   "categories": [
     "Genre"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/nagy_friend_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/nagy_friend_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

@@ -3,11 +3,11 @@
    "categories" : [],
    "dimensions" : "Chromolithograph, 30 x 22 inches",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/img_4109_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/img_4109_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4109_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4109_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/img_4109_original.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4109_original.jpg",
    "highResImageHeight" : 2105,
    "highResImageWidth" : 1604,
    "highlights" : [
@@ -24,7 +24,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/img_4109_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4109_small.jpg",
    "mediumResImageHeight" : 1191,
    "mediumResImageWidth" : 907,
    "metaDescription" : "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",

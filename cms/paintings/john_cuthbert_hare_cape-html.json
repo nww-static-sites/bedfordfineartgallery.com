@@ -10,22 +10,22 @@
   "featured": true,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/hare_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hare_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "John Cuthbert Hare - Cape Cod Light Painting For Sale",
-  "gridImage": "/cms-uploads/hare_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hare_grid.jpg",
   "mediumResImageWidth": 1511,
   "mediumResImageHeight": 1235,
   "metaDescription": "John Cuthbert Hare (American 1908 - 1978) - Cape Cod Light Watercolor Painting For Sale - 7 x 8.25 Inches - Signed On The Lower Right.",
   "scrollingHomepageImage": true,
   "title": "Cape Cod Light",
-  "galleryCropImage": "/cms-uploads/hare_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hare_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/hare_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hare_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

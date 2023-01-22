@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on canvas, 24 x 20 inches / Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/img_4341_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/img_4341_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4341_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4341_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/img_4341_original.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4341_original.jpg",
    "highResImageHeight" : 2025,
    "highResImageWidth" : 1764,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/img_4341_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4341_small.jpg",
    "mediumResImageHeight" : 1200,
    "mediumResImageWidth" : 1046,
    "metaDescription" : "We believe this painting of Teddy Roosevelt was painted by American Impressionist painter William Samuel Horton. We estimate this painting was completed circa 1909 i",

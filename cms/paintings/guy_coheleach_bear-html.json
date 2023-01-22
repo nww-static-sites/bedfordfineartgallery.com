@@ -7,11 +7,11 @@
    ],
    "dimensions" : "Oil on board, 5.5 x 11.25 inches/Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/coheleach_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/coheleach_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/coheleach_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/coheleach_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/coheleach_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/coheleach_full.jpg",
    "highResImageHeight" : 1995,
    "highResImageWidth" : 3244,
    "highlights" : [
@@ -28,7 +28,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/coheleach_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/coheleach_small.jpg",
    "mediumResImageHeight" : 1040,
    "mediumResImageWidth" : 1691,
    "metaDescription" : "Coheleach grew up at Baldwin, Long Island and began sketching and drawing as a child. He attended Bishop Loughlin High School (Brooklyn, N.Y) and later won a scholar",

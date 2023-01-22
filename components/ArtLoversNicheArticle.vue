@@ -9,7 +9,8 @@
             <div style="padding-bottom: 20px">
                 <p style="margin: 0px">
                     <nuxt-link to="/"
-                        ><nuxt-img provider="cloudinary"
+                        ><nuxt-img
+                            provider="cloudinary"
                             src="/images/Top-Banner.jpg"
                             alt="Art Lovers' Niche"
                             style="width: 100%; height: auto; max-width: 660px; margin: auto; display: block"
@@ -21,7 +22,8 @@
 
             <p style="margin: 0px">
                 <nuxt-link to="/"
-                    ><nuxt-img provider="cloudinary"
+                    ><nuxt-img
+                        provider="cloudinary"
                         loading="lazy"
                         src="/mailers/img/notepad2.jpg"
                         style="width: 100%; height: auto; max-width: 660px; margin: auto; display: block"

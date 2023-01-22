@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/weis_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/weis_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "John Ellsworth Weis Painting - Easter - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/weis_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/weis_grid.jpg",
   "mediumResImageWidth": 1142,
   "mediumResImageHeight": 938,
   "metaDescription": "Cincinnati artist, John Weis was born in Powell County, Indiana.  Although Weis is best known for his impressionist landscapes, he was also an accomplished portraiti",
   "title": "Easter",
-  "galleryCropImage": "/cms-uploads/weis_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/weis_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/weis_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/weis_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

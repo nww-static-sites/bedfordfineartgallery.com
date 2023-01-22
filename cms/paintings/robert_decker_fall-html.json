@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on canvas, 23.5 x 17.5 inches/Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/decker_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/decker_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/decker_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/decker_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/decker_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/decker_full.jpg",
    "highResImageHeight" : 3042,
    "highResImageWidth" : 2466,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/decker_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/decker_small.jpg",
    "mediumResImageHeight" : 1571,
    "mediumResImageWidth" : 1274,
    "metaDescription" : "Decker was born in Troy, New York; however, his family then moved to Brooklyn, New York circa 1860 and in 1870, they moved to Maquoketa, Iowa where Decker establishe",

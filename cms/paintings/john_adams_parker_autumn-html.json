@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on canvas, 37.75 x 28.75 inches/Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/parker_autumn_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/parker_autumn_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/parker_autumn_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/parker_autumn_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/parker_autumn_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/parker_autumn_full.jpg",
    "highResImageHeight" : 3049,
    "highResImageWidth" : 2486,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/parker_autumn_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/parker_autumn_small.jpg",
    "mediumResImageHeight" : 1220,
    "mediumResImageWidth" : 995,
    "metaDescription" : "Parker as born in New York City and had initially studied at the City University of New York for a career in business. Apparently, the siren song of art won him over",

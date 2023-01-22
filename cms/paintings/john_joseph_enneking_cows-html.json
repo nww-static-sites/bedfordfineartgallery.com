@@ -7,11 +7,11 @@
    ],
    "dimensions" : "Oil on canvas, 25.5 x 29.5 inches/Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/enneking_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/enneking_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/enneking_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/enneking_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/enneking_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/enneking_full.jpg",
    "highResImageHeight" : 3090,
    "highResImageWidth" : 3463,
    "highlights" : [
@@ -28,7 +28,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/enneking_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/enneking_small.jpg",
    "mediumResImageHeight" : 927,
    "mediumResImageWidth" : 1039,
    "metaDescription" : "John Joseph Enneking - American Painter 1841-1916 - Gathering Cows Oil On Canvas Painting For Sale - 25.5 X 29.5 Inches - Signed On Lower Left.",

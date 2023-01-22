@@ -10,22 +10,22 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/dixon_lighthouse_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/dixon_lighthouse_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Francis Stillwell Dixon - Cape Neddick Lighthouse, York, Maine - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/dixon_lighthouse_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/dixon_lighthouse_grid.jpg",
   "mediumResImageWidth": 1058,
   "mediumResImageHeight": 881,
   "metaDescription": "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",
   "title": "Cape Neddick Lighthouse, York, Maine",
-  "galleryCropImage": "/cms-uploads/dixon_lighthouse_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/dixon_lighthouse_grid_gallery_crop.jpg",
   "categories": [
     "Landscape",
     "Marine"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/dixon_lighthouse_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/dixon_lighthouse_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

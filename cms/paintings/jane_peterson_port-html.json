@@ -10,22 +10,22 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/peterson_port_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/peterson_port_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Jane Peterson Painting - Dutch Port - 20th Century American Fine Art",
-  "gridImage": "/cms-uploads/peterson_port_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/peterson_port_grid.jpg",
   "mediumResImageWidth": 1108,
   "mediumResImageHeight": 970,
   "metaDescription": "Jane Peterson was born, Jennie Christine Peterson, in Elgin, Illinois; however, she changed her name to",
   "title": "Dutch Port",
-  "galleryCropImage": "/cms-uploads/peterson_port_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/peterson_port_grid_gallery_crop.jpg",
   "categories": [
     "Landscape",
     "Marine"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/peterson_port_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/peterson_port_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

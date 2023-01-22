@@ -10,22 +10,22 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/img_3942_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_3942_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "James Lobley - Remember the Poor Painting For Sale",
-  "gridImage": "/cms-uploads/img_3942_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_3942_grid.jpg",
   "mediumResImageWidth": 1224,
   "mediumResImageHeight": 1583,
   "metaDescription": "This fine watercolor is by a very well listed, sought after British artist, James Lobley. The symbolic composition \"Remember the Poor\" is typical of his religiou",
   "scrollingHomepageImage": true,
   "title": "Remember the Poor",
-  "galleryCropImage": "/cms-uploads/img_3942_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_3942_grid_gallery_crop.jpg",
   "categories": [
     "Genre"
   ],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/img_3942_original.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_3942_original.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

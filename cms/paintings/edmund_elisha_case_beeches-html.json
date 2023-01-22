@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/case_beeches_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/case_beeches_small.jpg",
   "gridImageWidth": 392,
   "status": "Sold",
   "metaTitle": "Edmund Elisha Case - Fall Beeches - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/case_beeches_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/case_beeches_grid.jpg",
   "mediumResImageWidth": 974,
   "mediumResImageHeight": 1208,
   "metaDescription": "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",
   "title": "Fall Beeches",
-  "galleryCropImage": "/cms-uploads/case_beeches_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/case_beeches_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/case_beeches_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/case_beeches_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

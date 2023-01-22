@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "https://www.youtube.com/embed/PPGF5R6DS8c?rel=0",
-  "mediumResImage": "/cms-uploads/wheeler_outcrop_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wheeler_outcrop_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "William Ruthven Wheeler - Rocky Outcrop With Waterfall",
-  "gridImage": "/cms-uploads/wheeler_outcrop_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wheeler_outcrop_grid.jpg",
   "mediumResImageWidth": 999,
   "mediumResImageHeight": 1341,
   "metaDescription": "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",
   "title": "Rocky Outcrop with Waterfall",
-  "galleryCropImage": "/cms-uploads/wheeler_outcrop_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wheeler_outcrop_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/wheeler_outcrop_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wheeler_outcrop_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

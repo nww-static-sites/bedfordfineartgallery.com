@@ -4,11 +4,11 @@
    "categories" : [],
    "dimensions" : "Oil on canvas, 11.5 x 23.25 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/hays12_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/hays12_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hays12_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hays12_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/hays12_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hays12_full.jpg",
    "highResImageHeight" : 1639,
    "highResImageWidth" : 2897,
    "highlights" : [
@@ -25,7 +25,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/hays12_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hays12_small.jpg",
    "mediumResImageHeight" : 873,
    "mediumResImageWidth" : 1543,
    "metaDescription" : "Barton Stone Hays was born in Greenville, Ohio on April 5 1826. He was self-taught and was known, first for his portrait paintings, and later for his landscape and s",

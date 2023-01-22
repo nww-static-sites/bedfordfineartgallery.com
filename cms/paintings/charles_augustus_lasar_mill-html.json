@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on canvas, 14 x 10.5 inches / Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/img_4289_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/img_4289_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4289_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4289_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/img_4289_original.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4289_original.jpg",
    "highResImageHeight" : 1986,
    "highResImageWidth" : 1635,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/img_4289_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4289_small.jpg",
    "mediumResImageHeight" : 1144,
    "mediumResImageWidth" : 941,
    "metaDescription" : "Charles Augustus Lasar, known as \"Shorty\" Lasar was a Johnstown, Pennsylvania-born artist. As did many American artists, he travelled to Paris broaden his art ed",

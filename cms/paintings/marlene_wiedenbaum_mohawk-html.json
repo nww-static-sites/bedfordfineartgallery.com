@@ -10,21 +10,21 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/weidenbaum_mohawk_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/weidenbaum_mohawk_small.jpg",
   "gridImageWidth": 392,
   "status": "New",
   "metaTitle": "Marlene Wiedenbaum - Mohawk Preserve Path - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/weidenbaum_mohawk_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/weidenbaum_mohawk_grid.jpg",
   "mediumResImageWidth": 930,
   "mediumResImageHeight": 1163,
   "metaDescription": "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",
   "title": "Mohawk Preserve Path",
-  "galleryCropImage": "/cms-uploads/weidenbaum_mohawk_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/weidenbaum_mohawk_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/weidenbaum_mohawk_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/weidenbaum_mohawk_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

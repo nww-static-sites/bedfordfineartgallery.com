@@ -10,22 +10,22 @@
   "featured": true,
   "metaKeywords": "",
   "youtubeEmbedLink": "https://www.youtube.com/embed/Iu9sUy7KUOQ?rel=0",
-  "mediumResImage": "/cms-uploads/fairman_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/fairman_small.jpg",
   "gridImageWidth": 392,
   "status": "Sold",
   "metaTitle": "James Fairman Painting - Benevolent Guardian - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/fairman_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/fairman_grid.jpg",
   "mediumResImageWidth": 1212,
   "mediumResImageHeight": 920,
   "metaDescription": null,
   "title": "Landscape – Benevolent Guardian",
-  "galleryCropImage": "/cms-uploads/fairman_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/fairman_grid_gallery_crop.jpg",
   "categories": [
     "Landscape",
     "Animal"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/fairman_full.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/fairman_full.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

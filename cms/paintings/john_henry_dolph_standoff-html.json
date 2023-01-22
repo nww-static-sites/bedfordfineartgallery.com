@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on canvas, 9.25 x 13 inches / Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/jhd_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/jhd_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/jhd_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/jhd_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/john_henry_dolph_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/john_henry_dolph_full.jpg",
    "highResImageHeight" : 2514,
    "highResImageWidth" : 3027,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/john_henry_dolph_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/john_henry_dolph_small.jpg",
    "mediumResImageHeight" : 1198,
    "mediumResImageWidth" : 1443,
    "metaDescription" : "Dolph was a versatile and talented artist who became the foremost \"cat-painter\" in America. He left home (Fort Ann, New York) at a young age, after the death of",

@@ -10,22 +10,22 @@
   "featured": false,
   "metaKeywords": "Elias Abberley, Elias T. Abberley,  Elias T Abberley, 19th and early 20th century, American, 19th century artist, Delightful Find, Oil on canvas, animal, animal artwork, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/ea_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ea_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Elias Abberly - Delightful Find Painting For Sale",
-  "gridImage": "/cms-uploads/ea_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ea_grid.jpg",
   "mediumResImageWidth": 1352,
   "mediumResImageHeight": 1116,
   "metaDescription": "Known mostly for his still-lifes, little is known of Abberly's life or training. He often combined an outdoor still-life of apples or corn with a squirrel for deli",
   "scrollingHomepageImage": true,
   "title": "Delightful Find",
-  "galleryCropImage": "/cms-uploads/ea_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ea_grid_gallery_crop.jpg",
   "categories": [
     "Animal"
   ],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/ea_original.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ea_original.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

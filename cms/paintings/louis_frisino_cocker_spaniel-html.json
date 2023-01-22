@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Watercolor, 19.25 x 8.25 inches/Signed lower left",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/frisino_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/frisino_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/frisino_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/frisino_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/frisino_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/frisino_full.jpg",
    "highResImageHeight" : "2416",
    "highResImageWidth" : "3018",
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/frisino_full.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/frisino_full.jpg",
    "mediumResImageHeight" : 2416,
    "mediumResImageWidth" : 3018,
    "metaDescription" : "Born in Baltimore, Maryland Frisino graduated from the Maryland School for the Deaf in Frederick Maryland and in 1953 graduated with honors from the Maryland Institu",

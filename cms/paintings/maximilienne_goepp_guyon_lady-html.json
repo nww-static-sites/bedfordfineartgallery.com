@@ -10,22 +10,22 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/img_4324_small.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4324_small.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Maximilienne Goepp Guyon - Lady In A Hat Painting For Sale",
-  "gridImage": "/cms-uploads/img_4324_grid.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4324_grid.jpg",
   "mediumResImageWidth": 986,
   "mediumResImageHeight": 1370,
   "metaDescription": "Maximilienne Guyon was an award-winning painter, illustrator, and etcher. She exhibited often, primarily in France, and won numerous awards, receiving the traveling",
   "scrollingHomepageImage": true,
   "title": "Lady in a Hat",
-  "galleryCropImage": "/cms-uploads/img_4324_grid_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4324_grid_gallery_crop.jpg",
   "categories": [
     "Genre"
   ],
   "gridImageHeight": 260,
-  "highResImage": "/cms-uploads/img_4324_original.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4324_original.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

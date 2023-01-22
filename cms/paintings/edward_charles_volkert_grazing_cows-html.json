@@ -10,22 +10,22 @@
   "featured": false,
   "metaKeywords": "",
   "youtubeEmbedLink": "",
-  "mediumResImage": "/cms-uploads/volkert_cows_small2.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/volkert_cows_small2.jpg",
   "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Edward Charles Volkert - Grazing Cows - 19th Century American Fine Art",
-  "gridImage": "/cms-uploads/volkert_cows_grid2.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/volkert_cows_grid2.jpg",
   "mediumResImageWidth": 1099,
   "mediumResImageHeight": 886,
   "metaDescription": "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",
   "title": "Grazing Cows",
-  "galleryCropImage": "/cms-uploads/volkert_cows_grid2_gallery_crop.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/volkert_cows_grid2_gallery_crop.jpg",
   "categories": [
     "Landscape",
     "Animal"
   ],
   "gridImageHeight": 261,
-  "highResImage": "/cms-uploads/volkert_cows_full2.jpg",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/volkert_cows_full2.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"

@@ -49,7 +49,8 @@ export default {
 			return nameWithTinyDescription
 		},
         gridImage() {
-			return this.paintingToGridImage[this.artist.paintings[0]] ? this.paintingToGridImage[this.artist.paintings[0]].gridImage : ''
+			const gridImage = this.paintingToGridImage[this.artist.paintings[0]] ? this.paintingToGridImage[this.artist.paintings[0]].gridImage : ''
+			return gridImage.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
 		}
 	},
 }

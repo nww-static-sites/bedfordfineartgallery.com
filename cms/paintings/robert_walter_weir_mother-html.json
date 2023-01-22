@@ -6,11 +6,11 @@
    ],
    "dimensions" : "Oil on canvas, 9.5 x 7.5 inches / Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/weir_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/weir_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/weir_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/weir_grid.jpg",
    "gridImageHeight" : 260,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/weir_original.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/weir_original.jpg",
    "highResImageHeight" : 2562,
    "highResImageWidth" : 2210,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/weir_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/weir_small.jpg",
    "mediumResImageHeight" : 1471,
    "mediumResImageWidth" : 1269,
    "metaDescription" : "Weir was born in New York City, and possessed of natural talent, he taught himself to paint by copying pictures of Rembrandt paintings. When only a teenager, his con",

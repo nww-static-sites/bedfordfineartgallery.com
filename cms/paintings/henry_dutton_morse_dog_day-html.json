@@ -6,11 +6,11 @@
    ],
    "dimensions" : "30 x 40 inches/Signed lower right",
    "featured" : false,
-   "galleryCropImage" : "/cms-uploads/morse_dog_grid_gallery_crop.jpg",
-   "gridImage" : "/cms-uploads/morse_dog_grid.jpg",
+   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/morse_dog_grid_gallery_crop.jpg",
+   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/morse_dog_grid.jpg",
    "gridImageHeight" : 261,
    "gridImageWidth" : 392,
-   "highResImage" : "/cms-uploads/morse_dog_full.jpg",
+   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/morse_dog_full.jpg",
    "highResImageHeight" : 2846,
    "highResImageWidth" : 3609,
    "highlights" : [
@@ -27,7 +27,7 @@
          "highlight" : "Custom framing available"
       }
    ],
-   "mediumResImage" : "/cms-uploads/morse_dog_small.jpg",
+   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/morse_dog_small.jpg",
    "mediumResImageHeight" : 854,
    "mediumResImageWidth" : 1083,
    "metaDescription" : "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",
