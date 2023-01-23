@@ -7,7 +7,7 @@
                     src="/images/Top-Banner.jpg"
                     width="397"
                     height="126"
-                    :img-attrs="{alt: 'Art Lovers\' Niche', style: 'width: 100%; height:auto; border:1px solid #222222;margin-bottom: 1.5em;'}"
+                    :img-attrs="{alt: 'Art Lovers Niche', style: 'width: 100%; height:auto; border:1px solid #222222;margin-bottom: 1.5em;'}"
             /></nuxt-link>
         </div>
         <div class="highlights_prev">

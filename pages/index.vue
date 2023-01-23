@@ -320,18 +320,10 @@
                 />
                 <div>
                     <p class="more" style="text-align: left">
-                        "As the site director to the Southern Alleghenies Museum of Art in Bedford, I have worked with
-                        Jerry as the head of SAMA's Acquisitions Committee, Vice President of Development, and as an
-                        active board member. His unyielding passion for fine art is ever-present. Additionally, I have
-                        had the pleasure of working with his wife, Joan. Her exquisite taste in fine art has been a
-                        tremendous resource when working together to display selections from our permanent collection
-                        that numbers over 7,000 works from local, regional, national and international artists. They
-                        both have a sharp eye for detail, and together, Jerry and Joan have been continual key figures
-                        in the procuring and exhibiting of art for SAMA. I find their support and dedication to the
-                        organization to be significant, substantial, and detailed."
+                        "I have and continue to be extremely impressed with the Bedford Fine Art Gallery.  The flawlessly restored facility meets all environmental museum standards.  The individual quality of its diverse collections is exemplary.  The research associated with each work is thorough.  Finally, I have directly experienced that all aspects of its administration reflect sophisticated professional standards."
                     </p>
                     <span style="display: block; font-weight: bold; color: #f2f2f2; padding-top: 10px"
-                        >Morgan Young, BFA, Bedford Site Director Southern Alleghenies Museum of Art.</span
+                        >Michael M. Strueber, BS, MED, MA, Director Emeritus Southern Alleghenies Museum of Art</span
                     >
                 </div>
 
@@ -354,7 +346,7 @@
                         cities."
                     </p>
                     <span style="display: block; font-weight: bold; color: #f2f2f2; padding-top: 10px"
-                        >Sam Berkovitz, Certified Appraiser, Appraisers Association of America.</span
+                        >Sam Berkovitz, Certified Appraiser, Appraisers Association of America</span
                     >
                 </div>
             </section>
