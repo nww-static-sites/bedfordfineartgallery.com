@@ -1,43 +1,43 @@
 {
-   "artist" : "james_jackson_curnock_artwork-html",
-   "body" : "Curnock was born in Bristol, on the River Avon in England.  He was the son of the genre and portrait painter James Curnock.  Curnock is best known for his paintings of the Welsh landscape, notably that of the lakes mountain ranges and river valleys of Snowdonia—Tryfan, Carnedd Dafydd, Llynnau Mymbyr, Glyderau mountain ranges, the valleys of the Llugwy, and Mawddach, Lledr rivers, and the Glaslyn, Llyn Idwal lakes, among others. Curnock also painted the glens, lochs and moors of Scotland, the Cornish coast and the river valleys of England.  The English writer and art critic, John Ruskin, whose “truth to nature” philosophy influenced 19th century landscape artists, gave Curnock favorable revies.  He exhibited at the Royal Academy (London, England) and the Royal Cambrian Academy (Wales). ",
-   "categories" : [
-      "Landscape",
-      "Animal"
-   ],
-   "dimensions" : "Oil on canvas, 11.5 x 17.5 inches/Signed lower left",
-   "featured" : false,
-   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/curnock_grid_gallery_crop.jpg",
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/curnock_grid.jpg",
-   "gridImageHeight" : 261,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/curnock_full.jpg",
-   "highResImageHeight" : 2558,
-   "highResImageWidth" : 3258,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced $3,900"
-      },
-      {
-         "highlight" : "Custom framing available"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/curnock_small.jpg",
-   "mediumResImageHeight" : 947,
-   "mediumResImageWidth" : 1206,
-   "metaDescription" : "Curnock was born in Bristol, on the River Avon in England. He was the son of the genre and portrait painter James Curnock. Curnock is best known for his paintings of",
-   "metaKeywords" : "",
-   "metaTitle" : "James Jackson Curock Painting - Sunny Day - 19th Century British Fine Art",
-   "paintingHeight" : "22",
-   "paintingWidth" : "28",
-   "slug" : "james_curnock_sunny_day-html",
-   "status" : "None",
-   "title" : "Sunny Day",
-   "youtubeEmbedLink" : ""
+  "paintingWidth": 22.5,
+  "body": "Curnock was born in Bristol, on the River Avon in England.  He was the son of the genre and portrait painter James Curnock.  Curnock is best known for his paintings of the Welsh landscape, notably that of the lakes mountain ranges and river valleys of Snowdonia—Tryfan, Carnedd Dafydd, Llynnau Mymbyr, Glyderau mountain ranges, the valleys of the Llugwy, and Mawddach, Lledr rivers, and the Glaslyn, Llyn Idwal lakes, among others. Curnock also painted the glens, lochs and moors of Scotland, the Cornish coast and the river valleys of England.  The English writer and art critic, John Ruskin, whose “truth to nature” philosophy influenced 19th century landscape artists, gave Curnock favorable revies.  He exhibited at the Royal Academy (London, England) and the Royal Cambrian Academy (Wales). ",
+  "highResImageHeight": 2558,
+  "artist": "james_jackson_curnock_artwork-html",
+  "highResImageWidth": 3258,
+  "paintingHeight": 25.5,
+  "slug": "james_curnock_sunny_day-html",
+  "dimensions": "Oil on canvas, 14.5 x 17.5 inches/Signed lower left",
+  "featured": false,
+  "metaKeywords": "",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/curnock_small.jpg",
+  "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "James Jackson Curock Painting - Sunny Day - 19th Century British Fine Art",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/curnock_grid.jpg",
+  "mediumResImageWidth": 1206,
+  "mediumResImageHeight": 947,
+  "metaDescription": "Curnock was born in Bristol, on the River Avon in England. He was the son of the genre and portrait painter James Curnock. Curnock is best known for his paintings of",
+  "title": "Sunny Day",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/curnock_grid_gallery_crop.jpg",
+  "categories": [
+    "Landscape",
+    "Animal"
+  ],
+  "gridImageHeight": 261,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/curnock_full.jpg",
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively Priced $3,900"
+    },
+    {
+      "highlight": "Custom framing available"
+    }
+  ]
 }
