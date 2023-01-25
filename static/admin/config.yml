@@ -24,7 +24,7 @@ collections:
       create: true
       slug: '{{fields.slug}}'
       fields:
-          - { label: 'Name', name: 'name', widget: 'string', required: true, pattern: ["^\\S+$", "Name cannot be empty"] }
+          - { label: 'Name', name: 'name', widget: 'string', required: true }
           - { label: 'Alias', name: 'alias', widget: 'string', required: false }
           - { label: 'Tiny Description (shows next to name)', name: 'tinyDescription', widget: 'string' }
           - { label: 'Has Landing Page?', name: 'hasLandingPage', widget: 'boolean', default: false }
