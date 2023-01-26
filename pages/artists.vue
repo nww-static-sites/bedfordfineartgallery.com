@@ -44,7 +44,7 @@ export default {
             const artistNameB = b.name || ''
             return artistNameA.trim().split(' ').pop().toLowerCase().localeCompare(artistNameB.trim().split(' ').pop().toLowerCase())
         })
-        const paintingSlugs = artists.map((artist) => artist.paintings[0])
+        const paintingSlugs = artists.map((artist) => artist.paintings && artist.paintings.length > 0 ? artist.paintings[0] : '')
 
         return {
             artists,

@@ -1,5 +1,5 @@
 <template>
-    <div class="artist_wrap">
+    <div v-if="hasPaintings" class="artist_wrap">
         <div class="artist_col_img">
             <nuxt-link v-if="gridImage" :to="artistLink"
                 ><nuxt-picture provider="cloudinary"
@@ -37,6 +37,9 @@ export default {
 		},
 	},
 	computed: {
+		hasPaintings() {
+			return this.artist.paintings && this.artist.paintings.length > 0
+		},
 		artistLink() {
 			return this.artist.hasLandingPage ? this.artist.slug.replace('-html', '.html') : this.artist.paintings.length > 0 ? this.artist.paintings[0].replace('-html', '.html') : ''
 		},
