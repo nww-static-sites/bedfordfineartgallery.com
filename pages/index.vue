@@ -202,7 +202,7 @@
                             Instagram
                         </h2>
                         <a href="https://www.instagram.com/bedfordfineartgallery/" target="_blank"
-                            ><nuxt-img provider="cloudinary" src="instagram_invite.jpg" width="675" height="525" alt=""
+                            ><nuxt-img provider="cloudinary" src="instagram_invite.jpg" width="675" height="525" alt="Bedford Fine Art Gallery Instagram"
                         /></a>
                         <div class="breadcrumb desktop_hide" style="margin-top: 15px; margin-bottom: 15px">
                             <a href="https://www.instagram.com/bedfordfineartgallery/" target="_blank"
