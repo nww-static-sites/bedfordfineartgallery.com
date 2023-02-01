@@ -25,9 +25,7 @@
                                     class="home-lead-photo"
                                     loading="lazy"
                                     src="/joan_jerry22.jpg"
-                                    width="1200"
-                                    height="1652"
-                                    alt=""
+                                    alt="Jerry and Joan"
                                 />
 
                                 <div class="breadcrumb" style="margin-top: 10px">

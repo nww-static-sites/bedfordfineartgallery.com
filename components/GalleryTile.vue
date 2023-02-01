@@ -4,7 +4,8 @@
             <span v-if="isSoldOrHold" class="soldTag">{{ soldOrHoldText }}</span>
 
             <nuxt-link :to="painting.slug.replace('-html', '.html')">
-                <nuxt-picture provider="cloudinary"
+                <nuxt-img
+                    provider="cloudinary"
                     loading="lazy"
                     :src="galleryImage"
                     :alt="artistNameWithTinyDescription"
