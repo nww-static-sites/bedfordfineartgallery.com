@@ -2,5 +2,8 @@
   "hasLandingPage": false,
   "name": "John Francis Murphy",
   "tinyDescription": "American, 1853- 1921",
-  "slug": "j_f_murphy_artist-html"
+  "slug": "j_f_murphy_artist-html",
+  "paintings": [
+    "j_f_murphy_early_autumn_reflection-html"
+  ]
 }
