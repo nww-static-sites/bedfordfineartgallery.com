@@ -2,5 +2,8 @@
   "hasLandingPage": false,
   "name": "William Aiken Walker",
   "tinyDescription": "American 1838 - 1921",
-  "slug": "w_a_walker_artist-html"
+  "slug": "w_a_walker_artist-html",
+  "paintings": [
+    "w_a_walker_cotton_pickers-html"
+  ]
 }
