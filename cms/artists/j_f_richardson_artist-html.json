@@ -3,5 +3,8 @@
   "name": "John Frederick Richardson",
   "alias": "J.F. Richardson",
   "slug": "j_f_richardson_artist-html",
-  "tinyDescription": "American, 1906 - 1998"
+  "tinyDescription": "American, 1906 - 1998",
+  "paintings": [
+    "j_f_richardson_maine_landscape-html"
+  ]
 }
