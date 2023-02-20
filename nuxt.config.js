@@ -24,6 +24,7 @@ export default {
                 "type": "application/ld+json"
             }
         ],
+        __dangerouslyDisableSanitizers: ['script'],
     },
 
     // Global CSS: https://go.nuxtjs.dev/config-css
