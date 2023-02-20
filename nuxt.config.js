@@ -15,6 +15,15 @@ export default {
             { name: 'format-detection', content: 'telephone=no' },
         ],
         link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+        script: [
+            {
+                "hid": "schema",
+                "innerHTML": "@context\":\"https://schema.org\",\"@type\":\"ArtGallery\",\"name\":\"Bedford Fine Art Gallery\",\"image\":\"https://res.cloudinary.com/dg6smdedp/image/upload/f_auto,q_auto/cms-uploads/highlights_6.jpg\",\"@id\":\"\",\"url\":\"https://www.bedfordfineartgallery.com/\",\"telephone\":\"724-459-0612\",\"address\": {\"@type\":\"PostalAddress\",\"streetAddress\":\"230 South Juliana St.\",\"addressLocality\":\"Bedford\",\"addressRegion\":\"PA\",\"postalCode\":\"15522\",\"addressCountry\":\"US\"},\"geo\": {\"@type\":\"GeoCoordinates\",\"latitude\": 40.0164441,\"longitude\": -78.5038553},\"openingHoursSpecification\": {\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\": [\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\" ],\"opens\":\"10:00\",\"closes\":\"17:00\"}",
+                "async": true,
+                "defer": true,
+                "type": "application/ld+json"
+            }
+        ],
     },
 
     // Global CSS: https://go.nuxtjs.dev/config-css
