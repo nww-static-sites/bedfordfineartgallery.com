@@ -1,19 +1,20 @@
 {
-   "alias" : "A.C. Wooster",
-   "body" : "Austin C. Wooster was born in Chartiers Valley, Allegheny County, Pennsylvania (Thornburg). His great-grandfather was a member of the Pennsylvania Militia during the Revolutionary War. Although Wooster had natural artistic ability, his grand-parents, who raised him after the deaths of his parents, discouraged him from pursuing art, thinking of it as criminal and an insane fantasy. Wooster persevered and eventually moved to Union Township (Greentree), Allegheny County, where he earned a living as an artist painting portraits, landscapes, and still lifes. Nothing is known of his art training; however, it appears that he was influenced by another Pittsburgh artist—A.F.",
-   "hasLandingPage" : true,
-   "metaDescription" : "Austin C. Wooster was born in Chartiers Valley, Pennsylvania . His great-grandfather was a member of the Pennsylvania Militia during the Revolutionary War.",
-   "metaKeywords" : "Austin C. Wooster, A.C. Wooster, , ,(American, 1838 ? 1913), artist, paintings, artwork, art work, painting, art",
-   "metaTitle" : "Austin C. Wooster (aka A.C. Wooster) Paintings For Sale",
-   "name" : "Austin C. Wooster",
-   "paintings" : [
-      "austin_c_wooster_fruit-html",
-      "austin_c_wooster_oranges-html",
-      "austin_c_wooster_still_life-html",
-      "austin_c_wooster_canaloupes-html",
-      "austin_c_wooster_bounty-html",
-      "austin_c_wooster_still_life_oranges_grapes_goblet-html"
-   ],
-   "slug" : "austin_c_wooster-html",
-   "tinyDescription" : "American, 1838 - 1913"
+  "body": "Austin C. Wooster was born in Chartiers Valley, Allegheny County, Pennsylvania (Thornburg). His great-grandfather was a member of the Pennsylvania Militia during the Revolutionary War. Although Wooster had natural artistic ability, his grand-parents, who raised him after the deaths of his parents, discouraged him from pursuing art, thinking of it as criminal and an insane fantasy. Wooster persevered and eventually moved to Union Township (Greentree), Allegheny County, where he earned a living as an artist painting portraits, landscapes, and still lifes. Nothing is known of his art training; however, it appears that he was influenced by another Pittsburgh artist—A.F.",
+  "name": "Austin C. Wooster",
+  "slug": "austin_c_wooster-html",
+  "hasLandingPage": true,
+  "metaKeywords": "Austin C. Wooster, A.C. Wooster, , ,(American, 1838 ? 1913), artist, paintings, artwork, art work, painting, art",
+  "paintings": [
+    "austin_c_wooster_fruit-html",
+    "austin_c_wooster_oranges-html",
+    "austin_c_wooster_still_life-html",
+    "austin_c_wooster_canaloupes-html",
+    "austin_c_wooster_bounty-html",
+    "austin_c_wooster_still_life_oranges_grapes_goblet-html",
+    "austin_wooster_grapes_and_peaches-html"
+  ],
+  "alias": "A.C. Wooster",
+  "metaTitle": "Austin C. Wooster (aka A.C. Wooster) Paintings For Sale",
+  "metaDescription": "Austin C. Wooster was born in Chartiers Valley, Pennsylvania . His great-grandfather was a member of the Pennsylvania Militia during the Revolutionary War.",
+  "tinyDescription": "American, 1838 - 1913"
 }
