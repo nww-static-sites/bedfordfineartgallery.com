@@ -12,6 +12,9 @@
   "scrollingHomepageImage": false,
   "title": "Ligonier Valley",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1677872046/C_Walter_Ligonier_Landscape_IMG_1603_full_gall_cr_celiog.jpg",
+  "categories": [
+    "Landscape"
+  ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1677872252/C_Walter_Ligonier_Landscape_IMG_1603_lrg_cr_fr_v6oayq.jpg",
   "highlights": [
     {
