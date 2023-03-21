@@ -1,43 +1,43 @@
 {
-   "artist" : "scott_zuckerman_art-html",
-   "body" : "Connecticut artist, Scott Zuckerman studied at the Pratt Institute of Art (Brooklyn, NYC) and the Art Students League (Manhattan, NYC).  He believes that “the zenith of painting was reached during the impressionist period” and that although the impressionist painters “had a profound impact” on him, he states that “nothing can replace the time spent in the field…fishing, hunting or simply observing.”  James D. Balestrier (J.N. Bartfields Gallery, NYC) states that “Scott Zuckerman’s paintings recall those of the masters of natural impressionism, Bruno Liljefors, Carl Rungius, George Brown and others.”  Zuckerman himself says that “he is fascinated by the mystic rhythms of the woods.”  It is no wonder that he is considered to be one of America’s premiere sporting and wildlife artists.  He has had solo exhibitions throughout Connecticut, Maine and New York City, in addition to many other exhibitions throughout the United States, including Hiram Blauvelt Art Museum (Ordell, NJ); Corpus Christi Museum of Science and History (Corpus Christi, TX); National Geographic Society: Explorers Hall (Washington D.C.); Utah Museum of Natural History (Salt Lake City, UT); Burpee Museum of Natural History (Rockford, IL); Cleveland Museum of Natural History (Cleveland OH); Disney’s Animal Kingdom, Orlando, FL); The Delaware Museum of Natural History (Wilmington, DE); The Carnegie Museum of Natural History, Pittsburgh, PA); The Ward Museum of Wildfowl Art (Salisbury, MD); Saint Hubert’s’ Giralda Animal Art Museum (Madison, NJ); Denver Museum of Natural History (Denver, CO); The Academy of Natural Sciences (Philadelphia, PA); Salmagundi Club  (NYC); and Game Conservation International (San Antonio, TX). ",
-   "categories" : [
-      "Sporting Art",
-      "Animal"
-   ],
-   "dimensions" : "OOB, 11.25 x 17.25 inches/Signed lower right",
-   "featured" : false,
-   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/zuckerman_pheasants_grid_gallery_crop.jpg",
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/zuckerman_pheasants_grid.jpg",
-   "gridImageHeight" : 261,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/zuckerman_pheasants_full.jpg",
-   "highResImageHeight" : 2683,
-   "highResImageWidth" : 3694,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced $2,800"
-      },
-      {
-         "highlight" : "Custom framing available"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/zuckerman_pheasants_small.jpg",
-   "mediumResImageHeight" : 704,
-   "mediumResImageWidth" : 970,
-   "metaDescription" : "Connecticut artist, Scott Zuckerman studied at the Pratt Institute of Art (Brooklyn, NYC) and the Art Students League (Manhattan, NYC). He believes that \"the zenit",
-   "metaKeywords" : "",
-   "metaTitle" : "Scott Zuckerman Painting - Pheasant in Flight - 20th Century American Fine Art",
-   "paintingHeight" : "16",
-   "paintingWidth" : "22",
-   "slug" : "scott_zuckerman_pheasants-html",
-   "status" : "None",
-   "title" : "Pheasant in Flight",
-   "youtubeEmbedLink" : ""
+  "paintingWidth": "22",
+  "body": "Connecticut artist, Scott Zuckerman studied at the Pratt Institute of Art (Brooklyn, NYC) and the Art Students League (Manhattan, NYC).  He believes that “the zenith of painting was reached during the impressionist period” and that although the impressionist painters “had a profound impact” on him, he states that “nothing can replace the time spent in the field…fishing, hunting or simply observing.”  James D. Balestrier (J.N. Bartfields Gallery, NYC) states that “Scott Zuckerman’s paintings recall those of the masters of natural impressionism, Bruno Liljefors, Carl Rungius, George Brown and others.”  Zuckerman himself says that “he is fascinated by the mystic rhythms of the woods.”  It is no wonder that he is considered to be one of America’s premiere sporting and wildlife artists.  He has had solo exhibitions throughout Connecticut, Maine and New York City, in addition to many other exhibitions throughout the United States, including Hiram Blauvelt Art Museum (Ordell, NJ); Corpus Christi Museum of Science and History (Corpus Christi, TX); National Geographic Society: Explorers Hall (Washington D.C.); Utah Museum of Natural History (Salt Lake City, UT); Burpee Museum of Natural History (Rockford, IL); Cleveland Museum of Natural History (Cleveland OH); Disney’s Animal Kingdom, Orlando, FL); The Delaware Museum of Natural History (Wilmington, DE); The Carnegie Museum of Natural History, Pittsburgh, PA); The Ward Museum of Wildfowl Art (Salisbury, MD); Saint Hubert’s’ Giralda Animal Art Museum (Madison, NJ); Denver Museum of Natural History (Denver, CO); The Academy of Natural Sciences (Philadelphia, PA); Salmagundi Club  (NYC); and Game Conservation International (San Antonio, TX). ",
+  "highResImageHeight": 2683,
+  "artist": "scott_zuckerman_art-html",
+  "highResImageWidth": 3694,
+  "paintingHeight": "16",
+  "slug": "scott_zuckerman_pheasants-html",
+  "dimensions": "OOB, 11.25 x 17.25 inches/Signed lower right",
+  "featured": false,
+  "metaKeywords": "",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/zuckerman_pheasants_small.jpg",
+  "gridImageWidth": 392,
+  "status": "Sold",
+  "metaTitle": "Scott Zuckerman Painting - Pheasant in Flight - 20th Century American Fine Art",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/zuckerman_pheasants_grid.jpg",
+  "mediumResImageWidth": 970,
+  "mediumResImageHeight": 704,
+  "metaDescription": "Connecticut artist, Scott Zuckerman studied at the Pratt Institute of Art (Brooklyn, NYC) and the Art Students League (Manhattan, NYC). He believes that \"the zenit",
+  "title": "Pheasant in Flight",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/zuckerman_pheasants_grid_gallery_crop.jpg",
+  "categories": [
+    "Sporting Art",
+    "Animal"
+  ],
+  "gridImageHeight": 261,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/zuckerman_pheasants_full.jpg",
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively Priced $2,800"
+    },
+    {
+      "highlight": "Custom framing available"
+    }
+  ]
 }
