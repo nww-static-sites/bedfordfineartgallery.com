@@ -1,40 +1,40 @@
 {
-   "artist" : "edwin_mr_weiner_artwork-html",
-   "body" : "Although recognized as one of the 10 best portrait painters in the United States; he began his professional life as a hydraulic engineer. It was not until his employer, Fairbanks ,Morse & Co. moved the division where he was Chief Engineer to Beloit Wisconsin that he began his second career as a portrait painter. A tribute to his skill as an artist is a series of 35 portraits he painted of prominent citizens of Beloit in cooperation with the Beloit Association of Commerce. He never wanted for commissions--he was commissioned to paint portraits of many Beloit families and also many in Rockford, Illinois.\n\nMr. Weiner did not confine himself to Beloit; he studied with other well-known painters--Wayman Adams, a well-known portrait painter, in Elizabethtown, New York and John C. Johanssen and the Art Students League in New York City. In later years he spent much of his time in Kansas and Oklahoma where he continued with painting portraits of prominent persons. His works were widely exhibited, not only in Beloit, but in galleries in Davenport and Dubuque, Iowa, and Rockford and Chicago, Illinois. His wonderful paintings can still be found throughout the United States. The color saturation and symmetry of this rare, very realistic still life painting by Weiner is very vibrant.",
-   "categories" : [],
-   "dimensions" : "Oil on canvas, 19 x 27 inches / Signed on stretcher bar reverse",
-   "featured" : false,
-   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4052_grid_gallery_crop.jpg",
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4052_grid.jpg",
-   "gridImageHeight" : 260,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4052_original.jpg",
-   "highResImageHeight" : 1526,
-   "highResImageWidth" : 2078,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced $2,000"
-      },
-      {
-         "highlight" : "Custom framing available"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4052_small.jpg",
-   "mediumResImageHeight" : 845,
-   "mediumResImageWidth" : 1151,
-   "metaDescription" : "Edwin M.r. Weiner, American Artist, 19th Century - Still Life With Fruit Oil On Canvas Painting For Sale - 19x27 Inches - Signed On Stretcher Bar Reverse.",
-   "metaKeywords" : "",
-   "metaTitle" : "Edwin M.R. Weiner - Still Life with Fruit Painting For Sale",
-   "paintingHeight" : "22",
-   "paintingWidth" : "30",
-   "slug" : "edwin_m_r_weiner_fruit-html",
-   "status" : "None",
-   "title" : "Still Life with Fruit",
-   "youtubeEmbedLink" : "https://www.youtube.com/embed/GVi4robz_bk?rel=0"
+  "paintingWidth": "30",
+  "body": "Although recognized as one of the 10 best portrait painters in the United States; he began his professional life as a hydraulic engineer. It was not until his employer, Fairbanks ,Morse & Co. moved the division where he was Chief Engineer to Beloit Wisconsin that he began his second career as a portrait painter. A tribute to his skill as an artist is a series of 35 portraits he painted of prominent citizens of Beloit in cooperation with the Beloit Association of Commerce. He never wanted for commissions--he was commissioned to paint portraits of many Beloit families and also many in Rockford, Illinois.\n\nMr. Weiner did not confine himself to Beloit; he studied with other well-known painters--Wayman Adams, a well-known portrait painter, in Elizabethtown, New York and John C. Johanssen and the Art Students League in New York City. In later years he spent much of his time in Kansas and Oklahoma where he continued with painting portraits of prominent persons. His works were widely exhibited, not only in Beloit, but in galleries in Davenport and Dubuque, Iowa, and Rockford and Chicago, Illinois. His wonderful paintings can still be found throughout the United States. The color saturation and symmetry of this rare, very realistic still life painting by Weiner is very vibrant.",
+  "highResImageHeight": 1526,
+  "artist": "edwin_mr_weiner_artwork-html",
+  "highResImageWidth": 2078,
+  "paintingHeight": "22",
+  "slug": "edwin_m_r_weiner_fruit-html",
+  "dimensions": "Oil on canvas, 19 x 27 inches / Signed on stretcher bar reverse",
+  "featured": false,
+  "metaKeywords": "",
+  "youtubeEmbedLink": "https://www.youtube.com/embed/GVi4robz_bk?rel=0",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4052_small.jpg",
+  "gridImageWidth": 392,
+  "status": "Sold",
+  "metaTitle": "Edwin M.R. Weiner - Still Life with Fruit Painting For Sale",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4052_grid.jpg",
+  "mediumResImageWidth": 1151,
+  "mediumResImageHeight": 845,
+  "metaDescription": "Edwin M.r. Weiner, American Artist, 19th Century - Still Life With Fruit Oil On Canvas Painting For Sale - 19x27 Inches - Signed On Stretcher Bar Reverse.",
+  "title": "Still Life with Fruit",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4052_grid_gallery_crop.jpg",
+  "categories": [],
+  "gridImageHeight": 260,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4052_original.jpg",
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively Priced SOLD"
+    },
+    {
+      "highlight": "Custom framing available"
+    }
+  ]
 }
