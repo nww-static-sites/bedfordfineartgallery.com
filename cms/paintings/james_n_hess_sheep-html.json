@@ -17,8 +17,22 @@
   "mediumResImageHeight": 1068,
   "metaDescription": "Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings incl",
   "title": "Resting Sheep and Shepherd",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1674346945/mailers/img/hess2.jpg",
   "categories": [],
   "gridImageHeight": 261,
-  "highResImage": "",
-  "highlights": []
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1680296165/JN_Hess_IMG_0804_2_lrg_cr_fr_zz2b34.jpg",
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively priced  $7,900"
+    },
+    {
+      "highlight": "Custom framing available"
+    }
+  ]
 }
