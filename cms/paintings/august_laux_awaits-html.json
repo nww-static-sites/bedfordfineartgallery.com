@@ -10,7 +10,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/laux_small.jpg",
   "gridImageWidth": 392,
-  "status": "Sold",
+  "status": "None",
   "metaTitle": "August Laux - She Awaits - 19th Century American Fine Art",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/laux_grid2.jpg",
   "mediumResImageWidth": 1343,
@@ -21,5 +21,18 @@
   "categories": [],
   "gridImageHeight": 260,
   "highResImage": "",
-  "highlights": []
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively priced  $6,900"
+    },
+    {
+      "highlight": "Custom framing available"
+    }
+  ]
 }
