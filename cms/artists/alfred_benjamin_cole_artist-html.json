@@ -2,5 +2,8 @@
   "hasLandingPage": false,
   "name": "Alfred Benjamin Cole",
   "tinyDescription": "English 1830 -1883",
-  "slug": "alfred_benjamin_cole_artist-html"
+  "slug": "alfred_benjamin_cole_artist-html",
+  "paintings": [
+    "a_cole_cookham_on_thames-html"
+  ]
 }
