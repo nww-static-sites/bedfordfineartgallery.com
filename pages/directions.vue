@@ -40,7 +40,7 @@ Bedford PA 15522<br>
 </section>
 </div>
 <!-- end testimonials mobile -->
-<div class="artwork_header"><h1 style="padding: 32px 0px 0px 0px;">Bedford, Pennsylvania</h1></div>
+<div class="artwork_header"><h2 style="padding: 32px 0px 0px 0px;">Bedford, Pennsylvania</h2></div>
 <div class="bedford_banner">
   <nuxt-img provider="cloudinary" loading="lazy" style="width: 100%; height:auto; display:block;" src="small_town.jpg" width="1868" height="414" alt=""/> </div>
 
