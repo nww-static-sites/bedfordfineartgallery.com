@@ -12,6 +12,9 @@
   "scrollingHomepageImage": false,
   "title": "Rolled Hay",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1681311510/Gibbons_Rolled_Hay_IMG_1660_full_gall_cr_uepcjg.jpg",
+  "categories": [
+    "Landscape"
+  ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1681311652/Gibbons_Rolled_Hay_IMG_1660_lrg_cr_fr_rbeckg.jpg",
   "highlights": [
     {
