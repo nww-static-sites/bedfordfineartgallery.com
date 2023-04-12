@@ -3,5 +3,8 @@
   "name": "Charles W. Gibbons",
   "alias": "Bud Gibbons",
   "tinyDescription": "American",
-  "slug": "bud_gibbons_artist-html"
+  "slug": "bud_gibbons_artist-html",
+  "paintings": [
+    "bud_gibbons_rolled_hay-html"
+  ]
 }
