@@ -1,43 +1,30 @@
 {
-   "artist" : "eugene_alonzo_poole-html",
-   "body" : "Eugene Poole was southwestern Pennsylvania landscape painter—one of the Scalp Level artists who painted alongside George Hetzel, founder of the Scalp Level Movement. Poole was born in Pooleville, Maryland and studied at the Pennsylvania Academy of Fine Arts. Poole later traveled to Paris where he attended the Ecole de Beaux Arts and studied with French portrait painter, Leon Bonnat. After returning to the United States, he gained recognitions for his sculpted busts of Robert E. Lee, General Stonewall Jackson, and General Joseph E. Johnson. Given his Paris training, Poole also painted numerous portraits, some of which hung in the Corcoran Gallery in Washington, D.C.\n\nPoole arrived in Pittsburgh in 1887 where he made the acquaintance of George Hetzel. Poole painted autumnal landscape scenes in the French Barbizon manner, a style embraced by the Scalp Level artists. Poole was skilled in capturing on canvas, the fleeting atmospheric mood of his natural surroundings. He was appointed to the jury of awards for the Carnegie International and served as Director of the Associated Artists of Pittsburgh.",
-   "categories" : [
-      "Landscape",
-      "Animal"
-   ],
-   "dimensions" : "Oil on canvas, 22 x 36 inches / signed lower left E. A. Poole",
-   "featured" : false,
-   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/e_a_poole_grid_gallery_crop.jpg",
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/e_a_poole_grid.jpg",
-   "gridImageHeight" : 260,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/e_a_poole_full.jpg",
-   "highResImageHeight" : 1949,
-   "highResImageWidth" : 2779,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced $7,900"
-      },
-      {
-         "highlight" : "Custom framing available"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/e_a_poole_small.jpg",
-   "mediumResImageHeight" : 977,
-   "mediumResImageWidth" : 1394,
-   "metaDescription" : "Poole was born in Pooleville, Maryland and studied at the Pennsylvania Academy of Fine Arts. Poole later traveled to Paris.",
-   "metaKeywords" : "",
-   "metaTitle" : "Eugene Alonzo Poole - Sheep Ranch Painting For Sale",
-   "paintingHeight" : "34",
-   "paintingWidth" : "48.25",
-   "slug" : "eugene_alonzo_poole_sheep-html",
-   "status" : "None",
-   "title" : "SHEEP RANCH, GREENE COUNTY, PENNSYLVANIA",
-   "youtubeEmbedLink" : "https://www.youtube.com/embed/9dc88AgcXlc?rel=0"
+  "paintingWidth": "48.25",
+  "body": "Eugene Poole was southwestern Pennsylvania landscape painter—one of the Scalp Level artists who painted alongside George Hetzel, founder of the Scalp Level Movement. Poole was born in Pooleville, Maryland and studied at the Pennsylvania Academy of Fine Arts. Poole later traveled to Paris where he attended the Ecole de Beaux Arts and studied with French portrait painter, Leon Bonnat. After returning to the United States, he gained recognitions for his sculpted busts of Robert E. Lee, General Stonewall Jackson, and General Joseph E. Johnson. Given his Paris training, Poole also painted numerous portraits, some of which hung in the Corcoran Gallery in Washington, D.C.\n\nPoole arrived in Pittsburgh in 1887 where he made the acquaintance of George Hetzel. Poole painted autumnal landscape scenes in the French Barbizon manner, a style embraced by the Scalp Level artists. Poole was skilled in capturing on canvas, the fleeting atmospheric mood of his natural surroundings. He was appointed to the jury of awards for the Carnegie International and served as Director of the Associated Artists of Pittsburgh.",
+  "highResImageHeight": 1949,
+  "artist": "eugene_alonzo_poole-html",
+  "highResImageWidth": 2779,
+  "paintingHeight": "34",
+  "slug": "eugene_alonzo_poole_sheep-html",
+  "dimensions": "Oil on canvas, 22 x 36 inches / signed lower left E. A. Poole",
+  "featured": false,
+  "metaKeywords": "",
+  "youtubeEmbedLink": "https://www.youtube.com/embed/9dc88AgcXlc?rel=0",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/e_a_poole_small.jpg",
+  "gridImageWidth": 392,
+  "status": "Sold",
+  "metaTitle": "Eugene Alonzo Poole - Sheep Ranch Painting For Sale",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/e_a_poole_grid.jpg",
+  "mediumResImageWidth": 1394,
+  "mediumResImageHeight": 977,
+  "metaDescription": "Poole was born in Pooleville, Maryland and studied at the Pennsylvania Academy of Fine Arts. Poole later traveled to Paris.",
+  "title": "SHEEP RANCH, GREENE COUNTY, PENNSYLVANIA",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/e_a_poole_grid_gallery_crop.jpg",
+  "categories": [
+    "Landscape",
+    "Animal"
+  ],
+  "gridImageHeight": 260,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/e_a_poole_full.jpg",
+  "highlights": []
 }
