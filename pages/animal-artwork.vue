@@ -1,5 +1,4 @@
 <template>
-<h1>Animal Artwork</h1>
     <Gallery :category="category" :paintings="paintings" />
 </template>
 
