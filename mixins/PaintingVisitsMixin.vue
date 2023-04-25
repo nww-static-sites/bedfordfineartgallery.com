@@ -50,7 +50,7 @@ export default {
 			const $this = this
             setTimeout(function () {
             	paintingViews[paintingPathname].popupLastShown = new Date()
-				$this.showModal = true
+				// $this.showModal = true
         		localStorage.paintingViews = JSON.stringify(paintingViews)
             }, 5000)
         } else {
