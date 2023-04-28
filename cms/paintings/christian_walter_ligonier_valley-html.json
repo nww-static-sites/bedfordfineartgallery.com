@@ -7,7 +7,7 @@
   "dimensions": "Oil on canvas, 29.5 x 39.5 inches/Signed lower left",
   "featured": false,
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1677954081/C_Walter_Ligonier_Valley_IMG_1594_sm_cr_fr_widsxm.jpg",
-  "status": "New",
+  "status": "Sold",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1677954010/C_Walter_Ligonier_Valley_IMG_1594_zoom_cr_xtusgc.jpg",
   "scrollingHomepageImage": false,
   "title": "Ligonier Valley",
@@ -16,18 +16,5 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1677954111/C_Walter_Ligonier_Valley_IMG_1594_lrg_cr_fr_hmyjx5.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $6,900"
-    },
-    {
-      "highlight": "Custom framing available"
-    }
-  ]
+  "highlights": []
 }
