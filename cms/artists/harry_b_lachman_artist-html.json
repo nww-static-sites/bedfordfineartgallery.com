@@ -2,5 +2,8 @@
   "hasLandingPage": false,
   "name": "Harry B. Lachman",
   "tinyDescription": "American 1886 - 1975",
-  "slug": "harry_b_lachman_artist-html"
+  "slug": "harry_b_lachman_artist-html",
+  "paintings": [
+    "harry_b_lachman_book_stalls_near_notre_dame-html"
+  ]
 }
