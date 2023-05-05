@@ -1,42 +1,42 @@
 {
-   "artist" : "george_hetzel-html",
-   "body" : "George Hetzel was born in the French province of Alsace, but immigrated with his family to America in 1828, settling in Allegheny City (Pittsburgh’s North Side).  In his teens Hetzel began an apprenticeship with a painter with whom he helped decorate river boat cabins and murals for Pittsburgh saloons.  Recognizing his artistic talent, George’s father sent him to the Dusseldorf Art Academy for formal training.  After returning to Pittsburgh, Hetzel quickly established himself as one of Pittsburgh’s leading artists, obtaining commissions for portraits, still lifes and landscapes.  His early paintings reflect his Dusseldorf training--the use of chiaroscuro and the realism for which the Academy was known. Hudson River school landscape artists, Asher B. Durand and Jasper Cropsey, were among Hetzel’s friends, and he owned some of their paintings. A fishing trip for mountain trout 1866 exposed him to the beauty of the Paint Creek and Little Paint Creek areas, near Scalp Level, Pennsylvania.  The following summer he returned, bringing with him the faculty of the Pittsburgh School of Design to paint landscapes from nature.  Every summer through the late 1860s to circa 1890, artists from Pittsburgh traveled to Scalp Level to study nature and to sketch and paint. Hetzel exhibited at the National Academy of Design (New York City, 1857-58, 1865, 1875, 1879-1882); the Pennsylvania Academy of the Fine Arts, the Centennial International Exhibition (Philadelphia, 1876) and the World’s Columbian Exhibition (Chicago, 1983). Hetzel was the only Pittsburgh artist invited to exhibit at the 1876 Centennial International Exhibition in Philadelphia. \n\nHigh auction record for this artist is $30,000. ",
-   "categories" : [
-      "Landscape"
-   ],
-   "dimensions" : "Oil on canvas, 13.5 x 22.25 inches/Signed lower left",
-   "featured" : false,
-   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hetzel_point_grid_gallery_crop.jpg",
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hetzel_point_grid.jpg",
-   "gridImageHeight" : 261,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hetzel_point_full.jpg",
-   "highResImageHeight" : 1654,
-   "highResImageWidth" : 2461,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced $22,000"
-      },
-      {
-         "highlight" : "Custom framing available"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hetzel_point_small.jpg",
-   "mediumResImageHeight" : 679,
-   "mediumResImageWidth" : 1009,
-   "metaDescription" : "George Hetzel, American Painter From 1826-1899 - Rose Point Oil On Canvas Painting For Sale - 13.5x22.25 Inches - Signed Lower Left.",
-   "metaKeywords" : "",
-   "metaTitle" : "George Hetzel - Rose Point Painting For Sale",
-   "paintingHeight" : "18.5",
-   "paintingWidth" : "27.25",
-   "slug" : "george_hetzel_rose_point-html",
-   "status" : "None",
-   "title" : "Rose Point",
-   "youtubeEmbedLink" : "https://www.youtube.com/embed/Mcb6O7iZ4Us?rel=0"
+  "paintingWidth": "27.25",
+  "body": "George Hetzel was born in the French province of Alsace, but immigrated with his family to America in 1828, settling in Allegheny City (Pittsburgh’s North Side).  In his teens Hetzel began an apprenticeship with a painter with whom he helped decorate river boat cabins and murals for Pittsburgh saloons.  Recognizing his artistic talent, George’s father sent him to the Dusseldorf Art Academy for formal training.  After returning to Pittsburgh, Hetzel quickly established himself as one of Pittsburgh’s leading artists, obtaining commissions for portraits, still lifes and landscapes.  His early paintings reflect his Dusseldorf training--the use of chiaroscuro and the realism for which the Academy was known. Hudson River school landscape artists, Asher B. Durand and Jasper Cropsey, were among Hetzel’s friends, and he owned some of their paintings. A fishing trip for mountain trout 1866 exposed him to the beauty of the Paint Creek and Little Paint Creek areas, near Scalp Level, Pennsylvania.  The following summer he returned, bringing with him the faculty of the Pittsburgh School of Design to paint landscapes from nature.  Every summer through the late 1860s to circa 1890, artists from Pittsburgh traveled to Scalp Level to study nature and to sketch and paint. Hetzel exhibited at the National Academy of Design (New York City, 1857-58, 1865, 1875, 1879-1882); the Pennsylvania Academy of the Fine Arts, the Centennial International Exhibition (Philadelphia, 1876) and the World’s Columbian Exhibition (Chicago, 1983). Hetzel was the only Pittsburgh artist invited to exhibit at the 1876 Centennial International Exhibition in Philadelphia. \n\nHigh auction record for this artist is $30,000. ",
+  "highResImageHeight": 1654,
+  "artist": "george_hetzel-html",
+  "highResImageWidth": 2461,
+  "paintingHeight": "18.5",
+  "slug": "george_hetzel_rose_point-html",
+  "dimensions": "Oil on canvas, 13.5 x 22.25 inches/Signed lower left",
+  "featured": true,
+  "metaKeywords": "",
+  "youtubeEmbedLink": "https://www.youtube.com/embed/Mcb6O7iZ4Us?rel=0",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hetzel_point_small.jpg",
+  "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "George Hetzel - Rose Point Painting For Sale",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hetzel_point_grid.jpg",
+  "mediumResImageWidth": 1009,
+  "mediumResImageHeight": 679,
+  "metaDescription": "George Hetzel, American Painter From 1826-1899 - Rose Point Oil On Canvas Painting For Sale - 13.5x22.25 Inches - Signed Lower Left.",
+  "title": "Rose Point",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hetzel_point_grid_gallery_crop.jpg",
+  "categories": [
+    "Landscape"
+  ],
+  "gridImageHeight": 261,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hetzel_point_full.jpg",
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively Priced $22,000"
+    },
+    {
+      "highlight": "Custom framing available"
+    }
+  ]
 }
