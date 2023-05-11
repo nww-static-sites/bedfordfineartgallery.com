@@ -140,8 +140,14 @@
                         Some notable sales to many happy customers
                     </h2>
                 </div>
+                <div class="homeSoldSlidingImagesMobile">
+                <SoldSlidingImagesMobile />
+                </div>
+                <div class="homeSoldSlidingImagesDesktop">
+                <SoldSlidingImages />
+                </div>
 
-                <NotableSales :sold-paintings="soldPaintings" />
+
 
                 <div class="flex_wrap" style="clear: both; padding-top: 15px">
                     <div class="flex_3">
@@ -868,7 +874,6 @@
 </template>
 
 <script>
-import NotableSales from '~/components/NotableSales'
 import YouTubeVideo from '~/components/YouTubeVideo'
 import { loadGalleryPaintings } from '~/libs/paintings'
 import { loadShortTestimonials } from '~/libs/testimonials'
@@ -895,15 +900,10 @@ const kebabize = (str) => {
 }
 export default {
     name: 'App',
-    components: { NotableSales, YouTubeVideo },
+    components: { YouTubeVideo },
     async asyncData({ $content }) {
         return {
-            soldPaintings: await loadGalleryPaintings({
-                $content,
-                sold: true,
-                columns: ['title', 'slug', 'gridImage', 'mediumResImage', 'artist'],
-            }),
-            scrollingHomepageImages: await loadGalleryPaintings({
+                scrollingHomepageImages: await loadGalleryPaintings({
                 $content,
                 scrollingHomepageImage: true,
                 columns: ['title', 'slug', 'gridImage', 'mediumResImage'],
@@ -1075,6 +1075,25 @@ export default {
     .flex_wrap .flex_3 {
         margin-bottom: 1em;
     }
+}
+
+.homeSoldSlidingImagesMobile {
+    display: block;
+
+}
+.homeSoldSlidingImagesDesktop {
+    display: none;
+
+}
+@media screen and (min-width: 560px) {
+.homeSoldSlidingImagesMobile {
+    display: none;
+
+}
+.homeSoldSlidingImagesDesktop {
+    display: block;
+
+}
 }
 </style>
 
