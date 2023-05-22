@@ -7,7 +7,7 @@
   "dimensions": "Oil on canvas, 16 x 20 inches/Signed lower left",
   "featured": false,
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1681311595/Gibbons_Rolled_Hay_IMG_1660_sm_cr_fr_rln4c8.jpg",
-  "status": "New",
+  "status": "Sold",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1681311543/Gibbons_Rolled_Hay_IMG_1660_zoom_cr_cbybm8.jpg",
   "scrollingHomepageImage": false,
   "title": "Rolled Hay",
@@ -16,18 +16,5 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1681311652/Gibbons_Rolled_Hay_IMG_1660_lrg_cr_fr_rbeckg.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $2,500"
-    },
-    {
-      "highlight": "Custom framing available"
-    }
-  ]
+  "highlights": []
 }
