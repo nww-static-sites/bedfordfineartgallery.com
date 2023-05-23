@@ -23,29 +23,27 @@
                     Please click photos for a COMPLETE image and description.
                 </p>
                 <ul class="productGrid2" style="text-align: center">
-                    <template v-for="(painting, index) in artist.paintings" :key="index">
-                        <li v-if="artist.paintingToObj[painting]">
-                            <div v-if="isSoldOrHold(painting)" class="sold">
-                                <span class="soldTag">{{ soldOrHoldText(painting) }}</span>
-                                <nuxt-link :to="`/${painting.replace('-html', '.html')}`"
-                                    ><nuxt-img
-                                        provider="cloudinary"
-                                        :src="getGridImage(artist.paintingToObj[painting].gridImage)"
-                                        :alt="nameWithTinyDescription"
-                                    />
-                                </nuxt-link>
-                            </div>
-                            <template v-else>
-                                <nuxt-link :to="`/${painting.replace('-html', '.html')}`"
-                                    ><nuxt-img
-                                        provider="cloudinary"
-                                        :src="getGridImage(artist.paintingToObj[painting].gridImage)"
-                                        :alt="nameWithTinyDescription"
-                                    />
-                                </nuxt-link>
-                            </template>
-                        </li>
-                    </template>
+                    <li v-for="(painting, index) in filteredPaintings" :key="index">
+                        <div v-if="isSoldOrHold(painting)" class="sold">
+                            <span class="soldTag">{{ soldOrHoldText(painting) }}</span>
+                            <nuxt-link :to="`/${painting.replace('-html', '.html')}`"
+                                ><nuxt-img
+                                    provider="cloudinary"
+                                    :src="getGridImage(artist.paintingToObj[painting].gridImage)"
+                                    :alt="nameWithTinyDescription"
+                                />
+                            </nuxt-link>
+                        </div>
+                        <template v-else>
+                            <nuxt-link :to="`/${painting.replace('-html', '.html')}`"
+                                ><nuxt-img
+                                    provider="cloudinary"
+                                    :src="getGridImage(artist.paintingToObj[painting].gridImage)"
+                                    :alt="nameWithTinyDescription"
+                                />
+                            </nuxt-link>
+                        </template>
+                    </li>
                 </ul>
             </section>
         </div>
@@ -128,6 +126,9 @@ export default {
         }
     },
     computed: {
+        filteredPaintings() {
+            return this.artist.paintings.filter((painting) => this.artist.paintingToObj[painting])
+        },
         nameWithTinyDescription() {
             let nameWithTinyDescription = this.artist.name
             if (this.artist.tinyDescription) {
