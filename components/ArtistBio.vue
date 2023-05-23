@@ -6,7 +6,9 @@
                     <h1>
                         <span class="artistTitle">{{ nameWithTinyDescription }}</span>
                     </h1>
-					<span v-if="artist.alias" class="alias">(&nbsp;&nbsp;aka&nbsp;&nbsp;{{ artist.alias }}&nbsp;&nbsp;)</span>
+                    <span v-if="artist.alias" class="alias"
+                        >(&nbsp;&nbsp;aka&nbsp;&nbsp;{{ artist.alias }}&nbsp;&nbsp;)</span
+                    >
                 </div>
             </section>
         </div>
@@ -21,29 +23,37 @@
                     Please click photos for a COMPLETE image and description.
                 </p>
                 <ul class="productGrid2" style="text-align: center">
-                    <li v-for="(painting, index) in artist.paintings" :key="index">
-                        <div v-if="isSoldOrHold(painting)" class="sold">
-                            <span class="soldTag">{{ soldOrHoldText(painting) }}</span>
-                            <nuxt-link :to="`/${painting.replace('-html', '.html')}`"
-                                ><nuxt-img provider="cloudinary" :src="getGridImage(artist.paintingToObj[painting].gridImage)" :alt="nameWithTinyDescription" />
-                            </nuxt-link>
-                        </div>
-						<template v-else>
-                            <nuxt-link :to="`/${painting.replace('-html', '.html')}`"
-                                ><nuxt-img provider="cloudinary" :src="getGridImage(artist.paintingToObj[painting].gridImage)" :alt="nameWithTinyDescription" />
-                            </nuxt-link>
-						</template>
-                    </li>
+                    <template v-for="(painting, index) in artist.paintings" :key="index">
+                        <li v-if="artist.paintingToObj[painting]">
+                            <div v-if="isSoldOrHold(painting)" class="sold">
+                                <span class="soldTag">{{ soldOrHoldText(painting) }}</span>
+                                <nuxt-link :to="`/${painting.replace('-html', '.html')}`"
+                                    ><nuxt-img
+                                        provider="cloudinary"
+                                        :src="getGridImage(artist.paintingToObj[painting].gridImage)"
+                                        :alt="nameWithTinyDescription"
+                                    />
+                                </nuxt-link>
+                            </div>
+                            <template v-else>
+                                <nuxt-link :to="`/${painting.replace('-html', '.html')}`"
+                                    ><nuxt-img
+                                        provider="cloudinary"
+                                        :src="getGridImage(artist.paintingToObj[painting].gridImage)"
+                                        :alt="nameWithTinyDescription"
+                                    />
+                                </nuxt-link>
+                            </template>
+                        </li>
+                    </template>
                 </ul>
             </section>
         </div>
 
         <div class="container primary">
             <section class="wrapper clearfix">
-                <p
-                    class="bio_full"
-				style="max-width: 860px; margin: auto; line-height: 28px">
-				{{ artist.body }}
+                <p class="bio_full" style="max-width: 860px; margin: auto; line-height: 28px">
+                    {{ artist.body }}
                     <span
                         style="
                             font-weight: bold;
@@ -72,11 +82,14 @@
                 </p>
 
                 <span class="more bio_mobile" style="max-width: 860px; margin: auto; line-height: 28px">
-					{{ mobileBio }}
-                     &nbsp;&nbsp;<span class="morelink" @click="showFullMobileBio = !showFullMobileBio">{{ showFullMobileBio ? 'Less' : 'More' }}</span>
-					 </span>
+                    {{ mobileBio }}
+                    &nbsp;&nbsp;<span class="morelink" @click="showFullMobileBio = !showFullMobileBio">{{
+                        showFullMobileBio ? 'Less' : 'More'
+                    }}</span>
+                </span>
                 <p
-                    class="bio_mobile" style="font-weight: bold; max-width: 860px; margin: auto; line-height: 28px; padding-top: 16px"
+                    class="bio_mobile"
+                    style="font-weight: bold; max-width: 860px; margin: auto; line-height: 28px; padding-top: 16px"
                 >
                     In addition to offering the artwork below for sale, Bedford Fine Art Gallery is also actively
                     seeking to purchase artwork by {{ artist.name }}.
@@ -109,11 +122,11 @@ export default {
             required: true,
         },
     },
-	data() {
-		return {
-			showFullMobileBio: false,
-		}
-	},
+    data() {
+        return {
+            showFullMobileBio: false,
+        }
+    },
     computed: {
         nameWithTinyDescription() {
             let nameWithTinyDescription = this.artist.name
@@ -123,40 +136,39 @@ export default {
 
             return nameWithTinyDescription
         },
-		mobileBio() {
-			return this.showFullMobileBio ? this.artist.body : getPostPreview(this.artist.body)
-		}
+        mobileBio() {
+            return this.showFullMobileBio ? this.artist.body : getPostPreview(this.artist.body)
+        },
     },
-	methods: {
+    methods: {
         isSoldOrHold(painting) {
-			return ['Sold', 'Hold'].includes(this.artist.paintingToObj[painting].status)
-		},
+            return ['Sold', 'Hold'].includes(this.artist.paintingToObj[painting].status)
+        },
         soldOrHoldText(painting) {
-			return this.artist.paintingToObj[painting].status === 'Sold' ? 'sold' : 'hold'
+            return this.artist.paintingToObj[painting].status === 'Sold' ? 'sold' : 'hold'
         },
         getGridImage(image) {
             return image.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
-        }
-	},
+        },
+    },
 }
 </script>
 
 <style scoped>
 .bio_full {
-	display:none;
+    display: none;
 }
 .bio_mobile {
-	display: block;
+    display: block;
 }
 
 @media screen and (min-width: 600px) {
-	.bio_full {
-		display:block
-	}
-	.bio_mobile {
-	display: none;
-}
-
+    .bio_full {
+        display: block;
+    }
+    .bio_mobile {
+        display: none;
+    }
 }
 
 .morecontent span {
@@ -164,15 +176,15 @@ export default {
 }
 .morelink {
     display: inline-block;
-	font-weight:bold;
-	color: #333333;
-	text-decoration:none;
-	border-bottom: 1px solid #222222;
-	cursor: pointer;
+    font-weight: bold;
+    color: #333333;
+    text-decoration: none;
+    border-bottom: 1px solid #222222;
+    cursor: pointer;
 }
 
 .bio-secondary {
-	   background-image: url('~assets/images/black_back.png');
-	   background-repeat: repeat;
+    background-image: url('~assets/images/black_back.png');
+    background-repeat: repeat;
 }
 </style>
