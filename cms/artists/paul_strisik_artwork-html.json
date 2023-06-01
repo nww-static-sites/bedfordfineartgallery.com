@@ -1,10 +1,11 @@
 {
-    "alias" : "",
-   "hasLandingPage" : false,
-   "name" : "Paul Strisik",
-   "paintings" : [
-      "paul_strisik_maine_cove-html"
-   ],
-   "slug" : "paul_strisik_artwork-html",
-   "tinyDescription" : "American 1918 - 1998"
+  "alias": "",
+  "hasLandingPage": false,
+  "name": "Paul Strisik",
+  "paintings": [
+    "paul_strisik_maine_cove-html",
+    "paul_strisik_pierces_cove_maine-html"
+  ],
+  "slug": "paul_strisik_artwork-html",
+  "tinyDescription": "American 1918 - 1998"
 }
