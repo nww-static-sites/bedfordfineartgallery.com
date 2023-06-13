@@ -2,5 +2,8 @@
   "hasLandingPage": false,
   "name": "Artus Van Briggle",
   "tinyDescription": "American 1869 - 1904",
-  "slug": "artus_van_briggle_artist-html"
+  "slug": "artus_van_briggle_artist-html",
+  "paintings": [
+    "artus_van_briggle_sunny_afternoon-html"
+  ]
 }
