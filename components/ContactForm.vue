@@ -1,16 +1,6 @@
 <template>
     <form id="contactform" :class="formClass" name="contactform" @submit.prevent="submit()" >
         <label
-            >Name
-            <input id="name" v-model="form.name" name="name" type="text" :disabled="isSubmitting" />
-        </label>
-
-        <label
-            >Email
-            <input id="email" v-model="form.email" name="email" type="text" :disabled="isSubmitting" />
-        </label>
-
-        <label
             >Phone
             <input id="phone" v-model="form.phone" name="phone" type="text" :disabled="isSubmitting" />
         </label>
