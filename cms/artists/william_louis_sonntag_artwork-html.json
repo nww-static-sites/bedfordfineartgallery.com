@@ -1,10 +1,12 @@
 {
-   "alias" : "William Louis Sonntag Sr., William Sonntag",
-   "hasLandingPage" : false,
-   "name" : "William Louis Sonntag",
-   "paintings" : [
-      "william_louis_sonntag_landscape-html"
-   ],
-   "slug" : "william_louis_sonntag_artwork-html",
-   "tinyDescription" : "American 1822 - 1900"
+  "alias": "William Louis Sonntag Sr., William Sonntag",
+  "hasLandingPage": false,
+  "name": "William Louis Sonntag",
+  "paintings": [
+    "william_louis_sonntag_landscape-html",
+    "william_sonntag_sultry_afternoon-html",
+    "william_sonntag_setting_sun_on_the_river-html"
+  ],
+  "slug": "william_louis_sonntag_artwork-html",
+  "tinyDescription": "American 1822 - 1900"
 }
