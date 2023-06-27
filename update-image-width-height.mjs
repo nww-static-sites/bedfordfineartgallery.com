@@ -2,9 +2,11 @@ import probe from 'probe-image-size'
 import fs from 'fs'
 
 async function updateImageDimensions(painting, imageType) {
-  const result = await probe(painting[imageType])
-	painting[`${imageType}Width`] = result.width
-	painting[`${imageType}Height`] = result.height
+  try {
+    const result = await probe(painting[imageType])
+	  painting[`${imageType}Width`] = result.width
+	  painting[`${imageType}Height`] = result.height
+  }
 }
 
 async function main() {
