@@ -1,8 +1,8 @@
 <template>
     <form id="contactform" :class="formClass" name="contactform" @submit.prevent="submit()" >
         <label
-            >Phone
-            <input id="phone" v-model="form.phone" name="phone" type="text" :disabled="isSubmitting" />
+            >Email
+            <input id="email" v-model="form.email" name="email" type="text" :disabled="isSubmitting" />
         </label>
 
         <label
@@ -40,7 +40,7 @@ export default {
         paintingTitle: {
             type: String,
             required: false,
-			default: undefined,
+			      default: undefined,
         },
         artistNameWithTinyDescription: {
             type: String,
@@ -62,8 +62,6 @@ export default {
             submitStatus: null,
 			form: {
 				...paintingFormValues,
-				name: null,
-				phone: null,
 				email: null,
 				comments: null,
 			}
