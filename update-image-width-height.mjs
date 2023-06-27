@@ -6,7 +6,7 @@ async function updateImageDimensions(painting, imageType) {
     const result = await probe(painting[imageType])
 	  painting[`${imageType}Width`] = result.width
 	  painting[`${imageType}Height`] = result.height
-  }
+  } catch (err) { }
 }
 
 async function main() {
