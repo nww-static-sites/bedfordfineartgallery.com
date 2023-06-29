@@ -1,10 +1,11 @@
 {
-    "alias" : "",
-   "hasLandingPage" : false,
-   "name" : "William Holbrook Beard",
-   "paintings" : [
-      "william_holbrook_beard_squirrel-html"
-   ],
-   "slug" : "william_holbrook_beard_artwork-html",
-   "tinyDescription" : "American, 1825 - 1900"
+  "alias": "",
+  "hasLandingPage": false,
+  "name": "William Holbrook Beard",
+  "paintings": [
+    "william_holbrook_beard_squirrel-html",
+    "william_holbrook_beard_deer_at_rock_ledge-html"
+  ],
+  "slug": "william_holbrook_beard_artwork-html",
+  "tinyDescription": "American, 1825 - 1900"
 }
