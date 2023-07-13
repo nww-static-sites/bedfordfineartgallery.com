@@ -1,10 +1,11 @@
 {
-   "alias" : "William M. Hart, W.M. Hart",
-   "hasLandingPage" : false,
-   "name" : "William Hart",
-   "paintings" : [
-      "william_hart_cattle-html"
-   ],
-   "slug" : "william_hart_artwork-html",
-   "tinyDescription" : "American 1823 - 1894"
+  "alias": "William M. Hart, W.M. Hart",
+  "hasLandingPage": false,
+  "name": "William Hart",
+  "paintings": [
+    "william_hart_cattle-html",
+    "william_hart_hudson_valley_landscape-html"
+  ],
+  "slug": "william_hart_artwork-html",
+  "tinyDescription": "American 1823 - 1894"
 }
