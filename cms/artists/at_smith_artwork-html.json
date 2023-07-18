@@ -1,6 +1,6 @@
 {
     "alias" : "",
-   "hasLandingPage" : false,
+   "hasLandingPage": true,
    "name" : "A.T. Smith",
    "paintings" : [
       "a_t_smith_flowers-html"

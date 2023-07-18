@@ -1,6 +1,6 @@
 {
     "alias" : "",
-   "hasLandingPage" : false,
+   "hasLandingPage": true,
    "name" : "Jane Peterson",
    "paintings" : [
       "jane_peterson_port-html"
