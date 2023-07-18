@@ -3,5 +3,8 @@
   "name": "Howard Russell Butler",
   "tinyDescription": "American 1856 - 1934",
   "slug": "howard_russell_butler_artist-html",
-  "alias": "H.R. Butler"
+  "alias": "H.R. Butler",
+  "paintings": [
+    "howard_russell_butler_rocky_gulch-html"
+  ]
 }

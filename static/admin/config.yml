@@ -27,7 +27,7 @@ collections:
           - { label: 'Name', name: 'name', widget: 'string', required: true }
           - { label: 'Alias', name: 'alias', widget: 'string', required: false }
           - { label: 'Tiny Description (shows next to name)', name: 'tinyDescription', widget: 'string' }
-          - { label: 'Has Landing Page?', name: 'hasLandingPage', widget: 'boolean', default: false }
+          - { label: 'Has Landing Page?', name: 'hasLandingPage', widget: 'boolean', default: true }
           - { label: 'Body', name: 'body', widget: 'markdown', required: false }
           - {
                 label: 'Paintings',
