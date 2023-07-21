@@ -2,5 +2,8 @@
   "hasLandingPage": true,
   "name": "Daniel Johnson Kellogg",
   "tinyDescription": "American 19th Century",
-  "slug": "daniel_j_kellogg_artist-html"
+  "slug": "daniel_j_kellogg_artist-html",
+  "paintings": [
+    "daniel_j_kellogg_native_american_encampment-html"
+  ]
 }
