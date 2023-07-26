@@ -78,7 +78,6 @@
 
                     <div class="grid_span">
 <ul>
-<li>Finding fine art you love on our website only takes a couple minutes.</li>
 <li>We have over 30 years’ experience and our art is the best-of-the-best.</li>
 <li>For art lovers who are dissatisfied with the current way to purchase fine art, we provide new solutions to find what you truly love.</li>
 <li>Unlike one-trick pony galleries that have high overhead and pushy sales techniques, we do not put any pressure on you or push you into art you may not love.</li>
@@ -242,16 +241,32 @@
                         </div>
                     </div>
                 </div>
-                <div style="padding-top: 32px; padding-bottom: 24px">
+                <div style="padding-top: 32px; padding-bottom: 0px">
                     <nuxt-img provider="cloudinary"
                         loading="lazy"
                         class="img_full"
-                        src="/whats_in_it.jpg"
+                        src="/whats_in_it_truncated.jpg"
                         width="1200"
-                        height="872"
+                        height="172"
                         alt="19th Century Paintings"
                     />
+                                <span v-if="readMore2"><div v-show="readMore2" class="p_list2"><nuxt-img provider="cloudinary"
+                        loading="lazy"
+                        class="img_full"
+                        src="/whats_in_it_full.jpg"
+                        width="1200"
+                        height="700"
+                        alt="19th Century Paintings"
+                    /></div></span>
+                                <span v-else></span>
                 </div>
+
+
+
+                       <button class="rd_more" @click="readMore2 = !readMore2">
+                            <span v-if="readMore2">Read Less</span>
+                            <span v-else>Read More</span>
+                        </button>
 
                 <ArtworkSlidingImagesHome :scrolling-homepage-images="scrollingHomepageImages" />
 
@@ -395,10 +410,10 @@
                         </div>
                     </div>
                 </div>
-                <div style="padding: 24px 0px">
+                <div class="hide_section" style="padding: 24px 0px">
                     <ArtworkSlidingImagesHome :scrolling-homepage-images="scrollingHomepageImages" />
                 </div>
-                <div class="breadcrumb">
+                <div class="breadcrumb hide_section">
                     <nuxt-link :to="{ name: 'artists' }" class="content_btn"
                         >view over 250 well listed artists</nuxt-link
                     >
@@ -516,7 +531,7 @@
             </section>
         </div>-->
 
-        <div class="container secondary_dk" style="padding-bottom: 24px">
+        <div class="container secondary_dk hide_section" style="padding-bottom: 24px">
             <section class="wrapper clearfix scondary_dk_divider">
                 <div class="flex_wrap">
                     <div class="flex_3">
@@ -562,7 +577,7 @@
                                 height="515"
                         /></nuxt-link>
                     </div>
-                    <div class="scroll_container scroller_show" style="margin-top: 46px">
+                    <div class="scroll_container scroller_show hide_section" style="margin-top: 46px">
                         <ArtworkSlidingImages />
                     </div>
                 </div>
@@ -602,7 +617,13 @@
                                 <span style="font-weight: bold">EXPERIENCE COUNTS:</span> With over 30 years of
                                 experience collecting fine art, we exceed expectations for both the new buyer and the
                                 seasoned fine art collector.
+                                  <span v-if="readMore"></span>
+                                <span v-else></span>
                             </li>
+
+                        </ul>
+
+                        <ul v-show="readMore" class="p_list">
                             <li>
                                 <span style="font-weight: bold">IMPECCABLE ETHICS:</span> You can trust our reputation
                                 by viewing the paintings we have sold, throughout the years, to many happy customers.
@@ -619,12 +640,8 @@
                                 <span style="font-weight: bold">PAINTING QUALITY</span>: Unlike most galleries and
                                 auction houses, the painting you purchase from Bedford Fine Art Gallery is ready to hang
                                 on your wall from day-one, for many years of enjoyment.
-                                <span v-if="readMore"></span>
-                                <span v-else></span>
-                            </li>
-                        </ul>
 
-                        <ul v-show="readMore" class="p_list">
+                            </li>
                             <li>
                                 <span style="font-weight: bold">PAINTING IMAGE:</span> Our in-house photo studio ensures
                                 you get representative images.
@@ -751,16 +768,16 @@
                         hope you make that connection with a stunning painting from Bedford Fine Art Gallery. Thank you.
                     </p>
                 </div>
-                <div class="clear">
+                <div class="clear hide_section">
                     <ArtworkSlidingImagesHome :scrolling-homepage-images="scrollingHomepageImages" />
                 </div>
-                <div class="breadcrumb">
+                <div class="breadcrumb hide_section">
                     <nuxt-link :to="{ name: 'artists-bios' }">click to view over 250 unique paintings</nuxt-link>
                 </div>
             </section>
         </div>
 
-        <div style="text-align: center; background-color: #efefde; padding: 24px 12px">
+        <div class="hide_section" style="text-align: center; background-color: #efefde; padding: 24px 12px">
             <!--<div class="flex_2" style="max-width: 1060px; margin: auto">
                 <div>
                     <h2
@@ -808,7 +825,7 @@
                 </div>
             </div>-->
 
-            <div style="max-width: 1200px; margin: 0px auto 0px auto; border-top: 1px solid #dddd85; padding-top: 15px">
+            <div class="hide_section" style="max-width: 1200px; margin: 0px auto 0px auto; border-top: 1px solid #dddd85; padding-top: 15px">
                 <div class="flex_wrap" style="align-content: flex-start">
                     <div class="flex_3">
                         <p style="color: #742924; font-weight: bold">
@@ -925,6 +942,7 @@ export default {
     data() {
         return {
             readMore: false,
+            readMore2: false,
             itemAmount: 6,
             option: { ...defaultConfig },
             timingFuntionOptions: [

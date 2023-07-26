@@ -2171,3 +2171,8 @@ ul.checkmark a:visited {
     color:rgba(16, 88, 185, 1);
     text-decoration: underline;
 }
+
+.hide_section {
+    display: none;
+    height: 0px;
+}
