@@ -1,7 +1,9 @@
 {
     "alias" : "",
-   "hasLandingPage" : false,
+   "hasLandingPage": true,
    "name" : "Charles Waltensperger",
+   "metaTitle": "Charles Waltensperger Paintings For Sale",
+   "metaDescription": "Discover the artistry of Charles Waltensperger with paintings for sale. Own a captivating masterpiece that elevates your collection.",
    "paintings" : [
       "charles_waltensperger_girl-html"
    ],

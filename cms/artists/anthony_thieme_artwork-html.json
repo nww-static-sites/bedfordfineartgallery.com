@@ -1,7 +1,9 @@
 {
     "alias" : "",
-   "hasLandingPage" : false,
+   "hasLandingPage": true,
    "name" : "Anthony Thieme",
+   "metaTitle": "Anthony Thieme Artwork For Sale",
+   "metaDescription": "Immerse yourself in the captivating world of Anthony Thieme's artwork for sale. Explore masterful landscapes and own a piece of artistic brilliance today.",
    "paintings" : [
       "anthony_thieme_bridge-html"
    ],

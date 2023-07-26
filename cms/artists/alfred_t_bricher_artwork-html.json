@@ -1,7 +1,9 @@
 {
   "alias": "Alfred Thompson Bricher, ATBricher",
-  "hasLandingPage": false,
+  "hasLandingPage": true,
   "name": "Alfred T. Bricher",
+   "metaTitle": "Alfred Thompson Bricher Art For Sale",
+   "metaDescription": "Experience the coastal wonders of Alfred Thompson Bricher's art for sale. Own a piece of maritime beauty and immerse yourself in timeless seascapes.",
   "paintings": [
     "alfred_thompson_bricher_seascape-html",
     "a_t_bricher_rocky_shoreline-html",

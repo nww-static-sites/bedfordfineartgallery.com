@@ -1,7 +1,9 @@
 {
     "alias" : "",
-   "hasLandingPage" : false,
+   "hasLandingPage": true,
    "name" : "Andrien-Louis Bruneau",
+   "metaTitle": "Andrien-Louis Bruneau French Artwork For Sale",
+   "metaDescription": "Discover the enchanting allure of Andrien-Louis Bruneau's artwork for sale. Embrace the essence of French artistry and add sophistication to your collection.",
    "paintings" : [
       "andrien_louis_bruneau_mice-html"
    ],

@@ -1,7 +1,9 @@
 {
    "alias" : "C. C. Beall",
-   "hasLandingPage" : false,
+   "hasLandingPage": true,
    "name" : "Cecil Calvert Beall",
+   "metaTitle": "Cecil Calvert Beall Paintings For Sale",
+   "metaDescription": "Explore the captivating world of Cecil Calvert Beall's paintings for sale. Own a timeless masterpiece that evokes emotions and inspires.",
    "paintings" : [
       "cecil_calvert_beall_lincoln-html"
    ],

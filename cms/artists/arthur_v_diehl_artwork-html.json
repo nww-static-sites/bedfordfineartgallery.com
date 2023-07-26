@@ -1,7 +1,9 @@
 {
     "alias" : "",
-   "hasLandingPage" : false,
+   "hasLandingPage": true,
    "name" : "Arthur V. Diehl",
+   "metaTitle": "Arthur Diehl Art For Sale | Arthur Diehl Paintings",
+   "metaDescription": "Embrace the timeless beauty of Arthur Diehl's art for sale. Delight in exquisite creations that transcend boundaries and stir the soul.",
    "paintings" : [
       "arthur_v_diehl_dune-html"
    ],

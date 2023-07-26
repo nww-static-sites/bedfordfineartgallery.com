@@ -1,7 +1,9 @@
 {
     "alias" : "",
-   "hasLandingPage" : false,
+   "hasLandingPage": true,
    "name" : "Andrew Thomas Schwartz",
+   "metaTitle": "Andrew Thomas Schwartz Victorian Paintings For Sale",
+   "metaDescription": "Step into the enchanting world of Andrew Thomas Schwartz's Victorian paintings for sale. Immerse yourself in the elegance and nostalgia of a bygone era.",
    "paintings" : [
       "andrew_thomas_schwartz_flowers-html"
    ],

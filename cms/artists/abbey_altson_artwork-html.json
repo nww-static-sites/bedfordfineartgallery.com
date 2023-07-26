@@ -1,7 +1,9 @@
 {
     "alias" : "",
-   "hasLandingPage" : false,
+   "hasLandingPage": true,
    "name" : "Abbey Altson",
+   "metaTitle": "Abbey Altson 19th Cenutry Artwork For Sale",
+   "metaDescription": "Embrace the allure of Abbey Altson 19th-century artwork for sale. Journey through captivating masterpieces & add a touch of classic elegance to your collection.",
    "paintings" : [
       "abbey_altson_forest-html"
    ],

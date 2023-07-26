@@ -1,7 +1,9 @@
 {
     "alias" : "",
-   "hasLandingPage" : false,
+   "hasLandingPage": true,
    "name" : "Allan Brooks",
+   "metaTitle": "Allan Brooks Paintings For Sale",
+   "metaDescription": "Discover the extraordinary world of Allan Brooks' paintings for sale. From mesmerizing wildlife to captivating landscapes, own a piece of artistic brilliance.",
    "paintings" : [
       "allan_brooks_deer-html"
    ],

@@ -1,7 +1,9 @@
 {
     "alias" : "",
-   "hasLandingPage" : false,
+   "hasLandingPage": true,
    "name" : "Aldro T. Hibbard",
+   "metaTitle": "Aldro Thompson Hibbard Artwork For Sale",
+   "metaDescription": "Embark on a journey of artistic splendor with Aldro Thompson Hibbard's exquisite artwork for sale. Captivating landscapes await to grace your collection.",
    "paintings" : [
       "aldro_t_hibbard_winter-html"
    ],

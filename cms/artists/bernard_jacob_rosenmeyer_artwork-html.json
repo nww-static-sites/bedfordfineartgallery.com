@@ -1,7 +1,9 @@
 {
     "alias" : "",
-   "hasLandingPage" : false,
+   "hasLandingPage": true,
    "name" : "Bernard Jacob Rosenmeyer",
+   "metaTitle": "Bernard Jacob Rosenmeyer Paintings For Sale",
+   "metaDescription": "Embrace the artistry of Bernard Jacob Rosenmeyer with paintings for sale. Explore captivating masterpieces and bring home a touch of beauty and elegance.",
    "paintings" : [
       "bernard_jacob_rosenmeyer_napoleon-html"
    ],

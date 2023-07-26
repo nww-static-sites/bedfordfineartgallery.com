@@ -1,7 +1,9 @@
 {
     "alias" : "",
-   "hasLandingPage" : false,
+   "hasLandingPage": true,
    "name" : "Charles Kaelin",
+   "metaTitle": "Charles Kaelin Paintings For Sale",
+   "metaDescription": "Explore the captivating art of Charles Kaelin with paintings for sale. Own a unique masterpiece that brings beauty and inspiration to your space.",
    "paintings" : [
       "charles_kaelin_rockport-html"
    ],

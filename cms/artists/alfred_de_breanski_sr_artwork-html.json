@@ -1,7 +1,9 @@
 {
   "alias": "",
-  "hasLandingPage": false,
+  "hasLandingPage": true,
   "name": "Alfred De Breanski",
+   "metaTitle": "Alfred De Breanski Paintings For Sale",
+   "metaDescription": "Experience the breathtaking beauty of Alfred De Breanski's paintings for sale. Discover evocative landscapes and own a timeless masterpiece today.",
   "paintings": [
     "alfred_de_breanski_swans-html"
   ],

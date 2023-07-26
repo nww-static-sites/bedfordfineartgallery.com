@@ -1,7 +1,9 @@
 {
     "alias" : "",
-   "hasLandingPage" : false,
+   "hasLandingPage": true,
    "name" : "Blendon Reed Campbell",
+   "metaTitle": "Blendon Reed Campbell Paintings For Sale",
+   "metaDescription": "Explore exquisite artistry with Blendon Reed Campbell's paintings for sale. Own a unique masterpiece that evokes emotions and enhances your space.",
    "paintings" : [
       "blendon_reed_campbell_hillside-html"
    ],

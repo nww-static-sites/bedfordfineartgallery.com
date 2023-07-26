@@ -1,7 +1,9 @@
 {
     "alias" : "",
-   "hasLandingPage" : false,
+   "hasLandingPage": true,
    "name" : "Anthony \"Tony\" Henneberg",
+   "metaTitle": "Anthony Henneberg Paintings For Sale",
+   "metaDescription": "Discover the captivating world of Anthony Henneberg's paintings for sale. Immerse yourself in masterpieces that evoke emotion and awe. Explore now! 🎨✨",
    "paintings" : [
       "anthony_henneberg_sparrow-html"
    ],

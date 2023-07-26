@@ -1,7 +1,9 @@
 {
     "alias" : "",
-   "hasLandingPage" : false,
+   "hasLandingPage": true,
    "name" : "Benjamin Cohen",
+   "metaTitle": "Benjamin Cohen 19th Century Paintings For Sale",
+   "metaDescription": "Journey through time with Benjamin Cohen's exquisite 19th-century paintings for sale. Relish in the beauty and history of these timeless masterpieces.",
    "paintings" : [
       "benjamin_cohen_path-html"
    ],

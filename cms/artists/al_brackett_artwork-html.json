@@ -1,7 +1,9 @@
 {
    "alias" : "A L Brackett, Arthur Brackett",
-   "hasLandingPage" : false,
+   "hasLandingPage": true,
    "name" : "A.L. Brackett",
+   "metaTitle": "A.L. Bracket 19th Century Paintings For Sale",
+   "metaDescription": "Uncover the elegance of A.L. Bracket's 19th-century paintings for sale. Immerse yourself in the timeless charm of these captivating masterpieces.",
    "paintings" : [
       "arthur_loring_brackett_woodcock-html"
    ],

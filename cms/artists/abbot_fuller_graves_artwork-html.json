@@ -1,7 +1,9 @@
 {
     "alias" : "",
-   "hasLandingPage" : false,
+   "hasLandingPage": true,
    "name" : "Abbot Fuller Graves",
+   "metaTitle": "Abbot Fuller Garves 19th Cenuty Art For Sale",
+   "metaDescription": "Explore the enchanting world of Abbot Fuller Garves' 19th-century art for sale. Experience the beauty of the past and own a timeless masterpiece today.",
    "paintings" : [
       "abbot_fuller_graves_fishing-html"
    ],

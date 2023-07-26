@@ -1,7 +1,9 @@
 {
     "alias" : "",
-   "hasLandingPage" : false,
+   "hasLandingPage": true,
    "name" : "Alexander Helwig Wyant",
+   "metaTitle": "Alexander Helwig Wyant Lanscape Paintings For Sale",
+   "metaDescription": "Discover the serene beauty of Alexander Helwig Wyant's landscape paintings for sale. Embrace nature's tranquility through these captivating masterpieces.",
    "paintings" : [
       "alexander_helwig_wyant_pond-html"
    ],

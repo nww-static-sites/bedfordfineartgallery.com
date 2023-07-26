@@ -1,7 +1,9 @@
 {
     "alias" : "",
-   "hasLandingPage" : false,
+   "hasLandingPage": true,
    "name" : "Charles Armor",
+   "metaTitle": "Charles Armor Victorian Art For Sale",
+   "metaDescription": "Discover the elegance of Charles Armor's Victorian art for sale. Own a stunning masterpiece that adds sophistication and beauty to your collection.",
    "paintings" : [
       "charles_armor_apple-html"
    ],

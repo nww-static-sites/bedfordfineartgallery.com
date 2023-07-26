@@ -1,7 +1,9 @@
 {
     "alias" : "",
-   "hasLandingPage" : false,
+   "hasLandingPage": true,
    "name" : "Alfred S. Wall",
+   "metaTitle": "Alfred S. Wall 19th Century Artwork for Sale",
+   "metaDescription": "Journey through time with Alfred S. Wall's 19th-century artwork for sale. Discover the beauty and charm of a bygone era in these captivating masterpieces.",
    "paintings" : [
       "alfred_s_wall_woods-html"
    ],
