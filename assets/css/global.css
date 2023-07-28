@@ -2176,3 +2176,23 @@ ul.checkmark a:visited {
     display: none;
     height: 0px;
 }
+.artists_navigation ul {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 5px;
+    border-radius: 5px;
+    background: #dfddbb;
+max-width: 800px;
+margin: 0px auto 15px auto;
+
+}
+.artists_navigation ul li a {
+    color: #5a0a0b;
+    display: inline-block;
+    padding: 5px 5px 1px 5px;
+    text-decoration: none;
+    margin: 5px;
+    border-bottom: 1px solid #5a0a0b;
+}
