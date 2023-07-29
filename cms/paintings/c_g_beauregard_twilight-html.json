@@ -2,15 +2,15 @@
   "paintingWidth": 23.75,
   "body": "Charles Grant Beauregard was born in Canada but found himself in Troy, New York in 1872.  He apparently found the area to his liking and remained there until his death in 1919.  Beauregard specialized in portraiture; however, as Troy is located on the Hudson River, he was no doubt inspired by the natural beauty of the Hudson River valley.  In addition to his portrait commissions, he taught art at the Emma Willard School (formerly the Troy Female Seminary).  Beauregard emulated the style of the Hudson River School, with their signature realistic compositions and dramatic lighting effects.  Many of his paintings are privately held; however, two of his paintings, early presidents of the Albany Medical School, are displayed in the lobby of that learned institution.",
   "artist": "charles_grant_beauregard_artwork-html",
-  "metaTitle" : "Charles Grant Beauregard - Twilight Painting For Sale",
-"metaDescription" : "Charles Grant Beauregard, American Artist From 1856-1919 - Aka  C.g. Beauregard - Twilight Oil On Canvas Painting For Sale - 8.5x14.5 Inches - Signed Lower Left",
   "paintingHeight": 17.75,
   "slug": "c_g_beauregard_twilight-html",
   "dimensions": "Oil on canvas, 8.5 x 14.5 inches/Signed lower left",
   "featured": false,
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1679262542/Beauregard_Twilight_IMG_1640_sm_cr_fr_sypqaq.jpg",
-  "status": "None",
+  "status": "Sold",
+  "metaTitle": "Charles Grant Beauregard - Twilight Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1679262476/Beauregard_Twilight_IMG_1640_zoom_cr_netr4h.jpg",
+  "metaDescription": "Charles Grant Beauregard, American Artist From 1856-1919 - Aka  C.g. Beauregard - Twilight Oil On Canvas Painting For Sale - 8.5x14.5 Inches - Signed Lower Left",
   "scrollingHomepageImage": false,
   "title": "Twilight",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1679262441/Beauregard_Twilight_IMG_1640_full_gall_cr_a73q33.jpg",
@@ -18,15 +18,5 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1679262575/Beauregard_Twilight_IMG_1640_lrg_cr_fr_oqyjlg.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $2,800"
-    }
-  ]
+  "highlights": []
 }
