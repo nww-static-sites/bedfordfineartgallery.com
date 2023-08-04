@@ -118,15 +118,6 @@ Please click photos for a COMPLETE image and description. </div></div>
 <script>
 import YouTubeVideo from '~/components/YouTubeVideo'
 import { whitespaceEmpty } from '~/libs/empty'
-import { seededRandom } from '~/libs/random-shuffle'
-
-function getYYYYMMDDWithDashes() {
-    const value = new Date().toISOString().slice(0, 10)
-
-    return value
-}
-
-const { shuffle } = seededRandom({ seed: getYYYYMMDDWithDashes() })
 
 function filterPaintings (paintings, filter) {
     if (whitespaceEmpty(filter)) {
@@ -140,6 +131,18 @@ const stableSort = (arr, compare) => arr
   .map((item, index) => ({item, index}))
   .sort((a, b) => compare(a.item, b.item) || a.index - b.index)
   .map(({item}) => item)
+
+function sortByArtistLastName(array) {
+    const sortFunction = (a, b) => {
+        const artistNameA = a.artist.name || ''
+        const artistNameB = b.artist.name || ''
+        return artistNameA.trim().split(' ').pop().toLowerCase().localeCompare(artistNameB.trim().split(' ').pop().toLowerCase())
+    }
+
+    stableSort(array, sortFunction)
+
+    return array
+}
 
 function sortByNew (array) {
     const sortFunction = (a, b) => {
@@ -193,9 +196,9 @@ export default {
     },
     data() {
         const sortedPaintings = [...this.paintings]
-        shuffle(sortedPaintings)
+        sortByArtistLastName(sortedPaintings)
         const sortedFeaturedPaintings = [...this.featuredPaintings]
-        shuffle(sortedFeaturedPaintings)
+        sortByArtistLastName(sortedFeaturedPaintings)
 
         return {
             sortedPaintings: sortByNew(sortedPaintings),
