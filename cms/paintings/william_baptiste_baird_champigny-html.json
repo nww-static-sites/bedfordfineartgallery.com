@@ -1,35 +1,27 @@
 {
-   "artist" : "william_baptiste_baird_artwork-html",
-   "body" : "Baird was born in Chicago, Illinois and although biographical information is a bit \"sketchy\", he supposedly began his professional artistic career in 1866 as a draftsman for a wood-engraver, but nothing is known of his early art training.  Circa 1872, he moved to Paris, France, where he studied under Adolphe Yvan, who taught classes at the Ecole des Beaux-Arts.  Baird lived and exhibited almost exclusively in France, living in the Latin Quarter of Paris and working at Pont Aven, the Cote d’Azur, Fontainebleau, Nice, Versailles, and Brittany.  Baird also visited London, England and Lake Geneva, Switzerland.  He is known for his paintings of the French country side and farms with their farm animals, notably chickens, cows and sheep, but his oeuvre also contains landscapes from the many places he traveled throughout Europe.  Although most of his time was spent in France, Baird was a member of the National Academy of Design the Salmagundi Club in New York City.  He exhibited at the Paris Salons (1872-1899); National Academy of Design (NYC, 1875, 1877, 1879); Noyes & Blakeslee (Boston, MA, 1877); Pennsylvania Academy of the Fine Arts (Philadelphia, PA 1878, 1882, 1883); Brooklyn Art Association (NYC, 1879); Salmagundi Club (NYC, 1880-1881); Royal Academy (London, 1883); and in California (circa 1904). \n\nHigh auction record for this artist is $15,740.",
-   "categories" : [],
-   "dimensions" : "Oil on canvas, 12.75 x 17.75 inches/Signed lower right",
-   "featured" : false,
-   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/baird_grid_gallery_crop.jpg",
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/baird_grid.jpg",
-   "gridImageHeight" : 261,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/baird_full.jpg",
-   "highResImageHeight" : 2547,
-   "highResImageWidth" : 3209,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/baird_small.jpg",
-   "mediumResImageHeight" : 836,
-   "mediumResImageWidth" : 1053,
-   "metaDescription" : "William Baptiste Bair, (American Painter 1847 - 1917 - On The Marne At Champigny Painting For Sale - Oil On Canvas, 12.75x17.75 Inches / Signed Lower Right.",
-   "metaKeywords" : "",
-   "metaTitle" : "William Baptiste Baird - On the Marne at Champigny Painting",
-   "slug" : "william_baptiste_baird_champigny-html",
-   "status" : "Sold",
-   "title" : "On the Marne at Champigny",
-   "youtubeEmbedLink" : ""
+  "paintingWidth": 23,
+  "body": "Baird was born in Chicago, Illinois and although biographical information is a bit \"sketchy\", he supposedly began his professional artistic career in 1866 as a draftsman for a wood-engraver, but nothing is known of his early art training.  Circa 1872, he moved to Paris, France, where he studied under Adolphe Yvan, who taught classes at the Ecole des Beaux-Arts.  Baird lived and exhibited almost exclusively in France, living in the Latin Quarter of Paris and working at Pont Aven, the Cote d’Azur, Fontainebleau, Nice, Versailles, and Brittany.  Baird also visited London, England and Lake Geneva, Switzerland.  He is known for his paintings of the French country side and farms with their farm animals, notably chickens, cows and sheep, but his oeuvre also contains landscapes from the many places he traveled throughout Europe.  Although most of his time was spent in France, Baird was a member of the National Academy of Design the Salmagundi Club in New York City.  He exhibited at the Paris Salons (1872-1899); National Academy of Design (NYC, 1875, 1877, 1879); Noyes & Blakeslee (Boston, MA, 1877); Pennsylvania Academy of the Fine Arts (Philadelphia, PA 1878, 1882, 1883); Brooklyn Art Association (NYC, 1879); Salmagundi Club (NYC, 1880-1881); Royal Academy (London, 1883); and in California (circa 1904). \n\nHigh auction record for this artist is $15,740.",
+  "highResImageHeight": 2547,
+  "artist": "william_baptiste_baird_artwork-html",
+  "highResImageWidth": 3209,
+  "paintingHeight": 18,
+  "slug": "william_baptiste_baird_champigny-html",
+  "dimensions": "Oil on canvas, 12.75 x 17.75 inches/Signed lower right",
+  "featured": false,
+  "metaKeywords": "",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/baird_small.jpg",
+  "gridImageWidth": 392,
+  "status": "Sold",
+  "metaTitle": "William Baptiste Baird - On the Marne at Champigny Painting",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/baird_grid.jpg",
+  "mediumResImageWidth": 1053,
+  "mediumResImageHeight": 836,
+  "metaDescription": "William Baptiste Bair, (American Painter 1847 - 1917 - On The Marne At Champigny Painting For Sale - Oil On Canvas, 12.75x17.75 Inches / Signed Lower Right.",
+  "title": "On the Marne at Champigny",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/baird_grid_gallery_crop.jpg",
+  "categories": [],
+  "gridImageHeight": 261,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/baird_full.jpg",
+  "highlights": []
 }
