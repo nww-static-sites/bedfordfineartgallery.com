@@ -10,7 +10,7 @@
   "featured": false,
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/fredericks_winter_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Ernest Fredericks - Midwest Winter Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/fredericks_winter_grid.jpg",
   "mediumResImageWidth": 1015,
@@ -23,15 +23,5 @@
   ],
   "gridImageHeight": 261,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/fredericks_winter_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $1,700"
-    }
-  ]
+  "highlights": []
 }
