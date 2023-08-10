@@ -1,34 +1,26 @@
 {
-   "artist" : "albert_francis_king_artwork-html",
-   "body" : "Albert Francis King was born in Pittsburgh, Pennsylvania and was recognized as Pittsburgh’s primary still-life painter during the 19th century.  King was largely self-taught, but studied under Martin B. Leisser, a noted Scalp-Level landscape artist.  Although he is best known for his still-lifes, he was much sought after as a portrait painter and painted many of the prominent citizens of Pittsburgh, including composer Stephen Foster.  Many of his portraits hung in the Duquesne Club in Pittsburgh.  His still-life compositions included, fruit (especially watermelons), vegetables and fish depicting meal preparation, similar to those by Jean-Bapiste-Simeon Chardin, a great 18th century French still-life painter.  King also painted landscapes and painted at Scalp Level with Leisser and Scalp Level School of painting founder, George Hetzel.  King was a member of the Pittsburgh Art Society and the Pittsburgh Art Association. \n\nHigh auction record for this artist is $43,750.",
-   "categories" : [],
-   "dimensions" : "Oil on canvas, 17.25 x 26.5 inches / Signed lower right",
-   "featured" : false,
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/albert_fancis_king_grid.jpg",
-   "gridImageHeight" : 260,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/albert_fancis_king.jpg",
-   "highResImageHeight" : 1864,
-   "highResImageWidth" : 2532,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/albert_fancis_king_small.jpg",
-   "mediumResImageHeight" : 1078,
-   "mediumResImageWidth" : 1464,
-   "metaDescription" : "Albert Francis King (American, 1854 - 1945) Rowing On The River Oil On Canvas Painting For Sale - 17.25 X 26.5 Inches - Signed Lower Right.",
-   "metaKeywords" : "Albert Francis King, American, 1854  1945, 19th century artist, 20th century artist, Rowing on the River, landscape, landscape artwork, Oil on canvas, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery ",
-   "metaTitle" : "Albert Francis King - Rowing on the River Painting",
-   "slug" : "albert_francis_king_rowing-html",
-   "status" : "Sold",
-   "title" : "Rowing on the River",
-   "youtubeEmbedLink" : ""
+  "paintingWidth": 1,
+  "body": "Albert Francis King was born in Pittsburgh, Pennsylvania and was recognized as Pittsburgh’s primary still-life painter during the 19th century.  King was largely self-taught, but studied under Martin B. Leisser, a noted Scalp-Level landscape artist.  Although he is best known for his still-lifes, he was much sought after as a portrait painter and painted many of the prominent citizens of Pittsburgh, including composer Stephen Foster.  Many of his portraits hung in the Duquesne Club in Pittsburgh.  His still-life compositions included, fruit (especially watermelons), vegetables and fish depicting meal preparation, similar to those by Jean-Bapiste-Simeon Chardin, a great 18th century French still-life painter.  King also painted landscapes and painted at Scalp Level with Leisser and Scalp Level School of painting founder, George Hetzel.  King was a member of the Pittsburgh Art Society and the Pittsburgh Art Association. \n\nHigh auction record for this artist is $43,750.",
+  "highResImageHeight": 1864,
+  "artist": "albert_francis_king_artwork-html",
+  "highResImageWidth": 2532,
+  "paintingHeight": 2,
+  "slug": "albert_francis_king_rowing-html",
+  "dimensions": "Oil on canvas, 17.25 x 26.5 inches / Signed lower right",
+  "featured": false,
+  "metaKeywords": "Albert Francis King, American, 1854  1945, 19th century artist, 20th century artist, Rowing on the River, landscape, landscape artwork, Oil on canvas, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery ",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/albert_fancis_king_small.jpg",
+  "gridImageWidth": 392,
+  "status": "Sold",
+  "metaTitle": "Albert Francis King - Rowing on the River Painting",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/albert_fancis_king_grid.jpg",
+  "mediumResImageWidth": 1464,
+  "mediumResImageHeight": 1078,
+  "metaDescription": "Albert Francis King (American, 1854 - 1945) Rowing On The River Oil On Canvas Painting For Sale - 17.25 X 26.5 Inches - Signed Lower Right.",
+  "title": "Rowing on the River",
+  "categories": [],
+  "gridImageHeight": 260,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/albert_fancis_king.jpg",
+  "highlights": []
 }
