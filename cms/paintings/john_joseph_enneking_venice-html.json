@@ -1,34 +1,26 @@
 {
-   "artist" : "john_joseph_enneking-html",
-   "body" : "Enneking was born in Minster, Ohio, but moved to Cincinnati to live with relatives after the deaths of his parents.  His early interest in drawing was fostered by his aunt who encouraged his enrollment in art classes at St. Mary’s College.  Enneking halted his art study by volunteering to serve in the Union Army during the American Civil War.  He returned to Cincinnati for a lengthy recuperation from injuries sustained during the war.  In 1868, after a brief stay in New City, Enneking moved to the cultural hub of Boston, Massachusetts.  There he studied under Samuel Gerry and met Frederick Porter Vinton, Boston’s most famous portrait painter, who secured for him an introduction to France’s leading portraitist, Leon Bonnat.  Armed with the introduction and financed with money obtained from the sale of his paintings, Enneking and his family traveled to Europe in 1872.  Enneking first studied landscape painting at the Munich Academy with Schleich and Leier, and portraiture with Bonnat at Paris.  This was an opportune time for an artist to visit the art centers of Europe as traditional art was in flux.  Artists were painting en pleine aire, experimenting with Impressionism and Tonalism, which were soon to become forces within the art world.  Enneking mingled with the leading European artists of the time—Charles Daubigny, Louis Boudin, Camille Corot, Jean Millet, Claude Monet and Camille Pissarro.  Upon his return to Boston in 1876, Enneking opened a studio near Hyde Park.  A solo exhibition in 1878 launched him as one of Boston’s most prominent, if not favorite, artists.  Enneking exhibited widely during his lifetime, including Williams & Everett Gallery, Boston Art Club, Massachusetts Charitable Mechanics’ Association, National Academy of Design, New Haven Paint & Clay Club, Pennsylvania Academy of the Fine Arts, Paris Expo (1900), Pan-American Expo (Buffalo, 1901), Art Institute of Chicago, Corcoran Gallery, World’s Fair (1904), Pan-Pacific Expo (San Francisco, 1915). ",
-   "categories" : [],
-   "dimensions" : "Oil on board, 4.25 x 5.88 inches/Signed lower left",
-   "featured" : false,
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/enneking_venice_grid.jpg",
-   "gridImageHeight" : 261,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/enneking_venice_full.jpg",
-   "highResImageHeight" : 2422,
-   "highResImageWidth" : 2768,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/enneking_venice_small.jpg",
-   "mediumResImageHeight" : 969,
-   "mediumResImageWidth" : 1108,
-   "metaDescription" : "John Joseph Enneking, American Artist From 1841-1916 - Sails In Venice Oil On Board Painting For Sale - 4.25x5.88 Inches - Signed Lower Left.",
-   "metaKeywords" : "",
-   "metaTitle" : "John Joseph Enneking - Sails in Venice Painting For Sale",
-   "slug" : "john_joseph_enneking_venice-html",
-   "status" : "Sold",
-   "title" : "Sails in Venice",
-   "youtubeEmbedLink" : ""
+  "paintingWidth": 1,
+  "body": "Enneking was born in Minster, Ohio, but moved to Cincinnati to live with relatives after the deaths of his parents.  His early interest in drawing was fostered by his aunt who encouraged his enrollment in art classes at St. Mary’s College.  Enneking halted his art study by volunteering to serve in the Union Army during the American Civil War.  He returned to Cincinnati for a lengthy recuperation from injuries sustained during the war.  In 1868, after a brief stay in New City, Enneking moved to the cultural hub of Boston, Massachusetts.  There he studied under Samuel Gerry and met Frederick Porter Vinton, Boston’s most famous portrait painter, who secured for him an introduction to France’s leading portraitist, Leon Bonnat.  Armed with the introduction and financed with money obtained from the sale of his paintings, Enneking and his family traveled to Europe in 1872.  Enneking first studied landscape painting at the Munich Academy with Schleich and Leier, and portraiture with Bonnat at Paris.  This was an opportune time for an artist to visit the art centers of Europe as traditional art was in flux.  Artists were painting en pleine aire, experimenting with Impressionism and Tonalism, which were soon to become forces within the art world.  Enneking mingled with the leading European artists of the time—Charles Daubigny, Louis Boudin, Camille Corot, Jean Millet, Claude Monet and Camille Pissarro.  Upon his return to Boston in 1876, Enneking opened a studio near Hyde Park.  A solo exhibition in 1878 launched him as one of Boston’s most prominent, if not favorite, artists.  Enneking exhibited widely during his lifetime, including Williams & Everett Gallery, Boston Art Club, Massachusetts Charitable Mechanics’ Association, National Academy of Design, New Haven Paint & Clay Club, Pennsylvania Academy of the Fine Arts, Paris Expo (1900), Pan-American Expo (Buffalo, 1901), Art Institute of Chicago, Corcoran Gallery, World’s Fair (1904), Pan-Pacific Expo (San Francisco, 1915). ",
+  "highResImageHeight": 2422,
+  "artist": "john_joseph_enneking-html",
+  "highResImageWidth": 2768,
+  "paintingHeight": 2,
+  "slug": "john_joseph_enneking_venice-html",
+  "dimensions": "Oil on board, 4.25 x 5.88 inches/Signed lower left",
+  "featured": false,
+  "metaKeywords": "",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/enneking_venice_small.jpg",
+  "gridImageWidth": 392,
+  "status": "Sold",
+  "metaTitle": "John Joseph Enneking - Sails in Venice Painting For Sale",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/enneking_venice_grid.jpg",
+  "mediumResImageWidth": 1108,
+  "mediumResImageHeight": 969,
+  "metaDescription": "John Joseph Enneking, American Artist From 1841-1916 - Sails In Venice Oil On Board Painting For Sale - 4.25x5.88 Inches - Signed Lower Left.",
+  "title": "Sails in Venice",
+  "categories": [],
+  "gridImageHeight": 261,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/enneking_venice_full.jpg",
+  "highlights": []
 }
