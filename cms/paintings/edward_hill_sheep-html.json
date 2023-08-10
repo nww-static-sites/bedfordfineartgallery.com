@@ -1,34 +1,26 @@
 {
-   "artist" : "edward_hill_artwork-html",
-   "body" : "Born in Wolverton, Staffordshire, England, his family immigrated to the United States in 1844 and first settled in Taunton, Massachusetts, finally to then Gardner, Massachusetts.  As young men, Edward and his brother Thomas worked decorating furniture for Heywood Brothers and Company in Gardner.  In 1861, Thomas, who was to become a well-known western landscape artist, moved to San Francisco, followed by Edward in 1862.  The two artists shared a studio until 1864 when Hill returned to the northeast, settling in Boston, Massachusetts.  After his marriage in 1864, he and his wife moved first to Littleton, then to Lancaster, New Hampshire, in the White Mountains.  From 1872 to 1892 he was artist-in-residence at the Profile House there, painting landscapes for summer tourists.  Hill was maintained a winter residence in Melrose, Massachusetts while keeping a studio in Boston between1881 and 1888.  Hill traveled widely and moved frequently in search of subject matter for his paintings—North Carolina in 1879 and England and Italy in the 1880s.  From 1888-1890 he was in Denver, Colorado.  In the early 1890s, Hill moved his studio to Bethlehem, New Hampshire.  In 1911 he moved to Hood River, Oregon where he remained until his death.  Known for topographically accurate landscapes, his later style was apparently influenced by the late 19th-century Impressionist movement.  These later works were executed using a brighter palette, but still maintained the realism for which he was known.  Hill exhibited at the Boston Art Club (1880s); San Francisco Art Association (1873), the Pennsylvania Academy of the Fine Arts; Oakland Industrial Expo (1896), and the Utah State Fair (1909). \n\nHigh auction record for this artist is $18,000.",
-   "categories" : [],
-   "dimensions" : "Oil on canvas, 8.75 x 13.25 inches/Signed lower left",
-   "featured" : false,
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/edward_hill_art_grid.jpg",
-   "gridImageHeight" : 260,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/edward_hill_art_original.jpg",
-   "highResImageHeight" : 2337,
-   "highResImageWidth" : 2994,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/edward_hill_art_small.jpg",
-   "mediumResImageHeight" : 1181,
-   "mediumResImageWidth" : 1513,
-   "metaDescription" : "Edward Hill, American Artist From 1843-1923 - Sheep Along The River Oil On Canvas Painting For Sale - 8.75x13.25 Inches - Signed Lower Left.",
-   "metaKeywords" : "",
-   "metaTitle" : "Edward Hill - Sheep Along the River Painting For Sale",
-   "slug" : "edward_hill_sheep-html",
-   "status" : "Sold",
-   "title" : "Sheep along the River",
-   "youtubeEmbedLink" : ""
+  "paintingWidth": 1,
+  "body": "Born in Wolverton, Staffordshire, England, his family immigrated to the United States in 1844 and first settled in Taunton, Massachusetts, finally to then Gardner, Massachusetts.  As young men, Edward and his brother Thomas worked decorating furniture for Heywood Brothers and Company in Gardner.  In 1861, Thomas, who was to become a well-known western landscape artist, moved to San Francisco, followed by Edward in 1862.  The two artists shared a studio until 1864 when Hill returned to the northeast, settling in Boston, Massachusetts.  After his marriage in 1864, he and his wife moved first to Littleton, then to Lancaster, New Hampshire, in the White Mountains.  From 1872 to 1892 he was artist-in-residence at the Profile House there, painting landscapes for summer tourists.  Hill was maintained a winter residence in Melrose, Massachusetts while keeping a studio in Boston between1881 and 1888.  Hill traveled widely and moved frequently in search of subject matter for his paintings—North Carolina in 1879 and England and Italy in the 1880s.  From 1888-1890 he was in Denver, Colorado.  In the early 1890s, Hill moved his studio to Bethlehem, New Hampshire.  In 1911 he moved to Hood River, Oregon where he remained until his death.  Known for topographically accurate landscapes, his later style was apparently influenced by the late 19th-century Impressionist movement.  These later works were executed using a brighter palette, but still maintained the realism for which he was known.  Hill exhibited at the Boston Art Club (1880s); San Francisco Art Association (1873), the Pennsylvania Academy of the Fine Arts; Oakland Industrial Expo (1896), and the Utah State Fair (1909). \n\nHigh auction record for this artist is $18,000.",
+  "highResImageHeight": 2337,
+  "artist": "edward_hill_artwork-html",
+  "highResImageWidth": 2994,
+  "paintingHeight": 2,
+  "slug": "edward_hill_sheep-html",
+  "dimensions": "Oil on canvas, 8.75 x 13.25 inches/Signed lower left",
+  "featured": false,
+  "metaKeywords": "",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/edward_hill_art_small.jpg",
+  "gridImageWidth": 392,
+  "status": "Sold",
+  "metaTitle": "Edward Hill - Sheep Along the River Painting For Sale",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/edward_hill_art_grid.jpg",
+  "mediumResImageWidth": 1513,
+  "mediumResImageHeight": 1181,
+  "metaDescription": "Edward Hill, American Artist From 1843-1923 - Sheep Along The River Oil On Canvas Painting For Sale - 8.75x13.25 Inches - Signed Lower Left.",
+  "title": "Sheep along the River",
+  "categories": [],
+  "gridImageHeight": 260,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/edward_hill_art_original.jpg",
+  "highlights": []
 }
