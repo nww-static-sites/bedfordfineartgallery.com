@@ -1,34 +1,26 @@
 {
-   "artist" : "ellen_malvino_pomeroy_artwork-html",
-   "body" : "Very little biographical information is available for Ellen Pomeroy.  Information gleaned from newspaper records indicate that she was the sister of George Pomeroy, Reading’s leading merchant --presumably Reading, PA.  Another source informs us that she while she was sick in bed with scarlet fever, she developed an interest in art.  An article in the April 17, 1892 edition of The Philadelphia Inquirer writes that “Miss Ellen is in Washington for a few weeks’ experience in porcelain painting, according to Putski, the celebrated artist and instructor of the most fashionable ladies of the capital, including the wife of the President and wives of many other dignitaries. Miss Pomeroy is a master in oil. She studied in London and on the continent under the best masters. It is for the purpose of extending her knowledge of practical art in the line of porcelain decoration, so fashionable among ladies of artistic tastes, which has caused her to place herself under the distinguished Putski.”  This provides us with information that she had formal art training, apparently never married, and continued her interest in, and practice of art. ",
-   "categories" : [],
-   "dimensions" : "Oil on canvas on support, 27.5 x 44.75 inches/Signed lower left",
-   "featured" : false,
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/pomeroy_valley_grid.jpg",
-   "gridImageHeight" : 261,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/pomeroy_valley_full.jpg",
-   "highResImageHeight" : 2544,
-   "highResImageWidth" : 3693,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/pomeroy_valley_small.jpg",
-   "mediumResImageHeight" : 764,
-   "mediumResImageWidth" : 1108,
-   "metaDescription" : "Ellen Malvino Pomeroy, American Artist From 1841-1903 - Shenandoah Valley Oil On Canvas On Support Painting For Sale - 27.5x44.75 Inches - Signed Lower Left.",
-   "metaKeywords" : "",
-   "metaTitle" : "Ellen Malvino Pomeroy - Shenandoah Valley Painting For Sale",
-   "slug" : "ellen_malvino_pomeroy_valley-html",
-   "status" : "Sold",
-   "title" : "Shenandoah Valley",
-   "youtubeEmbedLink" : ""
+  "paintingWidth": 1,
+  "body": "Very little biographical information is available for Ellen Pomeroy.  Information gleaned from newspaper records indicate that she was the sister of George Pomeroy, Reading’s leading merchant --presumably Reading, PA.  Another source informs us that she while she was sick in bed with scarlet fever, she developed an interest in art.  An article in the April 17, 1892 edition of The Philadelphia Inquirer writes that “Miss Ellen is in Washington for a few weeks’ experience in porcelain painting, according to Putski, the celebrated artist and instructor of the most fashionable ladies of the capital, including the wife of the President and wives of many other dignitaries. Miss Pomeroy is a master in oil. She studied in London and on the continent under the best masters. It is for the purpose of extending her knowledge of practical art in the line of porcelain decoration, so fashionable among ladies of artistic tastes, which has caused her to place herself under the distinguished Putski.”  This provides us with information that she had formal art training, apparently never married, and continued her interest in, and practice of art. ",
+  "highResImageHeight": 2544,
+  "artist": "ellen_malvino_pomeroy_artwork-html",
+  "highResImageWidth": 3693,
+  "paintingHeight": 2,
+  "slug": "ellen_malvino_pomeroy_valley-html",
+  "dimensions": "Oil on canvas on support, 27.5 x 44.75 inches/Signed lower left",
+  "featured": false,
+  "metaKeywords": "",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/pomeroy_valley_small.jpg",
+  "gridImageWidth": 392,
+  "status": "Sold",
+  "metaTitle": "Ellen Malvino Pomeroy - Shenandoah Valley Painting For Sale",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/pomeroy_valley_grid.jpg",
+  "mediumResImageWidth": 1108,
+  "mediumResImageHeight": 764,
+  "metaDescription": "Ellen Malvino Pomeroy, American Artist From 1841-1903 - Shenandoah Valley Oil On Canvas On Support Painting For Sale - 27.5x44.75 Inches - Signed Lower Left.",
+  "title": "Shenandoah Valley",
+  "categories": [],
+  "gridImageHeight": 261,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/pomeroy_valley_full.jpg",
+  "highlights": []
 }
