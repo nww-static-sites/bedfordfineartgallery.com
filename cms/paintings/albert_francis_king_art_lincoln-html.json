@@ -1,34 +1,26 @@
 {
-   "artist" : "albert_francis_king_artwork-html",
-   "body" : "Albert Francis King was born in Pittsburgh, Pennsylvania and although he is best known today for his still-lifes, he was much sought after as a portrait painter.  King, was a popular Pittsburgh artist and painted portraits of the Pittsburgh’s bank presidents, business officials, and other leading citizens.  \"King gets the best likeness\", was the explanation of those who commissioned him.  Many of his portraits hung in the Duquesne Club in Pittsburgh.  King was largely self-taught, but studied under Martin B. Leisser, a noted Scalp-Level landscape artist.  King also painted landscapes and painted at Scalp Level with Leisser and Scalp Level School of painting founder, George Hetzel.  King was a member of the Pittsburgh Art Society and the Pittsburgh Art Association.  This portrait of the 16th President of the United States, Abraham Lincoln, is a fine example of King’s skills as a portraitist.  Painted in 1937 from photographs, it clearly shows that he maintained a steady hand into his later years. \n\nHigh auction record for this artist is $43,750.",
-   "categories" : [],
-   "dimensions" : "Oil on canvas, 30 x 25 inches/Signed lower right",
-   "featured" : false,
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/afk_grid4.jpg",
-   "gridImageHeight" : 260,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/afk_lincoln_full.jpg",
-   "highResImageHeight" : 2733,
-   "highResImageWidth" : 2376,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/afk_lincoln_small.jpg",
-   "mediumResImageHeight" : 1350,
-   "mediumResImageWidth" : 1173,
-   "metaDescription" : "Albert Francis King, American Painter From 1854-1945 - Portrait Of Abraham Lincoln Oil On Canvas Painting For Sale - 30x25 Inches - Signed Lower Right.",
-   "metaKeywords" : "Albert Francis King, American, 1854  1945, 19th century artist, 20th century artist, Portrait of Abraham Lincoln, historical and political, historical and political artwork, Oil on canvas, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery ",
-   "metaTitle" : "Albert Francis King - Portrait of Abraham Lincoln Painting",
-   "slug" : "albert_francis_king_art_lincoln-html",
-   "status" : "Sold",
-   "title" : "Portrait of Abraham Lincoln",
-   "youtubeEmbedLink" : ""
+  "paintingWidth": 1,
+  "body": "Albert Francis King was born in Pittsburgh, Pennsylvania and although he is best known today for his still-lifes, he was much sought after as a portrait painter.  King, was a popular Pittsburgh artist and painted portraits of the Pittsburgh’s bank presidents, business officials, and other leading citizens.  \"King gets the best likeness\", was the explanation of those who commissioned him.  Many of his portraits hung in the Duquesne Club in Pittsburgh.  King was largely self-taught, but studied under Martin B. Leisser, a noted Scalp-Level landscape artist.  King also painted landscapes and painted at Scalp Level with Leisser and Scalp Level School of painting founder, George Hetzel.  King was a member of the Pittsburgh Art Society and the Pittsburgh Art Association.  This portrait of the 16th President of the United States, Abraham Lincoln, is a fine example of King’s skills as a portraitist.  Painted in 1937 from photographs, it clearly shows that he maintained a steady hand into his later years. \n\nHigh auction record for this artist is $43,750.",
+  "highResImageHeight": 2733,
+  "artist": "albert_francis_king_artwork-html",
+  "highResImageWidth": 2376,
+  "paintingHeight": 2,
+  "slug": "albert_francis_king_art_lincoln-html",
+  "dimensions": "Oil on canvas, 30 x 25 inches/Signed lower right",
+  "featured": false,
+  "metaKeywords": "Albert Francis King, American, 1854  1945, 19th century artist, 20th century artist, Portrait of Abraham Lincoln, historical and political, historical and political artwork, Oil on canvas, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery ",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/afk_lincoln_small.jpg",
+  "gridImageWidth": 392,
+  "status": "Sold",
+  "metaTitle": "Albert Francis King - Portrait of Abraham Lincoln Painting",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/afk_grid4.jpg",
+  "mediumResImageWidth": 1173,
+  "mediumResImageHeight": 1350,
+  "metaDescription": "Albert Francis King, American Painter From 1854-1945 - Portrait Of Abraham Lincoln Oil On Canvas Painting For Sale - 30x25 Inches - Signed Lower Right.",
+  "title": "Portrait of Abraham Lincoln",
+  "categories": [],
+  "gridImageHeight": 260,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/afk_lincoln_full.jpg",
+  "highlights": []
 }
