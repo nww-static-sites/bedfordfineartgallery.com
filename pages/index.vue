@@ -70,8 +70,7 @@
                                 :to="{ name: 'art-lovers-niche' }"
                                 style="display: block; width: 100%"
                                 class="content_btn home_btn_small"
-                                ><span class="btn_text_break">Join us at </span> Art Lovers' Niche.
-                                <span class="btn_text_break">Don't miss out!</span></nuxt-link
+                                ><span class="btn_text_break">BECOME AN ART LOVER'S NICHE INSIDER!  MONTHLY TREASURES STRAIGHT TO YOUR INBOX!</span></nuxt-link
                             >
                         </div>
                     </div>
