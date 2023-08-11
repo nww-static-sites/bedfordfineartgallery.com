@@ -10,21 +10,11 @@
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber-linear-stilllife-img_1417-sm-cr-fr.jpg",
   "status": "Sold",
   "metaTitle": "Michael Strueber – Linear Still-life Painting for Sale\n",
-  "metaDescription": "Michael Strueber, Artist From 1945-present - A Linear Still-life Watercolor Painting For Sale - 25x39.75 Inches - Signed On The Lower Left.",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber-linear-stilllife-img_1417-zoom-cr.jpg",
+  "metaDescription": "Michael Strueber, Artist From 1945-present - A Linear Still-life Watercolor Painting For Sale - 25x39.75 Inches - Signed On The Lower Left.",
   "scrollingHomepageImage": false,
   "title": "A Linear Still-life",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber-linear-stilllife-img_1417-gall-full-cr.jpg",
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber-linear-stilllife-img_1417-lrg-cr-fr.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced SOLD"
-    }
-  ]
+  "highlights": []
 }

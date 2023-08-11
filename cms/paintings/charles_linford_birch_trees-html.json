@@ -1,34 +1,26 @@
 {
-   "artist" : "charles_linford_art-html",
-   "body" : "Landscape painter, Charles Linford was born in Pittsburgh, Pennsylvania and was a student of noted Scalp Level founder, George Hetzel.  It was through Hetzel that he was admitted to the “Gillespie Group”, a local group of notable Pittsburgh artists that included George Hetzel, Alfred S. Wall, Joseph Woodwell, David Gilmore Blythe, and Jasper Lawman.  Linford was also a member of George Hetzel’s summer gatherings at Scalp Level.  Linford’s characteristic style of loose quick brushwork and dark palette was probably influenced by French Barbizon painter, Henri Rousseau, whom he admired.  In 1877, he moved to Philadelphia where he exhibited his works at the Pennsylvania Academy of the Fine Arts until 1893.  He lived for a short while in New York City and exhibited at the National Academy of Design.  After 1893, Linford split his time between Pittsburgh, New York and Plainfield, New Jersey.  He also exhibited at the Art Institute of Chicago and the first Carnegie Institute International in 1896.  Linford’s paintings were included in the private collections of Pittsburgh industrialist, Andrew Carnegie. \n\nHigh auction record for this artist is $10,000.",
-   "categories" : [],
-   "dimensions" : "Oil on canvas, 17 x 12 inches/Signed lower left",
-   "featured" : false,
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/linford_trees_grid.jpg",
-   "gridImageHeight" : 261,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/linford_trees_full.jpg",
-   "highResImageHeight" : 3417,
-   "highResImageWidth" : 2771,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/linford_trees_small.jpg",
-   "mediumResImageHeight" : 1099,
-   "mediumResImageWidth" : 909,
-   "metaDescription" : "Charles Linford, American Artist From 1846-1897 - Birch Trees In Rocky Forest With Cows Oil On Canvas Painting For Sale 17x12 Inches - Signed Lower Left.",
-   "metaKeywords" : "Charles Linford, C. Linford, American, 1846 - 1897, 19th century artist, 20th century artist, Birch Trees in Rocky Forest with Cows, Oil on canvas, landscape, landscape artwork, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery ",
-   "metaTitle" : "Charles Linford - Birch Trees in Rocky Forest with Cows",
-   "slug" : "charles_linford_birch_trees-html",
-   "status" : "Sold",
-   "title" : "Birch Trees in Rocky Forest with Cows",
-   "youtubeEmbedLink" : ""
+  "paintingWidth": 1,
+  "body": "Landscape painter, Charles Linford was born in Pittsburgh, Pennsylvania and was a student of noted Scalp Level founder, George Hetzel.  It was through Hetzel that he was admitted to the “Gillespie Group”, a local group of notable Pittsburgh artists that included George Hetzel, Alfred S. Wall, Joseph Woodwell, David Gilmore Blythe, and Jasper Lawman.  Linford was also a member of George Hetzel’s summer gatherings at Scalp Level.  Linford’s characteristic style of loose quick brushwork and dark palette was probably influenced by French Barbizon painter, Henri Rousseau, whom he admired.  In 1877, he moved to Philadelphia where he exhibited his works at the Pennsylvania Academy of the Fine Arts until 1893.  He lived for a short while in New York City and exhibited at the National Academy of Design.  After 1893, Linford split his time between Pittsburgh, New York and Plainfield, New Jersey.  He also exhibited at the Art Institute of Chicago and the first Carnegie Institute International in 1896.  Linford’s paintings were included in the private collections of Pittsburgh industrialist, Andrew Carnegie. \n\nHigh auction record for this artist is $10,000.",
+  "highResImageHeight": 3417,
+  "artist": "charles_linford_art-html",
+  "highResImageWidth": 2771,
+  "paintingHeight": 2,
+  "slug": "charles_linford_birch_trees-html",
+  "dimensions": "Oil on canvas, 17 x 12 inches/Signed lower left",
+  "featured": false,
+  "metaKeywords": "Charles Linford, C. Linford, American, 1846 - 1897, 19th century artist, 20th century artist, Birch Trees in Rocky Forest with Cows, Oil on canvas, landscape, landscape artwork, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery ",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/linford_trees_small.jpg",
+  "gridImageWidth": 392,
+  "status": "Sold",
+  "metaTitle": "Charles Linford - Birch Trees in Rocky Forest with Cows",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/linford_trees_grid.jpg",
+  "mediumResImageWidth": 909,
+  "mediumResImageHeight": 1099,
+  "metaDescription": "Charles Linford, American Artist From 1846-1897 - Birch Trees In Rocky Forest With Cows Oil On Canvas Painting For Sale 17x12 Inches - Signed Lower Left.",
+  "title": "Birch Trees in Rocky Forest with Cows",
+  "categories": [],
+  "gridImageHeight": 261,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/linford_trees_full.jpg",
+  "highlights": []
 }
