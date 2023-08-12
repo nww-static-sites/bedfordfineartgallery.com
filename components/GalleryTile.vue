@@ -27,33 +27,34 @@
 import { artistNameWithTinyDescription } from '~/libs/artist'
 
 export default {
-	props: {
-		painting: {
-			type: Object,
-			required: true
-		}
-	},
-	computed: {
-		artistNameWithTinyDescription() {
+    props: {
+        painting: {
+            type: Object,
+            required: true,
+        },
+    },
+    computed: {
+        artistNameWithTinyDescription() {
             return artistNameWithTinyDescription(this.painting.artist)
         },
-		isNew() {
-			return this.painting.status === 'New'
-		},
+        isNew() {
+            return this.painting.status === 'New'
+        },
         isHold() {
-			return this.painting.status === 'Hold'
-		},
+            return this.painting.status === 'Hold'
+        },
         isSoldOrHold() {
-			return ['Sold', 'Hold'].includes(this.painting.status)
-		},
+            return ['Sold', 'Hold', "Jerry's Pick", "Joan's Pick"].includes(this.painting.status)
+        },
         soldOrHoldText() {
-			return this.painting.status === 'Sold' ? 'sold' : 'hold'
+            return this.painting.status.toLowerCase()
         },
         galleryImage() {
-            const galleryImage = this.painting.galleryCropImage || this.painting.gridImage || this.painting.mediumResImage || ''
+            const galleryImage =
+                this.painting.galleryCropImage || this.painting.gridImage || this.painting.mediumResImage || ''
             return galleryImage.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
-        }
-	}
+        },
+    },
 }
 </script>
 

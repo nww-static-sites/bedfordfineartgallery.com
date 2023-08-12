@@ -164,7 +164,7 @@ collections:
                 name: 'status',
                 widget: 'select',
                 default: 'None',
-                options: ['None', 'New', 'Sold', 'Hold'],
+                options: ['None', 'New', 'Sold', 'Hold', "Jerry's Pick", "Joan's Pick"],
                 hint: 'Mark painting as new, sold or hold if applicable.',
             }
           - {

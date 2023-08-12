@@ -143,10 +143,10 @@ export default {
     },
     methods: {
         isSoldOrHold(painting) {
-            return ['Sold', 'Hold'].includes(this.artist.paintingToObj[painting].status)
+            return ['Sold', 'Hold', "Jerry's Pick", "Joan's Pick"].includes(this.artist.paintingToObj[painting].status)
         },
         soldOrHoldText(painting) {
-            return this.artist.paintingToObj[painting].status === 'Sold' ? 'sold' : 'hold'
+            return this.artist.paintingToObj[painting].status.toLowerCase()
         },
         getGridImage(image) {
             return image.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
