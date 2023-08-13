@@ -9,6 +9,8 @@
                 </div>
 
                 <div class="col_100">
+                    <ArtistNav/>
+
                     <ArtistPreview
                         v-for="(artist, index) in artists"
                         :key="index"
@@ -33,10 +35,11 @@
 <script>
 import { loadPaintings } from '~/libs/paintings'
 import ArtistPreview from '~/components/ArtistPreview'
+import ArtistNav from '~/components/ArtistNav'
 import { loadShortTestimonials } from '~/libs/testimonials'
 
 export default {
-    components: { ArtistPreview },
+    components: { ArtistPreview, ArtistNav },
     async asyncData({ $content }) {
         const artists = await $content('artists').fetch()
         artists.sort((a, b) => {
@@ -45,6 +48,15 @@ export default {
             return artistNameA.trim().split(' ').pop().toLowerCase().localeCompare(artistNameB.trim().split(' ').pop().toLowerCase())
         })
         const paintingSlugs = artists.map((artist) => artist.paintings && artist.paintings.length > 0 ? artist.paintings[0] : '')
+
+        let lastLetter = ''
+        artists.forEach((artist) => {
+            const lastNameFirstLetter = artist.name.trim().split(' ').pop().toUpperCase()[0]
+            if (lastNameFirstLetter !== lastLetter) {
+                lastLetter = lastNameFirstLetter
+                artist.header = lastLetter
+            }
+        })
 
         return {
             artists,
