@@ -15,6 +15,8 @@
                 <p class="artist_gallery_title">
                     <span v-if="isNew" class="gallery_new_label label">NEW</span>
                     <span v-if="isHold" class="gallery_new_label label">HOLD</span>
+                    <span v-if="isJerrysPick" class="gallery_new_label label">JERRY'S PICK</span>
+                    <span v-if="isJoansPick" class="gallery_new_label label">JOAN'S PICK</span>
                     {{ artistNameWithTinyDescription }}
                 </p>
                 <p class="artist_gallery_artwork">{{ painting.title }}</p>
@@ -43,8 +45,14 @@ export default {
         isHold() {
             return this.painting.status === 'Hold'
         },
+        isJerrysPick() {
+            return this.painting.status === "Jerry's Pick"
+        },
+        isJoansPick() {
+            return this.painting.status === "Joan's Pick"
+        },
         isSoldOrHold() {
-            return ['Sold', 'Hold', "Jerry's Pick", "Joan's Pick"].includes(this.painting.status)
+            return ['Sold', 'Hold'].includes(this.painting.status)
         },
         soldOrHoldText() {
             return this.painting.status.toLowerCase()
