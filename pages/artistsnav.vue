@@ -38,7 +38,6 @@
                             <li><nuxt-link to ="#">Y</nuxt-link></li>
                             <li><nuxt-link to ="#">Z</nuxt-link></li>
                             </ul>
-
                     </div>
                     <ArtistPreview
                         v-for="(artist, index) in artists"
