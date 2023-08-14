@@ -15,6 +15,8 @@
                 <p class="artist_gallery_title">
                     <span v-if="isNew" class="gallery_new_label label">NEW</span>
                     <span v-if="isHold" class="gallery_new_label label">HOLD</span>
+                    <span v-if="isJerrysPick" class="gallery_new_label label">JERRY'S PICK</span>
+                    <span v-if="isJoansPick" class="gallery_new_label label">JOAN'S PICK</span>
                     {{ artistNameWithTinyDescription }}
                 </p>
                 <p class="artist_gallery_artwork">{{ painting.title }}</p>
@@ -27,33 +29,40 @@
 import { artistNameWithTinyDescription } from '~/libs/artist'
 
 export default {
-	props: {
-		painting: {
-			type: Object,
-			required: true
-		}
-	},
-	computed: {
-		artistNameWithTinyDescription() {
+    props: {
+        painting: {
+            type: Object,
+            required: true,
+        },
+    },
+    computed: {
+        artistNameWithTinyDescription() {
             return artistNameWithTinyDescription(this.painting.artist)
         },
-		isNew() {
-			return this.painting.status === 'New'
-		},
+        isNew() {
+            return this.painting.status === 'New'
+        },
         isHold() {
-			return this.painting.status === 'Hold'
-		},
+            return this.painting.status === 'Hold'
+        },
+        isJerrysPick() {
+            return this.painting.status === "Jerry's Pick"
+        },
+        isJoansPick() {
+            return this.painting.status === "Joan's Pick"
+        },
         isSoldOrHold() {
-			return ['Sold', 'Hold'].includes(this.painting.status)
-		},
+            return ['Sold', 'Hold'].includes(this.painting.status)
+        },
         soldOrHoldText() {
-			return this.painting.status === 'Sold' ? 'sold' : 'hold'
+            return this.painting.status.toLowerCase()
         },
         galleryImage() {
-            const galleryImage = this.painting.galleryCropImage || this.painting.gridImage || this.painting.mediumResImage || ''
+            const galleryImage =
+                this.painting.galleryCropImage || this.painting.gridImage || this.painting.mediumResImage || ''
             return galleryImage.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
-        }
-	}
+        },
+    },
 }
 </script>
 
