@@ -53,7 +53,7 @@ Bedford PA 15522<br>
                     </p>
 <div class="vid_max">
 <div id="video_anchor" class="video-container" style="margin: 0px auto 30px auto; width: 90%">
-                        <YouTubeVideo link="https://www.youtube.com/embed/iQuzsnwvbM8?rel=0"/>
+                        <YouTubeVideo link="https://www.youtube.com/embed/VgdCn2gIF0Y?rel=0"/>
                     </div>
 
 </div>
