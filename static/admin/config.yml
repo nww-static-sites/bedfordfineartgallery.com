@@ -97,7 +97,7 @@ collections:
                 widget: 'image',
                 allow_multiple: false,
                 required: false,
-                hint: "Keep width or height around 1200px depending on painting orientation. Full painting with fame cropped image for mobile devices."
+                hint: "Keep width or height around 1200px depending on painting orientation. Full painting with frame cropped image for mobile devices."
             }
           - {
                 label: 'High Res Image',
@@ -105,7 +105,15 @@ collections:
                 widget: 'image',
                 allow_multiple: false,
                 required: false,
-                hint: 'Keep width or height around 2800px depending on painting orientation. Full painting with fame cropped image for desktop computers. This will show on the painting detail pages.'
+                hint: 'Keep width or height around 2800px depending on painting orientation. Full painting with frame cropped image for desktop computers. This will show on the painting detail pages.'
+            }
+          - {
+                label: 'Art On Wall Image',
+                name: 'artOnWallImage',
+                widget: 'image',
+                allow_multiple: false,
+                required: false,
+                hint: "Keep width or height around 1200px depending on painting orientation. Full painting with frame cropped image for mobile devices."
             }
           - {
                 label: 'Painting Width',
