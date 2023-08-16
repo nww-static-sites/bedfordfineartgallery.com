@@ -17,7 +17,7 @@
                     />
                 </div>
                 <div class="highlights_prev">
-					<YouTubeVideo v-if="highlight.youtubeEmbedLink" :link="highlight.youtubeEmbedLink" />
+					<YouTubeVideo v-if="highlight.youtubeEmbedLink" :link="highlight.youtubeEmbedLink" :alt="highlight.youtubeAltText" />
 					<br v-if="highlight.youtubeEmbedLink" />
 
 					<div v-interpolation v-html="$md.render(highlight.body)" />

@@ -178,7 +178,7 @@ export default {
         },
         category: {
             type: String,
-            required: true,
+            required: false,
             validator(value) {
                 return [
                     'All',

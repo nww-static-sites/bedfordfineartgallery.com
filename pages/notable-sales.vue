@@ -6,8 +6,6 @@
 import Gallery from "~/components/Gallery";
 import { loadGalleryPaintings } from '~/libs/paintings'
 
-const category = 'Recently Sold'
-
 export default {
     components: { Gallery },
     async asyncData({ $content }) {
