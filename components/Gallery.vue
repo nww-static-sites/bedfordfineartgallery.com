@@ -190,6 +190,7 @@ export default {
                     'Sporting Art',
                     'Animal',
                     'Sculpture',
+                    'Recently Sold',
                 ].includes(value)
             },
         },
