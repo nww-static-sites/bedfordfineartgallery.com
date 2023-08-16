@@ -76,12 +76,16 @@ export default {
 
 <style scoped>
 .artist-header {
-    background: #dfddbb;
+    background: #EEEEDB;
     color: #5a0a0b;
     margin: 10px 0px 5px 0px;
     padding: 6px 12px;
     display: block;
 	font-size: 1.2em;
-	border-radius: 6px;
+	border-radius: 0px;
+    width: 100%;
+    text-align:center;
+    border-bottom: 1px solid #dfddbb;
+    font-weight: bold;
 }
 </style>

@@ -168,7 +168,7 @@
                             Virtual Tour
                         </h2>
                         <div class="video-container">
-                            <YouTubeVideo link="https://www.youtube.com/embed/iQuzsnwvbM8?rel=0" />
+                            <YouTubeVideo link="https://www.youtube.com/embed/VgdCn2gIF0Y?rel=0" />
                         </div>
                         <div class="breadcrumb desktop_hide" style="margin-top: 15px; margin-bottom: 15px">
                             <nuxt-link :to="{ name: 'artists-bios' }">Show me a painting I will love</nuxt-link>
