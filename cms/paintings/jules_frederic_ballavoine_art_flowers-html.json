@@ -1,18 +1,31 @@
 {
-  "artist": "jules_frederic_ballavoine_artwork-html",
+  "paintingWidth": "27.75",
   "body": "Ballavoine was born in Paris and was to become a highly recognized Parisian illustrator and painter.  He received some notoriety during the early decades of the French Third Republic for his paintings of nude women.  Ballavoine received his formal art education at the École des Beaux Art in Paris under historical painter Isidore Alexandre Augustin Pils.  He exhibited his first oil painting at the Paris Salon in 1865, where he exhibited regularly for the next thirty years.  Ballavoine had great success with his paintings of small Paris street scenes, which were said to rival those of Jean Beraud.  But it was his exquisitely executed pictures of young women, such as Young Woman with Flowers, that are the most desirable.  Ballavoine last exhibited in 1911.  Most of his works are now held in private collections. \n\nHigh auction record for this artist is $36,800.",
+  "highResImageHeight": 2680,
+  "artist": "jules_frederic_ballavoine_artwork-html",
+  "highResImageWidth": 2092,
+  "paintingHeight": "35.5",
+  "slug": "jules_frederic_ballavoine_art_flowers-html",
+  "dimensions": "Oil on canvas, 31 x 23 inches/Signed lower right",
+  "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1692202670/ballavoine_young_woman_with_roses_room_ltcvvu.jpg",
+  "metaKeywords": "",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ballvoine_small.jpg",
+  "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "Jules Frederic Ballavoine - Young Woman with Flower Painting",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ballvoine_grid.jpg",
+  "mediumResImageWidth": 1168,
+  "mediumResImageHeight": 1496,
+  "metaDescription": "Jules Frederic Ballavoine, French Artist From 1844-1914 - Young Woman With Flowers Oil On Canvas Painting For Sale - 31x23 Inches - Signed Lower Right.",
+  "title": "Young Woman with Flowers",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ballvoine_grid_gallery_crop.jpg",
   "categories": [
     "Genre"
   ],
-  "dimensions": "Oil on canvas, 31 x 23 inches/Signed lower right",
-  "featured": false,
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ballvoine_grid_gallery_crop.jpg",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ballvoine_grid.jpg",
   "gridImageHeight": 260,
-  "gridImageWidth": 392,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ballvoine_full.jpg",
-  "highResImageHeight": 2680,
-  "highResImageWidth": 2092,
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -23,17 +36,5 @@
     {
       "highlight": "Competitively Priced $5,000"
     }
-  ],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ballvoine_small.jpg",
-  "mediumResImageHeight": 1496,
-  "mediumResImageWidth": 1168,
-  "metaDescription": "Jules Frederic Ballavoine, French Artist From 1844-1914 - Young Woman With Flowers Oil On Canvas Painting For Sale - 31x23 Inches - Signed Lower Right.",
-  "metaKeywords": "",
-  "metaTitle": "Jules Frederic Ballavoine - Young Woman with Flower Painting",
-  "paintingHeight": "35.5",
-  "paintingWidth": "27.75",
-  "slug": "jules_frederic_ballavoine_art_flowers-html",
-  "status": "None",
-  "title": "Young Woman with Flowers",
-  "youtubeEmbedLink": ""
+  ]
 }
