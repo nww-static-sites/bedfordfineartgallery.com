@@ -3,5 +3,8 @@
   "name": "Hiram Peabody Flagg",
   "alias": "H. Peabody Flagg",
   "tinyDescription": "American 1858 – 1937",
-  "slug": "hiram_peabody_flagg_artist-html"
+  "slug": "hiram_peabody_flagg_artist-html",
+  "paintings": [
+    "hiram_peabody_flagg_sheep_herder-html"
+  ]
 }
