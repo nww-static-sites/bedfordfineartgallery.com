@@ -1,39 +1,43 @@
 {
-   "artist" : "peter_johan_valdemar_busch_artwork-html",
-   "body" : "Peter Busch was born in Denmark and studied in Munich and Paris. Prior to immigrating to New York City, circa 1885, he had been an artist at the Danish Court. He remained in New York for only a little while before traveling to St. Louis, Missouri, then to San Diego, and finally Busch settled in San Francisco in the late 1880s.  His early employment in the United States was in mural and stage scene painting, and while in San Francesco, he shared a studio with mural painter Eduardo Tojetti with whom he partnered with in a fresco and interior decorating business.  Circa 1895 Busch and artist August Woker built a studio on Sacramento Street where they painted subjects for use in making Gobelin tapestries.  Following the destruction of the 1906 San Francisco earthquake, Busch returned to Europe, splitting his time between Denmark and Berlin, Germany, but traveling to Italy and Switzerland to paint.  Busch exhibited while he was in Charleville, MS and at the Mechanics' Institute Fair (San Francisco, 1899), and later in Europe, where he concentrated on landscapes, often filled with beech trees, lit by soft, warm light. ",
-   "categories" : [
-      "Landscape"
-   ],
-   "dimensions" : "Oil/canvas 30.25 x 36 inches/Signed lower right",
-   "featured" : false,
-   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/busch_grid_gallery_crop.jpg",
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/busch_grid.jpg",
-   "gridImageHeight" : 261,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/busch_full.jpg",
-   "highResImageHeight" : 2325,
-   "highResImageWidth" : 2766,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced $3,900"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/busch_small.jpg",
-   "mediumResImageHeight" : 930,
-   "mediumResImageWidth" : 1107,
-   "metaDescription" : "Peter Johan Valdemar Busch (1861-1942) Path Through The Beech Trees Oil on Canvas Painting For Sale - 30.25 X 36 Inches - Signed On Lower Right.",
-   "metaKeywords" : "",
-   "metaTitle" : "Peter Johan Valdemar Busch - Path through the Beech Trees",
-   "paintingHeight" : "39.5",
-   "paintingWidth" : "45",
-   "slug" : "peter_johan_valdemar_busch_path-html",
-   "status" : "None",
-   "title" : "Path through the Beech Trees",
-   "youtubeEmbedLink" : ""
+  "paintingWidth": "45",
+  "body": "Peter Busch was born in Denmark and studied in Munich and Paris. Prior to immigrating to New York City, circa 1885, he had been an artist at the Danish Court. He remained in New York for only a little while before traveling to St. Louis, Missouri, then to San Diego, and finally Busch settled in San Francisco in the late 1880s.  His early employment in the United States was in mural and stage scene painting, and while in San Francesco, he shared a studio with mural painter Eduardo Tojetti with whom he partnered with in a fresco and interior decorating business.  Circa 1895 Busch and artist August Woker built a studio on Sacramento Street where they painted subjects for use in making Gobelin tapestries.  Following the destruction of the 1906 San Francisco earthquake, Busch returned to Europe, splitting his time between Denmark and Berlin, Germany, but traveling to Italy and Switzerland to paint.  Busch exhibited while he was in Charleville, MS and at the Mechanics' Institute Fair (San Francisco, 1899), and later in Europe, where he concentrated on landscapes, often filled with beech trees, lit by soft, warm light. ",
+  "highResImageHeight": 2325,
+  "artist": "peter_johan_valdemar_busch_artwork-html",
+  "highResImageWidth": 2766,
+  "artOnWallAltText": "Peter Johan Valdemar Busch - Path through the Beech Trees ",
+  "paintingHeight": "39.5",
+  "slug": "peter_johan_valdemar_busch_path-html",
+  "dimensions": "Oil/canvas 30.25 x 36 inches/Signed lower right",
+  "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1692205101/busch_path_through_the_beech_trees_room_esha9n.jpg",
+  "metaKeywords": "",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/busch_small.jpg",
+  "gridImageWidth": 392,
+  "status": "None",
+  "youtubeAltText": "Peter Johan Valdemar Busch - Path through the Beech Trees ",
+  "metaTitle": "Peter Johan Valdemar Busch - Path through the Beech Trees",
+  "mainImageAltText": "Peter Johan Valdemar Busch - Path through the Beech Trees ",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/busch_grid.jpg",
+  "mediumResImageWidth": 1107,
+  "mediumResImageHeight": 930,
+  "metaDescription": "Peter Johan Valdemar Busch (1861-1942) Path Through The Beech Trees Oil on Canvas Painting For Sale - 30.25 X 36 Inches - Signed On Lower Right.",
+  "title": "Path through the Beech Trees",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/busch_grid_gallery_crop.jpg",
+  "categories": [
+    "Landscape"
+  ],
+  "gridImageHeight": 261,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/busch_full.jpg",
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively Priced $3,900"
+    }
+  ]
 }

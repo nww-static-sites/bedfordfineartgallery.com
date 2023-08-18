@@ -42,6 +42,7 @@
             <div><nuxt-picture provider="cloudinary" src="/customer-images/35.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/43.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/49.jpg" /></div>
+            <div><nuxt-picture provider="cloudinary" src="/customer-images/56.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/36.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/37.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/38.jpg" /></div>
@@ -54,6 +55,7 @@
              <div><nuxt-picture provider="cloudinary" src="/customer-images/52.jpg" /></div>
              <div><nuxt-picture provider="cloudinary" src="/customer-images/53.jpg" /></div>
              <div><nuxt-picture provider="cloudinary" src="/customer-images/54.jpg" /></div>
+            <div><nuxt-picture provider="cloudinary" src="/customer-images/55.jpg" /></div>
 <div><nuxt-picture provider="cloudinary" src="/customer-images/48.jpg" /></div>
 
 
