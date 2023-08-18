@@ -76,6 +76,12 @@ collections:
           - { label: 'Tiny Description (shows beneath name)', name: 'tinyDescription', widget: 'string', required: false, hint: "Alternate name or nickname that artist may be known by ( helpful for SEO )\nExample: aka JDolph" }
           - { label: 'Dimensions', name: 'dimensions', widget: 'string', required: false, hint: "Painting medium, height and width, signed ( if applicable)\nExample: Oil on canvas, 18.75 x 14.75 inches / Signed upper left" }
           - {
+              label: 'Main Image Alt Text',
+              name: mainImageAltText,
+              widget: string,
+              hint: 'The alt text used for the main image. Will default to painting name and artist'
+            }
+          - {
                 label: 'Gallery Crop Image',
                 name: 'galleryCropImage',
                 widget: 'image',
@@ -97,7 +103,7 @@ collections:
                 widget: 'image',
                 allow_multiple: false,
                 required: false,
-                hint: "Keep width or height around 1200px depending on painting orientation. Full painting with fame cropped image for mobile devices."
+                hint: "Keep width or height around 1200px depending on painting orientation. Full painting with frame cropped image for mobile devices."
             }
           - {
                 label: 'High Res Image',
@@ -105,7 +111,21 @@ collections:
                 widget: 'image',
                 allow_multiple: false,
                 required: false,
-                hint: 'Keep width or height around 2800px depending on painting orientation. Full painting with fame cropped image for desktop computers. This will show on the painting detail pages.'
+                hint: 'Keep width or height around 2800px depending on painting orientation. Full painting with frame cropped image for desktop computers. This will show on the painting detail pages.'
+            }
+          - {
+                label: 'Art On Wall Image',
+                name: 'artOnWallImage',
+                widget: 'image',
+                allow_multiple: false,
+                required: false,
+                hint: "Keep width or height around 1200px depending on painting orientation. Full painting with frame cropped image for mobile devices."
+            }
+          - {
+              label: 'Art On Wall Alt Text',
+              name: artOnWallAltText,
+              widget: string,
+              hint: 'The alt text used for the art on wall image. Will default to "Art On Wall Example - " with the painting name and artist'
             }
           - {
                 label: 'Painting Width',
@@ -192,6 +212,11 @@ collections:
                 required: false,
             }
           - { label: 'YouTube Link', name: 'youtubeEmbedLink', widget: 'string', required: false, pattern: ["^((?:https?:)?\\/\\/)?((?:www|m)\\.)?((?:youtube\\.com|youtu.be))(\\/(?:[\\w\\-]+\\?v=|embed\\/|v\\/)?)([\\w\\-]+)(\\S+)?$", "Enter a valid YouTube URL"], hint: "Example link: https://www.youtube.com/embed/bGDNytl-QM0?rel=0 Can be obtained by viewing the video on your YouTube channel and clicking the 'share' button." }
+          - {
+              label: 'YouTube Alt Text',
+              name: youtubeAltText,
+              widget: string,
+            }
           - { label: 'Slug', name: 'slug', widget: 'string', hint: 'Example: Example: albert_francis_king_fishing_hole-html File name that will appear in the browser address bar. NEVER CHANGE THE SLUG ONCE IT IS CREATED. THIS WILL BREAK THE PAINTING ON THE SITE AND POSSIBLY ITS ARTIST.', pattern: ["^(\\w|-)+-html$", "Slug must contain only letters, numbers, dashes, or underscores, and must end in -html"] }
           - {
                 label: 'Meta Title',
@@ -252,6 +277,11 @@ collections:
             }
           - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Use control, shift, v to paste when copying from Microsoft Word' }
           - { label: 'YouTube Link', name: 'youtubeEmbedLink', widget: 'string', required: false, pattern: ["^((?:https?:)?\\/\\/)?((?:www|m)\\.)?((?:youtube\\.com|youtu.be))(\\/(?:[\\w\\-]+\\?v=|embed\\/|v\\/)?)([\\w\\-]+)(\\S+)?$", "Enter a valid YouTube URL"] }
+          - {
+              label: 'YouTube Alt Text',
+              name: youtubeAltText,
+              widget: string,
+            }
           - label: "Additonal Link"
             name: "additionalLink"
             widget: "object"

@@ -7,7 +7,8 @@
                         <div>
                             <div class="flex_home_logo_tagline">
                                 <div>
-                                    <nuxt-img provider="cloudinary"
+                                    <nuxt-img
+                                        provider="cloudinary"
                                         loading="lazy"
                                         class="home_logo"
                                         src="/logo.png"
@@ -21,7 +22,8 @@
                                 </div>
                             </div>
                             <div style="display: block; width: 100%; padding-top: 10px">
-                                <nuxt-img provider="cloudinary"
+                                <nuxt-img
+                                    provider="cloudinary"
                                     class="home-lead-photo"
                                     loading="lazy"
                                     src="/joan_jerry22.jpg"
@@ -41,54 +43,60 @@
                     </div>
 
                     <div class="sub_grid">
-
-                           <div>
-                        <div style="max-width: 550px; margin: auto">
-                            <div class="video-container">
-                                <YouTubeVideo link="https://www.youtube.com/embed/TGu-5wpJxGw?rel=0" />
+                        <div>
+                            <div style="max-width: 550px; margin: auto">
+                                <div class="video-container">
+                                    <YouTubeVideo link="https://www.youtube.com/embed/TGu-5wpJxGw?rel=0" />
+                                </div>
+                            </div>
+                            <div class="breadcrumb" style="margin-top: 10px">
+                                <nuxt-link
+                                    :to="{ name: 'artists-bios' }"
+                                    style="display: block; width: 100%"
+                                    class="content_btn home_btn_small"
+                                    ><span class="btn_text_break">click now to find a painting</span>
+                                    <span class="btn_text_break">that "speaks to you"</span></nuxt-link
+                                >
                             </div>
                         </div>
-                        <div class="breadcrumb" style="margin-top: 10px">
-                            <nuxt-link
-                                :to="{ name: 'artists-bios' }"
-                                style="display: block; width: 100%"
-                                class="content_btn home_btn_small"
-                                ><span class="btn_text_break">click now to find a painting</span>
-                                <span class="btn_text_break">that "speaks to you"</span></nuxt-link
-                            >
-                        </div>
-                    </div>
 
-                    <div>
-                        <div style="max-width: 550px; margin: auto">
-                            <div class="video-container">
-                                <iframe src="https://www.youtube.com/embed/xQjafbqEYWI?playlist=xQjafbqEYWI&loop=1&rel=0&autoplay=1&mute=1&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+                        <div>
+                            <div style="max-width: 550px; margin: auto">
+                                <div class="video-container">
+                                    <iframe
+                                        src="https://www.youtube.com/embed/xQjafbqEYWI?playlist=xQjafbqEYWI&loop=1&rel=0&autoplay=1&mute=1&controls=0&showinfo=0"
+                                        frameborder="0"
+                                        allowfullscreen
+                                    ></iframe>
+                                </div>
+                            </div>
+                            <div class="breadcrumb" style="margin-top: 10px">
+                                <nuxt-link
+                                    :to="{ name: 'art-lovers-niche' }"
+                                    style="display: block; width: 100%"
+                                    class="content_btn home_btn_small"
+                                    ><span class="btn_text_break"
+                                        >BECOME AN ART LOVERS' NICHE INSIDER! MONTHLY TREASURES STRAIGHT TO YOUR
+                                        INBOX!</span
+                                    ></nuxt-link
+                                >
                             </div>
                         </div>
-                        <div class="breadcrumb" style="margin-top: 10px">
-                            <nuxt-link
-                                :to="{ name: 'art-lovers-niche' }"
-                                style="display: block; width: 100%"
-                                class="content_btn home_btn_small"
-                                ><span class="btn_text_break">BECOME AN ART LOVERS' NICHE INSIDER!  MONTHLY TREASURES STRAIGHT TO YOUR INBOX!</span></nuxt-link
-                            >
+
+                        <div class="grid_span">
+                            <ul>
+                                <li>We have over 30 years’ experience and our art is the best-of-the-best.</li>
+                                <li>
+                                    For art lovers who are dissatisfied with the current way to purchase fine art, we
+                                    provide new solutions to find what you truly love.
+                                </li>
+                                <li>
+                                    Unlike one-trick pony galleries that have high overhead and pushy sales techniques,
+                                    we do not put any pressure on you or push you into art you may not love.
+                                </li>
+                            </ul>
                         </div>
                     </div>
-
-                    <div class="grid_span">
-<ul>
-<li>We have over 30 years’ experience and our art is the best-of-the-best.</li>
-<li>For art lovers who are dissatisfied with the current way to purchase fine art, we provide new solutions to find what you truly love.</li>
-<li>Unlike one-trick pony galleries that have high overhead and pushy sales techniques, we do not put any pressure on you or push you into art you may not love.</li>
-
-</ul>
-
-
-                    </div>
-
-                    </div>
-
-
                 </div>
             </section>
         </div>
@@ -122,7 +130,7 @@
                 <div style="padding-bottom: 24px">
                     <CustomerSlidingImages />
                 </div>
-                       <div class="home_sales">
+                <div class="home_sales">
                     <p class="home_thumbnails" style="color: rgba(16, 88, 185, 1); text-align: center">
                         Bedford Fine Art Gallery is your best resource for finding paintings with that "wow factor",
                         that are the focal point in any room. The best testimonials to the fine art people have fallen
@@ -139,13 +147,11 @@
                     </h2>
                 </div>
                 <div class="homeSoldSlidingImagesMobile">
-                <SoldSlidingImagesMobile />
+                    <SoldSlidingImagesMobile />
                 </div>
                 <div class="homeSoldSlidingImagesDesktop">
-                <SoldSlidingImages />
+                    <SoldSlidingImages />
                 </div>
-
-
 
                 <div class="flex_wrap" style="clear: both; padding-top: 15px">
                     <div class="flex_3">
@@ -165,8 +171,7 @@
                             <YouTubeVideo link="https://www.youtube.com/embed/VgdCn2gIF0Y?rel=0" />
                         </div>
                         <div class="breadcrumb desktop_hide" style="margin-top: 15px; margin-bottom: 15px">
-                            <nuxt-link :to="{ name: 'artists-bios' }"
-                        >Show me a painting I will love</nuxt-link>
+                            <nuxt-link :to="{ name: 'artists-bios' }">Show me a painting I will love</nuxt-link>
                         </div>
                     </div>
                     <div class="flex_3">
@@ -187,7 +192,8 @@
                         </div>
                         <div class="breadcrumb desktop_hide" style="margin-top: 15px; margin-bottom: 15px">
                             <nuxt-link :to="{ name: 'art-lovers-niche' }"
-                        >Join us at art lovers' niche<br />don't miss out!</nuxt-link>
+                                >Join us at art lovers' niche<br />don't miss out!</nuxt-link
+                            >
                         </div>
                     </div>
                     <div class="flex_3">
@@ -204,7 +210,12 @@
                             Instagram
                         </h2>
                         <a href="https://www.instagram.com/bedfordfineartgallery/" target="_blank"
-                            ><nuxt-img provider="cloudinary" src="instagram_invite.jpg" width="675" height="525" alt="Bedford Fine Art Gallery Instagram"
+                            ><nuxt-img
+                                provider="cloudinary"
+                                src="instagram_invite.jpg"
+                                width="675"
+                                height="525"
+                                alt="Bedford Fine Art Gallery Instagram"
                         /></a>
                         <div class="breadcrumb desktop_hide" style="margin-top: 15px; margin-bottom: 15px">
                             <a href="https://www.instagram.com/bedfordfineartgallery/" target="_blank"
@@ -241,7 +252,8 @@
                     </div>
                 </div>
                 <div style="padding-top: 32px; padding-bottom: 0px">
-                    <nuxt-img provider="cloudinary"
+                    <nuxt-img
+                        provider="cloudinary"
                         loading="lazy"
                         class="img_full"
                         src="/whats_in_it_truncated.jpg"
@@ -249,27 +261,27 @@
                         height="172"
                         alt="19th Century Paintings"
                     />
-                                <span v-if="readMore2"><div v-show="readMore2" class="p_list2"><nuxt-img provider="cloudinary"
-                        loading="lazy"
-                        class="img_full"
-                        src="/whats_in_it_full.jpg"
-                        width="1200"
-                        height="700"
-                        alt="19th Century Paintings"
-                    /></div></span>
-                                <span v-else></span>
+                    <span v-if="readMore2"
+                        ><div v-show="readMore2" class="p_list2">
+                            <nuxt-img
+                                provider="cloudinary"
+                                loading="lazy"
+                                class="img_full"
+                                src="/whats_in_it_full.jpg"
+                                width="1200"
+                                height="700"
+                                alt="19th Century Paintings"
+                            /></div
+                    ></span>
+                    <span v-else></span>
                 </div>
 
-
-
-                       <button class="rd_more" @click="readMore2 = !readMore2">
-                            <span v-if="readMore2">Read Less</span>
-                            <span v-else>Read More</span>
-                        </button>
+                <button class="rd_more" @click="readMore2 = !readMore2">
+                    <span v-if="readMore2">Read Less</span>
+                    <span v-else>Read More</span>
+                </button>
 
                 <ArtworkSlidingImagesHome :scrolling-homepage-images="scrollingHomepageImages" />
-
-
             </section>
         </div>
 
@@ -280,7 +292,8 @@
                     art - here are some of the kind words they had to say:
                 </h2>
 
-                <nuxt-picture provider="cloudinary"
+                <nuxt-picture
+                    provider="cloudinary"
                     :img-attrs="{ class: 'star_img' }"
                     loading="lazy"
                     src="star_reviews.png"
@@ -302,7 +315,8 @@
                     >
                 </div>
 
-                <nuxt-picture provider="cloudinary"
+                <nuxt-picture
+                    provider="cloudinary"
                     :img-attrs="{ class: 'star_img' }"
                     loading="lazy"
                     src="star_reviews.png"
@@ -328,7 +342,8 @@
                     >
                 </div>
 
-                <nuxt-picture provider="cloudinary"
+                <nuxt-picture
+                    provider="cloudinary"
                     :img-attrs="{ class: 'star_img' }"
                     loading="lazy"
                     src="star_reviews.png"
@@ -338,14 +353,19 @@
                 />
                 <div>
                     <p class="more" style="text-align: left">
-                        "I have and continue to be extremely impressed with the Bedford Fine Art Gallery.  The flawlessly restored facility meets all environmental museum standards.  The individual quality of its diverse collections is exemplary.  The research associated with each work is thorough.  Finally, I have directly experienced that all aspects of its administration reflect sophisticated professional standards."
+                        "I have and continue to be extremely impressed with the Bedford Fine Art Gallery. The flawlessly
+                        restored facility meets all environmental museum standards. The individual quality of its
+                        diverse collections is exemplary. The research associated with each work is thorough. Finally, I
+                        have directly experienced that all aspects of its administration reflect sophisticated
+                        professional standards."
                     </p>
                     <span style="display: block; font-weight: bold; color: #f2f2f2; padding-top: 10px"
                         >Michael M. Strueber, BS, MED, MA, Director Emeritus Southern Alleghenies Museum of Art</span
                     >
                 </div>
 
-                <nuxt-picture provider="cloudinary"
+                <nuxt-picture
+                    provider="cloudinary"
                     :img-attrs="{ class: 'star_img' }"
                     loading="lazy"
                     src="star_reviews.png"
@@ -422,7 +442,8 @@
 
         <div class="container primary" style="padding-bottom: 24px">
             <section class="wrapper clearfix as_seen_in_container">
-                <nuxt-img provider="cloudinary"
+                <nuxt-img
+                    provider="cloudinary"
                     loading="lazy"
                     class="home_logo"
                     src="logo.png"
@@ -567,7 +588,8 @@
 
                     <div class="artwork leadPhoto">
                         <nuxt-link to="Artists--Bios.html"
-                            ><nuxt-picture provider="cloudinary"
+                            ><nuxt-picture
+                                provider="cloudinary"
                                 :img-attrs="{ class: 'art_detail_img' }"
                                 loading="lazy"
                                 class="art_detail"
@@ -616,10 +638,9 @@
                                 <span style="font-weight: bold">EXPERIENCE COUNTS:</span> With over 30 years of
                                 experience collecting fine art, we exceed expectations for both the new buyer and the
                                 seasoned fine art collector.
-                                  <span v-if="readMore"></span>
+                                <span v-if="readMore"></span>
                                 <span v-else></span>
                             </li>
-
                         </ul>
 
                         <ul v-show="readMore" class="p_list">
@@ -639,7 +660,6 @@
                                 <span style="font-weight: bold">PAINTING QUALITY</span>: Unlike most galleries and
                                 auction houses, the painting you purchase from Bedford Fine Art Gallery is ready to hang
                                 on your wall from day-one, for many years of enjoyment.
-
                             </li>
                             <li>
                                 <span style="font-weight: bold">PAINTING IMAGE:</span> Our in-house photo studio ensures
@@ -752,7 +772,9 @@
                         <nuxt-link :to="{ name: 'sporting-art' }" class="internalLinkReverse">sporting art</nuxt-link>,
                         and
                         <nuxt-link :to="{ name: 'animal-artwork' }" class="internalLinkReverse">animal</nuxt-link>
-                        themes and <nuxt-link :to="{ name: 'sculpture' }" class="internalLinkReverse">sculptures</nuxt-link>. Our gallery features both American and European 19th century painters such as
+                        themes and
+                        <nuxt-link :to="{ name: 'sculpture' }" class="internalLinkReverse">sculptures</nuxt-link>. Our
+                        gallery features both American and European 19th century painters such as
                         <nuxt-link to="john_henry_dolph_art.html" class="internalLinkReverse"
                             >John Henry Dolph</nuxt-link
                         >, <nuxt-link to="george_hetzel.html" class="internalLinkReverse">George Hetzel</nuxt-link>,
@@ -824,7 +846,10 @@
                 </div>
             </div>-->
 
-            <div class="hide_section" style="max-width: 1200px; margin: 0px auto 0px auto; border-top: 1px solid #dddd85; padding-top: 15px">
+            <div
+                class="hide_section"
+                style="max-width: 1200px; margin: 0px auto 0px auto; border-top: 1px solid #dddd85; padding-top: 15px"
+            >
                 <div class="flex_wrap" style="align-content: flex-start">
                     <div class="flex_3">
                         <p style="color: #742924; font-weight: bold">
@@ -919,23 +944,12 @@ export default {
     components: { YouTubeVideo },
     async asyncData({ $content }) {
         return {
-                scrollingHomepageImages: await loadGalleryPaintings({
+            scrollingHomepageImages: await loadGalleryPaintings({
                 $content,
                 scrollingHomepageImage: true,
-                columns: ['title', 'slug', 'gridImage', 'mediumResImage'],
+                columns: ['title', 'slug', 'gridImage', 'mediumResImage', 'mainImageAltText'],
             }),
             testimonials: await loadShortTestimonials($content),
-        }
-    },
-    head() {
-        return {
-            script: [
-                {
-                    src: 'https://identity.netlify.com/v1/netlify-identity-widget.js',
-                    async: true,
-                    defer: true,
-                },
-            ],
         }
     },
     data() {
@@ -972,6 +986,17 @@ export default {
                 {
                     value: 'cubic-bezier(0.06, 0.29, 0.19, 1.4)',
                     label: 'cubic-bezier(0.06, 0.29, 0.19, 1.4)',
+                },
+            ],
+        }
+    },
+    head() {
+        return {
+            script: [
+                {
+                    src: 'https://identity.netlify.com/v1/netlify-identity-widget.js',
+                    async: true,
+                    defer: true,
                 },
             ],
         }
@@ -1014,21 +1039,20 @@ export default {
     max-width: 175px;
 }
 
-.grid{
+.grid {
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr;
 }
 .sub_grid {
-     display: grid;
+    display: grid;
     gap: 1rem;
     grid-template-columns: 1fr;
 }
 
 .grid_span ul {
-      list-style-type: disc;
-  margin-left: 1rem;
-
+    list-style-type: disc;
+    margin-left: 1rem;
 }
 .grid_span ul li {
     margin-bottom: 8px;
@@ -1049,14 +1073,14 @@ export default {
 
 @media screen and (min-width: 700px) {
     .grid {
-        grid-template-columns: 1fr 2fr
+        grid-template-columns: 1fr 2fr;
     }
     .sub_grid {
         grid-template-columns: 1fr 1fr;
     }
     .grid_span {
-    grid-column: span 2;
-}
+        grid-column: span 2;
+    }
     .grid_2 {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1096,21 +1120,16 @@ export default {
 
 .homeSoldSlidingImagesMobile {
     display: block;
-
 }
 .homeSoldSlidingImagesDesktop {
     display: none;
-
 }
 @media screen and (min-width: 560px) {
-.homeSoldSlidingImagesMobile {
-    display: none;
-
-}
-.homeSoldSlidingImagesDesktop {
-    display: block;
-
-}
+    .homeSoldSlidingImagesMobile {
+        display: none;
+    }
+    .homeSoldSlidingImagesDesktop {
+        display: block;
+    }
 }
 </style>
-

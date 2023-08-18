@@ -15,6 +15,10 @@ export default {
         mobile: {
             type: Boolean,
             required: true,
+        },
+        alt: {
+            type: String,
+            required: true,
         }
     },
     data() {
@@ -38,6 +42,7 @@ export default {
                     thumbnail,
                     w,
                     h,
+                    alt: this.alt,
                 },
             ],
         }

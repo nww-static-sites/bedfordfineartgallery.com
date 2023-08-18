@@ -1,3 +1,5 @@
+import { artistNameWithTinyDescription } from '~/libs/artist'
+
 export const loadPaintings = async ({ $content, paintingSlugs, columns = ['slug', 'gridImage'] }) => {
     const paintingSlugsAndGridImages = await $content('paintings').only(columns).where({ slug: { $in: paintingSlugs } }).fetch()
 	return paintingSlugsAndGridImages.reduce((map, slugAndGridImage) => {
@@ -14,7 +16,7 @@ async function loadArtists ({ $content, artistSlugs }) {
 	}, {})
 }
 
-export const loadGalleryPaintings = async ({ $content, category, sold = false, scrollingHomepageImage = false, columns = ['title', 'slug', 'galleryCropImage', 'gridImage', 'mediumResImage', 'artist', 'status'], additionalColumns = [] }) => {
+export const loadGalleryPaintings = async ({ $content, category, sold = false, scrollingHomepageImage = false, columns = ['title', 'slug', 'galleryCropImage', 'gridImage', 'mediumResImage', 'artist', 'status', 'mainImageAltText'], additionalColumns = [] }) => {
 	let query = $content('paintings').only([...columns, ...additionalColumns])
 
 	if (sold) {
@@ -34,7 +36,10 @@ export const loadGalleryPaintings = async ({ $content, category, sold = false, s
 	const artistSlugs = paintings.map((painting) => painting.artist)
 	const artistSlugToArtist = await loadArtists({ $content, artistSlugs })
 
-	paintings.forEach((painting) => { painting.artist = artistSlugToArtist[painting.artist] || { name: '' } })
+	paintings.forEach((painting) => {
+		painting.artist = artistSlugToArtist[painting.artist] || { name: '' }
+		painting.mainImageAltText = painting.mainImageAltText || artistNameWithTinyDescription(painting.artist)
+	})
 	paintings.sort((a, b) => {
 		return a.artist.name.split(' ').pop().toLowerCase().localeCompare(b.artist.name.split(' ').pop().toLowerCase())
 	})

@@ -8,7 +8,7 @@
                     provider="cloudinary"
                     loading="lazy"
                     :src="galleryImage"
-                    :alt="artistNameWithTinyDescription"
+                    :alt="painting.mainImageAltText"
                     width="392"
                     height="261"
                 />

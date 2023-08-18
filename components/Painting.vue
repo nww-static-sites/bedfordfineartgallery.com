@@ -30,7 +30,7 @@
                                 provider="cloudinary"
                                 loading="lazy"
                                 class="art_detail"
-                                :alt="artistNameWithTinyDescription"
+                                :alt="altText"
                                 :src="mediumResImage"
                                 :width="painting.mediumResImageWidth"
                                 :height="painting.mediumResImageHeight"
@@ -39,10 +39,10 @@
                     </template>
                     <template v-else>
                         <div class="zoom_desktop">
-                            <Zoom :mobile="false" :painting="painting" />
+                            <Zoom :mobile="false" :painting="painting" :alt="altText" />
                         </div>
                         <div class="zoom_mobile">
-                            <Zoom :mobile="true" :painting="painting" />
+                            <Zoom :mobile="true" :painting="painting" :alt="altText" />
                         </div>
                     </template>
                     <p v-if="!isSold" class="zoom">Click image to zoom</p>
@@ -109,7 +109,7 @@
                             >View all Paintings from this Artist</nuxt-link
                         >
                     </div>
-                    <YouTubeVideo v-if="painting.youtubeEmbedLink" :link="painting.youtubeEmbedLink" />
+                    <YouTubeVideo v-if="painting.youtubeEmbedLink" :link="painting.youtubeEmbedLink" :alt="painting.youtubeAltText" />
                     <!-- testimonials desktop -->
                     <div
                         class="container test_int_desktop"
@@ -233,6 +233,9 @@ export default {
         },
         mediumResImage() {
             return this.painting.mediumResImage.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
+        },
+        altText() {
+            return this.painting.mainImageAltText || artistNameWithTinyDescription(this.painting.artist)
         }
     },
 }

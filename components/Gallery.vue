@@ -178,7 +178,7 @@ export default {
         },
         category: {
             type: String,
-            required: true,
+            required: false,
             validator(value) {
                 return [
                     'All',
@@ -190,6 +190,7 @@ export default {
                     'Sporting Art',
                     'Animal',
                     'Sculpture',
+                    'Recently Sold',
                 ].includes(value)
             },
         },
