@@ -1,40 +1,40 @@
 {
-   "artist" : "allen_blagden_artwork-html",
-   "body" : "Contemporary artist, Allen Blagden, one of the most outstanding watercolorists of our time, began his art training in 1948 from his father who was an artist and art teacher at the Hotchkiss School in Lakeville, CT.  After graduating there in 1957, he enrolled in Cornell University's School of Fine Art.  In 1959, before graduating, he traveled to Lausanne, Switzerland for study and traveled throughout Europe, Egypt and Greece.  He studied under Bernard Chaet during 1961 in Norfolk, CT, after receiving a Fellowship to the Yale University Summer Painting program. Blagden graduated from Cornell in 1962 and became an illustrator in the Department of Ornithology at the Smithsonian Institute in Washington, DC.  He opened his studio in Salisbury, Connecticut, and as C.B. Wismar wrote in a 2020 article in Main Street Magazine, \"jobs and appointments followed, always tied to his incredible ability to capture the moment, the nuance of his subjects.\"  The author further states that \"Blagden’s paintings of birds have drawn natural comparison to the work of Audubon,\" and that his renderings of animals in nature have been celebrated for their capacity to imbue a sense of personality to the subjects – not to merely treat them as objects, but as living beings responding to both environment and stimuli.\" His art has won awards and is in the collections of museums and private collectors, in addition to being included in numerous art and nature publications. ",
-   "categories" : [
-      "Landscape",
-      "Sporting Art"
-   ],
-   "dimensions" : "Watercolor, 30 x 22 inches/Signed lower right",
-   "featured" : false,
-   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/blagden_migration_grid_gallery_crop.jpg",
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/blagden_migration_grid.jpg",
-   "gridImageHeight" : 261,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/blagden_migration_full.jpg",
-   "highResImageHeight" : 3099,
-   "highResImageWidth" : 2497,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced $7,500"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/blagden_migration_small.jpg",
-   "mediumResImageHeight" : 931,
-   "mediumResImageWidth" : 750,
-   "metaDescription" : "Allen Blagden, American Artist From B. 1938 - Stormy Migration Watercolor Painting For Sale - 30x22 Inches - Signed Lower Right.",
-   "metaKeywords" : "",
-   "metaTitle" : "Allen Blagden - Stormy Migration Painting For Sale",
-   "paintingHeight" : "38.5",
-   "paintingWidth" : "30.75",
-   "slug" : "allen_blagden_migration-html",
-   "status" : "None",
-   "title" : "Stormy Migration",
-   "youtubeEmbedLink" : ""
+  "artist": "allen_blagden_artwork-html",
+  "body": "Contemporary artist, Allen Blagden, one of the most outstanding watercolorists of our time, began his art training in 1948 from his father who was an artist and art teacher at the Hotchkiss School in Lakeville, CT.  After graduating there in 1957, he enrolled in Cornell University's School of Fine Art.  In 1959, before graduating, he traveled to Lausanne, Switzerland for study and traveled throughout Europe, Egypt and Greece.  He studied under Bernard Chaet during 1961 in Norfolk, CT, after receiving a Fellowship to the Yale University Summer Painting program. Blagden graduated from Cornell in 1962 and became an illustrator in the Department of Ornithology at the Smithsonian Institute in Washington, DC.  He opened his studio in Salisbury, Connecticut, and as C.B. Wismar wrote in a 2020 article in Main Street Magazine, \"jobs and appointments followed, always tied to his incredible ability to capture the moment, the nuance of his subjects.\"  The author further states that \"Blagden’s paintings of birds have drawn natural comparison to the work of Audubon,\" and that his renderings of animals in nature have been celebrated for their capacity to imbue a sense of personality to the subjects – not to merely treat them as objects, but as living beings responding to both environment and stimuli.\" His art has won awards and is in the collections of museums and private collectors, in addition to being included in numerous art and nature publications. ",
+  "categories": [
+    "Landscape",
+    "Sporting Art"
+  ],
+  "dimensions": "Watercolor, 30 x 22 inches/Signed lower right",
+  "featured": false,
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/blagden_migration_grid_gallery_crop.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/blagden_migration_grid.jpg",
+  "gridImageHeight": 261,
+  "gridImageWidth": 392,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/blagden_migration_full.jpg",
+  "highResImageHeight": 3099,
+  "highResImageWidth": 2497,
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively Priced $7,500"
+    }
+  ],
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/blagden_migration_small.jpg",
+  "mediumResImageHeight": 931,
+  "mediumResImageWidth": 750,
+  "metaDescription": "Allen Blagden, American Artist From B. 1938 - Stormy Migration Watercolor Painting For Sale - 30x22 Inches - Signed Lower Right.",
+  "metaKeywords": "",
+  "metaTitle": "Allen Blagden - Stormy Migration Painting For Sale",
+  "paintingHeight": "38.5",
+  "paintingWidth": "30.75",
+  "slug": "allen_blagden_migration-html",
+  "status": "None",
+  "title": "Stormy Migration",
+  "youtubeEmbedLink": ""
 }

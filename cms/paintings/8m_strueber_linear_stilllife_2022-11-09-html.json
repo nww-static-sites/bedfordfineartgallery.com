@@ -16,5 +16,11 @@
   "title": "A Linear Still-life",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber-linear-stilllife-img_1417-gall-full-cr.jpg",
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber-linear-stilllife-img_1417-lrg-cr-fr.jpg",
-  "highlights": []
+  "highlights": [],
+  "gridImageWidth": 392,
+  "gridImageHeight": 287,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1020,
+  "highResImageWidth": 3000,
+  "highResImageHeight": 2186
 }

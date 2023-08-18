@@ -27,6 +27,9 @@ async function main() {
     if (painting.highResImage) {
       await updateImageDimensions(painting, 'highResImage')
     }
+    if (painting.artOnWallImage) {
+      await updateImageDimensions(painting, 'artOnWallImage')
+    }
 
     console.log(`Writing: ${dirent.name}`)
     fs.writeFileSync(path, JSON.stringify(painting, null, 2))

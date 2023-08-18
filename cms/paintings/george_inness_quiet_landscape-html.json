@@ -3,7 +3,7 @@
   "body": "Born on a farm near Newburgh, New York, George Inness grew up in Newark, New Jersey.  Inness began drawing around the age of 13, encouraged by a schoolteacher; however, his father strongly disapproved of his artistic leanings and in 1839, gave young Inness the responsibility of running a grocery store. The grocery business apparently was not to the young Inness’s liking and in 1841 he left for New York City after studying with John Jesse Barker in Newark. In New York he took brief study with Regis Gignoux in 1843, and between 1843 and 1845 worked as an apprentice for Sherman and Smith map engravers. For the most part, however, Inness was self-taught and after the purchase of one of his paintings by art collector and patron, Thomas B. Clarke, in 1847, Inness traveled to France. His early landscapes from the 1840s and 1850 show the influence of the Hudson River School; however, after a second trip to France in 1854-1855, the influence of Barbizon plein air painters Jean Corot, Jean-Francois Millet and Theodore Rousseau, can be seen. Between 1860 and 1864 Inness and family lived in Medfield, Massachusetts and then moved outside Perth Amoy, New Jersey. During his time in New Jersey, he met William Page, who introduced Inness to the teachings of the 18th century Swedish scientist and philosopher Emanuel Swedenborg. Inness lived in Italy from 1870 to 1874 and France in 1875 and after his return to the United States he settled in Montclair, New Jersey where he was to live for the remainder of his life. He also maintained a studio in North Conway, New Hampshire for several years in the 1870s. In 1891 he shared a studio with William Keith in San Francisco, California. Keith, also a devotee of Swedenborg philosophy, and Inness made sketching trips to the Yosemite Valley and Monterey Peninsula. In 1892 and 1893 he was in Florida painting landscapes. Inness transformed his early Hudson River School style into an atmospheric, tonalist style in which he sought to express mysterious aspects hidden in nature. Inness did not embrace Impressionism and the science of light behind it, thinking it produced only reproductions of nature; rather he developed his own sense of portraying the colors of moods, perhaps derived from his poetic nature and his Swedenborgian spirituality. He died at the Bridge of Allan, in Scotland, a trip made with hope of restoring his failing health. Inness was a member of the National Academy of Design (1853) and exhibited there from 1844 to 1894; Brooklyn Art Association (1862-1892); American Art Union (from 1845); Boston Art Club (1873 to 1894); Pennsylvania Academy of the Fine Arts (1852, 1868, 1879, 1888, 1892-medal, 1893-1895); Paris Salon (1874); World’s Industry & Cotton Centennial Exposition (1884-1885); Art Institute of Chicago; and Seebold’s New Orleans (1890).",
   "artist": "george_inness_artist-html",
   "metaTitle": "George Inness - Quiet Landscape Painting For Sale",
- "metaDescription": "George Inness, American Artist From 1825-1894 - Quiet Landscape Oil On Board Painting For Sale - 8.5x11.5 Inches - Signed Lower Left.",
+  "metaDescription": "George Inness, American Artist From 1825-1894 - Quiet Landscape Oil On Board Painting For Sale - 8.5x11.5 Inches - Signed Lower Left.",
   "paintingHeight": 17,
   "slug": "george_inness_quiet_landscape-html",
   "dimensions": "Oil on board, 8.5 x 11.5 inches/Signed lower left",
@@ -18,5 +18,11 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684678284/Inness_Landscape_IMG_1706_lrg_cr_fr_qtgein.jpg",
-  "highlights": []
+  "highlights": [],
+  "gridImageWidth": 392,
+  "gridImageHeight": 392,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1167,
+  "highResImageWidth": 3000,
+  "highResImageHeight": 2501
 }

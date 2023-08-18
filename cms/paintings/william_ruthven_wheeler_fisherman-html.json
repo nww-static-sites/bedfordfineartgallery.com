@@ -1,40 +1,40 @@
 {
-   "artist" : "william_ruthven_wheeler_artwork-html",
-   "body" : "BOTH WHEELER PAINTINGS SOLD AS A PAIRWheeler was born in Scio, Michigan and in his teens took his first art lessons with an itinerant miniature portrait painter and with portraitist Alvah Bradish in Detroit while in his twenties.  In 1862 he moved to Hartford, Connecticut where he set up his studio and was to become one of Hartford’s popular portrait painters.  Wheeler also maintained a summer home at Twin Lakes in Salisbury, Litchfield County, Connecticut.  Although primarily known for his portraits, Wheeler had begun painting landscapes circa the mid-1860s, and the subjects of his portraits were often placed against the backdrop of a beautifully detailed Landscape.  His landscape paintings featured the local Connecticut scenery of Farmington, and Bloomfield, flanked by the Talcott Mountain, and the White Mountains of New Hampshire.  In 1872 he exhibited a painting of Mount Washington, in the Prudential Range of the White Mountains, at the Hartford Art Association (later the Connecticut School of Design).  Wheeler was a vice president of the Hartford Art Association and an officer of the Connecticut School of Design.  He exhibited at the Boston Athenaeum (1859); Hartford Art Association (1872); and the Detroit Art Association (1876). \n\nNote: These paintings were painted for the purpose of using arched frames.  If the frames were to be removed, you would find that the painting itself  is not rectangular but arched. ",
-   "categories" : [
-      "Landscape"
-   ],
-   "dimensions" : "Oil on canvas, 17.25 x 11.25 inches/Signed lower right",
-   "featured" : false,
-   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wheeler_fisherman_grid_gallery_crop.jpg",
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wheeler_fisherman_grid.jpg",
-   "gridImageHeight" : 261,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wheeler_fisherman_full.jpg",
-   "highResImageHeight" : 2409,
-   "highResImageWidth" : 1796,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced $12,000",
-         "pairedPainting" : "william_ruthven_wheeler_rocky_outcrop-html"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wheeler_fisherman_small.jpg",
-   "mediumResImageHeight" : 1325,
-   "mediumResImageWidth" : 988,
-   "metaDescription" : "William Ruthven Wheeler, American Artist From 1832-1893 - Fearless Fisherman Oil On Canvas Painting For Sale - 17.25x11.25 Inches - Signed Lower Right.",
-   "metaKeywords" : "",
-   "metaTitle" : "William Ruthven Wheeler - Fearless Fisherman Painting",
-   "paintingHeight" : "23",
-   "paintingWidth" : "17",
-   "slug" : "william_ruthven_wheeler_fisherman-html",
-   "status" : "None",
-   "title" : "Fearless Fisherman",
-   "youtubeEmbedLink" : "https://www.youtube.com/embed/PPGF5R6DS8c?rel=0"
+  "artist": "william_ruthven_wheeler_artwork-html",
+  "body": "BOTH WHEELER PAINTINGS SOLD AS A PAIRWheeler was born in Scio, Michigan and in his teens took his first art lessons with an itinerant miniature portrait painter and with portraitist Alvah Bradish in Detroit while in his twenties.  In 1862 he moved to Hartford, Connecticut where he set up his studio and was to become one of Hartford’s popular portrait painters.  Wheeler also maintained a summer home at Twin Lakes in Salisbury, Litchfield County, Connecticut.  Although primarily known for his portraits, Wheeler had begun painting landscapes circa the mid-1860s, and the subjects of his portraits were often placed against the backdrop of a beautifully detailed Landscape.  His landscape paintings featured the local Connecticut scenery of Farmington, and Bloomfield, flanked by the Talcott Mountain, and the White Mountains of New Hampshire.  In 1872 he exhibited a painting of Mount Washington, in the Prudential Range of the White Mountains, at the Hartford Art Association (later the Connecticut School of Design).  Wheeler was a vice president of the Hartford Art Association and an officer of the Connecticut School of Design.  He exhibited at the Boston Athenaeum (1859); Hartford Art Association (1872); and the Detroit Art Association (1876). \n\nNote: These paintings were painted for the purpose of using arched frames.  If the frames were to be removed, you would find that the painting itself  is not rectangular but arched. ",
+  "categories": [
+    "Landscape"
+  ],
+  "dimensions": "Oil on canvas, 17.25 x 11.25 inches/Signed lower right",
+  "featured": false,
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wheeler_fisherman_grid_gallery_crop.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wheeler_fisherman_grid.jpg",
+  "gridImageHeight": 261,
+  "gridImageWidth": 392,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wheeler_fisherman_full.jpg",
+  "highResImageHeight": 2409,
+  "highResImageWidth": 1796,
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively Priced $12,000",
+      "pairedPainting": "william_ruthven_wheeler_rocky_outcrop-html"
+    }
+  ],
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wheeler_fisherman_small.jpg",
+  "mediumResImageHeight": 1325,
+  "mediumResImageWidth": 988,
+  "metaDescription": "William Ruthven Wheeler, American Artist From 1832-1893 - Fearless Fisherman Oil On Canvas Painting For Sale - 17.25x11.25 Inches - Signed Lower Right.",
+  "metaKeywords": "",
+  "metaTitle": "William Ruthven Wheeler - Fearless Fisherman Painting",
+  "paintingHeight": "23",
+  "paintingWidth": "17",
+  "slug": "william_ruthven_wheeler_fisherman-html",
+  "status": "None",
+  "title": "Fearless Fisherman",
+  "youtubeEmbedLink": "https://www.youtube.com/embed/PPGF5R6DS8c?rel=0"
 }

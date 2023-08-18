@@ -1,41 +1,41 @@
 {
-   "artist" : "charles_grant_beauregard_artwork-html",
-   "body" : "Charles Grant Beauregard was born in Canada but found himself in Troy, New York in 1872.  He apparently found the area to his liking and remained there until his death in 1919.  Beauregard specialized in portraiture; however, as Troy is located on the Hudson River, he was no doubt inspired by the natural beauty of the Hudson River valley.  In addition to his portrait commissions, he taught art at the Emma Willard School (formerly the Troy Female Seminary).  Beauregard emulated the style of the Hudson River School, with their signature realistic compositions and dramatic lighting effects.  Many of his paintings are privately held; however, two of his paintings, early presidents of the Albany Medical School, are displayed in the lobby of that learned institution. ",
-   "categories" : [
-      "Landscape",
-      "Animal"
-   ],
-   "dimensions" : "Oil on canvas, 15 x 19.75 inches / Signed lower left",
-   "featured" : false,
-   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bea_grid_gallery_crop.jpg",
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bea_grid.jpg",
-   "gridImageHeight" : 260,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bea_original.jpg",
-   "highResImageHeight" : 1399,
-   "highResImageWidth" : 1723,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced $4,500"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bea_small.jpg",
-   "mediumResImageHeight" : 942,
-   "mediumResImageWidth" : 1160,
-   "metaDescription" : "Charles Grant Beauregard, American 1856-1919 - Aka  C.g. Beauregard - Horse In Landscape Oil On Canvas Painting For Sale 15x19.75 Inches - Signed Lower Left.",
-   "metaKeywords" : "Charles Grant Beauregard, 1856  1919, 19th century artist, 20th century artist, Horse in Landscape, Oil on canvas, animal, landscape, animal artwork, landscape artwork, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery ",
-   "metaTitle" : "Charles Grant Beauregard - Horse in Landscape Painting",
-   "paintingHeight" : "21.5",
-   "paintingWidth" : "26.25",
-   "scrollingHomepageImage" : true,
-   "slug" : "charles_grant_beauregard_horse-html",
-   "status" : "None",
-   "title" : "Horse in Landscape",
-   "youtubeEmbedLink" : "https://www.youtube.com/embed/fJENRzw2ZWA?rel=0"
+  "artist": "charles_grant_beauregard_artwork-html",
+  "body": "Charles Grant Beauregard was born in Canada but found himself in Troy, New York in 1872.  He apparently found the area to his liking and remained there until his death in 1919.  Beauregard specialized in portraiture; however, as Troy is located on the Hudson River, he was no doubt inspired by the natural beauty of the Hudson River valley.  In addition to his portrait commissions, he taught art at the Emma Willard School (formerly the Troy Female Seminary).  Beauregard emulated the style of the Hudson River School, with their signature realistic compositions and dramatic lighting effects.  Many of his paintings are privately held; however, two of his paintings, early presidents of the Albany Medical School, are displayed in the lobby of that learned institution. ",
+  "categories": [
+    "Landscape",
+    "Animal"
+  ],
+  "dimensions": "Oil on canvas, 15 x 19.75 inches / Signed lower left",
+  "featured": false,
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bea_grid_gallery_crop.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bea_grid.jpg",
+  "gridImageHeight": 260,
+  "gridImageWidth": 392,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bea_original.jpg",
+  "highResImageHeight": 1399,
+  "highResImageWidth": 1723,
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively Priced $4,500"
+    }
+  ],
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bea_small.jpg",
+  "mediumResImageHeight": 942,
+  "mediumResImageWidth": 1160,
+  "metaDescription": "Charles Grant Beauregard, American 1856-1919 - Aka  C.g. Beauregard - Horse In Landscape Oil On Canvas Painting For Sale 15x19.75 Inches - Signed Lower Left.",
+  "metaKeywords": "Charles Grant Beauregard, 1856  1919, 19th century artist, 20th century artist, Horse in Landscape, Oil on canvas, animal, landscape, animal artwork, landscape artwork, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery ",
+  "metaTitle": "Charles Grant Beauregard - Horse in Landscape Painting",
+  "paintingHeight": "21.5",
+  "paintingWidth": "26.25",
+  "scrollingHomepageImage": true,
+  "slug": "charles_grant_beauregard_horse-html",
+  "status": "None",
+  "title": "Horse in Landscape",
+  "youtubeEmbedLink": "https://www.youtube.com/embed/fJENRzw2ZWA?rel=0"
 }

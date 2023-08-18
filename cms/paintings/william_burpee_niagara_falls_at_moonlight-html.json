@@ -29,5 +29,11 @@
     {
       "highlight": "Custom framing available"
     }
-  ]
+  ],
+  "gridImageWidth": 392,
+  "gridImageHeight": 247,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 937,
+  "highResImageWidth": 3000,
+  "highResImageHeight": 2008
 }

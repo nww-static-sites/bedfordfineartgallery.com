@@ -1,40 +1,40 @@
 {
-   "artist" : "reuben_legrande_johnston_artwork-html",
-   "body" : " Reuben LeGrande Johnston was born in Alexandria, Virginia and was a member of Washington Society and a world traveler.  He was self-taught, but is known to have studied art with Adalbert Volck in Baltimore, Maryland.  Although Johnston is best known for his landscapes with animals, he painted portraits and genre scenes.  He was well-traveled, visiting France, Spain, England, Tangiers and Morocco, the latter where some of his works were executed.  He also traveled to the American west where he painted, notably Cheyenne, Wyoming.  He was a member of the Society of Washington Artists (DC), where he exhibited, in addition to the National Academy of Design. ",
-   "categories" : [
-      "Landscape",
-      "Animal"
-   ],
-   "dimensions" : "Watercolor, 13.5 x 21.5 inches / Signed lower right",
-   "featured" : false,
-   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rlj_grid_gallery_crop.jpg",
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rlj_grid.jpg",
-   "gridImageHeight" : 260,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rlj_full.jpg",
-   "highResImageHeight" : 1573,
-   "highResImageWidth" : 2209,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced $1,800"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rlj_small.jpg",
-   "mediumResImageHeight" : 894,
-   "mediumResImageWidth" : 1256,
-   "metaDescription" : "Reuben Legrande Johnston, American Painter - 1850-1915 - Sheep In The Barn Watercolor Painting For Sale - 13.5x21.5 Inches - Signed Lower Right.",
-   "metaKeywords" : "",
-   "metaTitle" : "Reuben LeGrande Johnston - Sheep in the Barn Painting",
-   "paintingHeight" : "18.25",
-   "paintingWidth" : "26.25",
-   "slug" : "reuben_legrande_johnston_sheep-html",
-   "status" : "None",
-   "title" : "Sheep in the Barn",
-   "youtubeEmbedLink" : ""
+  "artist": "reuben_legrande_johnston_artwork-html",
+  "body": " Reuben LeGrande Johnston was born in Alexandria, Virginia and was a member of Washington Society and a world traveler.  He was self-taught, but is known to have studied art with Adalbert Volck in Baltimore, Maryland.  Although Johnston is best known for his landscapes with animals, he painted portraits and genre scenes.  He was well-traveled, visiting France, Spain, England, Tangiers and Morocco, the latter where some of his works were executed.  He also traveled to the American west where he painted, notably Cheyenne, Wyoming.  He was a member of the Society of Washington Artists (DC), where he exhibited, in addition to the National Academy of Design. ",
+  "categories": [
+    "Landscape",
+    "Animal"
+  ],
+  "dimensions": "Watercolor, 13.5 x 21.5 inches / Signed lower right",
+  "featured": false,
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rlj_grid_gallery_crop.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rlj_grid.jpg",
+  "gridImageHeight": 260,
+  "gridImageWidth": 392,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rlj_full.jpg",
+  "highResImageHeight": 1573,
+  "highResImageWidth": 2209,
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively Priced $1,800"
+    }
+  ],
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rlj_small.jpg",
+  "mediumResImageHeight": 894,
+  "mediumResImageWidth": 1256,
+  "metaDescription": "Reuben Legrande Johnston, American Painter - 1850-1915 - Sheep In The Barn Watercolor Painting For Sale - 13.5x21.5 Inches - Signed Lower Right.",
+  "metaKeywords": "",
+  "metaTitle": "Reuben LeGrande Johnston - Sheep in the Barn Painting",
+  "paintingHeight": "18.25",
+  "paintingWidth": "26.25",
+  "slug": "reuben_legrande_johnston_sheep-html",
+  "status": "None",
+  "title": "Sheep in the Barn",
+  "youtubeEmbedLink": ""
 }

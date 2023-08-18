@@ -2,8 +2,8 @@
   "paintingWidth": 25.5,
   "body": "Austin C. Wooster was born in Chartiers Valley, Allegheny County, Pennsylvania (Thornburg).  His great-grandfather was a member of the Pennsylvania Militia during the Revolutionary War.  Although Wooster had natural artistic ability, his grand-parents, who raised him after the deaths of his parents, discouraged him from pursuing art, thinking of it as criminal and an insane fantasy.  Wooster persevered and eventually moved to Union Township (Greentree), Allegheny County, where he earned a living as an artist, painting portraits, landscapes, and still lifes.  Nothing is known of his art training; however, it appears that he was influenced by another Pittsburgh artist—A.F. King, who specialized in still lifes.  Other than serving with the Union Army, under General John J. Peck, during the Civil War, Wooster never strayed far from his Pittsburgh environs.  It has been reported, but not substantiated that Wooster had painted a portrait of General Peck.  Wooster began his career as a painter of river landscapes, but later focused on still lifes.  In addition to exhibiting at the Western Pennsylvania Exposition Society, Wooster sold paintings through Pittsburgh department stores.",
   "artist": "austin_c_wooster-html",
-  "metaTitle" : "Austin C. Wooster - Upset Basket Of Apples On A Tabletop",
-"metaDescription" : "Austin C. Wooster, American Artist From 1838-1913 - Upset Basket Of Apples On A Tabletop Oil On Canvas Painting For Sale - 13.5x17.5 Inches - Signed Lower Right",
+  "metaTitle": "Austin C. Wooster - Upset Basket Of Apples On A Tabletop",
+  "metaDescription": "Austin C. Wooster, American Artist From 1838-1913 - Upset Basket Of Apples On A Tabletop Oil On Canvas Painting For Sale - 13.5x17.5 Inches - Signed Lower Right",
   "paintingHeight": 21.5,
   "slug": "austin_wooster_upset_basket_of_apples_on_a_tabletop-html",
   "dimensions": "Oil on canvas, 13.5 x 17.5 inches/Signed lower right",
@@ -28,5 +28,11 @@
     {
       "highlight": "Competitively Priced $5,500"
     }
-  ]
+  ],
+  "gridImageWidth": 392,
+  "gridImageHeight": 264,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1200,
+  "highResImageWidth": 2958,
+  "highResImageHeight": 2536
 }

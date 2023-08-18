@@ -15,5 +15,11 @@
   "title": "Figures on a Path by a Pond",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/woodwell-ladies-on-a-path-by-a-stream-img_1398-gal-cr.jpg",
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/woodwell-ladies-on-a-path-by-a-stream-img_1398-lrg-cr-fr.jpg",
-  "highlights": []
+  "highlights": [],
+  "gridImageWidth": 392,
+  "gridImageHeight": 285,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 987,
+  "highResImageWidth": 3000,
+  "highResImageHeight": 2114
 }

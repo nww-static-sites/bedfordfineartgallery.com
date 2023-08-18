@@ -18,5 +18,11 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1682862165/Hatfield_Limbs_IMG_1659_lrg_cr_fr_fvl5d3.jpg",
-  "highlights": []
+  "highlights": [],
+  "gridImageWidth": 392,
+  "gridImageHeight": 303,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1087,
+  "highResImageWidth": 3000,
+  "highResImageHeight": 2330
 }

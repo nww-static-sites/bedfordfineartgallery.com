@@ -1,34 +1,34 @@
 {
-   "body" : "This stunning portrait of George Washington may have been printed as part of the 1876 Centennial. The print has minor paper loss on top left and bottom corners, but still retains its beautiful colors. This portrait print of Washington is flanked by patriotic symbols, including Washington’s tomb at Mount Vernon. Overall this is a wonderful example of one of the best chromolithographs of the Father of our Republic.",
-   "categories" : [],
-   "dimensions" : "Chromolithograph, 30 x 22 inches",
-   "featured" : false,
-   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4109_grid_gallery_crop.jpg",
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4109_grid.jpg",
-   "gridImageHeight" : 260,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4109_original.jpg",
-   "highResImageHeight" : 2105,
-   "highResImageWidth" : 1604,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced $2,200"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4109_small.jpg",
-   "mediumResImageHeight" : 1191,
-   "mediumResImageWidth" : 907,
-   "metaDescription" : "This Stunning 19th Century American Art Portrait Of George Washington May Have Been Printed As Part Of The 1876 Centennial.",
-   "metaTitle" : "George Washington Chromolithograph, American 19 Century Art",
-   "paintingHeight" : "42.5",
-   "paintingWidth" : "32.5",
-   "slug" : "george_washington_chromolithograph-html",
-   "status" : "None",
-   "title" : "George Washington chromolithograph, American 19th century"
+  "body": "This stunning portrait of George Washington may have been printed as part of the 1876 Centennial. The print has minor paper loss on top left and bottom corners, but still retains its beautiful colors. This portrait print of Washington is flanked by patriotic symbols, including Washington’s tomb at Mount Vernon. Overall this is a wonderful example of one of the best chromolithographs of the Father of our Republic.",
+  "categories": [],
+  "dimensions": "Chromolithograph, 30 x 22 inches",
+  "featured": false,
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4109_grid_gallery_crop.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4109_grid.jpg",
+  "gridImageHeight": 260,
+  "gridImageWidth": 392,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4109_original.jpg",
+  "highResImageHeight": 2105,
+  "highResImageWidth": 1604,
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively Priced $2,200"
+    }
+  ],
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4109_small.jpg",
+  "mediumResImageHeight": 1191,
+  "mediumResImageWidth": 907,
+  "metaDescription": "This Stunning 19th Century American Art Portrait Of George Washington May Have Been Printed As Part Of The 1876 Centennial.",
+  "metaTitle": "George Washington Chromolithograph, American 19 Century Art",
+  "paintingHeight": "42.5",
+  "paintingWidth": "32.5",
+  "slug": "george_washington_chromolithograph-html",
+  "status": "None",
+  "title": "George Washington chromolithograph, American 19th century"
 }

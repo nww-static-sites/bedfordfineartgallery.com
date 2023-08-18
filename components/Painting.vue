@@ -44,6 +44,10 @@
                         <div class="zoom_mobile">
                             <Zoom :mobile="true" :painting="painting" :alt="altText" />
                         </div>
+
+                        <div v-if="painting.artOnWallImage" style="margin-top: 20px;">
+                            <Zoom :mobile="false" :painting="painting" :alt="altText" :useArtOnWallImage="true" />
+                        </div>
                     </template>
                     <p v-if="!isSold" class="zoom">Click image to zoom</p>
 

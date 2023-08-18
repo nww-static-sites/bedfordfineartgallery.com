@@ -18,5 +18,11 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/crosland-img_1467-lrg-cr-fr.jpg",
-  "highlights": []
+  "highlights": [],
+  "gridImageWidth": 392,
+  "gridImageHeight": 273,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1807,
+  "highResImageWidth": 2480,
+  "highResImageHeight": 3201
 }

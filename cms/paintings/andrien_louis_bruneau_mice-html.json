@@ -1,39 +1,39 @@
 {
-   "artist" : "andrien_louis_bruneau_artwork-html",
-   "body" : "This listed French artist is known for his soft realistic watercolors. Bruneau’s work has been sold at such venues as Sloans & Kenyon and Sotheby’s",
-   "categories" : [
-      "Animal"
-   ],
-   "dimensions" : "Watercolor, 8 x 11 inches / Signed lower right",
-   "featured" : false,
-   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4074_grid_gallery_crop.jpg",
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4074_grid.jpg",
-   "gridImageHeight" : 260,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4074_original.jpg",
-   "highResImageHeight" : 1632,
-   "highResImageWidth" : 1960,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced $2,500"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4074_small.jpg",
-   "mediumResImageHeight" : 807,
-   "mediumResImageWidth" : 974,
-   "metaDescription" : "This listed French artist is known for his soft realistic watercolors. Bruneau's work has been sold at such venues as Sloans & Kenyon and Sotheby's",
-   "metaKeywords" : "Adrien-Louis Bruneau, French, 1831, 19th century artist, Mice, Watercolor, animal, animal artwork, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery ",
-   "metaTitle" : "Andrien-Louis Bruneau Painting - Mice - 19th Century French Fine Art",
-   "paintingHeight" : "14.5",
-   "paintingWidth" : "17.5",
-   "slug" : "andrien_louis_bruneau_mice-html",
-   "status" : "None",
-   "title" : "Mice",
-   "youtubeEmbedLink" : "https://www.youtube.com/embed/Xx42i2M4DAg?rel=0"
+  "artist": "andrien_louis_bruneau_artwork-html",
+  "body": "This listed French artist is known for his soft realistic watercolors. Bruneau’s work has been sold at such venues as Sloans & Kenyon and Sotheby’s",
+  "categories": [
+    "Animal"
+  ],
+  "dimensions": "Watercolor, 8 x 11 inches / Signed lower right",
+  "featured": false,
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4074_grid_gallery_crop.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4074_grid.jpg",
+  "gridImageHeight": 260,
+  "gridImageWidth": 392,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4074_original.jpg",
+  "highResImageHeight": 1632,
+  "highResImageWidth": 1960,
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively Priced $2,500"
+    }
+  ],
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4074_small.jpg",
+  "mediumResImageHeight": 807,
+  "mediumResImageWidth": 974,
+  "metaDescription": "This listed French artist is known for his soft realistic watercolors. Bruneau's work has been sold at such venues as Sloans & Kenyon and Sotheby's",
+  "metaKeywords": "Adrien-Louis Bruneau, French, 1831, 19th century artist, Mice, Watercolor, animal, animal artwork, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery ",
+  "metaTitle": "Andrien-Louis Bruneau Painting - Mice - 19th Century French Fine Art",
+  "paintingHeight": "14.5",
+  "paintingWidth": "17.5",
+  "slug": "andrien_louis_bruneau_mice-html",
+  "status": "None",
+  "title": "Mice",
+  "youtubeEmbedLink": "https://www.youtube.com/embed/Xx42i2M4DAg?rel=0"
 }

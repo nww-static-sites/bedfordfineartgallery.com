@@ -3,7 +3,7 @@
   "body": "Morris lived in Mansfield, Oho, but was active in New York, Maine, Connecticut Pennsylvania and Washington, D.C. as well.  As a youth Morris spent some time in the western United States and western panoramas and mountain paintings comprised his earliest works.  He was largely self-taught, but with natural skill, a keen eye, and under the influence of early 20th century American Impressionism, Morris produced many wonderful paintings including the gardens at Kingwood Center in Mansfield; the Krohn Conservatory in Cincinnati (OH); the steel mills along the Ohio River and snowy New York City street scenes.  Morris exhibited at the Vixsebose Gallery (Cleveland, OH); Cincinnati Art Galleries; Cooley Gallery (Old Lyme, CT); Griffith Gallery (Pittsburg, PA); and Swain Galleries (Morristown, NJ).",
   "artist": "franklin_edward_morris_artwork-html",
   "metaTitle": "Franklin Edward Morris - Flat Iron Building Painting",
- "metaDescription": "Franklin Edward Morris, American 1938-2009 - Flat Iron Building Oil On Canvas Painting For Sale - 23.5x16.5 Inches - Signed Lower Left.",
+  "metaDescription": "Franklin Edward Morris, American 1938-2009 - Flat Iron Building Oil On Canvas Painting For Sale - 23.5x16.5 Inches - Signed Lower Left.",
   "paintingHeight": 28.5,
   "slug": "franklin_morris_flat_iron_building-html",
   "dimensions": "Oil on canvas, 23.5 x 16.5 inches/Signed lower left",
@@ -28,5 +28,11 @@
     {
       "highlight": "Competitively Priced $11,000"
     }
-  ]
+  ],
+  "gridImageWidth": 392,
+  "gridImageHeight": 261,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1626,
+  "highResImageWidth": 2479,
+  "highResImageHeight": 2879
 }

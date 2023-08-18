@@ -15,5 +15,11 @@
   "title": "Wild Game Still-life",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hetzel-wild-game-stilllife-img_1476-gall-full-cr.jpg",
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hetzel-wild-game-stilllife-img_1476-lrg-cr-fr.jpg",
-  "highlights": []
+  "highlights": [],
+  "gridImageWidth": 392,
+  "gridImageHeight": 245,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1125,
+  "highResImageWidth": 3000,
+  "highResImageHeight": 2410
 }

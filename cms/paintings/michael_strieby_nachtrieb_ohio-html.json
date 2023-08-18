@@ -1,39 +1,39 @@
 {
-   "artist" : "michael_strieby_nachtrieb_artwork-html",
-   "body" : "Nachtrieb was born in Wooster, Ohio and to his father’s dismay opted to forego following in the family hat business to pursue a career in art. To that end, Nachtrieb went to New York City and enrolled at the New York School of Design, where he took instruction from portraitist Benjamin Franklin Reinhart.  He also took instruction at the Pennsylvania Academy of the Fine Arts in Philadelphia, PA.  Afterwards, Nachtrieb returned to Wooster and opened portrait studio in the public square.  During the Civil War first served in the Pennsylvania Militia as a corporal in the 1st battery light artillery and was wounded in the battle of Antietam.  He re-enlisted, this time in Company E, 9th Ohio Volunteer cavalry and was part of Sherman’s famous “March to the Sea”.  After the war and through the 1870s, Nachtrieb painted panels used to decorate the cabins of steamboats that traveled on the Mississippi and Ohio rivers.  Nachtrieb’s skill as a portraitist was highly recognized, and he painted many of Wooster’s illustrious citizens, in additional to portraits of President Lincoln and Robert E. Lee.  Much of Nachtrieb’s works are now lost.  ",
-   "categories" : [
-      "Landscape"
-   ],
-   "dimensions" : "Oil on canvas, 9.5 x 16.5 inches/Signed lower right",
-   "featured" : false,
-   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/nachtrieb_grid_gallery_crop.jpg",
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/nachtrieb_grid.jpg",
-   "gridImageHeight" : 260,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/nachtrieb_full.jpg",
-   "highResImageHeight" : 2073,
-   "highResImageWidth" : 3204,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced $3,000"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/nachtrieb_small.jpg",
-   "mediumResImageHeight" : 830,
-   "mediumResImageWidth" : 1282,
-   "metaDescription" : "Michael Strieby Nachtrieb, American Artist From 1835-1916 - Ohio Oil On Canvas Painting For Sale - 9.5x16.5 Inches - Signed Lower Right.",
-   "metaKeywords" : "",
-   "metaTitle" : "Michael Strieby Nachtrieb - Ohio Painting For Sale",
-   "paintingHeight" : "12.75",
-   "paintingWidth" : "19.5",
-   "slug" : "michael_strieby_nachtrieb_ohio-html",
-   "status" : "None",
-   "title" : "Ohio",
-   "youtubeEmbedLink" : ""
+  "artist": "michael_strieby_nachtrieb_artwork-html",
+  "body": "Nachtrieb was born in Wooster, Ohio and to his father’s dismay opted to forego following in the family hat business to pursue a career in art. To that end, Nachtrieb went to New York City and enrolled at the New York School of Design, where he took instruction from portraitist Benjamin Franklin Reinhart.  He also took instruction at the Pennsylvania Academy of the Fine Arts in Philadelphia, PA.  Afterwards, Nachtrieb returned to Wooster and opened portrait studio in the public square.  During the Civil War first served in the Pennsylvania Militia as a corporal in the 1st battery light artillery and was wounded in the battle of Antietam.  He re-enlisted, this time in Company E, 9th Ohio Volunteer cavalry and was part of Sherman’s famous “March to the Sea”.  After the war and through the 1870s, Nachtrieb painted panels used to decorate the cabins of steamboats that traveled on the Mississippi and Ohio rivers.  Nachtrieb’s skill as a portraitist was highly recognized, and he painted many of Wooster’s illustrious citizens, in additional to portraits of President Lincoln and Robert E. Lee.  Much of Nachtrieb’s works are now lost.  ",
+  "categories": [
+    "Landscape"
+  ],
+  "dimensions": "Oil on canvas, 9.5 x 16.5 inches/Signed lower right",
+  "featured": false,
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/nachtrieb_grid_gallery_crop.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/nachtrieb_grid.jpg",
+  "gridImageHeight": 260,
+  "gridImageWidth": 392,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/nachtrieb_full.jpg",
+  "highResImageHeight": 2073,
+  "highResImageWidth": 3204,
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively Priced $3,000"
+    }
+  ],
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/nachtrieb_small.jpg",
+  "mediumResImageHeight": 830,
+  "mediumResImageWidth": 1282,
+  "metaDescription": "Michael Strieby Nachtrieb, American Artist From 1835-1916 - Ohio Oil On Canvas Painting For Sale - 9.5x16.5 Inches - Signed Lower Right.",
+  "metaKeywords": "",
+  "metaTitle": "Michael Strieby Nachtrieb - Ohio Painting For Sale",
+  "paintingHeight": "12.75",
+  "paintingWidth": "19.5",
+  "slug": "michael_strieby_nachtrieb_ohio-html",
+  "status": "None",
+  "title": "Ohio",
+  "youtubeEmbedLink": ""
 }

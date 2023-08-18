@@ -19,5 +19,11 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hetzel-boulders-img_1507-lrg-cr-fr.jpg",
-  "highlights": []
+  "highlights": [],
+  "gridImageWidth": 392,
+  "gridImageHeight": 222,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 975,
+  "highResImageWidth": 3000,
+  "highResImageHeight": 2090
 }

@@ -1,40 +1,40 @@
 {
-   "artist" : "august_laux_art-html",
-   "body" : "Laux is primarily known for his exquisitely rendered tromp l’oeil still-lifes and genre scenes.  Born in the Rhineland, Germany, he came to the United States with his parents in 1863.  He initially studied sculpture, as his cousin and his uncles were sculptors in Paris, France, but soon switched to painting.  Laux studied at the National Academy of Design (New York City) and exhibited there in 1870.  He was later commissioned to paint a mural for a private club in Manhattan, which catapulted him to into the artistic spotlight.  He was much sought after, not only for frescoes for public buildings, but also for the private residences of wealthy New Yorkers, including financiers Jay Gould and Andrew Garvey.  After 1880, he concentrated on still-life and genre painting.  In addition, to the New York National Academy of Design, Laux exhibited at the Pennsylvania Academy of the Fine Arts and the Brooklyn Art Association.  His works are displayed at the Heckscher Museum (Long Island NY), the Hickory Museum of Art (Hickory, NC) and the Nelson Atkins Museum of Art (Kansas City, MO). ",
-   "categories" : [
-      "Landscape",
-      "Animal"
-   ],
-   "dimensions" : "Oil on canvas, 19.5 x 29.5 inches/Signed lower right",
-   "featured" : false,
-   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/laux_path_grid_gallery_crop.jpg",
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/laux_path_grid.jpg",
-   "gridImageHeight" : 261,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/laux_path_full.jpg",
-   "highResImageHeight" : 2029,
-   "highResImageWidth" : 2724,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced $6,900"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/laux_path_small.jpg",
-   "mediumResImageHeight" : 1010,
-   "mediumResImageWidth" : 1356,
-   "metaDescription" : "August Laux, American Artist From 1847-1921 - Pause On The Path Oil On Canvas Painting For Sale - 19.5x29.5 Inches - Signed Lower Right.",
-   "metaKeywords" : "August Laux, American, 1847  1921, 19th century artist, 20th century artist, Pause on the Path, Oil on canvas, animal, animal artwork, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery ",
-   "metaTitle" : "August Laux - Pause on the Path Painting For Sale",
-   "paintingHeight" : "29.5",
-   "paintingWidth" : "39",
-   "slug" : "august_laux_path-html",
-   "status" : "None",
-   "title" : "Pause on the Path",
-   "youtubeEmbedLink" : "https://www.youtube.com/embed/HRqKiHFqlE0?rel=0"
+  "artist": "august_laux_art-html",
+  "body": "Laux is primarily known for his exquisitely rendered tromp l’oeil still-lifes and genre scenes.  Born in the Rhineland, Germany, he came to the United States with his parents in 1863.  He initially studied sculpture, as his cousin and his uncles were sculptors in Paris, France, but soon switched to painting.  Laux studied at the National Academy of Design (New York City) and exhibited there in 1870.  He was later commissioned to paint a mural for a private club in Manhattan, which catapulted him to into the artistic spotlight.  He was much sought after, not only for frescoes for public buildings, but also for the private residences of wealthy New Yorkers, including financiers Jay Gould and Andrew Garvey.  After 1880, he concentrated on still-life and genre painting.  In addition, to the New York National Academy of Design, Laux exhibited at the Pennsylvania Academy of the Fine Arts and the Brooklyn Art Association.  His works are displayed at the Heckscher Museum (Long Island NY), the Hickory Museum of Art (Hickory, NC) and the Nelson Atkins Museum of Art (Kansas City, MO). ",
+  "categories": [
+    "Landscape",
+    "Animal"
+  ],
+  "dimensions": "Oil on canvas, 19.5 x 29.5 inches/Signed lower right",
+  "featured": false,
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/laux_path_grid_gallery_crop.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/laux_path_grid.jpg",
+  "gridImageHeight": 261,
+  "gridImageWidth": 392,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/laux_path_full.jpg",
+  "highResImageHeight": 2029,
+  "highResImageWidth": 2724,
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively Priced $6,900"
+    }
+  ],
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/laux_path_small.jpg",
+  "mediumResImageHeight": 1010,
+  "mediumResImageWidth": 1356,
+  "metaDescription": "August Laux, American Artist From 1847-1921 - Pause On The Path Oil On Canvas Painting For Sale - 19.5x29.5 Inches - Signed Lower Right.",
+  "metaKeywords": "August Laux, American, 1847  1921, 19th century artist, 20th century artist, Pause on the Path, Oil on canvas, animal, animal artwork, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery ",
+  "metaTitle": "August Laux - Pause on the Path Painting For Sale",
+  "paintingHeight": "29.5",
+  "paintingWidth": "39",
+  "slug": "august_laux_path-html",
+  "status": "None",
+  "title": "Pause on the Path",
+  "youtubeEmbedLink": "https://www.youtube.com/embed/HRqKiHFqlE0?rel=0"
 }
