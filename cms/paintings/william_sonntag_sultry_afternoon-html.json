@@ -18,5 +18,11 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687541108/Sonntag_Sultry_Afternoon_IMG_1774_lrg_cr_fr_eoqodz.jpg",
-  "highlights": []
+  "highlights": [],
+  "gridImageWidth": 392,
+  "gridImageHeight": 307,
+  "mediumResImageWidth": 1200,
+  "mediumResImageHeight": 931,
+  "highResImageWidth": 3000,
+  "highResImageHeight": 2327
 }
