@@ -46,7 +46,7 @@
                         </div>
 
                         <div v-if="painting.artOnWallImage" style="margin-top: 20px;">
-                            <Zoom :mobile="false" :painting="painting" :alt="altText" :useArtOnWallImage="true" />
+                            <Zoom :mobile="false" :painting="painting" :alt="altText" :use-art-on-wall-image="true" />
                         </div>
                     </template>
                     <p v-if="!isSold" class="zoom">Click image to zoom</p>
@@ -69,6 +69,20 @@
                                 </template>
                             </li>
                         </ul>
+                    </div>
+                    <div v-if="showArtPlacer" class="breadcrumb view_on_wall" style="margin-top: 10px">
+                        <artplacer
+                            gallery="3188"
+                            type="2"
+                            text="VIEW THIS PAINTING ON A WALL"
+                            space="14392"
+                            classname="btn_wall_view"
+                            :artwork_url="artworkUrl"
+                            frames="false"
+                            catalog="false"
+                            :size="artplacerSize"
+                            :height="artplacerHeight"
+                        ></artplacer>
                     </div>
                     <div v-if="showArtPlacer" class="breadcrumb view_on_wall" style="margin-top: 10px">
                         <artplacer
