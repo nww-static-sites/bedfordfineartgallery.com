@@ -7,7 +7,7 @@
   "dimensions": "Oil on canvas, 10 x 13 inches/Signed lower right",
   "featured": true,
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687527461/Francis_Pinapple_IMG_1749_sm_cr_fr_uvzhg2.jpg",
-  "status": "New",
+  "status": "Sold",
   "metaTitle": "John F Francis - Pineapple, Oranges & Nuts Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687527422/Francis_Pinapple_IMG_1749_zoom_cr_tdifgm.jpg",
   "metaDescription": "John F. Francis, American Artist From 1808-1886 - Pineapple, Oranges And Nuts Oil On Canvas Painting For Sale - 10x13 Inches - Signed Lower Right.",
@@ -28,5 +28,11 @@
     {
       "highlight": "Competitively Priced $7,400"
     }
-  ]
+  ],
+  "gridImageWidth": 392,
+  "gridImageHeight": 331,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1181,
+  "highResImageWidth": 3000,
+  "highResImageHeight": 2530
 }

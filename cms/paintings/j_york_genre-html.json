@@ -18,5 +18,11 @@
     "Genre"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/york-img_1512-lrg-cr-fr.jpg",
-  "highlights": []
+  "highlights": [],
+  "gridImageWidth": 392,
+  "gridImageHeight": 307,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1121,
+  "highResImageWidth": 3000,
+  "highResImageHeight": 2402
 }

@@ -18,5 +18,11 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber-spring-sensations-img_1422-lrg-cr-fr.jpg",
-  "highlights": []
+  "highlights": [],
+  "gridImageWidth": 392,
+  "gridImageHeight": 279,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1144,
+  "highResImageWidth": 1899,
+  "highResImageHeight": 1552
 }

@@ -9,7 +9,7 @@
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/dolph-lion-img_1484-sm-cr-fr.jpg",
   "status": "New",
   "metaTitle": "John Henry Dolph - A Society Lion Painting For Sale",
-   "metaDescription": "John Henry Dolph, American Artist From 1835-1903 - AKA  Jdolph - A Society Lion Oil On Board Painting For Sale - 23x19 Inches - Signed Lower Left.",
+  "metaDescription": "John Henry Dolph, American Artist From 1835-1903 - AKA  Jdolph - A Society Lion Oil On Board Painting For Sale - 23x19 Inches - Signed Lower Left.",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/dolph-lion-img_1484-zoom-cr.jpg",
   "scrollingHomepageImage": false,
   "title": "A Society Lion",
@@ -28,5 +28,11 @@
     {
       "highlight": "Competitively priced $6,500"
     }
-  ]
+  ],
+  "gridImageWidth": 392,
+  "gridImageHeight": 456,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1575,
+  "highResImageWidth": 3000,
+  "highResImageHeight": 3374
 }

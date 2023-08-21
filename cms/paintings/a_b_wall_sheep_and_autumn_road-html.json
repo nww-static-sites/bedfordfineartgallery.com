@@ -20,5 +20,11 @@
     "Animal"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1677867641/AB_Sheep_Autumn_Road_IMG_1612_lrg_cr_fr_wbjssq.jpg",
-  "highlights": []
+  "highlights": [],
+  "gridImageWidth": 392,
+  "gridImageHeight": 323,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1694,
+  "highResImageWidth": 2046,
+  "highResImageHeight": 2475
 }

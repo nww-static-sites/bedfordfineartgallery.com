@@ -18,5 +18,11 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/eglau-img_1519-lrg-cr-fr.jpg",
-  "highlights": []
+  "highlights": [],
+  "gridImageWidth": 392,
+  "gridImageHeight": 267,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 980,
+  "highResImageWidth": 2992,
+  "highResImageHeight": 2095
 }

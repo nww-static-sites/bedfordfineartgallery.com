@@ -18,5 +18,11 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687979668/Shearer_Forest_Landscape_Boulder_Stream_IMG_1842_lrg_cr_fr_mfvkj0.jpg",
-  "highlights": []
+  "highlights": [],
+  "gridImageWidth": 392,
+  "gridImageHeight": 310,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 948,
+  "highResImageWidth": 3000,
+  "highResImageHeight": 2032
 }

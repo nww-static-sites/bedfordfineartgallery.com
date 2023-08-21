@@ -39,5 +39,7 @@
     {
       "highlight": "Competitively Priced $3,900"
     }
-  ]
+  ],
+  "artOnWallImageWidth": 3000,
+  "artOnWallImageHeight": 2000
 }

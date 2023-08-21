@@ -18,5 +18,11 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1679262575/Beauregard_Twilight_IMG_1640_lrg_cr_fr_oqyjlg.jpg",
-  "highlights": []
+  "highlights": [],
+  "gridImageWidth": 392,
+  "gridImageHeight": 231,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1063,
+  "highResImageWidth": 3000,
+  "highResImageHeight": 2278
 }

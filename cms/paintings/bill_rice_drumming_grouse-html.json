@@ -4,8 +4,8 @@
   "artist": "bill_rice_artwork-html",
   "paintingHeight": 18.5,
   "slug": "bill_rice_drumming_grouse-html",
-  "metaTitle" : "Bill Rice - Drumming Grouse Oil On Board Painting For Sale",
-"metaDescription" : "Bill Rice, American Artist Born 1952 - Drumming Grouse Oil On Board Painting For Sale - 15.5x19.5 Inches - Signed Lower Left.",
+  "metaTitle": "Bill Rice - Drumming Grouse Oil On Board Painting For Sale",
+  "metaDescription": "Bill Rice, American Artist Born 1952 - Drumming Grouse Oil On Board Painting For Sale - 15.5x19.5 Inches - Signed Lower Left.",
   "dimensions": "Oil on board, 15.5 x 19.5 inches/Signed lower left",
   "featured": false,
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1682779227/Rice_Druming_Grouse_IMG_1685_sm_cr_fr_xus8kh.jpg",
@@ -29,5 +29,11 @@
     {
       "highlight": "Competitively Priced $2,700"
     }
-  ]
+  ],
+  "gridImageWidth": 392,
+  "gridImageHeight": 319,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1139,
+  "highResImageWidth": 3000,
+  "highResImageHeight": 2441
 }

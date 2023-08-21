@@ -17,5 +17,11 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hetzel-rocky-forest-stream-img_1490-lrg-cr-fr.jpg",
-  "highlights": []
+  "highlights": [],
+  "gridImageWidth": 392,
+  "gridImageHeight": 270,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1765,
+  "highResImageWidth": 2443,
+  "highResImageHeight": 3080
 }

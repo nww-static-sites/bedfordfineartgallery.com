@@ -1,39 +1,39 @@
 {
-   "artist" : "john_adams_parker-html",
-   "body" : "Parker as born in New York City and had initially studied at the City University of New York for a career in business.  Apparently, the siren song of art won him over and Parker abandoned his business track for that of painting in 1857.  His first exhibit was a year later at the National Academy of Design (New York City) and he was elected an associate member in 1864, where he exhibited regularly. Active in the City’s art community, he was a founder of the Brooklyn Art Association in 1861. Parker is known mostly for his picturesque scenes of Long Island, the Adirondack and Catskill mountains of New York State and the White Mountains of New Hampshire.  He first visited Keene (NY) in Adirondacks in 1866 and would later make it his summer home. He was preceded there by Hudson River School artists Asher B. Durand Arthur Parton and John Casilear, in addition to a number of other notable artists such as John Kensett, Sanford Gifford, Frederick Perkins, and Alexander Helwig Wyant.  In addition to the National Academy of Design, Parker also exhibited regularly at the Brooklyn Art Association and the Brooklyn Art Club. \n\nHigh auction record for this artist is $17,925.",
-   "categories" : [
-      "Landscape"
-   ],
-   "dimensions" : "Oil on canvas, 37.75 x 28.75 inches/Signed lower left",
-   "featured" : false,
-   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/parker_autumn_grid_gallery_crop.jpg",
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/parker_autumn_grid.jpg",
-   "gridImageHeight" : 261,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/parker_autumn_full.jpg",
-   "highResImageHeight" : 3049,
-   "highResImageWidth" : 2486,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced $5,200"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/parker_autumn_small.jpg",
-   "mediumResImageHeight" : 1220,
-   "mediumResImageWidth" : 995,
-   "metaDescription" : "John Adams Parker, American Artist From 1829-1905 - Autumn View With Quiet River And Wooden Bridge At Dusk Oil On Canvas Painting For Sale - 37.75x28.75 Inches.",
-   "metaKeywords" : "",
-   "metaTitle" : "John Adams Parker - Autumn View with Quiet River Painting",
-   "paintingHeight" : "28.75",
-   "paintingWidth" : "37.75",
-   "slug" : "john_adams_parker_autumn-html",
-   "status" : "None",
-   "title" : "Autumn View with Quiet River and Wooden Bridge at Dusk",
-   "youtubeEmbedLink" : ""
+  "artist": "john_adams_parker-html",
+  "body": "Parker as born in New York City and had initially studied at the City University of New York for a career in business.  Apparently, the siren song of art won him over and Parker abandoned his business track for that of painting in 1857.  His first exhibit was a year later at the National Academy of Design (New York City) and he was elected an associate member in 1864, where he exhibited regularly. Active in the City’s art community, he was a founder of the Brooklyn Art Association in 1861. Parker is known mostly for his picturesque scenes of Long Island, the Adirondack and Catskill mountains of New York State and the White Mountains of New Hampshire.  He first visited Keene (NY) in Adirondacks in 1866 and would later make it his summer home. He was preceded there by Hudson River School artists Asher B. Durand Arthur Parton and John Casilear, in addition to a number of other notable artists such as John Kensett, Sanford Gifford, Frederick Perkins, and Alexander Helwig Wyant.  In addition to the National Academy of Design, Parker also exhibited regularly at the Brooklyn Art Association and the Brooklyn Art Club. \n\nHigh auction record for this artist is $17,925.",
+  "categories": [
+    "Landscape"
+  ],
+  "dimensions": "Oil on canvas, 37.75 x 28.75 inches/Signed lower left",
+  "featured": false,
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/parker_autumn_grid_gallery_crop.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/parker_autumn_grid.jpg",
+  "gridImageHeight": 261,
+  "gridImageWidth": 392,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/parker_autumn_full.jpg",
+  "highResImageHeight": 3049,
+  "highResImageWidth": 2486,
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively Priced $5,200"
+    }
+  ],
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/parker_autumn_small.jpg",
+  "mediumResImageHeight": 1220,
+  "mediumResImageWidth": 995,
+  "metaDescription": "John Adams Parker, American Artist From 1829-1905 - Autumn View With Quiet River And Wooden Bridge At Dusk Oil On Canvas Painting For Sale - 37.75x28.75 Inches.",
+  "metaKeywords": "",
+  "metaTitle": "John Adams Parker - Autumn View with Quiet River Painting",
+  "paintingHeight": "28.75",
+  "paintingWidth": "37.75",
+  "slug": "john_adams_parker_autumn-html",
+  "status": "None",
+  "title": "Autumn View with Quiet River and Wooden Bridge at Dusk",
+  "youtubeEmbedLink": ""
 }

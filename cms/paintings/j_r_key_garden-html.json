@@ -28,5 +28,11 @@
     {
       "highlight": "Competitively priced  $13,500"
     }
-  ]
+  ],
+  "gridImageWidth": 392,
+  "gridImageHeight": 347,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1222,
+  "highResImageWidth": 3000,
+  "highResImageHeight": 2619
 }

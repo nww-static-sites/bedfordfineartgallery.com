@@ -1,40 +1,40 @@
 {
-   "artist" : "frederick_mortimer_lamb_artwork-html",
-   "body" : "Born in Middleboro, MA, Lamb, at age 17, attended the Massachusetts Normal Art School in Boston, followed by study at the Académie Julian in Paris, France. A versatile artist, Lamb is known for landscape, portrait, genre still-life and sporting art paintings.  Whether in oil, water color or pastel, or executed in a tonalist or luminist manner, he painted his subjects equally well, with a high level of skill and mastery of color and light.  He believed that the work of an artist was never completed-- a subject offered new study and achievement through a lifetime.  Lamb was a member of the New York Water Color Club (absorbed by the American Water Color Society in 1941); ).; American Water Color Society; Washington Water Color Club; New Haven Paint and Clay Club; and the Boston Art Club.  He exhibited at the Boston Art Club (1889– 1905); Art Institute of Chicago;20th Century Expo (Boston, 1900, gold); Pennsylvania Academy of the Fine Arts (Philadelphia, 1913 – 1918); ); Panama-Pacific International Exposition (San Francisco, 1915, medal); Society of Independent Artists (1917, 1920, 1925-26. 1930); and Salons of America (1923, 1925, 1934). ",
-   "categories" : [
-      "Genre",
-      "Animal"
-   ],
-   "dimensions" : "Oil on canvas, 21.5 x 29.5 inches/Signed lower left",
-   "featured" : false,
-   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/lamb_grid_gallery_crop.jpg",
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/lamb_grid.jpg",
-   "gridImageHeight" : 261,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/lamb_full2.jpg",
-   "highResImageHeight" : 2408,
-   "highResImageWidth" : 3031,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced $3,900"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/lamb_small2.jpg",
-   "mediumResImageHeight" : 891,
-   "mediumResImageWidth" : 1122,
-   "metaDescription" : "Frederick Mortimer Lamb - Boy Riding Draft Horses Oil On Canvas Painting For Sale - 21.5x29.5 Inches - Signed Lower Left. Purchase This Painting Online Today!",
-   "metaKeywords" : "",
-   "metaTitle" : "Frederick Mortimer Lamb - Boy Riding Draft Horses Painting",
-   "paintingHeight" : "29.5",
-   "paintingWidth" : "37.5",
-   "slug" : "frederick_mortimer_lamb_boy-html",
-   "status" : "None",
-   "title" : "Boy Riding Draft Horses",
-   "youtubeEmbedLink" : ""
+  "artist": "frederick_mortimer_lamb_artwork-html",
+  "body": "Born in Middleboro, MA, Lamb, at age 17, attended the Massachusetts Normal Art School in Boston, followed by study at the Académie Julian in Paris, France. A versatile artist, Lamb is known for landscape, portrait, genre still-life and sporting art paintings.  Whether in oil, water color or pastel, or executed in a tonalist or luminist manner, he painted his subjects equally well, with a high level of skill and mastery of color and light.  He believed that the work of an artist was never completed-- a subject offered new study and achievement through a lifetime.  Lamb was a member of the New York Water Color Club (absorbed by the American Water Color Society in 1941); ).; American Water Color Society; Washington Water Color Club; New Haven Paint and Clay Club; and the Boston Art Club.  He exhibited at the Boston Art Club (1889– 1905); Art Institute of Chicago;20th Century Expo (Boston, 1900, gold); Pennsylvania Academy of the Fine Arts (Philadelphia, 1913 – 1918); ); Panama-Pacific International Exposition (San Francisco, 1915, medal); Society of Independent Artists (1917, 1920, 1925-26. 1930); and Salons of America (1923, 1925, 1934). ",
+  "categories": [
+    "Genre",
+    "Animal"
+  ],
+  "dimensions": "Oil on canvas, 21.5 x 29.5 inches/Signed lower left",
+  "featured": false,
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/lamb_grid_gallery_crop.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/lamb_grid.jpg",
+  "gridImageHeight": 261,
+  "gridImageWidth": 392,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/lamb_full2.jpg",
+  "highResImageHeight": 2408,
+  "highResImageWidth": 3031,
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively Priced $3,900"
+    }
+  ],
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/lamb_small2.jpg",
+  "mediumResImageHeight": 891,
+  "mediumResImageWidth": 1122,
+  "metaDescription": "Frederick Mortimer Lamb - Boy Riding Draft Horses Oil On Canvas Painting For Sale - 21.5x29.5 Inches - Signed Lower Left. Purchase This Painting Online Today!",
+  "metaKeywords": "",
+  "metaTitle": "Frederick Mortimer Lamb - Boy Riding Draft Horses Painting",
+  "paintingHeight": "29.5",
+  "paintingWidth": "37.5",
+  "slug": "frederick_mortimer_lamb_boy-html",
+  "status": "None",
+  "title": "Boy Riding Draft Horses",
+  "youtubeEmbedLink": ""
 }

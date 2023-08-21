@@ -1,39 +1,39 @@
 {
-   "artist" : "michael_strueber_art-html",
-   "body" : "Born in Pittsburgh, Pennsylvania, Strueber is an accomplished watercolorist and plein air painter.  Strueber regards his approach to watercolor painting as spiritually akin to the Japanese brush painting tradition known as Sumi-e—the attempt to capture the life-spirit of the subject.  His landscapes are painted directly on location, often areas atop the Allegheny Mountains near Cresson, near his studio in Hollidaysburg, PA.  His flower still-lifes are painted in his studio from plants only from his garden. He is out all year round to paint his landscapes and braves the cold to capture wintery forest scenes. Strueber places importance on role of place in defining self and its relationship to the world and the greater cosmos. His works evoke attributes of classical naturalism that were signatures of such 19th century-painters as Worthington Whittredge and William Trost Richard, according to Scott Dimond, former curator of SAMA-Loretto. Many people comment on how realistic his paintings are. Strueber, however, does not believe that his paintings are realistic, but just abstract ideas of what he is feeling—he says that he could never compete with nature. He was the first artist to be given an exhibition in the new gallery space at Fallingwater. His paintings are held in over 400 private and public collections in 38 states. In addition to his work as a painter, he served for 24 years as Director of the Southern Alleghenies Museum of Art. ",
-   "categories" : [
-      "Still Life"
-   ],
-   "dimensions" : "Water Color, 22.5 x 16.5 inches inside matte/Signed lower left",
-   "featured" : false,
-   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber_grid1_gallery_crop.jpg",
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber_grid1.jpg",
-   "gridImageHeight" : 260,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber_full5.jpg",
-   "highResImageHeight" : 3156,
-   "highResImageWidth" : 2550,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced $1,800"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber_small5.jpg",
-   "mediumResImageHeight" : 1668,
-   "mediumResImageWidth" : 1348,
-   "metaDescription" : "Michael Strueber - Painter From 1945 - Present - White Peonies Water Color Painting For Sale - 22.5x X 16.5 Inches Inside Matte - Signed Lower Left.",
-   "metaKeywords" : "",
-   "metaTitle" : "Michael Strueber - White Peonies Painting For Sale",
-   "paintingHeight" : "30.25",
-   "paintingWidth" : "24.25",
-   "slug" : "michael_strueber_peonies-html",
-   "status" : "None",
-   "title" : "White Peonies",
-   "youtubeEmbedLink" : ""
+  "artist": "michael_strueber_art-html",
+  "body": "Born in Pittsburgh, Pennsylvania, Strueber is an accomplished watercolorist and plein air painter.  Strueber regards his approach to watercolor painting as spiritually akin to the Japanese brush painting tradition known as Sumi-e—the attempt to capture the life-spirit of the subject.  His landscapes are painted directly on location, often areas atop the Allegheny Mountains near Cresson, near his studio in Hollidaysburg, PA.  His flower still-lifes are painted in his studio from plants only from his garden. He is out all year round to paint his landscapes and braves the cold to capture wintery forest scenes. Strueber places importance on role of place in defining self and its relationship to the world and the greater cosmos. His works evoke attributes of classical naturalism that were signatures of such 19th century-painters as Worthington Whittredge and William Trost Richard, according to Scott Dimond, former curator of SAMA-Loretto. Many people comment on how realistic his paintings are. Strueber, however, does not believe that his paintings are realistic, but just abstract ideas of what he is feeling—he says that he could never compete with nature. He was the first artist to be given an exhibition in the new gallery space at Fallingwater. His paintings are held in over 400 private and public collections in 38 states. In addition to his work as a painter, he served for 24 years as Director of the Southern Alleghenies Museum of Art. ",
+  "categories": [
+    "Still Life"
+  ],
+  "dimensions": "Water Color, 22.5 x 16.5 inches inside matte/Signed lower left",
+  "featured": false,
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber_grid1_gallery_crop.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber_grid1.jpg",
+  "gridImageHeight": 260,
+  "gridImageWidth": 392,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber_full5.jpg",
+  "highResImageHeight": 3156,
+  "highResImageWidth": 2550,
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively Priced $1,800"
+    }
+  ],
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber_small5.jpg",
+  "mediumResImageHeight": 1668,
+  "mediumResImageWidth": 1348,
+  "metaDescription": "Michael Strueber - Painter From 1945 - Present - White Peonies Water Color Painting For Sale - 22.5x X 16.5 Inches Inside Matte - Signed Lower Left.",
+  "metaKeywords": "",
+  "metaTitle": "Michael Strueber - White Peonies Painting For Sale",
+  "paintingHeight": "30.25",
+  "paintingWidth": "24.25",
+  "slug": "michael_strueber_peonies-html",
+  "status": "None",
+  "title": "White Peonies",
+  "youtubeEmbedLink": ""
 }

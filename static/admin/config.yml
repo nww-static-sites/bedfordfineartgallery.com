@@ -79,7 +79,8 @@ collections:
               label: 'Main Image Alt Text',
               name: mainImageAltText,
               widget: string,
-              hint: 'The alt text used for the main image. Will default to painting name and artist'
+              hint: 'The alt text used for the main image. Will default to painting name and artist',
+              required: false,
             }
           - {
                 label: 'Gallery Crop Image',
@@ -125,7 +126,8 @@ collections:
               label: 'Art On Wall Alt Text',
               name: artOnWallAltText,
               widget: string,
-              hint: 'The alt text used for the art on wall image. Will default to "Art On Wall Example - " with the painting name and artist'
+              hint: 'The alt text used for the art on wall image. Will default to "Art On Wall Example - " with the painting name and artist',
+              required: false,
             }
           - {
                 label: 'Painting Width',
@@ -216,6 +218,7 @@ collections:
               label: 'YouTube Alt Text',
               name: youtubeAltText,
               widget: string,
+              required: false,
             }
           - { label: 'Slug', name: 'slug', widget: 'string', hint: 'Example: Example: albert_francis_king_fishing_hole-html File name that will appear in the browser address bar. NEVER CHANGE THE SLUG ONCE IT IS CREATED. THIS WILL BREAK THE PAINTING ON THE SITE AND POSSIBLY ITS ARTIST.', pattern: ["^(\\w|-)+-html$", "Slug must contain only letters, numbers, dashes, or underscores, and must end in -html"] }
           - {

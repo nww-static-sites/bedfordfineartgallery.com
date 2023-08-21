@@ -18,5 +18,11 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/longstaffe-img_1406-lrg-cr-fr.jpg",
-  "highlights": []
+  "highlights": [],
+  "gridImageWidth": 392,
+  "gridImageHeight": 268,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 990,
+  "highResImageWidth": 3399,
+  "highResImageHeight": 2404
 }

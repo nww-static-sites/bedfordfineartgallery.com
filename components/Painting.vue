@@ -11,7 +11,7 @@
 
         <div class="container primary">
             <section class="wrapper clearfix">
-                <PaintingHeader :painting="painting"/>
+                <PaintingHeader :painting="painting" />
 
                 <div class="col_40 artwork">
                     <p class="mobile_phone_cta">
@@ -44,6 +44,10 @@
                         <div class="zoom_mobile">
                             <Zoom :mobile="true" :painting="painting" :alt="altText" />
                         </div>
+
+                        <div v-if="painting.artOnWallImage" style="margin-top: 20px">
+                            <Zoom :mobile="false" :painting="painting" :alt="altText" :use-art-on-wall-image="true" />
+                        </div>
                     </template>
                     <p v-if="!isSold" class="zoom">Click image to zoom</p>
 
@@ -61,10 +65,28 @@
                             <li v-for="(highlight, index) in painting.highlights" :key="index">
                                 {{ highlight.highlight }}
                                 <template v-if="highlight.pairedPainting">
-                                    (sold as a pair with <nuxt-link :to="highlight.pairedPainting.slug.replace('-html', '.html')">{{ highlight.pairedPainting.title }}</nuxt-link>)
+                                    (sold as a pair with
+                                    <nuxt-link :to="highlight.pairedPainting.slug.replace('-html', '.html')">{{
+                                        highlight.pairedPainting.title
+                                    }}</nuxt-link
+                                    >)
                                 </template>
                             </li>
                         </ul>
+                    </div>
+                    <div v-if="showArtPlacer" class="breadcrumb view_on_wall" style="margin-top: 10px">
+                        <artplacer
+                            gallery="3188"
+                            type="2"
+                            text="VIEW THIS PAINTING ON A WALL"
+                            space="14392"
+                            classname="btn_wall_view"
+                            :artwork_url="artworkUrl"
+                            frames="false"
+                            catalog="false"
+                            :size="artplacerSize"
+                            :height="artplacerHeight"
+                        ></artplacer>
                     </div>
                     <div v-if="showArtPlacer" class="breadcrumb view_on_wall" style="margin-top: 10px">
                         <artplacer
@@ -109,7 +131,11 @@
                             >View all Paintings from this Artist</nuxt-link
                         >
                     </div>
-                    <YouTubeVideo v-if="painting.youtubeEmbedLink" :link="painting.youtubeEmbedLink" :alt="painting.youtubeAltText" />
+                    <YouTubeVideo
+                        v-if="painting.youtubeEmbedLink"
+                        :link="painting.youtubeEmbedLink"
+                        :alt="painting.youtubeAltText"
+                    />
                     <!-- testimonials desktop -->
                     <div
                         class="container test_int_desktop"
@@ -117,7 +143,7 @@
                     >
                         <section class="wrapper" style="width: 90%; max-width: 860px; margin: auto">
                             <div class="home_test">
-                                <TestimonialsScroll :testimonials="testimonials"/>
+                                <TestimonialsScroll :testimonials="testimonials" />
                             </div>
                             <!--#include virtual="testimonials_scroll.html"-->
                         </section>
@@ -131,7 +157,11 @@
                             <li v-for="(highlight, index) in painting.highlights" :key="index">
                                 {{ highlight.highlight }}
                                 <template v-if="highlight.pairedPainting">
-                                    (sold as a pair with <nuxt-link :to="highlight.pairedPainting.slug.replace('-html', '.html')">{{ highlight.pairedPainting.title }}</nuxt-link>)
+                                    (sold as a pair with
+                                    <nuxt-link :to="highlight.pairedPainting.slug.replace('-html', '.html')">{{
+                                        highlight.pairedPainting.title
+                                    }}</nuxt-link
+                                    >)
                                 </template>
                             </li>
                         </ul>
@@ -167,7 +197,10 @@
                                     margin: auto;
                                     line-height: 24px;
                                 "
-                                >We don't know which of your own thoughts will convince yourself that a great decision is going to be made.  Only you can find yourself doing so because it naturally and easily makes sense and feels right for you.  So please feel free to ask any questions that allow you to recognize that is happening.</span
+                                >We don't know which of your own thoughts will convince yourself that a great decision
+                                is going to be made. Only you can find yourself doing so because it naturally and easily
+                                makes sense and feels right for you. So please feel free to ask any questions that allow
+                                you to recognize that is happening.</span
                             >
                         </h3>
 
@@ -214,13 +247,16 @@ export default {
             return artistNameWithTinyDescription(this.painting.artist)
         },
         isSold() {
-			return this.painting.status === 'Sold'
-		},
+            return this.painting.status === 'Sold'
+        },
         artworkUrl() {
             return this.painting.highResImage
         },
         showArtPlacer() {
-            return this.painting.status !== 'Sold' && !this.painting.categories.includes('Sculpture')
+            return (
+                this.painting.status !== 'Sold' &&
+                (!this.painting.categories || !this.painting.categories.includes('Sculpture'))
+            )
         },
         artplacerSize() {
             return this.showArtPlacer ? `${this.painting.paintingWidth} x ${this.painting.paintingHeight}` : ''
@@ -236,7 +272,7 @@ export default {
         },
         altText() {
             return this.painting.mainImageAltText || artistNameWithTinyDescription(this.painting.artist)
-        }
+        },
     },
 }
 </script>

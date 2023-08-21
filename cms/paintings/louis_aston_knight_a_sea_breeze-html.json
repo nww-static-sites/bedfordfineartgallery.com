@@ -18,5 +18,11 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1677957716/Knight_Sea_Breeze_IMG_1587_lrg_cr_fr_y0veto.jpg",
-  "highlights": []
+  "highlights": [],
+  "gridImageWidth": 392,
+  "gridImageHeight": 241,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1060,
+  "highResImageWidth": 3000,
+  "highResImageHeight": 2271
 }

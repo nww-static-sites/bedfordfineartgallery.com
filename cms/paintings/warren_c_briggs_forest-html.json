@@ -1,39 +1,39 @@
 {
-   "artist" : "warren_c_briggs_artwork-html",
-   "body" : "Warren C. Briggs was a 19th Century artist noted for his paintings of rustic barnyard scenes with chickens and roosters, and exquisitely detailed landscapes.  This painting, \"Forest Interior with Birch Tree\" illustrates his command of portraying light effects—capturing a break in the dense, dark forest interior illuminating a briskly flowing stream and the nearby birch tree.  Briggs exhibited widely--the Boston Art Club, Brooklyn Art Association (New York), National Academy of Design (New York) and the Pennsylvania Academy of the Fine Arts (Philadelphia).  He is listed in Davenport’s Art References (2005); Who was Who in American Art, 1564-1975 (Falk, 1999), National Academy of Design Exhibition Record 1861-1900 (Naylor, 1973) and Index of Artists (Mallet, 1935). ",
-   "categories" : [
-      "Landscape"
-   ],
-   "dimensions" : "Oil on canvas, 21.5 x 17.25 inches/Signed lower left",
-   "featured" : false,
-   "galleryCropImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/briggs_grid_gallery_crop.jpg",
-   "gridImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/briggs_grid.jpg",
-   "gridImageHeight" : 260,
-   "gridImageWidth" : 392,
-   "highResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/briggs_full.jpg",
-   "highResImageHeight" : 2937,
-   "highResImageWidth" : 2517,
-   "highlights" : [
-      {
-         "highlight" : "Available for purchase"
-      },
-      {
-         "highlight" : "Professionally conserved and framed"
-      },
-      {
-         "highlight" : "Competitively Priced $4,000"
-      }
-   ],
-   "mediumResImage" : "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/briggs_small.jpg",
-   "mediumResImageHeight" : 1513,
-   "mediumResImageWidth" : 1297,
-   "metaDescription" : "Warren C. Briggs (American, 1867 - 1903) - Forest Interior With Birch Tree Painting For Sale - Oil On Canvas - 21.5 X 17.25 Inches - Signed On The Lower Left.",
-   "metaKeywords" : "",
-   "metaTitle" : "Warren C. Briggs - Forest Interior with Birch Tree Painting For Sale",
-   "paintingHeight" : "27.75",
-   "paintingWidth" : "23.5",
-   "slug" : "warren_c_briggs_forest-html",
-   "status" : "None",
-   "title" : "Forest Interior with Birch Tree",
-   "youtubeEmbedLink" : ""
+  "artist": "warren_c_briggs_artwork-html",
+  "body": "Warren C. Briggs was a 19th Century artist noted for his paintings of rustic barnyard scenes with chickens and roosters, and exquisitely detailed landscapes.  This painting, \"Forest Interior with Birch Tree\" illustrates his command of portraying light effects—capturing a break in the dense, dark forest interior illuminating a briskly flowing stream and the nearby birch tree.  Briggs exhibited widely--the Boston Art Club, Brooklyn Art Association (New York), National Academy of Design (New York) and the Pennsylvania Academy of the Fine Arts (Philadelphia).  He is listed in Davenport’s Art References (2005); Who was Who in American Art, 1564-1975 (Falk, 1999), National Academy of Design Exhibition Record 1861-1900 (Naylor, 1973) and Index of Artists (Mallet, 1935). ",
+  "categories": [
+    "Landscape"
+  ],
+  "dimensions": "Oil on canvas, 21.5 x 17.25 inches/Signed lower left",
+  "featured": false,
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/briggs_grid_gallery_crop.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/briggs_grid.jpg",
+  "gridImageHeight": 260,
+  "gridImageWidth": 392,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/briggs_full.jpg",
+  "highResImageHeight": 2937,
+  "highResImageWidth": 2517,
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively Priced $4,000"
+    }
+  ],
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/briggs_small.jpg",
+  "mediumResImageHeight": 1513,
+  "mediumResImageWidth": 1297,
+  "metaDescription": "Warren C. Briggs (American, 1867 - 1903) - Forest Interior With Birch Tree Painting For Sale - Oil On Canvas - 21.5 X 17.25 Inches - Signed On The Lower Left.",
+  "metaKeywords": "",
+  "metaTitle": "Warren C. Briggs - Forest Interior with Birch Tree Painting For Sale",
+  "paintingHeight": "27.75",
+  "paintingWidth": "23.5",
+  "slug": "warren_c_briggs_forest-html",
+  "status": "None",
+  "title": "Forest Interior with Birch Tree",
+  "youtubeEmbedLink": ""
 }

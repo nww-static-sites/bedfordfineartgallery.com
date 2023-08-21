@@ -28,5 +28,11 @@
     {
       "highlight": "Competitively priced"
     }
-  ]
+  ],
+  "gridImageWidth": 392,
+  "gridImageHeight": 296,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1770,
+  "highResImageWidth": 2492,
+  "highResImageHeight": 3151
 }

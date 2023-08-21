@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Hendrik-Dirk Kruseman Van Elten",
-   "metaTitle": "Hendrik-Dirk Kruseman Van Elten Paintings For Sale",
-   "metaDescription": "Experience the artistry of Hendrik-Dirk Kruseman van Elten. Explore his exquisite paintings for sale and add a touch of timeless beauty to your collection.",
-   "paintings" : [
-      "hendrik_dirk_kruseman_van_elten_stream-html"
-   ],
-   "slug" : "hendrik_dirk_kruseman_van_elten_artwork-html",
-   "tinyDescription" : "Dutch-American 1829 - 1904"
+  "alias": "",
+  "hasLandingPage": true,
+  "name": "Hendrik-Dirk Kruseman Van Elten",
+  "metaTitle": "Hendrik-Dirk Kruseman Van Elten Paintings For Sale",
+  "metaDescription": "Experience the artistry of Hendrik-Dirk Kruseman van Elten. Explore his exquisite paintings for sale and add a touch of timeless beauty to your collection.",
+  "paintings": [
+    "hendrik_dirk_kruseman_van_elten_stream-html",
+    "kruseman_van_elten_pastural_landscape_with_ducks_cows-html"
+  ],
+  "slug": "hendrik_dirk_kruseman_van_elten_artwork-html",
+  "tinyDescription": "Dutch-American 1829 - 1904"
 }

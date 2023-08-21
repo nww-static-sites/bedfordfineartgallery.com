@@ -31,5 +31,11 @@
     {
       "highlight": "Professionally conserved and framed"
     }
-  ]
+  ],
+  "gridImageWidth": 392,
+  "gridImageHeight": 350,
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1142,
+  "highResImageWidth": 3000,
+  "highResImageHeight": 2448
 }
