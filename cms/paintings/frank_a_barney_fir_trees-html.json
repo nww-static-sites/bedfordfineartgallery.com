@@ -4,12 +4,12 @@
   "highResImageHeight": 2583,
   "artist": "frank_a_barney_art-html",
   "highResImageWidth": 3348,
-  "artOnWallAltText": "Frank A. Barney - Impression of Fir Trees ",
+  "artOnWallAltText": "Frank A. Barney Painting for Sale - Impression of Fir Trees ",
   "paintingHeight": "14.75",
   "slug": "frank_a_barney_fir_trees-html",
   "dimensions": "Oil on canvas, 11.5 x 15.5 inches/Signed lower right",
   "featured": false,
-  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1692379879/barney_impressions_of_fir_trees_room_v2_ljxjp0.jpg",
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1692622361/barney_impression_of_fir_trees_room_v3_knkauv.jpg",
   "metaKeywords": "",
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barney_trees_small.jpg",
@@ -20,8 +20,10 @@
   "mainImageAltText": "Frank A. Barney - Impression of Fir Trees ",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barney_trees_grid.jpg",
   "mediumResImageWidth": 1099,
+  "artOnWallImageHeight": 2032,
   "mediumResImageHeight": 848,
   "metaDescription": "Frank A. Barney (American Painter, 1862 - 1954) Impression Of Fir Trees Oil On Canvas Painting For Sale, 11.5 X 15.5 Inches Signed On The Lower Right.",
+  "artOnWallImageWidth": 3000,
   "title": "Impression of Fir Trees",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barney_trees_grid_gallery_crop.jpg",
   "categories": [
@@ -39,7 +41,5 @@
     {
       "highlight": "Competitively Priced $2,900"
     }
-  ],
-  "artOnWallImageWidth": 3000,
-  "artOnWallImageHeight": 2032
+  ]
 }
