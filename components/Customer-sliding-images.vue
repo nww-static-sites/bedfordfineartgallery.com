@@ -33,11 +33,13 @@
             <div><nuxt-picture provider="cloudinary" src="/customer-images/50.jpg" /></div>
              <div><nuxt-picture provider="cloudinary" src="/customer-images/45.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/29.jpg" /></div>
+             <div><nuxt-picture provider="cloudinary" src="/customer-images/61.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/30.jpg" /></div>
              <div><nuxt-picture provider="cloudinary" src="/customer-images/31.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/32.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/33.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/46.jpg" /></div>
+            <div><nuxt-picture provider="cloudinary" src="/customer-images/59.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/34.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/35.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/43.jpg" /></div>
@@ -48,6 +50,7 @@
             <div><nuxt-picture provider="cloudinary" src="/customer-images/38.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/39.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/40.jpg" /></div>
+            <div><nuxt-picture provider="cloudinary" src="/customer-images/58.jpg" /></div>
              <div><nuxt-picture provider="cloudinary" src="/customer-images/41.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/42.jpg" /></div>
              <div><nuxt-picture provider="cloudinary" src="/customer-images/44.jpg" /></div>
@@ -56,7 +59,11 @@
              <div><nuxt-picture provider="cloudinary" src="/customer-images/53.jpg" /></div>
              <div><nuxt-picture provider="cloudinary" src="/customer-images/54.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/55.jpg" /></div>
-<div><nuxt-picture provider="cloudinary" src="/customer-images/48.jpg" /></div>
+            <div><nuxt-picture provider="cloudinary" src="/customer-images/57.jpg" /></div>
+
+
+            <div><nuxt-picture provider="cloudinary" src="/customer-images/60.jpg" /></div>
+
 
 
 
