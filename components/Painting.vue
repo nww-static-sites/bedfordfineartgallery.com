@@ -44,12 +44,13 @@
                         <div class="zoom_mobile">
                             <Zoom :mobile="true" :painting="painting" :alt="altText" />
                         </div>
+                        <p class="zoom">Click image to zoom</p>
 
                         <div v-if="painting.artOnWallImage" style="margin-top: 20px">
                             <Zoom :mobile="false" :painting="painting" :alt="altText" :use-art-on-wall-image="true" />
                         </div>
+                        <p v-if="painting.artOnWallImage" class="zoom">Click image to zoom</p>
                     </template>
-                    <p v-if="!isSold" class="zoom">Click image to zoom</p>
 
                     <div class="mobile_cta">
                         <div class="breadcrumb" style="margin-top: 2px; text-align: center">
