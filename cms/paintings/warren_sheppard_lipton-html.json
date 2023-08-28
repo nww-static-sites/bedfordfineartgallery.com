@@ -4,7 +4,7 @@
   "highResImageHeight": 2946,
   "artist": "warren_shepphard-html",
   "highResImageWidth": 3928,
-  "artOnWallAltText": "Warren Sheppard - Brooklyn Y.C. Ocean Race for Lipton Cup",
+  "artOnWallAltText": "Warren Sheppard 19th Century Art For Sale - Brooklyn Y.C. Ocean Race for Lipton Cup",
   "paintingHeight": "25.75",
   "slug": "warren_sheppard_lipton-html",
   "dimensions": "Oil on canvas, 15.5 x 25.75 inches/Signed lower left",
@@ -20,8 +20,10 @@
   "mainImageAltText": "Warren Sheppard - Brooklyn Y.C. Ocean Race for Lipton Cup",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/sheppard_grid3.jpg",
   "mediumResImageWidth": 1031,
+  "artOnWallImageHeight": 1892,
   "mediumResImageHeight": 774,
   "metaDescription": "Warren Sheppard - American, 1858-1937 - Brooklyn Y.c. Ocean Race For Lipton Cup Oil On Canvas Paint For Sale - 15.5 X 25.75 Inches - Signed On Lower Left.",
+  "artOnWallImageWidth": 3473,
   "title": "Brooklyn Y.C. Ocean Race for Lipton Cup",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/sheppard_grid3_gallery_crop.jpg",
   "categories": [
@@ -39,7 +41,5 @@
     {
       "highlight": "Competitively Priced $15,000"
     }
-  ],
-  "artOnWallImageWidth": 3473,
-  "artOnWallImageHeight": 1892
+  ]
 }

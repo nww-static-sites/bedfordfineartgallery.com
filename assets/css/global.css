@@ -2117,7 +2117,7 @@ margin: auto
   padding: 8px 8px 8px 16px;
 }
 
-.btn_wall_view {
+.btn_wall_view, div.view_on_wall button {
 	border: none;
     background-color: #742924;
     padding: 10px 20px;

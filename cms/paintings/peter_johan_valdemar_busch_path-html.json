@@ -4,7 +4,7 @@
   "highResImageHeight": 2325,
   "artist": "peter_johan_valdemar_busch_artwork-html",
   "highResImageWidth": 2766,
-  "artOnWallAltText": "Peter Johan Valdemar Busch - Path through the Beech Trees ",
+  "artOnWallAltText": "Peter Johan Valdemar Busch Victorian Paintings For Sale - Path through the Beech Trees ",
   "paintingHeight": "39.5",
   "slug": "peter_johan_valdemar_busch_path-html",
   "dimensions": "Oil/canvas 30.25 x 36 inches/Signed lower right",
@@ -20,8 +20,10 @@
   "mainImageAltText": "Peter Johan Valdemar Busch - Path through the Beech Trees ",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/busch_grid.jpg",
   "mediumResImageWidth": 1107,
+  "artOnWallImageHeight": 2000,
   "mediumResImageHeight": 930,
   "metaDescription": "Peter Johan Valdemar Busch (1861-1942) Path Through The Beech Trees Oil on Canvas Painting For Sale - 30.25 X 36 Inches - Signed On Lower Right.",
+  "artOnWallImageWidth": 3000,
   "title": "Path through the Beech Trees",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/busch_grid_gallery_crop.jpg",
   "categories": [
@@ -39,7 +41,5 @@
     {
       "highlight": "Competitively Priced $3,900"
     }
-  ],
-  "artOnWallImageWidth": 3000,
-  "artOnWallImageHeight": 2000
+  ]
 }
