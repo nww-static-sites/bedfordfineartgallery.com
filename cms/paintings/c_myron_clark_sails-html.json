@@ -25,5 +25,15 @@
   ],
   "gridImageHeight": 261,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/clark_sails_full.jpg",
-  "highlights": []
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively priced $1,800"
+    }
+  ]
 }
