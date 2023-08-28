@@ -76,31 +76,10 @@
                         </ul>
                     </div>
                     <div v-if="showArtPlacer" class="breadcrumb view_on_wall" style="margin-top: 10px">
-                        <artplacer
-                            gallery="3188"
-                            type="2"
-                            text="VIEW THIS PAINTING ON A WALL"
-                            space="14392"
-                            classname="btn_wall_view"
-                            :artwork_url="artworkUrl"
-                            frames="false"
-                            catalog="false"
-                            :size="artplacerSize"
-                            :height="artplacerHeight"
-                        ></artplacer>
+                        <span id="artplacer2"></span>
                     </div>
                     <div v-if="showArtPlacer" class="breadcrumb view_on_wall" style="margin-top: 10px">
-                        <artplacer
-                            gallery="3188"
-                            type="1"
-                            text="VIEW THIS PAINTING ON YOUR WALL"
-                            classname="btn_wall_view"
-                            :artwork_url="artworkUrl"
-                            frames="false"
-                            catalog="false"
-                            :size="artplacerSize"
-                            :height="artplacerHeight"
-                        ></artplacer>
+                        <span id="artplacer1"></span>
                     </div>
 
                     <div v-if="!isSold" style="width: 100%; max-width: 340px; margin: auto">
@@ -273,6 +252,46 @@ export default {
         },
         altText() {
             return this.painting.mainImageAltText || artistNameWithTinyDescription(this.painting.artist)
+        },
+    },
+    mounted() {
+        if (!window.showArtPlacer) {
+            const script = document.createElement('script')
+            script.onload = this.onScriptLoaded
+            script.type = 'text/javascript'
+            script.src = '//widget.artplacer.com/js/script.js'
+            document.head.appendChild(script)
+        } else {
+            this.onScriptLoaded()
+        }
+    },
+    methods: {
+        onScriptLoaded() {
+            if (this.showArtPlacer && document.getElementById('artplacer1').parentElement.childElementCount < 2) {
+                window.ArtPlacer.insert({
+                    gallery: '3188',
+                    type: '1',
+                    text: 'VIEW THIS PAINTING ON YOUR WALL',
+                    artwork_url: this.artworkUrl,
+                    frames: false,
+                    catalog: false,
+                    height: this.artplacerHeight,
+                    size: this.artplacerSize,
+                    after: '#artplacer1',
+                })
+                window.ArtPlacer.insert({
+                    gallery: '3188',
+                    space: '14392',
+                    type: '2',
+                    text: 'VIEW THIS PAINTING ON A WALL',
+                    artwork_url: this.artworkUrl,
+                    frames: false,
+                    catalog: false,
+                    height: this.artplacerHeight,
+                    size: this.artplacerSize,
+                    after: '#artplacer2',
+                })
+            }
         },
     },
 }
