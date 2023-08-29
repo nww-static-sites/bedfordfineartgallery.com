@@ -255,15 +255,17 @@ export default {
         },
     },
     mounted() {
-        if (!window.showArtPlacer) {
-            const script = document.createElement('script')
-            script.onload = this.onScriptLoaded
-            script.type = 'text/javascript'
-            script.src = '//widget.artplacer.com/js/script.js'
-            document.head.appendChild(script)
-        } else {
-            this.onScriptLoaded()
-        }
+        window.addEventListener('load', () => {
+            if (window.showArtPlacer) {
+                this.onScriptLoaded()
+            } else {
+                const script = document.createElement('script')
+                script.onload = this.onScriptLoaded
+                script.type = 'text/javascript'
+                script.src = '//widget.artplacer.com/js/script.js'
+                document.head.appendChild(script)
+            }
+        })
     },
     methods: {
         onScriptLoaded() {
