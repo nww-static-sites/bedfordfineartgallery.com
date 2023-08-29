@@ -255,7 +255,7 @@ export default {
         },
     },
     mounted() {
-        this.$nextTick(function() {
+        window.addEventListener('load', () => {
             if (window.showArtPlacer) {
                 this.onScriptLoaded()
             } else {
