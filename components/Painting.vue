@@ -269,9 +269,7 @@ export default {
     },
     methods: {
         onScriptLoaded() {
-            console.log('onscriptloaded')
             if (this.showArtPlacer && document.getElementById('artplacer1').parentElement.childElementCount < 2) {
-                console.log('intheif')
                 window.ArtPlacer.insert({
                     gallery: '3188',
                     type: '1',
