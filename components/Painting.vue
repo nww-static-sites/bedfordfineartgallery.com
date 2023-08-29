@@ -255,7 +255,18 @@ export default {
         },
     },
     mounted() {
-        window.addEventListener('load', () => {
+        document.onreadystatechange = () => {
+            if (document.readyState == 'complete') {
+                this.maybeLoadArtPlacerScript()
+            }
+        }
+        this.maybeLoadArtPlacerScript()
+    },
+    updated() {
+        this.maybeLoadArtPlacerScript()
+    },
+    methods: {
+        maybeLoadArtPlacerScript() {
             if (window.showArtPlacer) {
                 this.onScriptLoaded()
             } else {
@@ -265,9 +276,7 @@ export default {
                 script.src = '//widget.artplacer.com/js/script.js'
                 document.head.appendChild(script)
             }
-        })
-    },
-    methods: {
+        },
         onScriptLoaded() {
             if (this.showArtPlacer && document.getElementById('artplacer1').parentElement.childElementCount < 2) {
                 window.ArtPlacer.insert({
