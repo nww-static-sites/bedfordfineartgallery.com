@@ -255,26 +255,32 @@ export default {
         },
     },
     mounted() {
-        if (document.readyState === 'complete') {
-            this.maybeLoadArtPlacerScript()
-        } else {
-            document.onreadystatechange = () => {
-                if (document.readyState === 'complete') {
-                    this.maybeLoadArtPlacerScript()
-                }
+        window.__nww__artplacerloaded = false
+        window.__nww__artplacerplaced = false
+        document.onreadystatechange = () => {
+            if (document.readyState === 'complete') {
+                this.maybeLoadArtPlacerScript()
             }
         }
+        this.maybeLoadArtPlacerScript()
+    },
+    updated() {
+        this.maybeLoadArtPlacerScript()
     },
     methods: {
         maybeLoadArtPlacerScript() {
-            const script = document.createElement('script')
-            script.onload = this.onScriptLoaded
-            script.type = 'text/javascript'
-            script.src = '//widget.artplacer.com/js/script.js'
-            document.head.appendChild(script)
+            if (!window.__nww__artplacerloaded) {
+                window.__nww__artplacerloaded = true
+                const script = document.createElement('script')
+                script.onload = this.onScriptLoaded
+                script.type = 'text/javascript'
+                script.src = '//widget.artplacer.com/js/script.js'
+                document.head.appendChild(script)
+            }
         },
         onScriptLoaded() {
-            if (this.showArtPlacer && document.getElementById('artplacer1').parentElement.childElementCount < 2) {
+            if (this.showArtPlacer && !window.__nww__artplacerplaced) {
+                window.__nww__artplacerplaced = true
                 window.ArtPlacer.insert({
                     gallery: '3188',
                     type: '1',
