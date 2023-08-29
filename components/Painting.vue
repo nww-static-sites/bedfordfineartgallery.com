@@ -256,15 +256,12 @@ export default {
     },
     mounted() {
         window.__nww__artplacerplaced = false
-        if (document.readyState === 'complete') {
-            this.maybeLoadArtPlacerScript()
-        } else {
-            document.onreadystatechange = () => {
-                if (document.readyState === 'complete') {
-                    this.maybeLoadArtPlacerScript()
-                }
-            }
-        }
+        const $this = this
+        this.$nextTick(function () {
+            setTimeout(() => {
+                $this.maybeLoadArtPlacerScript()
+            }, 1250);
+        })
     },
     updated() {
         this.maybeLoadArtPlacerScript()
