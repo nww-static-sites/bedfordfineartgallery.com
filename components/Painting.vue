@@ -205,9 +205,9 @@
 </template>
 
 <script>
+import { artistNameWithTinyDescription } from '~/libs/artist'
 import PaintingVisitsMixin from '~/mixins/PaintingVisitsMixin'
 import YouTubeVideo from '~/components/YouTubeVideo'
-import { artistNameWithTinyDescription } from '~/libs/artist'
 
 export default {
     components: { YouTubeVideo },
@@ -255,27 +255,23 @@ export default {
         },
     },
     mounted() {
-        document.onreadystatechange = () => {
-            if (document.readyState == 'complete') {
-                this.maybeLoadArtPlacerScript()
+        if (document.readyState === 'complete') {
+            this.maybeLoadArtPlacerScript()
+        } else {
+            document.onreadystatechange = () => {
+                if (document.readyState === 'complete') {
+                    this.maybeLoadArtPlacerScript()
+                }
             }
         }
-        this.maybeLoadArtPlacerScript()
-    },
-    updated() {
-        this.maybeLoadArtPlacerScript()
     },
     methods: {
         maybeLoadArtPlacerScript() {
-            if (window.showArtPlacer) {
-                this.onScriptLoaded()
-            } else {
-                const script = document.createElement('script')
-                script.onload = this.onScriptLoaded
-                script.type = 'text/javascript'
-                script.src = '//widget.artplacer.com/js/script.js'
-                document.head.appendChild(script)
-            }
+            const script = document.createElement('script')
+            script.onload = this.onScriptLoaded
+            script.type = 'text/javascript'
+            script.src = '//widget.artplacer.com/js/script.js'
+            document.head.appendChild(script)
         },
         onScriptLoaded() {
             if (this.showArtPlacer && document.getElementById('artplacer1').parentElement.childElementCount < 2) {
