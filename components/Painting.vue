@@ -255,22 +255,23 @@ export default {
         },
     },
     mounted() {
-        window.__nww__artplacerloaded = false
         window.__nww__artplacerplaced = false
-        document.onreadystatechange = () => {
-            if (document.readyState === 'complete') {
-                this.maybeLoadArtPlacerScript()
+        if (document.readyState === 'complete') {
+            this.maybeLoadArtPlacerScript()
+        } else {
+            document.onreadystatechange = () => {
+                if (document.readyState === 'complete') {
+                    this.maybeLoadArtPlacerScript()
+                }
             }
         }
-        this.maybeLoadArtPlacerScript()
     },
     updated() {
         this.maybeLoadArtPlacerScript()
     },
     methods: {
         maybeLoadArtPlacerScript() {
-            if (!window.__nww__artplacerloaded) {
-                window.__nww__artplacerloaded = true
+            if (!window.__nww__artplacerplaced) {
                 const script = document.createElement('script')
                 script.onload = this.onScriptLoaded
                 script.type = 'text/javascript'
