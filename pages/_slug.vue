@@ -81,7 +81,6 @@ export default {
 
         return {
             title,
-            script,
             meta: [
                 {
                     hid: 'description',
