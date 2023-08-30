@@ -1,18 +1,32 @@
 {
-  "artist": "frank_a_barney_art-html",
+  "paintingWidth": "34",
   "body": "Barney was known as the \"Dean of Auburn Artists\" and can be considered the quintessential regional artist.  Born at Union Springs in the Finger Lakes region of New York State, just south of Auburn, Barney first studied at the Arts Students League in New York City, followed by brief instruction at William Merritt Post's studio in West Morris (now Bantum), Connecticut.  As with many artists; his style evolved—his early paintings are reminiscent of the Hudson River school; however, in the late 1890’s, after a trip to France, financed by Auburn industrialist and prison reformer, Thomas Mott Osborne, he appears to have adopted a style more in line with that of the French Impressionists.  His palette lightened considerably and his compositions are less structured than typical of the Hudson River artists.  Barney never became associated with a gallery in order to promote his work, preferring instead to sell his paintings on his own.  Although, he is little known outside of the Finger Lakes region—he had moved permanently to Auburn in 1907, he continued to travel New York City and to Connecticut to paint.  During the Great Depression (1930’s) the Federal Government sought to put American back to works, including its artists.  Barney is included in the list of artists that participated in the Federal Art Project (FAP) of the Works Progress Administration.  While he lived in New York, Barney became a member of Salmagundi Club.  He exhibited frequently at the National Academy of Design (1881-1897) and Syracuse Museum of Fine Art (1911-1919).  He also exhibited at the Rochester Art Club (1892), the New York State Fair (1897), the Pennsylvania Academy of Fine Arts (1903), the Society of Independent Artists (1922), the Binghamton Museum of Fine Art (1936), and the Finger Lakes Regional Show (1939 and 1946). \n\nHigh auction record for this artist is $7,150.",
+  "highResImageHeight": 2472,
+  "artist": "frank_a_barney_art-html",
+  "highResImageWidth": 2954,
+  "artOnWallAltText": "Frank A. Barney 19th Century Art for Sale - An Adirondack Stream ",
+  "paintingHeight": "28.75",
+  "slug": "frank_a_barney_adirondack-html",
+  "dimensions": "Oil on canvas, 24.5 x 30 inches / Signed lower left",
+  "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693418231/frank-a-barney-19th-century-art-for-sale-an-adirondack-stream_aqicjf.jpg",
+  "metaKeywords": "",
+  "youtubeEmbedLink": "https://www.youtube.com/embed/5g359zM30_0?rel=0",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barney_small.jpg",
+  "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "Frank A. Barney - An Adirondack Stream Painting For Sale",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barney_grid.jpg",
+  "mediumResImageWidth": 1461,
+  "mediumResImageHeight": 1223,
+  "metaDescription": "Frank A. Barney (American Painter, 1862 - 1954) An Adirondack Stream Oil On Canvas Painting For Sale - 24.5 X 30 Inches - Signed On The Lower Left.",
+  "title": "An Adirondack Stream",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barney_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
-  "dimensions": "Oil on canvas, 24.5 x 30 inches / Signed lower left",
-  "featured": false,
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barney_grid_gallery_crop.jpg",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barney_grid.jpg",
   "gridImageHeight": 260,
-  "gridImageWidth": 392,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barney_full.jpg",
-  "highResImageHeight": 2472,
-  "highResImageWidth": 2954,
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -23,17 +37,5 @@
     {
       "highlight": "Competitively Priced $3,200"
     }
-  ],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barney_small.jpg",
-  "mediumResImageHeight": 1223,
-  "mediumResImageWidth": 1461,
-  "metaDescription": "Frank A. Barney (American Painter, 1862 - 1954) An Adirondack Stream Oil On Canvas Painting For Sale - 24.5 X 30 Inches - Signed On The Lower Left.",
-  "metaKeywords": "",
-  "metaTitle": "Frank A. Barney - An Adirondack Stream Painting For Sale",
-  "paintingHeight": "28.75",
-  "paintingWidth": "34",
-  "slug": "frank_a_barney_adirondack-html",
-  "status": "None",
-  "title": "An Adirondack Stream",
-  "youtubeEmbedLink": "https://www.youtube.com/embed/5g359zM30_0?rel=0"
+  ]
 }
