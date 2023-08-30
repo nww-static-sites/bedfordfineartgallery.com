@@ -79,14 +79,6 @@ export default {
             content: this.object,
         })
 
-        const script =
-            this.type === 'painting'
-                ? [
-                      {
-                          src: '//widget.artplacer.com/js/script.js',
-                      },
-                  ]
-                : []
         return {
             title,
             script,
