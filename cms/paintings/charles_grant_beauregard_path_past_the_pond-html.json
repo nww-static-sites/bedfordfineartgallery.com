@@ -1,15 +1,22 @@
 {
   "paintingWidth": 13.75,
   "body": "Charles Grant Beauregard was born in Canada but found himself in Troy, New York in 1872.  He apparently found the area to his liking and remained there until his death in 1919.  Beauregard specialized in portraiture; however, as Troy is located on the Hudson River, he was no doubt inspired by the natural beauty of the Hudson River valley.  In addition to his portrait commissions, he taught art at the Emma Willard School (formerly the Troy Female Seminary).  Beauregard emulated the style of the Hudson River School, with their signature realistic compositions and dramatic lighting effects.  Many of his paintings are privately held; however, two of his paintings, early presidents of the Albany Medical School, are displayed in the lobby of that learned institution.",
+  "highResImageHeight": 1597,
   "artist": "charles_grant_beauregard_artwork-html",
+  "highResImageWidth": 2295,
+  "artOnWallAltText": "Charles Grant Beauregard Artwork for Sale - Path Past the Pond",
   "paintingHeight": 9.5,
   "slug": "charles_grant_beauregard_path_past_the_pond-html",
   "dimensions": "Oil on board, 7.5 x 11.75 inches / Signed lower left",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693494410/charles-grant-beauregard-victorian-art-for-sale-path-past-the-pond_q0wnmj.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/beauregard_path_pond_small.jpg",
+  "gridImageWidth": 392,
   "status": "New",
   "metaTitle": "Charles Grant Beauregard - Path Past the Pond Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/beauregard_path_pond_grid.jpg",
+  "mediumResImageWidth": 1010,
+  "mediumResImageHeight": 703,
   "metaDescription": "Charles Grant Beauregard - American Painter 1856-1919 - Path Past The Pond Oil On Board Paint For Sale - 7.5 X 11.75 Inches - Signed On Lower Left.",
   "scrollingHomepageImage": false,
   "title": "Path Past the Pond",
@@ -17,6 +24,7 @@
   "categories": [
     "Landscape"
   ],
+  "gridImageHeight": 261,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/beauregard_path_pond.jpg",
   "highlights": [
     {
@@ -28,11 +36,5 @@
     {
       "highlight": "Competitively Priced $600"
     }
-  ],
-  "gridImageWidth": 392,
-  "gridImageHeight": 261,
-  "mediumResImageWidth": 1010,
-  "mediumResImageHeight": 703,
-  "highResImageWidth": 2295,
-  "highResImageHeight": 1597
+  ]
 }
