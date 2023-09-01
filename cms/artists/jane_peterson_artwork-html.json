@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Jane Peterson",
-   "metaTitle": "Jane Peterson Paintings For Sale",
-   "metaDescription": "Discover the vibrant world of Jane Peterson's art. Immerse yourself in her bold colors and dynamic compositions. Artwork for sale, ready to infuse your space with energy.",
-   "paintings" : [
-      "jane_peterson_port-html"
-   ],
-   "slug" : "jane_peterson_artwork-html",
-   "tinyDescription" : "American 1876 - 1965"
+  "alias": "",
+  "hasLandingPage": true,
+  "name": "Jane Peterson",
+  "metaTitle": "Jane Peterson Paintings For Sale",
+  "metaDescription": "Discover the vibrant world of Jane Peterson's art. Immerse yourself in her bold colors and dynamic compositions. Artwork for sale, ready to infuse your space with energy.",
+  "paintings": [
+    "jane_peterson_port-html",
+    "jane_peterson_bridge_of_sighs-html"
+  ],
+  "slug": "jane_peterson_artwork-html",
+  "tinyDescription": "American 1876 - 1965"
 }
