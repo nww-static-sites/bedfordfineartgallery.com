@@ -17,8 +17,12 @@
   "mediumResImageHeight": 1332,
   "metaDescription": "Robert Atkinson Fox, American Artist From 1860-1935 - Aka R.a. Fox - Young Girl With Horse Oil On Canvas Painting For Sale - 35x24.25 In. - Signed Lower Right.",
   "title": "Young Girl with Horse",
-  "categories": [],
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693664219/Fox_Young_Girl_w_Horse_IMG_0291_full_gall_cr_haolnz.jpg",
+  "categories": [
+    "Genre",
+    "Animal"
+  ],
   "gridImageHeight": 260,
-  "highResImage": "",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693664253/Fox_Young_Girl_w_Horse_IMG_0291_lrg_cr_fr_vbqzym.jpg",
   "highlights": []
 }
