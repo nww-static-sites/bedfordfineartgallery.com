@@ -24,5 +24,15 @@
   ],
   "gridImageHeight": 260,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693664253/Fox_Young_Girl_w_Horse_IMG_0291_lrg_cr_fr_vbqzym.jpg",
-  "highlights": []
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively priced $6,500"
+    }
+  ]
 }
