@@ -1,18 +1,30 @@
 {
+  "paintingWidth": "36.25",
+  "body": "William Jacob Baer, considered the foremost American miniature painter, was born in Cincinnati, Ohio.  from 1876 to 1879 he worked as a lithographer's apprentice at Donaldson and Company in Cincinnati from 1876 to 1879.  During this same time, he attended evening classes art classes at the McMicken School of Design.\n\nHe traveled to Germany in 1880 to enroll in the Munich Academy of Fine Arts, where he studied under Ludwig Löfftz. In 1884, he returned to the United States and established himself at the art colony in Montclair, New Jersey at the urging of his friend, Alexander Drake, the art editor of Scribner’s Monthly Magazine.\n\nBaer concentrated on portrait and genre painting, in addition to teaching engraving and black and white draftsmanship classes.  His students were nicknamed the “carbonari”, after the Italian word for charcoal makers.\n\nIn 1890, Baer made a sketch of the Serpent Mound in Adams County, Ohio that appeared in the April edition of The Century Magazine, successor of Scribner's. \n\nCirca 1892 Baer he turned to an earlier, poplar art form -- painting miniatures, and focused on it almost exclusively.  In fact, he is responsible for the revival in miniature painting in the United States. He was one of the 10 founders of the American Society of Miniature Painters in 1899.\n\nBaer was a member of the American Society of Miniature Painters; National Academy of Design (Elected Member). He exhibited a The Pennsylvania Academy of the Fine; National Academy of Design (NYC); the Chicago Art Institute; Boston Art Club; The World's Columbian Exposition (Chicago, 1893, medal); Exposition Universelle (Paris, 1900, medal); and the Panama–Pacific International Exposition (San Francisco, 1915).",
+  "highResImageHeight": 3010,
   "artist": "william_jacob_baer_artwork-html",
-  "body": "William Jacob Baer, considered the foremost American miniature painter, was born in Cincinnati, Ohio.  from 1876 to 1879 he worked as a lithographer's apprentice at Donaldson and Company in Cincinnati from 1876 to 1879.  During this same time, he attended evening classes art classes at the McMicken School of Design.  He traveled to Germany in 1880 to enroll in the Munich Academy of Fine Arts, where he studied under Ludwig Löfftz. In 1884, he returned to the United States and established himself at the art colony in Montclair, New Jersey at the urging of his friend, Alexander Drake, the art editor of Scribner’s Monthly Magazine.  He concentrated on portrait and genre painting, in addition to teaching engraving and black and white draftsmanship classes.  His students were nicknamed the “carbonari”, after the Italian word for charcoal makers.  In 1890, Baer made a sketch of the Serpent Mound in Adams County, Ohio that appeared in the April edition of The Century Magazine, successor of Scribner's.  Circa 1892 Baer he turned to an earlier, poplar art form -- painting miniatures, and focused on it almost exclusively.  In fact, he is responsible for the revival in miniature painting in the United States. He was one of the 10 founders of the American Society of Miniature Painters in 1899. Baer was a member of the American Society of Miniature Painters; National Academy of Design (Elected Member). He exhibited a The Pennsylvania Academy of the Fine; National Academy of Design (NYC); the Chicago Art Institute; Boston Art Club; The World's Columbian Exposition (Chicago, 1893, medal); Exposition Universelle (Paris, 1900, medal); and the Panama–Pacific International Exposition (San Francisco, 1915).  ",
+  "highResImageWidth": 2604,
+  "paintingHeight": "42.25",
+  "slug": "william_jacob_baer_girl_in_landscape-html",
+  "dimensions": "Oil on board, 33.25 x 27.25 inches/Signed lower right",
+  "featured": false,
+  "metaKeywords": "",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/baer_small.jpg",
+  "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "William Jacob Baer - Seated Young Girl In A Landscape",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/baer_grid.jpg",
+  "mediumResImageWidth": 1121,
+  "mediumResImageHeight": 1238,
+  "metaDescription": "William Jacob Baer, American Artist From 1860-1941 - Seated Young Girl In A Landscape Oil On Board Painting For Sale - 33.25x27.25 Inches - Signed Lower Right.",
+  "title": "Seated Young Girl in a Landscape",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/baer_grid_gallery_crop.jpg",
   "categories": [
     "Genre"
   ],
-  "dimensions": "Oil on board, 33.25 x 27.25 inches/Signed lower right",
-  "featured": false,
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/baer_grid_gallery_crop.jpg",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/baer_grid.jpg",
   "gridImageHeight": 260,
-  "gridImageWidth": 392,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/baer_full.jpg",
-  "highResImageHeight": 3010,
-  "highResImageWidth": 2604,
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -23,17 +35,5 @@
     {
       "highlight": "Competitively Priced $8,500"
     }
-  ],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/baer_small.jpg",
-  "mediumResImageHeight": 1238,
-  "mediumResImageWidth": 1121,
-  "metaDescription": "William Jacob Baer, American Artist From 1860-1941 - Seated Young Girl In A Landscape Oil On Board Painting For Sale - 33.25x27.25 Inches - Signed Lower Right.",
-  "metaKeywords": "",
-  "metaTitle": "William Jacob Baer - Seated Young Girl In A Landscape",
-  "paintingHeight": "42.25",
-  "paintingWidth": "36.25",
-  "slug": "william_jacob_baer_girl_in_landscape-html",
-  "status": "None",
-  "title": "Seated Young Girl in A Landscape",
-  "youtubeEmbedLink": ""
+  ]
 }
