@@ -1,15 +1,20 @@
 {
   "paintingWidth": 30.25,
-  "body": "English landscape painter Alfred Augustus Glendening was born in Greenwich (near London) England.  He traveled widely throughout England, Wales, and Scotland, but seemed particularly captivated by the tranquility of English and Welsh streams – Thames, Avon, Cam, Wye, Arun, Ouse, and Bure. Particularly notable are the number of scenes he painted at locations along the River Thames -- Kempstead, Oxford, Donnington, Iffley, Streatley, Whitchurch, Pangbourne, Sonning, Medmenham Abbey, Temple Weir, Bisham, Clivedon, Windsor, Penton Hook, Chertsey, Laleham Ferry, Sunbury, Twickenham, and Garrrick’s Temple at Hampton – to name a few. Glendening’s oeuvre included scenes with ponds and ducks or swans, pastural landscapes with sheep, cattle, deer and occasionally figures, but they are more often only incidental to the landscape itself. Even if Glendening did not include a stream in his paintings, you can almost always bet that there was one not too far away! In this painting, a flock of sheep rests in the dappled light on a country road under the watchful eye of their shepherd and his dog. You do not notice the boy and his dog immediately; even the sheep seem somewhat incidental to the landscape – they are placed near the bottom of the painting, but their presence leads you down the path through a forest of beautifully executed trees, backlit by the bright sky and sun. Glendening exhibited at Royal Academy, the Royal Society of British, Artists, the British Institution, the Royal Institute of Oil Painters, the Walker Art Gallery of Liverpool, the Manchester City Art Gallery and the Dudley Gallery. His son, Alfred Augustus Glendening, Jr., (1861-1907), also an artist, studied with his father and is best known for his genre paintings.",
+  "body": "English landscape painter Alfred Augustus Glendening was born in Greenwich (near London) England.  He traveled widely throughout England, Wales, and Scotland, but seemed particularly captivated by the tranquility of English and Welsh streams – Thames, Avon, Cam, Wye, Arun, Ouse, and Bure. Particularly notable are the number of scenes he painted at locations along the River Thames -- Kempstead, Oxford, Donnington, Iffley, Streatley, Whitchurch, Pangbourne, Sonning, Medmenham Abbey, Temple Weir, Bisham, Clivedon, Windsor, Penton Hook, Chertsey, Laleham Ferry, Sunbury, Twickenham, and Garrrick’s Temple at Hampton – to name a few.\n\nGlendening’s oeuvre included scenes with ponds and ducks or swans, pastural landscapes with sheep, cattle, deer and occasionally figures, but they are more often only incidental to the landscape itself. Even if Glendening did not include a stream in his paintings, you can almost always bet that there was one not too far away!\n\nIn this painting, a flock of sheep rests in the dappled light on a country road under the watchful eye of their shepherd and his dog. You do not notice the boy and his dog immediately; even the sheep seem somewhat incidental to the landscape – they are placed near the bottom of the painting, but their presence leads you down the path through a forest of beautifully executed trees, backlit by the bright sky and sun. \n\nGlendening exhibited at Royal Academy, the Royal Society of British, Artists, the British Institution, the Royal Institute of Oil Painters, the Walker Art Gallery of Liverpool, the Manchester City Art Gallery and the Dudley Gallery. His son, Alfred Augustus Glendening, Jr., (1861-1907), also an artist, studied with his father and is best known for his genre paintings.\n\nHigh auction record for this artist: $33,000.",
+  "highResImageHeight": 1756,
   "artist": "alfred_augustus_glendening_sr_artwork-html",
+  "highResImageWidth": 3000,
   "paintingHeight": 21.25,
   "slug": "a_a_glendening_sheep_wagon_path-html",
   "dimensions": "Oil on canvas, 14.25 x 29.25 inches/Signed lower left",
   "featured": false,
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1674763605/Glendening_Sheep_IMG_1536_sm_cr_fr_lyfaf8.jpg",
+  "gridImageWidth": 335,
   "status": "New",
   "metaTitle": "Alfred Augustus Glendening - Sheep By Wagon Path Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1674763568/Glendening_Sheep_IMG_1536_zoom_cr_oj1bt6.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 819,
   "metaDescription": "Alfred Augustus Glendening, Sr.; English Ca. 1840-1910 - Sheep By Wagon Path Oil On Canvas Painting For Sale - 14.25x29.25 Inches - Signed Lower Left.",
   "scrollingHomepageImage": false,
   "title": "Sheep by Wagon Path",
@@ -18,6 +23,7 @@
     "Landscape",
     "Animal"
   ],
+  "gridImageHeight": 182,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1674763629/Glendening_Sheep_IMG_1536_lrg_cr_fr_uuyb1h.jpg",
   "highlights": [
     {
@@ -29,11 +35,5 @@
     {
       "highlight": "Competitively Priced $3,900"
     }
-  ],
-  "gridImageWidth": 335,
-  "gridImageHeight": 182,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 819,
-  "highResImageWidth": 3000,
-  "highResImageHeight": 1756
+  ]
 }
