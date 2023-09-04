@@ -1,16 +1,30 @@
 {
+  "paintingWidth": "20",
+  "body": "Batcheller was born in the fledgling industrial city of Providence, Rhode Island.  As Providence was growing into a major industrial center, Batcheller, along with fellow artists (George Whitaker, Edward Bannister, James Lewin, John Arnold, Charles Stetson, Thomas Robinson, and Marcus Waterman), were molding it into an eastern cultural center.  Together they formed The Group of 1855 to promote art and culture in Providence.\n\nKnown primarily for his beautifully detailed still-lifes, he had begun his career as a sculptor, having apprenticed as a youth with Providence marble cutters, Tingley Brothers.  His foray into painting apparently coincided with the inception of The Group of 1855.\n\nBatcheller was known for his “moodiness” and during periods of \"melancholy\" he would confine himself to his studio with his violin, not unlike the fictional sleuth, Sherlock Holmes.  This quirk led his friend George Whitaker to call him “the \"Romantic\". His mood swings did not hamper his art, but perhaps even enhanced it—his still-lifes are among the best of those produced during that time.\n\nBatcheller, with Sydney Burleigh, George Whitaker, among others, was a founder of the Providence Art Club in 1880, the nation's second-oldest art club, only after the Salmagundi Club in New York City.  He exhibited his still-lifes there, in addition to some of his landscapes.\n\nA skilled artist and well respected by his contemporaries, Batcheller never attained the same level of recognition as his friends.  Nonetheless, his paintings are treasures waiting to be rediscovered by those with a discerning eye.\n\nHigh auction record for this artist is $18,800.",
+  "highResImageHeight": 1864,
   "artist": "frederick_stone_batcheller_artwork-html",
-  "body": "Batcheller was born in the fledgling industrial city of Providence, Rhode Island.  As Providence was growing into a major industrial center, Batcheller, along with fellow artists (George Whitaker, Edward Bannister, James Lewin, John Arnold, Charles Stetson, Thomas Robinson, and Marcus Waterman), were molding it into an eastern cultural center.  Together they formed The Group of 1855 to promote art and culture in Providence.  Known primarily for his beautifully detailed still-lifes, he had begun his career as a sculptor, having apprenticed as a youth with Providence marble cutters, Tingley Brothers.  His foray into painting apparently coincided with the inception of The Group of 1855.  He was known for his “moodiness” and during periods of melancholy he would confine himself to his studio with his violin, not unlike the fictional sleuth, Sherlock Holmes.  This quirk led his friend George Whitaker to call him “the \"Romantic\".  His mood swings did not hamper his art, but perhaps even enhanced it—his still-lifes are among the best of those produced during that time.  Batcheller, with Sydney Burleigh, George Whitaker, among others, was a founder of the Providence Art Club in 1880, the nation's second-oldest art club, only after the Salmagundi Club in New York City.  He exhibited his still-lifes there, in addition to some of his landscapes.  A skilled artist and well respected by his contemporaries, Batcheller never attained the same level of recognition as his friends.  Nonetheless, his paintings are treasures waiting to be rediscovered by those with a discerning eye. \n\nHigh auction record for this artist is $18,800.",
-  "categories": [],
+  "highResImageWidth": 1440,
+  "artOnWallAltText": "Frederick Stone Batcheller Painting for Sale - Flowers in a Victorian Vase",
+  "paintingHeight": "26",
+  "slug": "frederick_stone_batcheller_flowers-html",
   "dimensions": "Oil on canvas, 17.5 x 11.5 inches / Signed lower right",
   "featured": false,
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/batch_grid_gallery_crop.jpg",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/batch_grid.jpg",
-  "gridImageHeight": 260,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693589282/frederick-stone-batcheller-painting-for-sale-flowers-in-a-victorian-vase_qqss2k.jpg",
+  "metaKeywords": "",
+  "youtubeEmbedLink": "https://www.youtube.com/embed/gPmutG_3R4Q?rel=0",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/batcheller_small.jpg",
   "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "Frederick Stone Batcheller - Flowers in Victorian Vase Painting",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/batch_grid.jpg",
+  "mediumResImageWidth": 887,
+  "mediumResImageHeight": 1147,
+  "metaDescription": "Frederick Stone Batcheller, American Painter 1837-1889 - Flowers In Victorian Vase Oil On Canvas - 17.5x11.5 Inches - Signed Lower Right.",
+  "title": "Flowers in Victorian Vase",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/batch_grid_gallery_crop.jpg",
+  "categories": [],
+  "gridImageHeight": 260,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/batcheller_original.jpg",
-  "highResImageHeight": 1864,
-  "highResImageWidth": 1440,
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -21,17 +35,5 @@
     {
       "highlight": "Competitively Priced $7,500"
     }
-  ],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/batcheller_small.jpg",
-  "mediumResImageHeight": 1147,
-  "mediumResImageWidth": 887,
-  "metaDescription": "Frederick Stone Batcheller, American Painter 1837-1889 - Flowers In Victorian Vase Oil On Canvas - 17.5x11.5 Inches - Signed Lower Right.",
-  "metaKeywords": "",
-  "metaTitle": "Frederick Stone Batcheller - Flowers in Victorian Vase Painting",
-  "paintingHeight": "26",
-  "paintingWidth": "20",
-  "slug": "frederick_stone_batcheller_flowers-html",
-  "status": "None",
-  "title": "Flowers in Victorian Vase",
-  "youtubeEmbedLink": "https://www.youtube.com/embed/gPmutG_3R4Q?rel=0"
+  ]
 }

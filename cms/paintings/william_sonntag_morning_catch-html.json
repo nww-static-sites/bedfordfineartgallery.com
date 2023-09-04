@@ -1,19 +1,30 @@
 {
-  "paintingWidth": 1,
+  "paintingWidth": 28.75,
   "body": "Considered one of the major Hudson River School artists, Sonntag was born in the East Liberty section of Pittsburgh, PA.  Despite his parent’s objections, he left Pittsburgh for Cincinnati, OH in 1840, to pursue a career in art, most likely at the Cincinnati School of Fine Arts.  It is speculated that he studied under noted landscape painter and the first president of Cincinnati School of Fine Arts, Godfrey Frankenstein.  After his studies, Sonntag established a studio in Cincinnati and between 1856 and 1859, made treks into the neighboring Ohio River Valley and the mountains of West Virginia (formerly Virginia) and Kentucky to paint their majestic vistas.  His paintings displayed in the window of his gallery caught the eye of an official of the Baltimore and Ohio Railroad resulting in a commission to paint landscapes along the route of the railroad which he happily executed while on his honeymoon.  Between and 1853 and 1856 he made two trips to Europe.  After his return in 1856, Sonntag and his wife moved to New York City, but traveled throughout New England and to Italy.  He traveled to the Catskill Mountains to paint with A.F. Tait, the noted wildlife artist.  He collaborated with John C. Wolfe on several panoramas depicting scenes from Milton’s Paradise Lost and Paradise Regained.  Over the course of his career he painted the Alleghenies, Adirondacks, Catskills, White Mountains and Mt. Adams.  His is famous for his highly romantic and naturalistic landscapes, in addition to his idealized depictions of Roman ruins.  He exhibited at the Exposition Universelle, Paris, 1889, World’s Columbia Exposition Chicago, 1892-1893 American Water Color Society, Brooklyn Art Association, Boston Art Club, and the Pennsylvania Academy of the Fine Arts.",
   "artist": "william_louis_sonntag_artwork-html",
-   "metaTitle": "William Louis Sonntag 19th Century Autumn Painting For Sale",
-   "metaDescription": "Embrace the enchanting hues of autumn with a William Louis Sonntag 19th-century painting for sale. Own a piece of seasonal beauty today.",
-  "paintingHeight": 2,
-  "slug": "william_louis_sonntag_autumn_drive-html",
-  "dimensions": "Oil on canvas, 9 x 12 inches",
+  "paintingHeight": 22.75,
+  "slug": "william_sonntag_morning_catch-html",
+  "dimensions": "Oil on canvas, 13 x 19 inches/Signed lower left",
   "featured": false,
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1692721369/Sonntag_Autumn_Drive_IMG_1923_sm_cr_fr_ktvypc.jpg",
-  "status": "Sold",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1692721213/Sonntag_Autumn_Drive_IMG_1923_zoom_cr_jzzrau.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693668392/Sonntag_Morning_Catch_IMG_1941_sm_cr_fr_n8b5vn.jpg",
+  "status": "New",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693668357/Sonntag_Morning_Catch_IMG_1941_zoom_cr_i0jxlt.jpg",
   "scrollingHomepageImage": false,
-  "title": "Autumn Drive",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1692721091/Sonntag_Autumn_Drive_IMG_1923_full_gall_cr_vk5d9w.jpg",
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1692721402/Sonntag_Autumn_Drive_IMG_1923_lrg_cr_fr_tj2sgw.jpg",
-  "highlights": []
+  "title": "Morning Catch",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693668319/Sonntag_Morning_Catch_IMG_1941_Full_gall_cr_rqtxds.jpg",
+  "categories": [
+    "Landscape"
+  ],
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693668427/Sonntag_Morning_Catch_IMG_1941_lrg_cr_fr_r9spil.jpg",
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively Priced $27,500"
+    }
+  ]
 }

@@ -1,18 +1,32 @@
 {
+  "paintingWidth": "26.25",
+  "body": "Brackett was a self-taught artist who began his career as a portraitist to support his family.  He later switched to fish and game still life painting, which were popular among 19th-century sportsmen.\n\nAlthough best known for his wildlife paintings, in the 1870s, Brackett was commissioned by the U.S. Secretary of War, William Belknap, to paint several portraits of former U.S. Secretaries of War, notable Massachusetts natives Timothy Pickering, Samuel Dexter, William Eustis and, Henry Dearborn.\n\nIn 1898, likely a result of his skill in painting game fish, he was commissioned to repaint the “Sacred Cod of Massachusetts”, a memorial of the importance of the cod-fishery to the welfare of the Commonwealth that is displayed in the Massachusetts House of Representatives.\n\nHe was a member of the Boston Art Club and his works have been exhibited at the Boston Art Club and the National Academy of Design.  He is listed in numerous art references including, “Davenport’s Art Reference” (Davenport, 2005), “Who was Who in American Art” (Falk, 1999), and “American Still Life Painting” (Gerdts and Burke, 1972).\n\nHigh auction record for this artist is $18,400.",
+  "highResImageHeight": 1377,
   "artist": "walter_m_brackett_artwork-html",
-  "body": "Brackett was a self-taught artist who began his career as a portraitist to support his family.  He later switched to fish and game still life painting, which were popular among 19th-century sportsmen.  Although best known for his wildlife paintings, in the 1870s, Brackett was commissioned by the U.S. Secretary of War, William Belknap, to paint several portraits of former U.S. Secretaries of War, notable Massachusetts natives Timothy Pickering, Samuel Dexter, William Eustis and, Henry Dearborn.  In 1898, likely a result of his skill in painting game fish, he was commissioned to repaint the “Sacred Cod of Massachusetts”, a memorial of the importance of the cod-fishery to the welfare of the Commonwealth that is displayed in the Massachusetts House of Representatives.  He was a member of the Boston Art Club and his works have been exhibited at the Boston Art Club and the National Academy of Design.  He is listed in numerous art references including, “Davenport’s Art Reference” (Davenport, 2005), “Who was Who in American Art” (Falk, 1999), and “American Still Life Painting” (Gerdts and Burke, 1972).\n\nHigh auction record for this artist is $18,400.",
+  "highResImageWidth": 2036,
+  "artOnWallAltText": "Walter M. Brackett Artwork for Sale - Trout on a Bank",
+  "paintingHeight": "18.5",
+  "slug": "walter_m_brackett_trout-html",
+  "dimensions": "Oil on canvas, 11.75 x 19.5 inches / Signed lower right",
+  "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693591422/walter-m-brackett-artwork-for-sale-trout-on-a-bank_po9cyg.jpg",
+  "metaKeywords": "",
+  "youtubeEmbedLink": "https://www.youtube.com/embed/5MMCdD_wY0M?rel=0",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/trout_on_a_bank_small.jpg",
+  "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "Walter M. Brackett - Trout on a Bank Painting For Sale",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/trout_grid.jpg",
+  "mediumResImageWidth": 1247,
+  "mediumResImageHeight": 843,
+  "metaDescription": "Walter M. Brackett (American, 1823 - 1919) (aka  W.M.Brackett) Trout On A Bank Painting For Sale - Oil On Canvas - 11.75 X 19.5 Inches - Signed On Lower Right.",
+  "title": "Trout on a Bank",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/trout_grid_gallery_crop.jpg",
   "categories": [
     "Sporting Art"
   ],
-  "dimensions": "Oil on canvas, 11.75 x 19.5 inches / Signed lower right",
-  "featured": false,
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/trout_grid_gallery_crop.jpg",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/trout_grid.jpg",
   "gridImageHeight": 260,
-  "gridImageWidth": 392,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/trout_on_a_bank_original.jpg",
-  "highResImageHeight": 1377,
-  "highResImageWidth": 2036,
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -23,17 +37,5 @@
     {
       "highlight": "Competitively Priced $10,500"
     }
-  ],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/trout_on_a_bank_small.jpg",
-  "mediumResImageHeight": 843,
-  "mediumResImageWidth": 1247,
-  "metaDescription": "Walter M. Brackett (American, 1823 - 1919) (aka  W.M.Brackett) Trout On A Bank Painting For Sale - Oil On Canvas - 11.75 X 19.5 Inches - Signed On Lower Right.",
-  "metaKeywords": "",
-  "metaTitle": "Walter M. Brackett - Trout on a Bank Painting For Sale",
-  "paintingHeight": "18.5",
-  "paintingWidth": "26.25",
-  "slug": "walter_m_brackett_trout-html",
-  "status": "None",
-  "title": "Trout on a Bank",
-  "youtubeEmbedLink": "https://www.youtube.com/embed/5MMCdD_wY0M?rel=0"
+  ]
 }

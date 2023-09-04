@@ -1,18 +1,32 @@
 {
+  "paintingWidth": "31",
+  "body": "William Harry Ahrendt is a contemporary painter known for his historical figures-genre paintings. He first studied art at the Cleveland Museum of Art. He became interested in landscape when his family moved to Arizona to care for his grandmother. His art studies continued when he returned to Cleveland and attended the Cleveland Institute of Art. \n\nAt that time, the Abstraction movement was underway, a style that Ahrendt found unappealing. He left the United States for eleven years to tour Europe, living primarily in Germany, where he attended the Munich Academy of Creative Arts. There he studied the painting techniques of the Renaissance and Baroque periods, techniques that he applies to his own work.\n\nAfter returning to the United States, he worked as a commercial artist in California, before being appointed Chair of the Glendale Community College Art Department (Arizona). For many years he contributed many paintings and drawings to “Arizona Highways Magazine”; however, in 1979, Ahrendt retired to the Pine Mountains, where he and his wife had built a home and studio, to concentrate on art. The original “Zoroaster Temple at Sunset, Thomas Moran, 1916“ painting is part of the Phoenix Art Museum collection.\n\nHigh auction record for this artist is $102,000.",
+  "highResImageHeight": 2572,
   "artist": "william_henry_ahrendt_artwork-html",
-  "body": "William Harry Ahrendt is a contemporary painter known for his historical figures-genre paintings. He first studied art at the Cleveland Museum of Art. He became interested in landscape when his family moved to Arizona .to care for his grandmother. His art studies continued when he returned to Cleveland and attended the Cleveland Institute of Art. At that time, the Abstraction movement was underway, a style that Ahrendt found unappealing. He left the United States for eleven years to tour Europe, living primarily in Germany, where he attended the Munich Academy of Creative Arts. There he studied the painting techniques of the Renaissance and Baroque periods, techniques that he applies to his own work.\n\nAfter returning to the United States, he worked as a commercial artist in California, before being appointed Chair of the Glendale Community College Art Department (Arizona). For many years he contributed many paintings and drawings to “Arizona Highways Magazine”; however, in 1979, Ahrendt retired to the Pine Mountains, where he and his wife had built a home and studio, to concentrate on art. The original “Zoroaster Temple at Sunset, Thomas Moran, 1916“ painting is part of the Phoenix Art Museum collection.\n\nHigh auction record for this artist is $102,000.",
+  "highResImageWidth": 2042,
+  "artOnWallAltText": "William Henry Ahrendt Painting for Sale - The Grand Canyon",
+  "paintingHeight": "38.75",
+  "slug": "william_henry_ahrendt_canyon-html",
+  "dimensions": "Oil on canvas, 31 x 23 inches / Signed Ahrendt nach Moran lower right",
+  "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693415137/william-henry-ahrendt-painting-for-sale-the-grand-canyon_udduy3.jpg",
+  "metaKeywords": "William Henry Ahrendt, 1933, American, 19th century artist, The Grand Canyon (after Thomas Moran), Oil on canvas, landscape, landscape artwork, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery",
+  "youtubeEmbedLink": "https://www.youtube.com/embed/cHXdT2cSUpg?rel=0",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4056_small.jpg",
+  "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "William Henry Ahrendt - The Grand Canyon Painting For Sale",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4056_grid.jpg",
+  "mediumResImageWidth": 1066,
+  "mediumResImageHeight": 1343,
+  "metaDescription": "William Henry Ahrendt, American Born 1933 - The Grand Canyon Oil On Canvas Painting For Sale - 31x23 Inches - Signed Ahrendt Nach Moran Lower Right.",
+  "title": "The Grand Canyon (after Thomas Moran)",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4056_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
-  "dimensions": "Oil on canvas, 31 x 23 inches / Signed Ahrendt nach Moran lower right",
-  "featured": false,
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4056_grid_gallery_crop.jpg",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4056_grid.jpg",
   "gridImageHeight": 260,
-  "gridImageWidth": 392,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4056_original.jpg",
-  "highResImageHeight": 2572,
-  "highResImageWidth": 2042,
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -23,17 +37,5 @@
     {
       "highlight": "Competitively Priced $14,000"
     }
-  ],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4056_small.jpg",
-  "mediumResImageHeight": 1343,
-  "mediumResImageWidth": 1066,
-  "metaDescription": "William Henry Ahrendt, American Born 1933 - The Grand Canyon Oil On Canvas Painting For Sale - 31x23 Inches - Signed Ahrendt Nach Moran Lower Right.",
-  "metaKeywords": "William Henry Ahrendt, 1933, American, 19th century artist, The Grand Canyon (after Thomas Moran), Oil on canvas, landscape, landscape artwork, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery",
-  "metaTitle": "William Henry Ahrendt - The Grand Canyon Painting For Sale",
-  "paintingHeight": "38.75",
-  "paintingWidth": "31",
-  "slug": "william_henry_ahrendt_canyon-html",
-  "status": "None",
-  "title": "The Grand Canyon (after Thomas Moran)",
-  "youtubeEmbedLink": "https://www.youtube.com/embed/cHXdT2cSUpg?rel=0"
+  ]
 }

@@ -1,5 +1,5 @@
 <template>
-    <form id="contactform" :class="formClass" name="contactform" @submit.prevent="submit()" >
+    <form :class="formClass" name="contactform" @submit.prevent="submit()" >
         <label
             >Email
             <input id="email" v-model="form.email" name="email" type="text" :disabled="isSubmitting" />
