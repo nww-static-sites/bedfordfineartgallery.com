@@ -214,6 +214,7 @@ import YouTubeVideo from '~/components/YouTubeVideo'
 import Zoom from '~/components/Zoom'
 import { urlSlugToSlug } from '~/libs/slug'
 import { loadShortTestimonials } from '~/libs/testimonials'
+import { getMetaTitleAndDescriptionAndKeywords } from '~/libs/meta'
 
 export default {
     components: { ContactForm, PaintingHeader, TestimonialsScroll, YouTubeVideo, Zoom },
@@ -317,6 +318,27 @@ export default {
                 })
             }
         },
+    },
+    head() {
+        const { title, description, keywords } = getMetaTitleAndDescriptionAndKeywords({
+            content: this.painting,
+        })
+
+        return {
+            title,
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: description,
+                },
+                {
+                    hid: 'keywords',
+                    name: 'keywords',
+                    content: keywords,
+                },
+            ],
+        }
     },
 }
 </script>

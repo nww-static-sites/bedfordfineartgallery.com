@@ -94,6 +94,7 @@
 import { urlSlugToSlug } from '~/libs/slug'
 import { loadPaintings } from '~/libs/paintings'
 import { getPostPreview } from '~/libs/post'
+import { getMetaTitleAndDescriptionAndKeywords } from '~/libs/meta'
 
 export default {
     async asyncData({ $content, route }) {
@@ -136,6 +137,27 @@ export default {
         getGridImage(image) {
             return image.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
         },
+    },
+    head() {
+        const { title, description, keywords } = getMetaTitleAndDescriptionAndKeywords({
+            content: this.artist,
+        })
+
+        return {
+            title,
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: description,
+                },
+                {
+                    hid: 'keywords',
+                    name: 'keywords',
+                    content: keywords,
+                },
+            ],
+        }
     },
 }
 </script>

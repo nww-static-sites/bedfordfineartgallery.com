@@ -45,6 +45,7 @@ import TestimonialsScroll from '~/components/TestimonialsScroll'
 import YouTubeVideo from '~/components/YouTubeVideo'
 import { urlSlugToSlug } from '~/libs/slug'
 import { loadShortTestimonials } from '~/libs/testimonials'
+import { getMetaTitleAndDescriptionAndKeywords } from '~/libs/meta'
 
 export default {
 	components: { TestimonialsScroll, YouTubeVideo },
@@ -61,6 +62,27 @@ export default {
         hasAdditionalLink() {
             return this.highlight.additionalLink && this.highlight.additionalLink.text && this.highlight.additionalLink.link
         }
-    }
+    },
+    head() {
+        const { title, description, keywords } = getMetaTitleAndDescriptionAndKeywords({
+            content: this.highlight,
+        })
+
+        return {
+            title,
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: description,
+                },
+                {
+                    hid: 'keywords',
+                    name: 'keywords',
+                    content: keywords,
+                },
+            ],
+        }
+    },
 }
 </script>

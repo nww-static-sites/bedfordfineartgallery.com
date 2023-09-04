@@ -38,6 +38,7 @@
 <script>
 import { urlSlugToSlug } from '~/libs/slug'
 import { formatDateNoTime } from '~/libs/format-date'
+import { getMetaTitleAndDescriptionAndKeywords } from '~/libs/meta'
 
 export default {
     async asyncData({ $content, route }) {
@@ -48,6 +49,27 @@ export default {
         date() {
             return formatDateNoTime(this.artLoversNicheArticle.date)
         },
+    },
+    head() {
+        const { title, description, keywords } = getMetaTitleAndDescriptionAndKeywords({
+            content: this.artLoversNicheArticle,
+        })
+
+        return {
+            title,
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: description,
+                },
+                {
+                    hid: 'keywords',
+                    name: 'keywords',
+                    content: keywords,
+                },
+            ],
+        }
     },
 }
 </script>
