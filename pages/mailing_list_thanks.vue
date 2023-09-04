@@ -25,7 +25,7 @@
                             <span style="display: block; padding-bottom: 10px; font-weight: bold"
                                 >Here's what a customer said:</span
                             >"Thank you for including me on your mailing list. Every time I see Bedford Fine Art Gallery
-                            in my mail I know I am in for a treat. It is a bright spot while sheltering in place. "
+                            in my mail I know I am in for a treat. "
                         </p>
                         <span style="display: block; font-weight: bold; padding-top: 10px"> Beth L. </span>
                     </div>

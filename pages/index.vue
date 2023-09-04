@@ -234,9 +234,11 @@
 
                     <div class="flex_3">
                         <div class="breadcrumb" style="margin-top: 0">
-                            <a class="home_btn_small" href="art_lovers_niche.htm"
-                                >Get more of Bedford Fine<br />Art Gallery! Subscribe</a
-                            >
+                            <nuxt-link
+                                    :to="{ name: 'art-lovers-niche' }"
+                                    style="display: block; width: 100%"
+                                    class="home_btn_small"
+                                    >Get more of Bedford Fine<br />Art Gallery! Subscribe</nuxt-link>
                         </div>
                     </div>
 
