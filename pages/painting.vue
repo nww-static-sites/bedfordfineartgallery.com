@@ -269,30 +269,19 @@ export default {
             return this.painting.mainImageAltText || artistNameWithTinyDescription(this.painting.artist)
         },
     },
-    created() {
-        console.log('in created')
-    },
     mounted() {
-        console.log('in mounted ' + window.__nww__artplacerplaced)
         window.__nww__artplacerplaced = false
         const $this = this
         this.$nextTick(function () {
-            console.log('in nextTick ' + window.__nww__artplacerplaced)
-            setTimeout(() => {
-                console.log('in timeout ' + window.__nww__artplacerplaced)
-                $this.maybeLoadArtPlacerScript()
-            }, 1250);
+            $this.maybeLoadArtPlacerScript()
         })
     },
     updated() {
-        console.log('updated ' + window.__nww__artplacerplaced)
         this.maybeLoadArtPlacerScript()
     },
     methods: {
         maybeLoadArtPlacerScript() {
-            console.log('maybeLoad ' + window.__nww__artplacerplaced)
             if (!window.__nww__artplacerplaced) {
-                console.log('in if')
                 const script = document.createElement('script')
                 script.onload = this.onScriptLoaded
                 script.type = 'text/javascript'
@@ -301,7 +290,6 @@ export default {
             }
         },
         onScriptLoaded() {
-            console.log('onScriptLoaded ' + window.__nww__artplacerplaced)
             if (this.showArtPlacer && !window.__nww__artplacerplaced) {
                 window.__nww__artplacerplaced = true
                 window.ArtPlacer.insert({
