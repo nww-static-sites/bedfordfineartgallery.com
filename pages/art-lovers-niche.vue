@@ -78,6 +78,7 @@
 
 <script>
 import { loadShortTestimonials } from '~/libs/testimonials'
+import TestimonialsScroll from '~/components/TestimonialsScroll'
 
 export default {
     async asyncData({ $content }) {
@@ -85,6 +86,7 @@ export default {
             testimonials: await loadShortTestimonials($content),
         }
     },
+    components: { TestimonialsScroll },
 }
 </script>
 

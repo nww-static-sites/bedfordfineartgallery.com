@@ -301,9 +301,10 @@ for a long, long time.  For the time being, you are one of a kind.</p>
 <script>
 import YouTubeVideo from '~/components/YouTubeVideo'
 import { loadShortTestimonials } from '~/libs/testimonials'
+import TestimonialsScroll from '~/components/TestimonialsScroll'
 
 export default {
-    components: { YouTubeVideo },
+    components: { TestimonialsScroll, YouTubeVideo },
     async asyncData({ $content }) {
         return {
             testimonials: await loadShortTestimonials($content),

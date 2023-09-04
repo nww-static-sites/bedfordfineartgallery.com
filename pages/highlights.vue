@@ -7,11 +7,11 @@
                     <span class="hr"></span>
                 </div>
 
-                <HighlightPreview v-for="(highlight, index) in highlights" :key="index" :highlight="highlight"/>
+                <HighlightPreview v-for="(highlight, index) in highlights" :key="`highlight-preview-${index}`" :highlight="highlight"/>
 
-                <nuxt-img provider="cloudinary" loading="lazy" src="/images/Top-Banner.jpg" alt="Art Lovers' Niche" style="width: 100%; height:auto; max-width:660px; margin:auto; display:block;"></nuxt-img provider="cloudinary">
+                <nuxt-img provider="cloudinary" loading="lazy" src="/images/Top-Banner.jpg" alt="Art Lovers' Niche" style="width: 100%; height:auto; max-width:660px; margin:auto; display:block;"></nuxt-img>
 
-                <ArtLoversNicheArticlePreview v-for="(artLoversNicheArticle, index) in artLoversNicheArticles" :key="index" :art-lovers-niche-article="artLoversNicheArticle" />
+                <ArtLoversNicheArticlePreview v-for="(artLoversNicheArticle, index) in artLoversNicheArticles" :key="`artlover-preview-${index}`" :art-lovers-niche-article="artLoversNicheArticle" />
             </section>
         </div>
         <div
@@ -28,10 +28,11 @@
 <script>
 import ArtLoversNicheArticlePreview from '~/components/ArtLoversNicheArticlePreview';
 import HighlightPreview from '~/components/HighlightPreview.vue'
+import TestimonialsScroll from '~/components/TestimonialsScroll'
 import { loadShortTestimonials } from '~/libs/testimonials'
 
 export default {
-    components: { ArtLoversNicheArticlePreview, HighlightPreview },
+    components: { ArtLoversNicheArticlePreview, HighlightPreview, TestimonialsScroll },
     async asyncData({ $content }) {
         return {
             highlights: await $content("articles").sortBy('date', 'desc').fetch(),

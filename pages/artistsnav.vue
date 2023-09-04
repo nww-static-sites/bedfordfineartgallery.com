@@ -64,9 +64,10 @@
 import { loadPaintings } from '~/libs/paintings'
 import ArtistPreview from '~/components/ArtistPreview'
 import { loadShortTestimonials } from '~/libs/testimonials'
+import TestimonialsScroll from '~/components/TestimonialsScroll'
 
 export default {
-    components: { ArtistPreview },
+    components: { ArtistPreview, TestimonialsScroll },
     async asyncData({ $content }) {
         const artists = await $content('artists').fetch()
         artists.sort((a, b) => {

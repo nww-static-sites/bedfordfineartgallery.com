@@ -5,14 +5,9 @@
                 <div class="flex_wrap">
                     <div class="flex_4 flex_sub">
                         <div class="flex_3 flex_3_no_100">
-                            <nuxt-img provider="cloudinary"
-                                class="home_logo"
-                                src="logo_ext.png"
-                                width="235"
-                                height="127"
+                            <nuxt-img provider="cloudinary" class="home_logo" src="logo_ext.png" width="235" height="127"
                                 alt="victorian art
-"
-                            />
+" />
                         </div>
                         <div class="flex_7 flex_center flex_7_no_100">
                             <h2 class="home_tagline">
@@ -23,10 +18,9 @@
                     <div class="flex_6">
                         <p class="home_tagline_2">HISTORIC PAINTINGS FOR HISTORIC HOMES</p>
                         <div class="breadcrumb" style="margin-top: 0px">
-                            <nuxt-link to="Artists--Bios.html" class="content_btn home_btn_small"
-                                ><span class="btn_text_break">view over 150 unique</span>
-                                <span class="btn_text_break">original 19TH century paintings for sale</span></nuxt-link
-                            >
+                            <nuxt-link to="Artists--Bios.html" class="content_btn home_btn_small"><span
+                                    class="btn_text_break">view over 150 unique</span>
+                                <span class="btn_text_break">original 19TH century paintings for sale</span></nuxt-link>
                         </div>
                     </div>
                 </div>
@@ -40,18 +34,18 @@
                 <div class="flex_wrap" style="margin-top: 1em">
                     <div class="flex_3_3">
                         <div class="video-container">
-                        <YouTubeVideo link="https://www.youtube.com/embed/p3p_rUFCeic?rel=0"/>
-                    </div>
-                    </div>
-                    <div class="flex_3_3">
-                        <div class="video-container">
-                        <YouTubeVideo link="https://www.youtube.com/embed/zc_ayyc2NsI?rel=0"/>
-                      </div>
+                            <YouTubeVideo link="https://www.youtube.com/embed/p3p_rUFCeic?rel=0" />
+                        </div>
                     </div>
                     <div class="flex_3_3">
                         <div class="video-container">
-                        <YouTubeVideo link="https://www.youtube.com/embed/3asJzvyy-ZQ?rel=0"/>
-                       </div>
+                            <YouTubeVideo link="https://www.youtube.com/embed/zc_ayyc2NsI?rel=0" />
+                        </div>
+                    </div>
+                    <div class="flex_3_3">
+                        <div class="video-container">
+                            <YouTubeVideo link="https://www.youtube.com/embed/3asJzvyy-ZQ?rel=0" />
+                        </div>
                     </div>
                 </div>
             </section>
@@ -67,54 +61,40 @@
                 </div>
                 <ul class="productGrid2">
                     <li>
-                        <nuxt-link to="eugene_alonzo_poole_skiff.html"
-                            ><nuxt-picture provider="cloudinary"
+                        <nuxt-link to="eugene_alonzo_poole_skiff.html"><nuxt-picture provider="cloudinary"
                                 src="e_a_poole_grid3.jpg"
-                                :img-attrs="{alt: 'Eugene Alonzo Poole (E.A. Poole,  Eugene A. Poole) Painting'}"
-                            />
+                                :img-attrs="{ alt: 'Eugene Alonzo Poole (E.A. Poole,  Eugene A. Poole) Painting' }" />
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="penrhyn_stanlaws_lincoln.html"
-                            ><nuxt-picture provider="cloudinary"
-                                src="stanlaws_grid.jpg"
-                                :img-attrs="{alt: 'Penrhyn Stanlaws Painting'}"
-                            />
+                        <nuxt-link to="penrhyn_stanlaws_lincoln.html"><nuxt-picture provider="cloudinary"
+                                src="stanlaws_grid.jpg" :img-attrs="{ alt: 'Penrhyn Stanlaws Painting' }" />
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="eugene_alonzo_poole_sheep.html"
-                            ><nuxt-picture provider="cloudinary"
+                        <nuxt-link to="eugene_alonzo_poole_sheep.html"><nuxt-picture provider="cloudinary"
                                 src="e_a_poole_grid.jpg"
-                                :img-attrs="{alt: 'Eugene Alonzo Poole (E.A. Poole,  Eugene A. Poole) Painting'}"
-                            />
+                                :img-attrs="{ alt: 'Eugene Alonzo Poole (E.A. Poole,  Eugene A. Poole) Painting' }" />
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="william_bromley_III_liesure.html"
-                            ><nuxt-picture provider="cloudinary"
-                                src="bromley_grid.jpg"
-                                :img-attrs="{alt: 'William Bromley III Painting'}"
-                            />
+                        <nuxt-link to="william_bromley_III_liesure.html"><nuxt-picture provider="cloudinary"
+                                src="bromley_grid.jpg" :img-attrs="{ alt: 'William Bromley III Painting' }" />
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="barton_stone_hays_tabletop.html"
-                            ><nuxt-picture provider="cloudinary"
+                        <nuxt-link to="barton_stone_hays_tabletop.html"><nuxt-picture provider="cloudinary"
                                 src="barton_stone_hays_artwork_grid.jpg"
-                                :img-attrs="{alt: 'Barton Stone Hays (B.S. Hays) Painting'}"
-                        /></nuxt-link>
+                                :img-attrs="{ alt: 'Barton Stone Hays (B.S. Hays) Painting' }" /></nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="edward_moran_breakers.html"
-                            ><nuxt-picture provider="cloudinary"
-                                src="edward_moran_grid.jpg"
-                                :img-attrs="{alt: 'Edward Moran Painting'}"
-                            />
+                        <nuxt-link to="edward_moran_breakers.html"><nuxt-picture provider="cloudinary"
+                                src="edward_moran_grid.jpg" :img-attrs="{ alt: 'Edward Moran Painting' }" />
                         </nuxt-link>
                     </li>
                 </ul>
-                <div class="breadcrumb"><nuxt-link to="Artists--Bios.html" class="content_btn">view full gallery</nuxt-link></div>
+                <div class="breadcrumb"><nuxt-link to="Artists--Bios.html" class="content_btn">view full gallery</nuxt-link>
+                </div>
             </section>
         </div>
 
@@ -138,99 +118,63 @@
 
                 <ul class="productGrid">
                     <li>
-                        <nuxt-link to="Artists--Bios.html"
-                            ><nuxt-picture provider="cloudinary"
-                                src="thumb9.jpg"
-                                :img-attrs="{alt: 'victorian art'}"
-                            />
+                        <nuxt-link to="Artists--Bios.html"><nuxt-picture provider="cloudinary" src="thumb9.jpg"
+                                :img-attrs="{ alt: 'victorian art' }" />
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="Artists--Bios.html"
-                            ><nuxt-picture provider="cloudinary"
-                                src="thumb7.jpg"
-                                :img-attrs="{alt: 'victorian paintings'}"
-                            />
+                        <nuxt-link to="Artists--Bios.html"><nuxt-picture provider="cloudinary" src="thumb7.jpg"
+                                :img-attrs="{ alt: 'victorian paintings' }" />
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="Artists--Bios.html"
-                            ><nuxt-picture provider="cloudinary"
-                                src="thumb14.jpg"
-                                :img-attrs="{alt: 'victorian home decorating'}"
-                            />
+                        <nuxt-link to="Artists--Bios.html"><nuxt-picture provider="cloudinary" src="thumb14.jpg"
+                                :img-attrs="{ alt: 'victorian home decorating' }" />
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="Artists--Bios.html"
-                            ><nuxt-picture provider="cloudinary"
-                                src="thumb15.jpg"
-                                :img-attrs="{alt: 'victorian artists'}"
-                            />
+                        <nuxt-link to="Artists--Bios.html"><nuxt-picture provider="cloudinary" src="thumb15.jpg"
+                                :img-attrs="{ alt: 'victorian artists' }" />
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="Artists--Bios.html"
-                            ><nuxt-picture provider="cloudinary"
-                                src="thumb16.jpg"
-                                :img-attrs="{alt: 'victorian house restoration'}"
-                            />
+                        <nuxt-link to="Artists--Bios.html"><nuxt-picture provider="cloudinary" src="thumb16.jpg"
+                                :img-attrs="{ alt: 'victorian house restoration' }" />
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="Artists--Bios.html"
-                            ><nuxt-picture provider="cloudinary"
-                                src="thumb17.jpg"
-                                :img-attrs="{alt: 'historic home decor'}"
-                            />
+                        <nuxt-link to="Artists--Bios.html"><nuxt-picture provider="cloudinary" src="thumb17.jpg"
+                                :img-attrs="{ alt: 'historic home decor' }" />
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="Artists--Bios.html"
-                            ><nuxt-picture provider="cloudinary"
-                                src="thumb23.jpg"
-                                :img-attrs="{alt: 'historic home restoration'}"
-                            />
+                        <nuxt-link to="Artists--Bios.html"><nuxt-picture provider="cloudinary" src="thumb23.jpg"
+                                :img-attrs="{ alt: 'historic home restoration' }" />
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="Artists--Bios.html"
-                            ><nuxt-picture provider="cloudinary"
-                                src="thumb24.jpg"
-                                :img-attrs="{alt: 'victorian house interior design'}"
-                            />
+                        <nuxt-link to="Artists--Bios.html"><nuxt-picture provider="cloudinary" src="thumb24.jpg"
+                                :img-attrs="{ alt: 'victorian house interior design' }" />
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="Artists--Bios.html"
-                            ><nuxt-picture provider="cloudinary"
-                                src="thumb25.jpg"
-                                :img-attrs="{alt: 'victorian home restoration'}"
-                            />
+                        <nuxt-link to="Artists--Bios.html"><nuxt-picture provider="cloudinary" src="thumb25.jpg"
+                                :img-attrs="{ alt: 'victorian home restoration' }" />
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="Artists--Bios.html"
-                            ><nuxt-picture provider="cloudinary"
-                                src="thumb26.jpg"
-                                :img-attrs="{alt: 'victorian art'}"
-                            />
+                        <nuxt-link to="Artists--Bios.html"><nuxt-picture provider="cloudinary" src="thumb26.jpg"
+                                :img-attrs="{ alt: 'victorian art' }" />
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="Artists--Bios.html"
-                            ><nuxt-picture provider="cloudinary"
-                                src="thumb27.jpg"
-                                :img-attrs="{alt: 'victorian paintings'}"
-                            />
+                        <nuxt-link to="Artists--Bios.html"><nuxt-picture provider="cloudinary" src="thumb27.jpg"
+                                :img-attrs="{ alt: 'victorian paintings' }" />
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="Artists--Bios.html"
-                            ><nuxt-picture provider="cloudinary"
-                                src="thumb28.jpg"
-                                :img-attrs="{alt: 'victorian home decorating'}"
-                            />
+                        <nuxt-link to="Artists--Bios.html"><nuxt-picture provider="cloudinary" src="thumb28.jpg"
+                                :img-attrs="{ alt: 'victorian home decorating' }" />
                         </nuxt-link>
                     </li>
                 </ul>
@@ -263,51 +207,36 @@
 
                 <ul class="productGrid2">
                     <li>
-                        <nuxt-link to="auguste_toulmouche_memories.html"
-                            ><nuxt-picture provider="cloudinary"
-                                src="auguste_toulmouche_grid.jpg"
-                                :img-attrs="{alt: 'Auguste Toulmouche Painting'}"
-                            />
+                        <nuxt-link to="auguste_toulmouche_memories.html"><nuxt-picture provider="cloudinary"
+                                src="auguste_toulmouche_grid.jpg" :img-attrs="{ alt: 'Auguste Toulmouche Painting' }" />
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="morston_constantine_ream_fruit.html"
-                            ><nuxt-picture provider="cloudinary"
+                        <nuxt-link to="morston_constantine_ream_fruit.html"><nuxt-picture provider="cloudinary"
                                 src="morston_grid.jpg"
-                                :img-attrs="{alt: 'Morston Constantine Ream (Morston Ream) Painting'}"
-                            />
+                                :img-attrs="{ alt: 'Morston Constantine Ream (Morston Ream) Painting' }" />
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="frank_bromley_niagra.html"
-                            ><nuxt-picture provider="cloudinary"
+                        <nuxt-link to="frank_bromley_niagra.html"><nuxt-picture provider="cloudinary"
                                 src="frank_bromley_grid.jpg"
-                                :img-attrs="{alt: 'Frank Bromley (Frank Clark Bromley,  Frank C Bromley) Painting'}"
-                            />
+                                :img-attrs="{ alt: 'Frank Bromley (Frank Clark Bromley,  Frank C Bromley) Painting' }" />
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="felix_octavious_carr_darley_washington.html"
-                            ><nuxt-picture provider="cloudinary"
+                        <nuxt-link to="felix_octavious_carr_darley_washington.html"><nuxt-picture provider="cloudinary"
                                 src="darley_grid.jpg"
-                                :img-attrs="{alt: 'Felix Octavius Carr Darley (F. O. C. Darley) Painting'}"
-                            />
+                                :img-attrs="{ alt: 'Felix Octavius Carr Darley (F. O. C. Darley) Painting' }" />
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="c_myron_clark_art.html"
-                            ><nuxt-picture provider="cloudinary"
-                                src="c_myron_clark_grid.jpg"
-                                :img-attrs="{alt: 'C. Myron Clark Painting'}"
-                            />
+                        <nuxt-link to="c_myron_clark_art.html"><nuxt-picture provider="cloudinary"
+                                src="c_myron_clark_grid.jpg" :img-attrs="{ alt: 'C. Myron Clark Painting' }" />
                         </nuxt-link>
                     </li>
                     <li>
-                        <nuxt-link to="jules_frederic_ballavoine_art_flowers.html"
-                            ><nuxt-picture provider="cloudinary"
-                                src="ballvoine_grid.jpg"
-                                :img-attrs="{alt: 'Jules Frederic Ballavoine Painting'}"
-                            />
+                        <nuxt-link to="jules_frederic_ballavoine_art_flowers.html"><nuxt-picture provider="cloudinary"
+                                src="ballvoine_grid.jpg" :img-attrs="{ alt: 'Jules Frederic Ballavoine Painting' }" />
                         </nuxt-link>
                     </li>
                 </ul>
@@ -319,14 +248,8 @@
         <div class="container primary">
             <section class="wrapper clearfix">
                 <div class="col_40">
-                    <nuxt-img provider="cloudinary"
-                        class="logoSecondary"
-                        src="logo.png"
-                        width="123"
-                        height="124"
-                        alt="Victorian Paintings
-"
-                    />
+                    <nuxt-img provider="cloudinary" class="logoSecondary" src="logo.png" width="123" height="124" alt="Victorian Paintings
+" />
                     <p class="tagline">Enriching today’s décor with exceptional paintings from the past.</p>
                 </div>
                 <div class="col_60">
@@ -350,41 +273,38 @@
             <h2 class="reverse_header" style="margin-top: 0px; color: #732824; padding-bottom: 10px">
                 We have the absolute best customers!
             </h2>
-            <nuxt-img provider="cloudinary"
-                style="width: 100%; height: auto; max-width: 1260px; margin-top: 16px"
-                src="bfa_customers_map.png"
-                width="2092"
-                height="994"
-                alt="Bedford Fine Art satisfied art customers in the USA, Canada and UK
-"
-            />
+            <nuxt-img provider="cloudinary" style="width: 100%; height: auto; max-width: 1260px; margin-top: 16px"
+                src="bfa_customers_map.png" width="2092" height="994" alt="Bedford Fine Art satisfied art customers in the USA, Canada and UK
+" />
         </div>
-        <div
-            class="container footer_test"
-            style="padding-top: 24px; width: 100%; margin: 0px auto; background-color: rgba(16, 88, 185, 1)"
-        >
+        <div class="container footer_test"
+            style="padding-top: 24px; width: 100%; margin: 0px auto; background-color: rgba(16, 88, 185, 1)">
             <section class="wrapper" style="max-width: 860px; margin: auto">
-                <TestimonialsScroll :testimonials="testimonials"/>
+                <TestimonialsScroll :testimonials="testimonials" />
             </section>
         </div>
     </div>
 </template>
 
 <script>
-    import { loadShortTestimonials } from '~/libs/testimonials'
+import TestimonialsScroll from '~/components/TestimonialsScroll'
+import VictorianSlidingImages from '~/components/VictorianSlidingImages'
+import YouTubeVideo from '~/components/YouTubeVideo'
+import { loadShortTestimonials } from '~/libs/testimonials'
 
-    export default {
-        async asyncData({ $content }) {
-            return {
-                testimonials: await loadShortTestimonials($content),
-            }
-        },
-        head() {
-            return {
-                title: 'Victorian Art For Sale - Bedford Fine Art Gallery',
-            }
-        },
-    }
+export default {
+    components: { TestimonialsScroll, VictorianSlidingImages, YouTubeVideo },
+    async asyncData({ $content }) {
+        return {
+            testimonials: await loadShortTestimonials($content),
+        }
+    },
+    head() {
+        return {
+            title: 'Victorian Art For Sale - Bedford Fine Art Gallery',
+        }
+    },
+}
 </script>
 
 <style scoped>
@@ -406,9 +326,11 @@
     text-align: center;
     font-size: 18px;
 }
+
 .btn_text_break {
     display: inline-block;
 }
+
 .slick-prev::before,
 .slick-next::before {
     font-family: 'slick';

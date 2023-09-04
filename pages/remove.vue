@@ -46,9 +46,11 @@
 </template>
 
 <script>
+import TestimonialsScroll from '~/components/TestimonialsScroll'
 import { loadShortTestimonials } from '~/libs/testimonials'
 
 export default {
+    components: { TestimonialsScroll },
     async asyncData({ $content }) {
         return {
             testimonials: await loadShortTestimonials($content),

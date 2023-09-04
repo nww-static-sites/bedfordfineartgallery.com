@@ -47,7 +47,7 @@ export default {
             Object.keys(paintingViews[paintingPathname].visits).length >= 4 &&
             daysBetween(paintingViews[paintingPathname].popupLastShown || new Date('1970-01-01'), new Date()) > 7
         ) {
-			const $this = this
+			// const $this = this
             setTimeout(function () {
             	paintingViews[paintingPathname].popupLastShown = new Date()
 				// $this.showModal = true

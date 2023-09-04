@@ -200,8 +200,10 @@
 
 <script>
     import { loadShortTestimonials } from '~/libs/testimonials'
+    import TestimonialsScroll from '~/components/TestimonialsScroll'
 
     export default {
+        components: { TestimonialsScroll },
         async asyncData({ $content }) {
             return {
                 testimonials: await loadShortTestimonials($content),

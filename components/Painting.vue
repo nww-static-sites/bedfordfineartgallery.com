@@ -206,11 +206,15 @@
 
 <script>
 import { artistNameWithTinyDescription } from '~/libs/artist'
+import ContactForm from '~/components/ContactForm'
+import PaintingHeader from '~/components/PaintingHeader'
 import PaintingVisitsMixin from '~/mixins/PaintingVisitsMixin'
+import TestimonialsScroll from '~/components/TestimonialsScroll'
 import YouTubeVideo from '~/components/YouTubeVideo'
+import Zoom from '~/components/Zoom'
 
 export default {
-    components: { YouTubeVideo },
+    components: { ContactForm, PaintingHeader, TestimonialsScroll, YouTubeVideo, Zoom },
     mixins: [PaintingVisitsMixin],
     props: {
         painting: {

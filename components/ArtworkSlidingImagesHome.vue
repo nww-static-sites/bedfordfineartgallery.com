@@ -5,7 +5,8 @@
                 v-for="scrollingHomepageImage in scrollingHomepageImages"
                 :key="scrollingHomepageImage.slug"
                 :to="scrollingHomepageImage.slug.replace('-html', '.html')"
-                ><nuxt-img provider="cloudinary"
+                ><nuxt-img
+                    provider="cloudinary"
                     :src="getImage(scrollingHomepageImage)"
                     width="290"
                     height="200"

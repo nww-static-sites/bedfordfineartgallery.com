@@ -41,10 +41,12 @@
 <script>
 import { urlSlugToSlug } from '~/libs/slug'
 import { artistNameWithTinyDescription } from '~/libs/artist'
+import PaintingHeader from '~/components/PaintingHeader'
 import YouTubeVideo from '~/components/YouTubeVideo'
+import Zoom from '~/components/Zoom'
 
 export default {
-    components: { YouTubeVideo },
+    components: { PaintingHeader, YouTubeVideo, Zoom },
     layout: 'ipad',
     async asyncData({ $content, params, error }) {
         let painting

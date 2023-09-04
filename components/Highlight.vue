@@ -21,7 +21,7 @@
 					<br v-if="highlight.youtubeEmbedLink" />
 
 					<div v-interpolation v-html="$md.render(highlight.body)" />
-                    <p v-if="highlight.additionalLink">
+                    <p v-if="hasAdditionalLink">
 						<nuxt-link :to="highlight.additionalLink.link" class="readmore">{{ highlight.additionalLink.text }}</nuxt-link>
 					</p>
                     <p><nuxt-link :to="{ name: 'highlights' }" class="readmore">Back to Highlights</nuxt-link></p>
@@ -40,10 +40,11 @@
 </template>
 
 <script>
+import TestimonialsScroll from '~/components/TestimonialsScroll'
 import YouTubeVideo from '~/components/YouTubeVideo'
 
 export default {
-	components: { YouTubeVideo },
+	components: { TestimonialsScroll, YouTubeVideo },
 	props: {
 		highlight: {
 			type: Object,
@@ -57,6 +58,9 @@ export default {
     computed: {
         image() {
             return this.highlight.image.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
+        },
+        hasAdditionalLink() {
+            return this.highlight.additionalLink && this.highlight.additionalLink.text && this.highlight.additionalLink.link
         }
     }
 }

@@ -220,15 +220,18 @@ testimonials that we post on the website. Thank you.</p>
 </template>
 
 <script>
-    import { loadShortTestimonials } from '~/libs/testimonials'
+import { loadShortTestimonials } from '~/libs/testimonials'
+import CustomerSlidingImages from '~/components/CustomerSlidingImages'
+import TestimonialsScroll from '~/components/TestimonialsScroll'
 
-    export default {
-        async asyncData({ $content }) {
-            return {
-                testimonials: await loadShortTestimonials($content),
-            }
-        },
-    }
+export default {
+    components: { CustomerSlidingImages, TestimonialsScroll },
+    async asyncData({ $content }) {
+        return {
+            testimonials: await loadShortTestimonials($content),
+        }
+    },
+}
 </script>
 
 <style>
