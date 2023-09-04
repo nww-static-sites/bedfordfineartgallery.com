@@ -1,15 +1,22 @@
 {
   "paintingWidth": 21.25,
-  "body": "Constant Artz, the son of Hague School artist David Adolph Constant Artz, was born in Paris, France, where his family had been living for some time, where his father shared a studio with Jacob Maris, another Hague School painter. In 1874, when Artz was four years old, the Artz family returned to the Netherlands. In 1882, his father, recognizing talent in his son, enrolled him at the Hague Academy. He would been exposed to his father’s circle of artist friends, including Jacob Maris and Maris’s two younger brothers, artists Matthijs and Willem Maris.  In 1899 studied with Hague painter Tony Offermans. Artz at first painted plein air landscapes; however, his later works may have influenced by plein air painter Willem Maris, who often included ducks and other water fowl as focal points in his landscapes.  Artz’s style has been characterized as a “smooth, impressionistic” one, executed masterfully, exhibiting his skill in handling light and color. Constant lived variously in The Hague (1874-1885); Soestdijk (1885 – 1926); Katwijk at Sea (1926 – 1931), and finally in Soestdijk until his death in 1951.\n\nHigh auction record for this artist is $14,600.",
+  "body": "Constant Artz, the son of Hague School artist David Adolph Constant Artz, was born in Paris, France, where his family had been living for some time, where his father shared a studio with Jacob Maris, another Hague School painter.\n\nIn 1874, when Artz was four years old, the Artz family returned to the Netherlands. In 1882, his father, recognizing talent in his son, enrolled him at the Hague Academy. He would been exposed to his father’s circle of artist friends, including Jacob Maris and Maris’s two younger brothers, artists Matthijs and Willem Maris.  In 1899 studied with Hague painter Tony Offermans.\n\nArtz at first painted plein air landscapes; however, his later works may have influenced by plein air painter Willem Maris, who often included ducks and other waterfowl as focal points in his landscapes. \n\nArtz’s style has been characterized as a “smooth, impressionistic” one, executed masterfully, exhibiting his skill in handling light and color. Constant lived variously in The Hague (1874-1885); Soestdijk (1885 – 1926); Katwijk at Sea (1926 – 1931), and finally in Soestdijk until his death in 1951.\n\nHigh auction record for this artist is $14,600.",
+  "highResImageHeight": 3489,
   "artist": "c_d_l_artz_artist-html",
+  "highResImageWidth": 3000,
+  "artOnWallAltText": "Constant David Ludovic Artz 19th Century Painting for Sale - Duck Family by Birch Tree ",
   "paintingHeight": 25.25,
   "slug": "c_d_l_artz_ducks_family-html",
   "dimensions": "Oil on board, 15.5 x 11.5 inches/Signed lower left",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693416415/constant-david-ludovic-artz-19th-century-painting-for-sale-duck-family-by-birch-tree_o3bp0u.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1674700838/Artz_Duck_Family_IMG_sm_cr_fr_1530_gaoqau.jpg",
+  "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Constant David Ludovic Artz - Duck Family By Birch Tree",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1674700749/Artz_Duck_Family_IMG_1530_zoom_cr_pnxgzu.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1628,
   "metaDescription": "Constant David Ludovic Artz, Dutch Artist From 1870-1951 - Duck Family By Birch Tree Oil On Board Painting For Sale - 15.5x11.5 Inches - Signed Lower Left.",
   "scrollingHomepageImage": false,
   "title": "Duck Family by Birch Tree",
@@ -18,6 +25,7 @@
   "categories": [
     "Animal"
   ],
+  "gridImageHeight": 323,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1674700798/Artz_Duck_Family_IMG_lrg_cr_fr_1530_xeqdti.jpg",
   "highlights": [
     {
@@ -29,11 +37,5 @@
     {
       "highlight": "Competitively Priced $3,500"
     }
-  ],
-  "gridImageWidth": 392,
-  "gridImageHeight": 323,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 1628,
-  "highResImageWidth": 3000,
-  "highResImageHeight": 3489
+  ]
 }

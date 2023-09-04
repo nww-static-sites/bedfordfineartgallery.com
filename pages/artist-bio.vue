@@ -6,9 +6,8 @@
                     <h1>
                         <span class="artistTitle">{{ nameWithTinyDescription }}</span>
                     </h1>
-                    <span v-if="artist.alias" class="alias"
-                        >(&nbsp;&nbsp;aka&nbsp;&nbsp;{{ artist.alias }}&nbsp;&nbsp;)</span
-                    >
+                    <span v-if="artist.alias" class="alias">(&nbsp;&nbsp;aka&nbsp;&nbsp;{{ artist.alias
+                    }}&nbsp;&nbsp;)</span>
                 </div>
             </section>
         </div>
@@ -26,21 +25,15 @@
                     <li v-for="(painting, index) in filteredPaintings" :key="index">
                         <div v-if="isSoldOrHold(painting)" class="sold">
                             <span class="soldTag">{{ soldOrHoldText(painting) }}</span>
-                            <nuxt-link :to="`/${painting.replace('-html', '.html')}`"
-                                ><nuxt-img
-                                    provider="cloudinary"
+                            <nuxt-link :to="`/${painting.replace('-html', '.html')}`"><nuxt-img provider="cloudinary"
                                     :src="getGridImage(artist.paintingToObj[painting].gridImage)"
-                                    :alt="nameWithTinyDescription"
-                                />
+                                    :alt="nameWithTinyDescription" />
                             </nuxt-link>
                         </div>
                         <template v-else>
-                            <nuxt-link :to="`/${painting.replace('-html', '.html')}`"
-                                ><nuxt-img
-                                    provider="cloudinary"
+                            <nuxt-link :to="`/${painting.replace('-html', '.html')}`"><nuxt-img provider="cloudinary"
                                     :src="getGridImage(artist.paintingToObj[painting].gridImage)"
-                                    :alt="nameWithTinyDescription"
-                                />
+                                    :alt="nameWithTinyDescription" />
                             </nuxt-link>
                         </template>
                     </li>
@@ -52,19 +45,16 @@
             <section class="wrapper clearfix">
                 <p class="bio_full" style="max-width: 860px; margin: auto; line-height: 28px">
                     {{ artist.body }}
-                    <span
-                        style="
+                    <span style="
                             font-weight: bold;
                             max-width: 860px;
                             margin: auto;
                             line-height: 28px;
                             padding-top: 16px;
                             display: block;
-                        "
-                        >In addition to offering the artwork below for sale, Bedford Fine Art Gallery is also actively
+                        ">In addition to offering the artwork below for sale, Bedford Fine Art Gallery is also actively
                         seeking to purchase artwork by {{ artist.name }}.
-                        <nuxt-link
-                            style="
+                        <nuxt-link style="
                                 background-color: #dfddbb;
                                 color: #282828;
                                 padding: 2px 8px;
@@ -72,11 +62,7 @@
                                 display: inline-block;
                                 border-radius: 4px;
                                 margin-left: 6px;
-                            "
-                            :to="{ name: 'directions' }"
-                            >Contact Us</nuxt-link
-                        ></span
-                    >
+                            " :to="{ name: 'directions' }">Contact Us</nuxt-link></span>
                 </p>
 
                 <span class="more bio_mobile" style="max-width: 860px; margin: auto; line-height: 28px">
@@ -85,14 +71,11 @@
                         showFullMobileBio ? 'Less' : 'More'
                     }}</span>
                 </span>
-                <p
-                    class="bio_mobile"
-                    style="font-weight: bold; max-width: 860px; margin: auto; line-height: 28px; padding-top: 16px"
-                >
+                <p class="bio_mobile"
+                    style="font-weight: bold; max-width: 860px; margin: auto; line-height: 28px; padding-top: 16px">
                     In addition to offering the artwork below for sale, Bedford Fine Art Gallery is also actively
                     seeking to purchase artwork by {{ artist.name }}.
-                    <nuxt-link
-                        style="
+                    <nuxt-link style="
                             background-color: #dfddbb;
                             color: #282828;
                             padding: 2px 8px;
@@ -100,10 +83,7 @@
                             display: inline-block;
                             border-radius: 4px;
                             margin-left: 6px;
-                        "
-                        :to="{ name: 'directions' }"
-                        >Contact Us</nuxt-link
-                    >
+                        " :to="{ name: 'directions' }">Contact Us</nuxt-link>
                 </p>
             </section>
         </div>
@@ -111,14 +91,19 @@
 </template>
 
 <script>
+import { urlSlugToSlug } from '~/libs/slug'
+import { loadPaintings } from '~/libs/paintings'
 import { getPostPreview } from '~/libs/post'
 
 export default {
-    props: {
-        artist: {
-            type: Object,
-            required: true,
-        },
+    async asyncData({ $content, route }) {
+        const artist = await $content('artists', urlSlugToSlug(route.path)).fetch()
+        artist.paintingToObj = await loadPaintings({
+            $content,
+            paintingSlugs: artist.paintings,
+            columns: ['slug', 'gridImage', 'status'],
+        })
+        return { artist }
     },
     data() {
         return {
@@ -159,6 +144,7 @@ export default {
 .bio_full {
     display: none;
 }
+
 .bio_mobile {
     display: block;
 }
@@ -167,6 +153,7 @@ export default {
     .bio_full {
         display: block;
     }
+
     .bio_mobile {
         display: none;
     }
@@ -175,6 +162,7 @@ export default {
 .morecontent span {
     display: none;
 }
+
 .morelink {
     display: inline-block;
     font-weight: bold;

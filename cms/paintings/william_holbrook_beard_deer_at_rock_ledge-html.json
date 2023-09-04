@@ -1,15 +1,22 @@
 {
   "paintingWidth": 44,
-  "body": "William Beard was self-taught, although he studied with his brother, the artist James Henry Beard, in New York City, before embarking on a not too successful career as an itinerant portrait painter.  He moved to Buffalo where he became one of the major artists of Buffalo’s first “golden age”.  In the mid-1850s Beard traveled to Dusseldorf, Germany where he met and studied with his American peers.  In the late 1860s Beard traveled to the American West, but was unimpressed with the western landscape that other artists had found inspiring.  Beard then became renowned for his paintings depicting animals engaged in human activity.  After Charles Darwin published his controversial “Origin of Species”, Beard composed a monkey painting satirizing the theory of evolution.  Allegedly, Beard believed that animals had souls and could express human emotions; but was opposed to the Theory of Evolution.  Beard exhibited widely and his works can be seen at the Albright-Knox Art Gallery, New York Historical Society, Brooklyn Museum, Wadsworth Atheneum, Amon-Carter Museum, Smithsonian Museum of American Art, Art Institute of Chicago and the Rhode Island School of Design.",
+  "body": "William Holbrook Beard became one Buffalo, New York's major artists of Buffalo's   first “golden age”. \n\nBeard was self-taught, although he studied with his brother, the artist James Henry Beard, in New York City, before embarking on a not too successful career as an itinerant portrait painter, before moving to Buffalo, New York.\n\nIn the mid-1850s Beard traveled to Dusseldorf, Germany where he met and studied with his American peers.  In the late 1860s Beard traveled to the American West, but was unimpressed with the western landscape that other artists had found inspiring.  Beard then became renowned for his paintings depicting animals engaged in human activity.\n\nAfter Charles Darwin published his controversial “Origin of Species”, Beard composed a monkey painting satirizing the theory of evolution.  Allegedly, Beard believed that animals had souls and could express human emotions; but was opposed to the Theory of Evolution. \n\nBeard exhibited widely and his works can be seen at the Albright-Knox Art Gallery, New York Historical Society, Brooklyn Museum, Wadsworth Atheneum, Amon-Carter Museum, Smithsonian Museum of American Art, Art Institute of Chicago and the Rhode Island School of Design.\n\nHigh auction record for this artist: $296,000.",
+  "highResImageHeight": 2311,
   "artist": "william_holbrook_beard_artwork-html",
+  "highResImageWidth": 3000,
+  "artOnWallAltText": "William Holbrook Beard Victorian Art for Sale - Deer at Rock Ledge",
   "paintingHeight": 34,
   "slug": "william_holbrook_beard_deer_at_rock_ledge-html",
   "dimensions": "Oil on canvas, 26.25 x 36.75 inches/Signed lower left",
-  "featured": true,
+  "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693491348/william-holbrook-beard-vitorian-art-for-sale-deer-at-rock-ledge_t4uxhe.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1688051768/Beard_Deer_IMG_1829_sm_cr_fr_ok3qmu.jpg",
+  "gridImageWidth": 392,
   "status": "Hold",
   "metaTitle": "William Holbrook Beard - Deer At Rock Ledge Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1688051745/Beard_Deer_IMG_1829_zoom_cr_qkxfdb.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1078,
   "metaDescription": "William Holbrook Beard, American Artist From 1825-1900 - Deer At Rock Ledge Oil On Canvas Painting For Sale - 26.25x36.75 Inches - Signed Lower Left.",
   "scrollingHomepageImage": false,
   "title": "Deer at Rock Ledge",
@@ -18,6 +25,7 @@
     "Landscape",
     "Animal"
   ],
+  "gridImageHeight": 308,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1688051792/Beard_Deer_IMG_1829_lrg_cr_fr_wsibop.jpg",
   "highlights": [
     {
@@ -29,11 +37,5 @@
     {
       "highlight": "Competitively Priced $6,731"
     }
-  ],
-  "gridImageWidth": 392,
-  "gridImageHeight": 308,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 1078,
-  "highResImageWidth": 3000,
-  "highResImageHeight": 2311
+  ]
 }

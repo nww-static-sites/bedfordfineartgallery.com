@@ -12,7 +12,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/tcherepnine_small.jpg",
   "gridImageWidth": 392,
-  "status": "Sold",
+  "status": "None",
   "metaTitle": "Jessica Tcherepnine - Pink Roses - 19th Century American Fine Art",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/tcherepnine_grid.jpg",
   "mediumResImageWidth": 486,
@@ -25,5 +25,15 @@
   ],
   "gridImageHeight": 261,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/tcherepnine_full.jpg",
-  "highlights": []
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively priced $2,200"
+    }
+  ]
 }

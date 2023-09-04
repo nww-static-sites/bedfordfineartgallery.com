@@ -1,15 +1,22 @@
 {
   "paintingWidth": 37,
-  "body": "Contemporary artist, Allen Blagden, one of the most outstanding watercolorists of our time, began his art training in 1948 from his father who was an artist and art teacher at the Hotchkiss School in Lakeville, CT.  After graduating there in 1957, he enrolled in Cornell University’s School of Fine Art.  In 1959, before graduating, he traveled to Lausanne, Switzerland for study and traveled throughout Europe, Egypt and Greece.  He studied under Bernard Chaet during 1961 in Norfolk, CT, after receiving a Fellowship to the Yale University Summer Painting program. Blagden graduated from Cornell in 1962 and became an illustrator in the Department of Ornithology at the Smithsonian Institute in Washington, DC.  He opened his studio in Salisbury, Connecticut, and as C.B. Wismar wrote in a 2020 article in Main Street Magazine, “jobs and appointments followed, always tied to his incredible ability to capture the moment, the nuance of his subjects.”  The author further states that “Blagden’s paintings of birds have drawn natural comparison to the work of Audubon,” and that his renderings of animals in nature have been celebrated for their capacity to imbue a sense of personality to the subjects – not to merely treat them as objects, but as living beings responding to both environment and stimuli.” His art has won awards and is in the collections of museums and private collectors, in addition to being included in numerous art and nature publications.",
+  "body": "Contemporary artist, Allen Blagden, one of the most outstanding watercolorists of our time, began his art training in 1948 from his father who was an artist and art teacher at the Hotchkiss School in Lakeville, CT.  After graduating there in 1957, he enrolled in Cornell University's School of Fine Art.  In 1959, before graduating, he traveled to Lausanne, Switzerland for study and traveled throughout Europe, Egypt and Greece. \n\nBlagden studied under Bernard Chaet during 1961 in Norfolk, CT, after receiving a Fellowship to the Yale University Summer Painting program. Blagden graduated from Cornell in 1962 and became an illustrator in the Department of Ornithology at the Smithsonian Institute in Washington, DC. \n\nHe opened his studio in Salisbury, Connecticut, and as C.B. Wismar wrote in a 2020 article in Main Street Magazine, \"jobs and appointments followed, always tied to his incredible ability to capture the moment, the nuance of his subjects.\"  The author further states that \"Blagden’s paintings of birds have drawn natural comparison to the work of Audubon,\" and that his renderings of animals in nature have been celebrated for their capacity to imbue a sense of personality to the subjects – not to merely treat them as objects, but as living beings responding to both environment and stimuli.\"\n\nHis art has won awards and is in the collections of museums and private collectors, in addition to being included in numerous art and nature publications.\n\nH﻿igh auction price for this artist: $8,775.",
+  "highResImageHeight": 2355,
   "artist": "allen_blagden_artwork-html",
+  "highResImageWidth": 3000,
+  "artOnWallAltText": "Allen Blagden Artwork for Sale - Thinking Man",
   "paintingHeight": 29.5,
   "slug": "a_blagden_thinking_man-html",
   "dimensions": "Watercolor 21.5 x 29 inches/Signed lower left",
-  "featured": true,
+  "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693497469/allen-blagden-artwork-for-sale-thinking-man_ive81m.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1682786986/IMG_1653_sm_cr_fr_fcswkq.jpg",
+  "gridImageWidth": 392,
   "status": "New",
   "metaTitle": "Allen Blagden - Thinking Man Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1682783735/IMG_1653_zoom_cr_hyqijv.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1099,
   "metaDescription": "Allen Blagden, American Artist Born 1938 - Thinking Man Watercolor Painting For Sale - 21.5x29 Inches - Signed Lower Left.",
   "scrollingHomepageImage": false,
   "title": "Thinking Man",
@@ -18,6 +25,7 @@
   "categories": [
     "Genre"
   ],
+  "gridImageHeight": 392,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1682787053/IMG_1653_lrg_cr_fr_amh8nv.jpg",
   "highlights": [
     {
@@ -29,11 +37,5 @@
     {
       "highlight": "Competitively Priced $5,000"
     }
-  ],
-  "gridImageWidth": 392,
-  "gridImageHeight": 392,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 1099,
-  "highResImageWidth": 3000,
-  "highResImageHeight": 2355
+  ]
 }

@@ -38,7 +38,7 @@ export default {
     ],
 
     // Auto import components: https://go.nuxtjs.dev/config-components
-    components: true,
+    components: false,
 
     // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
     buildModules: [
@@ -76,6 +76,55 @@ export default {
     },
     router: {
         trailingSlash: false,
+        async extendRoutes(routes, resolve) {
+            const { $content } = require('@nuxt/content')
+
+            const paintings = await $content('paintings').only(['slug']).fetch()
+            paintings.forEach(function(painting) {
+                routes.push({
+                    name: painting.slug,
+                    path: `/${painting.slug.replace('-html', '.html')}`,
+                    component: resolve(__dirname, 'pages/painting.vue')
+                })
+            })
+
+            const artists = await $content('artists').where({ hasLandingPage: true }).only(['slug']).fetch()
+            artists.forEach(function(artist) {
+                routes.push({
+                    name: artist.slug,
+                    path: `/${artist.slug.replace('-html', '.html')}`,
+                    component: resolve(__dirname, 'pages/artist-bio.vue')
+                })
+            })
+
+            const articles = await $content('articles').only(['slug']).fetch()
+            articles.forEach(function(article) {
+                routes.push({
+                    name: article.slug,
+                    path: `/${article.slug.replace('-html', '.html')}`,
+                    component: resolve(__dirname, 'pages/highlight.vue')
+                })
+            })
+
+            const artLoversNicheArticles = await $content('artLoversNicheArticles').only(['slug']).fetch()
+            artLoversNicheArticles.forEach(function(artLoversNicheArticle) {
+                routes.push({
+                    name: artLoversNicheArticle.slug,
+                    path: `/${artLoversNicheArticle.slug.replace('-html', '.html')}`,
+                    component: resolve(__dirname, 'pages/art-lovers-niche-article.vue')
+                })
+            })
+
+            const ipadPaintings = await $content('paintings').only(['slug']).fetch()
+            ipadPaintings.forEach((ipadPainting) => {
+                routes.push({
+                    name: `ipad-${ipadPainting.slug}`,
+                    path: `/ipad/${ipadPainting.slug.replace('-html', '.html')}`,
+                    component: resolve(__dirname, 'pages/ipad/painting.vue')
+                })
+            })
+
+          }
     },
     image: {
         cloudinary: {
@@ -97,20 +146,5 @@ export default {
     generate: {
         subFolders: false,
         crawler: true,
-        // don't know why crawler doesn't work anymore
-        async routes() {
-            const { $content } = require('@nuxt/content')
-
-            const paintings = await $content('paintings').only(['slug']).fetch()
-            const ipadPaintings = await $content('paintings').only(['slug']).fetch()
-            ipadPaintings.forEach((ipadPainting) => {
-                ipadPainting.slug = `/ipad/${ipadPainting.slug}`
-            })
-            const artists = await $content('artists').where({ hasLandingPage: true }).only(['slug']).fetch()
-            const articles = await $content('articles').only(['slug']).fetch()
-            const artLoversNicheArticles = await $content('artLoversNicheArticles').only(['slug']).fetch()
-
-            return [...paintings, ...ipadPaintings, ...artists, ...articles, ...artLoversNicheArticles].map((painting) => painting.slug.replace('-html', '.html'))
-        },
     },
 }

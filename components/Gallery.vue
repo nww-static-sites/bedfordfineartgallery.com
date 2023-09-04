@@ -116,6 +116,7 @@ Please click photos for a COMPLETE image and description. </div></div>
 </template>
 
 <script>
+import GalleryTile from '~/components/GalleryTile'
 import YouTubeVideo from '~/components/YouTubeVideo'
 import { whitespaceEmpty } from '~/libs/empty'
 
@@ -165,7 +166,7 @@ function sortByNew (array) {
 }
 
 export default {
-    components: { YouTubeVideo },
+    components: { GalleryTile, YouTubeVideo },
     props: {
         paintings: {
             type: Array,

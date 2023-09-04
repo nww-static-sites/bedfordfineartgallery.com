@@ -205,22 +205,37 @@
 </template>
 
 <script>
-import PaintingVisitsMixin from '~/mixins/PaintingVisitsMixin'
-import YouTubeVideo from '~/components/YouTubeVideo'
 import { artistNameWithTinyDescription } from '~/libs/artist'
+import ContactForm from '~/components/ContactForm'
+import PaintingHeader from '~/components/PaintingHeader'
+import PaintingVisitsMixin from '~/mixins/PaintingVisitsMixin'
+import TestimonialsScroll from '~/components/TestimonialsScroll'
+import YouTubeVideo from '~/components/YouTubeVideo'
+import Zoom from '~/components/Zoom'
+import { urlSlugToSlug } from '~/libs/slug'
+import { loadShortTestimonials } from '~/libs/testimonials'
 
 export default {
-    components: { YouTubeVideo },
+    components: { ContactForm, PaintingHeader, TestimonialsScroll, YouTubeVideo, Zoom },
     mixins: [PaintingVisitsMixin],
-    props: {
-        painting: {
-            type: Object,
-            required: true,
-        },
-        testimonials: {
-            type: Array,
-            required: true,
-        },
+    async asyncData({ $content, route }) {
+        const testimonials = await loadShortTestimonials($content)
+        const painting = await $content('paintings', urlSlugToSlug(route.path)).fetch()
+        painting.highlights = painting.highlights || []
+
+        for (let i = 0; i < painting.highlights.length; i++) {
+            if (painting.highlights[i].pairedPainting) {
+                const pairedPainting = await $content('paintings', painting.highlights[i].pairedPainting).only(['title']).fetch()
+                painting.highlights[i].pairedPainting = {
+                    slug: painting.highlights[i].pairedPainting,
+                    title: pairedPainting.title,
+                }
+            }
+        }
+
+        painting.artist = await $content('artists', painting.artist).only(['name', 'tinyDescription', 'slug', 'alias', 'hasLandingPage']).fetch()
+
+        return { painting, testimonials }
     },
     computed: {
         artistNameWithTinyDescription() {
@@ -255,21 +270,28 @@ export default {
         },
     },
     mounted() {
-        window.addEventListener('load', () => {
-            if (window.showArtPlacer) {
-                this.onScriptLoaded()
-            } else {
+        window.__nww__artplacerplaced = false
+        const $this = this
+        this.$nextTick(function () {
+            $this.maybeLoadArtPlacerScript()
+        })
+    },
+    updated() {
+        this.maybeLoadArtPlacerScript()
+    },
+    methods: {
+        maybeLoadArtPlacerScript() {
+            if (!window.__nww__artplacerplaced) {
                 const script = document.createElement('script')
                 script.onload = this.onScriptLoaded
                 script.type = 'text/javascript'
                 script.src = '//widget.artplacer.com/js/script.js'
                 document.head.appendChild(script)
             }
-        })
-    },
-    methods: {
+        },
         onScriptLoaded() {
-            if (this.showArtPlacer && document.getElementById('artplacer1').parentElement.childElementCount < 2) {
+            if (this.showArtPlacer && !window.__nww__artplacerplaced) {
+                window.__nww__artplacerplaced = true
                 window.ArtPlacer.insert({
                     gallery: '3188',
                     type: '1',

@@ -5,7 +5,7 @@
                 <PaintingHeader :painting="painting" />
 
                 <div class="col_40 artwork">
-                    <Zoom :mobile="false" :painting="painting" />
+                    <Zoom :mobile="false" :painting="painting" :alt="altText" />
                     <p class="zoom">Click image to zoom</p>
                 </div>
 
@@ -41,15 +41,17 @@
 <script>
 import { urlSlugToSlug } from '~/libs/slug'
 import { artistNameWithTinyDescription } from '~/libs/artist'
+import PaintingHeader from '~/components/PaintingHeader'
 import YouTubeVideo from '~/components/YouTubeVideo'
+import Zoom from '~/components/Zoom'
 
 export default {
-    components: { YouTubeVideo },
+    components: { PaintingHeader, YouTubeVideo, Zoom },
     layout: 'ipad',
-    async asyncData({ $content, params, error }) {
+    async asyncData({ $content, route, error }) {
         let painting
         try {
-            painting = await $content('paintings', urlSlugToSlug(params.slug.replace('/ipad/', ''))).fetch()
+            painting = await $content('paintings', urlSlugToSlug(route.path.replace('/ipad/', ''))).fetch()
             painting.artist = await $content('artists', painting.artist)
                 .only(['name', 'tinyDescription', 'slug', 'alias', 'hasLandingPage'])
                 .fetch()
@@ -62,6 +64,11 @@ export default {
             artistNameWithTinyDescription: artistNameWithTinyDescription(painting.artist),
         }
     },
+    computed: {
+        altText() {
+            return this.painting.mainImageAltText || artistNameWithTinyDescription(this.painting.artist)
+        },
+    }
 }
 </script>
 

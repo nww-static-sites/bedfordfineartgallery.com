@@ -26,6 +26,14 @@
     </div>
 </template>
 
+<script>
+import YouTubeVideo from '~/components/YouTubeVideo'
+
+export default {
+  components: { YouTubeVideo },
+}
+</script>
+
 <style>
 .y-video__media--type--img {
   -o-object-fit: cover;

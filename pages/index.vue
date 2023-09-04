@@ -917,6 +917,12 @@
 </template>
 
 <script>
+import ArtworkSlidingImages from '~/components/ArtworkSlidingImages'
+import ArtworkSlidingImagesHome from '~/components/ArtworkSlidingImagesHome'
+import CustomerSlidingImages from '~/components/CustomerSlidingImages'
+import SoldSlidingImages from '~/components/SoldSlidingImages'
+import SoldSlidingImagesMobile from '~/components/SoldSlidingImagesMobile'
+import TestimonialsScroll from '~/components/TestimonialsScroll'
 import YouTubeVideo from '~/components/YouTubeVideo'
 import { loadGalleryPaintings } from '~/libs/paintings'
 import { loadShortTestimonials } from '~/libs/testimonials'
@@ -943,7 +949,7 @@ const kebabize = (str) => {
 }
 export default {
     name: 'App',
-    components: { YouTubeVideo },
+    components: { ArtworkSlidingImages, ArtworkSlidingImagesHome, CustomerSlidingImages, SoldSlidingImages, SoldSlidingImagesMobile, TestimonialsScroll, YouTubeVideo },
     async asyncData({ $content }) {
         return {
             scrollingHomepageImages: await loadGalleryPaintings({

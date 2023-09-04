@@ -1,16 +1,23 @@
 {
   "paintingWidth": 7,
-  "body": "Charles Grant Beauregard was born in Canada but found himself in Troy, New York in 1872.  He apparently found the area to his liking and remained there until his death in 1919.  Beauregard specialized in portraiture; however, as Troy is located on the Hudson River, he was no doubt inspired by the natural beauty of the Hudson River valley.  In addition to his portrait commissions, he taught art at the Emma Willard School (formerly the Troy Female Seminary).  Beauregard emulated the style of the Hudson River School, with their signature realistic compositions and dramatic lighting effects.  Many of his paintings are privately held; however, two of his paintings, early presidents of the Albany Medical School, are displayed in the lobby of that learned institution.",
+  "body": "Charles Grant Beauregard was born in Canada but found himself in Troy, New York in 1872.  He apparently found the area to his liking and remained there until his death in 1919. \n\nBeauregard specialized in portraiture; however, as Troy is located on the Hudson River, he was no doubt inspired by the natural beauty of the Hudson River valley.  In addition to his portrait commissions, he taught art at the Emma Willard School (formerly the Troy Female Seminary). \n\nBeauregard emulated the style of the Hudson River School, with their signature realistic compositions and dramatic lighting effects.  Many of his paintings are privately held; however, two of his paintings, early presidents of the Albany Medical School, are displayed in the lobby of that learned institution.",
+  "highResImageHeight": 1353,
   "artist": "charles_grant_beauregard_artwork-html",
+  "highResImageWidth": 2029,
+  "artOnWallAltText": "Charles Grant Beauregard Victorian Artwork for Sale - Two Dogs",
   "paintingHeight": 6.23,
   "slug": "c_g_beauregard_animals-html",
   "dimensions": "Oil on canvas, 5.63 x 5.5 inches/Signed lower left",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693493293/charles-grant-beauregard-victorian-art-for-sale-two-dogs_inxorg.jpg",
   "metaKeywords": "Beauregard, 19th century painting for sale",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/beauregard-dogs-img_1390-sm-cr-fr.jpg",
+  "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Charles Grant Beauregard - Two Dogs Painting for sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/beauregard-dogs-img_1390-zoom-cr.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1218,
   "metaDescription": "Charles Grant Beauregard emulated the style of the Hudson River School. Buy this painting Two Dogs by Charles Grant Bearegard",
   "scrollingHomepageImage": false,
   "title": "TWO DOGS",
@@ -19,6 +26,7 @@
   "categories": [
     "Animal"
   ],
+  "gridImageHeight": 329,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/beauregard-dogs-img_1390-lrg-cr-fr.jpg",
   "highlights": [
     {
@@ -30,11 +38,5 @@
     {
       "highlight": "Competitively Priced $400"
     }
-  ],
-  "gridImageWidth": 392,
-  "gridImageHeight": 329,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 1218,
-  "highResImageWidth": 2029,
-  "highResImageHeight": 1353
+  ]
 }

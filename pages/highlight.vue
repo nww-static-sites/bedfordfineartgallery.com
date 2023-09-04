@@ -8,7 +8,8 @@
                     <span class="hr"></span>
                 </div>
                 <div class="highlights_thumbnail">
-                    <nuxt-img provider="cloudinary"
+                    <nuxt-img
+                        provider="cloudinary"
                         loading="lazy"
                         class="art_detail"
                         :src="image"
@@ -21,7 +22,7 @@
 					<br v-if="highlight.youtubeEmbedLink" />
 
 					<div v-interpolation v-html="$md.render(highlight.body)" />
-                    <p v-if="highlight.additionalLink">
+                    <p v-if="hasAdditionalLink">
 						<nuxt-link :to="highlight.additionalLink.link" class="readmore">{{ highlight.additionalLink.text }}</nuxt-link>
 					</p>
                     <p><nuxt-link :to="{ name: 'highlights' }" class="readmore">Back to Highlights</nuxt-link></p>
@@ -40,23 +41,25 @@
 </template>
 
 <script>
+import TestimonialsScroll from '~/components/TestimonialsScroll'
 import YouTubeVideo from '~/components/YouTubeVideo'
+import { urlSlugToSlug } from '~/libs/slug'
+import { loadShortTestimonials } from '~/libs/testimonials'
 
 export default {
-	components: { YouTubeVideo },
-	props: {
-		highlight: {
-			type: Object,
-			required: true,
-		},
-        testimonials: {
-            type: Array,
-            required: true,
-        }
-	},
+	components: { TestimonialsScroll, YouTubeVideo },
+    async asyncData({ $content, route }) {
+        const testimonials = await loadShortTestimonials($content)
+        const highlight = await $content('articles', urlSlugToSlug(route.path)).fetch()
+
+        return { highlight, testimonials }
+    },
     computed: {
         image() {
             return this.highlight.image.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
+        },
+        hasAdditionalLink() {
+            return this.highlight.additionalLink && this.highlight.additionalLink.text && this.highlight.additionalLink.link
         }
     }
 }
