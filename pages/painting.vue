@@ -212,19 +212,30 @@ import PaintingVisitsMixin from '~/mixins/PaintingVisitsMixin'
 import TestimonialsScroll from '~/components/TestimonialsScroll'
 import YouTubeVideo from '~/components/YouTubeVideo'
 import Zoom from '~/components/Zoom'
+import { urlSlugToSlug } from '~/libs/slug'
+import { loadShortTestimonials } from '~/libs/testimonials'
 
 export default {
     components: { ContactForm, PaintingHeader, TestimonialsScroll, YouTubeVideo, Zoom },
     mixins: [PaintingVisitsMixin],
-    props: {
-        painting: {
-            type: Object,
-            required: true,
-        },
-        testimonials: {
-            type: Array,
-            required: true,
-        },
+    async asyncData({ $content, route }) {
+        const testimonials = await loadShortTestimonials($content)
+        const painting = await $content('paintings', urlSlugToSlug(route.path)).fetch()
+        painting.highlights = painting.highlights || []
+
+        for (let i = 0; i < painting.highlights.length; i++) {
+            if (painting.highlights[i].pairedPainting) {
+                const pairedPainting = await $content('paintings', painting.highlights[i].pairedPainting).only(['title']).fetch()
+                painting.highlights[i].pairedPainting = {
+                    slug: painting.highlights[i].pairedPainting,
+                    title: pairedPainting.title,
+                }
+            }
+        }
+
+        painting.artist = await $content('artists', painting.artist).only(['name', 'tinyDescription', 'slug', 'alias', 'hasLandingPage']).fetch()
+
+        return { painting, testimonials }
     },
     computed: {
         artistNameWithTinyDescription() {

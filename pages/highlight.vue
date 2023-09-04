@@ -8,7 +8,8 @@
                     <span class="hr"></span>
                 </div>
                 <div class="highlights_thumbnail">
-                    <nuxt-img provider="cloudinary"
+                    <nuxt-img
+                        provider="cloudinary"
                         loading="lazy"
                         class="art_detail"
                         :src="image"
@@ -42,19 +43,17 @@
 <script>
 import TestimonialsScroll from '~/components/TestimonialsScroll'
 import YouTubeVideo from '~/components/YouTubeVideo'
+import { urlSlugToSlug } from '~/libs/slug'
+import { loadShortTestimonials } from '~/libs/testimonials'
 
 export default {
 	components: { TestimonialsScroll, YouTubeVideo },
-	props: {
-		highlight: {
-			type: Object,
-			required: true,
-		},
-        testimonials: {
-            type: Array,
-            required: true,
-        }
-	},
+    async asyncData({ $content, route }) {
+        const testimonials = await loadShortTestimonials($content)
+        const highlight = await $content('articles', urlSlugToSlug(route.path)).fetch()
+
+        return { highlight, testimonials }
+    },
     computed: {
         image() {
             return this.highlight.image.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')

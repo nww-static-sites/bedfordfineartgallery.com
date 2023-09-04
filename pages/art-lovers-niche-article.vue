@@ -36,14 +36,13 @@
 </template>
 
 <script>
+import { urlSlugToSlug } from '~/libs/slug'
 import { formatDateNoTime } from '~/libs/format-date'
 
 export default {
-    props: {
-        artLoversNicheArticle: {
-            type: Object,
-            required: true,
-        },
+    async asyncData({ $content, route }) {
+        const artLoversNicheArticle = await $content('artLoversNicheArticles', urlSlugToSlug(route.path)).fetch()
+        return { artLoversNicheArticle }
     },
     computed: {
         date() {
