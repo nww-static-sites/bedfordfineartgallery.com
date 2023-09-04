@@ -5,13 +5,13 @@
   "paintingHeight": 47,
   "slug": "franklin_morris_fourth_of_july-html",
   "dimensions": "Oil on canvas, 37.75 x 28.5 inches/Signed lower right",
-  "featured": false,
+  "featured": true,
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693666274/Morris_Fourth_of_July_IMG_1959_sm_cr_fr_d6laby.jpg",
   "status": "New",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693666245/Morris_Fourth_of_July_IMG_1959_zoom_cr_gfmi6c.jpg",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693837766/franklin_morris_fourth_grid_full_wa9pta.jpg",
   "scrollingHomepageImage": false,
   "title": "Fourth of July",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693666205/Morris_Fourth_of_July_IMG_1959_full_gall_cr_dl2ltg.jpg",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693837741/franklin_morris_fourth_grid_crop_nhzgtm.jpg",
   "tinyDescription": "6th Avenue from 18th St,. NYC",
   "categories": [
     "Landscape"
