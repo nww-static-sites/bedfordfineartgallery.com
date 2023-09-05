@@ -1,18 +1,32 @@
 {
-  "artist": "louis_robert_de_cuvillon_artwork-html",
+  "paintingWidth": "12.25",
   "body": "Listed French artist Louis-Robert de Cuvillon's watercolors are very subtle and delicate.  Many of his passionate works such as \"Women with a Tambourine\", \"Women in Exotic Dress\", and \"Girl with a Fan\" have been sold through such venues as Sotheby's New York and Bonhams Los Angeles. ",
+  "highResImageHeight": 1987,
+  "artist": "louis_robert_de_cuvillon_artwork-html",
+  "highResImageWidth": 1637,
+  "artOnWallAltText": "Louis-Robert de Cuvillon 19th Century Art for Sale - Catching Butterflies",
+  "paintingHeight": "15.5",
+  "slug": "louis_robert_de_cuvillon_butterflies-html",
+  "dimensions": "Watercolor, 9.75 x 6.25 inches/Signed lower right",
+  "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693929857/charles-courtney-curran-19th-century-painting-for-sale-cloud-surf_tcnslt.jpg",
+  "metaKeywords": "",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cuvillon_small.jpg",
+  "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "Louis-Robert de Cuvillon - Catching Butterflies Painting",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cuvillon_grid.jpg",
+  "mediumResImageWidth": 1077,
+  "mediumResImageHeight": 1307,
+  "metaDescription": "Louis-robert De Cuvillon - French Painter 1848-1931 - Catching Butterflies Watercolor Painting For Sale - 9.75 X 6.25 Inches - Signed On Lower Right.",
+  "title": "Catching Butterflies",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cuvillon_grid_gallery_crop.jpg",
   "categories": [
     "Genre"
   ],
-  "dimensions": "Watercolor, 9.75 x 6.25 inches/Signed lower right",
-  "featured": false,
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cuvillon_grid_gallery_crop.jpg",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cuvillon_grid.jpg",
   "gridImageHeight": 260,
-  "gridImageWidth": 392,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cuvillon_original.jpg",
-  "highResImageHeight": 1987,
-  "highResImageWidth": 1637,
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -23,17 +37,5 @@
     {
       "highlight": "Competitively Priced $2,200"
     }
-  ],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cuvillon_small.jpg",
-  "mediumResImageHeight": 1307,
-  "mediumResImageWidth": 1077,
-  "metaDescription": "Louis-robert De Cuvillon - French Painter 1848-1931 - Catching Butterflies Watercolor Painting For Sale - 9.75 X 6.25 Inches - Signed On Lower Right.",
-  "metaKeywords": "",
-  "metaTitle": "Louis-Robert de Cuvillon - Catching Butterflies Painting",
-  "paintingHeight": "15.5",
-  "paintingWidth": "12.25",
-  "slug": "louis_robert_de_cuvillon_butterflies-html",
-  "status": "None",
-  "title": "Catching Butterflies",
-  "youtubeEmbedLink": ""
+  ]
 }
