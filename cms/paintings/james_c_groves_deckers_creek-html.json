@@ -12,7 +12,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/groves_creek_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "James C. Groves - Spring: Late Morning, Decker’s Creek",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/groves_creek_grid.jpg",
   "mediumResImageWidth": 1096,
@@ -25,15 +25,5 @@
   ],
   "gridImageHeight": 261,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/groves_creek_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $1,900"
-    }
-  ]
+  "highlights": []
 }
