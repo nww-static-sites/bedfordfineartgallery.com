@@ -1,22 +1,30 @@
 {
   "paintingWidth": 21.5,
   "body": "Barton Stone Hays was born in Greenville, Ohio on April 5 1826.  He was self-taught and was known, first for his portrait paintings, and later for his landscape and still-life paintings.  In the early 1850s Hays migrated to Northern Indiana, where he made a successful career by painting portraits of the Indiana “pioneers” (Indiana having been admitted as the 19th state only a few years earlier).  He was a fervent abolitionist and, after having read Harriet Beecher Stowe’s “Uncle Tom’s Cabin”, painted a panorama depicting the most vivid scenes from that novel.  That panorama, and a second one, was met with much acclaim.  In 1858 Hays moved to Indianapolis where he became one of the city’s leading painters of portraits and landscapes.  In 1882, after moving to Minneapolis, Minnesota, Hays concentrated on still-life painting, for which he is best known.  His still-life paintings are small, realistic, uncluttered compositions of fruit set on a table-top, against a muted background.  His still-life paintings are much sought-after and the Bedford Fine Art Gallery is proud to have the best collection of Barton Stone Hays’ still-life paintings in the country.",
+  "highResImageHeight": 2351,
   "artist": "barton_stone_hays_art-html",
-  "metaTitle": "Barton Stone Hays - Grapes & Peaches With An Apple Painting",
-  "metaDescription": "Barton Stone Hays, American Artist From 1826-1914 - Grapes And Peaches With An Apple Oil On Canvas Painting For Sale - 9.5x14.75 Inches - Signed Middle.",
+  "highResImageWidth": 3000,
+  "artOnWallAltText": "Barton Stone Hays 19th Century Paintings for Sale - Grapes and Peaches with an Apple ",
   "paintingHeight": 16.5,
   "slug": "barton_stone_hays_grapes_peaches_apple-html",
   "dimensions": "Oil on canvas, 9.5 x 14.75 inches/Signed middle",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1694021923/barton-stone-hays-19th-century-paintings-for-sale-tabletop-apples_kla1nq.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687977531/Hays_Grapes_Peaches_AppleIMG_1813_sm_cr_fr_oyltnq.jpg",
+  "gridImageWidth": 392,
   "status": "New",
+  "metaTitle": "Barton Stone Hays - Grapes & Peaches With An Apple Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687977380/Hays_Grapes_Peaches_Apple_IMG_1813_zoom_cr_jpdz0o.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1097,
+  "metaDescription": "Barton Stone Hays, American Artist From 1826-1914 - Grapes And Peaches With An Apple Oil On Canvas Painting For Sale - 9.5x14.75 Inches - Signed Middle.",
   "scrollingHomepageImage": false,
   "title": "Grapes and Peaches with an Apple ",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687977351/Hays_Grapes_Peaches_Apple_IMG_1813_full_gall_cr_mxbpvx.jpg",
   "categories": [
     "Still Life"
   ],
+  "gridImageHeight": 228,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687977847/Hays_Grapes_Peaches_Apple_IMG_1813_lrg_cr_fr_zgvefq.jpg",
   "highlights": [
     {
@@ -28,11 +36,5 @@
     {
       "highlight": "Competitively Priced $3,321"
     }
-  ],
-  "gridImageWidth": 392,
-  "gridImageHeight": 228,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 1097,
-  "highResImageWidth": 3000,
-  "highResImageHeight": 2351
+  ]
 }
