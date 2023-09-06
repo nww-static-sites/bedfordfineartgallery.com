@@ -2,13 +2,17 @@
   "paintingWidth": 22.5,
   "body": "Born in Philadelphia, Pennsylvania, Frost served as an apprentice to local engravers and lithographers as a youth.  His formal training consisted of night classes at the Pennsylvania Academy of the Fine Arts where he studied under Thomas Eakins.  He traveled to the Rockport Art Colony, Cape Ann, Massachusetts, to study under marine painter Gilbert Tucker Margeson, and with William Merritt Chase, at Shinnecock Hills School of Art near Southampton, New York.  Frost is considered by many to be the best illustrator of rural America, having illustrated many books of the period, in addition to being an illustrator for Harper’s Weekly, Scribner’s, and Life magazines.  An avid sportsman, Frost is primarily known for his hunting, fishing and golfing depictions.  He was a member of the Philadelphia Sketch Club, Society of Independent Artists, Society of Illustrators, and Tile Club (New York) where he also exhibited.  He also exhibited at the Chicago World’s Fair, Columbian Exhibition (1892-93) and the Pennsylvania Academy of the Fine Arts.",
   "artist": "a_b_frost_artist-html",
+  "artOnWallAltText": "Arthur Burdett Frost Painting - Grouse Hunting",
   "paintingHeight": 15.5,
   "slug": "ab_frost_grouse-html",
   "dimensions": "Pen and Ink, 9.75 x 14.5 inches/Signed lower right",
   "featured": false,
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ab-frost-img_0069-sm-cr-fr.jpg",
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1694006779/arthur-burdett-frost-19th-century-paintings-for-sale-grouse-hunting_sicjic.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1692285627/Arthur-Burdett-Frost-AB-Frost-Painting-Grouse-Hunting_jbgxt7.jpg",
   "status": "None",
+  "youtubeAltText": "Arthur Burdett Frost Painting - Grouse Hunting",
   "metaTitle": "A. B. Frost - Grouse Hunting painting for sale",
+  "mainImageAltText": "Arthur Burdett Frost Painting - Grouse Hunting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ab-frost-img_0069-zoom-cr.jpg",
   "metaDescription": "Arthur Burdett Frost, American Artist From 1851–1928 - Grouse Hunting Pen And Ink Drawing For Sale - 9.75x14.5 Inches - Signed On Lower Right.",
   "scrollingHomepageImage": false,
@@ -28,11 +32,5 @@
     {
       "highlight": "competitively priced $11,000"
     }
-  ],
-  "gridImageWidth": 392,
-  "gridImageHeight": 276,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 1074,
-  "highResImageWidth": 1400,
-  "highResImageHeight": 1074
+  ]
 }
