@@ -1,15 +1,22 @@
 {
   "paintingWidth": 21.25,
   "body": "Gruppé was born in Rochester New York, spent his childhood in Katwijk aan Zee in the Netherlands where his father, Charles Paulo Gruppé, painted with The Hague School.  Gruppe studied at the Students Art League with George Bridgman and Charles Chapman; the National Academy of Design; and the Academy de la Grande Chaumiere (Paris, France) with Richard Emil Miller.  He also received instruction from John F. Carlson of the John F. Carlson School of Landscape Painting at Woodstock, New York, and Charles Webster Hawthorne at the Cape Cod School of Art in Provincetown, Massachusetts.  He first visited Rockport, Massachusetts on Cape Ann in 1925; however, his final home was Rocky Neck, at East Gloucester.  In 1940 he opened The Gloucester School of Painting and in 1942, He and Carlson founded the Gruppé Summer School in Gloucester, Massachusetts.  He adopted a Tonalist style early in his career; however, his later works were impressionistic in style using a higher-toned palette and thick paint applied with robust brushwork.  Gruppé was a member of numerous art organizations and exhibited at many including the Allied Artists of America (award, 1944); Woodstock Art Association; the Connecticut Academy of Fine Arts; the North Shore Art Association (Gloucester); the Gloucester Society of Artists; the Rochester Art Association; the Sarasota Art Association (Florida); the St. Augustine Art Association (Florida); the Salmagundi Club (New York); Rockport Art Association (awards 1956, 1957); Grand Central Art Galleries (New York); Audubon Artists (New York); Northern Vermont Artists Association; New Haven Paint & Clay Club (awards 1935, 1938, 1939, 1940); Connecticut Academy of Fine Arts (award 1956); Arts & Crafts Association of Meriden (Connecticut; awards 1939, 1946); Vose Galleries (Boston); Art Institute of Chicago; and the Academic Artists (Springfield, Massachusetts).  He received other awards from exhibitions in Springville, Utah (1928, 1942); Guilford, CT (1939); Bridgeport, Connecticut Art Association (award 1940); Jordan Marsh Exhibition (Boston, Richard Mitton Award 1943); and the Champlain Valley Exposition (Vermont, 1949).",
+  "highResImageHeight": 2601,
   "artist": "emile_gruppe_artwork-html",
+  "highResImageWidth": 2376,
+  "artOnWallAltText": "Emile Gruppé Art for Sale - Gloucester Harbor ",
   "paintingHeight": 23.5,
   "slug": "e_gruppe_gloucester_harbor-html",
   "dimensions": "Oil on canvas, 24.5 x 29.5 inches/Signed lower right",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1694009901/emile-gruppe-art-for-sale-gloucester-harbor_alw4y3.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/gruppe-img_1457-sm-cr-fr.jpg",
+  "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Emile Gruppé - Gloucester Harbor Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/gruppe-img_1457-zoom-cr.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1533,
   "metaDescription": "Emile Gruppé, American Painter 1896-1978 - Gloucester Harbor Paintings For Sale - Oil On Canvas, 24.5x29.5 Inches - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "Gloucester Harbor",
@@ -17,6 +24,7 @@
   "categories": [
     "Marine"
   ],
+  "gridImageHeight": 301,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/gruppe-img_1457-lrg-cr-fr.jpg",
   "highlights": [
     {
@@ -28,11 +36,5 @@
     {
       "highlight": "Competitively priced $5,300"
     }
-  ],
-  "gridImageWidth": 392,
-  "gridImageHeight": 301,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 1533,
-  "highResImageWidth": 2376,
-  "highResImageHeight": 2601
+  ]
 }
