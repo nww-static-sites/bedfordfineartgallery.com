@@ -1,22 +1,30 @@
 {
   "paintingWidth": 25.75,
   "body": "Born in 1842 in Glens Falls, New York, romantic landscape painter Henry Ferguson moved to Albany in the 1860s and took study with landscape painter Homer Dodge Martin and historical genre-figure painter George Henry Boughton. Circa the late 1870s, Ferguson moved to New York City; however, his romantic nature led to extensive travels in Mexico, South America (crossing the Andes numerous times), Europe, Egypt, and the Mediterranean. A lovely facet to many of his “foreign” paintings is the capture of the local architecture of the places he visited. After his many art “excursions”, Ferguson returned to New York City where opened a studio. His landscapes included romantic views of the Hudson River, the Berkshire Mountains of Massachusetts, and the White Mountains of New Hampshire. He would later provide conservation/restoration services to galleries and fine art collectors. Ferguson was a member of the National Academy of Design (1867-1900) and Century Association (1879-1911). He exhibited at the Brooklyn Art Association (1864-1884); Boston Art Club (1881-1890); Art Institute of Chicago (1888—1889, 1891); National Academy of Design (1867-1900); and Academy of the Fine Arts (1888, 1891).",
+  "highResImageHeight": 1737,
   "artist": "henry_augustus_ferguson_artist-html",
-  "metaTitle": "Henry Augustus Ferguson - A Rest In The Shade Oil On Canvas",
-  "metaDescription": "Henry Augustus Ferguson, American Artist From 1845-1911 - A Rest In The Shade Oil On Canvas Painting For Sale - 9.5x20.25 - Signed Lower Left.",
+  "highResImageWidth": 3000,
+  "artOnWallAltText": "Henry Augustus Ferguson Painting for Sale - A Rest in the Shade ",
   "paintingHeight": 14.5,
   "slug": "henry_augustus_ferguson_a_rest_in_the_shade-html",
   "dimensions": "oil on canvas, 9.5 x 20.25/Signed lower left",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1694004017/henry-augustus-ferguson-painting-for-sale-a-rest-in-the-shade_aahoev.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684159704/Ferguson_Rest_in_the_Shade_IMG_1715_sm_cr_fr_zn8ru5.jpg",
+  "gridImageWidth": 392,
   "status": "New",
+  "metaTitle": "Henry Augustus Ferguson - A Rest In The Shade Oil On Canvas",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684159635/Ferguson_Rest_in_the_Shade_IMG_1715_zoom_cr_uiejql.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 811,
+  "metaDescription": "Henry Augustus Ferguson, American Artist From 1845-1911 - A Rest In The Shade Oil On Canvas Painting For Sale - 9.5x20.25 - Signed Lower Left.",
   "scrollingHomepageImage": false,
   "title": "A Rest in the Shade",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684159386/Ferguson_Rest_in_the_Shade_IMG_1715_full_gall_cr_bsezfn.jpg",
   "categories": [
     "Landscape"
   ],
+  "gridImageHeight": 227,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684159739/Ferguson_Rest_in_the_Shade_IMG_1715_lrg_cr_fr_hghp2y.jpg",
   "highlights": [
     {
@@ -28,11 +36,5 @@
     {
       "highlight": "Competitively Priced $3,800"
     }
-  ],
-  "gridImageWidth": 392,
-  "gridImageHeight": 227,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 811,
-  "highResImageWidth": 3000,
-  "highResImageHeight": 1737
+  ]
 }
