@@ -1,20 +1,28 @@
 {
   "paintingWidth": 29,
   "body": "Naïve artist Daniel Kellogg was active in United States and is known for depicting Native Americans and naïve portraiture.",
+  "highResImageHeight": 2522,
   "artist": "daniel_j_kellogg_artist-html",
+  "highResImageWidth": 2900,
+  "artOnWallAltText": "Daniel Johnson Kellogg 19th Century Art for Sale - Native American Encampment ",
   "paintingHeight": 25,
   "slug": "daniel_j_kellogg_native_american_encampment-html",
   "dimensions": "Oil on board, 19 x 23 inches/Stamped on verso \"Daniel J. Kellog, Rochester, NY\"",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1694185477/daniel-johnson-kellogg-19th-century-art-for-sale-native-american-encampment_ohddti.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1689971759/IMG_1871_sm_cr_fr_fue6v8.jpg",
+  "gridImageWidth": 1405,
   "status": "New",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1689971733/IMG_1871_zoom_cr_apyoct.jpg",
+  "mediumResImageWidth": 1300,
+  "mediumResImageHeight": 1131,
   "scrollingHomepageImage": false,
   "title": "Native American Encampment",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1689971702/IMG_1871_full_gall_cr_me7ixt.jpg",
   "categories": [
     "Landscape"
   ],
+  "gridImageHeight": 1175,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1689971874/IMG_1871_lrg_cr_fr_lyrtho.jpg",
   "highlights": [
     {
@@ -26,11 +34,5 @@
     {
       "highlight": "Competitively Priced $2,897"
     }
-  ],
-  "gridImageWidth": 1405,
-  "gridImageHeight": 1175,
-  "mediumResImageWidth": 1300,
-  "mediumResImageHeight": 1131,
-  "highResImageWidth": 2900,
-  "highResImageHeight": 2522
+  ]
 }
