@@ -1,18 +1,32 @@
 {
-  "artist": "reuben_legrande_johnston_artwork-html",
+  "paintingWidth": "24",
   "body": " Reuben LeGrande Johnston was born in Alexandria, Virginia and was a member of Washington Society and a world traveler.  He was self-taught, but is known to have studied art with Adalbert Volck in Baltimore, Maryland.  Although Johnston is best known for his landscapes with animals, he painted portraits and genre scenes.  He was well-traveled, visiting France, Spain, England, Tangiers and Morocco, the latter where some of his works were executed.  He also traveled to the American west where he painted, notably Cheyenne, Wyoming.  He was a member of the Society of Washington Artists (DC), where he exhibited, in addition to the National Academy of Design. ",
+  "highResImageHeight": 2491,
+  "artist": "reuben_legrande_johnston_artwork-html",
+  "highResImageWidth": 3358,
+  "artOnWallAltText": "Reuben LeGrande Johnston 19th Century Art for Sale - Sheep and Chickens",
+  "paintingHeight": "18.5",
+  "slug": "reuben_legrande_johnston_sheep_chickens-html",
+  "dimensions": "",
+  "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1694184134/reuben-legrande-johnston-19th-century-art-for-sale-sheep-and-chickens_d1koh2.jpg",
+  "metaKeywords": "",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/johnston_small.jpg",
+  "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "Reuben LeGrande Johnston - Sheep and Chickens Painting",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/johnston_grid.jpg",
+  "mediumResImageWidth": 1344,
+  "mediumResImageHeight": 997,
+  "metaDescription": "Reuben Legrande Johnston, American Artist From 1850-1915 - Sheep And Chickens Painting For Sale. Available For Purchase, Professionally Conserved And Framed",
+  "title": "Sheep and Chickens",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/johnston_grid_gallery_crop.jpg",
   "categories": [
     "Animal"
   ],
-  "dimensions": "",
-  "featured": false,
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/johnston_grid_gallery_crop.jpg",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/johnston_grid.jpg",
   "gridImageHeight": 261,
-  "gridImageWidth": 392,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/johnston_full.jpg",
-  "highResImageHeight": 2491,
-  "highResImageWidth": 3358,
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -23,17 +37,5 @@
     {
       "highlight": "Competitively Priced $2,500"
     }
-  ],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/johnston_small.jpg",
-  "mediumResImageHeight": 997,
-  "mediumResImageWidth": 1344,
-  "metaDescription": "Reuben Legrande Johnston, American Artist From 1850-1915 - Sheep And Chickens Painting For Sale. Available For Purchase, Professionally Conserved And Framed",
-  "metaKeywords": "",
-  "metaTitle": "Reuben LeGrande Johnston - Sheep and Chickens Painting",
-  "paintingHeight": "18.5",
-  "paintingWidth": "24",
-  "slug": "reuben_legrande_johnston_sheep_chickens-html",
-  "status": "None",
-  "title": "Sheep and Chickens",
-  "youtubeEmbedLink": ""
+  ]
 }
