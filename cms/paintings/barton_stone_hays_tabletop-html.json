@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "https://www.youtube.com/embed/xLZn9mat5GU?rel=0",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barton_stone_hays_artwork_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Barton Stone Hays - Tabletop Still-Life Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barton_stone_hays_artwork_grid.jpg",
   "mediumResImageWidth": 1438,
@@ -26,15 +26,5 @@
   "categories": [],
   "gridImageHeight": 260,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barton_stone_hays_artwork.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $7,500"
-    }
-  ]
+  "highlights": []
 }
