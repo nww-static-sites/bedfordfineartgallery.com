@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/brown-cabin-retake-img_1481-sm-cr-fr.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "William Mason Brown - Landscape with Cabin Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/brown-cabin-retake-img_1481-zoom-cr.jpg",
   "mediumResImageWidth": 1400,
@@ -27,15 +27,5 @@
   ],
   "gridImageHeight": 283,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/brown-cabin-retake-img_1481-lrg-cr-fr.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $36,000"
-    }
-  ]
+  "highlights": []
 }
