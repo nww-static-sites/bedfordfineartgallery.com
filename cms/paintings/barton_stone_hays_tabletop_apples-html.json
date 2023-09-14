@@ -1,22 +1,30 @@
 {
   "paintingWidth": 23,
-  "body": "Barton Stone Hays was born in Greenville, Ohio on April 5 1826.  He was self-taught and was known, first for his portrait paintings, and later for his landscape and still-life paintings.  In the early 1850s Hays migrated to Northern Indiana, where he made a successful career by painting portraits of the Indiana “pioneers” (Indiana having been admitted as the 19th state only a few years earlier).  He was a fervent abolitionist and, after having read Harriet Beecher Stowe’s “Uncle Tom’s Cabin”, painted a panorama depicting the most vivid scenes from that novel.  That panorama, and a second one, was met with much acclaim.  In 1858 Hays moved to Indianapolis where he became one of the city’s leading painters of portraits and landscapes.  In 1882, after moving to Minneapolis, Minnesota, Hays concentrated on still-life painting, for which he is best known.  His still-life paintings are small, realistic, uncluttered compositions of fruit set on a table-top, against a muted background.  His still-life paintings are much sought-after and the Bedford Fine Art Gallery is proud to have the best collection of Barton Stone Hays’ still-life paintings in the country.",
+  "body": "Barton Stone Hays was born in Greenville, Ohio on April 5, 1826.  He was self-taught and was known, first for his portrait paintings, and later for his landscape and still life paintings. \n\nIn the early 1850s Hays migrated to Northern Indiana, where he made a successful career by painting portraits of the Indiana “pioneers” (Indiana having been admitted as the 19th state only a few years earlier).  He was a fervent abolitionist and, after having read Harriet Beecher Stowe’s “Uncle Tom’s Cabin”, painted a panorama depicting the most vivid scenes from that novel.  That panorama, and a second one, was met with much acclaim.\n\nIn 1858 Hays moved to Indianapolis where he became one of the city’s leading painters of portraits and landscapes.  In 1882, after moving to Minneapolis, Minnesota, Hays concentrated on still-life painting, for which he is best known.\n\nHis still-life paintings are small, realistic, uncluttered compositions of fruit set on a table-top, against a muted background.  His still-life paintings are much sought-after, and the Bedford Fine Art Gallery is proud to have the best collection of Barton Stone Hays’ still-life paintings in the country.\n\nHigh auction record for this artist is $9,000.",
+  "highResImageHeight": 2177,
   "artist": "barton_stone_hays_art-html",
-  "metaTitle": "Barton Stone Hays - Tabletop Apples Painting For Sale",
-  "metaDescription": "Barton Stone Hays, American Artist From 1826-1914 - Tabletop Apples Oil On Board Painting For Sale 12x18 Inches - Signed Lower Right.",
+  "highResImageWidth": 3000,
+  "artOnWallAltText": "Barton Stone Hays 19th Century Paintings for Sale - Tabletop Apples ",
   "paintingHeight": 16.75,
   "slug": "barton_stone_hays_tabletop_apples-html",
   "dimensions": "Oil on board, 12 x 18 inches/Signed lower right",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1694021923/barton-stone-hays-19th-century-paintings-for-sale-tabletop-apples_kla1nq.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1682781930/Hays_Tabletop_Apples_IMG_1679_sm_cr_fr_gem3qj.jpg",
+  "gridImageWidth": 392,
   "status": "New",
+  "metaTitle": "Barton Stone Hays - Tabletop Apples Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1682781477/Hays_Tabletop_Apples_IMG_1679_zoom_cr_gmdfy4.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1016,
+  "metaDescription": "Barton Stone Hays, American Artist From 1826-1914 - Tabletop Apples Oil On Board Painting For Sale 12x18 Inches - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "Tabletop Apples",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1682781442/Hays_Tabletop_Apples_IMG_1679_full_gall_cr_ejxh7m.jpg",
   "categories": [
     "Still Life"
   ],
+  "gridImageHeight": 285,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1682782013/Hays_Tabletop_Apples_IMG_1679_lrg_cr_fr_ggv4g7.jpg",
   "highlights": [
     {
@@ -28,11 +36,5 @@
     {
       "highlight": "Competitively Priced $4,500"
     }
-  ],
-  "gridImageWidth": 392,
-  "gridImageHeight": 285,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 1016,
-  "highResImageWidth": 3000,
-  "highResImageHeight": 2177
+  ]
 }

@@ -1,18 +1,33 @@
 {
+  "paintingWidth": "28.5",
+  "body": "Otis Cook, noted marine artist, was born in New Bedford, Massachusetts. He studied at the Swain School of Design in New Bedford, in the 1930s and also studied under Gloucester artist Emil Gruppe.  He opened a studio/gallery and giftshop on Bearskin neck, Rockport, called \"Boatshop Studios.\" He painted mostly scenes of the Cape Ann and Rockport areas, area, notably Motif #1, Rockport’s iconic fishing shack on Bearskin Neck.\n\nCook was a member (and director) of the Rockport Art Association; North Shore Art Association; the Boston Guild of Artists; Boston Art Club; Academic Artists of Springfield (CT), Independent Artists of Boston, and Longboat Key Art Center, Longboat Key, Florida.",
+  "highResImageHeight": 2717,
   "artist": "otis_pierce_cook_jr_artwork-html",
-  "body": "Otis Cook, noted marine artist, was born in New Bedford, Massachusetts. He studied at the Swain School of Design in New Bedford, in the 1930s and also studied under Gloucester artist Emil Gruppe.  He opened a studio/gallery and giftshop on Bearskin neck, Rockport, called \"Boatshop Studios.\"  He painted mostly scenes of the Cape Ann and Rockport areas, area, notably Motif #1, Rockport’s iconic fishing shack on Bearskin Neck.  Cook was a member (and director) of the Rockport Art Association; North Shore Art Association; the Boston Guild of Artists; Boston Art Club; Academic Artists of Springfield (CT), Independent Artists of Boston, and Longboat Key Art Center, Longboat Key, Florida. ",
+  "highResImageWidth": 3183,
+  "artOnWallAltText": "Otis Pierce Cook Victorian Painting for Sale - Rockport, Massachusetts ",
+  "paintingHeight": "24.25",
+  "slug": "otis_pierce_cook_jr_rockport-html",
+  "dimensions": "Oil on canvas, 19.25 x 23.25 inches/Signed lower right",
+  "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693928011/otis-pierce-cook-jr-victorian-painting-for-sale-rockport-massachusetts_clfehs.jpg",
+  "metaKeywords": "",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cook_rockport_small.jpg",
+  "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "Otis Pierce Cook, Jr. - Rockport, Massachusetts Painting",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cook_rockport_grid.jpg",
+  "mediumResImageWidth": 1274,
+  "mediumResImageHeight": 1087,
+  "metaDescription": "Otis Pierce Cook Jr., American Painter - 1900-1980 - Rockport, Massachusetts Oil On Canvas Painting For Sale - 19.25x23.25 Inches - Signed Lower Right.",
+  "scrollingHomepageImage": true,
+  "title": "Rockport, Massachusetts",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cook_rockport_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
-  "dimensions": "Oil on canvas, 19.25 x 23.25 inches/Signed lower right",
-  "featured": false,
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cook_rockport_grid_gallery_crop.jpg",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cook_rockport_grid.jpg",
   "gridImageHeight": 261,
-  "gridImageWidth": 392,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cook_rockport_full.jpg",
-  "highResImageHeight": 2717,
-  "highResImageWidth": 3183,
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -23,18 +38,5 @@
     {
       "highlight": "Competitively Priced $4,200"
     }
-  ],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cook_rockport_small.jpg",
-  "mediumResImageHeight": 1087,
-  "mediumResImageWidth": 1274,
-  "metaDescription": "Otis Pierce Cook Jr., American Painter - 1900-1980 - Rockport, Massachusetts Oil On Canvas Painting For Sale - 19.25x23.25 Inches - Signed Lower Right.",
-  "metaKeywords": "",
-  "metaTitle": "Otis Pierce Cook, Jr. - Rockport, Massachusetts Painting",
-  "paintingHeight": "24.25",
-  "paintingWidth": "28.5",
-  "scrollingHomepageImage": true,
-  "slug": "otis_pierce_cook_jr_rockport-html",
-  "status": "None",
-  "title": "Rockport, Massachusetts",
-  "youtubeEmbedLink": ""
+  ]
 }

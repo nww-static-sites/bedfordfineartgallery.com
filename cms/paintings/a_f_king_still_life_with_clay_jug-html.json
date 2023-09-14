@@ -1,22 +1,30 @@
 {
   "paintingWidth": 36.75,
   "body": "Albert Francis King was born in Pittsburgh, Pennsylvania and was recognized as Pittsburgh’s primary still-life painter during the 19th century.  King was largely self-taught, but studied under Martin B. Leisser, a noted Scalp-Level landscape artist.  Although he is best known for his still-lifes, he was much sought after as a portrait painter and painted many of the prominent citizens of Pittsburgh, including composer Stephen Foster.  Many of his portraits hung in the Duquesne Club in Pittsburgh.  His still-life compositions included, fruit (especially watermelons), vegetables and fish depicting meal preparation, similar to those by Jean-Bapiste-Simeon Chardin, a great 18th century French still-life painter.  King also painted landscapes and painted at Scalp Level with Leisser and Scalp Level School of painting founder, George Hetzel.  King himself stated that he loved to paint “the fleeting moods of landscapes and romance of the out of doors”.  King was a member of the Pittsburgh Art Society and the Pittsburgh Art Association.",
+  "highResImageHeight": 2423,
   "artist": "albert_francis_king_artwork-html",
-  "metaTitle": "Albert Francis King - Still-life With Clay Jug Painting",
-  "metaDescription": "Albert Francis King, American Artist From 1854-1945 - Still-life With Clay Jug Oil On Canvas Painting For Sale - 21.5x28.5 Inches - Signed Lower Right.",
+  "highResImageWidth": 3000,
+  "artOnWallAltText": "Albert Francis King  Art for Sale - Still-life with Clay Jug ",
   "paintingHeight": 29.75,
   "slug": "a_f_king_still_life_with_clay_jug-html",
   "dimensions": "Oil on canvas, 21.5 x 28.5 inches/Signed lower right",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1694189105/albert-francis-king-art-for-sale-still-life-with-clay-jug_hsm7iw.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1679166345/AF_King_Still-life_w_Clay_Jug_IMG_1628_sm_cr_fr_fy5gd3.jpg",
+  "gridImageWidth": 392,
   "status": "New",
+  "metaTitle": "Albert Francis King - Still-life With Clay Jug Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1679166274/AF_King_Still-life_w_Clay_Jug_IMG_1628_zoom_cr_wmqnqa.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1131,
+  "metaDescription": "Albert Francis King, American Artist From 1854-1945 - Still-life With Clay Jug Oil On Canvas Painting For Sale - 21.5x28.5 Inches - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "Still-life with Clay Jug",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1679166235/AF_King_Still-life_w_Clay_Jug_IMG_1628_full_gall_cr_yphpdt.jpg",
   "categories": [
     "Still Life"
   ],
+  "gridImageHeight": 450,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1679166411/AF_King_Still-life_w_Clay_Jug_IMG_1628_lrg_cr_fr_x5rihr.jpg",
   "highlights": [
     {
@@ -28,11 +36,5 @@
     {
       "highlight": "Competitively Priced $24,500"
     }
-  ],
-  "gridImageWidth": 392,
-  "gridImageHeight": 450,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 1131,
-  "highResImageWidth": 3000,
-  "highResImageHeight": 2423
+  ]
 }

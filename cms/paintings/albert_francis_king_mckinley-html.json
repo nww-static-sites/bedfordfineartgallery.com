@@ -1,16 +1,30 @@
 {
-  "artist": "albert_francis_king_artwork-html",
+  "paintingWidth": "31",
   "body": "Albert Francis King was born in Pittsburgh, Pennsylvania and was recognized as Pittsburgh's primary still-life painter during the 19th century.  King was largely self-taught, but studied under Martin B. Leisser, a noted Scalp-Level landscape artist.  Although he is best known for his still-lifes, he was much sought after as a portrait painter and painted many of the prominent citizens of Pittsburgh, including composer Stephen Foster.  Many of his portraits hung in the Duquesne Club in Pittsburgh.  His still-life compositions included, fruit (especially watermelons), vegetables and fish depicting meal preparation, similar to those by Jean-Bapiste-Simeon Chardin, a great 18th century French still-life painter.  King also painted landscapes and painted at Scalp Level with Leisser and Scalp Level School of painting founder, George Hetzel.  King was a member of the Pittsburgh Art Society and the Pittsburgh Art Association.  This portrait of the 25th President of the United States, William McKinley, is a fine example of King's skills as a portraitist.  This portrait was painted in 1901, the year of his death on September 14th from an assassin’s bullet. \n\nHigh auction record for this artist is $43,750.",
-  "categories": [],
+  "highResImageHeight": 2985,
+  "artist": "albert_francis_king_artwork-html",
+  "highResImageWidth": 2493,
+  "artOnWallAltText": "Albert Francis King Art for Sale - Portrait of William McKinley ",
+  "paintingHeight": "37",
+  "slug": "albert_francis_king_mckinley-html",
   "dimensions": "Oil on canvas, 29.5 x 23.5 inches / Signed lower right",
   "featured": false,
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/albert_francis_king_grid_gallery_crop.jpg",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/albert_francis_king_grid.jpg",
-  "gridImageHeight": 260,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1694188494/albert-francis-king-art-for-sale-portrait-of-william-mckinley_yrxvly.jpg",
+  "metaKeywords": "Albert Francis King, American, 1854  1945, 19th century artist, 20th century artist, Portrait of William McKinley, historical and political, historical and political artwork, Oil on canvas, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery ",
+  "youtubeEmbedLink": "https://www.youtube.com/embed/qF04YrbYGmY?rel=0",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/albert_francis_king_small.jpg",
   "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "Albert Francis King - Portrait of William McKinley Painting",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/albert_francis_king_grid.jpg",
+  "mediumResImageWidth": 1319,
+  "mediumResImageHeight": 1580,
+  "metaDescription": "Albert Francis King, American Painting From 1854-1945 - Portrait Of William Mckinley Oil On Canvas Painting For Sale - 29.5x23.5 Inches - Signed Lower Right.",
+  "title": "Portrait of William McKinley",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/albert_francis_king_grid_gallery_crop.jpg",
+  "categories": [],
+  "gridImageHeight": 260,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/albert_francis_king.jpg",
-  "highResImageHeight": 2985,
-  "highResImageWidth": 2493,
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -21,17 +35,5 @@
     {
       "highlight": "Competitively Priced $8,500"
     }
-  ],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/albert_francis_king_small.jpg",
-  "mediumResImageHeight": 1580,
-  "mediumResImageWidth": 1319,
-  "metaDescription": "Albert Francis King, American Painting From 1854-1945 - Portrait Of William Mckinley Oil On Canvas Painting For Sale - 29.5x23.5 Inches - Signed Lower Right.",
-  "metaKeywords": "Albert Francis King, American, 1854  1945, 19th century artist, 20th century artist, Portrait of William McKinley, historical and political, historical and political artwork, Oil on canvas, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery ",
-  "metaTitle": "Albert Francis King - Portrait of William McKinley Painting",
-  "paintingHeight": "37",
-  "paintingWidth": "31",
-  "slug": "albert_francis_king_mckinley-html",
-  "status": "None",
-  "title": "Portrait of William McKinley",
-  "youtubeEmbedLink": "https://www.youtube.com/embed/qF04YrbYGmY?rel=0"
+  ]
 }

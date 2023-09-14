@@ -1,11 +1,11 @@
 {
-  "paintingWidth": "20.25",
+  "paintingWidth": 35,
   "body": "Brown was born in Troy, New York, on the eastern bank of the Hudson River.  In the 1840s he first studied with Troy landscape artist, Thomas Grinnell and later with portraitist, Abel B. Moore.  In 1850 he continued portraiture with Moore in Newark, New Jersey.\n\nCirca 1851, Brown began focusing on landscape painting in the romantic style of the Hudson River artists, joining the ranks of the second generation of the Hudson River School.  1851, the New Jersey Art-Union purchased five of his landscapes to be given as prizes at that year’s exhibition.  In 1858, Brown moved to Brooklyn, New York, where he continued to paint landscapes and was a founder of the Brooklyn Art Social (Brooklyn Art Association) in 1859 and the Brooklyn Academy of Design in 1866.  \n\nThe great detail in his paintings has led some to suggest that he came under the influence of the Pre-Raphaelite artists, many of whom lived in Brooklyn, and practiced John Ruskin’s “truth to nature” philosophy in their art.  Nonetheless, circa 1869, Brown’s lucrative sale of one of his still-lifes, appears to have prompted him to focus on this genre.  He applied same characteristic detail to his still-lifes as he did his landscapes.\n\nBrown exhibited at New Jersey Arts-Union (Newark, New Jersey, 1851); Library Hall (Newark, New Jersey, 1852); National Academy of Design (New York City, 1859–90); Brooklyn Academy of Design; Brooklyn Art Association (1865–86) and The Pennsylvania Academy of the Fine Arts (1881, 1885, 1887–91). \n\nHigh auction record for this artist is $83,650.",
   "highResImageHeight": 2276,
   "artist": "william_mason_brown_art-html",
   "highResImageWidth": 3000,
   "artOnWallAltText": "William Mason Brown Painting for Sale - Landscape with Cabin",
-  "paintingHeight": "12.25",
+  "paintingHeight": 27,
   "slug": "william_mason_brown_cabin-html",
   "dimensions": "Oil on canvas, 18 x 24 inches/Signed lower center",
   "featured": false,
@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/brown-cabin-retake-img_1481-sm-cr-fr.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "William Mason Brown - Landscape with Cabin Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/brown-cabin-retake-img_1481-zoom-cr.jpg",
   "mediumResImageWidth": 1400,
@@ -27,15 +27,5 @@
   ],
   "gridImageHeight": 283,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/brown-cabin-retake-img_1481-lrg-cr-fr.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $36,000"
-    }
-  ]
+  "highlights": []
 }

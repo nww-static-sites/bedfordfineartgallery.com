@@ -1,15 +1,22 @@
 {
   "paintingWidth": 20.5,
   "body": "Albert Francis King was born in Pittsburgh, Pennsylvania and was recognized as Pittsburgh’s primary still-life painter during the 19th century.  King was largely self-taught, but studied under Martin B. Leisser, a noted Scalp-Level landscape artist.  Although he is best known for his still-lifes, he was much sought after as a portrait painter and painted many of the prominent citizens of Pittsburgh, including composer Stephen Foster.  Many of his portraits hung in the Duquesne Club in Pittsburgh.  His still-life compositions included, fruit (especially watermelons), vegetables and fish depicting meal preparation, similar to those by Jean-Bapiste-Simeon Chardin, a great 18th century French still-life painter.  King also painted landscapes and painted at Scalp Level with Leisser and Scalp Level School of painting founder, George Hetzel.  King was a member of the Pittsburgh Art Society and the Pittsburgh Art Association.",
+  "highResImageHeight": 2368,
   "artist": "albert_francis_king_artwork-html",
+  "highResImageWidth": 3000,
+  "artOnWallAltText": "Albert Francis King Art for Sale - Peaches, Grapes and a Glass Painting",
   "paintingHeight": 16.5,
   "slug": "a_f_king_peaches_grapes_glass-html",
   "dimensions": "Oil on canvas, 9.75 x 13.75 inches/Signed lower right",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1694188833/albert-francis-king-art-for-sale-peaches-grapes-and-a-glass-painting_xvgpoz.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1677884628/AF_King_Peaches_Grapes_Glass_IMG_1596_sm_cr_fr_nnbvjj.jpg",
+  "gridImageWidth": 392,
   "status": "New",
   "metaTitle": "Albert Francis King - Peaches, Grapes and a Glass Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1677884605/AF_King_Peaches_Grapes_Glass_IMG_1596_zoom_cr_rqnwu4.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1105,
   "metaDescription": "Albert Francis King, American Artist From 1854-1945 - Peaches, Grapes And A Glass Oil On Canvas Painting For Sale - 9.75x13.75 Inches - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "Peaches, Grapes and a Glass Painting",
@@ -17,6 +24,7 @@
   "categories": [
     "Still Life"
   ],
+  "gridImageHeight": 214,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1677884649/AF_King_Peaches_Grapes_Glass_IMG_1596_lrg_cr_fr_n9vdpt.jpg",
   "highlights": [
     {
@@ -28,11 +36,5 @@
     {
       "highlight": "Competitively Priced $3,200"
     }
-  ],
-  "gridImageWidth": 392,
-  "gridImageHeight": 214,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 1105,
-  "highResImageWidth": 3000,
-  "highResImageHeight": 2368
+  ]
 }
