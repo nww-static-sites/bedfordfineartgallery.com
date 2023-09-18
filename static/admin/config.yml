@@ -370,7 +370,7 @@ collections:
       format: 'json'
       folder: 'cms/testimonials'
       create: true
-      slug: '{{fields.name}}={{year}}-{{month}}-{{day}}'
+      slug: '{{fields.name}}-{{year}}-{{month}}-{{day}}'
       fields:
           - {
                 label: 'Name',
