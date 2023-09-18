@@ -1,15 +1,22 @@
 {
   "paintingWidth": 23.75,
   "body": "Landscape painter, Longstaffe was born near Derby, on the River Derwent, Derbyshire, in the English Midlands region, the son of doctor. After his marriage, he moved to Newport, Essex. He is best known for his landscapes of the English moors, Welsh countryside, Scottish Highlands and Lochs, painted for use as postcards by the well-known postcard publishers Raphael Tuck & Sons and S. Hildesheimer & Co., Ltd.  Longstaffe exhibited his paintings Royal Academy and at the Royal Hibernian Academy and at Birmingham during the mid- to late-1880s.  In the early part of the 20th century, he moved to Laindon, Essex, where he resided until his death in 1933. Longstaffe varied his signature on his paintings; more common was the use of his monogram, but other variations include “E.L” or “E. Longstaffe.”",
+  "highResImageHeight": 1985,
   "artist": "e-longstaffe_artwork-html",
+  "highResImageWidth": 2833,
+  "artOnWallAltText": "Edgar Longstaffe Victorian Art for Sale - Fisherman at the End of the Day",
   "paintingHeight": 15.75,
   "slug": "e_longstaffe_fisherman-html",
   "dimensions": "Oil on Board, 13 x 20 inches/Signed lower left",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695056685/edgar-longstaffe-victorian-art-for-sale-fisherman-at-the-end-of-the-day_isnzht.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/longstaffe-fisherman-img_1474-sm-cr-fr.jpg",
+  "gridImageWidth": 392,
   "status": "New",
   "metaTitle": "Edgar Longstaffe - Fisherman at the End of the Day painting for sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/longstaffe-fisherman-img_1474-zoom-cr.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 981,
   "metaDescription": "He is best known for his landscapes of the English moors, Welsh countryside, Scottish Highlands and Lochs",
   "scrollingHomepageImage": false,
   "title": "Fisherman at the End of the Day",
@@ -17,6 +24,7 @@
   "categories": [
     "Landscape"
   ],
+  "gridImageHeight": 250,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/longstaffe-fisherman-img_1474-lrg-cr-fr.jpg",
   "highlights": [
     {
@@ -28,11 +36,5 @@
     {
       "highlight": "Competitively priced $3,500"
     }
-  ],
-  "gridImageWidth": 392,
-  "gridImageHeight": 250,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 981,
-  "highResImageWidth": 2833,
-  "highResImageHeight": 1985
+  ]
 }
