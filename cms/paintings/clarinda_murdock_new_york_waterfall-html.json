@@ -1,22 +1,30 @@
 {
   "paintingWidth": 13,
   "body": "Murdock was born at Venice, New York, in the Finger Lakes region. Little is known of her early training, but she had an early desire to study art. During the early 1850s, she is known to have visited the Auburn, New York studios of George Clough and Thomas Doughty to view their art and discuss painting. Exactly when she first started painting professionally is not known, but she exhibited a painting at the New York State Fair in Albany, New York in 1859. In 1870s Murdock was living as a portrait painter at her parent’s farm in Venice and received high praise for her paintings in the Auburn Daily Bulletin and was mentioned as an artist of note in Eliot Storke’s History of Cayuga County, New York 1789-1879. In 1877 she traveled to Paris, France and lived in Ecouen, a suburb of Paris. She studied with genre and animal painter Luigi Chialiva, and perhaps it is at this time that she developed her penchant for painting sheep. Murdock painted, in addition to sheep, the landscape of Venice and Auburn, New York, and notable scenic areas of the Finger Lakes region. Murdock died at Auburn at age 48 after a brief illness.",
+  "highResImageHeight": 2633,
   "artist": "clarinda_murdock_artist-html",
-  "metaTitle": "Clarinda Racella Murdock - New York Waterfall Painting",
-  "metaDescription": "Clarinda Racella Murdock, American Artist 1834–1882 - New York Waterfall Oil On Canvas Mounted On Board Painting For Sale - 9.5x7.5 Inches - Signed Lower Right.",
+  "highResImageWidth": 2309,
+  "artOnWallAltText": "Clarinda Racella Murdock Victorian Painting for Sale - New York Waterfall",
   "paintingHeight": 15,
   "slug": "clarinda_murdock_new_york_waterfall-html",
   "dimensions": "Oil on canvas mounted on board, 9.5 x 7.5 inches/Signed lower right",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695134328/clarinda-racella-murdock-victorian-painting-for-sale-new-york-waterfall_max3fo.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684328394/Murdock_Waterfall_IMG_1697_sm_cr_fr_qejeha.jpg",
+  "gridImageWidth": 392,
   "status": "New",
+  "metaTitle": "Clarinda Racella Murdock - New York Waterfall Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684409319/murdock_waterfall_zoomed_gallery_crop_jg2lnf.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1596,
+  "metaDescription": "Clarinda Racella Murdock, American Artist 1834–1882 - New York Waterfall Oil On Canvas Mounted On Board Painting For Sale - 9.5x7.5 Inches - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "New York Waterfall",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684409249/murdock_waterfall_full_gallery_crop_nllofq.jpg",
   "categories": [
     "Landscape"
   ],
+  "gridImageHeight": 261,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684328425/Murdock_Waterfall_IMG_1697_lrg_cr_fr_n2eqph.jpg",
   "highlights": [
     {
@@ -28,11 +36,5 @@
     {
       "highlight": "Competitively Priced $2,700"
     }
-  ],
-  "gridImageWidth": 392,
-  "gridImageHeight": 261,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 1596,
-  "highResImageWidth": 2309,
-  "highResImageHeight": 2633
+  ]
 }
