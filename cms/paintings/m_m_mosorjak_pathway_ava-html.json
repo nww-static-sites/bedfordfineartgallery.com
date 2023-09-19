@@ -1,15 +1,22 @@
 {
   "paintingWidth": 27.75,
   "body": "Michael Mosorjak is a contemporary artist practicing in oil and gouache painting techniques. His skillful, realistic renderings have not only gained him a following among art collectors, but as an instructor of art history and basic drawing (Mount Aloysius College, Cresson, PA, painting technique and materials, Montserrat College of Art, Beverly, MA,); and lecturer on painting conservation (Indiana University of Pennsylvania, Indiana, PA and Boston University, Boston, MA). In addition to his painting and teaching, Michael is a skilled art conservationist for both private collectors and public museums (The Western Center for Art Conservation, Denver, CO; Art Conservation Laboratory, Raymond, NH; and Westmoreland Museum of American Art, Greensburg, PA). Michael received a Bachelor of Fine Arts in Painting and Printmaking (Boston University, Boston, MA), and a Master of Fine Arts in Painting Conservation – Dominican University, River Forest. IL and Villa Schifanoia Graduate School of Fine Arts (Florence, Italy). His thesis was The Practice of Picture Cleaning in Oil and Tempera Mediums. He has authored two books, Why Do?... A Book of Answers, and an autobiography, Fifty Years a Conservator of Paintings. Michael’s paintings almost always contain an anomaly or a little mystery.",
+  "highResImageHeight": 3113,
   "artist": "michael_max_mosorjak_artwork-html",
+  "highResImageWidth": 2608,
+  "artOnWallAltText": "Michael Mosorjak Victorian Painting for Sale - Pathway to Ava",
   "paintingHeight": 33.5,
   "slug": "m_m_mosorjak_pathway_ava-html",
   "dimensions": "Oil on canvas, 27.5 x 21.5 inches/Signed lower right",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695133534/michael-mosorjak-victorian-painting-for-sale-pathway-to-ava_sxgg2g.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/mosorjak-ava-img_1462-sm-cr-fr.jpg",
+  "gridImageWidth": 307,
   "status": "None",
   "metaTitle": "Michael Mosorjak Pathway to Ava painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/mosorjak-ava-img_1462-zoom-cr.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1671,
   "metaDescription": "Michael Mosorjak, American 20th And 21st Century Artist - Pathway To Ava Oil On Canvas Painting For Sale - 27.5x21.5 Inches - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "Pathway to Ava",
@@ -17,6 +24,7 @@
   "categories": [
     "Landscape"
   ],
+  "gridImageHeight": 266,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/mosorjak-ava-img_1462-lrg-cr-fr.jpg",
   "highlights": [
     {
@@ -28,11 +36,5 @@
     {
       "highlight": "Competitively priced $2,800"
     }
-  ],
-  "gridImageWidth": 307,
-  "gridImageHeight": 266,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 1671,
-  "highResImageWidth": 2608,
-  "highResImageHeight": 3113
+  ]
 }
