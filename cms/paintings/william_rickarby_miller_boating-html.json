@@ -1,19 +1,33 @@
 {
-  "artist": "william_rickarby_miller_artwork-html",
+  "paintingWidth": "20.5",
   "body": "Born in Staindrop, County Durham, England, Miller’s first art training was from his father, British artist, Joseph Miller.  An early patron provided the means for Miller to London to further his art training.  In 1844, Miller along with a sister and two brothers immigrated to the United States and lived in Buffalo, New York before moving to New York City in 1847, where he sold his watercolors through the American Art Union.  By 1853 his career was firmly established as the demand for his illustrations was in demand, through the late 1860s, by a number of New York weeklies, such as Gleason's Pictorial Drawing-Room Companion and Frank Leslie's Illustrated Newspaper. Miller made his living primarily through his portraiture and illustration work, but preferred landscape painting, and made sketching trips to the Hudson River Valley, Niagara Falls in New York State and to Virginia for inspiration.  Although he worked in the Hudson River Valley he was not a member, nor was his style, of the Hudson River School of landscape painters.  In addition to his landscapes he also painted cityscapes, maritime and exquisite still-lifes.  An estrangement from his family circa 1867 appears to coincide with his moving his studio from his home on Perry Street to the Dodworth Building on Broadway, and devoting his time to sketching trips.  Miller was a member of the Brooklyn Art Association, where he exhibited.  He also exhibited at the Woodstock Art Association; National Academy of Design; and the Pennsylvania Academy of the Fine Arts. \n\nHigh auction record for this artist is $46,750.",
+  "highResImageHeight": 3260,
+  "artist": "william_rickarby_miller_artwork-html",
+  "highResImageWidth": 2823,
+  "artOnWallAltText": "William Rickarby Miller Victorian Art for Sale - The Boating Party",
+  "paintingHeight": "23.5",
+  "slug": "william_rickarby_miller_boating-html",
+  "dimensions": "Oil on canvas, 14.5 x 11.5 inches/Signed lower left",
+  "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695126571/william-rickarby-miller-victorian-art-for-sale-the-boating-party_tsphzn.jpg",
+  "metaKeywords": "",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/william_rickarby_miller_small.jpg",
+  "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "William Rickarby Miller - The Boating Party Painting",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/william_rickarby_miller_grid.jpg",
+  "mediumResImageWidth": 1314,
+  "mediumResImageHeight": 1517,
+  "metaDescription": "William Rickarby Miller, British-american Artist From 1818-1893 - The Boating Party Oil On Canvas Painting For Sale - 14.5 X 11.5 Inches - Signed Lower Left.",
+  "title": "The Boating Party",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/william_rickarby_miller_grid_gallery_crop.jpg",
   "categories": [
     "Landscape",
     "Genre"
   ],
-  "dimensions": "Oil on canvas, 14.5 x 11.5 inches/Signed lower left",
-  "featured": false,
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/william_rickarby_miller_grid_gallery_crop.jpg",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/william_rickarby_miller_grid.jpg",
   "gridImageHeight": 260,
-  "gridImageWidth": 392,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/william_rickarby_miller_original.jpg",
-  "highResImageHeight": 3260,
-  "highResImageWidth": 2823,
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -24,17 +38,5 @@
     {
       "highlight": "Competitively Priced $4,900"
     }
-  ],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/william_rickarby_miller_small.jpg",
-  "mediumResImageHeight": 1517,
-  "mediumResImageWidth": 1314,
-  "metaDescription": "William Rickarby Miller, British-american Artist From 1818-1893 - The Boating Party Oil On Canvas Painting For Sale - 14.5 X 11.5 Inches - Signed Lower Left.",
-  "metaKeywords": "",
-  "metaTitle": "William Rickarby Miller - The Boating Party Painting",
-  "paintingHeight": "23.5",
-  "paintingWidth": "20.5",
-  "slug": "william_rickarby_miller_boating-html",
-  "status": "None",
-  "title": "The Boating Party",
-  "youtubeEmbedLink": ""
+  ]
 }
