@@ -1,18 +1,32 @@
 {
-  "artist": "etienne_adolphe_piot_art-html",
+  "paintingWidth": "24.5",
   "body": "Piot studied under Parisian artist Leon Cogniet, who instilled in the young man a love for the human form.  As a painter, or perhaps more appropriately, a painter of the female face, Piot was unrivaled.  His subjects were painted against a dark background which emphasized the mood created by the subject’s facial expressions.  Not merely portraits, his paintings were homages to feminine beauty.  Piot also painted children--this at a time when childhood imagery was becoming very popular.  During the early part of his career Piot exhibited primarily the female portraits of his patrons, only later exhibiting works outside of portraiture, which have been highly praised.  He was a member of the Societe des Artistes Francais.  His work is part of the collections at the Brooklyn Museum, in New York, and at the Rouen Museum, in France.  \n\nHigh auction record for this artist is $66,000.",
+  "highResImageHeight": 2170,
+  "artist": "etienne_adolphe_piot_art-html",
+  "highResImageWidth": 1954,
+  "artOnWallAltText": "Etienne Adolphe Piot Art for Sale - The Note",
+  "paintingHeight": "28",
+  "slug": "etienn_adolphe_piot_note-html",
+  "dimensions": "Oil on canvas, 18.5 x 15.25 inches / Signed lower left",
+  "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695231165/etienne-adolph-piot-art-for-sale-the-note_muf241.jpg",
+  "metaKeywords": "",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4382_small.jpg",
+  "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "Etienne Adolphe Piot - The Note Painting For Sale",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4382_grid.jpg",
+  "mediumResImageWidth": 1130,
+  "mediumResImageHeight": 1255,
+  "metaDescription": "Etienne Adolphe Piot - French Artist From 1850-1910 - Aka Adolphe Piot - The Note Oil On Canvas Painting For Sale - 18.5x15.25 Inches - Signed Lower Left.",
+  "title": "The Note",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4382_grid_gallery_crop.jpg",
   "categories": [
     "Genre"
   ],
-  "dimensions": "Oil on canvas, 18.5 x 15.25 inches / Signed lower left",
-  "featured": false,
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4382_grid_gallery_crop.jpg",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4382_grid.jpg",
   "gridImageHeight": 260,
-  "gridImageWidth": 392,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4382_original.jpg",
-  "highResImageHeight": 2170,
-  "highResImageWidth": 1954,
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -23,17 +37,5 @@
     {
       "highlight": "Competitively Priced $11,550"
     }
-  ],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4382_small.jpg",
-  "mediumResImageHeight": 1255,
-  "mediumResImageWidth": 1130,
-  "metaDescription": "Etienne Adolphe Piot - French Artist From 1850-1910 - Aka Adolphe Piot - The Note Oil On Canvas Painting For Sale - 18.5x15.25 Inches - Signed Lower Left.",
-  "metaKeywords": "",
-  "metaTitle": "Etienne Adolphe Piot - The Note Painting For Sale",
-  "paintingHeight": "28",
-  "paintingWidth": "24.5",
-  "slug": "etienn_adolphe_piot_note-html",
-  "status": "None",
-  "title": "The Note",
-  "youtubeEmbedLink": ""
+  ]
 }
