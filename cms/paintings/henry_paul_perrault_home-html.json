@@ -1,18 +1,32 @@
 {
-  "artist": "henry_paul_perrault_artwork-html",
+  "paintingWidth": "51.5",
   "body": "Henri Paul Perrault was born in Versailles, France, in 1867.  He exhibited works in Paris at the Salon of French Artists, becoming a member in 1899.  He won a 3rd place medal in 1896 and a bronze medal in 1900 at the Universal Exposition.  He is best known as a genre and history painter.  This monumental work is one of his best.\n\nHigh auction record for this artist is $37,765.",
+  "highResImageHeight": 2540,
+  "artist": "henry_paul_perrault_artwork-html",
+  "highResImageWidth": 2054,
+  "artOnWallAltText": "Henry Paul Perrault 19th Century Painting for Sale - Hurry Home",
+  "paintingHeight": "63.7",
+  "slug": "henry_paul_perrault_home-html",
+  "dimensions": "Oil on canvas, 57 x 44.5 inches / Signed lower right",
+  "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695217042/henry-paul-perrault-19th-century-painting-for-sale-hurry-home_orjr6e.jpg",
+  "metaKeywords": "",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4416_small.jpg",
+  "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "Henry Paul Perrault - Hurry Home Painting For Sale",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4416_grid.jpg",
+  "mediumResImageWidth": 1193,
+  "mediumResImageHeight": 1475,
+  "metaDescription": "Henry Paul Perrault, French Artist From 1867-1932 - AKA  Henry Perrault - Hurry Home Oil On Canvas Painting For Sale - 57x44.5 Inches - Signed Lower Right.",
+  "title": "Hurry Home",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4416_grid_gallery_crop.jpg",
   "categories": [
     "Genre"
   ],
-  "dimensions": "Oil on canvas, 57 x 44.5 inches / Signed lower right",
-  "featured": false,
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4416_grid_gallery_crop.jpg",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4416_grid.jpg",
   "gridImageHeight": 260,
-  "gridImageWidth": 392,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4416_original.jpg",
-  "highResImageHeight": 2540,
-  "highResImageWidth": 2054,
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -23,17 +37,5 @@
     {
       "highlight": "Competitively Priced $7,900"
     }
-  ],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4416_small.jpg",
-  "mediumResImageHeight": 1475,
-  "mediumResImageWidth": 1193,
-  "metaDescription": "Henry Paul Perrault, French Artist From 1867-1932 - AKA  Henry Perrault - Hurry Home Oil On Canvas Painting For Sale - 57x44.5 Inches - Signed Lower Right.",
-  "metaKeywords": "",
-  "metaTitle": "Henry Paul Perrault - Hurry Home Painting For Sale",
-  "paintingHeight": "63.7",
-  "paintingWidth": "51.5",
-  "slug": "henry_paul_perrault_home-html",
-  "status": "None",
-  "title": "Hurry Home",
-  "youtubeEmbedLink": ""
+  ]
 }
