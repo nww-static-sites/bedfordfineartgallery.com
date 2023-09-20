@@ -1,18 +1,32 @@
 {
+  "paintingWidth": "25.75",
+  "body": "Hodgdon was born in Salem, Massachusetts on Christmas Day 1830, the son of a wealthy Salem currier. His formal art training was with Salem portrait painter, Edward Holyoke Jr, and it was as a portrait painter by which he first made a living as an artist.\n\nCirca 1855 Hodgdon was employed by lithographer L. H. Bradford and studying painting and lithography with White Mountain School and North Conway art colony founder Benjamin Champney.  Hodgdson was one of a number of artists invited by Champney to paint with him at his summer residence in North Conway.\n\nHe lived on Savin Hill in the Dorchester section of Boston and maintained a studio on Summer Street in Boston, and later at the Studio Building on Tremont Street.  He also taught life classes at the Boston Museum of Fine Arts and the Boston Art Club.  By this time he had switched from portraiture to primarily landscape painting.\n\nHodgdson traveled widely through the northeast capturing the scenery of New York State’s Adirondack Mountains, and that of Massachusetts, Maine, Vermont, and New Hampshire, favoring New Hampshire’s White Mountains, especially Franconia Notch, and the coast of Maine.\n\nHodgdson was a member of the Boston Art Club and the National Academy of Design.  He exhibited at the the Boston Athenaeum (1858, 1863, 1865, and 1873); National Academy of Design (NYC, 1864-1868); Boston Art Club (1874, 1876, 1880, 1882); and the Art Association. \n\nHigh auction record for this artist is $14,000.",
+  "highResImageHeight": 2356,
   "artist": "sylvester_phelps_hodgdon_artwork-html",
-  "body": "Hodgdon was born in Salem, Massachusetts on Christmas Day 1830, the son of a wealthy Salem currier. His formal art training was with Salem portrait painter, Edward Holyoke Jr, and it was as a portrait painter by which he first made a living as an artist.  Circa 1855 Hodgdon was employed by lithographer L. H. Bradford and studying painting and lithography with White Mountain School and North Conway art colony founder Benjamin Champney.  Hodgdson was one of a number of artists invited by Champney to paint with him at his summer residence in North Conway.  He lived on Savin Hill in the Dorchester section of Boston and maintained a studio on Summer Street in Boston, and later at the Studio Building on Tremont Street.  He also taught life classes at the Boston Museum of Fine Arts and the Boston Art Club.  By this time he had switched from portraiture to primarily landscape painting. Hodgdson traveled widely through the northeast capturing the scenery of New York State’s Adirondack Mountains, and that of Massachusetts, Maine, Vermont, and New Hampshire, favoring New Hampshire’s White Mountains, especially Franconia Notch, and the coast of Maine.  Hodgdson was a member of the Boston Art Club and the National Academy of Design.  He exhibited at the the Boston Athenaeum (1858, 1863, 1865, and 1873); National Academy of Design (NYC, 1864-1868); Boston Art Club (1874, 1876, 1880, 1882); and the Art Association. \n\nHigh auction record for this artist is $14,000.",
+  "highResImageWidth": 3068,
+  "artOnWallAltText": "Sylvester Phelps Hodgdon 19th Century Art for Sale - River Landscape in Autumn, 1857 ",
+  "paintingHeight": "19.5",
+  "slug": "sylvester_phelps_hodgdon_river-html",
+  "dimensions": "Oil on Canvas, 13.5 x 19.75 inches / Signed lower center",
+  "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1694180157/rene-charles-edmond-his-19th-century-art-for-sale-natures-mirror_st6pdm.jpg",
+  "metaKeywords": "",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0389-m.jpg",
+  "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "Sylvester Phelps Hodgdon - River Landscape in Autumn, 1857",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0389-sm.jpg",
+  "mediumResImageWidth": 1551,
+  "mediumResImageHeight": 1191,
+  "metaDescription": "Sylvester Phelps Hodgdon, American 1830-1906 - River Landscape In Autumn, 1857 Oil On Canvas Painting For Sale - 13.5x19.75 Inches - Signed Lower Center.",
+  "title": "River Landscape in Autumn, 1857",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0389-sm_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
-  "dimensions": "Oil on Canvas, 13.5 x 19.75 inches / Signed lower center",
-  "featured": false,
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0389-sm_gallery_crop.jpg",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0389-sm.jpg",
   "gridImageHeight": 261,
-  "gridImageWidth": 392,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0389.jpg",
-  "highResImageHeight": 2356,
-  "highResImageWidth": 3068,
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -23,17 +37,5 @@
     {
       "highlight": "Competitively Priced $5,900"
     }
-  ],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0389-m.jpg",
-  "mediumResImageHeight": 1191,
-  "mediumResImageWidth": 1551,
-  "metaDescription": "Sylvester Phelps Hodgdon, American 1830-1906 - River Landscape In Autumn, 1857 Oil On Canvas Painting For Sale - 13.5x19.75 Inches - Signed Lower Center.",
-  "metaKeywords": "",
-  "metaTitle": "Sylvester Phelps Hodgdon - River Landscape in Autumn, 1857",
-  "paintingHeight": "19.5",
-  "paintingWidth": "25.75",
-  "slug": "sylvester_phelps_hodgdon_river-html",
-  "status": "None",
-  "title": "River Landscape in Autumn, 1857",
-  "youtubeEmbedLink": ""
+  ]
 }

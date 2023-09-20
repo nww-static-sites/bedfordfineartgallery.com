@@ -1,18 +1,32 @@
 {
+  "paintingWidth": "16.25",
+  "body": "Born in London, England, John William Hill immigrated to America in 1819 with his family at age 7, first living in Philadelphia, then moving to New York City in 1822.  His father, John Hill, a well-known English landscape painter, engraver, and aquatintist, opened an engraving shop in New York, where young Hill apprenticed. Still a teenager, Hill exhibited his watercolors and engravings at the Brooklyn Art Association and the National Academy of Design. \n\nIn the 1830s, Hill was hired by the New York State Geological Survey to provide detailed topographic studies and accurate aerial views of the state’s cities and towns.  Hill also provided illustrations for *The New-York Fauna. Part II, Birds* (DeKay, 1844).\n\nIn the 1850s, he read English artist and art critic John Ruskin’s, *Modern Painters*, and became fascinated with the pre-Raphaelite Brotherhood, “truth to nature” dictum, so much so that he switched to landscape painting. \n\nIn 1863, Hill with art critic Clarence Cook, New York State geologist, Clarence King (later head of the U.S. Geological Survey), and architect Russell Sturgis, helped found the Society for the Advancement of Truth in Art.  The artists espousing the philosophy of the Society were known as “American Pre-Raphaelites. Hill was to become the leading 19th-century pre-Raphaelite school painter in the United States.\n\nBased in New Jersey, Hill painted in the Adirondack and Catskill Mountains, Hudson River Valley, and Niagara Falls of New York State.  He also painted in the White Mountains of New Hampshire, Richmond, Virginia and New Orleans.\n\nHill was a member of the Brooklyn Art Association and the National Academy of Design.  He exhibited at The Pennsylvania Academy of the Fine Arts; Brooklyn Art Association and the National Academy of Design.  \n\nHigh auction record for this artist is $130,500.",
+  "highResImageHeight": 3402,
   "artist": "john_william_hill_artwork-html",
-  "body": "Born in London, England, John William Hill immigrated to America in 1819 with his family at age 7, first living in Philadelphia, then moving to New York City in 1822.  His father, John Hill, a well-known English landscape painter, engraver, and aquatintist, opened an engraving shop in New York, where young Hill apprenticed.  Still a teenager, Hill exhibited his watercolors and engravings at the Brooklyn Art Association and the National Academy of Design.  In the 1830s, Hill was hired by the New York State Geological Survey to provide detailed topographic studies and accurate aerial views of the state’s cities and towns.  Hill also provided illustrations for The New-York Fauna. Part II, Birds (DeKay, 1844).  In the 1850s, he read English artist and art critic John Ruskin’s, Modern Painters, and became fascinated with the pre-Raphaelite Brotherhood, “truth to nature” dictum, so much so that he switched to painting that he turned to landscape painting.  In 1863, Hill with art critic Clarence Cook, New York State geologist, Clarence King (later head of the U.S. Geological Survey), and architect Russell Sturgis, helped found the Society for the Advancement of Truth in Art.  The artists espousing the philosophy of the Society were known as “American Pre-Raphaelites.  Hill was to become the leading 19th-century pre-Raphaelite school painter in the United States.  Based in New Jersey, Hill painted in the Adirondack and Catskill Mountains, Hudson River Valley, and Niagara Falls of New York State.  He also painted in the White Mountains of New Hampshire, Richmond, Virginia and New Orleans.  Hill was a member of the Brooklyn Art Association and the National Academy of Design.  He exhibited at The Pennsylvania Academy of the Fine Arts; Brooklyn Art Association and the National Academy of Design.  \n\nHigh auction record for this artist is $130,500.",
+  "highResImageWidth": 1746,
+  "artOnWallAltText": "John William Hill 19th Century Artwork for Sale - Waterfall ",
+  "paintingHeight": "28.25",
+  "slug": "john_william_hill_waterfall-html",
+  "dimensions": "Oil on board, 20.5 x 8.5 inches/Signed lower right",
+  "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1694179479/john-william-hill-19th-century-artwork-for-sale-waterfall_ucnw8q.jpg",
+  "metaKeywords": "",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hill_small.jpg",
+  "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "John William Hill - Waterfall Painting For Sale",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hill_grid.jpg",
+  "mediumResImageWidth": 699,
+  "mediumResImageHeight": 1361,
+  "metaDescription": "John William Hill - American 1812-1879 - Waterfall Oil On Board Paint For Sale - 20.5 X 8.5 Inches - Signed On Lower Right.",
+  "title": "Waterfall",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hill_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
-  "dimensions": "Oil on board, 20.5 x 8.5 inches/Signed lower right",
-  "featured": false,
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hill_grid_gallery_crop.jpg",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hill_grid.jpg",
   "gridImageHeight": 261,
-  "gridImageWidth": 392,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hill_full.jpg",
-  "highResImageHeight": 3402,
-  "highResImageWidth": 1746,
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -23,17 +37,5 @@
     {
       "highlight": "Competitively Priced $4,250"
     }
-  ],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hill_small.jpg",
-  "mediumResImageHeight": 1361,
-  "mediumResImageWidth": 699,
-  "metaDescription": "John William Hill - American 1812-1879 - Waterfall Oil On Board Paint For Sale - 20.5 X 8.5 Inches - Signed On Lower Right.",
-  "metaKeywords": "",
-  "metaTitle": "John William Hill - Waterfall Painting For Sale",
-  "paintingHeight": "28.25",
-  "paintingWidth": "16.25",
-  "slug": "john_william_hill_waterfall-html",
-  "status": "None",
-  "title": "Waterfall",
-  "youtubeEmbedLink": ""
+  ]
 }

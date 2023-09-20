@@ -1,22 +1,30 @@
 {
   "paintingWidth": 30,
-  "body": "Dearle was born in Camden Town, north London.  In 1878, as young man of 18, Dearle was employed as an assistant in the Morris & Co., owned by William Morris, the famous poet and printer, who was associated with the Art & Crafts movement during the 1880s through the 1890s. Dearle began in the Morris & Co. London showroom, and that same year was transferred to the company’s glass painting workshop. In 1879 William Morris set up a tapestry workshop with Dearle and, in 1883 Dearle created Morris & Co.’s first figural tapestry from a design by English artist and book illustrator Walter Crane. That success was followed by Dearle being responsible for training tapestry apprentices and working with Morris on designs based on illustrations by Edward Burne-Jones, architect Philip Webb, and scenes based on the legends of King Arthur. In 1890 he became the head designer for Morris & Co., in addition to handling commissions and supervising the fabric, tapestry and weaving departments. In 1896, he was appointed art director following Morris’s death. Dearle continued to manage the textile works until his death in 1932. He could not have accomplished what he did for Morris & Co., without being an accomplished artist in his own right. He is known to have painted watercolors of the Surrey countryside, including Pirbright, Winchelsea, and also the Llugwy River in Wales, a favorite spot for many of Britain’s well-known artists.",
+  "body": "Dearle was born in Camden Town, north London.  In 1878, as young man of 18, Dearle was employed as an assistant in the Morris & Co., owned by William Morris, the famous poet and printer, who was associated with the Art & Crafts movement during the 1880s through the 1890s. Dearle began in the Morris & Co. London showroom, and that same year was transferred to the company’s glass painting workshop.\n\nIn 1879 William Morris set up a tapestry workshop with Dearle and, in 1883 Dearle created Morris & Co.’s first figural tapestry from a design by English artist and book illustrator Walter Crane. That success was followed by Dearle being responsible for training tapestry apprentices and working with Morris on designs based on illustrations by Edward Burne-Jones, architect Philip Webb, and scenes based on the legends of King Arthur.\n\nIn 1890 he became the head designer for Morris & Co., in addition to handling commissions and supervising the fabric, tapestry and weaving departments. In 1896, he was appointed art director following Morris’s death. Dearle continued to manage the textile works until his death in 1932.\n\nHe could not have accomplished what he did for Morris & Co., without being an accomplished artist in his own right. He is known to have painted watercolors of the Surrey countryside, including Pirbright, Winchelsea, and also the Llugwy River in Wales, a favorite spot for many of Britain’s well-known artists.",
+  "highResImageHeight": 1817,
   "artist": "john_henry_dearle_artist-html",
-  "metaTitle": "John Henry Dearle - River Landscape With Man In A Skiff",
-  "metaDescription": "John Henry Dearle, British Artist From 1860-1932 - River Landscape With Man In A Skiff Oil On Canvas Painting For Sale - 13.5x25.5 Inches - Signed Lower Right.",
+  "highResImageWidth": 3000,
+  "artOnWallAltText": "John Henry Dearle 19th Century Painting for Sale - River Landscape with Man in a Skiff ",
   "paintingHeight": 18,
   "slug": "john_henry_dearle_river_landscape_man_in_skiff-html",
   "dimensions": "Oil on canvas, 13.5 x 25.5 inches/Signed lower right",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693932189/john-henry-dearle-19th-century-painting-for-sale-river-landscape_knmicy.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687994514/Dearle_Man_in_Skiff_IMG_1845_sm_cr_fr_vyrstb.jpg",
+  "gridImageWidth": 392,
   "status": "New",
+  "metaTitle": "John Henry Dearle - River Landscape With Man In A Skiff",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687994387/Dearle_Man_in_Skiff_IMG_1845_zoom_crop_mexgfj.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 848,
+  "metaDescription": "John Henry Dearle, British Artist From 1860-1932 - River Landscape With Man In A Skiff Oil On Canvas Painting For Sale - 13.5x25.5 Inches - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "River Landscape with Man in a Skiff",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687994107/Dearle_Man_in_Skiff_IMG_1845_full_gall_cr_xyzfnu.jpg",
   "categories": [
     "Landscape"
   ],
+  "gridImageHeight": 298,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687994593/Dearle_Man_in_Skiff_IMG_1845_lrg_cr_fr_jt8zhu.jpg",
   "highlights": [
     {
@@ -28,11 +36,5 @@
     {
       "highlight": "Competitively Priced $3,321"
     }
-  ],
-  "gridImageWidth": 392,
-  "gridImageHeight": 298,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 848,
-  "highResImageWidth": 3000,
-  "highResImageHeight": 1817
+  ]
 }

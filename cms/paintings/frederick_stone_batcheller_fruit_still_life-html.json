@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/batcheller_fruit_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Frederick Stone Batcheller - Fruit Still Life Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/batcheller_fruit_grid.jpg",
   "mediumResImageWidth": 1016,
@@ -28,15 +28,5 @@
   ],
   "gridImageHeight": 261,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/batcheller_fruit_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $5,500"
-    }
-  ]
+  "highlights": []
 }

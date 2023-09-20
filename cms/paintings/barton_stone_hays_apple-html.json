@@ -1,16 +1,30 @@
 {
+  "paintingWidth": "28.25",
+  "body": "Barton Stone Hays was born in Greenville, Ohio on April 5, 1826.  He was self-taught and was known, first for his portrait paintings, and later for his landscape and still life paintings. \n\nIn the early 1850s Hays migrated to Northern Indiana, where he made a successful career by painting portraits of the Indiana “pioneers” (Indiana having been admitted as the 19th state only a few years earlier).  He was a fervent abolitionist and, after having read Harriet Beecher Stowe’s “Uncle Tom’s Cabin”, painted a panorama depicting the most vivid scenes from that novel.  That panorama, and a second one, was met with much acclaim.\n\nIn 1858 Hays moved to Indianapolis where he became one of the city’s leading painters of portraits and landscapes.  In 1882, after moving to Minneapolis, Minnesota, Hays concentrated on still-life painting, for which he is best known.\n\nHis still-life paintings are small, realistic, uncluttered compositions of fruit set on a table-top, against a muted background.  His still-life paintings are much sought-after, and the Bedford Fine Art Gallery is proud to have the best collection of Barton Stone Hays’ still-life paintings in the country.\n\nHigh auction record for this artist is $9,000.",
+  "highResImageHeight": 583,
   "artist": "barton_stone_hays_art-html",
-  "body": "Barton Stone Hays was born in Greenville, Ohio on April 5 1826.  He was self-taught and was known, first for his portrait paintings, and later for his landscape and still life paintings.  In the early 1850s Hays migrated to Northern Indiana, where he made a successful career by painting portraits of the Indiana “pioneers” (Indiana having been admitted as the 19th state only a few years earlier).  He was a fervent abolitionist and, after having read Harriet Beecher Stowe’s “Uncle Tom’s Cabin”, painted a panorama depicting the most vivid scenes from that novel.  That panorama, and a second one, was met with much acclaim.\n\nIn 1858 Hays moved to Indianapolis where he became one of the city’s leading painters of portraits and landscapes.  In 1882, after moving to Minneapolis, Minnesota, Hays concentrated on still-life painting, for which he is best known.  His still-life paintings are small, realistic, uncluttered compositions of fruit set on a table-top, against a muted background.  His still-life paintings are much sought-after and the Bedford Fine Art Gallery is proud to have the best collection of Barton Stone Hays’ still-life paintings in the country.\n\nHigh auction record for this artist is $9,000.",
-  "categories": [],
+  "highResImageWidth": 818,
+  "artOnWallAltText": "Barton Stone Hays 19th Century Paintings for Sale - Still Life of Apples ",
+  "paintingHeight": "20.25",
+  "slug": "barton_stone_hays_apple-html",
   "dimensions": "Oil on canvas, 14 x 22 inches / Signed lower right",
   "featured": false,
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_3919_grid_gallery_crop.jpg",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_3919_grid.jpg",
-  "gridImageHeight": 260,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1694021312/barton-stone-hays-19th-century-paintings-for-sale-still-life-of-apples_sgtjoc.jpg",
+  "metaKeywords": "Barton Stone Hays, 1826  1914, American, 19th century artist, Still Life of Apples, Oil on canvas, still life, still life artwork, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_3919.jpg",
   "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "Barton Stone Hays - Still Life of Apples Painting For Sale",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_3919_grid.jpg",
+  "mediumResImageWidth": 818,
+  "mediumResImageHeight": 583,
+  "metaDescription": "Barton Stone Hays - American Painter 1826-1914 - Still Life Of Apples Oil On Canvas Paint For Sale - 14 X 22 Inches - Signed On Lower Right.",
+  "title": "Still Life of Apples",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_3919_grid_gallery_crop.jpg",
+  "categories": [],
+  "gridImageHeight": 260,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_3919.jpg",
-  "highResImageHeight": 583,
-  "highResImageWidth": 818,
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -21,17 +35,5 @@
     {
       "highlight": "Competitively Priced $4,500"
     }
-  ],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_3919.jpg",
-  "mediumResImageHeight": 583,
-  "mediumResImageWidth": 818,
-  "metaDescription": "Barton Stone Hays - American Painter 1826-1914 - Still Life Of Apples Oil On Canvas Paint For Sale - 14 X 22 Inches - Signed On Lower Right.",
-  "metaKeywords": "Barton Stone Hays, 1826  1914, American, 19th century artist, Still Life of Apples, Oil on canvas, still life, still life artwork, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery",
-  "metaTitle": "Barton Stone Hays - Still Life of Apples Painting For Sale",
-  "paintingHeight": "20.25",
-  "paintingWidth": "28.25",
-  "slug": "barton_stone_hays_apple-html",
-  "status": "None",
-  "title": "Still Life of Apples",
-  "youtubeEmbedLink": ""
+  ]
 }

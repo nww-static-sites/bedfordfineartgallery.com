@@ -1,18 +1,32 @@
 {
+  "paintingWidth": "18",
+  "body": "Dolph was a versatile and talented artist who became the foremost “cat-painter” in America. He left home (Fort Ann, New York) at a young age, after the death of his mother, and generated income for himself by doing decorative painting on coaches and carriages.\n\nHe eventually made his way to Cleveland where he studied with Allen Smith, a prominent portrait painter. This training prepared him for a career in portraiture, which he pursued in Detroit.\n\nAs common with artists of the time, Dolph went abroad to further hone his skills. He studied with the noted animal painter Louis Van Kuyek in Antwerp, and then spent some time in Paris before returning to America and settling in New York City.\n\nFollowing his return to America, he broadened his artistic range and was first recognized for his Hudson River School landscapes, domestic genre scenes and still-lifes. He turned from portraiture to concentrate on farmyard genre and animal life. However, Dolph became somewhat bored with this subject matter and began to paint cats. These paintings were popular and sold well.\n\nHaving found his niche, from 1875 on, he concentrated on realistic, playful paintings of cats and dogs. Dolph helped organize the Society of American Artists and was an academician of the National Academy of Design.\n\nHe exhibited at the National Academy, Brooklyn Art Association, the Pennsylvania Academy of the Fine Arts, and the Paris Salon. His works are exhibited in the Whitney Museum of American Art, the Portland Art Museum and the Newark Museum.\n\nHigh auction record for this artist is $21,510.",
+  "highResImageHeight": 2431,
   "artist": "john_henry_dolph_art-html",
-  "body": "Dolph was a versatile and talented artist who became the foremost “cat-painter” in America.  He left home (Fort Ann, New York) at a young age, after the death of his mother, and generated income for himself by doing decorative painting on coaches and carriages.  He eventually made his way to Cleveland where he studied with Allen Smith, a prominent portrait painter.  This training prepared him for a career in portraiture, which he pursued in Detroit.  As common with artists of the time, Dolph went abroad to further hone his skills.  He studied with the noted animal painter Louis Van Kuyek in Antwerp, and then spent some time in Paris before returning to American and settling in New York City.  Following his return to America, he broadened his artistic range and was first recognized for his Hudson River School landscapes, domestic genre scenes and still-lifes.  He turned from portraiture to concentrate on farmyard genre and animal life.  However, Dolph became somewhat bored with this subject matter and began to paint cats.  These paintings were popular and sold well.  Having found his niche, from 1875 on, he concentrated on realistic, playful paintings of cats and dogs.  Dolph helped organize the Society of American Artists and was an academician of the National Academy of Design.  He exhibited at the National Academy, Brooklyn Art Association, the Pennsylvania Academy of the Fine Arts, and the Paris Salon.  His works are exhibited in the Whitney Museum of American Art, the Portland Art Museum and the Newark Museum. \n\nHigh auction record for this artist is $21,510.",
+  "highResImageWidth": 2998,
+  "artOnWallAltText": "John Henry Dolph Art for Sale - Mischief ",
+  "paintingHeight": "16",
+  "slug": "john_henry_dolph_mischief-html",
+  "dimensions": "Oil on canvas, 8 x 10 inches / Signed lower left",
+  "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693934500/john-henry-dolph-art-for-sale-mischief_ahwmnq.jpg",
+  "metaKeywords": "",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/jhd2_small.jpg",
+  "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "John Henry Dolph Painting - Mischief - 19th Century American Fine Art",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/jhd_grid2.jpg",
+  "mediumResImageWidth": 1497,
+  "mediumResImageHeight": 1214,
+  "metaDescription": "Dolph was a versatile and talented artist who became the foremost \"cat-painter\" in America. He left home (Fort Ann, New York) at a young age, after the death of",
+  "title": "Mischief",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/jhd_grid2_gallery_crop.jpg",
   "categories": [
     "Animal"
   ],
-  "dimensions": "Oil on canvas, 8 x 10 inches / Signed lower left",
-  "featured": false,
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/jhd_grid2_gallery_crop.jpg",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/jhd_grid2.jpg",
   "gridImageHeight": 260,
-  "gridImageWidth": 392,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/jhd2_full.jpg",
-  "highResImageHeight": 2431,
-  "highResImageWidth": 2998,
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -23,17 +37,5 @@
     {
       "highlight": "Competitively Priced $2,800"
     }
-  ],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/jhd2_small.jpg",
-  "mediumResImageHeight": 1214,
-  "mediumResImageWidth": 1497,
-  "metaDescription": "Dolph was a versatile and talented artist who became the foremost \"cat-painter\" in America. He left home (Fort Ann, New York) at a young age, after the death of",
-  "metaKeywords": "",
-  "metaTitle": "John Henry Dolph Painting - Mischief - 19th Century American Fine Art",
-  "paintingHeight": "16",
-  "paintingWidth": "18",
-  "slug": "john_henry_dolph_mischief-html",
-  "status": "None",
-  "title": "Mischief",
-  "youtubeEmbedLink": ""
+  ]
 }

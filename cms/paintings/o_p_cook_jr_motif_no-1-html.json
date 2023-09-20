@@ -1,15 +1,22 @@
 {
   "paintingWidth": 35,
-  "body": "Otis Cook, noted marine artist, was born in New Bedford, Massachusetts. He studied at the Swain School of Design in New Bedford, in the 1930s and also studied under Gloucester artist Emil Gruppe.  He opened a studio/gallery and giftshop on Bearskin neck, Rockport, called \"Boatshop Studios.\"  He painted mostly scenes of the Cape Ann and Rockport areas, area, notably Motif #1, Rockport’s iconic fishing shack on Bearskin Neck.  Cook was a member (and director) of the Rockport Art Association; North Shore Art Association; the Boston Guild of Artists; Boston Art Club; Academic Artists of Springfield (CT), Independent Artists of Boston, and Longboat Key Art Center, Longboat Key, Florida.",
+  "body": "Otis Cook, noted marine artist, was born in New Bedford, Massachusetts. He studied at the Swain School of Design in New Bedford, in the 1930s and also studied under Gloucester artist Emil Gruppe.  He opened a studio/gallery and giftshop on Bearskin neck, Rockport, called \"Boatshop Studios.\" He painted mostly scenes of the Cape Ann and Rockport areas, area, notably Motif #1, Rockport’s iconic fishing shack on Bearskin Neck.\n\nCook was a member (and director) of the Rockport Art Association; North Shore Art Association; the Boston Guild of Artists; Boston Art Club; Academic Artists of Springfield (CT), Independent Artists of Boston, and Longboat Key Art Center, Longboat Key, Florida.",
+  "highResImageHeight": 2501,
   "artist": "otis_pierce_cook_jr_artwork-html",
+  "highResImageWidth": 3000,
+  "artOnWallAltText": "Otis Pierce Cook Victorian Painting for Sale - Motif No. 1 ",
   "paintingHeight": 30,
   "slug": "o_p_cook_jr_motif_no-1-html",
   "dimensions": "Oil on canvas, 19.25 x 23.25 inches/Signed lower right",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693928260/otis-pierce-cook-jr-victorian-painting-for-sale-motif-no-1_aoijgc.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cook-img_1459-sm-cr-fr.jpg",
+  "gridImageWidth": 392,
   "status": "New",
   "metaTitle": "Otis Pierce Cook, Jr. Motif No. 1 painting for sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cook-img_1459-zoom-cr.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1167,
   "metaDescription": "Otis Pierce Cook Jr, American Artist From 1900-1980 - Motif No. 1 Oil On Canvas Painting For Sale - 19.25x23.25 Inches - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "Motif No. 1",
@@ -17,6 +24,7 @@
   "categories": [
     "Marine"
   ],
+  "gridImageHeight": 280,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cook-img_1459-lrg-cr-fr.jpg",
   "highlights": [
     {
@@ -28,11 +36,5 @@
     {
       "highlight": "Competitively priced $4,800"
     }
-  ],
-  "gridImageWidth": 392,
-  "gridImageHeight": 280,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 1167,
-  "highResImageWidth": 3000,
-  "highResImageHeight": 2501
+  ]
 }

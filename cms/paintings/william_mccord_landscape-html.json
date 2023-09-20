@@ -1,18 +1,32 @@
 {
-  "artist": "william_mccord_artwork-html",
+  "paintingWidth": "35.25",
   "body": "Very little biographical information is available for William McCord; however, it is believed that he was born in Lexington, KY. and later moved to Ludlow, KY, across the Ohio River from Cincinnati, OH.  In addition to being an artist, he was an illustrator and a craftsman.  Although he exhibited his paintings in Cincinnati and the surrounding area, he often gave “magic lantern” presentations.  Stereopticons or “magic lanterns” were used to project painted images from glass slides: a precursor to a modern-day slide show or a PowerPoint presentation and were often of his illustrations and included a narrator.  In 1902, “pictures” by McCord and other Cincinnati artists -- T.C. Steele, C.T. Webber, Frank Duvenek, Henry Mosler, Dixie Selden, and Henry F. Farny were selected for inclusion in the 1903 volume of Hesperian Tree (edited by John James).  This was an Annual of the Ohio Valley that contained original sketches, essays and poems, contributed by writers native to or identified with the Ohio Valley States, accompanied by or illustrated with pictures, drawings and works in sculpture by artists native to or identified with this region.  McCord was a member, and secretary of the Cincinnati Camera Club and the Cincinnati Art Club, where he also exhibited. He also exhibited at the Art Institute of Chicago.  ",
+  "highResImageHeight": 2725,
+  "artist": "william_mccord_artwork-html",
+  "highResImageWidth": 3774,
+  "artOnWallAltText": "William McCord Artwork for Sale - Landscape",
+  "paintingHeight": "25.25",
+  "slug": "william_mccord_landscape-html",
+  "dimensions": "Oil on canvas, 20 x 30 inches/Signed lower left",
+  "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695058360/william-mccord-artwork-for-sale-landscape-painting_jhrm6a.jpg",
+  "metaKeywords": "",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/mccord_small.jpg",
+  "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "William McCord - Landscape Painting For Sale",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/mccord_grid.jpg",
+  "mediumResImageWidth": 1510,
+  "mediumResImageHeight": 1090,
+  "metaDescription": "William Mccord, American Painter 1857-1918 - Landscape Oil On Canvas Painting For Sale - 20x30 Inches - Signed Lower Left.",
+  "title": "Landscape",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/mccord_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
-  "dimensions": "Oil on canvas, 20 x 30 inches/Signed lower left",
-  "featured": false,
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/mccord_grid_gallery_crop.jpg",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/mccord_grid.jpg",
   "gridImageHeight": 261,
-  "gridImageWidth": 392,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/mccord_full.jpg",
-  "highResImageHeight": 2725,
-  "highResImageWidth": 3774,
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -23,17 +37,5 @@
     {
       "highlight": "Competitively Priced $2,500"
     }
-  ],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/mccord_small.jpg",
-  "mediumResImageHeight": 1090,
-  "mediumResImageWidth": 1510,
-  "metaDescription": "William Mccord, American Painter 1857-1918 - Landscape Oil On Canvas Painting For Sale - 20x30 Inches - Signed Lower Left.",
-  "metaKeywords": "",
-  "metaTitle": "William McCord - Landscape Painting For Sale",
-  "paintingHeight": "25.25",
-  "paintingWidth": "35.25",
-  "slug": "william_mccord_landscape-html",
-  "status": "None",
-  "title": "Landscape",
-  "youtubeEmbedLink": ""
+  ]
 }

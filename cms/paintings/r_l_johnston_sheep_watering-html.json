@@ -1,15 +1,22 @@
 {
   "paintingWidth": 44.5,
   "body": "Reuben LeGrande Johnston was born in Alexandria, Virginia and a member of Washington Society and world traveler.  He was self-taught, but is known to have studied art with Adalbert Volck in Baltimore, Maryland.  Although Johnston is best known for his landscapes with animals, he painted portraits and genre scenes.  He was well-traveled, visiting France, Spain, England, Tangiers and Morocco, the latter where some of his works were executed.  He also traveled to the American west where he painted, notably Cheyenne, Wyoming.  He was a member of the Society of Washington Artists (DC), where he exhibited, in addition to the National Academy of Design.",
+  "highResImageHeight": 2206,
   "artist": "reuben_legrande_johnston_artwork-html",
+  "highResImageWidth": 3000,
+  "artOnWallAltText": "Reuben LeGrande Johnston 19th Century Art for Sale - Sheep Watering in a Pasture with Chickens ",
   "paintingHeight": 32.25,
   "slug": "r_l_johnston_sheep_watering-html",
   "dimensions": "Oil on canvas, 25.5 x 37.5 inches/Signed lower right",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1694184386/reuben-legrande-johnston-19th-century-art-for-sale-sheep-watering-in-a-pasture-with-chickens_bxzgkt.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/johnston-johnston-sheep-watering-in-pasture-img_1516-sm-cr-fr.jpg",
+  "gridImageWidth": 392,
   "status": "None",
   "metaTitle": "Reuben LeGrand Johnston-Sheep Watering in Pasture w Chickens",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/johnston-johnston-sheep-watering-in-pasture-img_1516-zoom-cr.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1029,
   "metaDescription": "Reuben LeGrande Johnston was born in Alexandria, Virginia and a member of Washington Society and world traveler.",
   "scrollingHomepageImage": false,
   "title": "Sheep Watering in a Pasture with Chickens",
@@ -18,6 +25,7 @@
     "Animal",
     "Landscape"
   ],
+  "gridImageHeight": 251,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/johnston-johnston-sheep-watering-in-pasture-img_1516-lrg-cr-fr.jpg",
   "highlights": [
     {
@@ -29,11 +37,5 @@
     {
       "highlight": "Competitively priced  $5,800"
     }
-  ],
-  "gridImageWidth": 392,
-  "gridImageHeight": 251,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 1029,
-  "highResImageWidth": 3000,
-  "highResImageHeight": 2206
+  ]
 }

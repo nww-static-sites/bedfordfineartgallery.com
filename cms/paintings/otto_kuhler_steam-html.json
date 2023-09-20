@@ -1,18 +1,32 @@
 {
-  "artist": "otto_august_kuhler-html",
+  "paintingWidth": "17",
   "body": "Otto Kuhler was born in Remscheid near Essen, Germany and immigrated to the United States in 1923.  He became one of the best-known industrial designers of American railroads.  Kuhler designed rail-motor cars for American Car & Foundry in in the 1930s.  He went on to design double-ended rail-motor cars for the New York, Susquehanna and Western Railway in 1940 and for Boston’s Metropolitan Transit Authority in 1946.  He became world-famous after designing the “Hiawatha” passenger train locomotives operated by the Chicago, Milwaukee, St. Paul and Pacific Railroad (between Chicago and destinations in the Midwest and western United States).  Named after the epic poem, the song of Hiawatha by Henry Wadsworth Longfellow, they were known by the colored embellishments designed by Kuhler.  Kuhler also designed the napkins and draperies used in the dining cars.  Kuhler was an accomplished artist and painted trains and railway compositions.  The locomotive depicted above was a commissioned work and depicts what we believe to be a 4-6-4 “Hudson” type passenger locomotive, by the American Locomotive Company, Schenectady, NY for the New York Central Railroad. ",
+  "highResImageHeight": 2773,
+  "artist": "otto_august_kuhler-html",
+  "highResImageWidth": 3182,
+  "artOnWallAltText": "Otto August Kuhler Victorian Art for Sale - Steam Engine",
+  "paintingHeight": "15",
+  "slug": "otto_kuhler_steam-html",
+  "dimensions": "Pencil on paper, 8 x 10 inches/Signed lower right",
+  "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695050158/otto-august-kuhler-victorian-art-for-sale-steam-engine_gos05s.jpg",
+  "metaKeywords": "",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/kuhler_steam_small.jpg",
+  "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "Otto August Kuhler - Steam Engine Sketch For Sale",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/kuhler_steam_grid.jpg",
+  "mediumResImageWidth": 1273,
+  "mediumResImageHeight": 1110,
+  "metaDescription": "Otto August Kuhler, American Artist From 1894-1974 - Aka  Otto Kuhler, O. Kuhler - Steam Engine Sketch Pencil On Paper For Sale - 8x10 In - Signed Lower Right.",
+  "title": "Steam Engine Sketch",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/kuhler_steam_grid_gallery_crop.jpg",
   "categories": [
     "American Historic / Political"
   ],
-  "dimensions": "Pencil on paper, 8 x 10 inches/Signed lower right",
-  "featured": false,
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/kuhler_steam_grid_gallery_crop.jpg",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/kuhler_steam_grid.jpg",
   "gridImageHeight": 261,
-  "gridImageWidth": 392,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/kuhler_steam_full.jpg",
-  "highResImageHeight": 2773,
-  "highResImageWidth": 3182,
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -23,17 +37,5 @@
     {
       "highlight": "Competitively Priced $1,200"
     }
-  ],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/kuhler_steam_small.jpg",
-  "mediumResImageHeight": 1110,
-  "mediumResImageWidth": 1273,
-  "metaDescription": "Otto August Kuhler, American Artist From 1894-1974 - Aka  Otto Kuhler, O. Kuhler - Steam Engine Sketch Pencil On Paper For Sale - 8x10 In - Signed Lower Right.",
-  "metaKeywords": "",
-  "metaTitle": "Otto August Kuhler - Steam Engine Sketch For Sale",
-  "paintingHeight": "15",
-  "paintingWidth": "17",
-  "slug": "otto_kuhler_steam-html",
-  "status": "None",
-  "title": "Steam Engine Sketch",
-  "youtubeEmbedLink": ""
+  ]
 }

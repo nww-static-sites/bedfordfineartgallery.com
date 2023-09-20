@@ -1,22 +1,30 @@
 {
   "paintingWidth": 33.75,
   "body": "Cole was originally from London, he travelled and painted views of the Broads in Norfolk and Sussex counties (flooded Medieval peat excavations), Hampshire on the English Channel and at Burnham Beeches, Buckinghamshire, among others. A successful artist, he exhibited at the Royal Academy of Arts and the Society of British Artists at the original Suffolk Street location (London).",
+  "highResImageHeight": 2681,
   "artist": "alfred_benjamin_cole_artist-html",
+  "highResImageWidth": 3000,
+  "artOnWallAltText": "Alfred Benjamin Cole Victorian Painting for Sale - Cookham-on-Thames ",
   "paintingHeight": 25,
   "slug": "a_cole_cookham_on_thames-html",
   "dimensions": "Oil on canvas, 20.25 x 29 inches/Signed lower left",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693927760/alfred-benjamin-cole-victorian-painting-for-sale-cookham-on-thames_zqm30r.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1680966495/A_Cole_Cookham_IMG_1642_sm_cr_fr_bnrp6f.jpg",
+  "gridImageWidth": 392,
   "status": "New",
+  "metaTitle": "Alfred Benjamin Cole - Cookham On Thames Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1680965677/A_Cole_Cookham_IMG_1642_zoom_crop_a1atym.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1251,
+  "metaDescription": "Alfred Benjamin Cole, English Artist From 1830-1883 - Cookham-on-thames Oil On Canvas Painting For Sale - 20.25x29 Inches - Signed Lower Left.",
   "scrollingHomepageImage": false,
   "title": "Cookham-on-Thames",
-  "metaTitle": "Alfred Benjamin Cole - Cookham On Thames Painting For Sale",
-  "metaDescription": "Alfred Benjamin Cole, English Artist From 1830-1883 - Cookham-on-thames Oil On Canvas Painting For Sale - 20.25x29 Inches - Signed Lower Left.",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1680965644/A_Cole_Cookham_IMG_1642_full_gall_cr_k9oci2.jpg",
   "categories": [
     "Landscape"
   ],
+  "gridImageHeight": 350,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1680966528/A_Cole_Cookham_IMG_1642_lrg_cr_fr_sp8dpv.jpg",
   "highlights": [
     {
@@ -28,11 +36,5 @@
     {
       "highlight": "Competitively Priced $4,800"
     }
-  ],
-  "gridImageWidth": 392,
-  "gridImageHeight": 350,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 1251,
-  "highResImageWidth": 3000,
-  "highResImageHeight": 2681
+  ]
 }
