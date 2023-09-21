@@ -1,20 +1,34 @@
 {
-  "artist": "john_paul_strain_art-html",
+  "paintingWidth": "11.25",
   "body": "Contemporary artist John Strain was born in Nashville, Tennessee and currently resides in Benbrook, Texas. Strain specializes in authentic depictions of the American West, especially Native Americans of the nineteenth century.  Strain says his work \"has been called reminiscent of the romantic landscapes and portrayals of Indian life of Henry Farny and Thomas Moran. I try and attain a certain mood and atmosphere in each of my paintings. I feel many of the great artists of the past such as Moran and Farny have that quality.”  His historical genre includes Civil War, World War II and patriotic themes executed with exacting Contemporary artist John Strain was born in Nashville, Tennessee and currently resides in Benbrook, Texas. Strain specializes in authentic depictions of the American West, especially Native Americans of the nineteenth century.  Strain says his work \"has been called reminiscent of the romantic landscapes and portrayals of Indian life of Henry Farny and Thomas Moran. I try and attain a Contemporary artist John Strain was born in Nashville, Tennessee and currently resides in Benbrook, Texas. Strain specializes in authentic depictions of the American West, especially Native Americans of the nineteenth century.  Strain says his work \"has been called reminiscent of the romantic landscapes and portrayals of Indian life of Henry Farny and Thomas Moran. I try and attain a certain mood and atmosphere in each of my paintings. I feel many of the great artists of the past such as Moran and Farny have that quality.”  His historical genre includes Civil War, World War II and patriotic themes executed with exacting detail.  Captured by the aura of the past, Strain participates in Civil War reenactments throughout the southwest as a Captain of the 7th Texas Calvary.  Strain’s paintings are displayed at the US Park Service, Class Gift Committee of the Command and General Staff College at Fort Leavenworth, KS; Fort McNair in Washington D.C., and the Normandy American Cemetery Visitor Center in Normandy, France. certain mood and atmosphere in each of my paintings. I feel many of the great artists of the past such as Moran and Farny have that quality.”  His historical genre includes Civil War, World War II and patriotic themes executed with exacting detail.  Captured by the aura of the past, Strain participates in Civil War reenactments throughout the southwest as a Captain of the 7th Texas Calvary.  Strain’s paintings are displayed at the US Park Service, Class Gift Committee of the Command and General Staff College at Fort Leavenworth, KS; Fort McNair in Washington D.C., and the Normandy American Cemetery Visitor Center in Normandy, France.detail.  Captured by the aura of the past, Strain participates in Civil War reenactments throughout the southwest as a Captain of the 7th Texas Calvary.  Strain’s paintings are displayed at the US Park Service, Class Gift Committee of the Command and General Staff College at Fort Leavenworth, KS; Fort McNair in Washington D.C., and the Normandy American Cemetery Visitor Center in Normandy, France. \n\nHigh auction record for this artist is $10,080.",
+  "highResImageHeight": 3331,
+  "artist": "john_paul_strain_art-html",
+  "highResImageWidth": 2961,
+  "artOnWallAltText": "John Paul Strain Paintings for Sale - Sacred Feathers",
+  "paintingHeight": "26.25",
+  "slug": "john_paul_strain_feathers-html",
+  "dimensions": "Gouache, 17 x 12.5 inches/Signed lower right",
+  "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695308864/john-paul-strain-paintings-for-sale-sacred-feathers_ncopnw.jpg",
+  "metaKeywords": "",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strain_feathers_small.jpg",
+  "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "John Paul Strain - Sacred Feathers Painting For Sale",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strain_feathers_grid.jpg",
+  "mediumResImageWidth": 1096,
+  "mediumResImageHeight": 1233,
+  "metaDescription": "John Paul Strain, American Artist From 1955-Present - Sacred Feathers Gouache Painting For Sale - 17x12.5 Inches - Signed Lower Right.",
+  "title": "sacred feathers",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strain_feathers_grid_gallery_crop.jpg",
   "categories": [
     "Landscape",
     "Genre",
     "American Historic / Political"
   ],
-  "dimensions": "Gouache, 17 x 12.5 inches/Signed lower right",
-  "featured": false,
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strain_feathers_grid_gallery_crop.jpg",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strain_feathers_grid.jpg",
   "gridImageHeight": 261,
-  "gridImageWidth": 392,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strain_feathers_full.jpg",
-  "highResImageHeight": 3331,
-  "highResImageWidth": 2961,
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -25,17 +39,5 @@
     {
       "highlight": "Competitively Priced $6,000"
     }
-  ],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strain_feathers_small.jpg",
-  "mediumResImageHeight": 1233,
-  "mediumResImageWidth": 1096,
-  "metaDescription": "John Paul Strain, American Artist From 1955-Present - Sacred Feathers Gouache Painting For Sale - 17x12.5 Inches - Signed Lower Right.",
-  "metaKeywords": "",
-  "metaTitle": "John Paul Strain - Sacred Feathers Painting For Sale",
-  "paintingHeight": "26.25",
-  "paintingWidth": "11.25",
-  "slug": "john_paul_strain_feathers-html",
-  "status": "None",
-  "title": "sacred feathers",
-  "youtubeEmbedLink": ""
+  ]
 }
