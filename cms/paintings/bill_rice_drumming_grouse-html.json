@@ -1,16 +1,23 @@
 {
   "paintingWidth": 22.5,
   "body": "Contemporary sculptor Bill Rice has a deep love for America’s landscape and its wildlife.  Rice keeps an aviary at his home in Connecticut and takes field trips to observe the habits and attitudes of birds in order to create dynamic renditions of domestic and wild birds.  Self-taught as a painter, he started sculpting birds while he was working as a carpenter.  Rice typically incorporates some aspect of the bird’s natural habitat into each piece, which serves to bring the subjects to life.  Rice is a member of the Society of Animal Artists.  He has exhibited at New England Wildlife Exposition (Wallingford, CT, 1986, 1987, 1989); the Ward Foundation World Championship Competition (Ocean City, MD, 1984); National Museum of Wildlife Art’s Miniatures and More Show (Jackson Hole, WY, 2001, 2002, 2003 and 2004); Bennington Center for the Arts;  Art of the Animal Kingdom Show; Impressions of New England Show (Bennington, VT,  2002); and the Leigh Yawkey Woodson Art’s Museum’s Birds in Art Show (2002, 2003, 2004).  His work has been in national wildlife annuals--the Cape Cod Museum of Natural History’s Birds in Art Show, and the Easton Waterfowl Festival in Easton, Maryland.  Rice is a member of the Society of Animal Artists.  His work can be seen in the Ward Foundation Museum of Wildfowl Art (Salisbury, MD) and is in the permanent collection of the Leigh Yawkey Woodson Art Museum, in addition to many private and corporate collections throughout the United States, Canada, China, England, Bermuda and South Africa.",
+  "highResImageHeight": 2441,
   "artist": "bill_rice_artwork-html",
+  "highResImageWidth": 3000,
+  "artOnWallAltText": "Bill Rice Art for Sale - Drumming Grouse ",
   "paintingHeight": 18.5,
   "slug": "bill_rice_drumming_grouse-html",
-  "metaTitle": "Bill Rice - Drumming Grouse Oil On Board Painting For Sale",
-  "metaDescription": "Bill Rice, American Artist Born 1952 - Drumming Grouse Oil On Board Painting For Sale - 15.5x19.5 Inches - Signed Lower Left.",
   "dimensions": "Oil on board, 15.5 x 19.5 inches/Signed lower left",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695296433/bill-rice-art-for-sale-drumming-grouse_x7af8y.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1682779227/Rice_Druming_Grouse_IMG_1685_sm_cr_fr_xus8kh.jpg",
+  "gridImageWidth": 392,
   "status": "New",
+  "metaTitle": "Bill Rice - Drumming Grouse Oil On Board Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1682779133/Rice_Druming_Grouse_IMG_1685_zoom_cr_m1idpk.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1139,
+  "metaDescription": "Bill Rice, American Artist Born 1952 - Drumming Grouse Oil On Board Painting For Sale - 15.5x19.5 Inches - Signed Lower Left.",
   "scrollingHomepageImage": false,
   "title": "Drumming Grouse",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1682779078/Rice_Druming_Grouse_IMG_1685_full_gall_cr_tssiov.jpg",
@@ -18,6 +25,7 @@
     "Sporting Art",
     "Animal"
   ],
+  "gridImageHeight": 319,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1682779263/Rice_Druming_Grouse_IMG_1685_lrg_cr_fr_vrymn1.jpg",
   "highlights": [
     {
@@ -29,11 +37,5 @@
     {
       "highlight": "Competitively Priced $2,700"
     }
-  ],
-  "gridImageWidth": 392,
-  "gridImageHeight": 319,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 1139,
-  "highResImageWidth": 3000,
-  "highResImageHeight": 2441
+  ]
 }
