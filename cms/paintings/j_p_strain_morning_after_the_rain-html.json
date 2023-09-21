@@ -1,22 +1,30 @@
 {
   "paintingWidth": 19.5,
   "body": "Contemporary artist John Strain was born in Nashville, Tennessee and currently resides in Benbrook, Texas. Strain specializes in authentic depictions of the American West, especially Native Americans of the nineteenth century.  Strain says his work \"has been called reminiscent of the romantic landscapes and portrayals of Indian life of Henry Farny and Thomas Moran. I try and attain a certain mood and atmosphere in each of my paintings. I feel many of the great artists of the past such as Moran and Farny have that quality.”  His historical genre includes Civil War, World War II and patriotic themes executed with exacting detail.  Captured by the aura of the past, Strain participates in Civil War reenactments throughout the southwest as a Captain of the 7th Texas Calvary.  Strain’s paintings are displayed at the US Park Service, Class Gift Committee of the Command and General Staff College at Fort Leavenworth, KS; Fort McNair in Washington D.C., and the Normandy American Cemetery Visitor Center in Normandy, France.",
+  "highResImageHeight": 2407,
   "artist": "john_paul_strain_art-html",
+  "highResImageWidth": 3000,
+  "artOnWallAltText": "John Paul Strain Paintings for Sale - Morning After the Rain ",
   "paintingHeight": 16,
   "slug": "j_p_strain_morning_after_the_rain-html",
   "dimensions": "Gouache, 4.25 x 7.5 inches/Signed lower right",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695309151/john-paul-strain-paintings-for-sale-morning-after-the-rain_xw8kr2.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1679157788/Strain_Morning_After_the_Rain_IMG_1621_sm_cr_fr_lguhpr.jpg",
+  "gridImageWidth": 392,
   "status": "New",
   "metaTitle": "John Paul Strain - Morning After The Rain Painting For Sale",
-  "metaDescription": "John Paul Strain, American Artist From 1955 - Morning After The Rain Gouache Painting For Sale - 4.25x7.5 Inches - Signed Lower Right.",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1679157684/Strain_Morning_After_the_Rain_IMG_1621_zoom_cr_fe3k6w.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1123,
+  "metaDescription": "John Paul Strain, American Artist From 1955 - Morning After The Rain Gouache Painting For Sale - 4.25x7.5 Inches - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "Morning After the Rain",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1679157639/Strain_Morning_After_the_Rain_IMG_1621_full_gall_cr_zvskwh.jpg",
   "categories": [
     "Landscape"
   ],
+  "gridImageHeight": 251,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1679157844/Strain_Morning_After_the_Rain_IMG_1621_larg_cr_fr_vines0.jpg",
   "highlights": [
     {
@@ -28,11 +36,5 @@
     {
       "highlight": "Competitively Priced $2,500"
     }
-  ],
-  "gridImageWidth": 392,
-  "gridImageHeight": 251,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 1123,
-  "highResImageWidth": 3000,
-  "highResImageHeight": 2407
+  ]
 }
