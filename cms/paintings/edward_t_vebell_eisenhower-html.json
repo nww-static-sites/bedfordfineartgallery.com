@@ -1,16 +1,30 @@
 {
-  "artist": "edward_t_vebell-html",
+  "paintingWidth": "22",
   "body": "Edward Vebell grew up in Chicago during the depression and spent hours copying cartoons from the Chicago Tribune.  While attending a private Catholic school, the nuns spotted his artistic talent and began relying on him to draw biblical scenes on the blackboard.  Vebell began his career as a catalog illustrator for Montgomery Ward and Sears & Roebuck; however, his art career was put on hold when he was drafted into the Army.  His artistic skills saved him from combat—he was sent to Casa Blanca as a staff artist.  Vebell spent his time on the front lines capturing battle scenes all over Europe.  His last assignment for Stars & Stripes was covering the Nuremberg war trials. His famous sketch of Field Marshall Goering on trial is on display at the Holocaust Museum in Washington, D.C.\n\nAfter Vebell returned to the States, he perfected his method of using photography as the basis for his paintings.  For his historical renderings, Vebell would pose models in period costumes and photograph them in authentic settings and then paint from the photographs.  His paintings of U.S. Presidents and other historical figures are wonderfully rendered using his “model/photograph” technique.  Vebell became lead artist for Reader's Digest and a contract illustrator for Life, Time, Sports Illustrated and Random House, and also did some work for the U.S. Postal Service.",
-  "categories": [],
+  "highResImageHeight": 1625,
+  "artist": "edward_t_vebell-html",
+  "highResImageWidth": 1912,
+  "artOnWallAltText": "Edward T. Vebell Artwork for Sale - Eisenhower ",
+  "paintingHeight": "18.5",
+  "slug": "edward_t_vebell_eisenhower-html",
   "dimensions": "Watercolor and gouache, 10.5 x 14 inches / Signed lower left",
   "featured": false,
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4358_grid_gallery_crop.jpg",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4358_grid.jpg",
-  "gridImageHeight": 260,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695395141/edward-t-vebell-artwork-for-sale-eisenhower_rhjzbh.jpg",
+  "metaKeywords": "",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4358_small.jpg",
   "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "Edward T. Vebell - Eisenhower Painting For Sale",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4358_grid.jpg",
+  "mediumResImageWidth": 1141,
+  "mediumResImageHeight": 970,
+  "metaDescription": "Edward T. Vebell, Aka  Ed Vebell, American Artist Born 1921 - Eisenhower Watercolor And Gouache Painting For Sale - 10.5x14 Inches - Signed Lower Left.",
+  "title": "Eisenhower",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4358_grid_gallery_crop.jpg",
+  "categories": [],
+  "gridImageHeight": 260,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4358_original.jpg",
-  "highResImageHeight": 1625,
-  "highResImageWidth": 1912,
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -21,17 +35,5 @@
     {
       "highlight": "Competitively Priced $1,500"
     }
-  ],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4358_small.jpg",
-  "mediumResImageHeight": 970,
-  "mediumResImageWidth": 1141,
-  "metaDescription": "Edward T. Vebell, Aka  Ed Vebell, American Artist Born 1921 - Eisenhower Watercolor And Gouache Painting For Sale - 10.5x14 Inches - Signed Lower Left.",
-  "metaKeywords": "",
-  "metaTitle": "Edward T. Vebell - Eisenhower Painting For Sale",
-  "paintingHeight": "18.5",
-  "paintingWidth": "22",
-  "slug": "edward_t_vebell_eisenhower-html",
-  "status": "None",
-  "title": "Eisenhower",
-  "youtubeEmbedLink": ""
+  ]
 }
