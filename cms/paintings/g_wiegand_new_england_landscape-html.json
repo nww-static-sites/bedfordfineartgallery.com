@@ -1,22 +1,30 @@
 {
   "paintingWidth": 28.75,
   "body": "Wiegand was born in Bremen, Germany, and studied at the Royal School of Art in Berlin (closed 1945) under Eugen Felix Prosper Bracht and at The Royal Academy of Dresden (now Dresden Academy of Fine Arts).  Wiegand also studied with New York plein-air artist William Merritt Chase, either at his summer school at Shinnecock, Long Island or at the Art Students League in Manhattan. He lived variously in Brooklyn, New York (1894-1900); Summit, New Jersey and finally in Old Chatham, New York.  Wiegand painted scenes of New York State-- Blue Mountain/Blue Mountain Lake and Raquette Lake in the Adirondack Mountains; the Palisades and Woodstock, New York State, Willow Brook, Staten Island and Bensonhurst; New Jersey--Highpoint near Port Jervis and Summit; New Hampshire--Mount Kearsarge, Rocky Hills, Otter Pond and Lake Sunapee; and Maine--Pickering House and Mt Desert Island, Arcadia National Park. Wiegand was a member of the National Arts Club (NYC); Allied Artists of America; New York Society of Painters, and the Salmagundi Club (NYC). He exhibited at the National Academy of Design (1894-1900. 1905, prize); Art Institute of Chicago; Pennsylvania Academy of the Fine Arts (1900-1910, 1916); Corcoran Gallery (1907-1908); St. Louis world’s Fair (1904, medal); Society of Independent Artists (1917); Allied Artists of America (1937, prize); World’s Fair St. Louis (medal); and the Salons of America.",
+  "highResImageHeight": 2432,
   "artist": "g_wiegand_artist-html",
+  "highResImageWidth": 2761,
+  "artOnWallAltText": "Gustave Adolph Wiegand 19th Century Paintings for Sale - A New England Landscape with Pond ",
   "paintingHeight": 24,
   "slug": "g_wiegand_new_england_landscape-html",
   "dimensions": "Oil on canvas, 15.75 x 19.5 inches/Signed lower right",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695660499/gustave-adolph-wiegand-19th-century-paintings-for-sale-a-new-england-landscape-with-pond_pewll9.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiegand-img_1290-2-full-sm-cr-fr.jpg",
+  "gridImageWidth": 392,
   "status": "New",
   "metaTitle": "Gustave Wiegand - A New England Landscape with Pond for sale",
-  "metaDescription": "Gustave Adolph Wiegand, German-american, 1870–1957 - A New England Landscape With Pond Oil On Canvas Painting For Sale - 15.75x19.5 Inches - Signed Lower Right.",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiegand-img_1290-2-crop-zoom.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1233,
+  "metaDescription": "Gustave Adolph Wiegand, German-american, 1870–1957 - A New England Landscape With Pond Oil On Canvas Painting For Sale - 15.75x19.5 Inches - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "A New England Landscape with Pond",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiegand-img_1290-2-gall-full-cr.jpg",
   "categories": [
     "Landscape"
   ],
+  "gridImageHeight": 255,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiegand-img_1290-2-full-lrg-cr-fr.jpg",
   "highlights": [
     {
@@ -28,11 +36,5 @@
     {
       "highlight": "Competitively priced  $1,300"
     }
-  ],
-  "gridImageWidth": 392,
-  "gridImageHeight": 255,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 1233,
-  "highResImageWidth": 2761,
-  "highResImageHeight": 2432
+  ]
 }
