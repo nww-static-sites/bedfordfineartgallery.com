@@ -1,15 +1,22 @@
 {
   "paintingWidth": 34.85,
   "body": "Wiggins was born in Harriman, New York. As a young man, a patron financed his art study. He was to study with Hudson River artist Johan Carmienke in Brooklyn, NY, where he lived, and with Tonalist landscape painter George Inness at the National Academy of Design, and where he exhibited his first painting in 1870. During the 1880s, he traveled to Europe, taking study in England, The Netherlands and Paris, France and painted en plein air at the village of Barbizon located at the edge of the Fontainebleau Forest. During his time in Paris time, Wiggins began including sheep and cattle into his landscapes after having seen the paintings of Barbizon landscapist and animal painter Constant Troyon, and in 1881 exhibited animal paintings at the annual Paris Salon. In 1896 Wiggins began exhibiting at the Royal Academy in London. Circa 1900, he returned to New York City and opened a studio in Greenwich Village. In 1904 Wiggins bought a summer home, “River Wood,” overlooking the Connecticut River in Old Lyme CT, and in 1915 he made it his permanent residence. Wiggins joined other artists at the Old Lyme Art colony, which was to become first center of American Impressionism. He also opened an art school in Old Lyme. Wiggins was a member of National Academy of Design (associate, 1890; academician, 1905); Society of American Artists (1887); American Water Color Society; Salmagundi Club (1898, pres. 1911-12); Lotos Club; Brooklyn Art Club; Artists Fund Society; Artists Aid Association; American Society of Animal P&S; Connecticut Academy of Fine Arts; AFA; Lyme Artists Association and the American Federation of Arts. He exhibited at the National Academy of Design (1866-1900); Brooklyn Art Association (1865-92); Pennsylvania Academy of the Fine Arts annuals (1880; 1888-1907, six times); Paris Salon (1881); Boston Art Club (1882-1909); Art Institute of Chicago; Prize Fund Exhibition (NYC, gold); Pan-Am Expo. (Buffalo, NY, 1901, medal); Royal Academy (London) and Corcoran Gallery biennial (1910).",
+  "highResImageHeight": 1953,
   "artist": "j_carleton_wiggins_landscape-html",
+  "highResImageWidth": 3000,
+  "artOnWallAltText": "John Carleton Wiggins 19th Century Paintings for Sale - Cattle Watering In A Sunset River Landscape",
   "paintingHeight": 22.75,
   "slug": "j_carleton_wiggins_cattle_in_landscape-html",
   "dimensions": "Oil on canvas, 17.25 x 29.5 inches/Signed lower left",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695660728/john-carleton-wiggins-19th-century-paintings-for-sale-cattle-watering-in-a-sunset-river-landscape_yuy58d.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/jc-wiggins-img_1502-sm-cr-fr.jpg",
+  "gridImageWidth": 392,
   "status": "New",
   "metaTitle": "J. Carleton Wiggins - Cattle Watering in a Sunset River",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/jc-wiggins-img_1502-zoom-cr4.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 913,
   "metaDescription": "Wiggins began including sheep and cattle into his landscapes after having seen the paintings of Barbizon painter Constant Troyon.",
   "scrollingHomepageImage": false,
   "title": "Cattle Watering In A Sunset River Landscape",
@@ -17,6 +24,7 @@
   "categories": [
     "Landscape"
   ],
+  "gridImageHeight": 233,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/jc-wiggins-img_1502-lrg-cr-fr.jpg",
   "highlights": [
     {
@@ -28,11 +36,5 @@
     {
       "highlight": "Competitively priced  $5,600"
     }
-  ],
-  "gridImageWidth": 392,
-  "gridImageHeight": 233,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 913,
-  "highResImageWidth": 3000,
-  "highResImageHeight": 1953
+  ]
 }
