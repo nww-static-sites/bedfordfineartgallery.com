@@ -1,22 +1,30 @@
 {
   "paintingWidth": 16,
   "body": "Austin C. Wooster was born in Chartiers Valley, Allegheny County, Pennsylvania (Thornburg).  His great-grandfather was a member of the Pennsylvania Militia during the Revolutionary War.  Although Wooster had natural artistic ability, his grand-parents, who raised him after the deaths of his parents, discouraged him from pursuing art, thinking of it as criminal and an insane fantasy.  Wooster persevered and eventually moved to Union Township (Greentree), Allegheny County, where he earned a living as an artist, painting portraits, landscapes, and still lifes.  Nothing is known of his art training; however, it appears that he was influenced by another Pittsburgh artist—A.F. King, who specialized in still lifes.  Other than serving with the Union Army, under General John J. Peck, during the Civil War, Wooster never strayed far from his Pittsburgh environs.  It has been reported, but not substantiated that Wooster had painted a portrait of General Peck.  Wooster began his career as a painter of river landscapes, but later focused on still lifes.  In addition to exhibiting at the Western Pennsylvania Exposition Society, Wooster sold paintings through Pittsburgh department stores.",
+  "highResImageHeight": 2789,
   "artist": "austin_c_wooster-html",
+  "highResImageWidth": 3000,
+  "artOnWallAltText": "Austin C. Wooster Victorian Art for Sale - Grapes and Peaches ",
   "paintingHeight": 15.5,
   "slug": "austin_wooster_grapes_and_peaches-html",
   "dimensions": "Oil on board, 10 x 10.5 inches/Signed lower right",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695661462/austin-c-wooster-victorian-art-for-sale-grapes-and-peaches_hpzb7r.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1677887391/Wooster_Grapes_Peaches_IMG_1601_sm_cr_fr_hyvsxz.jpg",
+  "gridImageWidth": 392,
   "status": "New",
+  "metaTitle": "Austin C. Wooster - Grapes And Peaches Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1677887370/Wooster_Grapes_Peaches_IMG_1601_zoom_cr_pyochk.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1302,
+  "metaDescription": "Austin C. Wooster, American Artist From 1838-1913 - Aka  A.C. Wooster - Grapes And Peaches Oil On Board Painting For Sale - 10x10.5 Inches - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "Grapes and Peaches",
-  "metaTitle": "Austin C. Wooster - Grapes And Peaches Painting For Sale",
-  "metaDescription": "Austin C. Wooster, American Artist From 1838-1913 - Aka  A.C. Wooster - Grapes And Peaches Oil On Board Painting For Sale - 10x10.5 Inches - Signed Lower Right.",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1678109505/wooster_graphes_and_peaches_grid_rqqpob.jpg",
   "categories": [
     "Still Life"
   ],
+  "gridImageHeight": 285,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1677887436/Wooster_Grapes_Peaches_IMG_1601_lrg_cr_fr_rl7ue6.jpg",
   "highlights": [
     {
@@ -28,11 +36,5 @@
     {
       "highlight": "Competitively Priced $3,200"
     }
-  ],
-  "gridImageWidth": 392,
-  "gridImageHeight": 285,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 1302,
-  "highResImageWidth": 3000,
-  "highResImageHeight": 2789
+  ]
 }
