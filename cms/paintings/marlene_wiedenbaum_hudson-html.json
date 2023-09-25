@@ -1,19 +1,33 @@
 {
-  "artist": "marlene_wiedenbaum_art-html",
+  "paintingWidth": "20",
   "body": "Award-winning High Falls, New York, artist Marlene Wiedenbaum lives and works primarily in the Hudson Valley.  She graduated graduated from of Queens College, State University of New York (New Paltz) and attended the Arts Students League in NYC.  A Pastel Society of America- Master Pastelist -- her plein-air landscapes, figurative, and still life paintings have been exhibited throughout the United States.  Wiedenbaum has been featured in Art Times; Fine Art Connoisseur/Fine Art Today; The Artist’s Magazine - A “Studio Visit”; American Artists Magazine; ArtTimes; Poughkeepsie Journal; and Catskill Mountain Guide, among other publications.  John A. Parks (American Artist Magazine) has said of her work—\"By subtly layering pastel, Wiedenbaum creates a luscious and convincing sense of the world.\"  Her work is among six International Master Pastelists featured in two text books commissioned by the Taiwanese government.  Wiedenbaum is a member of the Degas Pastel Society; New York Society of Women Artists; Pastel Society of America, Society of Painters in Pastel; Woodstock Art Association; Platte Cove Artist Residency; New York Plein Air Painters; National Academy of Professional Plein Air Painters; Pastel Society of America; New York Society of Women Artists; Organization of Independent Artists; LongReachArts Cooperative Gallery (Dutchess County, NY); International Honorable Member of the Beijing Pastel Research Academy; and Woodstock Artists Association & Museum (NY). ",
+  "highResImageHeight": 2463,
+  "artist": "marlene_wiedenbaum_art-html",
+  "highResImageWidth": 2895,
+  "artOnWallAltText": "Marlene Wiedenbaum 19th Century Paintings for Sale - Hudson River Sunrise IV with Ducks ",
+  "paintingHeight": "17",
+  "slug": "marlene_wiedenbaum_hudson-html",
+  "dimensions": "Pastel, 10.5 x 13.5 inches/Signed lower left",
+  "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695658497/marlene-wiedenbaum-19th-century-paintings-for-sale-hudson-river-sinrise-with-ducks_kumt0t.jpg",
+  "metaKeywords": "",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiedenbaum_small2.jpg",
+  "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "Marlene Wiedenbaum - Hudson River Sunrise IV with Ducks",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiedenbaum_grid2.jpg",
+  "mediumResImageWidth": 1572,
+  "mediumResImageHeight": 1337,
+  "metaDescription": "Award-winning High Falls, New York, artist Marlene Wiedenbaum lives and works primarily in the Hudson Valley. She graduated graduated from of Queens College, State U",
+  "title": "Hudson River Sunrise IV with Ducks",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiedenbaum_grid2_gallery_crop.jpg",
   "categories": [
     "Landscape",
     "Animal"
   ],
-  "dimensions": "Pastel, 10.5 x 13.5 inches/Signed lower left",
-  "featured": false,
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiedenbaum_grid2_gallery_crop.jpg",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiedenbaum_grid2.jpg",
   "gridImageHeight": 261,
-  "gridImageWidth": 392,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiedenbaum_full2.jpg",
-  "highResImageHeight": 2463,
-  "highResImageWidth": 2895,
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -24,17 +38,5 @@
     {
       "highlight": "Competitively Priced $1,400"
     }
-  ],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiedenbaum_small2.jpg",
-  "mediumResImageHeight": 1337,
-  "mediumResImageWidth": 1572,
-  "metaDescription": "Award-winning High Falls, New York, artist Marlene Wiedenbaum lives and works primarily in the Hudson Valley. She graduated graduated from of Queens College, State U",
-  "metaKeywords": "",
-  "metaTitle": "Marlene Wiedenbaum - Hudson River Sunrise IV with Ducks",
-  "paintingHeight": "17",
-  "paintingWidth": "20",
-  "slug": "marlene_wiedenbaum_hudson-html",
-  "status": "None",
-  "title": "Hudson River Sunrise IV with Ducks",
-  "youtubeEmbedLink": ""
+  ]
 }
