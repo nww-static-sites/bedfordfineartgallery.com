@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693491348/william-holbrook-beard-vitorian-art-for-sale-deer-at-rock-ledge_t4uxhe.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1688051768/Beard_Deer_IMG_1829_sm_cr_fr_ok3qmu.jpg",
   "gridImageWidth": 392,
-  "status": "Hold",
+  "status": "Sold",
   "metaTitle": "William Holbrook Beard - Deer At Rock Ledge Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1688051745/Beard_Deer_IMG_1829_zoom_cr_qkxfdb.jpg",
   "mediumResImageWidth": 1400,
@@ -27,15 +27,5 @@
   ],
   "gridImageHeight": 308,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1688051792/Beard_Deer_IMG_1829_lrg_cr_fr_wsibop.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $6,731"
-    }
-  ]
+  "highlights": []
 }
