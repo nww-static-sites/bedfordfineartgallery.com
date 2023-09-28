@@ -1,18 +1,32 @@
 {
-  "artist": "austin_c_wooster-html",
+  "paintingWidth": "14",
   "body": "Austin C. Wooster was born in Chartiers Valley, Allegheny County, Pennsylvania (Thornburg). His great-grandfather was a member of the Pennsylvania Militia during the Revolutionary War. Although Wooster had natural artistic ability, his grand-parents, who raised him after the deaths of his parents, discouraged him from pursuing art, thinking of it as criminal and an insane fantasy. Wooster persevered and eventually moved to Union Township (Greentree), Allegheny County, where he earned a living as an artist painting portraits, landscapes, and still lifes. Nothing is known of his art training; however, it appears that he was influenced by another Pittsburgh artist—A.F. King, who specialized in still lifes. Other than serving with the Union Army, under General John J. Peck, during the Civil War, Wooster never strayed far from his Pittsburgh environs. It has been reported, but not substantiated that Wooster had painted a portrait of General Peck. Wooster began his career as a painter of river landscapes, but later focused on still lifes. In addition to exhibiting at the Western Pennsylvania Exposition Society, Wooster sold paintings through Pittsburgh department stores. ",
+  "highResImageHeight": 1562,
+  "artist": "austin_c_wooster-html",
+  "highResImageWidth": 2196,
+  "artOnWallAltText": "Austin C. Wooster Victorian Art for Sale - Still Life with Fruit, 1893 ",
+  "paintingHeight": "10",
+  "slug": "austin_c_wooster_fruit-html",
+  "dimensions": "Oil on canvas, 8 x 12 inches / Signed and dated lower right",
+  "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695661100/austin-c-wooster-victorian-art-for-sale-still-life-with-fruit-1893_nq9yz0.jpg",
+  "metaKeywords": "Austin C. Wooster, American 1838  1913, 19th century artist, Still Life with Fruit, 1893, 1893 painting, Oil on canvas, still life, still life artwork, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery ",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wooster_fruit_small.jpg",
+  "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "Austin C. Wooster - Still Life with Fruit, 1893 Painting",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4041_grid.jpg",
+  "mediumResImageWidth": 1011,
+  "mediumResImageHeight": 719,
+  "metaDescription": "Austin C. Wooster, American Artist From 1838 - 1913 - Still Life With Fruit, 1893 Oil On Canvas Painting For Sale, 8x12 Inches - Signed And Dated Lower Right.",
+  "title": "Still Life with Fruit, 1893",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wooster_fruit_grid_gallery_crop.jpg",
   "categories": [
     "Still Life"
   ],
-  "dimensions": "Oil on canvas, 8 x 12 inches / Signed and dated lower right",
-  "featured": false,
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wooster_fruit_grid_gallery_crop.jpg",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4041_grid.jpg",
   "gridImageHeight": 260,
-  "gridImageWidth": 392,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wooster_fruit_full.jpg",
-  "highResImageHeight": 1562,
-  "highResImageWidth": 2196,
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -23,17 +37,5 @@
     {
       "highlight": "Competitively Priced $6,500"
     }
-  ],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wooster_fruit_small.jpg",
-  "mediumResImageHeight": 719,
-  "mediumResImageWidth": 1011,
-  "metaDescription": "Austin C. Wooster, American Artist From 1838 - 1913 - Still Life With Fruit, 1893 Oil On Canvas Painting For Sale, 8x12 Inches - Signed And Dated Lower Right.",
-  "metaKeywords": "Austin C. Wooster, American 1838  1913, 19th century artist, Still Life with Fruit, 1893, 1893 painting, Oil on canvas, still life, still life artwork, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery ",
-  "metaTitle": "Austin C. Wooster - Still Life with Fruit, 1893 Painting",
-  "paintingHeight": "10",
-  "paintingWidth": "14",
-  "slug": "austin_c_wooster_fruit-html",
-  "status": "None",
-  "title": "Still Life with Fruit, 1893",
-  "youtubeEmbedLink": ""
+  ]
 }
