@@ -2,5 +2,8 @@
   "hasLandingPage": true,
   "name": "Oscar Leu",
   "tinyDescription": "German 1864 - 1942",
-  "slug": "oscar_leu-html"
+  "slug": "oscar_leu-html",
+  "paintings": [
+    "oscar_leu_summer_pond-html"
+  ]
 }
