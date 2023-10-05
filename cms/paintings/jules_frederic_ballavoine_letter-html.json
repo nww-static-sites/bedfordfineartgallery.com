@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "https://www.youtube.com/embed/yV8lWlnhZs8?rel=0",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ballavoine_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Jules Frederic Ballavoine Penning a Love Letter Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ballavoine_grid.jpg",
   "mediumResImageWidth": 1245,
@@ -27,15 +27,5 @@
   ],
   "gridImageHeight": 260,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ballavoine_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $9,000"
-    }
-  ]
+  "highlights": []
 }
