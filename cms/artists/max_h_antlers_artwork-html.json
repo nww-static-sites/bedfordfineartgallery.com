@@ -1,12 +1,12 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Max H. Antlers Paintings For Sale",
-   "metaTitle": "",
-   "metaDescription": "",
-   "paintings" : [
-      "max_antlers_forest-html"
-   ],
-   "slug" : "max_h_antlers_artwork-html",
-   "tinyDescription" : "German-American 1873-1952"
+  "alias": "",
+  "hasLandingPage": true,
+  "name": "Max H. Antlers Paintings For Sale",
+  "metaTitle": "Max H. Antlers 19th Century Paintings For Sale",
+  "metaDescription": "Step back in time with Max H.'s Antlers collection: 19th-century artistry capturing the wild's essence. Adorn your space with history and elegance. Available now!",
+  "paintings": [
+    "max_antlers_forest-html"
+  ],
+  "slug": "max_h_antlers_artwork-html",
+  "tinyDescription": "German-American 1873-1952"
 }
