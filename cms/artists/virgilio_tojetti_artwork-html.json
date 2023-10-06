@@ -1,10 +1,12 @@
 {
-   "alias" : "V. Tojetti",
-   "hasLandingPage": true,
-   "name" : "Virgilio Tojetti",
-   "paintings" : [
-      "virgilio_tojetti_putti-html"
-   ],
-   "slug" : "virgilio_tojetti_artwork-html",
-   "tinyDescription" : "Italian - American, 1849 - 1901"
+  "alias": "V. Tojetti",
+  "hasLandingPage": true,
+  "name": "Virgilio Tojetti",
+  "paintings": [
+    "virgilio_tojetti_putti-html"
+  ],
+  "slug": "virgilio_tojetti_artwork-html",
+  "tinyDescription": "Italian - American, 1849 - 1901",
+  "metaTitle": "Virgilio Tojetti 19th Century Artwork For Sale",
+  "metaDescription": "Unveil the elegance of the 19th century with Virgilio Tojetti's artworks. A confluence of classic beauty and intricate details awaits you."
 }
