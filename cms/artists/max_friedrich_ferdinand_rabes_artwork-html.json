@@ -1,12 +1,12 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Max Friedrich Ferdinand Rabes",
-   "metaTitle": "Max Friedrich Ferdinand Rabes Art For Sale",
-   "metaDescription": "",
-   "paintings" : [
-      "max_friedrich_ferdinand_rabes_woman_on_bench-html"
-   ],
-   "slug" : "max_friedrich_ferdinand_rabes_artwork-html",
-   "tinyDescription" : "German 1868 - 1944"
+  "alias": "",
+  "hasLandingPage": true,
+  "name": "Max Friedrich Ferdinand Rabes",
+  "metaTitle": "Max Friedrich Ferdinand Rabes Art For Sale",
+  "metaDescription": "Dive into the exquisite world of Max F. F. Rabes. Explore his captivating Orientalist artworks, capturing the essence of the Middle East. Own a timeless masterpiece.",
+  "paintings": [
+    "max_friedrich_ferdinand_rabes_woman_on_bench-html"
+  ],
+  "slug": "max_friedrich_ferdinand_rabes_artwork-html",
+  "tinyDescription": "German 1868 - 1944"
 }
