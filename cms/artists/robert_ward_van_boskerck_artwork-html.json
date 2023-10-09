@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Robert Ward Van Boskerck",
-   "metaTitle": "Robert Ward Van Boskerck Paintings For Sale",
-   "metaDescription": "Discover Robert Ward Van Boskerck's captivating paintings for sale. Elevate your collection with his emotive artistry and intricate details.",
-   "paintings" : [
-      "robert_ward_van_boskerck_stream-html"
-   ],
-   "slug" : "robert_ward_van_boskerck_artwork-html",
-   "tinyDescription" : "American 1855 - 1932"
+  "alias": "",
+  "hasLandingPage": true,
+  "name": "Robert Ward Van Boskerck",
+  "metaTitle": "Robert Ward Van Boskerck Paintings For Sale",
+  "metaDescription": "Discover Robert Ward Van Boskerck's captivating paintings for sale. Elevate your collection with his emotive artistry and intricate details.",
+  "paintings": [
+    "robert_ward_van_boskerck_stream-html",
+    "van_boskerck_fishing_dock_under_the_shade_of_an_old_tree-html"
+  ],
+  "slug": "robert_ward_van_boskerck_artwork-html",
+  "tinyDescription": "American 1855 - 1932"
 }

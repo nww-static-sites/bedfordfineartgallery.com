@@ -1,22 +1,30 @@
 {
   "paintingWidth": 22.75,
   "body": "Marine painter Rehn was born in Philadelphia, Pennsylvania and at the age of 18 enrolled at the Pennsylvania Academy of the Fine Arts and studied with Christian Schussele. Unlike many American artists of the 19th century Rehn never traveled to Europe to study. In the early part of his career, he painted a variety of subjects, including portraiture, and sold terra cotta plates, but in the 1870s, he moved to the New Jersey coast and began painting coastal and marine scenes. In 1881, following his marriage to Margaret Selby, the couple moved to New York City, where Rehn rented a suite at the Chelsea Hotel. Finding it very comfortable after having lived there for many years, in 1900 he signed a 48-year lease for the suite, to which he gave the name “Spion Kop.” Rehn and his wife summered in Magnolia, Massachusetts where he died suddenly in 1914. Rehn was a member of the National Academy of Design (Associate, 1899; Academician, 1908); Society of American Artist (1903); American Watercolor Society; New York Watercolor Society; Salmagundi Club (1883; president before his death) and Lotos Club. He exhibited at the Pennsylvania Academy of the Fine Arts- (1876-1892, 1898-1906); National Academy of Design (1879-1914); Brooklyn Artists Association (1881-1186; 18+91); St. Louis (1882, prize); Boston Art Club (1882-1909); Prize Fund Exhibition (NYC, gold); Paris Expo (1900); Pan-American Expo (Buffalo, 1901, medal); Charleston Expo (1902, medal); St. Louis Exp (1904); Salmagundi Club (1905-prize, 1906, prize); Corcoran Gallery (1907-1912, 4 times); American Art Society (Philadelphia); Art Institute of Chicago.",
+  "highResImageHeight": 1999,
   "artist": "frank_rehn_artist-html",
-  "metaTitle": "Frank Knox Morton Rehn - Boats At Sunrise Painting For Sale",
-  "metaDescription": "Frank Knox Morton Rehn, American Artist From 1848–1914 - Boats At Sunrise Oil On Canvas Painting For Sale - 15.25x27.5 Inches - Signed Lower Right.",
+  "highResImageWidth": 3000,
+  "artOnWallAltText": "Frank Knox Morton Rehn Art for Sale - Boats at Sunrise",
   "paintingHeight": 33.75,
   "slug": "frank_rehn_boats_at_sunset-html",
   "dimensions": "Oil on canvas, 15.25 x 27.5 inches/Signed lower right",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695294252/frank-knox-morton-rehn-art-for-sale-boats-at-sunrise_g7nqgb.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687528969/Rehn_IMG_1758_sm_cr_fr_nwtyqf.jpg",
+  "gridImageWidth": 392,
   "status": "New",
+  "metaTitle": "Frank Knox Morton Rehn - Boats At Sunrise Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687528894/Rehn_IMG_1758_zoom_cr_f973nn.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 933,
+  "metaDescription": "Frank Knox Morton Rehn, American Artist From 1848–1914 - Boats At Sunrise Oil On Canvas Painting For Sale - 15.25x27.5 Inches - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "Boats at Sunrise",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687528826/Rehn_IMG_1758_full_gall_cr_g8blur.jpg",
   "categories": [
     "Marine"
   ],
+  "gridImageHeight": 261,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687528997/Rehn_IMG_1758_lrg_cr_fr_ohesdi.jpg",
   "highlights": [
     {
@@ -28,11 +36,5 @@
     {
       "highlight": "Competitively Priced $3,900"
     }
-  ],
-  "gridImageWidth": 392,
-  "gridImageHeight": 261,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 933,
-  "highResImageWidth": 3000,
-  "highResImageHeight": 1999
+  ]
 }

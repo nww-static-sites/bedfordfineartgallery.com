@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1692205013/bensell_fishing_in_the_wilderness_room_qiaax5.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1688153034/Bensell_Fishing_in_the_Wilderness_IMG_1636_sm_cr_fr_sr7bog.jpg",
   "gridImageWidth": 392,
-  "status": "New",
+  "status": "Sold",
   "youtubeAltText": "George Frederick Bensell - Fishing in the Wilderness ",
   "metaTitle": "George Frederick Bensell - Fishing In The Wilderness Painting",
   "mainImageAltText": "George Frederick Bensell - Fishing in the Wilderness ",
@@ -30,15 +30,5 @@
   ],
   "gridImageHeight": 199,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1688153062/Bensell_Fishing_in_the_Wilderness_IMG_1636_lrg_cr_fr_p9saf9.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $3,335"
-    }
-  ]
+  "highlights": []
 }

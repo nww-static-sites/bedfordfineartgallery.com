@@ -1,18 +1,32 @@
 {
-  "artist": "andrew_thomas_schwartz_artwork-html",
+  "paintingWidth": "23.75",
   "body": "Schwartz was born in Louisville, Kentucky.  He took his first art instruction with Cincinnati Artist, Frank Duveneck in 1890, and later with Henry Siddons Mowbray at the Art Students League in New York City.  While there, Schwartz was awarded the Jacob H. Lazarus Scholarship for the Study of Mural Painting.  He spent 1899 to 1902 in Italy, France, Germany and England.  Upon his return to New York the work he produced was exhibited at the Pratt Institute in Brooklyn assisted Mowbray in decorating the University Club of New York and the private library of J. P. Morgan’s Madison Avenue home.  Schwartz painted murals for the Baptist Church in South Londonderry, Vermont, which is his best known, and also the Courthouse of New York, the New York YMCA, the Atkins Museum of Fine Art in Kansas City and the Kansas City Life Insurance Company Building.  Although he established hi reputation with murals, which were considered by critics as some of the best in the United States, he also painted on canvas – mostly New England landscapes, but some genre and an occasional nude.  His years abroad “influenced the style of his decorative landscapes and figure compositions…so delightful in their patterned design of hill and trees, show a coolness of color that is refreshing to see, this from the Cincinnati-Commercial-Tribune in 1918.  Schwartz was a member of the National Society of Mural Painters, the Salmagundi Club, the Architectural League of New York, Allied Artists of America, American Watercolor Society, the Circolo Artistico (Rome, Italy), and the Union International Des Beaux Arts et Des Lettres (Paris, France).  He exhibited at the National Academy of Design (NYC): Pennsylvania Academy of the Fine Arts (Philadelphia, PA); the Art Institute of Chicago, the Carnegie Institute International (Pittsburgh, PA); Panama–Pacific International Exposition (San Francisco, 1915).  \n\nHigh auction record for this artist is $31,200.",
+  "highResImageHeight": 2711,
+  "artist": "andrew_thomas_schwartz_artwork-html",
+  "highResImageWidth": 3263,
+  "artOnWallAltText": "Andrew Thomas Schwartz 19th Century Paintings for Sale - Pink Flowers ",
+  "paintingHeight": "18.75",
+  "slug": "andrew_thomas_schwartz_flowers-html",
+  "dimensions": "Oil on board, 15.5 x 19.25 inches/Signed lower right",
+  "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695301381/andrew-thomas-schwartz-19th-century-paintings-for-sale-pink-flowers_x8hpvd.jpg",
+  "metaKeywords": "Andrew Thomas Schwartz, 1867 - 1942, 19th century artist, 20th century artist, Oil on board, landscape, landscape artwork, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery ",
+  "youtubeEmbedLink": "",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/schwartz_small.jpg",
+  "gridImageWidth": 392,
+  "status": "None",
+  "metaTitle": "Andrew Thomas Schwartz - Pink Flowers Painting For Sale",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/schwartz_grid.jpg",
+  "mediumResImageWidth": 1306,
+  "mediumResImageHeight": 1085,
+  "metaDescription": "Schwartz was born in Louisville, Kentucky.  Schwartz painted murals for the Baptist Church in South Londonderry, Vermont, which is his best known, and also the Court",
+  "title": "Pink Flowers",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/schwartz_grid_gallery_crop.jpg",
   "categories": [
     "Landscape"
   ],
-  "dimensions": "Oil on board, 15.5 x 19.25 inches/Signed lower right",
-  "featured": false,
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/schwartz_grid_gallery_crop.jpg",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/schwartz_grid.jpg",
   "gridImageHeight": 260,
-  "gridImageWidth": 392,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/schwartz_full.jpg",
-  "highResImageHeight": 2711,
-  "highResImageWidth": 3263,
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -23,17 +37,5 @@
     {
       "highlight": "Competitively Priced $3,250"
     }
-  ],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/schwartz_small.jpg",
-  "mediumResImageHeight": 1085,
-  "mediumResImageWidth": 1306,
-  "metaDescription": "Schwartz was born in Louisville, Kentucky.  Schwartz painted murals for the Baptist Church in South Londonderry, Vermont, which is his best known, and also the Court",
-  "metaKeywords": "Andrew Thomas Schwartz, 1867 - 1942, 19th century artist, 20th century artist, Oil on board, landscape, landscape artwork, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery ",
-  "metaTitle": "Andrew Thomas Schwartz - Pink Flowers Painting For Sale",
-  "paintingHeight": "18.75",
-  "paintingWidth": "23.75",
-  "slug": "andrew_thomas_schwartz_flowers-html",
-  "status": "None",
-  "title": "Pink Flowers",
-  "youtubeEmbedLink": ""
+  ]
 }
