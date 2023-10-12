@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "George Nelson Cass",
-   "metaTitle": "George Nelson Cass Paintings For Sale",
-   "metaDescription": "Experience the artistry of George Nelson Cass. Browse and acquire captivating paintings for sale, capturing moments and emotions with every brushstroke.",
-   "paintings" : [
-      "george_nelson_cass_fisherman-html"
-   ],
-   "slug" : "george_nelson_cass_artwork-html",
-   "tinyDescription" : "American c. 1825 - 1882"
+  "alias": "",
+  "hasLandingPage": true,
+  "name": "George Nelson Cass",
+  "metaTitle": "George Nelson Cass Paintings For Sale",
+  "metaDescription": "Experience the artistry of George Nelson Cass. Browse and acquire captivating paintings for sale, capturing moments and emotions with every brushstroke.",
+  "paintings": [
+    "george_nelson_cass_fisherman-html",
+    "george_nelson_cass_new_jersey_meadow-html"
+  ],
+  "slug": "george_nelson_cass_artwork-html",
+  "tinyDescription": "American c. 1825 - 1882"
 }
