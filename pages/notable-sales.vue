@@ -6,7 +6,7 @@
 import Gallery from "~/components/Gallery";
 import { loadGalleryPaintings } from '~/libs/paintings'
 
-const category = 'Recently Sold'
+const category = 'Past Sales'
 
 export default {
     components: { Gallery },

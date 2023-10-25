@@ -36,7 +36,7 @@ Please click photos for a COMPLETE image and description. </div></div>
                 </ul>
 
                 <div
-                    v-if="category === 'Recently Sold'"
+                    v-if="category === 'Past Sales'"
                     style="
                         max-width: 860px;
                         margin: auto;
@@ -191,7 +191,7 @@ export default {
                     'Sporting Art',
                     'Animal',
                     'Sculpture',
-                    'Recently Sold',
+                    'Past Sales',
                 ].includes(value)
             },
         },
@@ -216,7 +216,7 @@ export default {
                 { routeName: 'sporting-art', name: 'Sporting Art' },
                 { routeName: 'animal-artwork', name: 'Animal' },
                 { routeName: 'sculpture', name: 'Sculpture' },
-                { routeName: 'notable-sales', name: 'Recently Sold' },
+                { routeName: 'notable-sales', name: 'Past Sales' },
             ],
         }
     },
