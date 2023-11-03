@@ -9,7 +9,7 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1697379773/Loveridge_moonlit_fishermen_AP_m9mozq.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1696689468/Loveridge_moonlit_fishermen_IMG_2014_sm_cr_fr_oijens.jpg",
-  "status": "Hold",
+  "status": "Sold",
   "metaTitle": "Clinton Loveridge Fishermen in Moonlight Victorian Painting",
   "mainImageAltText": "Clinton Loveridge Victorian Paintings For Sale - Fishermen in the Moonlight",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1696689438/Loveridge_moonlit_fishermen_IMG_2014_zoom_cr_ki3yxe.jpg",
@@ -22,15 +22,5 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1696689491/Loveridge_moonlit_fishermen_IMG_2014_lrg_cr_fr_o5alpa.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $2,478"
-    }
-  ]
+  "highlights": []
 }
