@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/poole_river_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Eugene Alonzo Poole - River Landscape in Early Autumn",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/poole_river_grid.jpg",
   "mediumResImageWidth": 1139,
@@ -27,15 +27,5 @@
   ],
   "gridImageHeight": 261,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/poole_river_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $2,800"
-    }
-  ]
+  "highlights": []
 }
