@@ -1,12 +1,12 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "James Jackson Curnock",
-   "metaTitle": "James Jackson Curnock Artist Paintings For Sale",
-   "metaDescription": "Discover the captivating artistry of James Jackson Curnock. Immerse yourself in his intricate details and emotive compositions. Artwork for sale, ready to enrich your space.",
-   "paintings" : [
-      "james_curnock_sunny_day-html"
-   ],
-   "slug" : "james_jackson_curnock_artwork-html",
-   "tinyDescription" : "British 1839 - 1891"
+  "alias": "",
+  "hasLandingPage": true,
+  "name": "James Jackson Curnock",
+  "metaTitle": "James Jackson Curnock Artist Paintings For Sale",
+  "metaDescription": "Discover the captivating artistry of James Jackson Curnock. Immerse yourself in his intricate details & emotive compositions. Artwork ready to enrich your space",
+  "paintings": [
+    "james_curnock_sunny_day-html"
+  ],
+  "slug": "james_jackson_curnock_artwork-html",
+  "tinyDescription": "British 1839 - 1891"
 }
