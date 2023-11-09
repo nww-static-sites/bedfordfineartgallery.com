@@ -1,12 +1,12 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Peter Hurd",
-   "metaTitle": "Artist Peter Hurd Paintings For Sale",
-   "metaDescription": "Explore the captivating paintings of artist Peter Hurd for sale. Immerse in his unique artistic perspective. Own a Hurd masterpiece that resonates with creativity and heritage.",
-   "paintings" : [
-      "peter_hurd_mountain-html"
-   ],
-   "slug" : "peter_hurd_artwork-html",
-   "tinyDescription" : "American 1904 - 1984"
+  "alias": "",
+  "hasLandingPage": true,
+  "name": "Peter Hurd",
+  "metaTitle": "Artist Peter Hurd Paintings For Sale",
+  "metaDescription": "Explore captivating paintings of artist Peter Hurd for sale. Immerse in his unique artistic perspective. Own a Hurd masterpiece that resonates with creativity.",
+  "paintings": [
+    "peter_hurd_mountain-html"
+  ],
+  "slug": "peter_hurd_artwork-html",
+  "tinyDescription": "American 1904 - 1984"
 }
