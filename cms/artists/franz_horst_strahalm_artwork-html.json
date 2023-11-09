@@ -1,12 +1,12 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Franz Horst Strahalm",
-   "metaTitle": "Franz Strahalm Victorian Art For Sale",
-   "metaDescription": "Experience the enchanting allure of Franz Strahalm's Victorian art for sale. Immerse yourself in a bygone era of elegance and charm. Explore his masterpieces now!",
-   "paintings" : [
-      "franz_horst_strahalm_stream-html"
-   ],
-   "slug" : "franz_horst_strahalm_artwork-html",
-   "tinyDescription" : "Austrian-American 1879 - 1935"
+  "alias": "",
+  "hasLandingPage": true,
+  "name": "Franz Horst Strahalm",
+  "metaTitle": "Franz Strahalm Victorian Art For Sale",
+  "metaDescription": "Experience the enchanting allure of Franz Strahalm's Victorian art for sale. Immerse yourself in a bygone era of elegance and charm. Explore his masterpieces!",
+  "paintings": [
+    "franz_horst_strahalm_stream-html"
+  ],
+  "slug": "franz_horst_strahalm_artwork-html",
+  "tinyDescription": "Austrian-American 1879 - 1935"
 }
