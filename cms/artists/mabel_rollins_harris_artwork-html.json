@@ -1,12 +1,12 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Mabel Rollins Harris",
-   "metaTitle": "Mabel Rollins Harris Art For Sale",
-   "metaDescription": "Discover Mabel Rollins Harris' enchanting artwork for sale. Immerse in her emotive expressions and intricate craftsmanship. Elevate your space with her captivating pieces.",
-   "paintings" : [
-      "mabel_rollins_harris_mother-html"
-   ],
-   "slug" : "mabel_rollins_harris_artwork-html",
-   "tinyDescription" : "American, early 20th Century"
+  "alias": "",
+  "hasLandingPage": true,
+  "name": "Mabel Rollins Harris",
+  "metaTitle": "Mabel Rollins Harris Art For Sale",
+  "metaDescription": "Discover Mabel Rollins Harris' enchanting artwork for sale. Immerse in her emotive expressions and intricate craftsmanship. Elevate your space today.",
+  "paintings": [
+    "mabel_rollins_harris_mother-html"
+  ],
+  "slug": "mabel_rollins_harris_artwork-html",
+  "tinyDescription": "American, early 20th Century"
 }
