@@ -1,12 +1,12 @@
 {
-   "alias" : "Jules Trayern",
-   "hasLandingPage": true,
-   "name" : "Jean Baptiste Jules Trayer",
-   "metaTitle": "Jean Baptiste Jules Trayer Paintings For Sale",
-   "metaDescription": "Step into the captivating world of Jean Baptiste Jules Trayer's art. Experience his intricate brushwork and emotive scenes. Artwork for sale, waiting to adorn your collection.",
-   "paintings" : [
-      "jean_baptiste_jules_trayer_contemplation-html"
-   ],
-   "slug" : "jean_baptiste_jules_trayer_artwork-html",
-   "tinyDescription" : "French 1824 - 1909"
+  "alias": "Jules Trayern",
+  "hasLandingPage": true,
+  "name": "Jean Baptiste Jules Trayer",
+  "metaTitle": "Jean Baptiste Jules Trayer Paintings For Sale",
+  "metaDescription": "Step into the captivating world of Jean Baptiste Jules Trayer's art. Experience his intricate brushwork and emotive scenes. Artwork waiting for your collection.",
+  "paintings": [
+    "jean_baptiste_jules_trayer_contemplation-html"
+  ],
+  "slug": "jean_baptiste_jules_trayer_artwork-html",
+  "tinyDescription": "French 1824 - 1909"
 }
