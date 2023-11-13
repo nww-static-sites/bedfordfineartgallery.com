@@ -1,12 +1,12 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Penrhyn Stanlaws",
-   "metaTitle": "Penrhyn Stanlaws Artist Paintings For Sale",
-   "metaDescription": "Discover the captivating paintings of artist Penrhyn Stanlaws for sale. Immerse in his unique artistic style. Own a Stanlaws masterpiece that resonates with creativity.",
-   "paintings" : [
-      "penrhyn_stanlaws_lincoln-html"
-   ],
-   "slug" : "penrhyn_stanlaws_artwork-html",
-   "tinyDescription" : "Scottish-American 1877 - 1957"
+  "alias": "",
+  "hasLandingPage": true,
+  "name": "Penrhyn Stanlaws",
+  "metaTitle": "Penrhyn Stanlaws Artist Paintings For Sale",
+  "metaDescription": "Discover the captivating paintings of artist Penrhyn Stanlaws for sale. Immerse in his unique artistic style. Own a Stanlaws masterpiece that resonates.",
+  "paintings": [
+    "penrhyn_stanlaws_lincoln-html"
+  ],
+  "slug": "penrhyn_stanlaws_artwork-html",
+  "tinyDescription": "Scottish-American 1877 - 1957"
 }
