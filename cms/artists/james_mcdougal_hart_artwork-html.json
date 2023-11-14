@@ -1,12 +1,12 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "James McDougal Hart",
-   "metaTitle": "James McDougal Hart Paintings For Sale",
-   "metaDescription": "Immerse yourself in the timeless beauty of James McDougal Hart's art. Discover landscapes alive with emotion and skill. Artwork for sale, waiting to adorn your space.",
-   "paintings" : [
-      "james_mcdougal_hart_landscape-html"
-   ],
-   "slug" : "james_mcdougal_hart_artwork-html",
-   "tinyDescription" : "American 1828 - 1901"
+  "alias": "",
+  "hasLandingPage": true,
+  "name": "James McDougal Hart",
+  "metaTitle": "James McDougal Hart Victorian Paintings For Sale",
+  "metaDescription": "Immerse yourself in the timeless beauty of James McDougal Hart's art. Discover landscapes alive with emotion and skill. Artwork for sale, waiting for you.",
+  "paintings": [
+    "james_mcdougal_hart_landscape-html"
+  ],
+  "slug": "james_mcdougal_hart_artwork-html",
+  "tinyDescription": "American 1828 - 1901"
 }
