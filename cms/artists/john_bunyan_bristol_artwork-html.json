@@ -1,12 +1,12 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "John Bunyan Bristol",
-   "metaTitle": "John Bunyan Bristol 19 Century Art For Sale",
-   "metaDescription": "Explore the evocative artistry of John Bunyan Bristo. Immerse yourself in his intricate details and emotive compositions. Artwork for sale, awaiting to enrich your collection.",
-   "paintings" : [
-      "john_bunyan_bristol_catskill-html"
-   ],
-   "slug" : "john_bunyan_bristol_artwork-html",
-   "tinyDescription" : "American 1826 - 1909"
+  "alias": "",
+  "hasLandingPage": true,
+  "name": "John Bunyan Bristol",
+  "metaTitle": "John Bunyan Bristol 19 Century Art For Sale",
+  "metaDescription": "Explore the evocative artistry of John Bunyan Bristo. Immerse yourself in his intricate details and emotive compositions. Artwork for sale, awaiting you.",
+  "paintings": [
+    "john_bunyan_bristol_catskill-html"
+  ],
+  "slug": "john_bunyan_bristol_artwork-html",
+  "tinyDescription": "American 1826 - 1909"
 }
