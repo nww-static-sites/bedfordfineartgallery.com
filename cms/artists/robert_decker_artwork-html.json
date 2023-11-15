@@ -1,12 +1,12 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Robert Decker",
-   "metaTitle": "Robert Decker Paintings For Sale",
-   "metaDescription": "Discover Robert Decker's captivating paintings for sale. Immerse in his unique style and emotive compositions. Elevate your collection with his expressive artworks.",
-   "paintings" : [
-      "robert_decker_fall-html"
-   ],
-   "slug" : "robert_decker_artwork-html",
-   "tinyDescription" : "American 1847 - 1921"
+  "alias": "",
+  "hasLandingPage": true,
+  "name": "Robert Decker",
+  "metaTitle": "Robert Decker Paintings For Sale",
+  "metaDescription": "Discover Robert Decker's captivating paintings for sale. Immerse in his unique style and emotive compositions. Elevate your collection with his artworks.",
+  "paintings": [
+    "robert_decker_fall-html"
+  ],
+  "slug": "robert_decker_artwork-html",
+  "tinyDescription": "American 1847 - 1921"
 }
