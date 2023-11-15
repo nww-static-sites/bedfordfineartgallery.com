@@ -1,12 +1,12 @@
 {
-   "alias" : "J.J. LaValley",
-   "hasLandingPage": true,
-   "name" : "Jonas Joseph LaValley",
-   "metaTitle": "Jonas Joseph LaValley Artwork For Sale",
-   "metaDescription": "Embark on a journey through Jonas Joseph LaValley's captivating art. Experience his unique vision and intricate craftsmanship. Artwork for sale, awaiting your appreciation.",
-   "paintings" : [
-      "jonas_joseph_lavalley_roses-html"
-   ],
-   "slug" : "jonas_joseph_lavalley_artwork-html",
-   "tinyDescription" : "American, 1858 - 1930"
+  "alias": "J.J. LaValley",
+  "hasLandingPage": true,
+  "name": "Jonas Joseph LaValley",
+  "metaTitle": "Jonas Joseph LaValley Artwork For Sale",
+  "metaDescription": "Embark on a journey through Jonas Joseph LaValley's captivating art. Experience his unique vision and intricate craftsmanship. Artwork for sale.",
+  "paintings": [
+    "jonas_joseph_lavalley_roses-html"
+  ],
+  "slug": "jonas_joseph_lavalley_artwork-html",
+  "tinyDescription": "American, 1858 - 1930"
 }
