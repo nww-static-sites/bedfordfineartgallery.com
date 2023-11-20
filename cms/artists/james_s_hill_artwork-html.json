@@ -1,12 +1,12 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "James S. Hill",
-   "metaTitle": "James S Hill Victorian Paintings For Sale",
-   "metaDescription": "Explore the captivating artistry of James S. Hill. Immerse yourself in intricate details and emotive compositions. Artwork for sale, waiting to enrich your space.",
-   "paintings" : [
-      "james_hill_hunter-html"
-   ],
-   "slug" : "james_s_hill_artwork-html",
-   "tinyDescription" : "American mid-19th century"
+  "alias": "",
+  "hasLandingPage": true,
+  "name": "James S. Hill",
+  "metaTitle": "James S Hill Victorian Paintings For Sale",
+  "metaDescription": "Explore the captivating artistry of James S. Hill. Immerse yourself in intricate details & emotive compositions. Artwork for sale, waiting to enrich your space.",
+  "paintings": [
+    "james_hill_hunter-html"
+  ],
+  "slug": "james_s_hill_artwork-html",
+  "tinyDescription": "American mid-19th century"
 }

@@ -1,12 +1,12 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "John Ellsworth Weis",
-   "metaTitle": "John Ellsworth Weis Paintings For Sale",
-   "metaDescription": "Discover the intriguing world of John Ellsworth Weis' art. Immerse yourself in his unique perspectives and captivating details. Artwork for sale, waiting to adorn your collection.",
-   "paintings" : [
-      "john_ellsworth_weis_easter-html"
-   ],
-   "slug" : "john_ellsworth_weis_artwork-html",
-   "tinyDescription" : "American 1892 - 1962"
+  "alias": "",
+  "hasLandingPage": true,
+  "name": "John Ellsworth Weis",
+  "metaTitle": "John Ellsworth Weis Paintings For Sale",
+  "metaDescription": "Discover the intriguing world of John Ellsworth Weis' art. Immerse yourself in his unique perspectives and captivating details.",
+  "paintings": [
+    "john_ellsworth_weis_easter-html"
+  ],
+  "slug": "john_ellsworth_weis_artwork-html",
+  "tinyDescription": "American 1892 - 1962"
 }

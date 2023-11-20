@@ -1,12 +1,12 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "James Fairman",
-   "metaTitle": "James Fairman Artist Paintings For Sale",
-   "metaDescription": "Experience the captivating artistry of James Fairman. Discover a world of creativity, emotion, and skill in each unique masterpiece. Artwork for sale, ready to inspire.",
-   "paintings" : [
-      "james_fairman_benevolent_guardian-html"
-   ],
-   "slug" : "james_fairman_artwork-html",
-   "tinyDescription" : "American 1826 - 1904"
+  "alias": "",
+  "hasLandingPage": true,
+  "name": "James Fairman",
+  "metaTitle": "James Fairman Artist Paintings For Sale",
+  "metaDescription": "Experience the captivating artistry of James Fairman. Discover a world of creativity, emotion, and skill in each unique masterpiece. Artwork for sale.",
+  "paintings": [
+    "james_fairman_benevolent_guardian-html"
+  ],
+  "slug": "james_fairman_artwork-html",
+  "tinyDescription": "American 1826 - 1904"
 }
