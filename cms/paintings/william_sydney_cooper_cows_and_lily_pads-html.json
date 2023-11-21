@@ -9,7 +9,7 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1696329359/william-sidney-cooper-19th-century-paintings-for-sale-cows-and-lily-pads_e7fpan.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1696001728/Cooper_Cows_Lily_pads_IMG_1992-2_sm_cr_fr_hh281g.jpg",
-  "status": "New",
+  "status": "Sold",
   "metaTitle": "William Sidney Cooper Victorian Art: Cows & Lily Pads",
   "mainImageAltText": "William Sidney Cooper Victorian Painting: Cows and Lily Pads",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1696001416/Cooper_Cows_Lily_pads_IMG_1992-2_zoom_cr_vdttuc.jpg",
@@ -22,15 +22,5 @@
     "Animal"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1696001829/Cooper_Cows_Lily_pads_IMG_1992-2_lrg_cr_fr_rfqbvd.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $4,968"
-    }
-  ]
+  "highlights": []
 }
