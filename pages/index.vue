@@ -463,6 +463,7 @@
                     <div>Elan Magazine</div>
                     <div>Allegany Magazine</div>
                     <div>Bedford Gazette</div>
+                    <div>New York Times</div>
                 </div>
             </section>
         </div>
