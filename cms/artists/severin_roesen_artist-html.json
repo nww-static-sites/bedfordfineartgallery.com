@@ -2,5 +2,8 @@
   "hasLandingPage": true,
   "name": "Severin Roesen",
   "tinyDescription": "(German-American 1815 - 1872)",
-  "slug": "severin_roesen_artist-html"
+  "slug": "severin_roesen_artist-html",
+  "paintings": [
+    "severin_roesen_strawberries_in_compote-html"
+  ]
 }
