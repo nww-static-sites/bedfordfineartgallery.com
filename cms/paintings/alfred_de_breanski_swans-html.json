@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "https://www.youtube.com/embed/znaeB4HIxaI?rel=0",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/de_breanski_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Alfred De Breanski, Sr. - Swans on the Thames Painting",
   "mainImageAltText": "Alfred De Breanski Artwork for Sale - Swans on the Thames",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/de_breanski_grid.jpg",
@@ -29,15 +29,5 @@
   ],
   "gridImageHeight": 261,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/de_breanski_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $7,600"
-    }
-  ]
+  "highlights": []
 }
