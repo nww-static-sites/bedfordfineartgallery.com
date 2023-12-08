@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "A. Scheiferdecker",
-   "metaTitle": "Karl August Schieferdecker Victorian Paintings For Sale",
-   "metaDescription": "Discover a mesmerizing collection of Schieferdecker Victorian paintings for sale. Immerse yourself in timeless artistry and own a piece of history.",
-   "paintings" : [
-      "a_scheiferdecker_victorian-html"
-   ],
-   "slug" : "a_scheiferdecker_artwork-html",
-   "tinyDescription" : null
+  "body": "Karl August Schieferdecker was a notable artist known for his Victorian paintings. While there is limited information readily available about his life and entire body of work, he is recognized as a portrait painter and lithographer. His artwork includes various themes, prominently featuring portraits and scenic depictions.\n\nOne notable aspect of Schieferdecker's work is his lithography, a printmaking technique that allows artists to create images on a flat surface, typically stone, using oil-based ink. This method was popular during the Victorian era and allowed for detailed and nuanced artworks. Schieferdecker's lithographs, such as his work \"Prisoner Jan Huss, around 1850,\" demonstrate his skill in this medium.\n\nAdditionally, his oil on canvas works, like \"MOTHER AND CHILD,\" dated 1875, highlight his ability to capture intimate and personal moments. This painting, in particular, showcases his talent in portraying the depth of relationship and emotion, a characteristic seen in Victorian-era art.\n\nSchieferdecker's works are occasionally available for sale or auction, and they continue to be of interest to collectors and enthusiasts of Victorian art.",
+  "name": "A. Scheiferdecker",
+  "slug": "a_scheiferdecker_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "a_scheiferdecker_victorian-html"
+  ],
+  "alias": "",
+  "metaTitle": "Karl August Schieferdecker Victorian Paintings For Sale",
+  "metaDescription": "Discover a mesmerizing collection of Schieferdecker Victorian paintings for sale. Immerse yourself in timeless artistry and own a piece of history.",
+  "tinyDescription": "Victorian Paintings"
 }
