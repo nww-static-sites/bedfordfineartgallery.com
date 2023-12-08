@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Abbot Fuller Graves",
-   "metaTitle": "Abbot Fuller Garves 19th Cenuty Art For Sale",
-   "metaDescription": "Explore the enchanting world of Abbot Fuller Garves' 19th-century art for sale. Experience the beauty of the past and own a timeless masterpiece today.",
-   "paintings" : [
-      "abbot_fuller_graves_fishing-html"
-   ],
-   "slug" : "abbot_fuller_graves_artwork-html",
-   "tinyDescription" : "American, 1859-1936"
+  "body": "Abbott Fuller Graves, an American artist born in 1859 in Weymouth, Massachusetts, is renowned for his open air garden paintings and floral still-lifes. Graves initially pursued studies in architecture at the Massachusetts Institute of Technology but later shifted his focus to art, particularly drawn to floral still-life painting. This change in direction led him to Paris, France, in 1884, where he shared living quarters with fellow Boston artist Edmund Charles Tarbell.\n\nGraves' art is characterized by its thick brushstrokes, vibrant colors, and the effective use of natural light, showcasing the influence of European Impressionism. He returned to Boston in 1885 and became a teacher at the Cowles Art School, where he worked alongside his friend Childe Hassam. After his second visit to Paris in 1887, he studied figure painting at the Académie Julien under the tutelage of Fernand Cormon, Jean-Paul Laurens, and Paul Gervais.\n\nHis career saw a focus on garden and floral landscapes after his return to Boston in 1891, often including female figures in his works. He also painted genre scenes in Kennebunkport, Maine, depicting farmers, fishermen, firemen, and old sea captains. Graves' paintings of small-town life were popular and reproduced on calendars and postcards.\n\nAbbott Fuller Graves' legacy includes a wide range of works found in public and private collections across the United States. His awards and memberships include the Massachusetts Charitable Mechanics Association, Exposition des Beaux Arts in Paris, the Salmagundi Club, American Art Association of Paris, Allied Artists of America, and many more. He is celebrated for his bright, impasto-textured floral still-lifes executed in the Impressionist style, as well as his genre scenes, which are highly sought after.\n\nGraves died in 1936 in Kennebunkport, Maine, having achieved wide acclaim as a specialist in garden painting. His works remain a significant part of American art history, particularly reflecting the 19th-century artistic movements.",
+  "name": "Abbot Fuller Graves",
+  "slug": "abbot_fuller_graves_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "abbot_fuller_graves_fishing-html"
+  ],
+  "alias": "",
+  "metaTitle": "Abbot Fuller Garves 19th Century Art For Sale",
+  "metaDescription": "Explore the enchanting world of Abbot Fuller Garves' 19th-century art for sale. Experience the beauty of the past and own a timeless masterpiece today.",
+  "tinyDescription": "American, 1859-1936"
 }
