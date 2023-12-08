@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "W.J. Schaldach",
-   "metaTitle": "W.J. Schaldach Paintings For Sale",
-   "metaDescription": "Explore W.J. Schaldach's captivating paintings for sale. Elevate your collection with his emotive artistry and intricate compositions.",
-   "paintings" : [
-      "wj_schaldach_trout-html"
-   ],
-   "slug" : "wj_schaldach_artwork-html",
-   "tinyDescription" : "American 1896 - 1982"
+  "body": "William J. Schaldach, known professionally as W.J. Schaldach, was an influential American artist born in 1896 and passing in 1982. His artistic career was marked by a profound connection to nature and a particular fondness for capturing the essence of the outdoors, especially through his portrayals of fishing, hunting, and wildlife. Schaldach's work exhibited a unique blend of precision and passion, making him a revered figure in the world of sporting art. He was not only an artist but also an author, deeply immersed in the subjects he depicted. His ability to translate the serenity and excitement of outdoor sports onto canvas or paper won him acclaim. His artworks, often characterized by their vibrant yet earthy color palette and dynamic composition, have been celebrated for not only their aesthetic appeal but also for authentically representing the spirit of the American wilderness. Schaldach's legacy continues to inspire both art enthusiasts and nature lovers alike.",
+  "name": "W.J. Schaldach",
+  "slug": "wj_schaldach_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "wj_schaldach_trout-html"
+  ],
+  "alias": "",
+  "metaTitle": "W.J. Schaldach Paintings For Sale",
+  "metaDescription": "Explore W.J. Schaldach's captivating paintings for sale. Elevate your collection with his emotive artistry and intricate compositions.",
+  "tinyDescription": "American 1896 - 1982"
 }
