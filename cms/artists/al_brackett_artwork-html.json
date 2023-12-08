@@ -1,12 +1,13 @@
 {
-   "alias" : "A L Brackett, Arthur Brackett",
-   "hasLandingPage": true,
-   "name" : "A.L. Brackett",
-   "metaTitle": "A.L. Bracket 19th Century Paintings For Sale",
-   "metaDescription": "Uncover the elegance of A.L. Bracket's 19th-century paintings for sale. Immerse yourself in the timeless charm of these captivating masterpieces.",
-   "paintings" : [
-      "arthur_loring_brackett_woodcock-html"
-   ],
-   "slug" : "al_brackett_artwork-html",
-   "tinyDescription" : "American, 1855 - 1934"
+  "body": "Arthur Loring Brackett, an American artist from the late 19th century, was celebrated for his realistic compositions of nautical themes and game, catering to the tastes of sporting enthusiasts. A member of the Boston Art Club, Brackett exhibited his works there, gaining recognition for his unique trompe l’oeil technique, which added depth and realism to his paintings. His art has been acknowledged in publications like \"The Artists Bluebook\" and \"Who was Who in American Art.\"",
+  "name": "A.L. Brackett",
+  "slug": "al_brackett_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "arthur_loring_brackett_woodcock-html"
+  ],
+  "alias": "A L Brackett, Arthur Brackett",
+  "metaTitle": "A.L. Bracket 19th Century Paintings For Sale",
+  "metaDescription": "Uncover the elegance of A.L. Bracket's 19th-century paintings for sale. Immerse yourself in the timeless charm of these captivating masterpieces.",
+  "tinyDescription": "American, 1855 - 1934"
 }
