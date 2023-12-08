@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Abbey Altson",
-   "metaTitle": "Abbey Altson 19th Cenutry Artwork For Sale",
-   "metaDescription": "Embrace the allure of Abbey Altson 19th-century artwork for sale. Journey through captivating masterpieces & add a touch of classic elegance to your collection.",
-   "paintings" : [
-      "abbey_altson_forest-html"
-   ],
-   "slug" : "abbey_altson_artwork-html",
-   "tinyDescription" : "British, 1864 - 1950"
+  "body": "Abbey Altson, born in Middlesborough-on-Tees, Yorkshire, England, in 1864, was a distinguished 19th-century British artist known for his Romanticism in female portraits and genre paintings. He moved to Melbourne, Australia, in the early 1880s, where he joined the bohemian Buonarotti Club and studied at the National Gallery School from 1885 to 1890. His early career in Australia was marked by significant achievements, including winning the National Gallery of Victoria Travelling Scholarship in 1890 with his painting \"Flood Sufferings.\"\n\nAltson's time at the Académie Julian in Paris under Jean Paul Laurens further refined his artistic skills. He was known for his meticulous approach to painting, often including intricate details and rich, vibrant colors in his works. Some notable paintings from his career include \"Meditation\" (1896), \"The Golden Age\" (1893), \"Inspiration\" (1899), and \"Idyll of the Sea\" (1896).\n\nHe eventually settled in England and continued to paint and exhibit his works at various salons in Paris and London. His artworks often depicted themes of romanticism and beauty, capturing the essence of his subjects with a delicate and sensitive touch. Altson's black and white drawings were also featured in Pearson’s Magazine and the Pall Mall Magazine, showcasing his versatility as an artist.\n\nIn 1939, Altson migrated to the United States, where he lived with his son and daughter-in-law, both artists, until his death in 1950. Throughout his life, Abbey Altson exhibited a profound dedication to his art, leaving behind a legacy of beautiful, emotive paintings that continue to be celebrated and admired.",
+  "name": "Abbey Altson",
+  "slug": "abbey_altson_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "abbey_altson_forest-html"
+  ],
+  "alias": "",
+  "metaTitle": "Abbey Altson 19th Century Artwork For Sale",
+  "metaDescription": "Embrace the allure of Abbey Altson 19th-century artwork for sale. Journey through captivating masterpieces & add a touch of classic elegance to your collection.",
+  "tinyDescription": "British, 1864 - 1950"
 }
