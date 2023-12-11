@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Aiden Lassell Ripley",
-   "metaTitle": "Aiden Lassell Ripley Paintings For Sale",
-   "metaDescription": "Indulge in the exquisite artistry of Aiden Lassell Ripley. Discover captivating paintings for sale, capturing nature's beauty and evoking emotions.",
-   "paintings" : [
-      "aiden_lassell_ripley_grouse-html"
-   ],
-   "slug" : "aiden_lassell_ripley_artwork-html",
-   "tinyDescription" : "American 1896 - 1969"
+  "body": "Aiden Lassell Ripley, born in Boston in 1896, was a multifaceted American artist known for his proficiency in watercolors, oil painting, printmaking, and teaching. Initially interested in music, Ripley later found his calling in painting, inspired by the natural landscapes and wildlife he encountered during his upbringing in Massachusetts.\n\nRipley's artistic journey took a significant turn when he won the Paige Traveling Fellowship in 1917, allowing him to study abroad in Africa, France, and Holland. This experience greatly influenced his work, enabling him to produce a large number of watercolors and oil paintings during his travels. Upon his return to Boston, Ripley's first one-man show at the Guild of Boston Artists in 1926 was a resounding success, highlighting his strengths as a draftsman and his mastery of watercolors.\n\nRipley is particularly celebrated for his sporting and wildlife art, a genre he embraced during the Great Depression. His keen interest in outdoor sports and wildlife conservation is evident in his paintings, which accurately depict the life of a sportsman in the early to mid-20th century. His works are known for their relaxed atmosphere and detailed portrayal of simple living and outdoor recreation.\n\nThroughout his career, Ripley remained closely associated with the Guild of Boston Artists and was a member of various art societies. He was recognized and awarded for his exceptional work, including receiving the Logan Purchase Prize and Medal from the Art Institute of Chicago in 1928. His artworks are represented by significant galleries and are part of numerous prestigious collections.\n\nRipley's legacy as one of the preeminent sportsman and wildlife artists of his time is well established, and his works continue to be sought after for their unique portrayal of sporting scenes and the everyday life of New England.",
+  "name": "Aiden Lassell Ripley",
+  "slug": "aiden_lassell_ripley_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "aiden_lassell_ripley_grouse-html"
+  ],
+  "alias": "",
+  "metaTitle": "Aiden Lassell Ripley Paintings For Sale",
+  "metaDescription": "Indulge in the exquisite artistry of Aiden Lassell Ripley. Discover captivating paintings for sale, capturing nature's beauty and evoking emotions.",
+  "tinyDescription": "American 1896 - 1969"
 }
