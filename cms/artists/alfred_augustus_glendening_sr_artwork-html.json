@@ -1,13 +1,14 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "Alfred Augustus Glendening, a Victorian-era British artist, was known for his exquisite landscape paintings. His work typically featured the lush countryside of England and Wales, with a particular focus on the beauty and tranquility of rural scenes. Glendening's paintings are characterized by their detailed and realistic depictions of nature, often highlighting serene waterways, rolling hills, and vibrant greenery. His ability to capture the play of light and shadow, along with the use of rich, vivid colors, made his landscapes particularly appealing. Glendening's art remains a testament to the picturesque and idyllic views of the Victorian countryside.",
   "name": "Alfred Augustus Glendening",
-   "metaTitle": "Alfred Augustus Glendening, Sr. Artwork For Sale",
-   "metaDescription": "Immerse yourself in the timeless artistry of Alfred Augustus Glendening, Sr. Explore captivating artworks for sale, capturing the essence of beauty and history.",
+  "slug": "alfred_augustus_glendening_sr_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "alfred_augustus_glendening_shepherd-html",
     "a_a_glendening_sheep_wagon_path-html"
   ],
-  "slug": "alfred_augustus_glendening_sr_artwork-html",
+  "alias": "",
+  "metaTitle": "Alfred Augustus Glendening, Sr. Artwork For Sale",
+  "metaDescription": "Immerse yourself in the timeless artistry of Alfred Augustus Glendening, Sr. Explore captivating artworks for sale, capturing the essence of beauty and history.",
   "tinyDescription": "Sr.; English ca. 1840 - 1910"
 }
