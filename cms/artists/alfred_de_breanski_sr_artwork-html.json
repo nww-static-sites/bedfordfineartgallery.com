@@ -1,12 +1,13 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "Alfred De Breanski Sr. is a renowned British painter known for his stunning landscapes, particularly of the Welsh and Scottish Highlands. His paintings, which are available for sale, are celebrated for their vivid portrayal of natural beauty, capturing the serene and majestic aspects of these regions. De Breanski's works are highly sought after by collectors and enthusiasts of traditional landscape painting, offering a glimpse into the captivating scenery of the British countryside. His ability to skillfully render light and atmospheric conditions makes his paintings a valuable addition to any art collection.",
   "name": "Alfred De Breanski",
-   "metaTitle": "Alfred De Breanski Paintings For Sale",
-   "metaDescription": "Experience the breathtaking beauty of Alfred De Breanski's paintings for sale. Discover evocative landscapes and own a timeless masterpiece today.",
+  "slug": "alfred_de_breanski_sr_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "alfred_de_breanski_swans-html"
   ],
-  "slug": "alfred_de_breanski_sr_artwork-html",
+  "alias": "",
+  "metaTitle": "Alfred De Breanski Paintings For Sale",
+  "metaDescription": "Experience the breathtaking beauty of Alfred De Breanski's paintings for sale. Discover evocative landscapes and own a timeless masterpiece today.",
   "tinyDescription": "Sr.; British 1852 - 1928"
 }
