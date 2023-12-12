@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Anthony Thieme",
-   "metaTitle": "Anthony Thieme Artwork For Sale",
-   "metaDescription": "Immerse yourself in the captivating world of Anthony Thieme's artwork for sale. Explore masterful landscapes and own a piece of artistic brilliance today.",
-   "paintings" : [
-      "anthony_thieme_bridge-html"
-   ],
-   "slug" : "anthony_thieme_artwork-html",
-   "tinyDescription" : "1888 - 1954"
+  "body": "Anthony Thieme was a renowned 20th-century artist, celebrated for his vibrant and picturesque landscapes, marine scenes, and cityscapes. Born in 1888 in Rotterdam, the Netherlands, Thieme traveled extensively, capturing the essence of various locales with his distinct impressionistic style. His artwork is characterized by brilliant colors, masterful use of light, and a unique ability to capture the atmospheric mood of a scene. Thieme spent significant time in Rockport, Massachusetts, where his depictions of the New England coastline earned him widespread acclaim. His works are a testament to his skill in using both oil and watercolor mediums, showcasing scenes ranging from tranquil harbor settings to bustling streets. Today, Anthony Thieme's artwork is highly sought after by collectors and art enthusiasts, with pieces for sale at various galleries and auctions. His legacy continues to influence and inspire contemporary artists and art lovers alike.",
+  "name": "Anthony Thieme",
+  "slug": "anthony_thieme_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "anthony_thieme_bridge-html"
+  ],
+  "alias": "",
+  "metaTitle": "Anthony Thieme Artwork For Sale",
+  "metaDescription": "Immerse yourself in the captivating world of Anthony Thieme's artwork for sale. Explore masterful landscapes and own a piece of artistic brilliance today.",
+  "tinyDescription": "1888 - 1954"
 }
