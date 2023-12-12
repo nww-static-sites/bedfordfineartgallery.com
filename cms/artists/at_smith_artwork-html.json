@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "A.T. Smith",
-   "metaTitle": "A.T. Smith Victorian Paintings For Sale",
-   "metaDescription": "Discover the enchanting world of A.T. Smith's Victorian paintings for sale. Immerse yourself in the elegance and charm of a bygone era. Explore now!",
-   "paintings" : [
-      "a_t_smith_flowers-html"
-   ],
-   "slug" : "at_smith_artwork-html",
-   "tinyDescription" : null
+  "body": "A.T. Smith, a distinguished painter from the Victorian era, is known for his exquisite and detailed works that beautifully encapsulate the essence of the 19th century. His paintings often feature the romanticism and elegance characteristic of the Victorian period, with a focus on both rural and urban landscapes, as well as genre scenes that vividly portray the daily life of the time. Smith's use of rich colors, meticulous attention to detail, and the ability to capture the intricate interplay of light and shadow make his paintings deeply evocative and visually striking. His works often include elements of nature, architecture, and figures dressed in period attire, all harmoniously blended to create a sense of nostalgia and timelessness. Today, A.T. Smith's Victorian paintings are sought after by collectors and art enthusiasts who are captivated by the charm and historical value of this era. These paintings are available for sale in various art galleries, at auctions, and through online art marketplaces, providing a unique opportunity for collectors to own a piece of Victorian art history.",
+  "name": "A.T. Smith",
+  "slug": "at_smith_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "a_t_smith_flowers-html"
+  ],
+  "alias": "",
+  "metaTitle": "A.T. Smith Victorian Paintings For Sale",
+  "metaDescription": "Discover the enchanting world of A.T. Smith's Victorian paintings for sale. Immerse yourself in the elegance and charm of a bygone era. Explore now!",
+  "tinyDescription": "Distinguished painter from the Victorian era"
 }
