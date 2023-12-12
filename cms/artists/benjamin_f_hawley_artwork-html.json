@@ -1,12 +1,13 @@
 {
-   "alias" : "B. F. Hawley",
-   "hasLandingPage": true,
-   "name" : "Benjamin F. Hawley",
-   "metaTitle": "Benjamin F. Hawley 20th Century Artwork For Sale",
-   "metaDescription": "Discover captivating artwork by Benjamin F. Hawley for sale. Immerse yourself in a world of creativity and beauty. Own a masterpiece today!",
-   "paintings" : [
-      "benjamin_f_hawley_fall-html"
-   ],
-   "slug" : "benjamin_f_hawley_artwork-html",
-   "tinyDescription" : "American, early 20th century"
+  "body": "Benjamin F. Hawley, an artist who made his mark in the 20th century, is known for his diverse and dynamic body of work, which includes landscapes, portraits, and abstract compositions. His style evolved throughout his career, reflecting the various artistic movements and influences of his time. Hawley had a keen eye for detail and a profound understanding of color and form, which he used to create visually striking and emotionally resonant pieces. His landscapes often depict serene and idyllic settings, rendered with a sense of depth and realism, while his portraits are notable for their expressive characterizations and the subtle interplay of light and shadow. Additionally, his foray into abstract art showcases his versatility and willingness to experiment with new forms and techniques. Today, Benjamin F. Hawley's 20th-century artwork is highly valued by collectors and art aficionados for its historical significance and aesthetic appeal. His pieces can be found for sale in various art galleries, at auctions, and through online art platforms, offering art enthusiasts the chance to own a distinct piece of 20th-century art history.",
+  "name": "Benjamin F. Hawley",
+  "slug": "benjamin_f_hawley_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "benjamin_f_hawley_fall-html"
+  ],
+  "alias": "B. F. Hawley",
+  "metaTitle": "Benjamin F. Hawley 20th Century Artwork For Sale",
+  "metaDescription": "Discover captivating artwork by Benjamin F. Hawley for sale. Immerse yourself in a world of creativity and beauty. Own a masterpiece today!",
+  "tinyDescription": "American, early 20th century"
 }
