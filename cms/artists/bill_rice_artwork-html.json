@@ -1,13 +1,14 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "Bill Rice, a 20th-century artist, is recognized for his distinctive style that encapsulates the vibrancy and eclectic nature of the era. His paintings, often rich in color and texture, range from abstract compositions to more figurative works, showcasing his versatility and creative depth. Rice had a unique talent for capturing the essence of his subject matter, whether it was the dynamic energy of an urban landscape, the serene beauty of nature, or the complex subtleties of human expressions and emotions. His abstract works are particularly notable for their bold use of color and form, creating visually compelling pieces that resonate with viewers on an emotional level. Meanwhile, his figurative paintings exhibit a keen attention to detail and a profound understanding of the interplay between light, shadow, and color. Today, Bill Rice's paintings are highly sought after by collectors and enthusiasts of 20th-century art. These works are available for sale in a variety of settings, including art galleries, auctions, and online art marketplaces, offering a unique opportunity to acquire a piece of art that beautifully reflects the diverse artistic explorations of the 20th century.",
   "name": "Bill Rice",
-   "metaTitle": "Bill Rice Paintings For Sale | 20th Century Paintings",
-   "metaDescription": "Experience the captivating world of Bill Rice's paintings for sale. Discover breathtaking artistry and bring home a masterpiece that inspires.",
+  "slug": "bill_rice_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "bill_rice_pheasant-html",
     "bill_rice_drumming_grouse-html"
   ],
-  "slug": "bill_rice_artwork-html",
+  "alias": "",
+  "metaTitle": "Bill Rice Paintings For Sale | 20th Century Paintings",
+  "metaDescription": "Experience the captivating world of Bill Rice's paintings for sale. Discover breathtaking artistry and bring home a masterpiece that inspires.",
   "tinyDescription": "American, b. 1952"
 }
