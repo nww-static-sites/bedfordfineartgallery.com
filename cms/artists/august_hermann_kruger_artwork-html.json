@@ -1,12 +1,13 @@
 {
-  "alias": "H. Kruger",
-   "metaTitle": "August Herman Kruger Paintings For Sale",
-   "metaDescription": "Experience the allure of August Herman Kruger's paintings for sale. Immerse yourself in artistry that captures emotions and transcends time. Explore now!",
-  "hasLandingPage": true,
+  "body": "August Herman Kruger, a notable artist from the late 19th to early 20th century, is revered for his skillful landscape and portrait paintings. His work is characterized by a profound sense of realism, imbued with a touch of the romanticism typical of his era. Kruger had a remarkable ability to capture the essence of his subjects, whether it was the serene beauty of a natural landscape or the subtle complexities of a human character in his portraits. His use of color was both vibrant and nuanced, creating scenes that were not only visually striking but also emotionally resonant. Kruger's landscapes, in particular, often featured idyllic rural scenes and tranquil natural settings, rendered with meticulous detail and a deep appreciation for the beauty of the natural world. Today, August Herman Kruger's paintings are cherished by art collectors and enthusiasts for their historical value and aesthetic appeal. His paintings are available for sale in select art galleries, auctions, and through online art marketplaces, providing a chance for art lovers to own a piece of this master's timeless legacy.",
   "name": "August Hermann Krüger",
+  "slug": "august_hermann_kruger_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "august_hermann_kruger_roses-html"
   ],
-  "slug": "august_hermann_kruger_artwork-html",
+  "alias": "H. Kruger",
+  "metaTitle": "August Herman Kruger Paintings For Sale",
+  "metaDescription": "Experience the allure of August Herman Kruger's paintings for sale. Immerse yourself in artistry that captures emotions and transcends time. Explore now!",
   "tinyDescription": "German 1834 - 1908"
 }
