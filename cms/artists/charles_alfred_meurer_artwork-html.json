@@ -1,14 +1,15 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "Charles Alfred Meurer, an American artist renowned for his role in the Trompe-l'œil (deceive the eye) style of painting, left an indelible mark on the art world in the late 19th and early 20th centuries. His paintings are distinguished by their extraordinary realism and meticulous attention to detail, often featuring still-life compositions that cleverly mimic three-dimensional objects. Meurer's works typically display an array of items such as currency, newspapers, and everyday objects, all rendered with such precision that they appear almost tangible. This remarkable ability to create an illusion of reality showcases Meurer's exceptional skill and creativity. Beyond his technical prowess, his paintings also often carry subtle messages or commentaries on contemporary society, adding depth and thought-provoking elements to his visually stunning compositions. Today, Charles Alfred Meurer's paintings are highly sought after by collectors and enthusiasts of Trompe-l'œil art. His works are available for sale in various art galleries, at art auctions, and through specialized online art marketplaces, providing art lovers with the opportunity to own a piece of this unique and fascinating genre of American art history.",
   "name": "Charles Alfred Meurer",
-   "metaTitle": "Charles Alfred Meurer Paintings For Sale",
-   "metaDescription": "Immerse yourself in the enchanting artistry of Charles Alfred Meurer with paintings for sale. Own a captivating masterpiece that mesmerizes.",
+  "slug": "charles_alfred_meurer_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "charles_alfred_meurer_rooster-html",
     "c_a_meurer_money_to_burn-html",
     "charles_meurer_autumn_landscape-html"
   ],
-  "slug": "charles_alfred_meurer_artwork-html",
+  "alias": "",
+  "metaTitle": "Charles Alfred Meurer Paintings For Sale",
+  "metaDescription": "Immerse yourself in the enchanting artistry of Charles Alfred Meurer with paintings for sale. Own a captivating masterpiece that mesmerizes.",
   "tinyDescription": "American 1865 - 1955"
 }
