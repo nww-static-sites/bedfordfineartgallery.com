@@ -1,12 +1,13 @@
 {
-  "hasLandingPage": true,
+  "body": "Charles W. Gibbons, an artist whose work resonated deeply with the art community, is known for his captivating paintings that span a variety of styles and subjects. Active in the 20th century, Gibbons distinguished himself with his unique approach to color and composition. His artwork often includes landscapes, seascapes, and figurative works, each demonstrating his ability to capture the essence and mood of his subjects. Gibbons' landscapes are particularly notable for their vibrant color palettes and the sense of movement he imbued within them, making the scenes come alive on the canvas. His seascapes reflect a deep understanding of the play of light on water, creating a mesmerizing effect that captivates viewers. Additionally, his figurative works display a keen eye for detail and emotion, making each character portrayed seem alive and relatable. Today, Charles W. Gibbons' paintings are sought after by art collectors and enthusiasts, valued for their artistic merit and emotional depth. These paintings are available for sale in art galleries, at auctions, and on various online art marketplaces, offering a chance to own a piece of 20th-century art that beautifully encapsulates the spirit of its time.",
   "name": "Charles W. Gibbons",
-   "metaTitle": "Charles W. Gibbons Paintings For Sale",
-   "metaDescription": "Experience the artistry of Charles W. Gibbons with paintings for sale. Own a captivating masterpiece that elevates your space with beauty and charm.",
-  "alias": "Bud Gibbons",
-  "tinyDescription": "American",
   "slug": "bud_gibbons_artist-html",
+  "hasLandingPage": true,
   "paintings": [
     "bud_gibbons_rolled_hay-html"
-  ]
+  ],
+  "alias": "Bud Gibbons",
+  "metaTitle": "Charles W. Gibbons Paintings For Sale",
+  "metaDescription": "Experience the artistry of Charles W. Gibbons with paintings for sale. Own a captivating masterpiece that elevates your space with beauty and charm.",
+  "tinyDescription": "American"
 }
