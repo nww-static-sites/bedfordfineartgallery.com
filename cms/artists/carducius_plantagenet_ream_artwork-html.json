@@ -1,12 +1,13 @@
 {
-   "alias" : "Carducius Ream",
-   "hasLandingPage": true,
-   "name" : "Carducius Plantagenet Ream",
-   "metaTitle": "Carducius Plantagenet Ream Paintings For Sale",
-   "metaDescription": "Explore the captivating art of Carducius Plantagenet Ream with paintings for sale. Own a unique masterpiece that reflects creativity and beauty.",
-   "paintings" : [
-      "carducius_plantagenet_ream_fruit-html"
-   ],
-   "slug" : "carducius_plantagenet_ream_artwork-html",
-   "tinyDescription" : "1837 - 1917"
+  "body": "Carducius Plantagenet Ream, an esteemed 19th-century American artist, is celebrated for his remarkable still-life paintings that display an extraordinary level of detail and realism. Ream's work is characterized by a mastery of texture and light, often focusing on themes of nature and abundance. His still-life compositions typically feature an array of fruits, flowers, and inanimate objects, all rendered with meticulous precision and vibrant color. These elements are not just painted; they are brought to life with a palpable sense of texture and depth, making viewers feel as if they could reach out and touch them. Ream's ability to capture the subtle play of light and shadow, along with his keen eye for the nuances of color, set his work apart in the realm of still-life painting. His paintings emanate a sense of timeless beauty and tranquility, resonating with viewers even today. Carducius Plantagenet Ream's paintings are highly prized by collectors and enthusiasts of classical still-life art. These works, available for purchase in art galleries, at auctions, and through online art marketplaces, offer a unique opportunity to own a piece of American art history, distinguished by its exquisite detail and beauty.",
+  "name": "Carducius Plantagenet Ream",
+  "slug": "carducius_plantagenet_ream_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "carducius_plantagenet_ream_fruit-html"
+  ],
+  "alias": "Carducius Ream",
+  "metaTitle": "Carducius Plantagenet Ream Paintings For Sale",
+  "metaDescription": "Explore the captivating art of Carducius Plantagenet Ream with paintings for sale. Own a unique masterpiece that reflects creativity and beauty.",
+  "tinyDescription": "1837 - 1917"
 }
