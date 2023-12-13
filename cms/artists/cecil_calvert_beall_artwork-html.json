@@ -1,12 +1,13 @@
 {
-   "alias" : "C. C. Beall",
-   "hasLandingPage": true,
-   "name" : "Cecil Calvert Beall",
-   "metaTitle": "Cecil Calvert Beall Paintings For Sale",
-   "metaDescription": "Explore the captivating world of Cecil Calvert Beall's paintings for sale. Own a timeless masterpiece that evokes emotions and inspires.",
-   "paintings" : [
-      "cecil_calvert_beall_lincoln-html"
-   ],
-   "slug" : "cecil_calvert_beall_artwork-html",
-   "tinyDescription" : "American, 1892 - 1967"
+  "body": "Cecil Calvert Beall, a prominent American artist known for his versatile painting styles, made significant contributions to the art world in the 20th century. Beall's repertoire includes a wide range of subjects, from captivating portraits and powerful historical scenes to evocative landscapes. His style is characterized by a blend of realism and impressionism, marked by vivid color usage, dynamic brushstrokes, and a keen attention to the nuances of light and shadow. Beall's portraits are particularly notable for their depth and the way they capture the essence of the subject’s character. His historical paintings often depict significant moments with a dramatic and emotive flair, bringing the scenes to life with a sense of immediacy and realism. Meanwhile, his landscapes convey the beauty and tranquility of nature, inviting viewers into serene and picturesque settings. Today, Cecil Calvert Beall's paintings are highly valued by collectors and art enthusiasts for their artistic quality and historical significance. His works are available for sale in select art galleries, at prestigious auctions, and through online art platforms, offering a unique opportunity to own a piece of American art history that is both aesthetically pleasing and emotionally resonant.",
+  "name": "Cecil Calvert Beall",
+  "slug": "cecil_calvert_beall_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "cecil_calvert_beall_lincoln-html"
+  ],
+  "alias": "C. C. Beall",
+  "metaTitle": "Cecil Calvert Beall Paintings For Sale",
+  "metaDescription": "Explore the captivating world of Cecil Calvert Beall's paintings for sale. Own a timeless masterpiece that evokes emotions and inspires.",
+  "tinyDescription": "American, 1892 - 1967"
 }
