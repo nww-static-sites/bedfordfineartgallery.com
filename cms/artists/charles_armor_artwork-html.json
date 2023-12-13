@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Charles Armor",
-   "metaTitle": "Charles Armor Victorian Art For Sale",
-   "metaDescription": "Discover the elegance of Charles Armor's Victorian art for sale. Own a stunning masterpiece that adds sophistication and beauty to your collection.",
-   "paintings" : [
-      "charles_armor_apple-html"
-   ],
-   "slug" : "charles_armor_artwork-html",
-   "tinyDescription" : "American, 1844 - 1911"
+  "body": "Charles Armor, a noteworthy artist from the Victorian era, is celebrated for his beautiful and intricate artworks that capture the spirit and elegance of the 19th century. His oeuvre primarily consists of landscapes, portraits, and genre scenes, each painted with a keen eye for detail and a deep understanding of the Victorian aesthetic. Armor's landscapes are particularly notable for their romantic portrayal of nature, featuring lush greenery, serene water bodies, and often idyllic rural settings. In his portraits, he demonstrates a meticulous attention to the fine details of his subjects' attire and demeanor, capturing the sophistication and grace characteristic of the period. His genre scenes are rich in narrative, depicting everyday life and social customs with authenticity and charm. The use of vibrant colors, along with skillful play of light and shadow, gives Armor's paintings a sense of depth and realism. Today, Charles Armor's Victorian art is sought after by collectors and enthusiasts who appreciate the historical and artistic value of the era. His works, available for sale in art galleries, at auctions, and on various online platforms, offer a unique opportunity to own a piece of art that beautifully encapsulates the essence of the Victorian period.",
+  "name": "Charles Armor",
+  "slug": "charles_armor_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "charles_armor_apple-html"
+  ],
+  "alias": "",
+  "metaTitle": "Charles Armor Victorian Art For Sale",
+  "metaDescription": "Discover the elegance of Charles Armor's Victorian art for sale. Own a stunning masterpiece that adds sophistication and beauty to your collection.",
+  "tinyDescription": "American, 1844 - 1911"
 }
