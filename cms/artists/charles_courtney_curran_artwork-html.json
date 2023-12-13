@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Charles Courtney Curran",
-   "metaTitle": "Charles Courtney Curran Paintings For Sale",
-   "metaDescription": "Experience the enchanting artistry of Charles Courtney Curran with paintings for sale. Own a captivating masterpiece that evokes emotions.",
-   "paintings" : [
-      "charles_courtney_curran_art_cloud-html"
-   ],
-   "slug" : "charles_courtney_curran_artwork-html",
-   "tinyDescription" : "American 1861 - 1942"
+  "body": "Charles Courtney Curran, an American painter renowned for his exquisite and radiant portrayals of the American landscape and its inhabitants, especially in the late 19th and early 20th centuries, left a significant mark in the world of art. His paintings are particularly celebrated for their depiction of bright, sunlit scenes, often featuring young women in outdoor settings. Curran's technique, characterized by delicate brushwork and a vibrant color palette, captures the luminosity and ethereal quality of light in a way that is both realistic and impressionistic. His works are a testament to his mastery of portraying the subtle interplay of light and shadow, creating scenes that are not just visually stunning but also evoke a sense of serene beauty and tranquility. Curran's ability to capture the innocence and elegance of his subjects against the backdrop of the natural world makes his paintings deeply appealing and enduring. Today, Charles Courtney Curran's paintings are highly prized by collectors and enthusiasts of American Impressionism. His works are available for sale in various esteemed art galleries, at auctions, and through online art marketplaces, offering art lovers the chance to own a piece of this luminous and enchanting artistic legacy.",
+  "name": "Charles Courtney Curran",
+  "slug": "charles_courtney_curran_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "charles_courtney_curran_art_cloud-html"
+  ],
+  "alias": "",
+  "metaTitle": "Charles Courtney Curran Paintings For Sale",
+  "metaDescription": "Experience the enchanting artistry of Charles Courtney Curran with paintings for sale. Own a captivating masterpiece that evokes emotions.",
+  "tinyDescription": "American 1861 - 1942"
 }
