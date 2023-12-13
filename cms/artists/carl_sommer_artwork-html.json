@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Carl Sommer",
-   "metaTitle": "Carl Sommer Victorian Paintings For Sale",
-   "metaDescription": "Step into the elegance of Carl Sommer's Victorian paintings for sale. Own a piece of history and artistry that enriches your space with charm.",
-   "paintings" : [
-      "charles_august_sommer_traveler-html"
-   ],
-   "slug" : "carl_sommer_artwork-html",
-   "tinyDescription" : "1829 - 1894"
+  "body": "Carl Sommer, an artist from the Victorian era, is known for his exquisite paintings that beautifully capture the essence and elegance of the 19th century. His work predominantly features landscapes, portraits, and genre scenes, all depicted with a romantic and realistic flair characteristic of the Victorian period. Sommer's landscapes often convey the grandeur and tranquility of nature, showcasing lush sceneries, serene water bodies, and majestic skies. In his portraits, he demonstrates a meticulous attention to detail, from the intricate facial expressions to the elaborate clothing typical of the era, capturing the dignity and grace of his subjects. His genre scenes are particularly noteworthy, as they vividly portray the daily life and social customs of the time, providing a window into the past. The use of rich, vibrant colors and the skillful play of light and shadow in Sommer's paintings create a sense of depth and realism that draws the viewer into the scene. Today, Carl Sommer's Victorian paintings are sought after by art collectors and enthusiasts for their historical value and aesthetic appeal. These works are available for sale in various art galleries, at auctions, and through online art marketplaces, offering a unique opportunity to own a piece of Victorian art history.",
+  "name": "Carl Sommer",
+  "slug": "carl_sommer_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "charles_august_sommer_traveler-html"
+  ],
+  "alias": "",
+  "metaTitle": "Carl Sommer Victorian Paintings For Sale",
+  "metaDescription": "Step into the elegance of Carl Sommer's Victorian paintings for sale. Own a piece of history and artistry that enriches your space with charm.",
+  "tinyDescription": "1829 - 1894"
 }
