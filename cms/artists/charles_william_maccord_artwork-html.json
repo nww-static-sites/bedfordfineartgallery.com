@@ -1,12 +1,13 @@
 {
-   "alias" : "Charles Wm Maccord, C W MacCord",
-   "hasLandingPage": true,
-   "name" : "Charles William MacCord",
-   "metaTitle": "Charles William MacCord Paintings For Sale",
-   "metaDescription": "Discover the life and legacy of Charles William MacCord, a remarkable individual whose contributions left a lasting impact on history.",
-   "paintings" : [
-      "charles_william_maccord_waters_edge-html"
-   ],
-   "slug" : "charles_william_maccord_artwork-html",
-   "tinyDescription" : "American 1852 - 1923"
+  "body": "Charles William MacCord, a notable American artist of the late 19th and early 20th centuries, is celebrated for his exquisite landscape and maritime paintings. MacCord's work is characterized by a remarkable ability to capture the majesty and tranquility of the sea, as well as the serene beauty of rural landscapes. His use of color and light brings a lifelike quality to his paintings, whether depicting the quiet stillness of a countryside or the dynamic movement of waves. MacCord's art resonates with those who appreciate the nuanced interplay of natural light and scenery. Today, Charles William MacCord's paintings are sought after by collectors and enthusiasts of fine art. His pieces, offering a glimpse into the scenic beauty of the past, are available for sale in various art galleries, at auctions, and on online platforms, providing an opportunity to own a piece of timeless American art.",
+  "name": "Charles William MacCord",
+  "slug": "charles_william_maccord_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "charles_william_maccord_waters_edge-html"
+  ],
+  "alias": "Charles Wm Maccord, C W MacCord",
+  "metaTitle": "Charles William MacCord Paintings For Sale",
+  "metaDescription": "Discover the life and legacy of Charles William MacCord, a remarkable individual whose contributions left a lasting impact on history.",
+  "tinyDescription": "American 1852 - 1923"
 }
