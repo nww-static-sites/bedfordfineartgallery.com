@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Charles Harold Davis",
-   "metaTitle": "Charles Harold Davis Paintings For Sale",
-   "metaDescription": "Embrace the artistry of Charles Harold Davis with paintings for sale. Own a captivating masterpiece that captures nature's beauty and serenity.",
-   "paintings" : [
-      "charles_harold_davis_autumn-html"
-   ],
-   "slug" : "charles_harold_davis_artwork-html",
-   "tinyDescription" : "American 1856 - 1933"
+  "body": "Charles Harold Davis, a notable American artist of the late 19th and early 20th centuries, is renowned for his evocative landscape paintings. His works, deeply rooted in the American Tonalist and Impressionist movements, are characterized by their subtle use of color and light to capture the atmospheric mood of rural and pastoral scenes. Davis had a particular talent for depicting the changing skies and the gentle interplay of light across varied terrains, which lends his paintings a serene and contemplative quality. Today, Charles Harold Davis' paintings are highly prized by collectors and enthusiasts of American art. His works, showcasing the beauty of the American landscape through a unique and emotive lens, are available for sale in art galleries, at auctions, and on various online platforms, offering a chance to own a piece of this tranquil and beautiful artistic legacy.",
+  "name": "Charles Harold Davis",
+  "slug": "charles_harold_davis_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "charles_harold_davis_autumn-html"
+  ],
+  "alias": "",
+  "metaTitle": "Charles Harold Davis Paintings For Sale",
+  "metaDescription": "Embrace the artistry of Charles Harold Davis with paintings for sale. Own a captivating masterpiece that captures nature's beauty and serenity.",
+  "tinyDescription": "American 1856 - 1933"
 }
