@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Charles Kaelin",
-   "metaTitle": "Charles Kaelin Paintings For Sale",
-   "metaDescription": "Explore the captivating art of Charles Kaelin with paintings for sale. Own a unique masterpiece that brings beauty and inspiration to your space.",
-   "paintings" : [
-      "charles_kaelin_rockport-html"
-   ],
-   "slug" : "charles_kaelin_artwork-html",
-   "tinyDescription" : "American 1858 - 1929"
+  "body": "Charles Kaelin, a distinguished American Impressionist painter of the late 19th and early 20th centuries, is celebrated for his vibrant and expressive landscape paintings. Kaelin's work is notable for its innovative use of color and light, capturing the essence of the natural world with a dynamic and almost rhythmic brushwork. His paintings often depict the scenic beauty of places like Gloucester, Massachusetts, and the Ohio River Valley, characterized by vivid, bold color palettes that bring scenes to life with a sense of energy and movement. Today, Charles Kaelin's paintings are sought after by collectors and art lovers who appreciate his unique approach to Impressionism. His works, capturing the beauty and atmosphere of American landscapes, are available for sale in various art galleries, at auctions, and through online art dealers, offering a wonderful opportunity to own a piece of vibrant American Impressionist art.",
+  "name": "Charles Kaelin",
+  "slug": "charles_kaelin_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "charles_kaelin_rockport-html"
+  ],
+  "alias": "",
+  "metaTitle": "Charles Kaelin Paintings For Sale",
+  "metaDescription": "Explore the captivating art of Charles Kaelin with paintings for sale. Own a unique masterpiece that brings beauty and inspiration to your space.",
+  "tinyDescription": "American 1858 - 1929"
 }
