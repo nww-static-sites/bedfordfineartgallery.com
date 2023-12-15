@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Edward Mitchell Bannister",
-   "metaTitle": "Edward Mitchell Bannister Paintings For Sale",
-   "metaDescription": "Explore the extraordinary paintings of Edward Mitchell Bannister for sale. Delight in the profound artistry of a master. Elevate your art collection today!",
-   "paintings" : [
-      "edward_mitchell_bannister_river-html"
-   ],
-   "slug" : "edward_mitchell_bannister_artwork-html",
-   "tinyDescription" : "American 1828 - 1901"
+  "body": "Edward Mitchell Bannister, a distinguished African American artist from the 19th century, is celebrated for his exquisite paintings that often depict landscapes and genre scenes. His works are characterized by their meticulous attention to detail, vibrant use of color, and a deep connection to nature. Bannister's ability to capture the beauty and serenity of the American landscape has made his art highly sought after by collectors and art enthusiasts. His paintings are available for sale in select art galleries, at auctions, and through online art platforms, offering an opportunity to own a piece of American landscape artistry with historical significance.",
+  "name": "Edward Mitchell Bannister",
+  "slug": "edward_mitchell_bannister_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "edward_mitchell_bannister_river-html"
+  ],
+  "alias": "",
+  "metaTitle": "Edward Mitchell Bannister Paintings For Sale",
+  "metaDescription": "Explore the extraordinary paintings of Edward Mitchell Bannister for sale. Delight in the profound artistry of a master. Elevate your art collection today!",
+  "tinyDescription": "American 1828 - 1901"
 }
