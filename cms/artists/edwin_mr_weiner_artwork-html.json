@@ -1,12 +1,13 @@
 {
-   "alias" : "Edwin Weiner",
-   "hasLandingPage": true,
-   "name" : "Edwin M.R. Weiner",
-   "metaTitle": "Edwin M.R. Weiner Paintings For Sale",
-   "metaDescription": "Discover the enchanting artistry of Edwin M.R. Weiner's paintings for sale. Elevate your collection with captivating and evocative masterpieces. Buy now!",
-   "paintings" : [
-      "edwin_m_r_weiner_fruit-html"
-   ],
-   "slug" : "edwin_mr_weiner_artwork-html",
-   "tinyDescription" : "American, 19th Century"
+  "body": "Edwin M.R. Weiner, a talented American artist, is celebrated for his captivating paintings that often depict a wide range of subjects, from landscapes and cityscapes to abstract compositions. His work is characterized by a unique blend of creativity, color exploration, and a keen sense of composition. Weiner's paintings have a versatility that appeals to a diverse range of art enthusiasts. Whether you're drawn to abstract expressionism or traditional scenes, his artwork is available for sale in select art galleries, at auctions, and through online art platforms, offering an opportunity to own a piece of his versatile and imaginative artistic expression.",
+  "name": "Edwin M.R. Weiner",
+  "slug": "edwin_mr_weiner_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "edwin_m_r_weiner_fruit-html"
+  ],
+  "alias": "Edwin Weiner",
+  "metaTitle": "Edwin M.R. Weiner Paintings For Sale",
+  "metaDescription": "Discover the enchanting artistry of Edwin M.R. Weiner's paintings for sale. Elevate your collection with captivating and evocative masterpieces. Buy now!",
+  "tinyDescription": "American, 19th Century"
 }
