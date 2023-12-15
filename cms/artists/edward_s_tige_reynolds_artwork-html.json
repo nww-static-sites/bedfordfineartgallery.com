@@ -1,12 +1,13 @@
 {
-   "alias" : "Edward Samuel \"Tige\" Reynolds, E. S. Reynolds",
-   "hasLandingPage": true,
-   "name" : "Edward S. \"Tige\" Reynolds",
-   "metaTitle": "Edward S. Reynolds Paintings For Sale",
-   "metaDescription": "Indulge in the captivating world of Edward S. Reynolds' paintings for sale. Embrace the depth and beauty of these remarkable artworks. Own one today!",
-   "paintings" : [
-      "edward_s_reynolds_uncle_sam-html"
-   ],
-   "slug" : "edward_s_tige_reynolds_artwork-html",
-   "tinyDescription" : "American, 1877 - 1931"
+  "body": "Edward S. Reynolds, a talented American artist, is known for his captivating paintings that often depict landscapes, coastal scenes, and marine subjects. His works are characterized by their meticulous attention to detail, vibrant use of color, and a deep appreciation for the natural world. Reynolds' ability to capture the beauty and tranquility of the American landscape and seascapes has made his art highly sought after by collectors and art enthusiasts. His paintings are available for sale through select art galleries, at auctions, and online art platforms, providing an opportunity to own a piece of American landscape and marine artistry that celebrates the beauty of nature.",
+  "name": "Edward S. \"Tige\" Reynolds",
+  "slug": "edward_s_tige_reynolds_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "edward_s_reynolds_uncle_sam-html"
+  ],
+  "alias": "Edward Samuel \"Tige\" Reynolds, E. S. Reynolds",
+  "metaTitle": "Edward S. Reynolds Paintings For Sale",
+  "metaDescription": "Indulge in the captivating world of Edward S. Reynolds' paintings for sale. Embrace the depth and beauty of these remarkable artworks. Own one today!",
+  "tinyDescription": "American, 1877 - 1931"
 }
