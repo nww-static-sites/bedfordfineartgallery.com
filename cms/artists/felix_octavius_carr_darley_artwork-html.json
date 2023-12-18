@@ -1,12 +1,13 @@
 {
-   "alias" : "F. O. C. Darley",
-   "hasLandingPage": true,
-   "metaTitle": "Felix Octavius Carr Darley Paintings For Sale",
-   "metaDescription": "Elevate your space with Felix Octavius Carr Darley's enchanting paintings for sale. Dive into a world of artistic brilliance and bring home a masterpiece today.",
-   "name" : "Felix Octavius Carr Darley",
-   "paintings" : [
-      "felix_octavious_carr_darley_washington-html"
-   ],
-   "slug" : "felix_octavius_carr_darley_artwork-html",
-   "tinyDescription" : "American 1822 - 1888"
+  "body": "Felix Octavius Carr Darley, a notable artist from the 19th century, is celebrated for his exquisite paintings that often depict a wide range of subjects, from landscapes and genre scenes to intricate illustrations. His works are characterized by their meticulous attention to detail, rich use of color, and a deep understanding of the artistic techniques of his time. Darley's paintings offer a glimpse into the artistry and aesthetics of the 19th century, making them highly prized by collectors and art enthusiasts. His artwork is available for sale through select art galleries, at auctions, and online art platforms, offering an opportunity to own a piece of historical art that reflects the creativity of its era.",
+  "name": "Felix Octavius Carr Darley",
+  "slug": "felix_octavius_carr_darley_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "felix_octavious_carr_darley_washington-html"
+  ],
+  "alias": "F. O. C. Darley",
+  "metaTitle": "Felix Octavius Carr Darley Paintings For Sale",
+  "metaDescription": "Elevate your space with Felix Octavius Carr Darley's enchanting paintings for sale. Dive into a world of artistic brilliance and bring home a masterpiece today.",
+  "tinyDescription": "American 1822 - 1888"
 }
