@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Ellen Malvino Pomeroy",
-   "metaTitle": "Ellen Malvino Pomeroy Paintings For Sale",
-   "metaDescription": "Uncover the artistic brilliance of Ellen Malvino Pomeroy's paintings for sale. Delight in the exquisite beauty of her timeless artworks. Own one today!",
-   "paintings" : [
-      "ellen_malvino_pomeroy_valley-html"
-   ],
-   "slug" : "ellen_malvino_pomeroy_artwork-html",
-   "tinyDescription" : "American 1841 - 1903"
+  "body": "Ellen Malvino Pomeroy, a talented American artist, is celebrated for her captivating paintings that often depict landscapes, floral scenes, and still-life compositions. Her works are characterized by their meticulous attention to detail, vibrant use of color, and a deep appreciation for the beauty of the natural world. Pomeroy's ability to capture the essence of her subjects with a touch of realism and artistic flair has made her art highly sought after by collectors and art enthusiasts. Her paintings are available for sale in select art galleries, at auctions, and through online art platforms, offering an opportunity to own a piece of her evocative and enchanting artistic expression.",
+  "name": "Ellen Malvino Pomeroy",
+  "slug": "ellen_malvino_pomeroy_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "ellen_malvino_pomeroy_valley-html"
+  ],
+  "alias": "",
+  "metaTitle": "Ellen Malvino Pomeroy Paintings For Sale",
+  "metaDescription": "Uncover the artistic brilliance of Ellen Malvino Pomeroy's paintings for sale. Delight in the exquisite beauty of her timeless artworks. Own one today!",
+  "tinyDescription": "American 1841 - 1903"
 }
