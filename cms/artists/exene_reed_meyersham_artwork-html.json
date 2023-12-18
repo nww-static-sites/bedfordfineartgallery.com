@@ -1,12 +1,13 @@
 {
-   "alias" : "Exene Meyersham",
-   "hasLandingPage": true,
-   "metaTitle": "Exene Reed Meyersham Paintings For Sale",
-   "metaDescription": "Explore Exene Reed Meyersham's exquisite paintings for sale. Embrace a world of captivating artistry and enrich your space with timeless beauty. Discover now.",
-   "name" : "Exene Reed Meyersham",
-   "paintings" : [
-      "exene_reed_meyersham_roses-html"
-   ],
-   "slug" : "exene_reed_meyersham_artwork-html",
-   "tinyDescription" : "American 1886-1978"
+  "body": "Exene Reed Meyersham, a talented American artist, is known for her captivating paintings that often depict a wide range of subjects, from landscapes and seascapes to abstract compositions. Her work is characterized by a unique blend of creativity, color exploration, and a keen sense of composition. Meyersham's paintings have a versatility that appeals to a diverse range of art enthusiasts. Whether you're drawn to abstract expressionism or traditional scenes, her artwork is available for sale in select art galleries, at auctions, and through online art platforms, offering an opportunity to own a piece of her imaginative and evocative artistic expression.",
+  "name": "Exene Reed Meyersham",
+  "slug": "exene_reed_meyersham_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "exene_reed_meyersham_roses-html"
+  ],
+  "alias": "Exene Meyersham",
+  "metaTitle": "Exene Reed Meyersham Paintings For Sale",
+  "metaDescription": "Explore Exene Reed Meyersham's exquisite paintings for sale. Embrace a world of captivating artistry and enrich your space with timeless beauty. Discover now.",
+  "tinyDescription": "American 1886-1978"
 }
