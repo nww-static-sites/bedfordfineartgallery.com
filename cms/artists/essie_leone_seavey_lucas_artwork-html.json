@@ -1,12 +1,13 @@
 {
-   "alias" : "E. Leone Seavey",
-   "hasLandingPage": true,
-   "metaTitle": "Essie Leone Seavey Lucas Paintings For Sale",
-   "metaDescription": "Discover Essie Leone Seavey Lucas' stunning paintings for sale. Immerse yourself in her unique blend of creativity and expression. Explore now.",
-   "name" : "Essie Leone Seavey Lucas",
-   "paintings" : [
-      "essie_leone_seavey_lucas_racehorse-html"
-   ],
-   "slug" : "essie_leone_seavey_lucas_artwork-html",
-   "tinyDescription" : "American, 1872 - 1932"
+  "body": "Essie Leone Seavey Lucas, a talented American artist, is celebrated for her captivating paintings that often depict a wide range of subjects, from landscapes and seascapes to still-life compositions. Her works are characterized by meticulous attention to detail, vibrant use of color, and a deep appreciation for the beauty of nature and everyday life. Lucas' ability to capture the essence of her subjects with a touch of realism and artistic flair has made her art highly sought after by collectors and art enthusiasts. Her paintings are available for sale in select art galleries, at auctions, and through online art platforms, providing an opportunity to own a piece of her versatile and evocative artistic expression.",
+  "name": "Essie Leone Seavey Lucas",
+  "slug": "essie_leone_seavey_lucas_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "essie_leone_seavey_lucas_racehorse-html"
+  ],
+  "alias": "E. Leone Seavey",
+  "metaTitle": "Essie Leone Seavey Lucas Paintings For Sale",
+  "metaDescription": "Discover Essie Leone Seavey Lucas' stunning paintings for sale. Immerse yourself in her unique blend of creativity and expression. Explore now.",
+  "tinyDescription": "American, 1872 - 1932"
 }
