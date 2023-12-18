@@ -1,12 +1,13 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "Erik Koeppel is a contemporary artist known for his breathtaking landscape paintings that capture the beauty of nature in exquisite detail. His works often depict serene natural landscapes, rugged mountains, and tranquil forests, showcasing his exceptional skill and deep connection to the outdoors. Koeppel's paintings are characterized by their masterful use of light, color, and composition, creating immersive and captivating scenes that transport viewers to the heart of nature. If you're looking to own a piece of contemporary landscape artistry that celebrates the wonders of the natural world, Erik Koeppel's paintings are available for sale through select art galleries, at exhibitions, and online art platforms.",
   "name": "Erik Koeppel",
-  "metaTitle": "Erik Koeppel Art For Sale | Erik Koeppel Paintings",
-  "metaDescription": "Discover exquisite landscapes and nature-inspired artworks by Erik Koeppel. Explore his captivating collection of art for sale and bring it into your space.",
+  "slug": "erik_koeppel_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "erik_koeppel_river-html"
   ],
-  "slug": "erik_koeppel_artwork-html",
+  "alias": "",
+  "metaTitle": "Erik Koeppel Art For Sale | Erik Koeppel Paintings",
+  "metaDescription": "Discover exquisite landscapes and nature-inspired artworks by Erik Koeppel. Explore his captivating collection of art for sale and bring it into your space.",
   "tinyDescription": "b. 1980"
 }
