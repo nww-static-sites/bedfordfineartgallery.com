@@ -1,14 +1,15 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "Franklin Edward Morris, a talented American artist, is celebrated for his captivating paintings that often depict a wide range of subjects, from landscapes and seascapes to still-life compositions. His works are characterized by meticulous attention to detail, vibrant use of color, and a deep appreciation for the natural world. Morris' ability to convey the beauty of his subjects with precision and artistic flair has made his art highly sought after by collectors and art enthusiasts. His paintings are available for sale in select art galleries, at auctions, and through online art platforms, offering an opportunity to own a piece of his versatile and evocative artistic expression.",
   "name": "Franklin Edward Morris",
-  "metaTitle": "Franklin Edward Morris Paintings For Sale",
-  "metaDescription": "Discover the evocative artistry of Franklin Edward Morris. Paintings for sale that capture emotion and beauty, adding depth to your space. Explore now!",
+  "slug": "franklin_edward_morris_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "franklin_morris_beach-html",
     "franklin_morris_flat_iron_building-html",
     "franklin_morris_fourth_of_july-html"
   ],
-  "slug": "franklin_edward_morris_artwork-html",
+  "alias": "",
+  "metaTitle": "Franklin Edward Morris Paintings For Sale",
+  "metaDescription": "Discover the evocative artistry of Franklin Edward Morris. Paintings for sale that capture emotion and beauty, adding depth to your space. Explore now!",
   "tinyDescription": "American 1938 - 2009"
 }
