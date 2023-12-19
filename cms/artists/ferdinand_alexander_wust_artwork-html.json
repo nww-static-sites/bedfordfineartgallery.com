@@ -1,12 +1,13 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
-  "metaTitle": "Ferdinand Alexander Wust Paintings For Sale",
-  "metaDescription": "Immerse yourself in the captivating world of Ferdinand Alexander Wusts paintings for sale. Experience artistry that resonates with depth & emotion. Explore now.",
+  "body": "Ferdinand Alexander Wust, a talented artist from the past, is celebrated for his exquisite paintings that often depict landscapes, genre scenes, and portraits. His works are characterized by their attention to detail, rich use of color, and a deep understanding of the artistic techniques of his time. Wust's paintings offer a glimpse into the artistry and aesthetics of his era, making them highly prized by collectors and art enthusiasts. His artwork is available for sale through select art galleries, at auctions, and online art platforms, offering an opportunity to own a piece of historical art that reflects the creativity of its time.",
   "name": "Ferdinand Alexander Wust",
+  "slug": "ferdinand_alexander_wust_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "ferdinand_wust_storm-html"
   ],
-  "slug": "ferdinand_alexander_wust_artwork-html",
+  "alias": "",
+  "metaTitle": "Ferdinand Alexander Wust Paintings For Sale",
+  "metaDescription": "Immerse yourself in the captivating world of Ferdinand Alexander Wusts paintings for sale. Experience artistry that resonates with depth & emotion. Explore now.",
   "tinyDescription": "Dutch-American,"
 }
