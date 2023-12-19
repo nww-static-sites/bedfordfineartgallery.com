@@ -1,12 +1,13 @@
 {
-   "alias" : "F. Muller",
-   "hasLandingPage": true,
-   "name" : "Frank Christian Muller",
-   "metaTitle": "Frank Christian Muller Paintings For Sale",
-   "metaDescription": "Explore the timeless allure of Frank Christian Muller paintings for sale. Captivating artistry that enriches spaces and ignites the imagination. Discover today!",
-   "paintings" : [
-      "frank_christian_muller_erie-html"
-   ],
-   "slug" : "frank_christian_muller_artwork-html",
-   "tinyDescription" : "Danish American 1860 - 1938"
+  "body": "Frank Christian Muller, a talented American artist, is celebrated for his captivating paintings that often depict a wide range of subjects, from landscapes and seascapes to still-life compositions. His works are characterized by meticulous attention to detail, vibrant use of color, and a deep appreciation for the natural world. Muller's ability to convey the beauty of his subjects with precision and artistic flair has made his art highly sought after by collectors and art enthusiasts. His paintings are available for sale in select art galleries, at auctions, and through online art platforms, providing an opportunity to own a piece of his versatile and evocative artistic expression.",
+  "name": "Frank Christian Muller",
+  "slug": "frank_christian_muller_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "frank_christian_muller_erie-html"
+  ],
+  "alias": "F. Muller",
+  "metaTitle": "Frank Christian Muller Paintings For Sale",
+  "metaDescription": "Explore the timeless allure of Frank Christian Muller paintings for sale. Captivating artistry that enriches spaces and ignites the imagination. Discover today!",
+  "tinyDescription": "Danish American 1860 - 1938"
 }
