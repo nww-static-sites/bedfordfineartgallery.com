@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Frederick Mulhaupt",
-   "metaTitle": "Frederick Mulhaupt Victorian Art For Sale",
-   "metaDescription": "Experience the timeless elegance of Frederick Mulhaupt's Victorian art for sale. Immerse yourself in captivating scenes that evoke nostalgia. Explore now!",
-   "paintings" : [
-      "frederick_mulhaupt_flowers-html"
-   ],
-   "slug" : "frederick_mulhaupt_artwork-html",
-   "tinyDescription" : "American 1871 - 1938"
+  "body": "Frederick Mulhaupt, a distinguished artist from the Victorian era, is celebrated for his exquisite paintings that beautifully capture the spirit of the time. His works often depict the elegance and grace of the Victorian period, with a focus on portraits, genre scenes, and landscapes. Mulhaupt's paintings are characterized by their attention to detail, rich use of color, and a deep understanding of the cultural and societal aspects of the era. Today, his Victorian-era artwork is highly prized by collectors and art enthusiasts for its historical significance and artistic craftsmanship. These pieces of art are available for sale through select art galleries, at auctions, and online art platforms, offering a chance to own a piece of Victorian artistry that reflects the beauty of the era.",
+  "name": "Frederick Mulhaupt",
+  "slug": "frederick_mulhaupt_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "frederick_mulhaupt_flowers-html"
+  ],
+  "alias": "",
+  "metaTitle": "Frederick Mulhaupt Victorian Art For Sale",
+  "metaDescription": "Experience the timeless elegance of Frederick Mulhaupt's Victorian art for sale. Immerse yourself in captivating scenes that evoke nostalgia. Explore now!",
+  "tinyDescription": "American 1871 - 1938"
 }
