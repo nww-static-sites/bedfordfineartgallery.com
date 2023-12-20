@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "George W. King",
-   "metaTitle": "George W. King Victorian Art For Sale",
-   "metaDescription": "Step into the allure of Victorian era with George W. King's art. Acquire his exquisite paintings for sale, capturing timeless elegance and charm.",
-   "paintings" : [
-      "george_w_king_lakehouse-html"
-   ],
-   "slug" : "george_w_king_artwork-html",
-   "tinyDescription" : "American 1836 - 1930"
+  "body": "George W. King, a distinguished artist from the Victorian era, is celebrated for his exquisite paintings that beautifully capture the spirit of the time. His works often depict the elegance and grace of the Victorian period, with a focus on portraits, genre scenes, and landscapes. King's paintings are characterized by their attention to detail, rich use of color, and a deep understanding of the cultural and societal aspects of the era. Today, his Victorian-era artwork is highly prized by collectors and art enthusiasts for its historical significance and artistic craftsmanship. These pieces of art are available for sale through select art galleries, at auctions, and online art platforms, offering a chance to own a piece of Victorian artistry that reflects the beauty of the era.",
+  "name": "George W. King",
+  "slug": "george_w_king_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "george_w_king_lakehouse-html"
+  ],
+  "alias": "",
+  "metaTitle": "George W. King Victorian Art For Sale",
+  "metaDescription": "Step into the allure of Victorian era with George W. King's art. Acquire his exquisite paintings for sale, capturing timeless elegance and charm.",
+  "tinyDescription": "American 1836 - 1930"
 }
