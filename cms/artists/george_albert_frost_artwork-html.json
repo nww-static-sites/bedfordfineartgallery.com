@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "George Albert Frost",
-   "metaTitle": "George Albert Frost Art For Sale",
-   "metaDescription": "Explore George Albert Frost's art for sale. Captivating and evocative pieces that bring beauty and emotion to your space. Discover his work now!",
-   "paintings" : [
-      "george_albert_frost_stream-html"
-   ],
-   "slug" : "george_albert_frost_artwork-html",
-   "tinyDescription" : "1843 - 1907"
+  "body": "George Albert Frost, a talented American artist, is known for his captivating paintings that often depict a wide range of subjects, from landscapes and seascapes to still-life compositions. His work is characterized by meticulous attention to detail, vibrant use of color, and a deep appreciation for the natural world. Frost's ability to convey the beauty of his subjects with precision and artistic flair has made his art highly sought after by collectors and art enthusiasts. His paintings are available for sale in select art galleries, at auctions, and through online art platforms, providing an opportunity to own a piece of his versatile and evocative artistic expression.",
+  "name": "George Albert Frost",
+  "slug": "george_albert_frost_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "george_albert_frost_stream-html"
+  ],
+  "alias": "",
+  "metaTitle": "George Albert Frost Art For Sale",
+  "metaDescription": "Explore George Albert Frost's art for sale. Captivating and evocative pieces that bring beauty and emotion to your space. Discover his work now!",
+  "tinyDescription": "1843 - 1907"
 }
