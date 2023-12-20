@@ -1,13 +1,14 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "George Nelson Cass, a talented American artist, is known for his captivating paintings that often depict a wide range of subjects, from landscapes and seascapes to still-life compositions. His work is characterized by meticulous attention to detail, vibrant use of color, and a deep appreciation for the natural world. Cass's ability to convey the beauty of his subjects with precision and artistic flair has made his art highly sought after by collectors and art enthusiasts. His paintings are available for sale in select art galleries, at auctions, and through online art platforms, providing an opportunity to own a piece of his versatile and evocative artistic expression.",
   "name": "George Nelson Cass",
-  "metaTitle": "George Nelson Cass Paintings For Sale",
-  "metaDescription": "Experience the artistry of George Nelson Cass. Browse and acquire captivating paintings for sale, capturing moments and emotions with every brushstroke.",
+  "slug": "george_nelson_cass_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "george_nelson_cass_fisherman-html",
     "george_nelson_cass_new_jersey_meadow-html"
   ],
-  "slug": "george_nelson_cass_artwork-html",
+  "alias": "",
+  "metaTitle": "George Nelson Cass Paintings For Sale",
+  "metaDescription": "Experience the artistry of George Nelson Cass. Browse and acquire captivating paintings for sale, capturing moments and emotions with every brushstroke.",
   "tinyDescription": "American c. 1825 - 1882"
 }
