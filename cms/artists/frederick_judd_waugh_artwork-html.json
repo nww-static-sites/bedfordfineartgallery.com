@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Frederick Judd Waugh",
-   "metaTitle": "Frederick Judd Waugh Paintings For Sale",
-   "metaDescription": "Discover Frederick Judd Waugh's captivating paintings for sale. Immerse yourself in marine art that captures the power and beauty of the sea. Explore now!",
-   "paintings" : [
-      "frederick_judd_waugh_boating-html"
-   ],
-   "slug" : "frederick_judd_waugh_artwork-html",
-   "tinyDescription" : "1861 - 1940"
+  "body": "Frederick Judd Waugh, a renowned American artist, is celebrated for his captivating marine and seascape paintings that showcase the power and beauty of the ocean. His works are characterized by their dramatic compositions, bold use of color, and meticulous attention to detail in depicting waves, ships, and coastal scenes. Waugh's ability to capture the essence of the sea and its ever-changing moods has made his art highly sought after by collectors and art enthusiasts. His marine and seascape paintings are available for sale through select art galleries, at auctions, and online art platforms, offering an opportunity to own a piece of maritime artistry that celebrates the majesty of the ocean.",
+  "name": "Frederick Judd Waugh",
+  "slug": "frederick_judd_waugh_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "frederick_judd_waugh_boating-html"
+  ],
+  "alias": "",
+  "metaTitle": "Frederick Judd Waugh Paintings For Sale",
+  "metaDescription": "Discover Frederick Judd Waugh's captivating paintings for sale. Immerse yourself in marine art that captures the power and beauty of the sea. Explore now!",
+  "tinyDescription": "1861 - 1940"
 }
