@@ -1,12 +1,13 @@
 {
-   "alias" : "H.C.Bispham",
-   "hasLandingPage": true,
-   "name" : "Henry Collins Bispham",
-   "metaTitle": "Henry Collins Bispham Fine Art For Sale",
-   "metaDescription": "Explore Henry Collins Bispham's fine art for sale. Immerse in captivating creations that evoke emotions and elevate your collection.",
-   "paintings" : [
-      "henry_collins_bispham_lake-html"
-   ],
-   "slug" : "henry_collins_bispham_artwork-html",
-   "tinyDescription" : "American, 1841 - 1882"
+  "body": "Henry Collins Bispham, a distinguished artist from the 19th century, is celebrated for his exquisite fine art that beautifully captures the spirit of his era. His works often depict landscapes, genre scenes, and historical subjects, characterized by meticulous attention to detail and a keen sense of composition. Bispham's 19th-century fine art offers a glimpse into the artistic sensibilities of his time and is highly prized by collectors and art enthusiasts. His works are available for sale through select art galleries, at auctions, and online art platforms, offering a chance to own a piece of historical artistry that reflects the charm of the 19th century.",
+  "name": "Henry Collins Bispham",
+  "slug": "henry_collins_bispham_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "henry_collins_bispham_lake-html"
+  ],
+  "alias": "H.C.Bispham",
+  "metaTitle": "Henry Collins Bispham Fine Art For Sale",
+  "metaDescription": "Explore Henry Collins Bispham's fine art for sale. Immerse in captivating creations that evoke emotions and elevate your collection.",
+  "tinyDescription": "American, 1841 - 1882"
 }
