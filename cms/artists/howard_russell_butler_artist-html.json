@@ -1,12 +1,13 @@
 {
-  "hasLandingPage": true,
+  "body": "Howard Russell Butler, a renowned artist from the late 19th and early 20th centuries, is celebrated for his captivating paintings that beautifully depict landscapes and celestial scenes. His works are characterized by meticulous attention to detail, a deep understanding of the natural world, and a mastery of capturing the interplay of light and atmosphere. Butler's artwork is highly sought after by collectors and art enthusiasts for its scientific accuracy and artistic beauty. His paintings are available for sale through select art galleries, at auctions, and online art platforms, providing an opportunity to own a piece of his timeless and celestial artistry.",
   "name": "Howard Russell Butler",
-   "metaTitle": "Howard Russell Butler Paintings For Sale",
-   "metaDescription": "Discover Howard Russell Butler's captivating paintings for sale. Elevate your collection with his artistic vision and evoke emotions in every brushstroke.",
-  "tinyDescription": "American 1856 - 1934",
   "slug": "howard_russell_butler_artist-html",
-  "alias": "H.R. Butler",
+  "hasLandingPage": true,
   "paintings": [
     "howard_russell_butler_rocky_gulch-html"
-  ]
+  ],
+  "alias": "H.R. Butler",
+  "metaTitle": "Howard Russell Butler Paintings For Sale",
+  "metaDescription": "Discover Howard Russell Butler's captivating paintings for sale. Elevate your collection with his artistic vision and evoke emotions in every brushstroke.",
+  "tinyDescription": "American 1856 - 1934"
 }
