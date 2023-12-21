@@ -1,12 +1,13 @@
 {
-   "alias" : "Henry Perrault",
-   "hasLandingPage": true,
-   "name" : "Henry Paul Perrault",
-   "metaTitle": "Henry Paul Perrault Fine Art Paintings For Sale",
-   "metaDescription": "Explore the finesse of Henry Paul Perrault's art. Acquire his fine paintings for sale and elevate your collection with exquisite beauty.",
-   "paintings" : [
-      "henry_paul_perrault_home-html"
-   ],
-   "slug" : "henry_paul_perrault_artwork-html",
-   "tinyDescription" : "French, 1867 - 1932"
+  "body": "Henry Paul Perrault, a talented artist, offers a collection of fine art paintings that showcase his artistic prowess. His portfolio includes a diverse range of subjects, from landscapes and portraits to genre scenes, all characterized by meticulous attention to detail and a deep sense of artistic expression. Perrault's fine art paintings are available for sale through select art galleries, at auctions, and on online art platforms, providing art enthusiasts with the opportunity to own a piece of his versatile and evocative artistic talent.",
+  "name": "Henry Paul Perrault",
+  "slug": "henry_paul_perrault_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "henry_paul_perrault_home-html"
+  ],
+  "alias": "Henry Perrault",
+  "metaTitle": "Henry Paul Perrault Fine Art Paintings For Sale",
+  "metaDescription": "Explore the finesse of Henry Paul Perrault's art. Acquire his fine paintings for sale and elevate your collection with exquisite beauty.",
+  "tinyDescription": "French, 1867 - 1932"
 }
