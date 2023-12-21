@@ -1,13 +1,14 @@
 {
-  "hasLandingPage": true,
+  "body": "Hiram Peabody Flagg, a distinguished artist from the Victorian era, is celebrated for his exquisite paintings that beautifully capture the spirit of the time. His works often depict the elegance and grace of the Victorian period, with a focus on portraits, genre scenes, and landscapes. Flagg's art is characterized by meticulous attention to detail, rich use of color, and a deep understanding of the cultural and societal aspects of the era. Today, his Victorian-era paintings are highly prized by collectors and art enthusiasts for their historical significance and artistic craftsmanship. These pieces of art are available for sale through select art galleries, at auctions, and online art platforms, offering a chance to own a piece of Victorian artistry that reflects the beauty of the era.",
   "name": "Hiram Peabody Flagg",
-  "alias": "H. Peabody Flagg",
-  "tinyDescription": "American 1858 – 1937",
   "slug": "hiram_peabody_flagg_artist-html",
+  "hasLandingPage": true,
   "paintings": [
     "hiram_peabody_flagg_sheep_herder-html",
     "hiram_peabody_flagg_sheep_at_sunset-html"
   ],
+  "alias": "H. Peabody Flagg",
   "metaTitle": "Hiram Peabody Flagg Victorian Paintings For Sale",
-  "metaDescription": "Step into the Victorian era with Hiram Peabody Flagg's exquisite paintings. Embrace the charm of a bygone age & enrich your collection with historical elegance."
+  "metaDescription": "Step into the Victorian era with Hiram Peabody Flagg's exquisite paintings. Embrace the charm of a bygone age & enrich your collection with historical elegance.",
+  "tinyDescription": "American 1858 – 1937"
 }
