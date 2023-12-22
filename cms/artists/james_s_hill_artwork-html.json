@@ -1,12 +1,13 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "James S. Hill, a talented artist from the Victorian era, presents a collection of paintings that beautifully reflect the aesthetics and sensibilities of his time. His works often feature landscapes, seascapes, and genre scenes, characterized by meticulous attention to detail and a deep appreciation for the natural world. Hill's Victorian-era paintings are highly sought after by collectors and art enthusiasts for their historical significance and their ability to evoke the romanticism and beauty of the Victorian period. These artworks are available for sale through select art galleries, at auctions, and online art platforms, offering an opportunity to own a piece of artistry that captures the essence of the 19th century.",
   "name": "James S. Hill",
-  "metaTitle": "James S Hill Victorian Paintings For Sale",
-  "metaDescription": "Explore the captivating artistry of James S. Hill. Immerse yourself in intricate details & emotive compositions. Artwork for sale, waiting to enrich your space.",
+  "slug": "james_s_hill_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "james_hill_hunter-html"
   ],
-  "slug": "james_s_hill_artwork-html",
+  "alias": "",
+  "metaTitle": "James S Hill Victorian Paintings For Sale",
+  "metaDescription": "Explore the captivating artistry of James S. Hill. Immerse yourself in intricate details & emotive compositions. Artwork for sale, waiting to enrich your space.",
   "tinyDescription": "American mid-19th century"
 }
