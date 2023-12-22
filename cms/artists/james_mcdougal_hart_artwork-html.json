@@ -1,12 +1,13 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "James McDougal Hart, a celebrated artist from the Victorian era, is known for his exquisite paintings that beautifully capture the spirit of the time. His works often depict picturesque landscapes, tranquil rural scenes, and the natural beauty of the American countryside. Hart's art is characterized by meticulous attention to detail, a rich color palette, and a deep appreciation for the serenity of nature. Today, his Victorian-era paintings are highly prized by collectors and art enthusiasts for their historical significance and artistic craftsmanship. These pieces of art are available for sale through select art galleries, at auctions, and online art platforms, offering a chance to own a piece of Victorian artistry that celebrates the beauty of the outdoors.",
   "name": "James McDougal Hart",
-  "metaTitle": "James McDougal Hart Victorian Paintings For Sale",
-  "metaDescription": "Immerse yourself in the timeless beauty of James McDougal Hart's art. Discover landscapes alive with emotion and skill. Artwork for sale, waiting for you.",
+  "slug": "james_mcdougal_hart_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "james_mcdougal_hart_landscape-html"
   ],
-  "slug": "james_mcdougal_hart_artwork-html",
+  "alias": "",
+  "metaTitle": "James McDougal Hart Victorian Paintings For Sale",
+  "metaDescription": "Immerse yourself in the timeless beauty of James McDougal Hart's art. Discover landscapes alive with emotion and skill. Artwork for sale, waiting for you.",
   "tinyDescription": "American 1828 - 1901"
 }
