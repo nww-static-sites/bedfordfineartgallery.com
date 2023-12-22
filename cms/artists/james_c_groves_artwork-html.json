@@ -1,12 +1,13 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "James C. Groves, a talented artist from the Victorian era, offers a collection of artwork that beautifully captures the essence of the time. His portfolio encompasses a wide range of subjects, from portraiture to landscapes and genre scenes, all characterized by meticulous attention to detail and a deep sense of artistic expression. Groves' Victorian-era art is highly sought after by collectors and art enthusiasts for its historical significance and ability to transport viewers to the elegance and charm of the Victorian period. His paintings are available for sale through select art galleries, at auctions, and online art platforms, providing an opportunity to own a piece of this evocative artistic heritage.",
   "name": "James C. Groves",
-  "metaTitle": "James C Groves Victorian Art For Sale",
-  "metaDescription": "Dive into the evocative world of James C. Groves' artistry. Experience profound emotions & intricate craftsmanship. Artwork for sale, waiting to captivate you.",
+  "slug": "james_c_groves_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "james_c_groves_deckers_creek-html"
   ],
-  "slug": "james_c_groves_artwork-html",
+  "alias": "",
+  "metaTitle": "James C Groves Victorian Art For Sale",
+  "metaDescription": "Dive into the evocative world of James C. Groves' artistry. Experience profound emotions & intricate craftsmanship. Artwork for sale, waiting to captivate you.",
   "tinyDescription": "American"
 }
