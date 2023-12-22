@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "James Henry Moser",
-   "metaTitle": "James Henry Moser Artist Paintings For Sale",
-   "metaDescription": "Explore the captivating art of James Henry Moser. Immerse yourself in intricate details and emotive expressions. Artwork for sale, awaiting your appreciation.",
-   "paintings" : [
-      "james_henry_moser_monument-html"
-   ],
-   "slug" : "james_henry_moser_artwork-html",
-   "tinyDescription" : "Canadian, 1854-1913"
+  "body": "James Henry Moser, a distinguished artist known for his remarkable talent, offers a collection of paintings that showcase his artistic prowess. His portfolio encompasses a wide range of subjects, from landscapes and seascapes to portraits and genre scenes, all characterized by meticulous attention to detail and a deep sense of artistic expression. Moser's paintings are available for sale through select art galleries, at auctions, and on online art platforms, providing art enthusiasts with the opportunity to own a piece of his versatile and evocative artistic talent.",
+  "name": "James Henry Moser",
+  "slug": "james_henry_moser_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "james_henry_moser_monument-html"
+  ],
+  "alias": "",
+  "metaTitle": "James Henry Moser Artist Paintings For Sale",
+  "metaDescription": "Explore the captivating art of James Henry Moser. Immerse yourself in intricate details and emotive expressions. Artwork for sale, awaiting your appreciation.",
+  "tinyDescription": "Canadian, 1854-1913"
 }
