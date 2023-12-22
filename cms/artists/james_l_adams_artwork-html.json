@@ -1,12 +1,13 @@
 {
-   "alias" : "",
-   "hasLandingPage": true,
-   "name" : "James L Adams",
-   "metaTitle": "James L Adams Victorian Artwork For Sale",
-   "metaDescription": "Experience the compelling art of James L Adams. Immerse yourself in his unique vision and intricate craftsmanship. Artwork for sale, waiting to be admired.",
-   "paintings" : [
-      "james_l_adams_boulders-html"
-   ],
-   "slug" : "james_l_adams_artwork-html",
-   "tinyDescription" : "British 1847-1901"
+  "body": "James L. Adams, a distinguished artist from the Victorian era, is celebrated for his exquisite paintings that beautifully capture the spirit of the time. His works often depict the elegance and charm of the Victorian period, with a focus on portraits, genre scenes, and landscapes. Adams' art is characterized by meticulous attention to detail, rich use of color, and a deep understanding of the cultural and societal aspects of the era. Today, his Victorian-era artwork is highly prized by collectors and art enthusiasts for its historical significance and artistic craftsmanship. These pieces of art are available for sale through select art galleries, at auctions, and online art platforms, offering a chance to own a piece of Victorian artistry that reflects the beauty of the era.",
+  "name": "James L Adams",
+  "slug": "james_l_adams_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "james_l_adams_boulders-html"
+  ],
+  "alias": "",
+  "metaTitle": "James L Adams Victorian Artwork For Sale",
+  "metaDescription": "Experience the compelling art of James L Adams. Immerse yourself in his unique vision and intricate craftsmanship. Artwork for sale, waiting to be admired.",
+  "tinyDescription": "British 1847-1901"
 }
