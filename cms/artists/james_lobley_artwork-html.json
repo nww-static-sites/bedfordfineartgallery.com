@@ -1,12 +1,13 @@
 {
-  "alias": "J. Lobley",
-  "hasLandingPage": true,
+  "body": "James Lobley, an artist from the 19th century, created a collection of paintings that offer a window into the aesthetics of his era. His works often feature landscapes, seascapes, and genre scenes, showcasing meticulous attention to detail and a deep appreciation for the natural world. Lobley's 19th-century paintings are highly sought after by collectors and art enthusiasts for their historical significance and their ability to transport viewers to a bygone time. These artworks are available for sale through select art galleries, at auctions, and online art platforms, providing an opportunity to own a piece of historical artistry that reflects the charm of the 19th century.",
   "name": "James Lobley",
-  "metaTitle": "James Lobley 19 Century Paintings For Sale",
-  "metaDescription": "Explore the enchanting artistry of James Lobley. Immerse yourself in his captivating creations and intricate details. Artwork ready to inspire your imagination.",
+  "slug": "james_lobley_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "james_lobley_poor-html"
   ],
-  "slug": "james_lobley_artwork-html",
+  "alias": "J. Lobley",
+  "metaTitle": "James Lobley 19 Century Paintings For Sale",
+  "metaDescription": "Explore the enchanting artistry of James Lobley. Immerse yourself in his captivating creations and intricate details. Artwork ready to inspire your imagination.",
   "tinyDescription": "British, 1829 - 1888"
 }
