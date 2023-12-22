@@ -1,12 +1,13 @@
 {
-   "alias" : "J.R. Lambdin",
-   "hasLandingPage": true,
-   "name" : "James Reed Lambdin",
-   "metaTitle": "James Reed Lambdin Paintings For Sale",
-   "metaDescription": "Experience the elegance of James Reed Lambdin's art. Discover portraits rich in detail and emotion. Artwork for sale, ready to grace your collection.",
-   "paintings" : [
-      "james_reed_lambdin_washington-html"
-   ],
-   "slug" : "james_reed_lambdin_artwork-html",
-   "tinyDescription" : "American, 1807 - 1889"
+  "body": "James Reed Lambdin, a prominent artist from the 19th century, is celebrated for his exquisite paintings that capture the essence of his era. His works often feature portraits, genre scenes, and historical subjects, characterized by meticulous attention to detail and a deep sense of artistic expression. Lambdin's 19th-century paintings are highly sought after by collectors and art enthusiasts for their historical significance and their ability to provide a glimpse into the cultural and social aspects of the time. These artworks are available for sale through select art galleries, at auctions, and online art platforms, offering an opportunity to own a piece of historical artistry that reflects the charm of the 19th century.",
+  "name": "James Reed Lambdin",
+  "slug": "james_reed_lambdin_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "james_reed_lambdin_washington-html"
+  ],
+  "alias": "J.R. Lambdin",
+  "metaTitle": "James Reed Lambdin Paintings For Sale",
+  "metaDescription": "Experience the elegance of James Reed Lambdin's art. Discover portraits rich in detail and emotion. Artwork for sale, ready to grace your collection.",
+  "tinyDescription": "American, 1807 - 1889"
 }
