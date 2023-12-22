@@ -1,12 +1,13 @@
 {
-  "hasLandingPage": true,
+  "body": "John Carleton Wiggins, a renowned artist known for his magnificent landscapes, offers a collection of fine art paintings that showcase his artistic prowess. His works often feature pastoral scenes, rural landscapes, and charming depictions of the countryside, characterized by meticulous attention to detail and a deep sense of natural beauty. Wiggins' fine art paintings are available for sale through select art galleries, at auctions, and on online art platforms, providing art enthusiasts with the opportunity to own a piece of his timeless and evocative artistic talent.",
   "name": "John Carleton Wiggins",
-   "metaTitle": "John Carleton Wiggins Fine Art Paintings For Sale",
-   "metaDescription": "Explore John Carleton Wiggins' fine art. Acquire his captivating paintings for sale, adding depth and beauty to your collection.",
-  "alias": "J. Carleton Wiggins",
-  "tinyDescription": "American, 1848 – 1932",
   "slug": "j_carleton_wiggins_landscape-html",
+  "hasLandingPage": true,
   "paintings": [
     "j_carleton_wiggins_cattle_in_landscape-html"
-  ]
+  ],
+  "alias": "J. Carleton Wiggins",
+  "metaTitle": "John Carleton Wiggins Fine Art Paintings For Sale",
+  "metaDescription": "Explore John Carleton Wiggins' fine art. Acquire his captivating paintings for sale, adding depth and beauty to your collection.",
+  "tinyDescription": "American, 1848 – 1932"
 }
