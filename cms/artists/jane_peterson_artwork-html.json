@@ -1,13 +1,14 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "Jane Peterson, a talented artist known for her versatility and vibrant style, offers a captivating collection of paintings that span various subjects and genres. Her portfolio includes vibrant cityscapes, serene landscapes, and lively still-life compositions, all characterized by her bold use of color and dynamic brushwork. Peterson's paintings are highly regarded by collectors and art enthusiasts for their ability to evoke a sense of energy and joie de vivre. These artworks are available for sale through select art galleries, at auctions, and online art platforms, providing an opportunity to own a piece of her vibrant and expressive artistic talent.",
   "name": "Jane Peterson",
-  "metaTitle": "Jane Peterson Paintings For Sale",
-  "metaDescription": "Discover the vibrant world of Jane Peterson's art. Immerse yourself in her bold colors and dynamic compositions. Artwork for sale, ready to infuse your space.",
+  "slug": "jane_peterson_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "jane_peterson_port-html",
     "jane_peterson_bridge_of_sighs-html"
   ],
-  "slug": "jane_peterson_artwork-html",
+  "alias": "",
+  "metaTitle": "Jane Peterson Paintings For Sale",
+  "metaDescription": "Discover the vibrant world of Jane Peterson's art. Immerse yourself in her bold colors and dynamic compositions. Artwork for sale, ready to infuse your space.",
   "tinyDescription": "American 1876 - 1965"
 }
