@@ -1,12 +1,13 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "Franz Strahalm, a distinguished artist from the Victorian era, is celebrated for his exquisite paintings that beautifully capture the spirit of the time. His works often depict the elegance and grace of the Victorian period, with a focus on portraits, genre scenes, and landscapes. Strahalm's paintings are characterized by their attention to detail, rich use of color, and a deep understanding of the cultural and societal aspects of the era. Today, his Victorian-era artwork is highly prized by collectors and art enthusiasts for its historical significance and artistic craftsmanship. These pieces of art are available for sale through select art galleries, at auctions, and online art platforms, offering a chance to own a piece of Victorian artistry that reflects the beauty of the era.",
   "name": "Franz Horst Strahalm",
-  "metaTitle": "Franz Strahalm Victorian Art For Sale",
-  "metaDescription": "Experience the enchanting allure of Franz Strahalm's Victorian art for sale. Immerse yourself in a bygone era of elegance and charm. Explore his masterpieces!",
+  "slug": "franz_horst_strahalm_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "franz_horst_strahalm_stream-html"
   ],
-  "slug": "franz_horst_strahalm_artwork-html",
+  "alias": "",
+  "metaTitle": "Franz Strahalm Victorian Art For Sale",
+  "metaDescription": "Experience the enchanting allure of Franz Strahalm's Victorian art for sale. Immerse yourself in a bygone era of elegance and charm. Explore his masterpieces!",
   "tinyDescription": "Austrian-American 1879 - 1935"
 }

@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Allan Brooks",
-   "metaTitle": "Allan Brooks Paintings For Sale",
-   "metaDescription": "Discover the extraordinary world of Allan Brooks' paintings for sale. From mesmerizing wildlife to captivating landscapes, own a piece of artistic brilliance.",
-   "paintings" : [
-      "allan_brooks_deer-html"
-   ],
-   "slug" : "allan_brooks_artwork-html",
-   "tinyDescription" : "Canadian, 1869 - 1945"
+  "body": "Allan Brooks was a renowned artist, particularly celebrated for his detailed and vibrant bird and wildlife paintings. His works, which are available for sale, are admired for their accuracy and life-like quality, making them a prized possession for collectors and enthusiasts of nature-themed art. Brooks' ability to capture the essence and spirit of wildlife in his paintings has made his work highly sought after in the art market.",
+  "name": "Allan Brooks",
+  "slug": "allan_brooks_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "allan_brooks_deer-html"
+  ],
+  "alias": "",
+  "metaTitle": "Allan Brooks Paintings For Sale",
+  "metaDescription": "Discover the extraordinary world of Allan Brooks' paintings for sale. From mesmerizing wildlife to captivating landscapes, own a piece of artistic brilliance.",
+  "tinyDescription": "Canadian, 1869 - 1945"
 }

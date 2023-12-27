@@ -1,12 +1,13 @@
 {
-   "alias" : "E.L. Poole",
-   "hasLandingPage": true,
-   "name" : "Earl Lincoln Poole",
-   "metaTitle": "Earl Lincoln Poole 19th Century Paintings For Sale",
-   "metaDescription": "Discover exquisite 19th-century paintings by Earl Lincoln Poole for sale. Explore captivating artistry from a bygone era. Own a timeless masterpiece today!",
-   "paintings" : [
-      "earl_lincoln_poole_titmouse-html"
-   ],
-   "slug" : "earl_lincoln_poole_artwork-html",
-   "tinyDescription" : "American 1891 - 1972"
+  "body": "Earl Lincoln Poole, a notable artist from the 19th century, is known for his exquisite paintings that often depict the beauty of the era. His works capture the essence of the 19th-century Victorian period, with a focus on genre scenes, portraits, and landscapes. Poole's paintings are characterized by their attention to detail, rich use of color, and a deep understanding of the social and cultural aspects of the time. Today, his 19th-century artwork is highly prized by collectors and art enthusiasts for its historical significance and artistic craftsmanship. These pieces of art are available for sale through select art galleries, at auctions, and online art platforms, offering a chance to own a piece of 19th-century art that encapsulates the spirit of the era.",
+  "name": "Earl Lincoln Poole",
+  "slug": "earl_lincoln_poole_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "earl_lincoln_poole_titmouse-html"
+  ],
+  "alias": "E.L. Poole",
+  "metaTitle": "Earl Lincoln Poole 19th Century Paintings For Sale",
+  "metaDescription": "Discover exquisite 19th-century paintings by Earl Lincoln Poole for sale. Explore captivating artistry from a bygone era. Own a timeless masterpiece today!",
+  "tinyDescription": "American 1891 - 1972"
 }

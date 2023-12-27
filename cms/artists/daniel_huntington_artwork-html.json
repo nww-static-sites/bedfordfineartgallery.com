@@ -1,12 +1,13 @@
 {
-   "alias" : "Daniel P. Huntington, D. Huntington",
-   "hasLandingPage": true,
-   "name" : "Daniel Huntington",
-   "metaTitle": "Daniel Huntington Paintings For Sale",
-   "metaDescription": "Explore the timeless allure of Daniel Huntington's paintings for sale. Delight in his masterful portrayals of history and landscapes.",
-   "paintings" : [
-      "daniel_huntington_creek-html"
-   ],
-   "slug" : "daniel_huntington_artwork-html",
-   "tinyDescription" : "American, 1816 - 1906"
+  "body": "Daniel Huntington, a prominent American artist from the 19th century, is celebrated for his exquisite portraits and historical paintings. His works often depict dignified and lifelike portraits of prominent figures of his time, capturing their personalities and presence with remarkable skill. Huntington's paintings are characterized by their attention to detail, use of rich color, and the ability to convey the essence of the individuals he portrayed. Today, his artwork is highly prized by collectors and art enthusiasts for its historical significance and artistic mastery. These paintings are available for sale in select art galleries and at auctions, offering a chance to own a piece of American portrait art history.",
+  "name": "Daniel Huntington",
+  "slug": "daniel_huntington_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "daniel_huntington_creek-html"
+  ],
+  "alias": "Daniel P. Huntington, D. Huntington",
+  "metaTitle": "Daniel Huntington Paintings For Sale",
+  "metaDescription": "Explore the timeless allure of Daniel Huntington's paintings for sale. Delight in his masterful portrayals of history and landscapes.",
+  "tinyDescription": "American, 1816 - 1906"
 }

@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Andrew Thomas Schwartz",
-   "metaTitle": "Andrew Thomas Schwartz Victorian Paintings For Sale",
-   "metaDescription": "Step into the enchanting world of Andrew Thomas Schwartz's Victorian paintings for sale. Immerse yourself in the elegance and nostalgia of a bygone era.",
-   "paintings" : [
-      "andrew_thomas_schwartz_flowers-html"
-   ],
-   "slug" : "andrew_thomas_schwartz_artwork-html",
-   "tinyDescription" : "1867 - 1942"
+  "body": "Andrew Thomas Schwartz, an American Impressionist painter, is renowned for his evocative landscape paintings. His works, available for sale, exhibit a mastery of light and color, often capturing the mood and atmosphere of various natural settings. Schwartz's paintings are sought after by collectors and art enthusiasts who appreciate the Impressionist style and its nuanced depiction of the natural world. His ability to convey the beauty and tranquility of landscapes makes his paintings a valuable and desirable addition to art collections.",
+  "name": "Andrew Thomas Schwartz",
+  "slug": "andrew_thomas_schwartz_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "andrew_thomas_schwartz_flowers-html"
+  ],
+  "alias": "",
+  "metaTitle": "Andrew Thomas Schwartz Victorian Paintings For Sale",
+  "metaDescription": "Step into the enchanting world of Andrew Thomas Schwartz's Victorian paintings for sale. Immerse yourself in the elegance and nostalgia of a bygone era.",
+  "tinyDescription": "1867 - 1942"
 }

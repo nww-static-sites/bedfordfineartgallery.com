@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Dines Carlsen",
-   "metaTitle": "Dines Carlsen Paintings For Sale",
-   "metaDescription": "Discover the exquisite art of Dines Carlsen, as his paintings for sale beckon with timeless beauty and impeccable craftsmanship. Unveil the allure now!",
-   "paintings" : [
-      "dines_carlsen_landscape-html"
-   ],
-   "slug" : "dines_carlsen_artwork-html",
-   "tinyDescription" : "American 1901 - 1966"
+  "body": "Dines Carlsen, an accomplished American artist known for his remarkable still-life and landscape paintings, has left a lasting impact on the art world. His works often portray the serene beauty of everyday objects, capturing their essence with meticulous attention to detail, exquisite color palettes, and a keen sense of composition. Carlsen's paintings evoke a sense of tranquility and appreciation for the simple pleasures of life. Today, his artwork is highly sought after by collectors and art enthusiasts for its timeless charm and artistic craftsmanship. These paintings are available for sale in select art galleries, at auctions, and through online art platforms, offering an opportunity to own a piece of American still-life and landscape artistry.",
+  "name": "Dines Carlsen",
+  "slug": "dines_carlsen_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "dines_carlsen_landscape-html"
+  ],
+  "alias": "",
+  "metaTitle": "Dines Carlsen Paintings For Sale",
+  "metaDescription": "Discover the exquisite art of Dines Carlsen, as his paintings for sale beckon with timeless beauty and impeccable craftsmanship. Unveil the allure now!",
+  "tinyDescription": "American 1901 - 1966"
 }

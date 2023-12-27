@@ -1,12 +1,13 @@
 {
-   "alias" : "František Dvořák,  Franz Dvorak,  Franz Bruner",
-   "hasLandingPage": true,
-   "name" : "Frank Dvorak",
-   "metaTitle": "Frank Dvorak 19th Century Paintings For Sale",
-   "metaDescription": "Experience the charm of 19th century art with Frank Dvorak's paintings for sale. Transport yourself to a bygone era of beauty and culture. Discover now!",
-   "paintings" : [
-      "frank_dvorak_girls-html"
-   ],
-   "slug" : "frank_dvorak_artwork-html",
-   "tinyDescription" : "Czech Republic - United States, 1862 - 1927"
+  "body": "Frank Dvorak, a notable artist from the 19th century, is celebrated for his exquisite paintings that often depict the beauty and atmosphere of his time. His works capture the essence of the 19th century, with a focus on landscapes, genre scenes, and portraits. Dvorak's paintings are characterized by their attention to detail, rich use of color, and a deep understanding of the artistic techniques of his era. Today, his 19th-century artwork is highly prized by collectors and art enthusiasts for its historical significance and artistic craftsmanship. These pieces of art are available for sale through select art galleries, at auctions, and online art platforms, offering a chance to own a piece of 19th-century art that encapsulates the spirit of the era.",
+  "name": "Frank Dvorak",
+  "slug": "frank_dvorak_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "frank_dvorak_girls-html"
+  ],
+  "alias": "František Dvořák,  Franz Dvorak,  Franz Bruner",
+  "metaTitle": "Frank Dvorak 19th Century Paintings For Sale",
+  "metaDescription": "Experience the charm of 19th century art with Frank Dvorak's paintings for sale. Transport yourself to a bygone era of beauty and culture. Discover now!",
+  "tinyDescription": "Czech Republic - United States, 1862 - 1927"
 }

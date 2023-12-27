@@ -1,12 +1,13 @@
 {
-   "alias" : "Charles W. Knapp, C. W. Knapp",
-   "hasLandingPage": true,
-   "name" : "Charles Wilson Knapp",
-   "metaTitle": "Charles Wilson Knapp Paintings For Sale",
-   "metaDescription": "Explore exquisite paintings by Charles Wilson Knapp for sale. Immerse in captivating artistry, inspired by nature's beauty and masterful technique.",
-   "paintings" : [
-      "charles_wilson_knapp_landscape-html"
-   ],
-   "slug" : "charles_wilson_knapp_artwork-html",
-   "tinyDescription" : "American 1823 - 1900"
+  "body": "Charles Wilson Knapp, an esteemed American artist from the 19th century, is renowned for his breathtaking landscape paintings. His work often captures the expansive and diverse beauty of the American countryside, from serene river valleys to majestic mountain scenes. Knapp's paintings are characterized by their detailed realism, vibrant colors, and the skillful portrayal of natural light, which brings a sense of depth and realism to his landscapes. His ability to depict the changing seasons and the varying moods of nature has made his work particularly admired. Today, Charles Wilson Knapp's paintings are highly valued by collectors and aficionados of American landscape art. These paintings, offering a window into the picturesque and diverse American terrain, are available for sale in art galleries, at auctions, and through online art marketplaces, presenting a unique opportunity to acquire a piece of 19th-century American art history.",
+  "name": "Charles Wilson Knapp",
+  "slug": "charles_wilson_knapp_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "charles_wilson_knapp_landscape-html"
+  ],
+  "alias": "Charles W. Knapp, C. W. Knapp",
+  "metaTitle": "Charles Wilson Knapp Paintings For Sale",
+  "metaDescription": "Explore exquisite paintings by Charles Wilson Knapp for sale. Immerse in captivating artistry, inspired by nature's beauty and masterful technique.",
+  "tinyDescription": "American 1823 - 1900"
 }

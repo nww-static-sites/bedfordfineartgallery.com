@@ -1,12 +1,13 @@
 {
-   "alias" : "C D Barlett",
-   "hasLandingPage": true,
-   "name" : "Clarence Drew Bartlett",
-   "metaTitle": "Clarence Drew Bartlett Paintings For Sale",
-   "metaDescription": "Discover the mesmerizing paintings of Clarence Drew Bartlett for sale. Immerse in his masterful use of light and color, capturing beauty in every stroke.",
-   "paintings" : [
-      "clarence_drew_bartlett_franklin-html"
-   ],
-   "slug" : "clarence_drew_bartlett_artwork-html",
-   "tinyDescription" : "American, born 1863"
+  "body": "Clarence Drew Bartlett, an accomplished American artist from the late 19th and early 20th centuries, is renowned for his mesmerizing landscape paintings. His works often depict the natural beauty of the American countryside, with a focus on tranquil rural scenes and picturesque landscapes. Bartlett's paintings are characterized by their intricate details, vivid use of color, and the ability to capture the play of light and shadow in his compositions, giving his landscapes a sense of depth and realism. Whether portraying the serenity of a forest, the charm of a country road, or the majesty of a mountain vista, his art transports viewers to idyllic settings filled with nostalgia and natural beauty. Today, Clarence Drew Bartlett's paintings are highly sought after by collectors and art enthusiasts who appreciate his skillful rendering of the American landscape. These works are available for sale in select art galleries, at auctions, and through online art platforms, offering a chance to own a piece of timeless American landscape art.",
+  "name": "Clarence Drew Bartlett",
+  "slug": "clarence_drew_bartlett_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "clarence_drew_bartlett_franklin-html"
+  ],
+  "alias": "C D Barlett",
+  "metaTitle": "Clarence Drew Bartlett Paintings For Sale",
+  "metaDescription": "Discover the mesmerizing paintings of Clarence Drew Bartlett for sale. Immerse in his masterful use of light and color, capturing beauty in every stroke.",
+  "tinyDescription": "American, born 1863"
 }

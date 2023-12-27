@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Allen Dean Cochran",
-   "metaTitle": "Allen Dean Cochran Paintings For Sale",
-   "metaDescription": "Indulge in the artistry of Allen Dean Cochran. Explore captivating paintings for sale, blending imagination and skill in every brushstroke. Own a masterpiece.",
-   "paintings" : [
-      "allen_dean_chochran_winter-html"
-   ],
-   "slug" : "allen_dean_cochran_artwork-html",
-   "tinyDescription" : "American 1888 - 1935"
+  "body": "Allen Dean Cochran was an American painter known for his impressionistic landscape paintings. His works, available for sale, are admired for their vibrant use of color and light, often capturing the serene beauty of natural settings. Cochran's paintings are sought after by collectors and art enthusiasts who appreciate the unique style and emotive quality of his landscapes. His ability to depict nature in a way that resonates with viewers makes his paintings a valuable addition to any art collection.",
+  "name": "Allen Dean Cochran",
+  "slug": "allen_dean_cochran_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "allen_dean_chochran_winter-html"
+  ],
+  "alias": "",
+  "metaTitle": "Allen Dean Cochran Paintings For Sale",
+  "metaDescription": "Indulge in the artistry of Allen Dean Cochran. Explore captivating paintings for sale, blending imagination and skill in every brushstroke. Own a masterpiece.",
+  "tinyDescription": "American 1888 - 1935"
 }

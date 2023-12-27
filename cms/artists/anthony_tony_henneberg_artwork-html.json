@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Anthony \"Tony\" Henneberg",
-   "metaTitle": "Anthony Henneberg Paintings For Sale",
-   "metaDescription": "Discover the captivating world of Anthony Henneberg's paintings for sale. Immerse yourself in masterpieces that evoke emotion and awe. Explore now! 🎨✨",
-   "paintings" : [
-      "anthony_henneberg_sparrow-html"
-   ],
-   "slug" : "anthony_tony_henneberg_artwork-html",
-   "tinyDescription" : "American"
+  "body": "Anthony Henneberg, a lesser-known yet talented artist, made a notable impact in the world of art with his distinctive paintings. His work, primarily focused on landscapes and still life, is characterized by a unique blend of realism and impressionism, showcasing his skillful use of color and light to create depth and emotion. Henneberg's paintings often depict serene natural settings, characterized by a tranquil, almost meditative quality. His adept handling of various mediums, particularly oil, allowed him to bring out the textures and nuances of his subjects, be it the delicate interplay of light on water or the subtle shifts of the seasons. While not as widely recognized as some of his contemporaries, Henneberg's art has garnered appreciation among a niche group of art collectors and enthusiasts. Today, his paintings are available for sale in select galleries and online platforms, offering a chance for art lovers to own a piece of his quietly enchanting artistic vision.",
+  "name": "Anthony \"Tony\" Henneberg",
+  "slug": "anthony_tony_henneberg_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "anthony_henneberg_sparrow-html"
+  ],
+  "alias": "",
+  "metaTitle": "Anthony Henneberg Paintings For Sale",
+  "metaDescription": "Discover the captivating world of Anthony Henneberg's paintings for sale. Immerse yourself in masterpieces that evoke emotion and awe. Explore now! 🎨✨",
+  "tinyDescription": "American"
 }

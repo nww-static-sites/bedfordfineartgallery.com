@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Bernard Jacob Rosenmeyer",
-   "metaTitle": "Bernard Jacob Rosenmeyer Paintings For Sale",
-   "metaDescription": "Embrace the artistry of Bernard Jacob Rosenmeyer with paintings for sale. Explore captivating masterpieces and bring home a touch of beauty and elegance.",
-   "paintings" : [
-      "bernard_jacob_rosenmeyer_napoleon-html"
-   ],
-   "slug" : "bernard_jacob_rosenmeyer_artwork-html",
-   "tinyDescription" : "American, born 1867"
+  "body": "Bernard Jacob Rosenmeyer, an artist whose work left a distinct imprint in the realm of painting, is celebrated for his vibrant and expressive artworks. Active in the 20th century, Rosenmeyer's style is characterized by its vivid color palette, fluid brushwork, and a unique ability to capture emotion and movement. His subject matter was diverse, ranging from captivating landscapes and cityscapes to dynamic human figures and still lifes. Each of Rosenmeyer's paintings is a window into his perspective, often reflecting the mood and atmosphere of the era he lived in. His landscapes and cityscapes, in particular, showcase a blend of realism and impressionism, capturing the essence of the environment with a sense of immediacy and vibrancy. The human figures in his works are portrayed with depth and sensitivity, revealing Rosenmeyer's keen observation of people and their surroundings. Today, Bernard Jacob Rosenmeyer's paintings are sought after in the art market by collectors and enthusiasts who appreciate his distinctive style and contribution to the art world. These paintings are available for sale in various art galleries, at auctions, and on online platforms, offering a unique opportunity to own a piece of art that beautifully bridges the past and present.",
+  "name": "Bernard Jacob Rosenmeyer",
+  "slug": "bernard_jacob_rosenmeyer_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "bernard_jacob_rosenmeyer_napoleon-html"
+  ],
+  "alias": "",
+  "metaTitle": "Bernard Jacob Rosenmeyer Paintings For Sale",
+  "metaDescription": "Embrace the artistry of Bernard Jacob Rosenmeyer with paintings for sale. Explore captivating masterpieces and bring home a touch of beauty and elegance.",
+  "tinyDescription": "American, born 1867"
 }

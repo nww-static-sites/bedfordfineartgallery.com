@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Andrien-Louis Bruneau",
-   "metaTitle": "Andrien-Louis Bruneau French Artwork For Sale",
-   "metaDescription": "Discover the enchanting allure of Andrien-Louis Bruneau's artwork for sale. Embrace the essence of French artistry and add sophistication to your collection.",
-   "paintings" : [
-      "andrien_louis_bruneau_mice-html"
-   ],
-   "slug" : "andrien_louis_bruneau_artwork-html",
-   "tinyDescription" : "French, born 1831"
+  "body": "Adrien-Louis Bruneau, a French artist, is celebrated for his contribution to the art world with paintings that showcase classic French themes and styles. His artwork, available for sale, often features elegant landscapes and scenes that capture the essence of French culture and beauty. These paintings are sought after by collectors and enthusiasts of French art, admired for their unique blend of traditional techniques and Bruneau's personal artistic flair. His works represent a valuable opportunity for collectors to own a piece of French artistic heritage.",
+  "name": "Andrien-Louis Bruneau",
+  "slug": "andrien_louis_bruneau_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "andrien_louis_bruneau_mice-html"
+  ],
+  "alias": "",
+  "metaTitle": "Andrien-Louis Bruneau French Artwork For Sale",
+  "metaDescription": "Discover the enchanting allure of Andrien-Louis Bruneau's artwork for sale. Embrace the essence of French artistry and add sophistication to your collection.",
+  "tinyDescription": "French, born 1831"
 }

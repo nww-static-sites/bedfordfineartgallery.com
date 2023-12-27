@@ -1,12 +1,13 @@
 {
-  "hasLandingPage": true,
+  "body": "Andrew John Henry Way, a Victorian-era painter, is known for his exquisite still-life paintings, particularly his detailed and vibrant depictions of fruits. His works, which are available for sale, are appreciated for their intricate detail and rich coloration, capturing the lushness and freshness of the fruits he painted. Collectors and art enthusiasts who have a penchant for Victorian art and still-life paintings find Way's work particularly appealing. His paintings offer a glimpse into the artistic style and aesthetics of the Victorian period.",
   "name": "Andrew John Henry Way",
-  "alias": "A.J.H. Way",
   "slug": "andrew_way_artist-html",
-  "tinyDescription": "American 1826-1888",
+  "hasLandingPage": true,
   "paintings": [
     "andrew_way_strawberries_on_tabletop-html"
   ],
+  "alias": "A.J.H. Way",
   "metaTitle": "Andrew John Henry Way Paintings For Sale",
-  "metaDescription": "Indulge in the intricate art of Andrew John Henry Way. His paintings, rich with detail and emotion, epitomize 19th-century artistry."
+  "metaDescription": "Indulge in the intricate art of Andrew John Henry Way. His paintings, rich with detail and emotion, epitomize 19th-century artistry.",
+  "tinyDescription": "American 1826-1888"
 }

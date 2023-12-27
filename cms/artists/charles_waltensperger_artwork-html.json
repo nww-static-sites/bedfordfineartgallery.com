@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Charles Waltensperger",
-   "metaTitle": "Charles Waltensperger Paintings For Sale",
-   "metaDescription": "Discover the artistry of Charles Waltensperger with paintings for sale. Own a captivating masterpiece that elevates your collection.",
-   "paintings" : [
-      "charles_waltensperger_girl-html"
-   ],
-   "slug" : "charles_waltensperger_artwork-html",
-   "tinyDescription" : "American 1871 - 1931"
+  "body": "Charles Waltensperger, an American artist active in the late 19th and early 20th centuries, is known for his skillful landscape and cityscape paintings. His work, which often captures the essence of the American Midwest and urban scenes of Detroit, is characterized by a keen attention to detail and a vibrant use of color. Waltensperger's paintings, infused with a sense of realism and depth, beautifully depict the changing seasons and the everyday life of his time. Today, Charles Waltensperger's paintings are valued by art collectors and enthusiasts for their historical and aesthetic significance. Available for sale in art galleries, at auctions, and through online art marketplaces, his works offer a chance to own a piece of American art history, showcasing a unique blend of urban and pastoral beauty.",
+  "name": "Charles Waltensperger",
+  "slug": "charles_waltensperger_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "charles_waltensperger_girl-html"
+  ],
+  "alias": "",
+  "metaTitle": "Charles Waltensperger Paintings For Sale",
+  "metaDescription": "Discover the artistry of Charles Waltensperger with paintings for sale. Own a captivating masterpiece that elevates your collection.",
+  "tinyDescription": "American 1871 - 1931"
 }

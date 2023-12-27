@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "George W. Picknell",
-   "metaTitle": "George W. Picknell Fine Art Paintings For Sale",
-   "metaDescription": "Explore George W. Picknell's fine art paintings for sale. Experience captivating beauty and intricate details. Elevate your collection with timeless elegance.",
-   "paintings" : [
-      "george_picknell_clearing-html"
-   ],
-   "slug" : "george_w_picknell_artwork-html",
-   "tinyDescription" : "American 1864 - 1943"
+  "body": "George W. Picknell, a talented American artist, is known for his captivating fine art paintings that often depict a wide range of subjects, from landscapes and seascapes to portraits and genre scenes. His work is characterized by meticulous attention to detail, a mastery of light and color, and a deep appreciation for the beauty of the natural world. Picknell's ability to convey emotion and atmosphere through his paintings has made his art highly sought after by collectors and art enthusiasts. His fine art paintings are available for sale in select art galleries, at auctions, and through online art platforms, providing an opportunity to own a piece of his timeless artistic expression.",
+  "name": "George W. Picknell",
+  "slug": "george_w_picknell_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "george_picknell_clearing-html"
+  ],
+  "alias": "",
+  "metaTitle": "George W. Picknell Fine Art Paintings For Sale",
+  "metaDescription": "Explore George W. Picknell's fine art paintings for sale. Experience captivating beauty and intricate details. Elevate your collection with timeless elegance.",
+  "tinyDescription": "American 1864 - 1943"
 }

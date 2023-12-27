@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "George Thompson Hobbs",
-   "metaTitle": "George Thompson Hobbs Victorian Art For Sale",
-   "metaDescription": "Explore George Thompson Hobbs' enchanting Victorian art for sale. Immerse yourself in a world of elegance and nostalgia. Own a piece of timeless beauty.",
-   "paintings" : [
-      "george_hobbs_stream-html"
-   ],
-   "slug" : "george_thompson_hobbs_artwork-html",
-   "tinyDescription" : "American 1849 - 1929"
+  "body": "George Thompson Hobbs, a distinguished artist from the Victorian era, is celebrated for his exquisite paintings that beautifully capture the spirit of the time. His works often depict the elegance and grace of the Victorian period, with a focus on portraits, genre scenes, and landscapes. Hobbs' paintings are characterized by their attention to detail, rich use of color, and a deep understanding of the cultural and societal aspects of the era. Today, his Victorian-era artwork is highly prized by collectors and art enthusiasts for its historical significance and artistic craftsmanship. These pieces of art are available for sale through select art galleries, at auctions, and online art platforms, offering a chance to own a piece of Victorian artistry that reflects the beauty of the era.",
+  "name": "George Thompson Hobbs",
+  "slug": "george_thompson_hobbs_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "george_hobbs_stream-html"
+  ],
+  "alias": "",
+  "metaTitle": "George Thompson Hobbs Victorian Art For Sale",
+  "metaDescription": "Explore George Thompson Hobbs' enchanting Victorian art for sale. Immerse yourself in a world of elegance and nostalgia. Own a piece of timeless beauty.",
+  "tinyDescription": "American 1849 - 1929"
 }

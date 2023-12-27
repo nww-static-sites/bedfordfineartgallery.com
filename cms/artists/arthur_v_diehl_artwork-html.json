@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Arthur V. Diehl",
-   "metaTitle": "Arthur Diehl Art For Sale | Arthur Diehl Paintings",
-   "metaDescription": "Embrace the timeless beauty of Arthur Diehl's art for sale. Delight in exquisite creations that transcend boundaries and stir the soul.",
-   "paintings" : [
-      "arthur_v_diehl_dune-html"
-   ],
-   "slug" : "arthur_v_diehl_artwork-html",
-   "tinyDescription" : "American, 1870-1929"
+  "body": "Arthur Diehl, an acclaimed British-American artist of the late 19th and early 20th centuries, is celebrated for his enchanting landscapes and coastal scenes. Born in England in 1870 and later settling in the United States, Diehl's work epitomizes the charm of the American and European landscapes he so adored. His paintings, predominantly executed in oil, are known for their luminous quality and meticulous attention to detail. Diehl had a particular affinity for capturing the unique light and atmosphere of Cape Cod, Massachusetts, where he spent significant time. His artistry extended to the depiction of quaint villages, bustling harbors, and serene beach scenes, each piece brimming with life and color. Today, Arthur Diehl's paintings are highly prized by collectors and art lovers, with pieces available for purchase at various art galleries, auctions, and online platforms. His work continues to be celebrated for its vibrant depiction of natural beauty and its ability to transport viewers to picturesque settings.",
+  "name": "Arthur V. Diehl",
+  "slug": "arthur_v_diehl_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "arthur_v_diehl_dune-html"
+  ],
+  "alias": "",
+  "metaTitle": "Arthur Diehl Art For Sale | Arthur Diehl Paintings",
+  "metaDescription": "Embrace the timeless beauty of Arthur Diehl's art for sale. Delight in exquisite creations that transcend boundaries and stir the soul.",
+  "tinyDescription": "American, 1870-1929"
 }

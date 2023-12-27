@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Benjamin Cohen",
-   "metaTitle": "Benjamin Cohen 19th Century Paintings For Sale",
-   "metaDescription": "Journey through time with Benjamin Cohen's exquisite 19th-century paintings for sale. Relish in the beauty and history of these timeless masterpieces.",
-   "paintings" : [
-      "benjamin_cohen_path-html"
-   ],
-   "slug" : "benjamin_cohen_artwork-html",
-   "tinyDescription" : "American born 1869"
+  "body": "Benjamin Cohen, a 19th-century artist, carved a niche for himself with his captivating paintings that reflect the artistic sensibilities of his time. His body of work, predominantly focused on landscapes and portraiture, is a testament to the romantic and realistic styles prevalent in the 1800s. Cohen had a particular talent for capturing the sublime beauty of nature, often depicting rolling countrysides, serene rivers, and majestic forests with a remarkable depth and realism. In his portraits, he displayed an acute sensitivity to the nuances of facial expressions and attire, bringing to life the character and essence of his subjects. His use of color was both rich and subtle, lending his paintings a sense of vibrancy and life. Today, Benjamin Cohen's 19th-century paintings are sought after by collectors and enthusiasts of historical art. These works, available for sale in art galleries, at auctions, and on various online platforms, offer a glimpse into the artistic heritage of the 19th century and provide an opportunity to own a piece of this rich artistic period.",
+  "name": "Benjamin Cohen",
+  "slug": "benjamin_cohen_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "benjamin_cohen_path-html"
+  ],
+  "alias": "",
+  "metaTitle": "Benjamin Cohen 19th Century Paintings For Sale",
+  "metaDescription": "Journey through time with Benjamin Cohen's exquisite 19th-century paintings for sale. Relish in the beauty and history of these timeless masterpieces.",
+  "tinyDescription": "American born 1869"
 }

@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Blendon Reed Campbell",
-   "metaTitle": "Blendon Reed Campbell Paintings For Sale",
-   "metaDescription": "Explore exquisite artistry with Blendon Reed Campbell's paintings for sale. Own a unique masterpiece that evokes emotions and enhances your space.",
-   "paintings" : [
-      "blendon_reed_campbell_hillside-html"
-   ],
-   "slug" : "blendon_reed_campbell_artwork-html",
-   "tinyDescription" : "American 1872 - 1969"
+  "body": "Blendon Reed Campbell, an artist renowned for his impactful contributions to the art world, is celebrated for his evocative and beautifully composed paintings. Active primarily in the late 19th and early 20th centuries, Campbell's work encapsulates the essence of American Impressionism, marked by a masterful use of light and color. His paintings often feature landscapes and urban scenes, each imbued with a sense of tranquility and a distinctive atmospheric quality. Campbell's skill in capturing the mood of a scene, whether it be a serene countryside or a bustling city street, is particularly noteworthy. His landscapes are alive with vibrant colors and dynamic brushstrokes, while his urban scenes are detailed, yet suffused with a soft, dreamlike quality. Today, Blendon Reed Campbell's paintings are sought after by collectors and art enthusiasts for their beauty and historical significance. These works, available for sale in art galleries, at auctions, and through specialized online art marketplaces, offer a glimpse into the rich tapestry of American Impressionist art and provide a unique opportunity to own a piece of this influential artistic movement.",
+  "name": "Blendon Reed Campbell",
+  "slug": "blendon_reed_campbell_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "blendon_reed_campbell_hillside-html"
+  ],
+  "alias": "",
+  "metaTitle": "Blendon Reed Campbell Paintings For Sale",
+  "metaDescription": "Explore exquisite artistry with Blendon Reed Campbell's paintings for sale. Own a unique masterpiece that evokes emotions and enhances your space.",
+  "tinyDescription": "American 1872 - 1969"
 }

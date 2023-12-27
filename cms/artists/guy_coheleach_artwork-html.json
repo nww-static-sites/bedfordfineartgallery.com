@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Guy Coheleach",
-   "metaTitle": "Artist Guy Coheleach Paintings For Sale",
-   "metaDescription": "Collect stunning wildlife and nature paintings by artist Guy Coheleach. Explore his art for sale and bring the beauty of the wild into your space.",
-   "paintings" : [
-      "guy_coheleach_bear-html"
-   ],
-   "slug" : "guy_coheleach_artwork-html",
-   "tinyDescription" : "American born 1933"
+  "body": "Guy Coheleach, a renowned wildlife artist, is celebrated for his captivating paintings that beautifully capture the majesty and grace of wildlife in their natural habitats. His works often depict a wide range of animal species, from big cats to birds of prey, and they are characterized by meticulous attention to detail, vibrant use of color, and a deep understanding of animal behavior. Coheleach's ability to convey the beauty and power of wildlife through his art has made his paintings highly sought after by collectors and wildlife enthusiasts. His wildlife paintings are available for sale through select art galleries, at auctions, and online art platforms, offering an opportunity to own a piece of his extraordinary artistic talent.",
+  "name": "Guy Coheleach",
+  "slug": "guy_coheleach_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "guy_coheleach_bear-html"
+  ],
+  "alias": "",
+  "metaTitle": "Artist Guy Coheleach Paintings For Sale",
+  "metaDescription": "Collect stunning wildlife and nature paintings by artist Guy Coheleach. Explore his art for sale and bring the beauty of the wild into your space.",
+  "tinyDescription": "American born 1933"
 }

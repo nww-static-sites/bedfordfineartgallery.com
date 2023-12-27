@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Alfred S. Wall",
-   "metaTitle": "Alfred S. Wall 19th Century Artwork for Sale",
-   "metaDescription": "Journey through time with Alfred S. Wall's 19th-century artwork for sale. Discover the beauty and charm of a bygone era in these captivating masterpieces.",
-   "paintings" : [
-      "alfred_s_wall_woods-html"
-   ],
-   "slug" : "alfred_s_wall_artwork-html",
-   "tinyDescription" : "American 1825 - 1896"
+  "body": "Alfred S. Wall, a Victorian-era artist, is known for his paintings that often depict serene and pastoral landscapes. His works reflect the typical Victorian style, emphasizing detail, beauty, and an idealized view of nature. Wall's paintings are sought after by collectors and art enthusiasts who appreciate the Victorian aesthetic. These artworks, which can be found for sale, capture the essence of a bygone era with their distinct charm and elegance. They remain a valuable addition to collections that focus on Victorian art and its representation of the natural world.",
+  "name": "Alfred S. Wall",
+  "slug": "alfred_s_wall_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "alfred_s_wall_woods-html"
+  ],
+  "alias": "",
+  "metaTitle": "Alfred S. Wall 19th Century Artwork for Sale",
+  "metaDescription": "Journey through time with Alfred S. Wall's 19th-century artwork for sale. Discover the beauty and charm of a bygone era in these captivating masterpieces.",
+  "tinyDescription": "American 1825 - 1896"
 }

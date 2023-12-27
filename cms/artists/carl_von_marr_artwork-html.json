@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Carl Von Marr",
-   "metaTitle": "Carl Von Marr Paintings For Sale",
-   "metaDescription": "Discover the artistic brilliance of Carl Von Marr with paintings for sale. Own a captivating masterpiece that showcases talent and creativity.",
-   "paintings" : [
-      "carl_von_marr_homeward-html"
-   ],
-   "slug" : "carl_von_marr_artwork-html",
-   "tinyDescription" : "American-German 1858 - 1936"
+  "body": "Carl Von Marr, an influential artist of the late 19th and early 20th centuries, is renowned for his exceptional skill in painting, particularly in the realms of portraiture, landscapes, and genre scenes. Born in Milwaukee but having spent much of his career in Europe, Von Marr's work reflects a fusion of American sensibilities with European artistic traditions. His paintings are celebrated for their intricate detail, masterful use of color, and the ability to convey deep emotion and narrative. Von Marr's portraits are particularly notable for their lifelike quality and the nuanced depiction of his subjects' personalities and moods. His landscapes and genre scenes are equally compelling, often portraying scenes of everyday life with a sense of authenticity and a keen eye for capturing the subtleties of light and atmosphere. These qualities make his work resonate with a timeless appeal, bridging the gap between classic and modern art sensibilities. Today, Carl Von Marr's paintings are highly coveted by collectors and art enthusiasts, with pieces available for sale in prestigious art galleries, at notable auctions, and through specialized online art dealers. Owning a Carl Von Marr painting means possessing a piece of art history that beautifully encapsulates the transition from traditional to modern art.",
+  "name": "Carl Von Marr",
+  "slug": "carl_von_marr_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "carl_von_marr_homeward-html"
+  ],
+  "alias": "",
+  "metaTitle": "Carl Von Marr Paintings For Sale",
+  "metaDescription": "Discover the artistic brilliance of Carl Von Marr with paintings for sale. Own a captivating masterpiece that showcases talent and creativity.",
+  "tinyDescription": "American-German 1858 - 1936"
 }

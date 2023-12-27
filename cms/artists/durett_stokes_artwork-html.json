@@ -1,12 +1,13 @@
 {
-   "alias" : "\"D. W. Stokes, Durett Woodward Stokes",
-   "hasLandingPage": true,
-   "name" : "Durett Stokes",
-   "metaTitle": "Durett Stokes Paintings For Sale",
-   "metaDescription": "Embark on a journey of artistic brilliance with Durett Stokes' paintings for sale. Experience the captivating blend of creativity and emotion. Explore now!",
-   "paintings" : [
-      "durett_stokes_lincoln-html"
-   ],
-   "slug" : "durett_stokes_artwork-html",
-   "tinyDescription" : "American, early 20th Century"
+  "body": "Durett Stokes, an accomplished American artist, is known for his captivating landscape paintings that beautifully capture the essence of the natural world. His works often depict serene countryside scenes, tranquil rivers, and picturesque landscapes, showcasing his exceptional attention to detail and a deep connection to nature. Stokes' paintings are characterized by their vibrant use of color, skillful portrayal of light and shadow, and an ability to convey a sense of peace and harmony. Today, his artwork is highly prized by collectors and art enthusiasts for its timeless beauty and the artist's skillful rendering of the American landscape. These paintings are available for sale in select art galleries, at auctions, and through online art platforms, providing an opportunity to own a piece of American landscape artistry.",
+  "name": "Durett Stokes",
+  "slug": "durett_stokes_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "durett_stokes_lincoln-html"
+  ],
+  "alias": "\"D. W. Stokes, Durett Woodward Stokes",
+  "metaTitle": "Durett Stokes Paintings For Sale",
+  "metaDescription": "Embark on a journey of artistic brilliance with Durett Stokes' paintings for sale. Experience the captivating blend of creativity and emotion. Explore now!",
+  "tinyDescription": "American, early 20th Century"
 }

@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Frank Weston Benson",
-   "metaTitle": "Frank Weston Benson Victorian Paintings For Sale",
-   "metaDescription": "Step into the elegance of Victorian era with Frank Weston Benson's paintings for sale. Captivating artistry that embodies grace and nostalgia. Explore now!",
-   "paintings" : [
-      "frank_weston_benson_mallards_art-html"
-   ],
-   "slug" : "frank_weston_benson_artwork-html",
-   "tinyDescription" : "American 1862 - 1951"
+  "body": "Frank Weston Benson, a distinguished artist from the Victorian era, is celebrated for his exquisite paintings that beautifully capture the spirit of the time. His works often depict the elegance and grace of the Victorian period, with a focus on portraits, genre scenes, and landscapes. Benson's paintings are characterized by their attention to detail, rich use of color, and a deep understanding of the cultural and societal aspects of the era. Today, his Victorian-era artwork is highly prized by collectors and art enthusiasts for its historical significance and artistic craftsmanship. These pieces of art are available for sale through select art galleries, at auctions, and online art platforms, offering a chance to own a piece of Victorian artistry that reflects the beauty of the era.",
+  "name": "Frank Weston Benson",
+  "slug": "frank_weston_benson_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "frank_weston_benson_mallards_art-html"
+  ],
+  "alias": "",
+  "metaTitle": "Frank Weston Benson Victorian Paintings For Sale",
+  "metaDescription": "Step into the elegance of Victorian era with Frank Weston Benson's paintings for sale. Captivating artistry that embodies grace and nostalgia. Explore now!",
+  "tinyDescription": "American 1862 - 1951"
 }

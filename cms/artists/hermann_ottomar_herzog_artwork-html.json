@@ -1,15 +1,16 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "Hermann Ottomar Herzog, a distinguished artist from the 19th century, is celebrated for his exquisite paintings that beautifully capture the spirit of his era. His works often depict landscapes, particularly scenes of serene rivers and lush forests, characterized by meticulous attention to detail and a deep appreciation for the natural world. Herzog's 19th-century artwork offers a glimpse into the artistic sensibilities of his time and is highly prized by collectors and art enthusiasts. His paintings are available for sale through select art galleries, at auctions, and online art platforms, providing an opportunity to own a piece of historical artistry that reflects the beauty of the 19th century landscape.",
   "name": "Hermann Ottomar Herzog",
-  "metaDescription": "Hermann Ottomar Herzog - German-american Artist From 1832 - 1932. Browse These 19th Century Paintings From Herman Herzog.",
-  "metaTitle": "Hermann Ottomar Herzog Paintings For Sale",
+  "slug": "hermann_ottomar_herzog_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "hermann_ottomar_herzog_shepherd-html",
     "hermann_ottomar_herzog_landscape-html",
     "hermann_ottomar_herzog_young_fisherman_with_dog-html",
     "hermann_ottomar_herzog_fisherman_derelict_mill_dingmans-html"
   ],
-  "slug": "hermann_ottomar_herzog_artwork-html",
+  "alias": "",
+  "metaTitle": "Hermann Ottomar Herzog Paintings For Sale",
+  "metaDescription": "Hermann Ottomar Herzog - German-american Artist From 1832 - 1932. Browse These 19th Century Paintings From Herman Herzog.",
   "tinyDescription": "German-American 1832 - 1932"
 }

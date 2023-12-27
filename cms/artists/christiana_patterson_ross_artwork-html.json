@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Christiana Patterson Ross",
-   "metaTitle": "Christiana Patterson Ross Paintings For Sale",
-   "metaDescription": "Indulge in the timeless beauty of Christiana Patterson Ross paintings for sale. Experience her exquisite artistry that evokes emotion and wonder.",
-   "paintings" : [
-      "christiana_patterson_ross_peddlers-html"
-   ],
-   "slug" : "christiana_patterson_ross_artwork-html",
-   "tinyDescription" : "British, 1843 - 1906"
+  "body": "Christiana Patterson Ross, a distinguished American artist from the late 19th and early 20th centuries, is celebrated for her captivating landscape and genre paintings. Her work often depicts the scenic beauty of American landscapes, with a particular focus on rural and pastoral scenes. Ross's paintings are characterized by their attention to detail, vibrant use of color, and the ability to capture the serenity and authenticity of everyday life in her time. Whether depicting a tranquil countryside, a charming village, or a picturesque farm, her art transports viewers to a bygone era, evoking a sense of nostalgia and admiration for the American way of life. Today, Christiana Patterson Ross's paintings are highly valued by collectors and art enthusiasts. These works, offering a window into the beauty of the past, are available for sale in select art galleries, at auctions, and through online art marketplaces, providing an opportunity to own a piece of American artistic heritage.",
+  "name": "Christiana Patterson Ross",
+  "slug": "christiana_patterson_ross_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "christiana_patterson_ross_peddlers-html"
+  ],
+  "alias": "",
+  "metaTitle": "Christiana Patterson Ross Paintings For Sale",
+  "metaDescription": "Indulge in the timeless beauty of Christiana Patterson Ross paintings for sale. Experience her exquisite artistry that evokes emotion and wonder.",
+  "tinyDescription": "British, 1843 - 1906"
 }

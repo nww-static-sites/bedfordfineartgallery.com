@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "David Hagerbaumer",
-   "metaTitle": "David Hagerbaumer Paintings For Sale",
-   "metaDescription": "Experience the awe-inspiring artistry of David Hagerbaumer's paintings for sale. Delight in captivating scenes that evoke wonder and admiration. Explore now!",
-   "paintings" : [
-      "david_hagerbaumer_woodcock-html"
-   ],
-   "slug" : "david_hagerbaumer_artwork-html",
-   "tinyDescription" : "American 1921 - 2014"
+  "body": "David Hagerbaumer, a renowned American wildlife artist, is celebrated for his exquisite paintings that capture the beauty and majesty of North American wildlife. His works often depict birds, waterfowl, and other animals in their natural habitats, showcasing his exceptional attention to detail and mastery of wildlife artistry. Hagerbaumer's paintings are characterized by their realistic portrayal of wildlife, vibrant colors, and a deep connection to the natural world. Today, his artwork is highly prized by collectors and wildlife enthusiasts, and it is available for sale through select art galleries, auctions, and online platforms, providing an opportunity to own a piece of wildlife art that celebrates the diversity of North America's fauna.",
+  "name": "David Hagerbaumer",
+  "slug": "david_hagerbaumer_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "david_hagerbaumer_woodcock-html"
+  ],
+  "alias": "",
+  "metaTitle": "David Hagerbaumer Paintings For Sale",
+  "metaDescription": "Experience the awe-inspiring artistry of David Hagerbaumer's paintings for sale. Delight in captivating scenes that evoke wonder and admiration. Explore now!",
+  "tinyDescription": "American 1921 - 2014"
 }

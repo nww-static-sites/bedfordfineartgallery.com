@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Alfred Hutty",
-   "metaTitle": "Alfred Heber Hutty Art For Sale",
-   "metaDescription": "Immerse yourself in the captivating art of Alfred Heber Hutty. Explore exquisite artworks for sale, capturing the essence of beauty and creativity.",
-   "paintings" : [
-      "alfred_hutty_woodstock-html"
-   ],
-   "slug" : "alfred_hutty_artwork-html",
-   "tinyDescription" : "American 1877 - 1954"
+  "body": "Alfred Hutty, a distinguished American artist, is celebrated for his compelling works that often capture the essence of Southern life and landscapes. His paintings, available for sale, are highly prized for their unique blend of realism and atmospheric quality. Hutty's artistry reflects a deep understanding of his subjects, often translating the charm and character of the South onto canvas with a masterful use of color and light. Collectors and admirers of American art, particularly those interested in the Southern aesthetic, find his works a valuable addition to their collections.",
+  "name": "Alfred Hutty",
+  "slug": "alfred_hutty_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "alfred_hutty_woodstock-html"
+  ],
+  "alias": "",
+  "metaTitle": "Alfred Heber Hutty Art For Sale",
+  "metaDescription": "Immerse yourself in the captivating art of Alfred Heber Hutty. Explore exquisite artworks for sale, capturing the essence of beauty and creativity.",
+  "tinyDescription": "American 1877 - 1954"
 }

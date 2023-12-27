@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "E. \"Bill\" Maxwell Albert",
-   "metaTitle": "E. Bill Maxwell Albert Paintings For Sale",
-   "metaDescription": "Embark on an artistic journey with E. Bill Maxwell Albert's paintings for sale. Experience captivating artistry that speaks to the heart and soul. Explore now!",
-   "paintings" : [
-      "e_maxwell_albert_stream-html"
-   ],
-   "slug" : "e_bill_maxwell_albert_artwork-html",
-   "tinyDescription" : "1890 - 1955"
+  "body": "E. Bill Maxwell Albert, a talented artist, is known for his captivating paintings that often depict a wide range of subjects, from landscapes and still-life to abstract compositions. His work is characterized by a unique blend of creativity, color exploration, and a keen sense of composition. Albert's paintings have a versatility that appeals to a diverse range of art enthusiasts. Whether you're drawn to abstract expressionism or traditional scenes, his artwork is available for sale in select art galleries, at auctions, and through online art platforms, offering an opportunity to own a piece of his versatile and imaginative artistic expression.",
+  "name": "E. \"Bill\" Maxwell Albert",
+  "slug": "e_bill_maxwell_albert_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "e_maxwell_albert_stream-html"
+  ],
+  "alias": "",
+  "metaTitle": "E. Bill Maxwell Albert Paintings For Sale",
+  "metaDescription": "Embark on an artistic journey with E. Bill Maxwell Albert's paintings for sale. Experience captivating artistry that speaks to the heart and soul. Explore now!",
+  "tinyDescription": "1890 - 1955"
 }

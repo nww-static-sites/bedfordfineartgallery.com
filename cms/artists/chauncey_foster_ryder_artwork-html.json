@@ -1,13 +1,14 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Chauncey Foster Ryder",
-   "metaTitle": "Chauncey Foster Ryder Paintings For Sale",
-   "metaDescription": "Discover enchanting paintings by Chauncey Foster Ryder for sale. Embrace the beauty of his artistry, capturing serene landscapes and poetic visions.",
-   "paintings" : [
-      "chauncey_foster_ryder_canaan-html",
-      "chauncey_foster_ryder_coast-html"
-   ],
-   "slug" : "chauncey_foster_ryder_artwork-html",
-   "tinyDescription" : "1868 - 1949"
+  "body": "Chauncey Foster Ryder, a prominent American artist of the late 19th and early 20th centuries, is celebrated for his evocative landscape paintings. Renowned for his Impressionist and Tonalist styles, Ryder's work captures the serene beauty of rural America, particularly the Northeast. His paintings are characterized by their moody atmospheres, subtle use of color, and a remarkable ability to convey the depth and texture of the natural landscape. Whether depicting the rolling hills of New England or the quiet streets of small towns, Ryder's paintings evoke a sense of peacefulness and nostalgia. Today, Chauncey Foster Ryder's paintings are highly sought after by collectors and enthusiasts of American Impressionism and Tonalism. These works, known for their tranquil beauty and artistic depth, are available for sale in various art galleries, at auctions, and through online art dealers, offering a chance to own a piece of serene and timeless American art.",
+  "name": "Chauncey Foster Ryder",
+  "slug": "chauncey_foster_ryder_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "chauncey_foster_ryder_canaan-html",
+    "chauncey_foster_ryder_coast-html"
+  ],
+  "alias": "",
+  "metaTitle": "Chauncey Foster Ryder Paintings For Sale",
+  "metaDescription": "Discover enchanting paintings by Chauncey Foster Ryder for sale. Embrace the beauty of his artistry, capturing serene landscapes and poetic visions.",
+  "tinyDescription": "1868 - 1949"
 }

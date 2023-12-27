@@ -1,12 +1,13 @@
 {
-  "hasLandingPage": true,
+  "body": "Bruce Crane, a distinguished American artist of the late 19th and early 20th centuries, is celebrated for his exquisite landscape paintings that capture the essence of the American Northeast. Known for his Tonalist and Impressionist styles, Crane had a remarkable ability to portray the subtle and varied moods of nature. His works often feature serene, pastoral scenes, characterized by muted colors, soft lighting, and a profound sense of tranquility. Crane's mastery in depicting the changing seasons, from the golden hues of autumn to the quiet stillness of winter, set his work apart. His landscapes are not just visually stunning but also evoke a deep sense of emotion and contemplation. Today, Bruce Crane's art holds a special place in the collections of those who appreciate American landscape painting. His works are available for sale in various art galleries, at auctions, and through online art platforms, providing art lovers and collectors the opportunity to own a piece of American art history, celebrated for its beauty and timeless appeal.",
   "name": "Bruce Crane",
-   "metaTitle": "Bruce Crane Paintings For Sale | Bruce Crane Art",
-   "metaDescription": "Discover the timeless beauty of Bruce Crane's paintings for sale. Own an enchanting piece of art that adds elegance and serenity to your collection.",
-  "alias": "Robert Bruce Crane",
-  "tinyDescription": "American 1857 - 1937",
   "slug": "bruce_crane_artist-html",
+  "hasLandingPage": true,
   "paintings": [
     "bruce_crane_stream-html"
-  ]
+  ],
+  "alias": "Robert Bruce Crane",
+  "metaTitle": "Bruce Crane Paintings For Sale | Bruce Crane Art",
+  "metaDescription": "Discover the timeless beauty of Bruce Crane's paintings for sale. Own an enchanting piece of art that adds elegance and serenity to your collection.",
+  "tinyDescription": "American 1857 - 1937"
 }

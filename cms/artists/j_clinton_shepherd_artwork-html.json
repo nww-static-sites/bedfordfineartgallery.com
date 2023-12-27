@@ -1,12 +1,13 @@
 {
-   "alias" : "Joy Clinton Shepherd",
-   "hasLandingPage": true,
-   "name" : "J. Clinton Shepherd",
-   "metaTitle": "Joy Clinton Shepherd Artwork For Sale",
-   "metaDescription": "Discover captivating artwork by Joy Clinton Shepherd for sale. Explore a world of vivid emotions and intricate details in each masterpiece.",
-   "paintings" : [
-      "j_clinton_shepherd_lake-html"
-   ],
-   "slug" : "j_clinton_shepherd_artwork-html",
-   "tinyDescription" : "American, 1888 - 1975"
+  "body": "Joy Clinton Shepherd, a talented artist, presents a captivating collection of artwork that reflects her unique artistic vision. Her portfolio encompasses a diverse range of subjects, from abstract compositions to vibrant landscapes and intricate still-life scenes. Shepherd's artwork is characterized by a vibrant use of color, bold brushwork, and a deep sense of emotional expression. Her pieces are available for sale through select art galleries, at auctions, and on online art platforms, offering art enthusiasts the opportunity to own a piece of her dynamic and expressive artistic talent.",
+  "name": "J. Clinton Shepherd",
+  "slug": "j_clinton_shepherd_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "j_clinton_shepherd_lake-html"
+  ],
+  "alias": "Joy Clinton Shepherd",
+  "metaTitle": "Joy Clinton Shepherd Artwork For Sale",
+  "metaDescription": "Discover captivating artwork by Joy Clinton Shepherd for sale. Explore a world of vivid emotions and intricate details in each masterpiece.",
+  "tinyDescription": "American, 1888 - 1975"
 }

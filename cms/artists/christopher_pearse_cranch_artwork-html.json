@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Christopher Pearse Cranch",
-   "metaTitle": "Christopher Pearse Cranch Paintings For Sale",
-   "metaDescription": "Explore the captivating world of Christopher Pearse Cranch's paintings for sale. Immerse in his unique blend of art and poetry, a true visual delight.",
-   "paintings" : [
-      "christopher_pearse_cranch_sunset-html"
-   ],
-   "slug" : "christopher_pearse_cranch_artwork-html",
-   "tinyDescription" : "American, 1813 - 1892"
+  "body": "Christopher Pearse Cranch, a talented American artist from the 19th century, is known for his captivating landscape and genre paintings. His work often depicts the scenic beauty of the American landscape, with a particular emphasis on coastal scenes and serene rural settings. Cranch's paintings are characterized by their meticulous attention to detail, use of vibrant colors, and a skillful portrayal of light, which brings his landscapes to life with a sense of realism and tranquility. Whether capturing the play of sunlight on the water or the charm of a small fishing village, his art conveys a deep appreciation for the natural world. Today, Christopher Pearse Cranch's paintings are highly sought after by collectors and art enthusiasts who admire his ability to capture the essence of 19th-century America. These works are available for sale in select art galleries, at auctions, and through online art platforms, offering an opportunity to own a piece of American artistic heritage.",
+  "name": "Christopher Pearse Cranch",
+  "slug": "christopher_pearse_cranch_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "christopher_pearse_cranch_sunset-html"
+  ],
+  "alias": "",
+  "metaTitle": "Christopher Pearse Cranch Paintings For Sale",
+  "metaDescription": "Explore the captivating world of Christopher Pearse Cranch's paintings for sale. Immerse in his unique blend of art and poetry, a true visual delight.",
+  "tinyDescription": "American, 1813 - 1892"
 }

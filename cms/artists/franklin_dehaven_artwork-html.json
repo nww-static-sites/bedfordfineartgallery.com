@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Franklin DeHaven",
-   "metaTitle": "Artist Franklin DeHaven Paintings For Sale",
-   "metaDescription": "Explore the captivating world of Franklin DeHaven's paintings for sale. Immerse yourself in art that speaks to the soul. Discover his masterpieces now!",
-   "paintings" : [
-      "franklin_dehaven_borealis-html"
-   ],
-   "slug" : "franklin_dehaven_artwork-html",
-   "tinyDescription" : "American 1856 - 1934"
+  "body": "Franklin DeHaven, a talented American artist, is known for his captivating paintings that often depict a wide range of subjects, from landscapes and seascapes to still-life compositions. His work is characterized by meticulous attention to detail, vibrant use of color, and a deep appreciation for the natural world. DeHaven's ability to convey the beauty of his subjects with precision and artistic flair has made his art highly sought after by collectors and art enthusiasts. His paintings are available for sale in select art galleries, at auctions, and through online art platforms, providing an opportunity to own a piece of his versatile and evocative artistic expression.",
+  "name": "Franklin DeHaven",
+  "slug": "franklin_dehaven_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "franklin_dehaven_borealis-html"
+  ],
+  "alias": "",
+  "metaTitle": "Artist Franklin DeHaven Paintings For Sale",
+  "metaDescription": "Explore the captivating world of Franklin DeHaven's paintings for sale. Immerse yourself in art that speaks to the soul. Discover his masterpieces now!",
+  "tinyDescription": "American 1856 - 1934"
 }

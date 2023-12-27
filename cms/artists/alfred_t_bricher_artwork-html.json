@@ -1,15 +1,15 @@
 {
-  "alias": "Alfred Thompson Bricher, ATBricher",
-  "hasLandingPage": true,
+  "body": "Alfred Thompson Bricher, a notable figure in Victorian art, specialized in serene and picturesque marine landscapes. His paintings, available for sale, captivate viewers with their remarkable representation of coastal scenes, often depicting the tranquil interplay of sea and sky. Bricher's works are highly appreciated by collectors and enthusiasts of Victorian art, especially those drawn to maritime themes. His adeptness in capturing the subtleties of light and the natural beauty of the shoreline makes his paintings a valuable acquisition for those seeking to own a piece of Victorian artistic heritage.",
   "name": "Alfred T. Bricher",
-   "metaTitle": "Alfred Thompson Bricher Art For Sale",
-   "metaDescription": "Experience the coastal wonders of Alfred Thompson Bricher's art for sale. Own a piece of maritime beauty and immerse yourself in timeless seascapes.",
+  "slug": "alfred_t_bricher_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "alfred_thompson_bricher_seascape-html",
     "a_t_bricher_rocky_shoreline-html",
     "alfred_t_bricher_moonrise_over_the_shore-html"
   ],
-  "slug": "alfred_t_bricher_artwork-html",
-  "tinyDescription": "American, 1837 - 1908",
-  "body": ""
+  "alias": "Alfred Thompson Bricher, ATBricher",
+  "metaTitle": "Alfred Thompson Bricher Art For Sale",
+  "metaDescription": "Experience the coastal wonders of Alfred Thompson Bricher's art for sale. Own a piece of maritime beauty and immerse yourself in timeless seascapes.",
+  "tinyDescription": "American, 1837 - 1908"
 }
