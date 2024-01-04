@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Lloyd Mifflin",
-   "metaTitle": "Lloyd Mifflin Paintings For Sale",
-   "metaDescription": "Immerse in Lloyd Mifflin's captivating art. Explore emotive scenes and intricate details. Artwork for sale, poised to enrich your collection.",
-   "paintings" : [
-      "lloyd_mifflin_susquehenna-html"
-   ],
-   "slug" : "lloyd_mifflin_artwork-html",
-   "tinyDescription" : "American, 1846 - 1921"
+  "body": "Lloyd Mifflin, an artist celebrated for his exquisite landscapes and delicate poetic scenes, has a selection of paintings for sale that reflect his mastery in capturing the subtle interplay of light and shadow. His works, known for their serene beauty and refined technique, offer viewers a tranquil escape into idyllic settings, making them a cherished acquisition for collectors and admirers of fine art.",
+  "name": "Lloyd Mifflin",
+  "slug": "lloyd_mifflin_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "lloyd_mifflin_susquehenna-html"
+  ],
+  "alias": "",
+  "metaTitle": "Lloyd Mifflin Paintings For Sale",
+  "metaDescription": "Immerse in Lloyd Mifflin's captivating art. Explore emotive scenes and intricate details. Artwork for sale, poised to enrich your collection.",
+  "tinyDescription": "American, 1846 - 1921"
 }
