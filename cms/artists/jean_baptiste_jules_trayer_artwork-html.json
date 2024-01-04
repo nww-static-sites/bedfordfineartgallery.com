@@ -1,12 +1,13 @@
 {
-  "alias": "Jules Trayern",
-  "hasLandingPage": true,
+  "body": "Jean Baptiste Jules Trayer, an esteemed 19th-century French artist, has a collection of paintings that are now treasured pieces for sale. Known for his meticulous attention to detail and the gentle realism of his work, Trayer's paintings are a portal to the past, offering a glimpse into the intimate moments of everyday life in the 1800s. His works often depict scenes of domestic tranquility, the simple pleasures of rural living, and the delicate beauty of familial bonds, all rendered with a soft, warm palette and a tender touch. Collectors and enthusiasts of classical art will find in Trayer's paintings a celebration of the quiet, yet profound aspects of human life, captured forever on canvas with the loving precision of a true master.",
   "name": "Jean Baptiste Jules Trayer",
-  "metaTitle": "Jean Baptiste Jules Trayer Paintings For Sale",
-  "metaDescription": "Step into the captivating world of Jean Baptiste Jules Trayer's art. Experience his intricate brushwork and emotive scenes. Artwork waiting for your collection.",
+  "slug": "jean_baptiste_jules_trayer_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "jean_baptiste_jules_trayer_contemplation-html"
   ],
-  "slug": "jean_baptiste_jules_trayer_artwork-html",
+  "alias": "Jules Trayern",
+  "metaTitle": "Jean Baptiste Jules Trayer Paintings For Sale",
+  "metaDescription": "Step into the captivating world of Jean Baptiste Jules Trayer's art. Experience his intricate brushwork and emotive scenes. Artwork waiting for your collection.",
   "tinyDescription": "French 1824 - 1909"
 }
