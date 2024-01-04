@@ -1,12 +1,13 @@
 {
-  "hasLandingPage": true,
+  "body": "Judy York, an artist with a distinct affinity for the Victorian era, offers a collection of Victorian artwork for sale, showcasing her talent for capturing the period's intricate detail and romantic allure. Her pieces, characterized by their rich colors and ornate compositions, evoke the elegance and nostalgia of the 19th century, making them a prized addition for collectors and admirers of Victorian art and culture.",
   "name": "Judy York",
-   "metaTitle": "Judy York Victorian Artwork For Sale",
-   "metaDescription": "Dive into Judy York's artistry. Experience her unique vision and captivating compositions. Artwork for sale, ready to adorn your space.",
-  "tinyDescription": "American",
   "slug": "judy_york-html",
-  "alias": "Judith York",
+  "hasLandingPage": true,
   "paintings": [
     "j_york_genre-html"
-  ]
+  ],
+  "alias": "Judith York",
+  "metaTitle": "Judy York Victorian Artwork For Sale",
+  "metaDescription": "Dive into Judy York's artistry. Experience her unique vision and captivating compositions. Artwork for sale, ready to adorn your space.",
+  "tinyDescription": "American"
 }
