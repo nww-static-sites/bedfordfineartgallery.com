@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Louis Comfort Tiffany",
-   "metaTitle": "Louis Comfort Tiffany Paintings For Sale",
-   "metaDescription": "Discover Louis Comfort Tiffany's mesmerizing artistry. Embrace exquisite glasswork and intricate designs. Artwork for sale to illuminate your space with beauty.",
-   "paintings" : [
-      "louis_comfort_tiffany_lilies-html"
-   ],
-   "slug" : "louis_comfort_tiffany_artwork-html",
-   "tinyDescription" : "American 1848 - 1933"
+  "body": "Louis Comfort Tiffany, an artist synonymous with the Art Nouveau movement and renowned for his stained glass works, has a collection of paintings for sale that reflect his dedication to beauty and craftsmanship. His pieces, characterized by their vibrant colors and intricate designs, capture the elegance and innovation of his era, making them a prized possession for collectors and enthusiasts of Art Nouveau and decorative arts.",
+  "name": "Louis Comfort Tiffany",
+  "slug": "louis_comfort_tiffany_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "louis_comfort_tiffany_lilies-html"
+  ],
+  "alias": "",
+  "metaTitle": "Louis Comfort Tiffany Paintings For Sale",
+  "metaDescription": "Discover Louis Comfort Tiffany's mesmerizing artistry. Embrace exquisite glasswork and intricate designs. Artwork for sale to illuminate your space with beauty.",
+  "tinyDescription": "American 1848 - 1933"
 }
