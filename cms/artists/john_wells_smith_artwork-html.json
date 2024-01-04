@@ -1,12 +1,13 @@
 {
-   "alias" : "Wells Smith",
-   "hasLandingPage": true,
-   "name" : "John Wells Smith",
-   "metaTitle": "John Wells Smith Artist Paintings For Sale",
-   "metaDescription": "Step into the enchanting artistry of John Wells Smith. Immerse yourself in his evocative creations and meticulous craftsmanship. Artwork for sale.",
-   "paintings" : [
-      "john_wells_smith_anticipations-html"
-   ],
-   "slug" : "john_wells_smith_artwork-html",
-   "tinyDescription" : "British, fl. 1870 - 1875"
+  "body": "John Wells Smith, an artist known for his evocative landscapes and serene natural scenes, presents a collection of paintings for sale that reflect his deep connection to the natural world. His works, characterized by their tranquil beauty and subtle interplay of light and shadow, invite viewers into a peaceful, contemplative space, making them a valuable addition for collectors and admirers of contemplative landscape art.",
+  "name": "John Wells Smith",
+  "slug": "john_wells_smith_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "john_wells_smith_anticipations-html"
+  ],
+  "alias": "Wells Smith",
+  "metaTitle": "John Wells Smith Artist Paintings For Sale",
+  "metaDescription": "Step into the enchanting artistry of John Wells Smith. Immerse yourself in his evocative creations and meticulous craftsmanship. Artwork for sale.",
+  "tinyDescription": "British, fl. 1870 - 1875"
 }
