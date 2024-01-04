@@ -1,13 +1,14 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "Lila Barr Hetzel, recognized for her evocative and vibrant paintings, has a collection of artwork for sale that showcases her talent for capturing the beauty and emotion of her subjects. Her pieces, often featuring lush landscapes and serene scenes, are celebrated for their rich coloration and dynamic composition, offering art lovers and collectors a visually stunning and emotionally resonant experience.",
   "name": "Lila Barr Hetzel",
-  "metaTitle": "Lila Barr Hetzel Paintings For Sale",
-  "metaDescription": "Step into Lila Barr Hetzel's enchanting art. Immerse yourself in her emotive expressions & intricate craftsmanship. Artwork for sale, ready to adorn your space.",
+  "slug": "lila_barr_hetzel_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "lila_barr_hetzel_destiny-html",
     "lila_barr_hetzel_tree-html"
   ],
-  "slug": "lila_barr_hetzel_artwork-html",
+  "alias": "",
+  "metaTitle": "Lila Barr Hetzel Paintings For Sale",
+  "metaDescription": "Step into Lila Barr Hetzel's enchanting art. Immerse yourself in her emotive expressions & intricate craftsmanship. Artwork for sale, ready to adorn your space.",
   "tinyDescription": "American 1873 - 1967"
 }
