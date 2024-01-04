@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "John William Hill",
-   "metaTitle": "John William Hill Artist Paintings For Sale",
-   "metaDescription": "Immerse in John William Hill's artistry. Explore intricate details and emotive landscapes. Artwork for sale, ready to enrich your space.",
-   "paintings" : [
-      "john_william_hill_waterfall-html"
-   ],
-   "slug" : "john_william_hill_artwork-html",
-   "tinyDescription" : "American 1812 - 1879"
+  "body": "John William Hill, known for his precise and detailed approach to landscapes and still lifes, has a selection of artist paintings for sale that showcase his dedication to naturalism and realism. His works, admired for their meticulous attention to detail and vibrant clarity, beautifully capture the intricacies of nature and everyday objects, offering collectors and art lovers a timeless visual experience.",
+  "name": "John William Hill",
+  "slug": "john_william_hill_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "john_william_hill_waterfall-html"
+  ],
+  "alias": "",
+  "metaTitle": "John William Hill Artist Paintings For Sale",
+  "metaDescription": "Immerse in John William Hill's artistry. Explore intricate details and emotive landscapes. Artwork for sale, ready to enrich your space.",
+  "tinyDescription": "American 1812 - 1879"
 }
