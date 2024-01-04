@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Kevin T. Kelly",
-   "metaTitle": "Kevin T Kelly Art For Sale - Bedford Fine Art Gallery",
-   "metaDescription": "Experience Kevin T Kelly's captivating art. Explore his unique vision and emotive compositions. Artwork for sale, waiting to enrich your collection.",
-   "paintings" : [
-      "kevin_kelly_liberty-html"
-   ],
-   "slug" : "kevin_t_kelly_artwork-html",
-   "tinyDescription" : "American, born 1960"
+  "body": "Kevin T. Kelly, known for his bold and satirical pop art, has a vibrant collection of artworks for sale at Bedford Fine Art Gallery. His pieces, marked by their bright colors, sharp contrasts, and provocative themes, offer a contemporary and thought-provoking take on modern culture and society, making them a compelling acquisition for collectors and art enthusiasts with an eye for edgy and impactful pieces.",
+  "name": "Kevin T. Kelly",
+  "slug": "kevin_t_kelly_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "kevin_kelly_liberty-html"
+  ],
+  "alias": "",
+  "metaTitle": "Kevin T Kelly Art For Sale - Bedford Fine Art Gallery",
+  "metaDescription": "Experience Kevin T Kelly's captivating art. Explore his unique vision and emotive compositions. Artwork for sale, waiting to enrich your collection.",
+  "tinyDescription": "American, born 1960"
 }
