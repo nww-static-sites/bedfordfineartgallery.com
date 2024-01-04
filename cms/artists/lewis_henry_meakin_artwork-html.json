@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Lewis Henry Meakin",
-   "metaTitle": "Lewis Henry Meakin Paintings For Sale",
-   "metaDescription": "Explore Lewis Henry Meakin's artistry. Immerse in intricate details and emotive scenes. Artwork for sale, poised to enrich your collection.",
-   "paintings" : [
-      "lewis_henry_meakin_cape_ann-html"
-   ],
-   "slug" : "lewis_henry_meakin_artwork-html",
-   "tinyDescription" : "American 1850 - 1917"
+  "body": "Lewis Henry Meakin, an artist renowned for his impressionistic landscapes, presents a collection of paintings for sale that beautifully capture the tranquility and beauty of nature. His works, celebrated for their soft color palettes and light-infused scenes, offer a serene and contemplative view of the natural world, making them a sought-after choice for collectors and enthusiasts of impressionistic art.",
+  "name": "Lewis Henry Meakin",
+  "slug": "lewis_henry_meakin_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "lewis_henry_meakin_cape_ann-html"
+  ],
+  "alias": "",
+  "metaTitle": "Lewis Henry Meakin Paintings For Sale",
+  "metaDescription": "Explore Lewis Henry Meakin's artistry. Immerse in intricate details and emotive scenes. Artwork for sale, poised to enrich your collection.",
+  "tinyDescription": "American 1850 - 1917"
 }
