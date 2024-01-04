@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Louis Frisino",
-   "metaTitle": "Louis Frisino Art For Sale | Victorian Paintings",
-   "metaDescription": "Delve into the captivating art of Louis Frisino. Experience intricate details and emotive compositions. Artwork for sale, waiting to enrich your collection.",
-   "paintings" : [
-      "louis_frisino_cocker_spaniel-html"
-   ],
-   "slug" : "louis_frisino_artwork-html",
-   "tinyDescription" : "American 1934 - 2020"
+  "body": "Louis Frisino, known for his detailed and vibrant Victorian paintings, has a range of artworks for sale that capture the essence and elegance of the era. His pieces, with their meticulous attention to the period's fashion and architecture, offer a glimpse into the romantic and opulent world of the Victorian age, making them a cherished find for collectors and admirers of historical and decorative art.",
+  "name": "Louis Frisino",
+  "slug": "louis_frisino_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "louis_frisino_cocker_spaniel-html"
+  ],
+  "alias": "",
+  "metaTitle": "Louis Frisino Art For Sale | Victorian Paintings",
+  "metaDescription": "Delve into the captivating art of Louis Frisino. Experience intricate details and emotive compositions. Artwork for sale, waiting to enrich your collection.",
+  "tinyDescription": "American 1934 - 2020"
 }
