@@ -1,12 +1,13 @@
 {
-   "alias" : "John Leon Moran",
-   "hasLandingPage": true,
-   "name" : "Leon Moran",
-   "metaTitle": "Leon Moran Victorian Paintings For Sale",
-   "metaDescription": "Discover the enchanting art of Leon Moran. Immerse yourself in his captivating creations and emotive expressions. Artwork for sale, ready to inspire your space.",
-   "paintings" : [
-      "leon_moran_creek-html"
-   ],
-   "slug" : "leon_moran_artwork-html",
-   "tinyDescription" : "American, 1864 - 1941"
+  "body": "Leon Moran, a distinguished artist of the Victorian era, offers an exquisite collection of paintings for sale, featuring intricate domestic scenes and genteel portraits that capture the period's refined aesthetics. His works are celebrated for their attention to detail, rich color palette, and the graceful depiction of everyday life, making them a valuable and charming addition for collectors and admirers of Victorian art.",
+  "name": "Leon Moran",
+  "slug": "leon_moran_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "leon_moran_creek-html"
+  ],
+  "alias": "John Leon Moran",
+  "metaTitle": "Leon Moran Victorian Paintings For Sale",
+  "metaDescription": "Discover the enchanting art of Leon Moran. Immerse yourself in his captivating creations and emotive expressions. Artwork for sale, ready to inspire your space.",
+  "tinyDescription": "American, 1864 - 1941"
 }
