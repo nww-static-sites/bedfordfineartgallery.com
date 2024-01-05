@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Mabel Louise Wheelock",
-   "metaTitle": "Mabel Louise Wheelock Paintings For Sale",
-   "metaDescription": "Step into the captivating art of Mabel Louise Wheelock. Explore her unique vision and intricate details. Artwork for sale, ready to adorn your space.",
-   "paintings" : [
-      "mabel_louise_wheelock_hudson-html"
-   ],
-   "slug" : "mabel_louise_wheelock_artwork-html",
-   "tinyDescription" : "American 1887 - 1950"
+  "body": "Mabel Louise Wheelock, a talented artist known for her artistic vision and creativity, offers a captivating collection of paintings that span various subjects and styles. Her portfolio includes landscapes, portraits, and genre scenes, all characterized by her unique approach to color and composition. Wheelock's paintings are highly regarded by collectors and art enthusiasts for their ability to convey emotion and storytelling. These artworks are available for sale through select art galleries, at auctions, and online art platforms, providing an opportunity to own a piece of her distinctive and imaginative artistic talent.",
+  "name": "Mabel Louise Wheelock",
+  "slug": "mabel_louise_wheelock_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "mabel_louise_wheelock_hudson-html"
+  ],
+  "alias": "",
+  "metaTitle": "Mabel Louise Wheelock Paintings For Sale",
+  "metaDescription": "Step into the captivating art of Mabel Louise Wheelock. Explore her unique vision and intricate details. Artwork for sale, ready to adorn your space.",
+  "tinyDescription": "American 1887 - 1950"
 }
