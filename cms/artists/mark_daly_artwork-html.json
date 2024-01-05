@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Mark Daly",
-   "metaTitle": "Mark Daly Victorian Paintings For Sale",
-   "metaDescription": "Explore Mark Daly's Victorian paintings for sale. Immerse in his intricate details and emotive scenes. Elevate your collection with his captivating artworks.",
-   "paintings" : [
-      "mark_daly_blizzard-html"
-   ],
-   "slug" : "mark_daly_artwork-html",
-   "tinyDescription" : "American 1956 - "
+  "body": "Mark Daly, an artist from the Victorian era, presents a captivating collection of paintings that beautifully reflect the aesthetics and sensibilities of his time. His works often feature landscapes, seascapes, and genre scenes, characterized by meticulous attention to detail and a deep appreciation for the natural world. Daly's Victorian-era paintings are highly sought after by collectors and art enthusiasts for their historical significance and their ability to evoke the romanticism and beauty of the Victorian period. These artworks are available for sale through select art galleries, at auctions, and online art platforms, offering an opportunity to own a piece of artistry that captures the essence of the 19th century.",
+  "name": "Mark Daly",
+  "slug": "mark_daly_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "mark_daly_blizzard-html"
+  ],
+  "alias": "",
+  "metaTitle": "Mark Daly Victorian Paintings For Sale",
+  "metaDescription": "Explore Mark Daly's Victorian paintings for sale. Immerse in his intricate details and emotive scenes. Elevate your collection with his captivating artworks.",
+  "tinyDescription": "American 1956 - "
 }
