@@ -1,12 +1,13 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "Norton Bush, an artist known for his artistic versatility and creativity, presents a captivating collection of paintings that span various subjects and styles. His portfolio includes landscapes, portraits, and genre scenes, all characterized by his unique approach to color and composition. Bush's paintings are highly regarded by collectors and art enthusiasts for their ability to convey emotion and storytelling. These artworks are available for sale through select art galleries, at auctions, and online art platforms, offering an opportunity to own a piece of his distinctive and imaginative artistic talent.",
   "name": "Norton Bush",
-  "metaTitle": "Norton Bush Paintings For Sale",
-  "metaDescription": "Explore captivating paintings by Norton Bush for sale. Immerse yourself in the artist's unique vision & artistic expression. Own a Norton Bush masterpiece today",
+  "slug": "norton_bush_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "norton_bush_autumn-html"
   ],
-  "slug": "norton_bush_artwork-html",
+  "alias": "",
+  "metaTitle": "Norton Bush Paintings For Sale",
+  "metaDescription": "Explore captivating paintings by Norton Bush for sale. Immerse yourself in the artist's unique vision & artistic expression. Own a Norton Bush masterpiece today",
   "tinyDescription": "American, 1834 - 1894"
 }
