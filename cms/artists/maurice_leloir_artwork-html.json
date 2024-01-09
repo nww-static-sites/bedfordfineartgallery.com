@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Maurice Leloir",
-   "metaTitle": "Maurice Leloir Victorian Artwork For Sale",
-   "metaDescription": "Discover exquisite Victorian artwork by Maurice Leloir for sale. Immerse in the elegance of the era with these captivating pieces. Own a piece of history!",
-   "paintings" : [
-      "maurice_leloir_shopping-html"
-   ],
-   "slug" : "maurice_leloir_artwork-html",
-   "tinyDescription" : "French, 1853 - 1940"
+  "body": "Maurice Leloir, an artist from the Victorian era, presents a captivating collection of artworks that beautifully capture the aesthetics and culture of his time. His works often feature historical and genre scenes, characterized by meticulous attention to detail and a deep appreciation for the historical accuracy of his subjects. Leloir's Victorian-era artwork is highly sought after by collectors and art enthusiasts for its historical significance and its ability to transport viewers to the bygone days of the 19th century. These artworks are available for sale through select art galleries, at auctions, and online art platforms, offering an opportunity to own a piece of artistry that celebrates the Victorian era's charm and cultural richness.",
+  "name": "Maurice Leloir",
+  "slug": "maurice_leloir_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "maurice_leloir_shopping-html"
+  ],
+  "alias": "",
+  "metaTitle": "Maurice Leloir Victorian Artwork For Sale",
+  "metaDescription": "Discover exquisite Victorian artwork by Maurice Leloir for sale. Immerse in the elegance of the era with these captivating pieces. Own a piece of history!",
+  "tinyDescription": "French, 1853 - 1940"
 }
