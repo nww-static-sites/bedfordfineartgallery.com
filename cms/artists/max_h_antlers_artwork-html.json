@@ -1,12 +1,13 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "Max H. Antlers, an artist from the 19th century, presents a captivating collection of paintings that offer a glimpse into the aesthetics and culture of his era. His works often feature landscapes, seascapes, and genre scenes, characterized by meticulous attention to detail and a deep appreciation for the natural world. Antlers' 19th-century paintings are highly sought after by collectors and art enthusiasts for their historical significance and their ability to transport viewers to a bygone era. These artworks are available for sale through select art galleries, at auctions, and online art platforms, providing an opportunity to own a piece of historical artistry that reflects the charm of the 19th century.",
   "name": "Max H. Antlers",
-  "metaTitle": "Max H. Antlers 19th Century Paintings For Sale",
-  "metaDescription": "Step back in time with Max H.'s Antlers collection: 19 century artistry capturing the wild's essence. Adorn your space with history and elegance. Available now!",
+  "slug": "max_h_antlers_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "max_antlers_forest-html"
   ],
-  "slug": "max_h_antlers_artwork-html",
+  "alias": "",
+  "metaTitle": "Max H. Antlers 19th Century Paintings For Sale",
+  "metaDescription": "Step back in time with Max H.'s Antlers collection: 19 century artistry capturing the wild's essence. Adorn your space with history and elegance. Available now!",
   "tinyDescription": "German-American 1873-1952"
 }
