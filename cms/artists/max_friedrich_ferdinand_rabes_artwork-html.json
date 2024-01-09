@@ -1,12 +1,13 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "Max Friedrich Ferdinand Rabes, a renowned artist known for his intricate and finely detailed paintings, offers a captivating collection of artworks that showcase his exceptional craftsmanship. His portfolio includes landscapes, still-life compositions, and portraits, all characterized by his meticulous attention to detail and the use of light to create depth and realism. Rabes' paintings are highly sought after by collectors and art enthusiasts for their precision and artistic excellence. These artworks are available for sale through select art galleries, at auctions, and online art platforms, providing an opportunity to own a piece of his timeless and masterful artistry.",
   "name": "Max Friedrich Ferdinand Rabes",
-  "metaTitle": "Max Friedrich Ferdinand Rabes Art For Sale",
-  "metaDescription": "Dive into the exquisite world of Max F. F. Rabes. Explore his captivating Orientalist artworks, capturing the essence of the Middle East. Own this masterpiece.",
+  "slug": "max_friedrich_ferdinand_rabes_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "max_friedrich_ferdinand_rabes_woman_on_bench-html"
   ],
-  "slug": "max_friedrich_ferdinand_rabes_artwork-html",
+  "alias": "",
+  "metaTitle": "Max Friedrich Ferdinand Rabes Art For Sale",
+  "metaDescription": "Dive into the exquisite world of Max F. F. Rabes. Explore his captivating Orientalist artworks, capturing the essence of the Middle East. Own this masterpiece.",
   "tinyDescription": "German 1868 - 1944"
 }
