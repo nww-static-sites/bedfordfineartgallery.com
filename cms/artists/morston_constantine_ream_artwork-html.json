@@ -1,12 +1,13 @@
 {
-  "alias": "Morston Ream",
-  "hasLandingPage": true,
+  "body": "Morston Constantine Ream, a talented artist known for his unique artistic vision, offers a captivating collection of paintings that span various subjects and styles. His portfolio includes landscapes, portraits, and genre scenes, all characterized by his distinctive approach to color and composition. Ream's paintings are highly regarded by collectors and art enthusiasts for their ability to evoke emotions and tell compelling stories. These artworks are available for sale through select art galleries, at auctions, and online art platforms, providing an opportunity to own a piece of his imaginative and thought-provoking artistry.",
   "name": "Morston Constantine Ream",
-  "metaTitle": "Morston Constantine Ream Paintings For Sale",
-  "metaDescription": "Discover the stunning collection of Morston Constantine Ream paintings. A testament to artistic brilliance. Elevate your space with these masterpieces.",
+  "slug": "morston_constantine_ream_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "morston_constantine_ream_fruit-html"
   ],
-  "slug": "morston_constantine_ream_artwork-html",
+  "alias": "Morston Ream",
+  "metaTitle": "Morston Constantine Ream Paintings For Sale",
+  "metaDescription": "Discover the stunning collection of Morston Constantine Ream paintings. A testament to artistic brilliance. Elevate your space with these masterpieces.",
   "tinyDescription": "American 1840 - 1898"
 }
