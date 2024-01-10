@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Peter Baumgras",
-   "metaTitle": "Peter Baumgras Victorian Paintings For Sale",
-   "metaDescription": "Experience the charm of Peter Baumgras's Victorian paintings for sale. Immerse in the artistry of the era. Own a piece of history and beauty today!",
-   "paintings" : [
-      "peter_baumgras_genesee-html"
-   ],
-   "slug" : "peter_baumgras_artwork-html",
-   "tinyDescription" : "American, 1827 - 1904"
+  "body": "Peter Baumgras, an artist from the Victorian era, presents a captivating collection of paintings that beautifully capture the aesthetics and culture of his time. His works often feature landscapes, genre scenes, and historical subjects, characterized by meticulous attention to detail and a deep appreciation for the period's artistic traditions. Baumgras's Victorian-era artwork is highly sought after by collectors and art enthusiasts for its historical significance and its ability to transport viewers to the bygone days of the 19th century. These artworks are available for sale through select art galleries, at auctions, and online art platforms, offering an opportunity to own a piece of artistry that celebrates the Victorian era's charm and cultural richness.",
+  "name": "Peter Baumgras",
+  "slug": "peter_baumgras_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "peter_baumgras_genesee-html"
+  ],
+  "alias": "",
+  "metaTitle": "Peter Baumgras Victorian Paintings For Sale",
+  "metaDescription": "Experience the charm of Peter Baumgras's Victorian paintings for sale. Immerse in the artistry of the era. Own a piece of history and beauty today!",
+  "tinyDescription": "American, 1827 - 1904"
 }
