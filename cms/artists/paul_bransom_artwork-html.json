@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Paul Bransom",
-   "metaTitle": "Paul Bransom 19 Century Paintings For Sale",
-   "metaDescription": "Discover captivating 19th-century paintings by Paul Bransom for sale. Immerse in the artistry of the era. Own a Bransom masterpiece and relive history!",
-   "paintings" : [
-      "paul_bransom_wild-html"
-   ],
-   "slug" : "paul_bransom_artwork-html",
-   "tinyDescription" : "American, 1885 - 1979"
+  "body": "Paul Bransom, an artist from the 19th century, presents a captivating collection of paintings that offer a glimpse into the aesthetics and culture of his era. His works often feature landscapes, wildlife, and genre scenes, characterized by meticulous attention to detail and a deep appreciation for the natural world. Bransom's 19th-century paintings are highly sought after by collectors and art enthusiasts for their historical significance and their ability to transport viewers to a bygone era. These artworks are available for sale through select art galleries, at auctions, and online art platforms, providing an opportunity to own a piece of historical artistry that celebrates the 19th century's natural beauty.",
+  "name": "Paul Bransom",
+  "slug": "paul_bransom_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "paul_bransom_wild-html"
+  ],
+  "alias": "",
+  "metaTitle": "Paul Bransom 19 Century Paintings For Sale",
+  "metaDescription": "Discover captivating 19th-century paintings by Paul Bransom for sale. Immerse in the artistry of the era. Own a Bransom masterpiece and relive history!",
+  "tinyDescription": "American, 1885 - 1979"
 }
