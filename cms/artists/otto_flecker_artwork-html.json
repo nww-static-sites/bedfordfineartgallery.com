@@ -1,12 +1,13 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "Otto Flecker, known for his distinctive style in 20th-century illustrations, offers a captivating collection of artworks that showcase his unique artistic vision. His portfolio includes a wide range of illustrations, characterized by bold lines, vibrant colors, and a modern aesthetic. Flecker's 20th-century illustrations are highly regarded for their artistic innovation and their ability to convey powerful visual narratives. These artworks are available for sale through select art galleries, at auctions, and online art platforms, providing an opportunity to own a piece of his iconic and influential illustrative artistry.",
   "name": "Otto Flecker",
-  "metaTitle": "Otto Flecker 20th Century Illustrations For Sale",
-  "metaDescription": "Discover captivating 20 century illustrations by Otto Flecker for sale. Immerse yourself in the artist's visual storytelling. Own a unique piece of art history!",
+  "slug": "otto_flecker_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "otto_flecker_parrot-html"
   ],
-  "slug": "otto_flecker_artwork-html",
+  "alias": "",
+  "metaTitle": "Otto Flecker 20th Century Illustrations For Sale",
+  "metaDescription": "Discover captivating 20 century illustrations by Otto Flecker for sale. Immerse yourself in the artist's visual storytelling. Own a unique piece of art history!",
   "tinyDescription": "20th Century German or Austrian Illustrator"
 }
