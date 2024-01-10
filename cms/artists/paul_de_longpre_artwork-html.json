@@ -1,12 +1,13 @@
 {
-  "alias": "P. de Longpre",
-  "hasLandingPage": true,
+  "body": "Paul de Longpré, a celebrated artist known for his exquisite floral still-life paintings, offers a captivating collection of artworks that showcase his mastery of botanical artistry. His portfolio includes a stunning array of meticulously detailed flowers, often depicted with remarkable realism and vibrant colors. De Longpré's floral paintings are highly sought after by collectors and art enthusiasts for their beauty and the timeless elegance they bring to any space. These artworks are available for sale through select art galleries, at auctions, and online art platforms, providing an opportunity to own a piece of his renowned floral artistry.",
   "name": "Paul De Longpre",
-  "metaTitle": "Paul De Longpre Paintings For Sale",
-  "metaDescription": "Explore the timeless beauty of Paul de Longpré's paintings for sale. Immerse in his exquisite floral artistry. Own a de Longpré masterpiece today.",
+  "slug": "paul_de_longpre_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "paul_de_longpre_roses-html"
   ],
-  "slug": "paul_de_longpre_artwork-html",
+  "alias": "P. de Longpre",
+  "metaTitle": "Paul De Longpre Paintings For Sale",
+  "metaDescription": "Explore the timeless beauty of Paul de Longpré's paintings for sale. Immerse in his exquisite floral artistry. Own a de Longpré masterpiece today.",
   "tinyDescription": "American, 1855 - 1911"
 }
