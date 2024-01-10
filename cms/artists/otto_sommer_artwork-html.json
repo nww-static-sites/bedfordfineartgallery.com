@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Otto Sommer",
-   "metaTitle": "Otto Sommer 19th Century Paintings For Sale",
-   "metaDescription": "Explore exquisite 19th-century paintings by Otto Sommer for sale. Immerse in the artistic legacy of the era. Own a piece of history and beauty today!",
-   "paintings" : [
-      "otto_sommer_deer-html"
-   ],
-   "slug" : "otto_sommer_artwork-html",
-   "tinyDescription" : "1811 - 1911"
+  "body": "Otto Sommer, an artist from the 19th century, presents a captivating collection of paintings that offer a glimpse into the aesthetics and culture of his era. His works often feature landscapes, seascapes, and genre scenes, characterized by meticulous attention to detail and a deep appreciation for the natural world. Sommer's 19th-century paintings are highly sought after by collectors and art enthusiasts for their historical significance and their ability to transport viewers to a bygone era. These artworks are available for sale through select art galleries, at auctions, and online art platforms, providing an opportunity to own a piece of historical artistry that reflects the charm of the 19th century.",
+  "name": "Otto Sommer",
+  "slug": "otto_sommer_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "otto_sommer_deer-html"
+  ],
+  "alias": "",
+  "metaTitle": "Otto Sommer 19th Century Paintings For Sale",
+  "metaDescription": "Explore exquisite 19th-century paintings by Otto Sommer for sale. Immerse in the artistic legacy of the era. Own a piece of history and beauty today!",
+  "tinyDescription": "1811 - 1911"
 }
