@@ -1,12 +1,13 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "Penrhyn Stanlaws, a renowned artist, presents a captivating collection of paintings that reflect his versatile talent and creative range. His portfolio includes portraits, genre scenes, and illustrations, often characterized by their skillful rendering and ability to capture the essence of his subjects. Stanlaws' paintings are highly regarded by collectors and art enthusiasts for their ability to convey emotion and narrative. These artworks are available for sale through select art galleries, at auctions, and online art platforms, providing an opportunity to own a piece of his diverse and masterful artistry.",
   "name": "Penrhyn Stanlaws",
-  "metaTitle": "Penrhyn Stanlaws Artist Paintings For Sale",
-  "metaDescription": "Discover the captivating paintings of artist Penrhyn Stanlaws for sale. Immerse in his unique artistic style. Own a Stanlaws masterpiece that resonates.",
+  "slug": "penrhyn_stanlaws_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "penrhyn_stanlaws_lincoln-html"
   ],
-  "slug": "penrhyn_stanlaws_artwork-html",
+  "alias": "",
+  "metaTitle": "Penrhyn Stanlaws Artist Paintings For Sale",
+  "metaDescription": "Discover the captivating paintings of artist Penrhyn Stanlaws for sale. Immerse in his unique artistic style. Own a Stanlaws masterpiece that resonates.",
   "tinyDescription": "Scottish-American 1877 - 1957"
 }
