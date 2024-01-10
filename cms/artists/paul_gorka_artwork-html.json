@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Paul Gorka",
-   "metaTitle": "Paul Gorka Artist Paintings For Sale",
-   "metaDescription": "Discover the captivating paintings of artist Paul Gorka for sale. Immerse in his unique artistic perspective. Own a Gorka masterpiece that resonates with creativity.",
-   "paintings" : [
-      "paul_gorka_contemplation-html"
-   ],
-   "slug" : "paul_gorka_artwork-html",
-   "tinyDescription" : "American, born 1931"
+  "body": "Paul Gorka, an accomplished artist, offers a captivating collection of paintings that showcase his distinctive artistic style and creative vision. His portfolio spans various subjects and styles, often characterized by vibrant colors, dynamic compositions, and a unique approach to storytelling. Gorka's paintings are highly regarded by collectors and art enthusiasts for their ability to evoke emotions and engage viewers. These artworks are available for sale through select art galleries, at auctions, and online art platforms, providing an opportunity to own a piece of his imaginative and thought-provoking artistry.",
+  "name": "Paul Gorka",
+  "slug": "paul_gorka_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "paul_gorka_contemplation-html"
+  ],
+  "alias": "",
+  "metaTitle": "Paul Gorka Artist Paintings For Sale",
+  "metaDescription": "Discover the paintings of artist Paul Gorka for sale. Immerse in his unique artistic perspective. Own a Gorka masterpiece that resonates with creativity.",
+  "tinyDescription": "American, born 1931"
 }
