@@ -1,12 +1,13 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "Peter Hurd, a renowned artist known for his exceptional talent in capturing the beauty of the American Southwest, offers a captivating collection of paintings that showcase his distinctive style and connection to the land. His portfolio includes landscapes, portraits, and scenes of rural life, all characterized by meticulous attention to detail and a deep reverence for the natural world. Hurd's paintings are highly regarded by collectors and art enthusiasts for their ability to evoke a sense of place and capture the spirit of the American Southwest. These artworks are available for sale through select art galleries, at auctions, and online art platforms, providing an opportunity to own a piece of his iconic and evocative artistry.",
   "name": "Peter Hurd",
-  "metaTitle": "Artist Peter Hurd Paintings For Sale",
-  "metaDescription": "Explore captivating paintings of artist Peter Hurd for sale. Immerse in his unique artistic perspective. Own a Hurd masterpiece that resonates with creativity.",
+  "slug": "peter_hurd_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "peter_hurd_mountain-html"
   ],
-  "slug": "peter_hurd_artwork-html",
+  "alias": "",
+  "metaTitle": "Artist Peter Hurd Paintings For Sale",
+  "metaDescription": "Explore captivating paintings of artist Peter Hurd for sale. Immerse in his unique artistic perspective. Own a Hurd masterpiece that resonates with creativity.",
   "tinyDescription": "American 1904 - 1984"
 }
