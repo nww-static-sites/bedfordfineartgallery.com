@@ -1,13 +1,14 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "Paul Strisik, known for his exceptional talent in capturing the beauty of landscapes and coastal scenes, offers a captivating collection of Victorian-era artworks that transport viewers to picturesque settings. His portfolio includes landscapes, seascapes, and rural scenes, all characterized by his meticulous attention to detail and a deep connection to the natural world. Strisik's Victorian art is highly sought after by collectors and art enthusiasts for its ability to convey the tranquility and charm of the 19th century. These artworks are available for sale through select art galleries, at auctions, and online art platforms, offering an opportunity to own a piece of his serene and evocative artistry.",
   "name": "Paul Strisik",
-   "metaTitle": "Paul Strisik Victorian Art For Sale",
-   "metaDescription": "Explore the exquisite Victorian art of Paul Strisik for sale. Immerse in the elegance of the era. Own a timeless piece that captures the beauty of history!",
+  "slug": "paul_strisik_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "paul_strisik_maine_cove-html",
     "paul_strisik_pierces_cove_maine-html"
   ],
-  "slug": "paul_strisik_artwork-html",
+  "alias": "",
+  "metaTitle": "Paul Strisik Victorian Art For Sale",
+  "metaDescription": "Explore the exquisite Victorian art of Paul Strisik for sale. Immerse in the elegance of the era. Own a timeless piece that captures the beauty of history!",
   "tinyDescription": "American 1918 - 1998"
 }
