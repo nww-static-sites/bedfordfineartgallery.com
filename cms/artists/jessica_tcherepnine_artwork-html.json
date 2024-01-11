@@ -1,12 +1,13 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "Jessica Tcherepnine, a contemporary artist with a profound appreciation for the past, offers an exquisite collection of Victorian-inspired paintings for sale. Her works are a modern homage to the lavish and intricate style of the Victorian era, characterized by rich textures, intricate detail, and a vibrant palette. Tcherepnine's paintings transport viewers to a bygone age of elegance and opulence, capturing the romanticism and grandeur that define the period. Each piece is a testament to her skillful brushwork and her ability to infuse traditional themes with a fresh, contemporary perspective. Collectors and admirers of Victorian art will find in Tcherepnine's collection a rare blend of historical reverence and modern sophistication, making each painting a cherished addition to any collection.",
   "name": "Jessica Tcherepnine",
-  "metaTitle": "Jessica Tcherepnine Victorian Paintings For Sale",
-  "metaDescription": "Embark on a journey through Jessica Tcherepnine's captivating art. Immerse yourself in her unique expressions and vivid imagery. Artwork for sale.",
+  "slug": "jessica_tcherepnine_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "jessica_tcherepnine_roses-html"
   ],
-  "slug": "jessica_tcherepnine_artwork-html",
+  "alias": "",
+  "metaTitle": "Jessica Tcherepnine Victorian Paintings For Sale",
+  "metaDescription": "Embark on a journey through Jessica Tcherepnine's captivating art. Immerse yourself in her unique expressions and vivid imagery. Artwork for sale.",
   "tinyDescription": "British-American 1938-2018"
 }

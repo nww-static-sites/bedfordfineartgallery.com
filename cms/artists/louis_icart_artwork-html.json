@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Louis Icart",
-   "metaTitle": "Louis Icart Paintings For Sale - Bedford Fine Art Gallery",
-   "metaDescription": "Step into the enchanting world of Louis Icart's art. Explore his intricate details and evocative compositions. Artwork for sale, ready to adorn your collection.",
-   "paintings" : [
-      "louis_icart_liberty-html"
-   ],
-   "slug" : "louis_icart_artwork-html",
-   "tinyDescription" : "1888 - 1950"
+  "body": "Louis Icart, a prominent figure known for his Art Deco illustrations, has an alluring collection of paintings for sale that epitomize the glamour and sensuality of the early 20th century. His works, celebrated for their graceful figures, whimsical themes, and delicate color palettes, capture the spirit of an era with elegance and flair, making them a coveted choice for collectors and enthusiasts of Art Deco and vintage art.",
+  "name": "Louis Icart",
+  "slug": "louis_icart_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "louis_icart_liberty-html"
+  ],
+  "alias": "",
+  "metaTitle": "Louis Icart Paintings For Sale - Bedford Fine Art Gallery",
+  "metaDescription": "Step into the enchanting world of Louis Icart's art. Explore his intricate details and evocative compositions. Artwork for sale, ready to adorn your collection.",
+  "tinyDescription": "1888 - 1950"
 }

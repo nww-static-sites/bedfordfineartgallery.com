@@ -1,12 +1,13 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "John Bunyan Bristol, a notable 19th-century artist, has an intriguing collection of art for sale, offering a window into the rich landscapes and serene nature scenes characteristic of his work. His Bristol pieces, renowned for their meticulous detail and tranquil beauty, capture the essence of the 19th-century countryside with a timeless elegance that continues to enchant art enthusiasts and collectors alike.",
   "name": "John Bunyan Bristol",
-  "metaTitle": "John Bunyan Bristol 19 Century Art For Sale",
-  "metaDescription": "Explore the evocative artistry of John Bunyan Bristo. Immerse yourself in his intricate details and emotive compositions. Artwork for sale, awaiting you.",
+  "slug": "john_bunyan_bristol_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "john_bunyan_bristol_catskill-html"
   ],
-  "slug": "john_bunyan_bristol_artwork-html",
+  "alias": "",
+  "metaTitle": "John Bunyan Bristol 19 Century Art For Sale",
+  "metaDescription": "Explore the evocative artistry of John Bunyan Bristo. Immerse yourself in his intricate details and emotive compositions. Artwork for sale, awaiting you.",
   "tinyDescription": "American 1826 - 1909"
 }

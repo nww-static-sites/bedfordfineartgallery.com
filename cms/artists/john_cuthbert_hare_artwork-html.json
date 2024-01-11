@@ -1,12 +1,13 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "John Cuthbert Hare, celebrated for his maritime and coastal scenes, has a captivating array of artist paintings for sale. His works, distinguished by their vibrant light and fluid depiction of water, capture the dynamic and serene essence of American seascapes, making each piece a sought-after treasure for collectors and admirers of nautical art.",
   "name": "John Cuthbert Hare",
-  "metaTitle": "John Cuthbert Hare Artist Paintings For Sale",
-  "metaDescription": "Delve into the captivating artistry of John Cuthbert Hare. Experience his intricate brushwork and emotive scenes. Artwork for sale, ready to grace your space.",
+  "slug": "john_cuthbert_hare_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "john_cuthbert_hare_cape-html"
   ],
-  "slug": "john_cuthbert_hare_artwork-html",
+  "alias": "",
+  "metaTitle": "John Cuthbert Hare Artist Paintings For Sale",
+  "metaDescription": "Delve into the captivating artistry of John Cuthbert Hare. Experience his intricate brushwork and emotive scenes. Artwork for sale, ready to grace your space.",
   "tinyDescription": "American 1908 - 1978"
 }

@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Peter Johan Valdemar Busch",
-   "metaTitle": "Peter Johan Valdemar Busch Paintings For Sale",
-   "metaDescription": "Discover the captivating paintings of artist Peter Johan Valdemar Busch for sale. Immerse in his unique artistic perspective. Own a Busch masterpiece today.",
-   "paintings" : [
-      "peter_johan_valdemar_busch_path-html"
-   ],
-   "slug" : "peter_johan_valdemar_busch_artwork-html",
-   "tinyDescription" : "1861 - 1942"
+  "body": "Peter Johan Valdemar Busch, a notable artist, offers a captivating collection of paintings that reflect his artistic prowess and creative vision. His portfolio encompasses a wide range of subjects and styles, often characterized by vibrant colors, expressive brushwork, and a unique approach to storytelling. Busch's paintings are highly regarded by collectors and art enthusiasts for their ability to convey emotion and engage viewers. These artworks are available for sale through select art galleries, at auctions, and online art platforms, providing an opportunity to own a piece of his imaginative and thought-provoking artistry.",
+  "name": "Peter Johan Valdemar Busch",
+  "slug": "peter_johan_valdemar_busch_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "peter_johan_valdemar_busch_path-html"
+  ],
+  "alias": "",
+  "metaTitle": "Peter Johan Valdemar Busch Paintings For Sale",
+  "metaDescription": "Discover the captivating paintings of artist Peter Johan Valdemar Busch for sale. Immerse in his unique artistic perspective. Own a Busch masterpiece today.",
+  "tinyDescription": "1861 - 1942"
 }

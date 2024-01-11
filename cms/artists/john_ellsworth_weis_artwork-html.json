@@ -1,12 +1,13 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "John Ellsworth Weis, acclaimed for his impressionistic landscapes and scenes of everyday life, offers a collection of paintings for sale that beautifully capture the play of light and color. His works, renowned for their vibrant hues and emotive brushwork, provide a visual feast that celebrates the beauty of the natural world and the simplicity of rural and urban settings alike.",
   "name": "John Ellsworth Weis",
-  "metaTitle": "John Ellsworth Weis Paintings For Sale",
-  "metaDescription": "Discover the intriguing world of John Ellsworth Weis' art. Immerse yourself in his unique perspectives and captivating details.",
+  "slug": "john_ellsworth_weis_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "john_ellsworth_weis_easter-html"
   ],
-  "slug": "john_ellsworth_weis_artwork-html",
+  "alias": "",
+  "metaTitle": "John Ellsworth Weis Paintings For Sale",
+  "metaDescription": "Discover the intriguing world of John Ellsworth Weis' art. Immerse yourself in his unique perspectives and captivating details.",
   "tinyDescription": "American 1892 - 1962"
 }

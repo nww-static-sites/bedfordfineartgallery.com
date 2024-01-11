@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "John Whorf",
-   "metaTitle": "John Whorf Artist | John Whorf Paintings For Sale",
-   "metaDescription": "Discover John Whorf's enchanting art. Embrace vivid scenes and masterful brushwork. Artwork for sale, poised to elevate your collection.",
-   "paintings" : [
-      "john_whorf_dock-html"
-   ],
-   "slug" : "john_whorf_artwork-html",
-   "tinyDescription" : "American 1903 - 1959"
+  "body": "John Whorf, celebrated for his fluid and expressive watercolors, offers an exquisite collection of paintings for sale, featuring vibrant landscapes and dynamic city scenes. His masterful use of color and light captures the mood and atmosphere of each setting with striking clarity, making each piece a sought-after gem for collectors and enthusiasts of American Impressionism.",
+  "name": "John Whorf",
+  "slug": "john_whorf_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "john_whorf_dock-html"
+  ],
+  "alias": "",
+  "metaTitle": "John Whorf Artist | John Whorf Paintings For Sale",
+  "metaDescription": "Discover John Whorf's enchanting art. Embrace vivid scenes and masterful brushwork. Artwork for sale, poised to elevate your collection.",
+  "tinyDescription": "American 1903 - 1959"
 }

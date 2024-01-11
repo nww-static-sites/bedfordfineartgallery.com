@@ -1,12 +1,13 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "Ogden Minton Pleissner, a renowned artist celebrated for his exceptional skill in depicting outdoor and sporting scenes, offers a captivating collection of paintings that capture the beauty of nature and the excitement of outdoor pursuits. His portfolio includes landscapes, wildlife, and scenes of hunting and fishing, all characterized by his mastery of detail and the ability to convey a sense of adventure. Pleissner's paintings are highly sought after by collectors and enthusiasts of outdoor art for their authenticity and ability to transport viewers into the heart of the wilderness. These artworks are available for sale through select art galleries, at auctions, and online art platforms, providing an opportunity to own a piece of his remarkable outdoor artistry.",
   "name": "Ogden Minton Pleissner",
-  "metaTitle": "Ogden Minton Pleissner Paintings For Sale",
-  "metaDescription": "Explore the beauty of Ogden Minton Pleissner's paintings for sale. Capture the essence of his artistry & own a masterpiece that resonates with nature's allure.",
+  "slug": "ogden_minton_pleissner_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "ogden_minton_pleissner_coast-html"
   ],
-  "slug": "ogden_minton_pleissner_artwork-html",
+  "alias": "",
+  "metaTitle": "Ogden Minton Pleissner Paintings For Sale",
+  "metaDescription": "Explore the beauty of Ogden Minton Pleissner's paintings for sale. Capture the essence of his artistry & own a masterpiece that resonates with nature's allure.",
   "tinyDescription": "American 1905 - 1983"
 }

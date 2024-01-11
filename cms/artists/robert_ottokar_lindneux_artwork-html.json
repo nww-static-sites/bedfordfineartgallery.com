@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Robert Ottokar Lindneux",
-   "metaTitle": "Robert Ottokar Lindneux Paintings For Sale",
-   "metaDescription": "Explore Robert Ottokar Lindneux's mesmerizing paintings for sale. Elevate your collection with emotive expressions and exquisite craftsmanship.",
-   "paintings" : [
-      "robert_ottokar_lindneux_lookout-html"
-   ],
-   "slug" : "robert_ottokar_lindneux_artwork-html",
-   "tinyDescription" : "American, 1871 - 1970"
+  "body": "Robert Ottokar Lindneux, a notable American painter known for his portraits and genre scenes, presents a collection of artworks that capture the essence of American life in the early 20th century. His paintings often feature detailed depictions of individuals, families, and everyday scenes, offering a window into the past. Lindneux's works are highly regarded for their skillful execution and historical significance. They are available for sale through select art galleries, auctions, and online platforms, providing an opportunity for collectors to own pieces of American art history.",
+  "name": "Robert Ottokar Lindneux",
+  "slug": "robert_ottokar_lindneux_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "robert_ottokar_lindneux_lookout-html"
+  ],
+  "alias": "",
+  "metaTitle": "Robert Ottokar Lindneux Paintings For Sale",
+  "metaDescription": "Explore Robert Ottokar Lindneux's mesmerizing paintings for sale. Elevate your collection with emotive expressions and exquisite craftsmanship.",
+  "tinyDescription": "American, 1871 - 1970"
 }

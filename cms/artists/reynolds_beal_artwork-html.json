@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Reynolds Beal",
-   "metaTitle": "Artist Reynolds Beal Art For Sale",
-   "metaDescription": "Discover the captivating art of Reynolds Beal for sale. Immerse in his unique artistic perspective. Own a Beal masterpiece that resonates with creativity.",
-   "paintings" : [
-      "reynolds_beale_railroad-html"
-   ],
-   "slug" : "reynolds_beal_artwork-html",
-   "tinyDescription" : "American 1866/67 - 1951"
+  "body": "Reynolds Beal, a renowned artist known for his contributions to American modernism and maritime art, offers a captivating collection of paintings that showcase his innovative style and deep connection to the sea. His portfolio includes seascapes, harbor scenes, and abstract works, all characterized by bold colors and a unique perspective. Beal's paintings are highly sought after by collectors and art enthusiasts for their ability to capture the essence of coastal life and the ever-changing moods of the ocean. These artworks are available for sale through select art galleries, at auctions, and online art platforms, providing an opportunity to own a piece of his iconic and evocative artistry.",
+  "name": "Reynolds Beal",
+  "slug": "reynolds_beal_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "reynolds_beale_railroad-html"
+  ],
+  "alias": "",
+  "metaTitle": "Artist Reynolds Beal Art For Sale",
+  "metaDescription": "Discover the captivating art of Reynolds Beal for sale. Immerse in his unique artistic perspective. Own a Beal masterpiece that resonates with creativity.",
+  "tinyDescription": "American 1866/67 - 1951"
 }

@@ -1,12 +1,13 @@
 {
-  "alias": "J.J. LaValley",
-  "hasLandingPage": true,
+  "body": "Jonas Joseph LaValley, an artist with a unique and compelling style, presents a collection of artwork for sale that captures the imagination with its bold use of color and form. His pieces, ranging from abstract compositions to more figurative works, are known for their dynamic energy and emotional depth, making them a captivating addition for any collector or admirer of contemporary art.",
   "name": "Jonas Joseph LaValley",
-  "metaTitle": "Jonas Joseph LaValley Artwork For Sale",
-  "metaDescription": "Embark on a journey through Jonas Joseph LaValley's captivating art. Experience his unique vision and intricate craftsmanship. Artwork for sale.",
+  "slug": "jonas_joseph_lavalley_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "jonas_joseph_lavalley_roses-html"
   ],
-  "slug": "jonas_joseph_lavalley_artwork-html",
+  "alias": "J.J. LaValley",
+  "metaTitle": "Jonas Joseph LaValley Artwork For Sale",
+  "metaDescription": "Embark on a journey through Jonas Joseph LaValley's captivating art. Experience his unique vision and intricate craftsmanship. Artwork for sale.",
   "tinyDescription": "American, 1858 - 1930"
 }

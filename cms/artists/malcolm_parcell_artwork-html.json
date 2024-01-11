@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Malcolm Parcell",
-   "metaTitle": "Malcolm Parcell Paintings For Sale",
-   "metaDescription": "Explore Malcolm Parcell's exquisite paintings for sale. Immerse in his unique style and emotive scenes. Elevate your collection with his captivating artworks.",
-   "paintings" : [
-      "malcolm_parcell_road-html"
-   ],
-   "slug" : "malcolm_parcell_artwork-html",
-   "tinyDescription" : "American 1896 - 1987"
+  "body": "Malcolm Parcell, an artist known for his mastery of light and color, presents a mesmerizing collection of paintings that showcase his artistic brilliance. His portfolio encompasses a wide range of subjects, from stunning landscapes to intimate portraits, all characterized by his skillful use of color and his ability to capture the essence of his subjects. Parcell's paintings are highly sought after by collectors and art enthusiasts for their captivating beauty and timeless appeal. These artworks are available for sale through select art galleries, at auctions, and online art platforms, offering an opportunity to own a piece of his masterful artistry.",
+  "name": "Malcolm Parcell",
+  "slug": "malcolm_parcell_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "malcolm_parcell_road-html"
+  ],
+  "alias": "",
+  "metaTitle": "Malcolm Parcell Paintings For Sale",
+  "metaDescription": "Explore Malcolm Parcell's exquisite paintings for sale. Immerse in his unique style and emotive scenes. Elevate your collection with his captivating artworks.",
+  "tinyDescription": "American 1896 - 1987"
 }

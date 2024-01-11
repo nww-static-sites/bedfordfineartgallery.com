@@ -1,12 +1,13 @@
 {
-  "hasLandingPage": true,
+  "body": "Luigi Lucioni, a renowned artist known for his meticulous and detailed style, offers a collection of paintings that showcase his exceptional craftsmanship. His portfolio encompasses a variety of subjects, including landscapes, still-life compositions, and portraiture, all characterized by his keen attention to detail and the use of light to create depth and realism. Lucioni's paintings are highly sought after by collectors and art enthusiasts for their precision and artistic excellence. These artworks are available for sale through select art galleries, at auctions, and online art platforms, offering an opportunity to own a piece of his timeless and masterful artistry.",
   "name": "Luigi Lucioni",
-   "metaTitle": "Luigi Lucioni Paintings For Sale",
-   "metaDescription": "Discover the captivating art of Luigi Lucioni. Immerse yourself in his intricate details and emotive compositions. Artwork waiting to grace your collection.",
-  "alias": "Giuseppe Luigi Carlo Benevenuto Lucioni",
-  "tinyDescription": "American 1900 – 1988",
   "slug": "luigi_lucioni_artist-html",
+  "hasLandingPage": true,
   "paintings": [
     "luigi_lucioni_pineapple-html"
-  ]
+  ],
+  "alias": "Giuseppe Luigi Carlo Benevenuto Lucioni",
+  "metaTitle": "Luigi Lucioni Paintings For Sale",
+  "metaDescription": "Discover the captivating art of Luigi Lucioni. Immerse yourself in his intricate details and emotive compositions. Artwork waiting to grace your collection.",
+  "tinyDescription": "American 1900 – 1988"
 }

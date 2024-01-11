@@ -1,12 +1,13 @@
 {
-   "alias" : "J.G. Brown",
-   "hasLandingPage": true,
-   "name" : "John George Brown",
-   "metaTitle": "John George Brown Paintings For Sale",
-   "metaDescription": "Explore John George Brown's artistry. Immerse yourself in emotive scenes and meticulous details. Artwork for sale, ready to enhance your collection.",
-   "paintings" : [
-      "john_george_brown_vendor-html"
-   ],
-   "slug" : "john_george_brown_artwork-html",
-   "tinyDescription" : "American 1831-1913"
+  "body": "John George Brown, renowned for his captivating genre paintings depicting the everyday life of street urchins and country children, offers an alluring collection of paintings for sale. His works, celebrated for their realistic portrayal and empathetic sentiment, beautifully capture the innocence and struggles of youth in the late 19th century, making them highly prized by collectors and enthusiasts of American genre art.",
+  "name": "John George Brown",
+  "slug": "john_george_brown_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "john_george_brown_vendor-html"
+  ],
+  "alias": "J.G. Brown",
+  "metaTitle": "John George Brown Paintings For Sale",
+  "metaDescription": "Explore John George Brown's artistry. Immerse yourself in emotive scenes and meticulous details. Artwork for sale, ready to enhance your collection.",
+  "tinyDescription": "American 1831-1913"
 }

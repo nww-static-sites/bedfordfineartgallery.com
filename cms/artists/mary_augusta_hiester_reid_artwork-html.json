@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Mary Augusta Hiester Reid",
-   "metaTitle": "Mary Augusta Hiester Reid Art For Sale",
-   "metaDescription": "Explore the evocative artworks of Mary Augusta Hiester Reid. A Canadian artist known for vibrant landscapes and portraits capturing the essence of her era.",
-   "paintings" : [
-      "mary_augusta_hester_reid_daisies-html"
-   ],
-   "slug" : "mary_augusta_hiester_reid_artwork-html",
-   "tinyDescription" : "American/Canadian 1854-1921"
+  "body": "Mary Augusta Hiester Reid, a talented artist known for her versatility and artistic expression, offers a captivating collection of paintings that span various subjects and styles. Her portfolio includes landscapes, portraits, and genre scenes, all characterized by her unique approach to color and composition. Reid's paintings are highly regarded by collectors and art enthusiasts for their ability to convey emotion and storytelling. These artworks are available for sale through select art galleries, at auctions, and online art platforms, providing an opportunity to own a piece of her distinctive and imaginative artistic talent.",
+  "name": "Mary Augusta Hiester Reid",
+  "slug": "mary_augusta_hiester_reid_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "mary_augusta_hester_reid_daisies-html"
+  ],
+  "alias": "",
+  "metaTitle": "Mary Augusta Hiester Reid Art For Sale",
+  "metaDescription": "Explore the evocative artworks of Mary Augusta Hiester Reid. A Canadian artist known for vibrant landscapes and portraits capturing the essence of her era.",
+  "tinyDescription": "American/Canadian 1854-1921"
 }
