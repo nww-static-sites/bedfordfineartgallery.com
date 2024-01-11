@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Richard Evett Bishop",
-   "metaTitle": "Richard Evett Bishop Paintings For Sale",
-   "metaDescription": "Explore the exquisite paintings of artist Richard Evett Bishop for sale. Immerse in his unique artistic perspective. Own a Bishop masterpiece today.",
-   "paintings" : [
-      "richard_bishop_grouse-html"
-   ],
-   "slug" : "richard_evett_bishop_artwork-html",
-   "tinyDescription" : "American 1887 - 1975"
+  "body": "Richard Evett Bishop, a renowned American wildlife artist, offers a remarkable collection of paintings that celebrate the beauty and diversity of the natural world. His portfolio includes stunning depictions of wildlife, birds, and outdoor scenes, all characterized by meticulous attention to detail and a deep appreciation for the animal kingdom. Bishop's paintings are highly sought after by collectors and nature enthusiasts for their ability to capture the essence of wildlife in its natural habitat. These artworks are available for sale through select art galleries, at auctions, and online art platforms, providing an opportunity to own a piece of his iconic and lifelike artistry.",
+  "name": "Richard Evett Bishop",
+  "slug": "richard_evett_bishop_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "richard_bishop_grouse-html"
+  ],
+  "alias": "",
+  "metaTitle": "Richard Evett Bishop Paintings For Sale",
+  "metaDescription": "Explore the exquisite paintings of artist Richard Evett Bishop for sale. Immerse in his unique artistic perspective. Own a Bishop masterpiece today.",
+  "tinyDescription": "American 1887 - 1975"
 }
