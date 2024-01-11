@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Peter S. Corbin",
-   "metaTitle": "Peter S. Corbin Paintings For Sale",
-   "metaDescription": "Explore the captivating paintings of artist Peter S. Corbin for sale. Immerse in his unique artistic perspective. Own a Corbin masterpiece today.",
-   "paintings" : [
-      "peter_s_corbin_geese-html"
-   ],
-   "slug" : "peter_s_corbin_artwork-html",
-   "tinyDescription" : "American, b. 1945"
+  "body": "Peter S. Corbin, a distinguished artist known for his exceptional talent in capturing the essence of wildlife and the outdoors, offers a captivating collection of paintings that showcase his mastery of the genre. His portfolio includes stunning depictions of wildlife, landscapes, and sporting scenes, all characterized by meticulous attention to detail and a deep connection to the natural world. Corbin's paintings are highly sought after by collectors and art enthusiasts for their ability to convey the beauty and vitality of the outdoors. These artworks are available for sale through select art galleries, at auctions, and online art platforms, providing an opportunity to own a piece of his iconic and evocative artistry.",
+  "name": "Peter S. Corbin",
+  "slug": "peter_s_corbin_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "peter_s_corbin_geese-html"
+  ],
+  "alias": "",
+  "metaTitle": "Peter S. Corbin Paintings For Sale",
+  "metaDescription": "Explore the captivating paintings of artist Peter S. Corbin for sale. Immerse in his unique artistic perspective. Own a Corbin masterpiece today.",
+  "tinyDescription": "American, b. 1945"
 }
