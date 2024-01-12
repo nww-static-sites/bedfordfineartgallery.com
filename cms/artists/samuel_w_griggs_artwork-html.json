@@ -1,12 +1,13 @@
 {
-   "alias" : "SW. Griggs",
-   "hasLandingPage": true,
-   "name" : "Samuel W. Griggs",
-   "metaTitle": "Samuel W. Griggs Paintings For Sale",
-   "metaDescription": "Explore Samuel W. Griggs' captivating paintings for sale. Elevate your collection with his unique style and emotive compositions.",
-   "paintings" : [
-      "samuel_w_griggs_cattle-html"
-   ],
-   "slug" : "samuel_w_griggs_artwork-html",
-   "tinyDescription" : "American, 1827 - 1898"
+  "body": "Samuel W. Griggs, an American landscape painter known for his depictions of the natural beauty of the American West, presents a captivating collection of paintings that celebrate the vast landscapes and rugged terrain of the region. His artworks often feature stunning vistas, rugged mountains, and serene wilderness scenes, capturing the essence of the Western frontier. Griggs' paintings are highly sought after by collectors and admirers of Western art and are available for sale through select art galleries, auctions, and online platforms, offering an opportunity to own a piece of his iconic Western landscapes.",
+  "name": "Samuel W. Griggs",
+  "slug": "samuel_w_griggs_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "samuel_w_griggs_cattle-html"
+  ],
+  "alias": "SW. Griggs",
+  "metaTitle": "Samuel W. Griggs Paintings For Sale",
+  "metaDescription": "Explore Samuel W. Griggs' captivating paintings for sale. Elevate your collection with his unique style and emotive compositions.",
+  "tinyDescription": "American, 1827 - 1898"
 }
