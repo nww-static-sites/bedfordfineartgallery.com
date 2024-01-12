@@ -1,12 +1,13 @@
 {
-   "alias" : "W.M. Cary",
-   "hasLandingPage": true,
-   "name" : "William de La Montagne Cary",
-   "metaTitle": "William de La Montagne Cary Paintings For Sale",
-   "metaDescription": "Explore William de La Montagne Cary's captivating paintings for sale. Elevate your collection with his unique artistry and emotive compositions.",
-   "paintings" : [
-      "william_de_la_montagne_cary_felines-html"
-   ],
-   "slug" : "william_de_la_montagne_cary_artwork-html",
-   "tinyDescription" : "American, 1840 - 1922"
+  "body": "William de La Montagne Cary's paintings are a testament to his skill as an artist and his ability to capture the beauty of nature and landscapes. Collectors interested in acquiring his works can explore options through galleries, auctions, and online platforms. Owning a William de La Montagne Cary painting allows individuals to immerse themselves in the serenity and natural splendor depicted in his art, making it a valuable addition to any art collection.",
+  "name": "William de La Montagne Cary",
+  "slug": "william_de_la_montagne_cary_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "william_de_la_montagne_cary_felines-html"
+  ],
+  "alias": "W.M. Cary",
+  "metaTitle": "William de La Montagne Cary Paintings For Sale",
+  "metaDescription": "Explore William de La Montagne Cary's captivating paintings for sale. Elevate your collection with his unique artistry and emotive compositions.",
+  "tinyDescription": "American, 1840 - 1922"
 }
