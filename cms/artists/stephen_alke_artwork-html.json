@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Stephen Alke",
-   "metaTitle": "Stephen Alke Artist Paintings For Sale",
-   "metaDescription": "Discover Stephen Alke's captivating artist paintings for sale. Elevate your collection with his unique style and emotive compositions.",
-   "paintings" : [
-      "stephen_alke_august-html"
-   ],
-   "slug" : "stephen_alke_artwork-html",
-   "tinyDescription" : "American 1874-1941"
+  "body": "Stephen Alke, a talented artist, showcases his creative prowess through a diverse and captivating collection of paintings. His portfolio may encompass various styles and subjects, offering art enthusiasts a wide range of choices. Collectors and admirers of Stephen Alke's art have the opportunity to acquire his pieces, as they are available for sale through art galleries, auctions, and online platforms. Owning one of his artworks provides a chance to experience the depth of his talent and artistic vision.",
+  "name": "Stephen Alke",
+  "slug": "stephen_alke_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "stephen_alke_august-html"
+  ],
+  "alias": "",
+  "metaTitle": "Stephen Alke Artist Paintings For Sale",
+  "metaDescription": "Discover Stephen Alke's captivating artist paintings for sale. Elevate your collection with his unique style and emotive compositions.",
+  "tinyDescription": "American 1874-1941"
 }
