@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Sidney Brackett",
-   "metaTitle": "Sidney Lawrence Brackett Artwork For Sale",
-   "metaDescription": "Explore Sidney Lawrence Brackett's captivating artwork for sale. Elevate your collection with his emotive expressions and intricate details.",
-   "paintings" : [
-      "sidney_brackett_hunter-html"
-   ],
-   "slug" : "sidney_brackett_artwork-html",
-   "tinyDescription" : "American 1852 - 1910"
+  "body": "Sidney Lawrence Brackett's artwork offers a unique blend of creativity and artistic expression. His portfolio may encompass various styles and subjects, allowing art enthusiasts to explore a diverse range of paintings. Collectors and admirers of Sidney Lawrence Brackett's art have the opportunity to acquire his pieces, as they are available for sale through art galleries, auctions, and online platforms. Owning one of his artworks provides a chance to appreciate the depth of his talent and artistic vision.",
+  "name": "Sidney Brackett",
+  "slug": "sidney_brackett_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "sidney_brackett_hunter-html"
+  ],
+  "alias": "",
+  "metaTitle": "Sidney Lawrence Brackett Artwork For Sale",
+  "metaDescription": "Explore Sidney Lawrence Brackett's captivating artwork for sale. Elevate your collection with his emotive expressions and intricate details.",
+  "tinyDescription": "American 1852 - 1910"
 }
