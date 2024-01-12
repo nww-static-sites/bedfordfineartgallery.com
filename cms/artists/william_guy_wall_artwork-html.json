@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "William Guy Wall",
-   "metaTitle": "William Guy Wall Paintings For Sale",
-   "metaDescription": "Discover William Guy Wall's captivating paintings for sale. Elevate your collection with his emotive artistry and intricate compositions.",
-   "paintings" : [
-      "william_guy_wall_sojourn-html"
-   ],
-   "slug" : "william_guy_wall_artwork-html",
-   "tinyDescription" : "American, 1792 - 1864"
+  "body": "William Guy Wall's paintings are a delightful representation of maritime scenes and coastal landscapes. For those interested in acquiring his works, opportunities can be found through galleries, auctions, and online art platforms. Owning a William Guy Wall painting allows art enthusiasts to appreciate the timeless beauty of seascapes and nautical themes, making it a cherished addition to any art collection.",
+  "name": "William Guy Wall",
+  "slug": "william_guy_wall_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "william_guy_wall_sojourn-html"
+  ],
+  "alias": "",
+  "metaTitle": "William Guy Wall Paintings For Sale",
+  "metaDescription": "Discover William Guy Wall's captivating paintings for sale. Elevate your collection with his emotive artistry and intricate compositions.",
+  "tinyDescription": "American, 1792 - 1864"
 }
