@@ -1,12 +1,13 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "Thomas J. Fenimore's Victorian paintings offer a captivating glimpse into the aesthetics and themes of the Victorian era. While availability may vary, collectors and enthusiasts of Victorian art can explore his works through galleries, auctions, and online platforms. Owning one of Thomas J. Fenimore's Victorian paintings allows individuals to immerse themselves in the romanticized world of the Victorian period, making it a valuable addition to art collections.",
   "name": "Thomas J. Fenimore",
+  "slug": "thomas_j_fenimore_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "thomas_fenimore_river-html"
   ],
-  "slug": "thomas_j_fenimore_artwork-html",
-  "tinyDescription": "1842 - 1873",
+  "alias": "",
   "metaTitle": "Thomas J. Fenimore Victorian Paintings - Buy Now!",
-  "metaDescription": "Explore exquisite Victorian paintings by Thomas J. Fenimore. Dive into a timeless era of art and secure a masterpiece for your collection. Limited Availability."
+  "metaDescription": "Explore exquisite Victorian paintings by Thomas J. Fenimore. Dive into a timeless era of art and secure a masterpiece for your collection. Limited Availability.",
+  "tinyDescription": "1842 - 1873"
 }
