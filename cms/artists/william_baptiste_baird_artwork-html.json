@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "William Baptiste Baird",
-   "metaTitle": "William Baptiste Baird Artist Paintings For Sale",
-   "metaDescription": "Explore William Baptiste Baird's captivating artist paintings for sale. Elevate your collection with his emotive artistry and exquisite compositions.",
-   "paintings" : [
-      "william_baptiste_baird_champigny-html"
-   ],
-   "slug" : "william_baptiste_baird_artwork-html",
-   "tinyDescription" : "American 1847 - 1917"
+  "body": "William Baptiste Baird's paintings are known for their captivating compositions and artistic excellence. For collectors and art enthusiasts interested in acquiring his works, opportunities can be found through galleries, auctions, and online platforms. Owning one of William Baptiste Baird's paintings allows individuals to admire his unique artistic perspective and adds a touch of his creativity to their art collections.",
+  "name": "William Baptiste Baird",
+  "slug": "william_baptiste_baird_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "william_baptiste_baird_champigny-html"
+  ],
+  "alias": "",
+  "metaTitle": "William Baptiste Baird Artist Paintings For Sale",
+  "metaDescription": "Explore William Baptiste Baird's captivating artist paintings for sale. Elevate your collection with his emotive artistry and exquisite compositions.",
+  "tinyDescription": "American 1847 - 1917"
 }
