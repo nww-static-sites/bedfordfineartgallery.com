@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Theodore Wores",
-   "metaTitle": "Theodore Wores Paintings For Sale",
-   "metaDescription": "Discover Theodore Wores' captivating paintings for sale. Elevate your collection with his unique artistry and emotive compositions.",
-   "paintings" : [
-      "theodore_wores_garden-html"
-   ],
-   "slug" : "theodore_wores_artwork-html",
-   "tinyDescription" : "American 1859 - 1939"
+  "body": "Theodore Wores' paintings offer a captivating glimpse into various landscapes and scenes, showcasing his skill in capturing the essence of his subjects. Art enthusiasts and collectors have the opportunity to acquire Theodore Wores' paintings through galleries, auctions, and online platforms. Owning one of his artworks allows individuals to appreciate the beauty and craftsmanship of his creations, making it a valuable addition to any art collection.",
+  "name": "Theodore Wores",
+  "slug": "theodore_wores_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "theodore_wores_garden-html"
+  ],
+  "alias": "",
+  "metaTitle": "Theodore Wores Paintings For Sale",
+  "metaDescription": "Discover Theodore Wores' captivating paintings for sale. Elevate your collection with his unique artistry and emotive compositions.",
+  "tinyDescription": "American 1859 - 1939"
 }
