@@ -1,13 +1,14 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Theodore Gegoux",
-   "metaTitle": "Theodore Gegoux Victorian Artwork For Sale",
-   "metaDescription": "Explore Theodore Gegoux's exquisite Victorian artwork for sale. Elevate your collection with his captivating artistry and emotive scenes.",
-   "paintings" : [
-      "theodore_gegoux_adirondacks-html",
-      "theodore_gegoux_fishing-html"
-   ],
-   "slug" : "theodore_gegoux_artwork-html",
-   "tinyDescription" : "American, 1850 - 1931"
+  "body": "Theodore Gegoux's Victorian artwork embodies the charm and aesthetic of the era with its meticulous attention to detail and nostalgic themes. While availability may vary, collectors and admirers of Victorian art have the opportunity to acquire pieces by Theodore Gegoux through galleries, auctions, and online platforms. Owning one of his artworks allows individuals to immerse themselves in the romanticized world of the Victorian period, making it a valuable addition to art collections.",
+  "name": "Theodore Gegoux",
+  "slug": "theodore_gegoux_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "theodore_gegoux_adirondacks-html",
+    "theodore_gegoux_fishing-html"
+  ],
+  "alias": "",
+  "metaTitle": "Theodore Gegoux Victorian Artwork For Sale",
+  "metaDescription": "Explore Theodore Gegoux's exquisite Victorian artwork for sale. Elevate your collection with his captivating artistry and emotive scenes.",
+  "tinyDescription": "American, 1850 - 1931"
 }
