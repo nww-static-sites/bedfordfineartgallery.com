@@ -1,12 +1,13 @@
 {
-   "alias" : "Serena Caswell Lane",
-   "hasLandingPage": true,
-   "name" : "Serena Caswell Lane",
-   "metaTitle": "Artist Serena Caswell Lane Paintings For Sale",
-   "metaDescription": "Discover artist Serena Caswell Lane's captivating paintings for sale. Elevate your collection with her emotive artistry and exquisite compositions.",
-   "paintings" : [
-      "serena_caswell_lane_lemons-html"
-   ],
-   "slug" : "serena_caswell_lane_artwork-html",
-   "tinyDescription" : "American, 1858 - unknown"
+  "body": "Serena Caswell Lane, a talented artist known for her unique style and creative expression, offers a captivating collection of paintings for art enthusiasts and collectors. Her portfolio may encompass a diverse range of subjects and styles, from abstract and contemporary art to landscapes, portraits, and more. Serena Caswell Lane's artwork reflects her artistic vision and passion for creativity, making her paintings highly sought after by those who appreciate her unique perspective. These paintings are available for sale through select art galleries, online art platforms, and auctions, providing an opportunity to own and admire her distinctive artistry.",
+  "name": "Serena Caswell Lane",
+  "slug": "serena_caswell_lane_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "serena_caswell_lane_lemons-html"
+  ],
+  "alias": "Serena Caswell Lane",
+  "metaTitle": "Artist Serena Caswell Lane Paintings For Sale",
+  "metaDescription": "Discover artist Serena Caswell Lane's captivating paintings for sale. Elevate your collection with her emotive artistry and exquisite compositions.",
+  "tinyDescription": "American, 1858 - unknown"
 }
