@@ -1,12 +1,13 @@
 {
-  "hasLandingPage": true,
+  "body": "William Partridge Burpee's Victorian paintings exude the charm and elegance of the era, making them sought-after pieces for collectors of Victorian art. Those interested in acquiring his works can explore opportunities through galleries, auctions, and online art platforms. Owning a William Partridge Burpee painting is like owning a window to the past, as his art beautifully captures the spirit and aesthetics of the Victorian period, making it a valuable addition to any art collection.",
   "name": "William P. Burpee",
-  "alias": "William Partridge Burpee",
-   "metaTitle": "William Partridge Burpee Victorian Paintings For Sale",
-   "metaDescription": "Discover William Partridge Burpee's exquisite Victorian paintings for sale. Elevate your collection with his captivating artistry and emotive scenes.",
-  "tinyDescription": "American 1846 – 1940",
   "slug": "william_burpee_artist-html",
+  "hasLandingPage": true,
   "paintings": [
     "william_burpee_niagara_falls_at_moonlight-html"
-  ]
+  ],
+  "alias": "William Partridge Burpee",
+  "metaTitle": "William Partridge Burpee Victorian Paintings For Sale",
+  "metaDescription": "Discover William Partridge Burpee's exquisite Victorian paintings for sale. Elevate your collection with his captivating artistry and emotive scenes.",
+  "tinyDescription": "American 1846 – 1940"
 }
