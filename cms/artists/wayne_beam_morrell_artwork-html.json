@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Wayne Beam Morrell",
-   "metaTitle": "Wayne Beam Morrell Artist Paintings For Sale",
-   "metaDescription": "Discover Wayne Beam Morrell's captivating artist paintings for sale. Elevate your collection with his emotive artistry and intricate compositions.",
-   "paintings" : [
-      "wayne_beam_morrell_boats-html"
-   ],
-   "slug" : "wayne_beam_morrell_artwork-html",
-   "tinyDescription" : "American 1923 - 2013"
+  "body": "Wayne Beam Morrell's paintings are a testament to his artistic talent and creative vision. Collectors and art enthusiasts interested in acquiring his works can explore options through galleries, auctions, and online platforms. Owning one of Wayne Beam Morrell's paintings allows individuals to appreciate the depth of his artistic expression and adds a touch of his unique style to their art collections.",
+  "name": "Wayne Beam Morrell",
+  "slug": "wayne_beam_morrell_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "wayne_beam_morrell_boats-html"
+  ],
+  "alias": "",
+  "metaTitle": "Wayne Beam Morrell Artist Paintings For Sale",
+  "metaDescription": "Discover Wayne Beam Morrell's captivating artist paintings for sale. Elevate your collection with his emotive artistry and intricate compositions.",
+  "tinyDescription": "American 1923 - 2013"
 }
