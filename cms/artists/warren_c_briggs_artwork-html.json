@@ -1,13 +1,14 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Warren C. Briggs",
-   "metaTitle": "Warren C. Briggs Victorian Paintings For Sale",
-   "metaDescription": "Explore Warren C. Briggs' exquisite Victorian paintings for sale. Elevate your collection with his captivating artistry and emotive scenes.",
-   "paintings" : [
-      "warren_c_briggs_shower-html",
-      "warren_c_briggs_forest-html"
-   ],
-   "slug" : "warren_c_briggs_artwork-html",
-   "tinyDescription" : "American, 1867 - 1903"
+  "body": "Warren C. Briggs' Victorian paintings capture the essence of the Victorian era with their intricate details and thematic richness. While the availability of his works for sale may vary, collectors and enthusiasts of Victorian art can explore opportunities through galleries, auctions, and online platforms. Owning one of Warren C. Briggs' Victorian paintings provides a window into the elegance and charm of the Victorian period, making it a valuable addition to art collections that appreciate this historical era.",
+  "name": "Warren C. Briggs",
+  "slug": "warren_c_briggs_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "warren_c_briggs_shower-html",
+    "warren_c_briggs_forest-html"
+  ],
+  "alias": "",
+  "metaTitle": "Warren C. Briggs Victorian Paintings For Sale",
+  "metaDescription": "Explore Warren C. Briggs' exquisite Victorian paintings for sale. Elevate your collection with his captivating artistry and emotive scenes.",
+  "tinyDescription": "American, 1867 - 1903"
 }
