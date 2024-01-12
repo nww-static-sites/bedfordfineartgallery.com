@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Sylvester Phelps Hodgdon",
-   "metaTitle": "Sylvester Phelps Hodgdon Victorian Art For Sale",
-   "metaDescription": "Discover Sylvester Phelps Hodgdon's captivating Victorian art for sale. Elevate your collection with his intricate details and emotive compositions.",
-   "paintings" : [
-      "sylvester_phelps_hodgdon_river-html"
-   ],
-   "slug" : "sylvester_phelps_hodgdon_artwork-html",
-   "tinyDescription" : "American 1830 - 1906"
+  "body": "Sylvester Phelps Hodgdon's Victorian art captures the essence of the era with its intricate details and evocative scenes. While specific information about paintings for sale by Hodgdon may vary, collectors and enthusiasts of Victorian art can explore his works through galleries, auctions, and online platforms to add a touch of Victorian elegance to their collections. Hodgdon's art offers a glimpse into the beauty and nostalgia of the Victorian era, making it a sought-after addition to art collections.",
+  "name": "Sylvester Phelps Hodgdon",
+  "slug": "sylvester_phelps_hodgdon_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "sylvester_phelps_hodgdon_river-html"
+  ],
+  "alias": "",
+  "metaTitle": "Sylvester Phelps Hodgdon Victorian Art For Sale",
+  "metaDescription": "Discover Sylvester Phelps Hodgdon's captivating Victorian art for sale. Elevate your collection with his intricate details and emotive compositions.",
+  "tinyDescription": "American 1830 - 1906"
 }
