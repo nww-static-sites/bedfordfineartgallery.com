@@ -1,12 +1,13 @@
 {
-  "alias": "V. Tojetti",
-  "hasLandingPage": true,
+  "body": "Virgilio Tojetti's 19th-century artwork reflects his talent for capturing the essence of the era. While specific information about paintings for sale by Tojetti may vary, collectors and art enthusiasts can explore his works through galleries, auctions, and online platforms. Owning one of his artworks provides an opportunity to appreciate the historical and artistic significance of his creations, making it a valuable addition to any art collection.",
   "name": "Virgilio Tojetti",
+  "slug": "virgilio_tojetti_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "virgilio_tojetti_putti-html"
   ],
-  "slug": "virgilio_tojetti_artwork-html",
-  "tinyDescription": "Italian - American, 1849 - 1901",
+  "alias": "V. Tojetti",
   "metaTitle": "Virgilio Tojetti 19th Century Artwork For Sale",
-  "metaDescription": "Unveil the elegance of the 19th century with Virgilio Tojetti's artworks. A confluence of classic beauty and intricate details awaits you."
+  "metaDescription": "Unveil the elegance of the 19th century with Virgilio Tojetti's artworks. A confluence of classic beauty and intricate details awaits you.",
+  "tinyDescription": "Italian - American, 1849 - 1901"
 }
