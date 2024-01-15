@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "William Leigh",
-   "metaTitle": "William Leigh Victorian Artwork For Sale",
-   "metaDescription": "Discover William Leigh's captivating Victorian artwork for sale. Elevate your collection with his emotive artistry and intricate compositions.",
-   "paintings" : [
-      "william_leigh_rocks-html"
-   ],
-   "slug" : "william_leigh_artwork-html",
-   "tinyDescription" : "American 1866 - 1955"
+  "body": "William Leigh's Victorian artwork offers a captivating glimpse into the refined aesthetics of the era. His meticulous attention to detail and skillful use of color make his paintings highly sought after by collectors of Victorian art. Whether it's a portrait, landscape, or genre scene, Leigh's works evoke the elegance and charm of the Victorian period, making them a valuable addition to any art collection.",
+  "name": "William Leigh",
+  "slug": "william_leigh_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "william_leigh_rocks-html"
+  ],
+  "alias": "",
+  "metaTitle": "William Leigh Victorian Artwork For Sale",
+  "metaDescription": "Discover William Leigh's captivating Victorian artwork for sale. Elevate your collection with his emotive artistry and intricate compositions.",
+  "tinyDescription": "American 1866 - 1955"
 }
