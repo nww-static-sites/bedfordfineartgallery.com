@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "William Keith",
-   "metaTitle": "William Keith Victorian Paintings For Sale",
-   "metaDescription": "Explore William Keith's exquisite Victorian paintings for sale. Elevate your collection with his captivating artistry and emotive scenes.",
-   "paintings" : [
-      "william_keith_forest-html"
-   ],
-   "slug" : "william_keith_artwork-html",
-   "tinyDescription" : "American 1838 - 1911"
+  "body": "William Keith's Victorian paintings are a testament to his mastery of the landscape genre. Known for his sublime depictions of California's scenic beauty, Keith's artworks exude a sense of tranquility and reverence for nature. Collectors seeking to own pieces that capture the essence of the American West and the Victorian era will find his paintings to be exquisite additions to their art collections.",
+  "name": "William Keith",
+  "slug": "william_keith_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "william_keith_forest-html"
+  ],
+  "alias": "",
+  "metaTitle": "William Keith Victorian Paintings For Sale",
+  "metaDescription": "Explore William Keith's exquisite Victorian paintings for sale. Elevate your collection with his captivating artistry and emotive scenes.",
+  "tinyDescription": "American 1838 - 1911"
 }
