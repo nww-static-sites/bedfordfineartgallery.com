@@ -1,12 +1,13 @@
 {
-   "alias" : "William R. Miller, Wm. R. Miller, W. R. Miller",
-   "hasLandingPage": true,
-   "name" : "William Rickarby Miller",
-   "metaTitle": "William Rickarby Miller Paintings For Sale",
-   "metaDescription": "Discover William Rickarby Miller's captivating paintings for sale. Elevate your collection with his emotive artistry and intricate compositions.",
-   "paintings" : [
-      "william_rickarby_miller_boating-html"
-   ],
-   "slug" : "william_rickarby_miller_artwork-html",
-   "tinyDescription" : "British-American, 1818 - 1893"
+  "body": "William Rickarby Miller's paintings from the 19th century are a testament to his talent as an artist. Known for his skill in depicting landscapes and genre scenes, Miller's work captures the essence of his era. His attention to detail and mastery of light and shadow make his paintings highly collectible among enthusiasts of 19th-century art. With a focus on both urban and rural scenes, Miller's art provides a window into the past, preserving the charm and character of his time for contemporary admirers.",
+  "name": "William Rickarby Miller",
+  "slug": "william_rickarby_miller_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "william_rickarby_miller_boating-html"
+  ],
+  "alias": "William R. Miller, Wm. R. Miller, W. R. Miller",
+  "metaTitle": "William Rickarby Miller Paintings For Sale",
+  "metaDescription": "Discover William Rickarby Miller's captivating paintings for sale. Elevate your collection with his emotive artistry and intricate compositions.",
+  "tinyDescription": "British-American, 1818 - 1893"
 }
