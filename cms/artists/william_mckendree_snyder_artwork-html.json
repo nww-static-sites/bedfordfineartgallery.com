@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "William McKendree Snyder",
-   "metaTitle": "William McKendree Snyder Paintings For Sale",
-   "metaDescription": "Discover William McKendree Snyder's captivating paintings for sale. Elevate your collection with his emotive artistry and intricate compositions.",
-   "paintings" : [
-      "william_mcKendree_snyder_beech-html"
-   ],
-   "slug" : "william_mckendree_snyder_artwork-html",
-   "tinyDescription" : "American 1848 - 1930"
+  "body": "William McKendree Snyder's paintings offer a window into the 19th-century American landscape. Known for his skillful depictions of natural scenery, his works often feature idyllic rural landscapes, serene lakes, and picturesque forests. Snyder's ability to capture the essence of the American wilderness makes his paintings highly regarded among collectors of 19th-century art, offering a nostalgic glimpse into the country's untamed beauty during that era.",
+  "name": "William McKendree Snyder",
+  "slug": "william_mckendree_snyder_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "william_mcKendree_snyder_beech-html"
+  ],
+  "alias": "",
+  "metaTitle": "William McKendree Snyder Paintings For Sale",
+  "metaDescription": "Discover William McKendree Snyder's captivating paintings for sale. Elevate your collection with his emotive artistry and intricate compositions.",
+  "tinyDescription": "American 1848 - 1930"
 }
