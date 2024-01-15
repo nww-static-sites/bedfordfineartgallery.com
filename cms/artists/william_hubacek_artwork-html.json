@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "William Hubacek",
-   "metaTitle": "William Hubacek Paintings For Sale",
-   "metaDescription": "Explore William Hubacek's captivating paintings for sale. Elevate your collection with his unique artistry and emotive compositions.",
-   "paintings" : [
-      "william_hubacek_apples-html"
-   ],
-   "slug" : "william_hubacek_artwork-html",
-   "tinyDescription" : "American 1866 - 1958"
+  "body": "William Hubacek's paintings offer a captivating exploration of the natural world and its beauty. With a focus on wildlife and landscapes, his artworks are a testament to his skill in capturing the essence of the outdoors. Art enthusiasts looking to add a touch of nature's wonder to their collection can explore the availability of William Hubacek's paintings in galleries or art sales events, where they can appreciate the artist's dedication to depicting the beauty of our environment.",
+  "name": "William Hubacek",
+  "slug": "william_hubacek_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "william_hubacek_apples-html"
+  ],
+  "alias": "",
+  "metaTitle": "William Hubacek Paintings For Sale",
+  "metaDescription": "Explore William Hubacek's captivating paintings for sale. Elevate your collection with his unique artistry and emotive compositions.",
+  "tinyDescription": "American 1866 - 1958"
 }
