@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "William McCord",
-   "metaTitle": "William McCord Victorian Art For Sale",
-   "metaDescription": "Explore William McCord's enchanting Victorian art for sale. Elevate your collection with his emotive artistry and intricate compositions.",
-   "paintings" : [
-      "william_mccord_landscape-html"
-   ],
-   "slug" : "william_mccord_artwork-html",
-   "tinyDescription" : "American 1857 - 1918"
+  "body": "William McCord's Victorian-era artworks are a captivating glimpse into the aesthetics and culture of the 19th century. Known for his detailed and finely crafted paintings, McCord often depicted scenes from everyday life, capturing the elegance and charm of the era. His works are characterized by their intricate attention to detail and the ability to transport viewers back in time to the Victorian period. Collectors of 19th-century art appreciate the historical and artistic value of McCord's paintings, making them highly sought after in the art market.",
+  "name": "William McCord",
+  "slug": "william_mccord_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "william_mccord_landscape-html"
+  ],
+  "alias": "",
+  "metaTitle": "William McCord Victorian Art For Sale",
+  "metaDescription": "Explore William McCord's enchanting Victorian art for sale. Elevate your collection with his emotive artistry and intricate compositions.",
+  "tinyDescription": "American 1857 - 1918"
 }
