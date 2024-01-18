@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "https://www.youtube.com/embed/r0P7FgBCL3I?rel=0",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/icart_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Louis Icart Miss Liberty Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/icart_grid.jpg",
   "mediumResImageWidth": 1326,
@@ -27,15 +27,5 @@
   ],
   "gridImageHeight": 260,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/icart_large.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $5,900"
-    }
-  ]
+  "highlights": []
 }
