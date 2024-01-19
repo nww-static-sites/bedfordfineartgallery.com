@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "William Jacob Baer",
-   "metaTitle": "William Jacob Baer Artist Paintings For Sale",
-   "metaDescription": "Discover William Jacob Baer's captivating artist paintings for sale. Elevate your collection with his emotive artistry and intricate compositions.",
-   "paintings" : [
-      "william_jacob_baer_girl_in_landscape-html"
-   ],
-   "slug" : "william_jacob_baer_artwork-html",
-   "tinyDescription" : "American 1860 - 1941"
+  "body": "William Jacob Baer's paintings are a celebration of American landscapes and the beauty of the great outdoors. His meticulous attention to detail and vibrant use of color bring his subjects to life, making each artwork a visual delight. Art collectors and nature enthusiasts looking to acquire pieces that capture the essence of America's natural wonders would find Baer's paintings a captivating addition to their collection.",
+  "name": "William Jacob Baer",
+  "slug": "william_jacob_baer_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "william_jacob_baer_girl_in_landscape-html"
+  ],
+  "alias": "",
+  "metaTitle": "William Jacob Baer Artist Paintings For Sale",
+  "metaDescription": "Discover William Jacob Baer's captivating artist paintings for sale. Elevate your collection with his emotive artistry and intricate compositions.",
+  "tinyDescription": "American 1860 - 1941"
 }

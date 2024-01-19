@@ -1,12 +1,13 @@
 {
-   "alias" : "William Schmedtgen",
-   "hasLandingPage": true,
-   "name" : "William Hermann Schmedtgen",
-   "metaTitle": "William Hermann Schmedtgen Paintings For Sale",
-   "metaDescription": "Explore William Hermann Schmedtgen's captivating paintings for sale. Elevate your collection with his emotive artistry and exquisite compositions.",
-   "paintings" : [
-      "william_herman_schmedtgen_bass-html"
-   ],
-   "slug" : "william_hermann_schmedtgen_artwork-html",
-   "tinyDescription" : "American, 1862 - 1936"
+  "body": "William Hermann Schmedtgen's paintings are characterized by their masterful use of light and shadow, creating a captivating interplay of textures and atmospheres. Art enthusiasts interested in acquiring his works can explore various avenues, including galleries, auctions, and online art marketplaces. Owning a painting by William Hermann Schmedtgen allows one to appreciate the skillful craftsmanship and timeless beauty of his artistry, making it a valuable addition to any collection.",
+  "name": "William Hermann Schmedtgen",
+  "slug": "william_hermann_schmedtgen_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "william_herman_schmedtgen_bass-html"
+  ],
+  "alias": "William Schmedtgen",
+  "metaTitle": "William Hermann Schmedtgen Paintings For Sale",
+  "metaDescription": "Explore William Hermann Schmedtgen's captivating paintings for sale. Elevate your collection with his emotive artistry and exquisite compositions.",
+  "tinyDescription": "American, 1862 - 1936"
 }

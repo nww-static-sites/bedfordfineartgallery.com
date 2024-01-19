@@ -1,13 +1,14 @@
 {
-  "alias": "",
-  "hasLandingPage": true,
+  "body": "William Holbrook Beard's Victorian paintings are known for their whimsical and humorous depictions of animals in human-like situations, a style often referred to as \"animalier.\" Collectors interested in acquiring his works can explore the art market, galleries, or auctions specializing in 19th-century art. Owning a painting by William Holbrook Beard allows one to enjoy the delightful blend of anthropomorphism and artistic talent that characterizes his unique creations.",
   "name": "William Holbrook Beard",
-  "metaTitle": "William Holbrook Beard Victorian Paintings For Sale",
-   "metaDescription": "Discover William Holbrook Beard's enchanting Victorian paintings for sale. Elevate your collection with his emotive artistry and intricate compositions.",
+  "slug": "william_holbrook_beard_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "william_holbrook_beard_squirrel-html",
     "william_holbrook_beard_deer_at_rock_ledge-html"
   ],
-  "slug": "william_holbrook_beard_artwork-html",
+  "alias": "",
+  "metaTitle": "William Holbrook Beard Victorian Paintings For Sale",
+  "metaDescription": "Discover William Holbrook Beard's enchanting Victorian paintings for sale. Elevate your collection with his emotive artistry and intricate compositions.",
   "tinyDescription": "American, 1825 - 1900"
 }

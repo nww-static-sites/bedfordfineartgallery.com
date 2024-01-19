@@ -1,9 +1,8 @@
 {
-  "alias": "William Louis Sonntag Sr., William Sonntag",
-  "hasLandingPage": true,
+  "body": "William Louis Sonntag's paintings from the 19th century are a remarkable display of his talent in portraying the beauty of American landscapes. His works often feature breathtaking vistas of the American wilderness, capturing the grandeur of nature in exquisite detail. Sonntag's ability to capture the play of light and shadow on landscapes has made his paintings highly sought after by collectors of 19th-century art, and they continue to evoke a sense of wonder and appreciation for the American wilderness.",
   "name": "William Louis Sonntag",
-  "metaTitle": "William Louis Sonntag Paintings For Sale",
-  "metaDescription": "Discover William Louis Sonntag's captivating paintings for sale. Elevate your collection with his emotive artistry and exquisite compositions.",
+  "slug": "william_louis_sonntag_artwork-html",
+  "hasLandingPage": true,
   "paintings": [
     "william_louis_sonntag_landscape-html",
     "william_sonntag_sultry_afternoon-html",
@@ -11,6 +10,8 @@
     "william_louis_sonntag_autumn_drive-html",
     "william_sonntag_morning_catch-html"
   ],
-  "slug": "william_louis_sonntag_artwork-html",
+  "alias": "William Louis Sonntag Sr., William Sonntag",
+  "metaTitle": "William Louis Sonntag Paintings For Sale",
+  "metaDescription": "Discover William Louis Sonntag's captivating paintings for sale. Elevate your collection with his emotive artistry and exquisite compositions.",
   "tinyDescription": "American 1822 - 1900"
 }

@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "William Lewis Marple",
-   "metaTitle": "William Lewis Marple Paintings For Sale",
-   "metaDescription": "Explore William Lewis Marple's captivating paintings for sale. Elevate your collection with his emotive artistry and intricate compositions.",
-   "paintings" : [
-      "william_lewis_marple_tahoe-html"
-   ],
-   "slug" : "william_lewis_marple_artwork-html",
-   "tinyDescription" : "American 1827 - 1910"
+  "body": "William Lewis Marple's paintings from the 19th century are a testament to his mastery of capturing landscapes and scenes with a keen eye for detail. His works often showcase tranquil countryside settings, offering viewers a sense of nostalgia and serenity. Marple's art is highly valued for its ability to transport viewers to a bygone era, making his paintings a cherished addition to collections of 19th-century art.",
+  "name": "William Lewis Marple",
+  "slug": "william_lewis_marple_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "william_lewis_marple_tahoe-html"
+  ],
+  "alias": "",
+  "metaTitle": "William Lewis Marple Paintings For Sale",
+  "metaDescription": "Explore William Lewis Marple's captivating paintings for sale. Elevate your collection with his emotive artistry and intricate compositions.",
+  "tinyDescription": "American 1827 - 1910"
 }
