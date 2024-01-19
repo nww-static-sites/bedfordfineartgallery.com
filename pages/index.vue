@@ -26,7 +26,7 @@
                                     provider="cloudinary"
                                     class="home-lead-photo"
                                     loading="lazy"
-                                    src="/joan_jerry22.jpg"
+                                    src="/joan_jerry24_home.jpg"
                                     alt="Jerry and Joan"
                                 />
 

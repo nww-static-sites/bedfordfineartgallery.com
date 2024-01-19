@@ -14,7 +14,7 @@
                             provider="cloudinary"
                             :img-attrs="{class:'art_detail_img'}"
                             loading="lazy"
-                            src="/joan_jerry22.jpg"
+                            src="/joan_jerry24_about.jpg"
                             alt=""
                         />We would like to thank the thousands of fellow art-lovers who explore our
 website, join us for email updates via Art Lovers’ Niche, follow us on Instagram,

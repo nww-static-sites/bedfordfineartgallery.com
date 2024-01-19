@@ -26,7 +26,7 @@
                     </div>
                     <div>
                         <nuxt-picture provider="cloudinary" :img-attrs="{ class: 'art_detail_img' }"
-                            src="Jerry-and-Joan-web.jpg" width="1200" height="1652" alt="" />
+                            src="joan_jerry24_art_lovers_niche.jpg" width="868" height="589" alt="" />
                     </div>
                 </div>
             </section>
