@@ -252,7 +252,7 @@ for a long, long time.  For the time being, you are one of a kind.</p>
 
 <h4>Interesting Links</h4>
                         <a
-                            href="http://www.visitbedfordcounty.com/shopping/"
+                            href="https://visitbedfordcounty.com/directory_category/shopping/"
                             target="_blank"
                             rel="nofollow"
                             style="color: #000000"
