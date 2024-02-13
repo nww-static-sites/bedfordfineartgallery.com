@@ -1,6 +1,9 @@
 {
+  "paintingWidth": 21.5,
   "body": "Born in Paris, Trayer studied painting under his father and Lequien. He is known both for his landscape and his genre works. Trayer garnered success during his time and exhibited at the Paris Salons. In 1855 he exhibited at the renowned Exposition Universelle along with noted French artists—Ingress, Delacroix, and Lehman, and noted British artists William Holman Hunt and John Everett Millais. The quality of the art works on display were said to have surpassed all previous French exhibitions. His often poignant genres executed with a muted palette leave no doubt that he was one of France’s premier artists.",
   "artist": "william_penn_morgan_artwork-html",
+  "artOnWallAltText": "William Penn Morgan -Loves Me-Loves Me Not Painting For Sale",
+  "paintingHeight": 28.5,
   "slug": "william_penn_morgan_love-html",
   "dimensions": "Oil on canvas on board, 28.5 x 21.5 inches / Signed lower left",
   "featured": false,
@@ -10,6 +13,7 @@
   "gridImageWidth": 392,
   "status": "Sold",
   "metaTitle": "William Penn Morgan -Loves Me-Loves Me Not Painting For Sale",
+  "mainImageAltText": "William Penn Morgan -Loves Me-Loves Me Not Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/william_penn_morgan_grid.jpg",
   "mediumResImageWidth": 1042,
   "mediumResImageHeight": 1211,
