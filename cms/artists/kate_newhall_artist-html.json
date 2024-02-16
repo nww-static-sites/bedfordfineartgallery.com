@@ -3,5 +3,8 @@
   "name": "Kate Newhall",
   "tinyDescription": "American 1840 - 1917",
   "alias": "Kate White Newhall",
-  "slug": "kate_newhall_artist-html"
+  "slug": "kate_newhall_artist-html",
+  "paintings": [
+    "kate_newhall_crashing_waves-html"
+  ]
 }
