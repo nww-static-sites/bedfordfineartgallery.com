@@ -2,5 +2,8 @@
   "hasLandingPage": true,
   "name": "Lemuel Everett Wilmarth",
   "tinyDescription": "American 1835 - 1918",
-  "slug": "lemuel_everett_wilmarth_artist-html"
+  "slug": "lemuel_everett_wilmarth_artist-html",
+  "paintings": [
+    "l_e_wilmarth_please_may_i_feed_him-html"
+  ]
 }
