@@ -3,5 +3,8 @@
   "name": "Thomas Michael Nicholas",
   "alias": "T. M. Nicholas",
   "tinyDescription": "American, born 1963",
-  "slug": "t_m_nicholas_artist-html"
+  "slug": "t_m_nicholas_artist-html",
+  "paintings": [
+    "t_m_nicholas_rural_new_england_landscape-html"
+  ]
 }
