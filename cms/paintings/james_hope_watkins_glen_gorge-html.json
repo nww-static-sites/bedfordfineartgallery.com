@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695900194/james-hope-19th-century-paintings-for-sale-watkins-glen-gorge_dkpyme.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1688151717/Hope_Watkins_IMG_1783_sm_cr_fr_hdv8mk.jpg",
   "gridImageWidth": 392,
-  "status": "Hold",
+  "status": "Sold",
   "metaTitle": "James Hope - Watkins Glen Gorge Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693998813/hope_watkins_crop_lihcxt.jpg",
   "mediumResImageWidth": 1400,
@@ -26,15 +26,5 @@
   ],
   "gridImageHeight": 456,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1688151742/Hope_Watkins_IMG_1783_lrg_cr_fr_xdi4re.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $8,600"
-    }
-  ]
+  "highlights": []
 }
