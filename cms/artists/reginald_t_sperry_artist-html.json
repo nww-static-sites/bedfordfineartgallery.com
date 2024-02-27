@@ -1,12 +1,13 @@
 {
-  "hasLandingPage": true,
+  "body": "Reginald T. Sperry's paintings offer a unique blend of artistic expression, often characterized by his distinctive style and subject matter. His works may encompass a variety of themes, from landscapes and portraits to abstract and contemporary pieces. While specific information about Reginald T. Sperry may be limited, his paintings are available for sale through various art channels, allowing art enthusiasts the opportunity to explore and acquire pieces that reflect his artistic creativity and vision.",
   "name": "Reginald T. Sperry",
-  "tinyDescription": "American born 1845",
-  "alias": "R.T. Sperry",
   "slug": "reginald_t_sperry_artist-html",
+  "hasLandingPage": true,
   "paintings": [
     "reginald_t_sperry_at_rivers_edge-html"
   ],
+  "alias": "R.T. Sperry",
+  "metaTitle": "Reginald T. Sperry Paintings For Sale",
   "metaDescription": "Step into the artful realm of Reginald T. Sperry. His paintings weave tales of bygone eras, combining classic techniques with timeless subjects.",
-  "metaTitle": "Reginald T. Sperry Paintings For Sale"
+  "tinyDescription": "American 1845 - 1914"
 }
