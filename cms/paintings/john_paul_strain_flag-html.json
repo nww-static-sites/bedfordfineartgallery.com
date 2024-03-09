@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0164-m.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "John Paul Strain - Flag Day - Central Park South Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0164-sm.jpg",
   "mediumResImageWidth": 1130,
@@ -27,15 +27,5 @@
   ],
   "gridImageHeight": 260,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0164.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $6,000"
-    }
-  ]
+  "highlights": []
 }
