@@ -111,7 +111,7 @@
                             >View all Paintings from this Artist</nuxt-link
                         >
                     </div>
-                    <p v-if="painting.youtubeText">{{ painting.youtubeText }}</p>
+                    <p v-if="painting.youtubeText" class="above_video_txt">{{ painting.youtubeText }}</p>
                     <YouTubeVideo
                         v-if="painting.youtubeEmbedLink"
                         :link="painting.youtubeEmbedLink"

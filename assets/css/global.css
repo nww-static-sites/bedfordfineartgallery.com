@@ -2196,3 +2196,8 @@ margin: 0px auto 15px auto;
     margin: 5px;
     border-bottom: 1px solid #5a0a0b;
 }
+
+.above_video_txt {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
