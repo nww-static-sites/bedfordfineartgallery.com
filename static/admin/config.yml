@@ -213,6 +213,7 @@ collections:
                 options: ['Landscape', 'Marine', 'Still Life', 'Genre', 'American Historic / Political', 'Sporting Art', 'Animal', 'Sculpture'],
                 required: false,
             }
+          - { label: 'YouTube Text Above Video', name: 'youtubeText', widget: 'string', required: false, hint: "My Wonderfult Painting Video" }
           - { label: 'YouTube Link', name: 'youtubeEmbedLink', widget: 'string', required: false, pattern: ["^((?:https?:)?\\/\\/)?((?:www|m)\\.)?((?:youtube\\.com|youtu.be))(\\/(?:[\\w\\-]+\\?v=|embed\\/|v\\/)?)([\\w\\-]+)(\\S+)?$", "Enter a valid YouTube URL"], hint: "Example link: https://www.youtube.com/embed/bGDNytl-QM0?rel=0 Can be obtained by viewing the video on your YouTube channel and clicking the 'share' button." }
           - {
               label: 'YouTube Alt Text',

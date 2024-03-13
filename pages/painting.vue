@@ -58,7 +58,7 @@
                                 v-if="!isSold"
                                 href="#contact_anchor"
                                 style="display: inline-block; margin: 0 auto 24px auto; background-color: #2c57ac"
-                                class="mobile_buy_cta"
+                                class="mo Videobile_buy_cta"
                                 >Buy Painting / Contact Us</a
                             >
                         </div>
@@ -111,6 +111,7 @@
                             >View all Paintings from this Artist</nuxt-link
                         >
                     </div>
+                    <p v-if="painting.youtubeText">{{ painting.youtubeText }}</p>
                     <YouTubeVideo
                         v-if="painting.youtubeEmbedLink"
                         :link="painting.youtubeEmbedLink"
