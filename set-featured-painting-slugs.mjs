@@ -32,7 +32,7 @@ async function main() {
       featured_paintings_of_the_week
     SET
       json=IF(updated_at <= NOW() - INTERVAL 7 DAY, '${featuredPaintingSlugs}', json),
-        updated_at=IF(updated_at <= NOW() - INTERVAL 7 DAY, NOW(), updated_at)
+        updated_at=IF(updated_at <= NOW() - INTERVAL 7 DAY, NOW() - INTERVAL 20 MINUTE, updated_at)
   `, function (error, results, fields) {
     if (error) console.log(`ERROR: ${error}`)
   })
