@@ -85,7 +85,7 @@
 
                         <div class="grid_span">
                             <ul>
-                                <li>We have over 30 years’ experience and our art is the best-of-the-best.</li>
+                                <li>We have 34 years' experience and our art is the best-of-the-best</li>
                                 <li>
                                     For art lovers who are dissatisfied with the current way to purchase fine art, we
                                     provide new solutions to find what you truly love.
