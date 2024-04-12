@@ -50,6 +50,7 @@
             <div><nuxt-picture provider="cloudinary" src="/customer-images/43.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/49.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/56.jpg" /></div>
+            <div><nuxt-picture provider="cloudinary" src="/customer-images/76.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/36.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/37.jpg" /></div>
                  <div><nuxt-picture provider="cloudinary" src="/customer-images/66.jpg" /></div>
@@ -57,6 +58,7 @@
             <div><nuxt-picture provider="cloudinary" src="/customer-images/39.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/40.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/58.jpg" /></div>
+            <div><nuxt-picture provider="cloudinary" src="/customer-images/75.jpg" /></div>
              <div><nuxt-picture provider="cloudinary" src="/customer-images/41.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/42.jpg" /></div>
              <div><nuxt-picture provider="cloudinary" src="/customer-images/44.jpg" /></div>
@@ -75,6 +77,9 @@
                   <div><nuxt-picture provider="cloudinary" src="/customer-images/71.jpg" /></div>
                   <div><nuxt-picture provider="cloudinary" src="/customer-images/72.jpg" /></div>
                   <div><nuxt-picture provider="cloudinary" src="/customer-images/73.jpg" /></div>
+                  <div><nuxt-picture provider="cloudinary" src="/customer-images/74.jpg" /></div>
+                  
+                 
 
 
 
