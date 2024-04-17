@@ -16,6 +16,9 @@
   "scrollingHomepageImage": false,
   "title": "Still-life with Pumpkin",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1711750126/Lipton_Still_lif_w_Pumpkin_IMG_2147_full_gall_cr_iu1hbh.jpg",
+  "categories": [
+    "Still Life"
+  ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1711750222/Lipton_Still_lif_w_Pumpkin_IMG_2147_lrg_cr_fr_lmmvmi.jpg",
   "highlights": [
     {

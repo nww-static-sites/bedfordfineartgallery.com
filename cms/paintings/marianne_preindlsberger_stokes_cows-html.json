@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/stokes_cows_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Marianne Preindlsberger Stokes - Cows at River’s Edge",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/stokes_cows_grid.jpg",
   "mediumResImageWidth": 876,
@@ -28,15 +28,5 @@
   ],
   "gridImageHeight": 261,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/stokes_cows_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $1,600"
-    }
-  ]
+  "highlights": []
 }
