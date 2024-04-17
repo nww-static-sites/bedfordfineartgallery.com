@@ -78,6 +78,7 @@
                   <div><nuxt-picture provider="cloudinary" src="/customer-images/72.jpg" /></div>
                   <div><nuxt-picture provider="cloudinary" src="/customer-images/73.jpg" /></div>
                   <div><nuxt-picture provider="cloudinary" src="/customer-images/74.jpg" /></div>
+                  <div><nuxt-picture provider="cloudinary" src="/customer-images/77.jpg" /></div>
                   
                  
 
