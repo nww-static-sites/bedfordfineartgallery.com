@@ -23,7 +23,9 @@
   "metaDescription": "Olive Parker Black - American Painter 1868 - 1948 - Summer Landscape Oil On Canvas Painting For Sale - 16 X 24 Inches - Signed On Lower Right.",
   "title": "Summer Landscape",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/op_black_grid_gallery_crop.jpg",
-  "categories": [],
+  "categories": [
+    "Landscape"
+  ],
   "gridImageHeight": 260,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/op_black_full.jpg",
   "highlights": [
