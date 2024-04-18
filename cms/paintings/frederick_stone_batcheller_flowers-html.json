@@ -23,7 +23,9 @@
   "metaDescription": "Frederick Stone Batcheller, American Painter 1837-1889 - Flowers In Victorian Vase Oil On Canvas - 17.5x11.5 Inches - Signed Lower Right.",
   "title": "Flowers in Victorian Vase",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/batch_grid_gallery_crop.jpg",
-  "categories": [],
+  "categories": [
+    "Still Life"
+  ],
   "gridImageHeight": 260,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/batcheller_original.jpg",
   "highlights": [
