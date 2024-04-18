@@ -16,6 +16,9 @@
   "scrollingHomepageImage": false,
   "title": "Lakeside Impression",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1692496351/Bromley_lakeside_impression_IMG_1918_full_gall_cr_zad4id.jpg",
+  "categories": [
+    "Landscape"
+  ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1692496586/Bromley_lakeside_impression_IMG_1918_lrg_cr_fr_yi32nt.jpg",
   "highlights": [
     {
