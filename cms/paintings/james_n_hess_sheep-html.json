@@ -22,7 +22,9 @@
   "metaDescription": "Immerse in pastoral serenity with James N.'s Resting Sheep and Shepherd, a 19th-century American fine art masterpiece celebrating idyllic moments in nature.",
   "title": "Resting Sheep and Shepherd",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1674346945/mailers/img/hess2.jpg",
-  "categories": [],
+  "categories": [
+    "Animal"
+  ],
   "gridImageHeight": 261,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1680296165/JN_Hess_IMG_0804_2_lrg_cr_fr_zz2b34.jpg",
   "highlights": [

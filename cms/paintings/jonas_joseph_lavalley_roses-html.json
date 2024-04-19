@@ -22,7 +22,9 @@
   "metaDescription": "Jonas Joseph (\"J.J.\") LaValley was born in Rouse Point, New York. His early eclectic \"career\" runs contrary to what one would expect from someone with an art",
   "title": "Roses in a Glass Vase, 1872",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/0263_grid_gallery_crop.jpg",
-  "categories": [],
+  "categories": [
+    "Still Life"
+  ],
   "gridImageHeight": 260,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/lavalley_full2.jpg",
   "highlights": [

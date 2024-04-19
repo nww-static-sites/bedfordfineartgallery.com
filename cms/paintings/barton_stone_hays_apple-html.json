@@ -23,7 +23,9 @@
   "metaDescription": "Barton Stone Hays - American Painter 1826-1914 - Still Life Of Apples Oil On Canvas Paint For Sale - 14 X 22 Inches - Signed On Lower Right.",
   "title": "Still Life of Apples",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_3919_grid_gallery_crop.jpg",
-  "categories": [],
+  "categories": [
+    "Still Life"
+  ],
   "gridImageHeight": 260,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_3919.jpg",
   "highlights": [

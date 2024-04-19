@@ -22,7 +22,9 @@
   "metaDescription": "Paul De Longpre, American Artist From 1855 -1911 - Victorian Roses, 1902 Watercolor Painting For Sale - 15.75x12.75 Inches - Signed And Dated Lower Left.",
   "title": "Victorian Roses, 1902",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4379_grid_gallery_crop.jpg",
-  "categories": [],
+  "categories": [
+    "Still Life"
+  ],
   "gridImageHeight": 260,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4379_original.jpg",
   "highlights": [
