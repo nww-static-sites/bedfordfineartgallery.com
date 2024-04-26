@@ -2201,3 +2201,16 @@ margin: 0px auto 15px auto;
     padding-bottom: 10px;
     font-weight: bold;
 }
+
+.sub_flex {
+    display: flex;
+    align-items: center;
+}
+.sliding_features .slick-slide img {
+   
+    border: 1px solid #ccb38d;
+    padding: 5px;
+  
+ }
+
+
