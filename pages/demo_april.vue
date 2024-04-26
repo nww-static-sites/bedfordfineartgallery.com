@@ -1196,6 +1196,12 @@ margin-left: 1rem;
     display: flex;
     align-items: center;
 }
+
+.home-lead-photo {
+
+  max-width: 260px;
+ 
+}
 </style>
 
 <router>
