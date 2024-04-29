@@ -2,20 +2,10 @@
     <div>
         <div class="container primary">
             <section class="wrapper">
-                <div class="home_grid_3">
-                    <div class="flex_home_logo_2">
+                <div class="grid">
+                    <div>
                         <div>
-                                    <nuxt-img
-                                        provider="cloudinary"
-                                        loading="lazy"
-                                        class="home_lead_img"
-                                        src="/gallery-sliding-images/gallery_exterior_homepage.jpg"
-                                        width="1200"
-                                        height="800"
-                                        alt="Bedford Fine Art Gallery"
-                                    />
-                                </div>
-                                <div class="logo_flex_sub">
+                            <div class="flex_home_logo_tagline">
                                 <div>
                                     <nuxt-img
                                         provider="cloudinary"
@@ -31,11 +21,7 @@
                                     <h2 class="home_tagline">The most honest art gallery in the world</h2>
                                 </div>
                             </div>
-                            </div>
-                    <div>
-                        <div>
-                          
-                            <div style="display: block; width: 100%; padding-top: 0px">
+                            <div style="display: block; width: 100%; padding-top: 10px">
                                 <nuxt-img
                                     provider="cloudinary"
                                     class="home-lead-photo"
@@ -56,7 +42,7 @@
                         </div>
                     </div>
 
-                    <div>
+                    <div class="sub_grid">
                         <div>
                             <div style="max-width: 550px; margin: auto">
                                 <div class="video-container">
@@ -74,15 +60,43 @@
                             </div>
                         </div>
 
+                        <div>
+                            <div style="max-width: 550px; margin: auto">
+                                <div class="video-container">
+                                    <iframe
+                                        src="https://www.youtube.com/embed/xQjafbqEYWI?playlist=xQjafbqEYWI&loop=1&rel=0&autoplay=1&mute=1&controls=0&showinfo=0"
+                                        frameborder="0"
+                                        allowfullscreen
+                                    ></iframe>
+                                </div>
+                            </div>
+                            <div class="breadcrumb" style="margin-top: 10px">
+                                <nuxt-link
+                                    :to="{ name: 'art-lovers-niche' }"
+                                    style="display: block; width: 100%"
+                                    class="content_btn home_btn_small"
+                                    ><span class="btn_text_break"
+                                        >BECOME AN ART LOVERS' NICHE INSIDER! MONTHLY TREASURES STRAIGHT TO YOUR
+                                        INBOX!</span
+                                    ></nuxt-link
+                                >
+                            </div>
+                        </div>
 
-                 
+                        <div class="grid_span">
+                            <ul>
+                                <li>We have 34 years' experience and our art is the best-of-the-best</li>
+                                <li>
+                                    For art lovers who are dissatisfied with the current way to purchase fine art, we
+                                    provide new solutions to find what you truly love.
+                                </li>
+                                <li>
+                                    Unlike one-trick pony galleries that have high overhead and pushy sales techniques,
+                                    we do not put any pressure on you or push you into art you may not love.
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div style="padding-bottom: 24px" class="sliding_features">
-                    <GallerySlidingImages />
-                </div>
-                <div style="padding-bottom: 24px" class="sliding_features">
-                    <CustomerSlidingImages />
                 </div>
             </section>
         </div>
@@ -113,7 +127,9 @@
 
         <div class="container primary" style="padding-top: 32px">
             <section class="wrapper">
-             
+                <div style="padding-bottom: 24px">
+                    <CustomerSlidingImages />
+                </div>
                 <div class="home_sales">
                     <p class="home_thumbnails" style="color: rgba(16, 88, 185, 1); text-align: center">
                         Bedford Fine Art Gallery is your best resource for finding paintings with that "wow factor",
@@ -135,48 +151,6 @@
                 </div>
                 <div class="homeSoldSlidingImagesDesktop">
                     <SoldSlidingImages />
-                </div>
-
-
-                <div class="home_grid_2 sub_flex">
-
-                    <div>
-                            <ul>
-                                <li>We have 34 years' experience and our art is the best-of-the-best</li>
-                                <li>
-                                    For art lovers who are dissatisfied with the current way to purchase fine art, we
-                                    provide new solutions to find what you truly love.
-                                </li>
-                                <li>
-                                    Unlike one-trick pony galleries that have high overhead and pushy sales techniques,
-                                    we do not put any pressure on you or push you into art you may not love.
-                                </li>
-                            </ul>
-                        </div>
-
-                        
-                        <div>
-                            <div style="max-width: 550px; margin: auto">
-                                <div class="video-container">
-                                    <iframe
-                                        src="https://www.youtube.com/embed/xQjafbqEYWI?playlist=xQjafbqEYWI&loop=1&rel=0&autoplay=1&mute=1&controls=0&showinfo=0"
-                                        frameborder="0"
-                                        allowfullscreen
-                                    ></iframe>
-                                </div>
-                            </div>
-                            <div class="breadcrumb" style="margin-top: 10px">
-                                <nuxt-link
-                                    :to="{ name: 'art-lovers-niche' }"
-                                    style="display: block; width: 100%"
-                                    class="content_btn home_btn_small"
-                                    ><span class="btn_text_break"
-                                        >BECOME AN ART LOVERS' NICHE INSIDER! MONTHLY TREASURES STRAIGHT TO YOUR
-                                        INBOX!</span
-                                    ></nuxt-link
-                                >
-                            </div>
-                        </div>
                 </div>
 
                 <div class="flex_wrap" style="clear: both; padding-top: 15px">
@@ -946,7 +920,6 @@
 <script>
 import ArtworkSlidingImages from '~/components/ArtworkSlidingImages'
 import ArtworkSlidingImagesHome from '~/components/ArtworkSlidingImagesHome'
-import GallerySlidingImages from '~/components/GallerySlidingImages'
 import CustomerSlidingImages from '~/components/CustomerSlidingImages'
 import SoldSlidingImages from '~/components/SoldSlidingImages'
 import SoldSlidingImagesMobile from '~/components/SoldSlidingImagesMobile'
@@ -977,7 +950,7 @@ const kebabize = (str) => {
 }
 export default {
     name: 'App',
-    components: { ArtworkSlidingImages, ArtworkSlidingImagesHome, GallerySlidingImages, CustomerSlidingImages, SoldSlidingImages, SoldSlidingImagesMobile, TestimonialsScroll, YouTubeVideo },
+    components: { ArtworkSlidingImages, ArtworkSlidingImagesHome, CustomerSlidingImages, SoldSlidingImages, SoldSlidingImagesMobile, TestimonialsScroll, YouTubeVideo },
     async asyncData({ $content }) {
         return {
             scrollingHomepageImages: await loadGalleryPaintings({
@@ -1168,92 +1141,4 @@ export default {
         display: block;
     }
 }
-
-
-.home_grid_2 {
-display: grid;
-grid-template-columns: 1fr;
-gap: 1rem;
-margin-top: 2rem;
-background-color: #ededd6;
-padding: 1rem;
-}
-
-@media screen and (min-width: 700px) {
-.home_grid_2 {
-
-grid-template-columns: 2fr 1fr;
-
-}
-}
-
-.home_grid_3 {
-    display: grid;
-    gap: 1rem;
-    margin-bottom: 2rem;
-    background-color: #ededd6;
-padding: 1rem;
-align-items: center;
-}
-@media screen and (min-width: 700px) {
-.home_grid_3 {
-
-grid-template-columns: 1fr 1fr 1fr;
-
-}
-}
-
-.home_grid_2  ul {
-list-style-type: disc;
-margin-left: 1rem;
-}
-
-.flex_home_logo_2 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.home-lead-photo {
-
-  max-width: 260px;
- 
-}
-
-.home_lead_img {
-    max-width: 400px;
-    height: auto;
-    width: 100%;
-}
-.logo_flex_sub {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-    padding-top: 10px;
-}
-.home_logo {
-    max-width: 90px;
-    display: block;
-    height: auto;
-    margin: auto;
-    width: 100%;
-}
-.home_tagline {
-  color: rgba(16, 88, 185, 1);
-  text-transform: none;
-  padding-left: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  text-align: left;
-  font-size: 1.2em;
-  font-weight: bold;
-  text-align: center;
-}
 </style>
-
-<router>
-    {
-      path: '/demo_april.html',
-    }
-  </router>
