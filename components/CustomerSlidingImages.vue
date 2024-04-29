@@ -65,10 +65,11 @@
              <div><nuxt-picture provider="cloudinary" src="/customer-images/51.jpg" /></div>
              <div><nuxt-picture provider="cloudinary" src="/customer-images/52.jpg" /></div>
              <div><nuxt-picture provider="cloudinary" src="/customer-images/53.jpg" /></div>
+             <div><nuxt-picture provider="cloudinary" src="/customer-images/80.jpg" /></div>
              <div><nuxt-picture provider="cloudinary" src="/customer-images/54.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/55.jpg" /></div>
             <div><nuxt-picture provider="cloudinary" src="/customer-images/57.jpg" /></div>
-
+            <div><nuxt-picture provider="cloudinary" src="/customer-images/81.jpg" /></div>
 
             <div><nuxt-picture provider="cloudinary" src="/customer-images/60.jpg" /></div>
                  <div><nuxt-picture provider="cloudinary" src="/customer-images/62.jpg" /></div>
@@ -80,6 +81,10 @@
                   <div><nuxt-picture provider="cloudinary" src="/customer-images/74.jpg" /></div>
                   <div><nuxt-picture provider="cloudinary" src="/customer-images/77.jpg" /></div>
                   <div><nuxt-picture provider="cloudinary" src="/customer-images/78.jpg" /></div>
+                  <div><nuxt-picture provider="cloudinary" src="/customer-images/79.jpg" /></div>
+                  
+                  
+                  <div><nuxt-picture provider="cloudinary" src="/customer-images/82.jpg" /></div>
                   
                  
 
