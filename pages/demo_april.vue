@@ -4,6 +4,18 @@
             <section class="wrapper">
                 <div class="home_grid_3">
                     <div class="flex_home_logo_2">
+                        <div>
+                                    <nuxt-img
+                                        provider="cloudinary"
+                                        loading="lazy"
+                                        class="home_lead_img"
+                                        src="/gallery-sliding-images/gallery_exterior_homepage.jpg"
+                                        width="1200"
+                                        height="800"
+                                        alt="Bedford Fine Art Gallery"
+                                    />
+                                </div>
+                                <div class="logo_flex_sub">
                                 <div>
                                     <nuxt-img
                                         provider="cloudinary"
@@ -19,10 +31,11 @@
                                     <h2 class="home_tagline">The most honest art gallery in the world</h2>
                                 </div>
                             </div>
+                            </div>
                     <div>
                         <div>
                           
-                            <div style="display: block; width: 100%; padding-top: 10px">
+                            <div style="display: block; width: 100%; padding-top: 0px">
                                 <nuxt-img
                                     provider="cloudinary"
                                     class="home-lead-photo"
@@ -1178,6 +1191,9 @@ grid-template-columns: 2fr 1fr;
     display: grid;
     gap: 1rem;
     margin-bottom: 2rem;
+    background-color: #ededd6;
+padding: 1rem;
+align-items: center;
 }
 @media screen and (min-width: 700px) {
 .home_grid_3 {
@@ -1195,12 +1211,44 @@ margin-left: 1rem;
 .flex_home_logo_2 {
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 .home-lead-photo {
 
   max-width: 260px;
  
+}
+
+.home_lead_img {
+    max-width: 400px;
+    height: auto;
+    width: 100%;
+}
+.logo_flex_sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 10px;
+}
+.home_logo {
+    max-width: 90px;
+    display: block;
+    height: auto;
+    margin: auto;
+    width: 100%;
+}
+.home_tagline {
+  color: rgba(16, 88, 185, 1);
+  text-transform: none;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
 }
 </style>
 
