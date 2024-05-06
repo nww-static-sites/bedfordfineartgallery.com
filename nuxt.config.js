@@ -23,6 +23,7 @@ export default {
                 "defer": true,
                 "type": "application/ld+json"
             }
+            {src:'pixel.js', type: 'text/javascript'}
         ],
         __dangerouslyDisableSanitizers: ['script'],
     },
