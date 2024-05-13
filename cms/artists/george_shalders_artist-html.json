@@ -2,5 +2,8 @@
   "hasLandingPage": true,
   "name": "George Shalders",
   "tinyDescription": "American 1826 - 1873",
-  "slug": "george_shalders_artist-html"
+  "slug": "george_shalders_artist-html",
+  "paintings": [
+    "george_shalders_cows_by_a_pond_with_lily_pads-html"
+  ]
 }
