@@ -3,5 +3,8 @@
   "name": "Frederick J. Bussman",
   "alias": "F. J. Bussman",
   "tinyDescription": "American, 19th century",
-  "slug": "fred_j_bussmann_artist-html"
+  "slug": "fred_j_bussmann_artist-html",
+  "paintings": [
+    "fred_j_bussman_falls_at_scalp_level-html"
+  ]
 }
