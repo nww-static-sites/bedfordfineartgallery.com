@@ -8,7 +8,7 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1714396660/fairman_ap1_u709ny.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1714396581/Fairman_Preparing_the_Fields_sm_cr_fr_kmuyjj.jpg",
-  "status": "New",
+  "status": "Sold",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1714396520/Fairman_Preparing_the_Fields_zoom_cr_bjps2f.jpg",
   "scrollingHomepageImage": false,
   "title": "Preparing the Fields",
@@ -17,15 +17,5 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1714396622/Fairman_Preparing_the_Fields_lrg_cr_fr_qtgd3q.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $12,164"
-    }
-  ]
+  "highlights": []
 }
