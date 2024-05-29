@@ -1,10 +1,13 @@
 {
-  "hasLandingPage": true,
+  "body": "Thomas Michael Nicholas is a contemporary American artist renowned for his stunning landscape paintings and maritime scenes. With a career spanning several decades, Nicholas has established himself as a master of capturing the natural world's beauty and tranquility. His works often depict the rugged coastlines of New England, serene rural landscapes, and vibrant seasonal changes, showcasing his exceptional ability to render light and atmosphere. Influenced by the American Impressionist movement, Nicholas employs a rich palette and expressive brushwork, creating paintings that evoke a sense of place and emotion. His dedication to plein air painting allows him to infuse his works with authenticity and immediacy, making them highly sought after by collectors and art enthusiasts alike. Through his art, Thomas Michael Nicholas continues to celebrate and preserve the timeless beauty of the American landscape.",
   "name": "Thomas Michael Nicholas",
-  "alias": "T. M. Nicholas",
-  "tinyDescription": "American, born 1963",
   "slug": "t_m_nicholas_artist-html",
+  "hasLandingPage": true,
   "paintings": [
     "t_m_nicholas_rural_new_england_landscape-html"
-  ]
+  ],
+  "alias": "T. M. Nicholas",
+  "metaTitle": "Thomas Michael Nicholas | Renowned Contemporary Artist",
+  "metaDescription": "Discover the works of Thomas Michael Nicholas, a renowned contemporary artist. Explore his unique style and masterful techniques that define modern artistry.",
+  "tinyDescription": "American, born 1963"
 }
