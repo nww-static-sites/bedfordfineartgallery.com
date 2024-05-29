@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ryder_coast_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Hold",
   "metaTitle": "Chauncey Foster Ryder - Rocky Coast Painting For Sale",
   "mainImageAltText": "Chauncey Foster Ryder Coast Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ryder_coast_grid.jpg",
@@ -28,15 +28,5 @@
   ],
   "gridImageHeight": 261,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/ryder_coast_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $2,500"
-    }
-  ]
+  "highlights": []
 }
