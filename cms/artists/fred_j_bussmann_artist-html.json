@@ -1,10 +1,13 @@
 {
-  "hasLandingPage": true,
+  "body": "Fred J. Bussman was an American artist who flourished in the 19th century, capturing the essence of the period through his evocative works. Known for his adept use of light and shadow, Bussman’s paintings often depicted serene landscapes, bustling cityscapes, and intimate domestic scenes, reflecting the diverse tapestry of American life during that era. His attention to detail and ability to convey emotion through brushstrokes made his art resonate deeply with viewers. While specific details about his life remain sparse, Bussman’s legacy lives on through his contributions to American art, showcasing the beauty and complexity of the 19th century.",
   "name": "Frederick J. Bussman",
-  "alias": "F. J. Bussman",
-  "tinyDescription": "American, 19th century",
   "slug": "fred_j_bussmann_artist-html",
+  "hasLandingPage": true,
   "paintings": [
     "fred_j_bussman_falls_at_scalp_level-html"
-  ]
+  ],
+  "alias": "F. J. Bussman",
+  "metaTitle": "Fred J. Bussmann - 19th Century Artist | Timeless Art",
+  "metaDescription": "Discover the timeless art of Fred J. Bussmann, a renowned 19th-century artist. Explore his captivating works that reflect the beauty and intricacy of his era.",
+  "tinyDescription": "American, 19th century"
 }
