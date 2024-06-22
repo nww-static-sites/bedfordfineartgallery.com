@@ -8,7 +8,7 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1719002310/moran_waiting_on_the_beach_ap_p98f6l.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1719001482/Moran_Waiting_on_the_Beach_IMG_2208_sm_cr_fr_uwd4ur.jpg",
-  "status": "New",
+  "status": "Sold",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1719001438/Moran_Waiting_on_the_Beach_IMG_2208_zoom_cr_xvldzv.jpg",
   "scrollingHomepageImage": false,
   "title": "Waiting on the Beach",
@@ -17,15 +17,5 @@
     "Marine"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1719001548/Moran_Waiting_on_the_Beach_IMG_2208_lrg_cr_fr_z7xk9r.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $7,948"
-    }
-  ]
+  "highlights": []
 }
