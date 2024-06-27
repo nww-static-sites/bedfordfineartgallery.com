@@ -483,13 +483,13 @@
 
                 <div class="as_seen_in">
                     <div>American Art Review</div>
-                    <div>Pittsburgh Quarterly</div>
+                    <div><NuxtLink to="https://pittsburghquarterly.com/articles/the-business-of-art-fall-2015/" target="_blank" style="color: #5f5f5f; text-decoration:none;">Pittsburgh Quarterly</NuxtLink></div>
                     <div>Carnegie Magazine</div>
                     <div>Johnstown Magazine</div>
                     <div>Elan Magazine</div>
                     <div>Allegany Magazine</div>
-                    <div>Bedford Gazette</div>
-                    <div>New York Times</div>
+                    <div><NuxtLink to="https://www.bedfordgazette.com/news/local/bedford-fine-art-gallery/article_0a815ab0-f4b9-5d06-bacf-b3471c94a451.html" target="_blank" style="color: #5f5f5f; text-decoration:none;">Bedford Gazette</NuxtLink></div>
+                    <div><NuxtLink to="https://www.nytimes.com/2023/11/12/style/auguste-toulmouche-hesitant-fiancee-tiktok.html" target="_blank" style="color: #5f5f5f; text-decoration:none;">New York Times</NuxtLink></div>
                 </div>
             </section>
         </div>
