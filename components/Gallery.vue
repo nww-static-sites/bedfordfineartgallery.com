@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="container secondary">
+        <div class="container secondary" style="padding-top:10px;">
             <section class="wrapper clearfix">
                 <div class="pagination_sub">
                     <ul>
