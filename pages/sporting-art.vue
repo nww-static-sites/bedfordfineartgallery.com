@@ -23,6 +23,18 @@ export default {
             category,
         }
     },
+    head() {
+        return {
+            title: '19th Century Sporting Artwork For Sale',
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: 'Discover and purchase 19th century sporting artwork, featuring classic depictions of historic sports &  leisure activities. Own a piece of sporting history now.',
+                },
+            ],
+        }
+    },
 }
 </script>
 

@@ -23,6 +23,18 @@ export default {
             category,
         }
     },
+    head() {
+        return {
+            title: '19th Century Political Art: Historic Artwork For Sale',
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: 'Explore 19th century political art, showcasing powerful depictions of historical events and figures. Discover and collect these significant masterpieces today.',
+                },
+            ],
+        }
+    },
 }
 </script>
 
