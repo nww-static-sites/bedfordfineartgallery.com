@@ -14,7 +14,7 @@
   "youtubeText": "Below is a short video (less than 1 minute) of this painting ",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1694709555/Alfred-Augustus-Glendening-19th-century-painting-sheep-by-wagon-path_med_arjlfq.jpg",
   "gridImageWidth": 335,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Alfred Augustus Glendening - Sheep By Wagon Path Painting",
   "mainImageAltText": "Alfred Augustus Glendening 19th Century Painting - Sheep By Wagon Path",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1694709555/Alfred-Augustus-Glendening-19th-century-painting-sheep-by-wagon-path_grid_pnd9xc.jpg",
@@ -30,15 +30,5 @@
   ],
   "gridImageHeight": 182,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1694709555/Alfred-Augustus-Glendening-19th-century-painting-sheep-by-wagon-path_lrg_bpsjwy.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $3,900"
-    }
-  ]
+  "highlights": []
 }
