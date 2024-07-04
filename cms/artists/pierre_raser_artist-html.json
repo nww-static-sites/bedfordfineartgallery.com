@@ -2,5 +2,8 @@
   "hasLandingPage": true,
   "name": "Pierre Raser",
   "tinyDescription": "French, b. 1953",
-  "slug": "pierre_raser_artist-html"
+  "slug": "pierre_raser_artist-html",
+  "paintings": [
+    "pierre_raser_violon_tambour_mandoline-html"
+  ]
 }
