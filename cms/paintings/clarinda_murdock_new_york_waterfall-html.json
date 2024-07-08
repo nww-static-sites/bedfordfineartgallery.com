@@ -14,7 +14,7 @@
   "youtubeText": "Below is a short video (less than 1 minute) of this painting ",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684328394/Murdock_Waterfall_IMG_1697_sm_cr_fr_qejeha.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Clarinda Racella Murdock - New York Waterfall Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684409319/murdock_waterfall_zoomed_gallery_crop_jg2lnf.jpg",
   "mediumResImageWidth": 1400,
@@ -28,15 +28,5 @@
   ],
   "gridImageHeight": 261,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684328425/Murdock_Waterfall_IMG_1697_lrg_cr_fr_n2eqph.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $2,700"
-    }
-  ]
+  "highlights": []
 }
