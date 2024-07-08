@@ -23,6 +23,18 @@ export default {
             category,
         }
     },
+    head() {
+        return {
+            title: '19th Century Sculptures For Sale: Victorian Sculptures',
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: 'Discover and purchase 19th century sculptures, featuring exquisite craftsmanship and historical significance. Own a timeless masterpiece from this remarkable era.',
+                },
+            ],
+        }
+    },
 }
 </script>
 

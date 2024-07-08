@@ -41,7 +41,7 @@
                             src="Jerry-and-Joan-web.jpg"
                             width="1200"
                             height="1652"
-                            alt=""
+                            alt="Jerry and Joan Hawk"
                         />
                     </div>
                 </div>

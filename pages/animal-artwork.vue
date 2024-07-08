@@ -23,6 +23,18 @@ export default {
             category,
         }
     },
+    head() {
+        return {
+            title: 'Victorian Animal Art For Sale: Timeless Pieces',
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: 'Explore our collection of Victorian animal art for sale. Discover timeless pieces featuring exquisite depictions of animals from the Victorian era.',
+                },
+            ],
+        }
+    },
 }
 </script>
 

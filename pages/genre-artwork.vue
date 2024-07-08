@@ -23,6 +23,18 @@ export default {
             category,
         }
     },
+    head() {
+        return {
+            title: 'Victorian Genre Art For Sale: Timeless Masterpieces',
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: 'Explore our collection of Victorian genre art for sale. Own a piece of history with these timeless masterpieces, capturing everyday life in exquisite detail.',
+                },
+            ],
+        }
+    },
 }
 </script>
 

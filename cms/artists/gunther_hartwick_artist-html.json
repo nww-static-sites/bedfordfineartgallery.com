@@ -1,12 +1,13 @@
 {
-  "hasLandingPage": true,
   "name": "George Gunther Hartwick",
-  "alias": "G. Hartwick",
   "slug": "gunther_hartwick_artist-html",
-  "tinyDescription": "German American, 1817-1899",
+  "hasLandingPage": true,
+  "metaKeywords": "",
   "paintings": [
     "george_gunther_hartwick_boulder_field-html"
   ],
-  "metaDescription": "George Gunther Hartwick: Renowned Victorian Artist",
-  "metaKeywords": "Explore the masterpieces of George Gunther Hartwick, a celebrated Victorian artist known for exquisite portraits and landscapes. Discover his timeless artistry."
+  "alias": "G. Hartwick",
+  "metaTitle": "George Gunther Hartwick: Renowned Victorian Artist",
+  "metaDescription": "Explore the masterpieces of George Gunther Hartwick, a celebrated Victorian artist known for exquisite portraits and landscapes. Discover his timeless artistry.",
+  "tinyDescription": "German American, 1817-1899"
 }

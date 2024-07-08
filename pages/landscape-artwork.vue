@@ -23,6 +23,18 @@ export default {
             category,
         }
     },
+    head() {
+        return {
+            title: 'Victorian Landscape Art For Sale: Timeless Beauty & Elegance',
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: 'Discover the charm of Victorian landscape art, showcasing breathtaking scenes of nature\'s beauty and elegance. Explore our curated collection today!',
+                },
+            ],
+        }
+    },
 }
 </script>
 
