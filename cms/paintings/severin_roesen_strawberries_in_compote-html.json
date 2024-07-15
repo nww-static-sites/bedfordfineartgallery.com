@@ -8,7 +8,7 @@
   "featured": true,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1701130438/Roesen_Roesen_strawberries_in_compote_AP_xk9wb7.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1701130379/Roesen_Roesen_strawberries_in_compote_IMG_2069_sm_cr_fr_xqqbcj.jpg",
-  "status": "New",
+  "status": "Sold",
   "metaTitle": "Severin Roesen's Masterpiece: Strawberries & Fruit on Tabletop",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1701130320/Roesen_Roesen_strawberries_in_compote_IMG_2069_zoom_cr_imsw0w.jpg",
   "metaDescription": "Experience the richness of Severin Roesen's art in 'Strawberries in a Compote with Fruit on Tabletop'. A stunning display of still life and color.",
@@ -19,15 +19,5 @@
     "Still Life"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1701130253/Roesen_Roesen_strawberries_in_compote_IMG_2069_lrg_cr_fr_vkljui.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $25,600"
-    }
-  ]
+  "highlights": []
 }
