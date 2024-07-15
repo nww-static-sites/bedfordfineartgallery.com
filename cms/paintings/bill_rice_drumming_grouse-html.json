@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695296433/bill-rice-art-for-sale-drumming-grouse_x7af8y.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1682779227/Rice_Druming_Grouse_IMG_1685_sm_cr_fr_xus8kh.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Bill Rice - Drumming Grouse Oil On Board Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1682779133/Rice_Druming_Grouse_IMG_1685_zoom_cr_m1idpk.jpg",
   "mediumResImageWidth": 1400,
@@ -27,15 +27,5 @@
   ],
   "gridImageHeight": 319,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1682779263/Rice_Druming_Grouse_IMG_1685_lrg_cr_fr_vrymn1.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $2,700"
-    }
-  ]
+  "highlights": []
 }
