@@ -9,7 +9,7 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1717511947/weyl_the_fence_ap2_m1talc.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1717511883/Weyl_IMG_2207_sm_cr_fr_2_doqq0n.jpg",
-  "status": "New",
+  "status": "Sold",
   "metaTitle": "Max Weyl's \"The Fence\": A 19th Century Masterpiece",
   "mainImageAltText": "Max Weyl's \"The Fence\": A 19th Century Masterpiece",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1717511848/Weyl_IMG_2207_zoom_cr_klmozl.jpg",
@@ -21,15 +21,5 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1717511916/Weyl_IMG_2207_lrg_cr_fr_2_uole4x.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $7,933"
-    }
-  ]
+  "highlights": []
 }
