@@ -2,5 +2,8 @@
   "hasLandingPage": true,
   "name": "James Hamilton",
   "tinyDescription": "American 1819 - 1878",
-  "slug": "james_hamilton_artist-html"
+  "slug": "james_hamilton_artist-html",
+  "paintings": [
+    "james_hamilton_ships_off_the_coast-html"
+  ]
 }
