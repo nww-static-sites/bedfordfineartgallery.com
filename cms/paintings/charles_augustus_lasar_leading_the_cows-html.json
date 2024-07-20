@@ -9,7 +9,7 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695054324/charles-augustus-lasar-leading-the-cows_rtstbk.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1694273710/Lasar_IMG_1963_leading_the_cows_sm_cr_fr_knqzb9.jpg",
-  "status": "None",
+  "status": "Sold",
   "youtubeAltText": "Charles Augustus Lasar Victorian Painting of Cows",
   "metaTitle": "Charles Augustus Lasar Victorian Painting of Cows",
   "mainImageAltText": "Charles Augustus Lasar Victorian Painting of Cows",
@@ -22,15 +22,5 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1694273765/Lasar_leading_the_cows_IMG_1963_lrg_cr_fr_igsmk1.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $1,236"
-    }
-  ]
+  "highlights": []
 }
