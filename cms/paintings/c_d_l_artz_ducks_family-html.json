@@ -14,7 +14,7 @@
   "youtubeText": "Below is a short video (less than 1 minute) of this painting ",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1674700838/Artz_Duck_Family_IMG_sm_cr_fr_1530_gaoqau.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "youtubeAltText": "Constant David Ludovic Artz 19th Century Painting for Sale - Duck Family by Birch Tree",
   "metaTitle": "Constant David Ludovic Artz - Duck Family By Birch Tree",
   "mainImageAltText": "Constant David Ludovic Artz 19th Century Painting for Sale - Duck Family by Birch Tree",
@@ -31,15 +31,5 @@
   ],
   "gridImageHeight": 323,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1674700798/Artz_Duck_Family_IMG_lrg_cr_fr_1530_xeqdti.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $3,500"
-    }
-  ]
+  "highlights": []
 }
