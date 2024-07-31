@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695899710/george-w-chambers-19th-century-painting-for-sale-sunrise-shoreline-with-seagulls_hcdepj.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687981649/Chambers_Sunrise_Shoreline_w_Gulls_IMG_1832_sm_cr_fr_jc2nu3.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "George W Chambers - Sunrise Shoreline With Seagulls Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687981621/Chambers_Sunrise_Shoreline_w_Gulls_IMG_1832_zoom_cr_w1dwjx.jpg",
   "mediumResImageWidth": 1400,
@@ -26,15 +26,5 @@
   ],
   "gridImageHeight": 303,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687981706/Chambers_Sunrise_Shoreline_w_Gulls_IMG_1832_lrg_cr_fr_nexbyg.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $3,271"
-    }
-  ]
+  "highlights": []
 }
