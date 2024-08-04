@@ -2,5 +2,8 @@
   "hasLandingPage": true,
   "name": "Mary Russell Smith",
   "tinyDescription": "American 1842 – 1878",
-  "slug": "mary_russell_smith_artist-html"
+  "slug": "mary_russell_smith_artist-html",
+  "paintings": [
+    "mary_russell_smith_rabbits_chick_berries-html"
+  ]
 }
