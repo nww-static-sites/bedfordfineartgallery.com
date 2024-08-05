@@ -3,5 +3,8 @@
   "name": "James Wells Champney",
   "alias": "J. Wells Champney",
   "tinyDescription": "American 1843 – 1903",
-  "slug": "james_wells_champney_artist-html"
+  "slug": "james_wells_champney_artist-html",
+  "paintings": [
+    "james_wells_champney_view_of_the_seine-html"
+  ]
 }
