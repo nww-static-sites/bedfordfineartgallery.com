@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1694021923/barton-stone-hays-19th-century-paintings-for-sale-tabletop-apples_kla1nq.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687977531/Hays_Grapes_Peaches_AppleIMG_1813_sm_cr_fr_oyltnq.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Barton Stone Hays - Grapes & Peaches With An Apple Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687977380/Hays_Grapes_Peaches_Apple_IMG_1813_zoom_cr_jpdz0o.jpg",
   "mediumResImageWidth": 1400,
@@ -26,15 +26,5 @@
   ],
   "gridImageHeight": 228,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687977847/Hays_Grapes_Peaches_Apple_IMG_1813_lrg_cr_fr_zgvefq.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $3,321"
-    }
-  ]
+  "highlights": []
 }
