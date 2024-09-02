@@ -30,7 +30,7 @@
                 /></nuxt-link>
             </p>
 
-            <p><nuxt-link class="readmore" to="highlights.html">Back to Articles</nuxt-link></p>
+            <p><nuxt-link class="readmore" to="highlights.html">Back to Art Blog</nuxt-link></p>
         </div>
     </div>
 </template>
