@@ -12,76 +12,71 @@
                     <p>
                         <nuxt-img
                             provider="cloudinary"
-                            :img-attrs="{class:'art_detail_img'}"
+                            :img-attrs="{ class: 'art_detail_img' }"
                             loading="lazy"
                             src="/joan_jerry24_about.jpg"
                             alt=""
-                        />We would like to thank the thousands of fellow art-lovers who explore our
-website, join us for email updates via Art Lovers’ Niche, follow us on Instagram,
-and stop to see us at the gallery. Many of you are already familiar with Bedford
-Fine Art Gallery, but we want to take this opportunity to bring you up-to-date.
+                        />We would like to thank the thousands of fellow art-lovers who explore our website, join us for
+                        email updates via Art Lovers’ Niche, follow us on Instagram, and stop to see us at the gallery.
+                        Many of you are already familiar with Bedford Fine Art Gallery, but we want to take this
+                        opportunity to bring you up-to-date.
                     </p>
                     <p>
                         <strong>Background</strong> – We have always loved art and started collecting over 30 years ago.
-In the beginning, we thought a local art expert would be able to help us with our
-selections. We quickly found out; however, the so-called art expert was not
-honest with us about the paintings we purchased. We stopped seeing this
-individual and figured there had to be a better way to feel safe and trust our
-purchasing decisions. We, therefore, worked hard to buck the typical galleries
-and auction houses by creating a truly unique fine art gallery experience for our
-many customers.
+                        In the beginning, we thought a local art expert would be able to help us with our selections. We
+                        quickly found out; however, the so-called art expert was not honest with us about the paintings
+                        we purchased. We stopped seeing this individual and figured there had to be a better way to feel
+                        safe and trust our purchasing decisions. We, therefore, worked hard to buck the typical
+                        galleries and auction houses by creating a truly unique fine art gallery experience for our many
+                        customers.
                     </p>
                     <p>
                         <strong>Bedford, Pennsylvania</strong> – Joan was born and raised in Bedford, but we spent our
-first 31 years together living closer to Pittsburgh. We always dreamed of owning
-an older home. Long story short, we ended up purchasing our home in Bedford,
-which is on the street where Joan grew up. It was built in 1889 and, after the
-original family was no longer living there, served as a public library (where Joan
-would go to read many books!). From the beginning, we thought our Bedford
-home would be the perfect venue for a fine art gallery. We are also proud that
-Bedford has many great things to offer guests who visit the gallery: The Omni
-Bedford Springs resort, several great B&amp;B’s, many specialty shops and boutiques,
-great restaurants, and the list goes on!
+                        first 31 years together living closer to Pittsburgh. We always dreamed of owning an older home.
+                        Long story short, we ended up purchasing our home in Bedford, which is on the street where Joan
+                        grew up. It was built in 1889 and, after the original family was no longer living there, served
+                        as a public library (where Joan would go to read many books!). From the beginning, we thought
+                        our Bedford home would be the perfect venue for a fine art gallery. We are also proud that
+                        Bedford has many great things to offer guests who visit the gallery: The Omni Bedford Springs
+                        resort, several great B&amp;B’s, many specialty shops and boutiques, great restaurants, and the
+                        list goes on!
                     </p>
                     <p>
                         <strong>Technology</strong> – When we were in college in the late ‘70’s, there was one fortran
-computer that used key-punch cards for our computer science class! A lot has
-changed since then and we felt it is important to stay up-to-date with technology.
-Since the beginning of Bedford Fine Art Gallery, we have teamed with website
-design experts and are pleased that our customers find the site easy to navigate,
-full of representative images and videos, and packed with great fine art for sale.
-The proof of this is that a majority of our sales are via the internet to folks that
-were not able to visit the gallery in-person.
+                        computer that used key-punch cards for our computer science class! A lot has changed since then
+                        and we felt it is important to stay up-to-date with technology. Since the beginning of Bedford
+                        Fine Art Gallery, we have teamed with website design experts and are pleased that our customers
+                        find the site easy to navigate, full of representative images and videos, and packed with great
+                        fine art for sale. The proof of this is that a majority of our sales are via the internet to
+                        folks that were not able to visit the gallery in-person.
                     </p>
                     <p>
-                        <strong>One big community</strong> – In addition to our Art Lovers’ Niche and Instagram
-communities, we also help serve our local community. We are a part of the
-Southern Alleghenies Museum of Art (SAMA). SAMA is a fully-accredited museum
-
-that started in 1976 and has five museum locations that serve six counties in
-Pennsylvania. We feel fortunate to be able to help with programing for children’s
-education, the elderly, and our veterans throughout the local communities.
+                        <strong>One big community</strong> – In addition to our Art Lovers' Niche and Instagram
+                        communities, we also help serve our local community. Throughout the years, we have helped the
+                        Southern Alleghenies Museum of Art (SAMA). SAMA is a fully-accredited museum that started in
+                        1976 and has five museum locations that serve six counties in Pennsylvania. We were fortunate to
+                        be able to help with programing for children's education, the elderly, and our veterans
+                        throughout the local communities.
                     </p>
-                    <p style="margin-bottom: 1.5em"><strong>Bottom line</strong> – Again, we would like to thank all our art-lover friends who have
-been with us while we are living the dream! We have worked hard to make
-Bedford Fine Art Gallery the most honest art gallery in the world. We have said it
-before, but it is needs to be said again – are customers are the best! We feel very
-honored when our customers share their many experiences with us, through their
-testimonials that we post on the website. Thank you.</p>
+                    <p style="margin-bottom: 1.5em">
+                        <strong>Bottom line</strong> – Again, we would like to thank all our art-lover friends who have
+                        been with us while we are living the dream! We have worked hard to make Bedford Fine Art Gallery
+                        the most honest art gallery in the world. We have said it before, but it is needs to be said
+                        again – are customers are the best! We feel very honored when our customers share their many
+                        experiences with us, through their testimonials that we post on the website. Thank you.
+                    </p>
                 </div>
                 <div>
-<CustomerSlidingImages />
+                    <CustomerSlidingImages />
                 </div>
 
-                <div class="col_40 artwork" style="display: none;">
+                <div class="col_40 artwork" style="display: none">
                     <div class="video-container2" style="clear: both; margin-bottom: 1.5em">
-                    <YouTubeVideo link="https://www.youtube.com/embed/AJdfGyGnrAw?rel=0"/>
-
+                        <YouTubeVideo link="https://www.youtube.com/embed/AJdfGyGnrAw?rel=0" />
                     </div>
 
                     <div class="video-container2" style="clear: both">
-                    <YouTubeVideo link="https://www.youtube.com/embed/UlgTd5n_CEE?rel=0"/>
-
+                        <YouTubeVideo link="https://www.youtube.com/embed/UlgTd5n_CEE?rel=0" />
                     </div>
                     <!--<nuxt-img provider="cloudinary" class="art_detail" src="images/gallery_logo.jpg" width="798" height="515" alt="Bedford Fine Art Gallery "/>-->
 
@@ -89,8 +84,7 @@ testimonials that we post on the website. Thank you.</p>
                         Take a virtual tour of our gallery
                     </p>
                     <div class="video-container2" style="clear: both">
-                     <YouTubeVideo link="https://www.youtube.com/embed/3asJzvyy-ZQ?rel=0"/>
-
+                        <YouTubeVideo link="https://www.youtube.com/embed/3asJzvyy-ZQ?rel=0" />
                     </div>
 
                     <p class="oblique" style="margin-bottom: 1em; margin-top: 1em">
@@ -100,7 +94,7 @@ testimonials that we post on the website. Thank you.</p>
                         <AboutSlidingImages />
                     </div>
                 </div>
-                <div class="col_60 artwork_details" style="display: none;">
+                <div class="col_60 artwork_details" style="display: none">
                     <h4>Commitment</h4>
                     <p>
                         For over 50 years, Bedford has always been considered home. We (Jerry and Joan Hawk), have over
@@ -213,7 +207,7 @@ testimonials that we post on the website. Thank you.</p>
             style="padding-top: 24px; width: 100%; margin: 0px auto; background-color: rgba(16, 88, 185, 1)"
         >
             <section class="wrapper" style="max-width: 860px; margin: auto">
-                <TestimonialsScroll :testimonials="testimonials"/>
+                <TestimonialsScroll :testimonials="testimonials" />
             </section>
         </div>
     </div>
@@ -246,25 +240,26 @@ export default {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.about_slideshow .footer_test .slick-prev::before, .about_slideshow .slick-next::before, .about_slideshow .slick-prev::before, .about_slideshow .slick-next::before {
-  font-family: 'slick';
-  font-size: 20px;
-  line-height: 1;
-  opacity: 0.75;
-  color: black !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.about_slideshow .footer_test .slick-prev::before,
+.about_slideshow .slick-next::before,
+.about_slideshow .slick-prev::before,
+.about_slideshow .slick-next::before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: 0.75;
+    color: black !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 .about_slideshow .artwork img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 .video-container2 {
-
-  margin-left: 0;
-  margin-right: 0;
-  padding-top: 0;
-
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
 }
 </style>
 
