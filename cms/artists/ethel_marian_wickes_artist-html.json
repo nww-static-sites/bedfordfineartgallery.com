@@ -2,5 +2,8 @@
   "hasLandingPage": true,
   "name": "Ethel Marian Wickes",
   "tinyDescription": "American 1872 - 1940",
-  "slug": "ethel_marian_wickes_artist-html"
+  "slug": "ethel_marian_wickes_artist-html",
+  "paintings": [
+    "ethel_marian_wickes_cottage_garden-html"
+  ]
 }

@@ -4,5 +4,8 @@
   "tinyDescription": "Italian/American 1880-1944",
   "slug": "ettore_caser_artist-html",
   "metaTitle": "Ettore Caser: Renowned Victorian Era Artist",
-  "metaDescription": "Explore the works of Ettore Caser, a masterful Victorian era artist celebrated for his detailed and emotive paintings, capturing the essence of 19th-century life."
+  "metaDescription": "Explore the works of Ettore Caser, a masterful Victorian era artist celebrated for his detailed and emotive paintings, capturing the essence of 19th-century life.",
+  "paintings": [
+    "ettore_caser_on_the_pond-html"
+  ]
 }

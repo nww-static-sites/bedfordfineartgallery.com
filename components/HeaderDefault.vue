@@ -19,7 +19,7 @@
                     <li><nuxt-link :to="{ name: 'artists-bios' }">gallery</nuxt-link></li>
                     <li><nuxt-link :to="{ name: 'artists' }">artists</nuxt-link></li>
                     <li><nuxt-link :to="{ name: 'gallery-value' }">about</nuxt-link></li>
-                    <li><nuxt-link :to="{ name: 'highlights' }">articles</nuxt-link></li>
+                    <li><nuxt-link :to="{ name: 'highlights' }">art blog</nuxt-link></li>
                     <li><nuxt-link :to="{ name: 'faq' }">faqs</nuxt-link></li>
 
                     <li><nuxt-link :to="{ name: 'directions' }">visit</nuxt-link></li>
