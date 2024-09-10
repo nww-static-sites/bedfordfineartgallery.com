@@ -1,10 +1,13 @@
 {
-  "hasLandingPage": true,
+  "body": "Samuel S. Carr (1837–1908) was a 19th-century American painter best known for his charming depictions of rural life, particularly scenes of children and animals in pastoral settings. Born in England, Carr immigrated to the United States and established himself as a painter in New York City. His works often featured lively beach scenes, playful groups of children, and rural landscapes that captured the tranquility of the countryside. Carr's attention to detail and ability to convey a sense of innocence and joy made his art highly appealing to the middle-class art market of the time. He also occasionally depicted more whimsical subjects, incorporating farm animals and domestic pets into his compositions, which added to his broad appeal. Today, Carr’s works are celebrated for their nostalgic and serene portrayal of American life during the late 19th century.",
   "name": "Samuel S. Carr",
-  "alias": "S. S. Carr",
-  "tinyDescription": "American 1837 - 1908",
   "slug": "samuel_s_carr_artist-html",
+  "hasLandingPage": true,
   "paintings": [
     "samuel_s_carr_the_hydrangea_bush-html"
-  ]
+  ],
+  "alias": "S. S. Carr",
+  "metaTitle": "Samuel S. Carr - Renowned Victorian Artist",
+  "metaDescription": "Explore the works of Samuel S. Carr, a celebrated Victorian artist known for his detailed depictions of children, animals, and charming landscapes.",
+  "tinyDescription": "American 1837 - 1908"
 }
