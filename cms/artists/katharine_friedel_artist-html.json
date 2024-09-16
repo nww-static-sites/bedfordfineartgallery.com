@@ -1,11 +1,11 @@
 {
   "hasLandingPage": true,
   "name": "Katharine Friedel",
-  "tinyDescription": "American, Mid-20th century",
+  "tinyDescription": "American Mid-20th century",
   "slug": "katharine_friedel_artist-html",
+  "metaTitle": "Katherine Friedel - Mid-20th Century American Artist",
+  "metaDescription": "Meta description Explore the works of Katherine Friedel, a prominent American artist from the mid-20th century. Discover her unique style and contributions to the art world.",
   "paintings": [
     "katharine_friedel_impressionists_view_of_farmstead_in_winter-html"
-  ],
-  "metaTitle": "Katherine Friedel - Mid-20th Century American Artist",
-  "metaDescription": "Explore the works of Katherine Friedel, a prominent American artist from the mid-20th century. Discover her unique style and contributions to the art world."
+  ]
 }
