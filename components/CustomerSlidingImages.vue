@@ -84,12 +84,15 @@
                   <div><nuxt-picture provider="cloudinary" src="/customer-images/78.jpg" /></div>
                   <div><nuxt-picture provider="cloudinary" src="/customer-images/79.jpg" /></div>
                   
-                  
+                  <div><nuxt-picture provider="cloudinary" src="/customer-images/90.jpg" /></div>
                   <div><nuxt-picture provider="cloudinary" src="/customer-images/82.jpg" /></div>
                   <div><nuxt-picture provider="cloudinary" src="/customer-images/83.jpg" /></div>
                   <div><nuxt-picture provider="cloudinary" src="/customer-images/84.jpg" /></div>
                   <div><nuxt-picture provider="cloudinary" src="/customer-images/86.jpg" /></div>
                   <div><nuxt-picture provider="cloudinary" src="/customer-images/87.jpg" /></div>
+                  <div><nuxt-picture provider="cloudinary" src="/customer-images/88.jpg" /></div>
+                  <div><nuxt-picture provider="cloudinary" src="/customer-images/89.jpg" /></div>
+                  
                   
                  
 
