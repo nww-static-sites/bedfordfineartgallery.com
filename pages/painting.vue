@@ -130,6 +130,16 @@
                         </section>
                     </div>
                     <!-- end testimonials desktop -->
+                    <div class="flex_wrap" style="clear: both; padding-top: 5px;">
+                <div style="margin:auto;"><nuxt-img
+                                provider="cloudinary"
+                                src="shipping_options_ijojdq.png"
+                                width="1825"
+                                height="1254"
+                                alt="Bedford Fine Art Gallery Shipping Options"
+                                style="max-width: 800px; margin: auto;"
+                        /></div>
+                </div>
                 </div>
 
                 <div class="col_60 artwork_details">

@@ -179,6 +179,17 @@
                         </div>
                 </div>
 
+                <div class="flex_wrap" style="clear: both; padding-top: 25px; border-bottom: 1px solid #dddd85;padding-bottom: 25px;">
+                <div style="margin:auto;"><nuxt-img
+                                provider="cloudinary"
+                                src="shipping_options_ijojdq.png"
+                                width="1825"
+                                height="1254"
+                                alt="Bedford Fine Art Gallery Shipping Options"
+                                style="max-width: 800px; margin: auto;"
+                        /></div>
+                </div>
+
                 <div class="flex_wrap" style="clear: both; padding-top: 15px">
                     <div class="flex_3">
                         <h2
