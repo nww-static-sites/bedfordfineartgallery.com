@@ -3,7 +3,7 @@
         <div class="container primary">
             <section class="wrapper clearfix">
                 <div class="artwork_header">
-                    <h1>Artists</h1>
+                    <h1>Featured Victorian Artists</h1>
                     <h2>A few of our featured 19th Century artists</h2>
                     <span class="hr"></span>
                 </div>
