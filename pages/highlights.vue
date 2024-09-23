@@ -3,7 +3,7 @@
         <div class="container primary">
             <section class="wrapper clearfix">
                 <div class="artwork_header">
-                    <h1>Blog Posts</h1>
+                    <h1>Art Blog Posts</h1>
                     <span class="hr"></span>
                 </div>
 
