@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rice_small.jpg",
   "gridImageWidth": 392,
-  "status": "Hold",
+  "status": "Sold",
   "metaTitle": "Bill Rice Painting - Cock Pheasant Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rice_grid.jpg",
   "mediumResImageWidth": 1179,
@@ -27,15 +27,5 @@
   ],
   "gridImageHeight": 261,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rice_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $2,450"
-    }
-  ]
+  "highlights": []
 }
