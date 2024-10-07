@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/clark_sails_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Raymond Carter Sailing Ship Artwork For Sale",
   "mainImageAltText": "Raymond Carter Victorian Art Paintings",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/clark_sails_grid.jpg",
@@ -28,15 +28,5 @@
   ],
   "gridImageHeight": 261,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/clark_sails_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively priced $1,800"
-    }
-  ]
+  "highlights": []
 }
