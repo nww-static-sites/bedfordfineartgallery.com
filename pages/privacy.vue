@@ -1,5 +1,8 @@
 <template>
     <div>
+        <nuxt-link target="_blank" class="join_absolute" :to="{ name: 'art-lovers-niche' }"
+                                >Like our site?  Get our monthly newsletter!</nuxt-link
+                            >
         <div class="container primary">
             <section class="wrapper clearfix">
                 <div class="artwork_header">
@@ -110,6 +113,22 @@ export default {
 
     line-height: 1.8em;
     margin-bottom: 1em;
+}
+.join_absolute {
+    background: #db2222;
+    color: white;
+    padding: 15px 10px;
+    position: fixed;
+    bottom: 1px;
+    right: 10px;
+    width: 300px;
+    display: block;
+    text-align: center;
+    z-index: 9999;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 6px 6px 0px 0px;
+    text-decoration: none;
 }
 </style>
 
