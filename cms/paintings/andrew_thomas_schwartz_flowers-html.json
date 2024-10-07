@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/schwartz_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Andrew Thomas Schwartz - Pink Flowers Painting For Sale",
   "mainImageAltText": "Andrew Thomas Schwartz 19 Century Painting of Flowers",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/schwartz_grid.jpg",
@@ -28,15 +28,5 @@
   ],
   "gridImageHeight": 260,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/schwartz_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $5,250"
-    }
-  ]
+  "highlights": []
 }
