@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/pinknell_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "George W. Picknell - The Clearing Painting For Sale",
   "mainImageAltText": "George W. Picknell Art for Sale - The Clearing",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/pinknell_grid.jpg",
@@ -29,15 +29,5 @@
   ],
   "gridImageHeight": 260,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/pinknell_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $7,500"
-    }
-  ]
+  "highlights": []
 }
