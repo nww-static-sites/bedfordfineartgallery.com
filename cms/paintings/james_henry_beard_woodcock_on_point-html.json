@@ -28,16 +28,5 @@
   ],
   "gridImageHeight": 260,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/woodcock_on_point_original.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $45,000",
-      "pairedPainting": "james_henry_beard_woodcock-html"
-    }
-  ]
+  "highlights": []
 }
