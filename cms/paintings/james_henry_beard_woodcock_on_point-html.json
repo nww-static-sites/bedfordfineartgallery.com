@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/woodcock_on_point_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "James Henry Beard - Woodcock on Point Painting For Sale",
   "mainImageAltText": "James Henry Beard Artwork for Sale - Woodcock on Point",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wc3.jpg",
@@ -28,16 +28,5 @@
   ],
   "gridImageHeight": 260,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/woodcock_on_point_original.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $45,000",
-      "pairedPainting": "james_henry_beard_woodcock-html"
-    }
-  ]
+  "highlights": []
 }
