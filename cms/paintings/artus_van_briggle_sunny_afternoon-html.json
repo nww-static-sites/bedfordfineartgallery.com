@@ -14,7 +14,7 @@
   "youtubeText": "Below is a short video (less than 1 minute) of this painting ",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1678730157/Van_Briggle_Sunny_Afternoon_IMG_1561_sm_cr_fr_xobvec.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "youtubeAltText": "Artus Van Briggle Painting for Sale - Sunny Afternoon",
   "metaTitle": "Artus Van Briggle - Sunny Afternoon Painting For Sale",
   "mainImageAltText": "Artus Van Briggle - Sunny Afternoon Painting For Sale",
@@ -31,15 +31,5 @@
   ],
   "gridImageHeight": 433,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1678730184/Van_Briggle_Sunny_Afternoon_IMG_1561_lrg_cr_fr_gsmnvr.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $18,700"
-    }
-  ]
+  "highlights": []
 }
