@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693929508/bruce-crane-victorian-painting-for-sale-country-stream_unjuuv.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bruce-crane-jpeg-img_0374-sm-cr-fr.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Bruce Crane - Country Stream painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bruce-crane-jpeg-img_0374-zoom-cr.jpg",
   "mediumResImageWidth": 1400,
@@ -26,15 +26,5 @@
   ],
   "gridImageHeight": 257,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bruce-crane-jpeg-img_0374-sm-cr-fr.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively priced  $10,000"
-    }
-  ]
+  "highlights": []
 }
