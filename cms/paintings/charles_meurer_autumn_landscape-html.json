@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695901211/charles-alfred-meurer-artwork-for-sale-autumn-landscape_tpa1c7.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684336492/Meurer_Landscape_IMG_1689_sm_cr_fr_hrabpk.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Charles Alfred Meurer - Autumn Landscape Painting For Sale",
   "mainImageAltText": "Charles Meurer Autumn Landscape Victorian Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684336428/Meurer_Landscape_IMG_1689_zoom_cr_inkra4.jpg",
@@ -27,15 +27,5 @@
   ],
   "gridImageHeight": 272,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684336516/Meurer_Landscape_IMG_1689_lrg_cr_fr_rc2hq7.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $3,800"
-    }
-  ]
+  "highlights": []
 }
