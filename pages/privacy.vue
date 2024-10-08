@@ -1,8 +1,7 @@
 <template>
     <div>
-        <nuxt-link target="_blank" class="join_absolute" :to="{ name: 'art-lovers-niche' }"
-                                >Like our site?  Get our monthly newsletter!</nuxt-link
-                            >
+        <a class="join_absolute" href="https://www.bedfordfineartgallery.com/art_lovers_niche.htm" target="_blank" rel="noopener">Like our site?  Get our monthly newsletter!</a>
+        
         <div class="container primary">
             <section class="wrapper clearfix">
                 <div class="artwork_header">

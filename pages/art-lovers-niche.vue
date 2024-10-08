@@ -29,8 +29,9 @@
                             action="https://accept.nittanyweb.com/remote_add_name.cgi"
                             method="post"
                             name="remsform"
+                            style="display:flex; justify-content: space-evenly;"
                         >
-                            <input id="e" type="text" placeholder="Email Address" name="e" />
+                            <input id="e" type="text" placeholder="Email Address" name="e" style="flex:1;" />
                             <input id="m2" name="m" type="hidden" value="88" />
                             <input id="l2" name="l" type="hidden" value="1263" />
                             <input
