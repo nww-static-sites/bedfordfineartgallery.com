@@ -9,7 +9,7 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1694020549/joseph-henry-hatfiled-painting-for-sale-bridge-over-a-rocky-new-england-creek_kj322m.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1692724204/Hatfield_over_rocky_new_england_IMG_1927_sm_cr_fr_pnpexz.jpg",
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Joseph Henry Hatfield Victorian Painting For Sale",
   "mainImageAltText": "Joseph Henry Victorian Painting - Bridge Over a Rocky New England Creek",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1692724173/Hatfield_over_rocky_new_england_IMG_1927_zoom_cr_dyr2mv.jpg",
@@ -21,15 +21,5 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1692724236/Hatfield_over_rocky_new_england_IMG_1927_sm_cr_fr_ljmkot.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $4,800"
-    }
-  ]
+  "highlights": []
 }

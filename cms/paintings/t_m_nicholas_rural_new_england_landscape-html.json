@@ -9,7 +9,7 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1708806825/Nicholas_AP_lsve8x.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1708806668/Nicholas_IMG_2135_zoom_cr_n3rvnp.jpg",
-  "status": "New",
+  "status": "Sold",
   "metaTitle": "Thomas M. Nicholas - New England Landscape Artistry",
   "mainImageAltText": "Thomas Michael Nicholas - Rural New England Landscape Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1708806668/Nicholas_IMG_2135_zoom_cr_n3rvnp.jpg",
@@ -21,15 +21,5 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1708806797/Nicholas_IMG_2135_lrg_cr_fr_lzoz4r.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $4,600"
-    }
-  ]
+  "highlights": []
 }

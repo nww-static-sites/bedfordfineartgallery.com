@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/meakin_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Lewis Henry Meakin - Cape Ann Shore Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/meakin_grid.jpg",
   "mediumResImageWidth": 1246,
@@ -27,15 +27,5 @@
   ],
   "gridImageHeight": 260,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/meakin_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $14,000"
-    }
-  ]
+  "highlights": []
 }

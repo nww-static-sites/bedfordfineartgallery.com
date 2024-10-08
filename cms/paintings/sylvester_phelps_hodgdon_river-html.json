@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0389-m.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Sylvester Phelps Hodgdon - River Landscape in Autumn, 1857",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0389-sm.jpg",
   "mediumResImageWidth": 1551,
@@ -27,15 +27,5 @@
   ],
   "gridImageHeight": 261,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0389.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $5,900"
-    }
-  ]
+  "highlights": []
 }
