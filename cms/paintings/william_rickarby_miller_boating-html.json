@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/william_rickarby_miller_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "William Rickarby Miller - The Boating Party Painting",
   "mainImageAltText": "William Rickarby Miller Victorian Art for Sale - The Boating Party",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/william_rickarby_miller_grid.jpg",
@@ -29,15 +29,5 @@
   ],
   "gridImageHeight": 260,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/william_rickarby_miller_original.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $4,900"
-    }
-  ]
+  "highlights": []
 }
