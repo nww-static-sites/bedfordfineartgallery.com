@@ -2213,4 +2213,21 @@ margin: 0px auto 15px auto;
   
  }
 
+ .join_absolute {
+    background: #db2222;
+    color: white;
+    padding: 15px 10px;
+    position: fixed;
+    bottom: 1px;
+    right: 10px;
+    width: 300px;
+    display: block;
+    text-align: center;
+    z-index: 9999;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 6px 6px 0px 0px;
+    text-decoration: none;
+}
+
 

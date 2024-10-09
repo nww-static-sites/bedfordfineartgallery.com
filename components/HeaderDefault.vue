@@ -1,5 +1,6 @@
 <template>
     <div class="containerNav compliment">
+        <a class="join_absolute" href="https://www.bedfordfineartgallery.com/art_lovers_niche.htm" target="_blank" rel="noopener">Like our site?  Get our monthly newsletter!</a>
         <section class="wrapper clearfix">
             <header>
                 <div class="logo">
