@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barney_trees_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "youtubeAltText": "Frank A. Barney - Impression of Fir Trees ",
   "metaTitle": "Frank A. Barney - Impression of Fir Trees Painting For Sale",
   "mainImageAltText": "Frank A. Barney - Impression of Fir Trees ",
@@ -31,15 +31,5 @@
   ],
   "gridImageHeight": 261,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barney_trees_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $2,900"
-    }
-  ]
+  "highlights": []
 }
