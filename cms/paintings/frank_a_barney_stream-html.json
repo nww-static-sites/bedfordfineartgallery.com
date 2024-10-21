@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barney_stream_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Frank A. Barney - Stream in Landscape Painting For Sale",
   "mainImageAltText": "Frank A. Barney 19th Century Art for Sale - Stream in Landscape",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barney_stream_grid.jpg",
@@ -28,15 +28,5 @@
   ],
   "gridImageHeight": 261,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/barney_stream_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $4,000"
-    }
-  ]
+  "highlights": []
 }
