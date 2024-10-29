@@ -20,6 +20,18 @@ export default {
             category,
         }
     },
+    head() {
+        return {
+            title: 'Victorian Still Life Artwork for Sale – Elegant Masterpieces',
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: 'Discover Victorian still life artwork for sale, showcasing intricate details and timeless beauty. Perfect for collectors seeking classic compositions.',
+                },
+            ],
+        }
+    },
 }
 </script>
 
