@@ -22,5 +22,15 @@
   "categories": [],
   "gridImageHeight": 260,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1730758566/Leavitt_Still_life_with_Grapes_IMG_2323_lrg_cr_fr_kkq3ey.jpg",
-  "highlights": []
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively priced: $6,000"
+    }
+  ]
 }
