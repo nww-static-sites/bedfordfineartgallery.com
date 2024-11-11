@@ -2,5 +2,8 @@
   "hasLandingPage": true,
   "name": "Gustav Wolff",
   "tinyDescription": "American 1863 – 1935",
-  "slug": "gustave_wollf_artist-html"
+  "slug": "gustave_wollf_artist-html",
+  "paintings": [
+    "gustav_wolff_woman_on_sunlit_path-html"
+  ]
 }
