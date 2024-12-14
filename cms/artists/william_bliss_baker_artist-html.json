@@ -2,5 +2,8 @@
   "hasLandingPage": true,
   "name": "William Bliss Baker",
   "tinyDescription": "American 1859 - 1886",
-  "slug": "william_bliss_baker_artist-html"
+  "slug": "william_bliss_baker_artist-html",
+  "paintings": [
+    "william_bliss_baker_sstream_through_a_bog-html"
+  ]
 }
