@@ -9,7 +9,7 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722262325/sonntag_shelbourne_nh_ap_imcx7x.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722262237/Sonntag_Millbrook_Near_Shelbourne_New_Hampshire_IMG_2261_sm_cr_fr_yukzey.jpg",
-  "status": "New",
+  "status": "Sold",
   "metaTitle": "William Sonntag's Millbrook Near Shelbourne Masterpiece",
   "mainImageAltText": "William Sonntag's Millbrook Near Shelbourne Masterpiece",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722262172/Sonntag_Millbrook_Near_Shelbourne_New_Hampshire_IMG_2261_zoom_cr_ne1mfo.jpg",
@@ -21,15 +21,5 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722262288/Sonntag_Millbrook_Near_Shelbourne_New_Hampshire_IMG_2261_lrg_cr_fr_pjf1k7.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $10,600"
-    }
-  ]
+  "highlights": []
 }
