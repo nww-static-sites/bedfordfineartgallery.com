@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695309391/john-paul-strain-paintings-for-sale-teepees-at-sunset_irpzp1.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1683988700/Strain_Teepees_at_Sunset_IMG_1717_sm_cr_fr_kbuwl7.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "John Paul Strain - Teepees At Sunset Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1683988657/Strain_Teepees_at_Sunset_IMG_1717_zoom_cr_mjdrrz.jpg",
   "mediumResImageWidth": 1400,
@@ -26,15 +26,5 @@
   ],
   "gridImageHeight": 330,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1683988815/Strain_Teepees_at_Sunset_IMG_1717_lrg_cr_fr_j09iny.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $6,000"
-    }
-  ]
+  "highlights": []
 }
