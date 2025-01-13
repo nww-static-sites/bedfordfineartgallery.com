@@ -9,7 +9,7 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1721488756/conkey_sundown_ap_wvrvfh.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1721488688/Conkey_IMG_2247-Color_sm_cr_fr_ivsvb9.jpg",
-  "status": "Hold",
+  "status": "Sold",
   "metaTitle": "Samuel Conkey: 19th Century Sundown Painting for Sale",
   "mainImageAltText": "Samuel Conkey: 19th Century Sundown Painting for Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1721488655/Conkey_IMG_2247-Color_zoom_cr_fa2xzc.jpg",
@@ -21,15 +21,5 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1721488716/Conkey_IMG_2247-Color_lrg_cr_fr_hr4o6c.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $2,800"
-    }
-  ]
+  "highlights": []
 }
