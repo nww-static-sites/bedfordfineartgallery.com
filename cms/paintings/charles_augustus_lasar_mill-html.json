@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4289_small.jpg",
   "gridImageWidth": 392,
-  "status": "Hold",
+  "status": "Sold",
   "metaTitle": "Charles Augustus -The Old Mill at Salleport England Painting",
   "mainImageAltText": "Charles Augustus Lasar 19th Century Art for Sale - The Old Mill at Salleport England",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4289_grid.jpg",
@@ -29,15 +29,5 @@
   ],
   "gridImageHeight": 260,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4289_original.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $4,500"
-    }
-  ]
+  "highlights": []
 }
