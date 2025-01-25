@@ -8,7 +8,7 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1700945541/Beauregard_greeting_the_sheep_IMG_2058_AP_1_rhtf9v.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1700936389/Beauregard_greeting_the_sheep_IMG_2058_sm_cr_fr_xnz2mm.jpg",
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Charles Grant Beauregard - Greeting the Sheep Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1700936282/Beauregard_greeting_the_sheep_IMG_2058_zoom_cr_pdxvia.jpg",
   "metaDescription": "Charles Grant Beauregard, American Artist From 1856 - 1919 - Greeting the Sheep Oil On Canvas Painting for Sale - 15.25 x 22.25 Inches - Signed Lower Left",
@@ -20,15 +20,5 @@
     "Animal"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1700936448/Beauregard_greeting_the_sheep_IMG_2058_lrg_cr_fr_fvif9j.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $3,987"
-    }
-  ]
+  "highlights": []
 }
