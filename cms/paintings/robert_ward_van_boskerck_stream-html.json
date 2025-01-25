@@ -15,7 +15,7 @@
   "youtubeText": "Below is a short video (less than 1 minute) of this painting ",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/van_boskerck_stream_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "youtubeAltText": "Robert Ward Van Boskerck 19th Century Paintings for Sale - Rocky New England Stream",
   "metaTitle": "Robert Ward Van Boskerck - Rocky New England Stream Painting",
   "mainImageAltText": "Robert Ward Van Boskerck 19th Century Paintings for Sale - Rocky New England Stream",
@@ -31,15 +31,5 @@
   ],
   "gridImageHeight": 261,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/van_boskerck_stream_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $3,200"
-    }
-  ]
+  "highlights": []
 }
