@@ -9,7 +9,7 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1721401197/johns_horse_power_ap1_h33nw8.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1721400328/Johns_Horse_Power_at_the_Water_Pump_IMG_2240-1_sm_cr_fr_hgqgf4.jpg",
-  "status": "Hold",
+  "status": "Sold",
   "metaTitle": "Clarence Marshall Johns: Horse Power at the Water Well",
   "mainImageAltText": "Clarence Marshall Johns: Horse Power at the Sweep",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1721400291/Johns_Horse_Power_at_the_Water_Pump_IMG_2240-1_zoom_cr_ryywjh.jpg",
@@ -21,15 +21,5 @@
     "Animal"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1721400354/Johns_Horse_Power_at_the_Water_Pump_IMG_2240-1_lrg_cr_fr_u2lhbf.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $8,253"
-    }
-  ]
+  "highlights": []
 }
