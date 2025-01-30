@@ -11,7 +11,7 @@
   "youtubeEmbedLink": "https://youtube.com/embed/O9PuYLmlV7I?rel=0",
   "youtubeText": "Below is a short video (less than 1 minute) of this painting",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1703094035/Beauregard_grazing_sheep_stone_wall_IMG_2076_sm_cr_fr_pjprrx.jpg",
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Charles Grant Beauregard - Grazing Sheep by Stone Wall Art",
   "mainImageAltText": "Charles Grant Beauregard - Grazing Sheep by Stone Wall Art",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1703093949/Beauregard_grazing_sheep_stone_wall_IMG_2076_zoom_cr_zvhnjf.jpg",
@@ -24,15 +24,5 @@
     "Animal"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1703094088/Beauregard_grazing_sheep_stone_wall_IMG_2076_lrg_cr_fr_rki9rc.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $3,915"
-    }
-  ]
+  "highlights": []
 }
