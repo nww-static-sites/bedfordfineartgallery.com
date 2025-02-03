@@ -9,7 +9,7 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1711740689/Poole_Autumn_Path_1_ajloke.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1711740625/Poole_Autumn_Path_IMG_2154_sm_cr_fr_td46aw.jpg",
-  "status": "Hold",
+  "status": "Sold",
   "metaTitle": "Eugene Poole's Autumn Path: Victorian Elegance",
   "mainImageAltText": "Eugene Poole's Autumn Path Victorian Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1711740554/Poole_Autumn_Path_IMG_2154_zoom_cr_tmbikb.jpg",
@@ -21,15 +21,5 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1711740653/Poole_Autumn_Path_IMG_2154_lrg_cr_fr_sl5m7x.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $3,563"
-    }
-  ]
+  "highlights": []
 }

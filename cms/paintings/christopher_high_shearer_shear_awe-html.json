@@ -8,21 +8,13 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1732994667/shear_awe_ap_xpvwzj.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1732994576/Shear_shear_Awe_IMG_2380_sm_cr_fr_ybuesf.jpg",
-  "status": "Hold",
+  "status": "Sold",
+  "metaTitle": "Christopher High Shearer Victorian Painting for Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1732994523/Shear_shear_Awe_IMG_2380_zoom_cr_japgor.jpg",
+  "metaDescription": "Own a piece of history with a Victorian painting by Christopher High Shearer. His stunning landscapes capture the beauty of nature, available now for collectors",
   "scrollingHomepageImage": false,
   "title": "Shear Awe",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1732994483/Shear_shear_Awe_IMG_2380_full_gall_cr_vatoya.jpg",
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1732994601/Shear_shear_Awe_IMG_2380_lrg_cr_fr_rzj8qv.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $5,980"
-    }
-  ]
+  "highlights": []
 }
