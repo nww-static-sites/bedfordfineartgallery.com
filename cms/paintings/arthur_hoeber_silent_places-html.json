@@ -23,5 +23,15 @@
   "categories": [],
   "gridImageHeight": 260,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1739376773/Hoeber_The_Silent_Places_lrg_cr_fr_IMG_4342_xbsczp.jpg",
-  "highlights": []
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively priced $20,000"
+    }
+  ]
 }
