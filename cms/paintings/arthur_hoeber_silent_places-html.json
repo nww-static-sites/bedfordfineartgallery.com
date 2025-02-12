@@ -1,17 +1,18 @@
 {
-  "paintingWidth": 1,
+  "paintingWidth": 38,
   "body": "Arthur Hoeber was born in Nutley, New Jersey.  Having a natural aptitude for sketching and as a water colorist, he took evening classes in art at Cooper Union, then with James Carrolll Beckwith at the Art Students League in New York City.\n\nIn 1851 he obtained a letter of introduction to British painter Sir John Millais, a well-known landscape painter and founder of the Pre-Raphaelite Brotherhood.  Millais encouraged him to go to France where he attended the Ecoles des Beaux Arts in Paris and studied under Jean Leon Gerome, the celebrated historical painter.  During his tenure in France, he studied privately under French Academic painter Gustave Courtois.\n\nHis artistic skills were highly regarded in Paris so much so that he was juried into the 1882 Paris Salon, where he continued to exhibit until 1885.  He returned to New York City and concentrated on painting tidal wetlands in Cape Cod, New Jersey and Long Island.\n\nHis style can be characterized as “Tonalist”, a style that was derived from the French Barbizon Style in which the colors and composition are designed to create mood and atmosphere.  Hoeber titled his paintings using the location, season or time of day where it was painted.\n\n“The Quiet Places” exemplifies the best elements of Hoeber’s Tonalist style.  The neutral colors and emphasis on light and atmosphere demand that you retreat to this place of solitude for a moment of escape.\n\nHoeber returned to Nutley, New Jersey and moved into the artist’s colony there.  He was a recognized art critic and wrote for *The New York Times*, *New York Post* and *Harper’s weekly*.\n\nHoeber was also a noted author and wrote a number of art books including, “Famous American Women Artists”, “The Barbizon Painters’ and “American Sea Painting”. \n\nHis works can be seen at the Newark Museum, the Hudson River Museum, the Georgia Museum of Art and the Washington County Museum of Fine Arts.",
   "artist": "arthur_hoeber_artwork-html",
   "artOnWallAltText": "Arthur Hoeber - The Silent Places Painting For Sale",
-  "paintingHeight": 2,
+  "paintingHeight": 45,
   "slug": "arthur_hoeber_silent_places-html",
   "dimensions": "Oil on canvas, 29 x 24 inches / Signed lowr right",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1739381104/hoeber_silent_places2_ap_ttpho7.jpg",
   "metaKeywords": "Arthur Hoeber, American, 1854  1915, 19th century artist, The Silent Places, Oil on canvas, landscape, landscape artwork, artist, paintings, artwork,art work, painting, art, Bedford Fine Art Gallery, fine art, art gallery ",
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hoeber.jpg",
   "gridImageWidth": 392,
-  "status": "Sold",
+  "status": "New",
   "metaTitle": "Arthur Hoeber - The Silent Places Painting For Sale",
   "mainImageAltText": "Arthur Hoeber - The Silent Places Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/hoeber_grid.jpg",
@@ -19,8 +20,21 @@
   "mediumResImageHeight": 888,
   "metaDescription": "Arthur Hoeber, American Artist From 1854-1915 - The Silent Places Oil On Canvas Painting For Sale - 29x24 Inches - Signed Lower Right.",
   "title": "The Silent Places",
-  "categories": [],
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1739376689/Hoeber_The_Silent_Places_IMG_4342_full_gall_cr_A_fynhxw.jpg",
+  "categories": [
+    "Landscape"
+  ],
   "gridImageHeight": 260,
-  "highResImage": "",
-  "highlights": []
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1739376773/Hoeber_The_Silent_Places_lrg_cr_fr_IMG_4342_xbsczp.jpg",
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively priced $20,000"
+    }
+  ]
 }
