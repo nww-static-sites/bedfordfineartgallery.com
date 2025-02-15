@@ -24,5 +24,15 @@
     "Animal"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1703094088/Beauregard_grazing_sheep_stone_wall_IMG_2076_lrg_cr_fr_rki9rc.jpg",
-  "highlights": []
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively priced $3,915 "
+    }
+  ]
 }
