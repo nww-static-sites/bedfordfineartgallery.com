@@ -9,7 +9,7 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1730732539/wtr_smith_mcconnellstown_ap_dh4jki.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1730732452/Russell_Smith_McConnellstown_PA_IMG_2331_sm_cr_fr_yylpgx.jpg",
-  "status": "New",
+  "status": "Sold",
   "youtubeAltText": "William Thompson Russell Smith McConnels Town Painting",
   "metaTitle": "William Thompson Russell Smith McConnels Town Painting",
   "mainImageAltText": "William Thompson Russell Smith McConnels Town Painting",
@@ -22,15 +22,5 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1730732481/Russell_Smith_McConnellstown_PA_IMG_2331_lrg_cr_fr_xr1gcm.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $7,200"
-    }
-  ]
+  "highlights": []
 }
