@@ -5,10 +5,15 @@
   "slug": "essie_lucas_vaila_blossom_time_bradley_painting-html",
   "dimensions": "Oil on canvas, 30 x 39.25/Signed lower left",
   "featured": false,
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1740249611/lucas_vaila_blossom_bradley_ap1_zyfot8.jpg",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1740249569/Lucas_Vaila_Blssom_Bradley_IMG_2415_sm_cr_fr_wuq4gc.jpg",
   "status": "None",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1740249538/Lucas_Vaila_Blssom_Bradley_IMG_2415_zoom_cr_cjjgja.jpg",
   "scrollingHomepageImage": false,
   "title": "Vaila, Blossom Time, Bradley's Peggy",
-  "tinyDescription": "On the Kentucky Farm of E. R. Bradley",
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1740249515/Lucas_Vaila_Blssom_Bradley_IMG_2415_full_gall_cr_c2bhzo.jpg",
+  "tinyDescription": "Kentucky Farm of E. R. Bradley",
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1740249588/Lucas_Vaila_Blssom_Bradley_IMG_2415_lrg_cr_fr_vvlfem.jpg",
   "highlights": [
     {
       "highlight": "Available for purchase"
@@ -17,10 +22,7 @@
       "highlight": "Professionally conserved and framed"
     },
     {
-      "highlight": "Competitively Priced $X,XXX"
-    },
-    {
-      "highlight": "Custom framing available"
+      "highlight": "Competitively Priced $9,275"
     }
   ]
 }
