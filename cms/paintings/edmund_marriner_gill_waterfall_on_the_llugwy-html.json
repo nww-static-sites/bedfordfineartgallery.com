@@ -8,7 +8,7 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1740152455/gill_waterfall_llugwy_ap_weeo4p.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1740150905/Gill_IMG_2400_RAW_sm_cr_fr_use_ayrtfj.jpg",
-  "status": "New",
+  "status": "Sold",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1740150873/Gill_IMG_2400_RAW_zoom_cr_xln0d5.jpg",
   "scrollingHomepageImage": false,
   "title": "Waterfall on the LLugwy",
@@ -17,18 +17,5 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1740150940/Gill_IMG_2400_RAW_lrg_cr_fr_use_iwpr0w.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $3,217"
-    },
-    {
-      "highlight": "Custom framing available"
-    }
-  ]
+  "highlights": []
 }
