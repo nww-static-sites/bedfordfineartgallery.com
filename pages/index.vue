@@ -5,36 +5,35 @@
                 <div class="home_grid_3">
                     <div class="flex_home_logo_2">
                         <div>
-                                    <nuxt-img
-                                        provider="cloudinary"
-                                        loading="lazy"
-                                        class="home_lead_img"
-                                        src="/gallery-sliding-images/gallery_exterior_homepage.jpg"
-                                        width="1200"
-                                        height="800"
-                                        alt="Bedford Fine Art Gallery"
-                                    />
-                                </div>
-                                <div class="logo_flex_sub">
-                                <div>
-                                    <nuxt-img
-                                        provider="cloudinary"
-                                        loading="lazy"
-                                        class="home_logo"
-                                        src="/logo.png"
-                                        width="123"
-                                        height="124"
-                                        alt="19th Century Paintings"
-                                    />
-                                </div>
-                                <div>
-                                    <h2 class="home_tagline">The most honest art gallery in the world</h2>
-                                </div>
+                            <nuxt-img
+                                provider="cloudinary"
+                                loading="lazy"
+                                class="home_lead_img"
+                                src="/gallery-sliding-images/gallery_exterior_homepage.jpg"
+                                width="1200"
+                                height="800"
+                                alt="Bedford Fine Art Gallery"
+                            />
+                        </div>
+                        <div class="logo_flex_sub">
+                            <div>
+                                <nuxt-img
+                                    provider="cloudinary"
+                                    loading="lazy"
+                                    class="home_logo"
+                                    src="/logo.png"
+                                    width="123"
+                                    height="124"
+                                    alt="19th Century Paintings"
+                                />
                             </div>
+                            <div>
+                                <h2 class="home_tagline">The most honest art gallery in the world</h2>
                             </div>
+                        </div>
+                    </div>
                     <div>
                         <div>
-                          
                             <div style="display: block; width: 100%; padding-top: 0px">
                                 <nuxt-img
                                     provider="cloudinary"
@@ -73,9 +72,6 @@
                                 >
                             </div>
                         </div>
-
-
-                 
                     </div>
                 </div>
                 <div style="padding-bottom: 24px" class="sliding_features">
@@ -113,7 +109,6 @@
 
         <div class="container primary" style="padding-top: 32px">
             <section class="wrapper">
-             
                 <div class="home_sales">
                     <p class="home_thumbnails" style="color: rgba(16, 88, 185, 1); text-align: center">
                         Bedford Fine Art Gallery is your best resource for finding paintings with that "wow factor",
@@ -137,57 +132,59 @@
                     <SoldSlidingImages />
                 </div>
 
-
                 <div class="home_grid_2 sub_flex">
+                    <div>
+                        <ul>
+                            <li>We have 34 years' experience and our art is the best-of-the-best</li>
+                            <li>
+                                For art lovers who are dissatisfied with the current way to purchase fine art, we
+                                provide new solutions to find what you truly love.
+                            </li>
+                            <li>
+                                Unlike one-trick pony galleries that have high overhead and pushy sales techniques, we
+                                do not put any pressure on you or push you into art you may not love.
+                            </li>
+                        </ul>
+                    </div>
 
                     <div>
-                            <ul>
-                                <li>We have 34 years' experience and our art is the best-of-the-best</li>
-                                <li>
-                                    For art lovers who are dissatisfied with the current way to purchase fine art, we
-                                    provide new solutions to find what you truly love.
-                                </li>
-                                <li>
-                                    Unlike one-trick pony galleries that have high overhead and pushy sales techniques,
-                                    we do not put any pressure on you or push you into art you may not love.
-                                </li>
-                            </ul>
-                        </div>
-
-                        
-                        <div>
-                            <div style="max-width: 550px; margin: auto">
-                                <div class="video-container">
-                                    <iframe
-                                        src="https://www.youtube.com/embed/xQjafbqEYWI?playlist=xQjafbqEYWI&loop=1&rel=0&autoplay=1&mute=1&controls=0&showinfo=0"
-                                        frameborder="0"
-                                        allowfullscreen
-                                    ></iframe>
-                                </div>
-                            </div>
-                            <div class="breadcrumb" style="margin-top: 10px">
-                                <nuxt-link
-                                    :to="{ name: 'art-lovers-niche' }"
-                                    style="display: block; width: 100%"
-                                    class="content_btn home_btn_small"
-                                    ><span class="btn_text_break"
-                                        >BECOME AN ART LOVERS' NICHE INSIDER! MONTHLY TREASURES STRAIGHT TO YOUR
-                                        INBOX!</span
-                                    ></nuxt-link
-                                >
+                        <div style="max-width: 550px; margin: auto">
+                            <div class="video-container">
+                                <iframe
+                                    src="https://www.youtube.com/embed/xQjafbqEYWI?playlist=xQjafbqEYWI&loop=1&rel=0&autoplay=1&mute=1&controls=0&showinfo=0"
+                                    frameborder="0"
+                                    allowfullscreen
+                                ></iframe>
                             </div>
                         </div>
+                        <div class="breadcrumb" style="margin-top: 10px">
+                            <nuxt-link
+                                :to="{ name: 'art-lovers-niche' }"
+                                style="display: block; width: 100%"
+                                class="content_btn home_btn_small"
+                                ><span class="btn_text_break"
+                                    >BECOME AN ART LOVERS' NICHE INSIDER! MONTHLY TREASURES STRAIGHT TO YOUR
+                                    INBOX!</span
+                                ></nuxt-link
+                            >
+                        </div>
+                    </div>
                 </div>
 
-                <div class="flex_wrap" style="clear: both; padding-top: 25px; border-bottom: 1px solid #dddd85;padding-bottom: 25px;">
-                <div style="margin:auto;"><nuxt-img
-                                provider="cloudinary"
-                                src="shipping_options_ijojdq.png"
-                                width="1825"
-                                height="1254"
-                                alt="Bedford Fine Art Gallery Shipping Options"
-                                style="max-width: 800px; margin: auto;"
-                        /></div>
+                <div
+                    class="flex_wrap"
+                    style="clear: both; padding-top: 25px; border-bottom: 1px solid #dddd85; padding-bottom: 25px"
+                >
+                    <div style="margin: auto">
+                        <nuxt-img
+                            provider="cloudinary"
+                            src="shipping_options_ijojdq.png"
+                            width="1825"
+                            height="1254"
+                            alt="Bedford Fine Art Gallery Shipping Options"
+                            style="max-width: 800px; margin: auto"
+                        />
+                    </div>
                 </div>
 
                 <div class="flex_wrap" style="clear: both; padding-top: 15px">
@@ -272,10 +269,11 @@
                     <div class="flex_3">
                         <div class="breadcrumb" style="margin-top: 0">
                             <nuxt-link
-                                    :to="{ name: 'art-lovers-niche' }"
-                                    style="display: block; width: 100%"
-                                    class="home_btn_small"
-                                    >Get more of Bedford Fine<br />Art Gallery! Subscribe</nuxt-link>
+                                :to="{ name: 'art-lovers-niche' }"
+                                style="display: block; width: 100%"
+                                class="home_btn_small"
+                                >Get more of Bedford Fine<br />Art Gallery! Subscribe</nuxt-link
+                            >
                         </div>
                     </div>
 
@@ -494,13 +492,34 @@
 
                 <div class="as_seen_in">
                     <div>American Art Review</div>
-                    <div><a href="https://pittsburghquarterly.com/articles/the-business-of-art-fall-2015/" target="_blank" style="color: #5f5f5f; text-decoration:none;">Pittsburgh Quarterly</a></div>
+                    <div>
+                        <a
+                            href="https://pittsburghquarterly.com/articles/the-business-of-art-fall-2015/"
+                            target="_blank"
+                            style="color: #5f5f5f; text-decoration: none"
+                            >Pittsburgh Quarterly</a
+                        >
+                    </div>
                     <div>Carnegie Magazine</div>
                     <div>Johnstown Magazine</div>
                     <div>Elan Magazine</div>
                     <div>Allegany Magazine</div>
-                    <div><a href="https://www.bedfordgazette.com/news/local/bedford-fine-art-gallery/article_0a815ab0-f4b9-5d06-bacf-b3471c94a451.html" target="_blank" style="color: #5f5f5f; text-decoration:none;">Bedford Gazette</a></div>
-                    <div><a href="https://www.nytimes.com/2023/11/12/style/auguste-toulmouche-hesitant-fiancee-tiktok.html" target="_blank" style="color: #5f5f5f; text-decoration:none;">New York Times</a></div>
+                    <div>
+                        <a
+                            href="https://www.bedfordgazette.com/news/local/bedford-fine-art-gallery/article_0a815ab0-f4b9-5d06-bacf-b3471c94a451.html"
+                            target="_blank"
+                            style="color: #5f5f5f; text-decoration: none"
+                            >Bedford Gazette</a
+                        >
+                    </div>
+                    <div>
+                        <a
+                            href="https://www.nytimes.com/2023/11/12/style/auguste-toulmouche-hesitant-fiancee-tiktok.html"
+                            target="_blank"
+                            style="color: #5f5f5f; text-decoration: none"
+                            >New York Times</a
+                        >
+                    </div>
                 </div>
             </section>
         </div>
@@ -954,6 +973,53 @@
     </div>
 </template>
 
+<script setup>
+import { useHead } from '#imports';
+
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Bedford Fine Art Gallery",
+        "image": "https://res.cloudinary.com/dg6smdedp/image/upload/f_auto,q_auto,w_123,h_124/logo.png",
+        "@id": "",
+        "url": "https://bedfordfineartgallery.com",
+        "telephone": "724-459-0612",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "230 South Juliana St.",
+          "addressLocality": "Bedford",
+          "addressRegion": "PA",
+          "postalCode": "15522",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 40.0160567,
+          "longitude": -78.5039377
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "10:00",
+          "closes": "17:00"
+        }
+      })
+    }
+  ]
+});
+</script>
+
 <script>
 import ArtworkSlidingImages from '~/components/ArtworkSlidingImages'
 import ArtworkSlidingImagesHome from '~/components/ArtworkSlidingImagesHome'
@@ -988,7 +1054,16 @@ const kebabize = (str) => {
 }
 export default {
     name: 'App',
-    components: { ArtworkSlidingImages, ArtworkSlidingImagesHome, GallerySlidingImages, CustomerSlidingImages, SoldSlidingImages, SoldSlidingImagesMobile, TestimonialsScroll, YouTubeVideo },
+    components: {
+        ArtworkSlidingImages,
+        ArtworkSlidingImagesHome,
+        GallerySlidingImages,
+        CustomerSlidingImages,
+        SoldSlidingImages,
+        SoldSlidingImagesMobile,
+        TestimonialsScroll,
+        YouTubeVideo,
+    },
     async asyncData({ $content }) {
         return {
             scrollingHomepageImages: await loadGalleryPaintings({
@@ -1180,22 +1255,19 @@ export default {
     }
 }
 
-
 .home_grid_2 {
-display: grid;
-grid-template-columns: 1fr;
-gap: 1rem;
-margin-top: 2rem;
-background-color: #ededd6;
-padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+    background-color: #ededd6;
+    padding: 1rem;
 }
 
 @media screen and (min-width: 700px) {
-.home_grid_2 {
-
-grid-template-columns: 2fr 1fr;
-
-}
+    .home_grid_2 {
+        grid-template-columns: 2fr 1fr;
+    }
 }
 
 .home_grid_3 {
@@ -1203,20 +1275,18 @@ grid-template-columns: 2fr 1fr;
     gap: 1rem;
     margin-bottom: 2rem;
     background-color: #ededd6;
-padding: 1rem;
-align-items: center;
+    padding: 1rem;
+    align-items: center;
 }
 @media screen and (min-width: 700px) {
-.home_grid_3 {
-
-grid-template-columns: 1fr 1fr 1fr;
-
-}
+    .home_grid_3 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
-.home_grid_2  ul {
-list-style-type: disc;
-margin-left: 1rem;
+.home_grid_2 ul {
+    list-style-type: disc;
+    margin-left: 1rem;
 }
 
 .flex_home_logo_2 {
@@ -1226,9 +1296,7 @@ margin-left: 1rem;
 }
 
 .home-lead-photo {
-
-  max-width: 260px;
- 
+    max-width: 260px;
 }
 
 .home_lead_img {
@@ -1251,16 +1319,14 @@ margin-left: 1rem;
     width: 100%;
 }
 .home_tagline {
-  color: rgba(16, 88, 185, 1);
-  text-transform: none;
-  padding-left: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  text-align: left;
-  font-size: 1.2em;
-  font-weight: bold;
-  text-align: center;
+    color: rgba(16, 88, 185, 1);
+    text-transform: none;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
 }
 </style>
-
-
