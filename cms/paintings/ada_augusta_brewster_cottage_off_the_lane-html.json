@@ -8,7 +8,7 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1741820815/brewster_cottage_off_the_path_ap_atz9jn.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1741820689/Brewster_Cottage_Off_the_Lane_IMG_2419_sm_cr_fr_nevcun.jpg",
-  "status": "Hold",
+  "status": "Sold",
   "metaTitle": "Ada Augusta Brewster Cottage Off the Lane Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1741861106/brewsters_cottage_crop_xgwacj.jpg",
   "metaDescription": "Charming Victorian cottage scene by Ada Augusta Brewster, capturing a peaceful lane and nostalgic 19th-century American countryside beauty.",
@@ -19,15 +19,5 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1741820792/Brewster_Cottage_Off_the_Lane_IMG_2419_lrg_cr_fr_mo1bho.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $1,735"
-    }
-  ]
+  "highlights": []
 }
