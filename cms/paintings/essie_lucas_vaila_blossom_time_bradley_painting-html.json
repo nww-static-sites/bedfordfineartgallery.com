@@ -11,7 +11,7 @@
   "youtubeEmbedLink": "",
   "youtubeText": "Essie Lucas – Victorian Horse Painting for Sale",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1740249569/Lucas_Vaila_Blssom_Bradley_IMG_2415_sm_cr_fr_wuq4gc.jpg",
-  "status": "Hold",
+  "status": "Sold",
   "metaTitle": "Essie Lucas – Victorian Horse Painting for Sale",
   "mainImageAltText": "Essie Lucas – Victorian Horse Painting for Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1740249538/Lucas_Vaila_Blssom_Bradley_IMG_2415_zoom_cr_cjjgja.jpg",
@@ -25,15 +25,5 @@
     "Landscape"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1740249588/Lucas_Vaila_Blssom_Bradley_IMG_2415_lrg_cr_fr_vvlfem.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $9,275"
-    }
-  ]
+  "highlights": []
 }
