@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1703187942/Baer_sm_cr_fr_xfxuut.jpg",
   "gridImageWidth": 392,
-  "status": "Hold",
+  "status": "Sold",
   "metaTitle": "William Jacob Baer - Seated Young Girl In A Landscape",
   "mainImageAltText": "William Jacob Baer Victorian Painting for Sale - Seated Young Girl in a Landscape",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1703187904/BaerC_zoom_cr_zwj3fk.jpg",
@@ -28,15 +28,5 @@
   ],
   "gridImageHeight": 260,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1703187983/Baer_lrg_cr_fr2_ugaudr.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $8,500"
-    }
-  ]
+  "highlights": []
 }
