@@ -12,7 +12,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/mosorjak_small2.jpg",
   "gridImageWidth": 392,
-  "status": "Sold",
+  "status": "None",
   "metaTitle": "Michael Mosorjak - Glade--Mirabilis Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/mosorjak_grid2.jpg",
   "mediumResImageWidth": 1111,
@@ -25,5 +25,15 @@
   ],
   "gridImageHeight": 261,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/mosorjak_full2.jpg",
-  "highlights": []
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively priced $3,650"
+    }
+  ]
 }
