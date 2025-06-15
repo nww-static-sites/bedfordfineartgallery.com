@@ -8,7 +8,7 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1732585677/berneker_nymps_ap_jflewo.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1732585627/Berneker_Pan_w_Woodland_Nymps_IMG_2347_sm_cr_fr_gg9fhu.jpg",
-  "status": "New",
+  "status": "Sold",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1744808803/Berneker_Pan_w_Woodland_Nymps_IMG_2347_zoom_cr3_epxckl.jpg",
   "scrollingHomepageImage": false,
   "title": "Pan With Wood Nymphs",
@@ -17,15 +17,5 @@
     "Genre"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1732585651/Berneker_Pan_w_Woodland_Nymps_IMG_2347_lrg_cr_fr_c7vxda.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $13,950"
-    }
-  ]
+  "highlights": []
 }
