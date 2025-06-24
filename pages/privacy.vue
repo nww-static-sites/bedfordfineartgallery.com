@@ -16,7 +16,7 @@
                         you at your request.
                     </p>
                     <p>
-                        <span class="subHeader">Our Commitment To Privacy</span> Your privacy is important to us. To
+                        <span class="subHeader">Our Commitment To Your Privacy</span> Your privacy is important to us. To
                         make this notice easy to find, we make it available on our homepage and at every point where
                         personally identifiable information may be requested.
                     </p>
