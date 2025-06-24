@@ -1,22 +1,39 @@
 {
-  "artist": "eugene_alonzo_poole-html",
+  "paintingWidth": 48,
   "body": "Eugene Poole was southwestern Pennsylvania landscape painter—one of the Scalp Level artists who painted alongside George Hetzel, founder of the Scalp Level Movement. Poole was born in Pooleville, Maryland and studied at the Pennsylvania Academy of Fine Arts. Poole later traveled to Paris where he attended the Ecole de Beaux Arts and studied with French portrait painter, Leon Bonnat. After returning to the United States, he gained recognitions for his sculpted busts of Robert E. Lee, General Stonewall Jackson, and General Joseph E. Johnson. Given his Paris training, Poole also painted numerous portraits, some of which hung in the Corcoran Gallery in Washington, D.C.\n\nPoole arrived in Pittsburgh in 1887 where he made the acquaintance of George Hetzel. Poole painted autumnal landscape scenes in the French Barbizon manner, a style embraced by the Scalp Level artists. Poole was skilled in capturing on canvas, the fleeting atmospheric mood of his natural surroundings. He was appointed to the jury of awards for the Carnegie International and served as Director of the Associated Artists of Pittsburgh.",
-  "categories": [],
+  "artist": "eugene_alonzo_poole-html",
+  "paintingHeight": 36.5,
+  "slug": "eugene_alonzo_poole_cows-html",
   "dimensions": "Oil on canvas, 24 x 36 inches / signed lower right E. A. Poole '98",
   "featured": false,
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/e_a_poole_grid2.jpg",
-  "gridImageHeight": 260,
-  "gridImageWidth": 392,
-  "highResImage": "",
-  "highlights": [],
-  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/e_a_poole_small2.jpg",
-  "mediumResImageHeight": 1054,
-  "mediumResImageWidth": 1455,
-  "metaDescription": "Eugene Alonzo Poole, American 1841-1912 - Summer River Landscape With Cows Oil On Canvas Painting For Sale 24x36 Inches - Signed Lower Right E. A. Poole '98.",
+  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1750435915/poole_cows_in_stream_ap_df9jna.jpg",
   "metaKeywords": "",
+  "youtubeEmbedLink": "https://www.youtube.com/embed/F6RjjGZXyVQ?rel=0",
+  "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1750434667/Poole_Summer_River_Landscape_with_Cows_IMG_0314_sm_cr_fr_T_qk2z1t.jpg",
+  "gridImageWidth": 392,
+  "status": "None",
   "metaTitle": "Eugene Alonzo Poole -Summer River Landscape w/ Cows Painting",
-  "slug": "eugene_alonzo_poole_cows-html",
-  "status": "Sold",
+  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1750432747/Poole_Summer_River_Landscape_with_Cows_IMG_0314_zoom_cr_ziuk6f.jpg",
+  "mediumResImageWidth": 1455,
+  "mediumResImageHeight": 1054,
+  "metaDescription": "Eugene Alonzo Poole, American 1841-1912 - Summer River Landscape With Cows Oil On Canvas Painting For Sale 24x36 Inches - Signed Lower Right E. A. Poole '98.",
   "title": "SUMMER RIVER LANDSCAPE WITH COWS",
-  "youtubeEmbedLink": "https://www.youtube.com/embed/F6RjjGZXyVQ?rel=0"
+  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1750432717/Poole_Summer_River_Landscape_with_Cows_IMG_0314_full_gall_cr_j7moxh.jpg",
+  "categories": [
+    "Landscape",
+    "Animal"
+  ],
+  "gridImageHeight": 260,
+  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1750434746/Poole_Summer_River_Landscape_with_Cows_IMG_0314_lrg_cr_fr_w5begz.jpg",
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively priced $6,900"
+    }
+  ]
 }
