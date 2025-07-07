@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/kuhler_steam_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Otto August Kuhler - Steam Engine Sketch For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/kuhler_steam_grid.jpg",
   "mediumResImageWidth": 1273,
@@ -27,15 +27,5 @@
   ],
   "gridImageHeight": 261,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/kuhler_steam_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $1,200"
-    }
-  ]
+  "highlights": []
 }
