@@ -9,10 +9,10 @@
   "slug": "m_strueber_west_loop_2022-11-09-html",
   "dimensions": "Watercolor, 22.5 x 29.5 inches/Signed lower left",
   "featured": false,
-  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695903418/michael-strueber-art-for-sale-the-west-loop_e8idfb.jpg",
+  "artOnWallImage": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber-west-loop-img_1414-sm-cr-fr.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Michael Strueber – The West Loop Painting for Sale\n",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber-west-loop-img_1414-zoom-cr.jpg",
   "mediumResImageWidth": 1400,
@@ -20,24 +20,11 @@
   "metaDescription": "Michael Strueber, Artist From 1945-present - The West Loop Watercolor Painting For Sale - 22.5x29.5 Inches - Signed Lower Left.",
   "scrollingHomepageImage": false,
   "title": "The West Loop",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber-west-loop-img_1414-gall-full-cr.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 350,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber-west-loop-img_1414-lrg-cr-fr.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively priced $1,500"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
