@@ -19,11 +19,11 @@
   "metaDescription": "Explore the vibrant 'Spring Sensations' painting by Michael Strueber. A masterpiece capturing the essence of spring. Add this artwork to your collection today!",
   "scrollingHomepageImage": false,
   "title": "Spring Sensations",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber-spring-sensations-img_1422-gall-full-cr.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 279,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strueber-spring-sensations-img_1422-lrg-cr-fr.jpg",
+  "highResImage": "",
   "highlights": []
 }
