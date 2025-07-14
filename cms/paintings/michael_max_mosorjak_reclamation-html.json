@@ -9,7 +9,7 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1740323441/mosorjak_reclamation_ap_kdjv7w.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1740323388/Mosorjak_Reclamation_IMG_2412_sm_cr_fr_jtiutl.jpg",
-  "status": "New",
+  "status": "Sold",
   "youtubeAltText": "Michael Max Mosorjak – 19th Century Landscape Painting",
   "metaTitle": "Michael Max Mosorjak – 19th Century Landscape Painting",
   "mainImageAltText": "Michael Max Mosorjak – 19th Century Landscape Painting",
@@ -17,20 +17,10 @@
   "metaDescription": "A stunning 19th-century landscape by Michael Max Mosorjak, capturing nature’s beauty with rich detail, soft light, and a timeless, serene atmosphere.",
   "scrollingHomepageImage": false,
   "title": "Reclamation",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1740323284/Mosorjak_Reclamation_IMG_2412_full_gall_cr_yinb9s.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1740323414/Mosorjak_Reclamation_IMG_2412_lrg_cr_fr_qecq2s.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $4,125"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
