@@ -15,7 +15,7 @@
   "youtubeText": "Below is a short video (less than 1 minute) of this painting ",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bott_path_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "youtubeAltText": "Emil von Bott Painting for Sale - Man On Path to lake, 1852",
   "metaTitle": "Emil von Bott - Man on Path to the Lake, 1852 Painting",
   "mainImageAltText": "Emil Von Bott Painting for Sale - Man On Path to lake, 1852",
@@ -24,21 +24,11 @@
   "mediumResImageHeight": 848,
   "metaDescription": "Emil Von Bott, American Artist From 1824-1908 - Man On Path To The Lake, 1852 Oil On Canvas Painting For Sale - 10x14 Inches/signed Lower Left.",
   "title": "Man on Path to the Lake, 1852",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bott_path_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 261,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bott_path_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $6,900"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
