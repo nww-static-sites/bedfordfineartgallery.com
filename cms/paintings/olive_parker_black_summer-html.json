@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/op_black_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Olive Parker Black - Summer Landscape Painting For Sale",
   "mainImageAltText": "Olive Parker Black Victorian Paintings for Sale - Summer Landscape",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/op_black_grid.jpg",
@@ -22,21 +22,11 @@
   "mediumResImageHeight": 1068,
   "metaDescription": "Olive Parker Black - American Painter 1868 - 1948 - Summer Landscape Oil On Canvas Painting For Sale - 16 X 24 Inches - Signed On Lower Right.",
   "title": "Summer Landscape",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/op_black_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 260,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/op_black_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $12,000"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
