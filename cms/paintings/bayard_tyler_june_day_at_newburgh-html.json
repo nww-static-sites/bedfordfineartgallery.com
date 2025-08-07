@@ -8,27 +8,17 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1702944597/B_Tyler_Downing_Park_AP_hhrrm1.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1702996365/B_Tyler_Downing_Park_IMG_2071_sm_cr_fr_lkjjkr.jpg",
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Bayard Tyler's 'June Day at Downing Park' - 1928 Masterpiece",
   "mainImageAltText": "Bayard Tyler Painting - June Day at Downing Park, Newburgh '28",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1713957684/B_Tyler_Downing_Park_IMG_2071_zoom_cr2_v5ecwf.jpg",
   "metaDescription": "Explore Bayard Tyler's 1928 painting, 'June Day at Downing Park, Newburgh'. A captivating piece capturing the essence of early 20th-century American art.",
   "scrollingHomepageImage": false,
   "title": "June Day at Downing Park, Newburgh '28",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1702996243/B_Tyler_Downing_Park_IMG_2071_full_gall_cr_lidqid.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1713896633/B_Tyler_Downing_Park_IMG_2071_lrg_cr_fr2_or3kcl.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $3,142"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
