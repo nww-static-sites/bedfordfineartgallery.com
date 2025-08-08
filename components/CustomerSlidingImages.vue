@@ -104,6 +104,7 @@
                    <div><nuxt-picture provider="cloudinary" src="/customer-images/100.jpg" /></div>
                     <div><nuxt-picture provider="cloudinary" src="/customer-images/101.jpg" /></div>
                      <div><nuxt-picture provider="cloudinary" src="/customer-images/102.jpg" /></div>
+                     <div><nuxt-picture provider="cloudinary" src="/customer-images/103.jpg" /></div>
 
                   
                   
