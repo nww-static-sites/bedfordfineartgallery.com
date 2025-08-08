@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1694093458/herzog-landscape-img_-sm-cr-fr_d6kl3a.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/herzog-landscape-img_-sm-cr-fr.jpg",
   "gridImageWidth": 392,
-  "status": "Hold",
+  "status": "Sold",
   "metaTitle": "Hermann Herzog - Landscape painting for sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/herzog-landscape-img_-zoom-cr.jpg",
   "mediumResImageWidth": 1400,
@@ -20,21 +20,11 @@
   "metaDescription": "Herzog traveled to Bavaria, Belgium, Holland, Norway, and Italy painting dramatic landscapes awash in luminous light.",
   "scrollingHomepageImage": false,
   "title": "Landscape",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/herzog-landscape-img_-gall-full-cr.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 272,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/herzog-landscape-img_lrg-cr-fr.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively priced  $18,000"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
