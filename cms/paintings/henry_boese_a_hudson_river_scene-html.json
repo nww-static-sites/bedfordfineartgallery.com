@@ -14,7 +14,7 @@
   "youtubeText": "Below is a short video (less than 1 minute) of this painting ",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687968489/Boese_A_Hudson_Valley_SceneIMG_1771_sm_cr_fr_qndzyg.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Henry Boese - A Hudson Valley Scene Painting For Sale",
   "mainImageAltText": "Henry Boese 19th Century Paintings for Sale - A Hudson Valley Scene",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687968451/Boese_A_Hudson_Valley_SceneIMG_1771_zoom_cr_ypagiz.jpg",
@@ -23,21 +23,11 @@
   "metaDescription": "Henry Boese, American Artist From 1824-1897 - A Hudson Valley Scene Oil On Canvas Painting For Sale - 21.25x29.25 Inches - Signed Lower Middle.",
   "scrollingHomepageImage": false,
   "title": "A Hudson Valley Scene",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687968385/Boese_A_Hudson_Valley_Scene_IMG_1771_full_gall_cr_mbcoef.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 321,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687968532/Boese_A_Hudson_Valley_Scene_IMG_1771_lrg_cr_fr_ipvc2r.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $8,400"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
