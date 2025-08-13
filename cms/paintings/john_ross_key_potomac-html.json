@@ -14,28 +14,18 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/across_the_potomac_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "John Ross Key - Washington, D.C. Across the Potomac Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/7_grid.jpg",
   "mediumResImageWidth": 1318,
   "mediumResImageHeight": 1016,
   "metaDescription": "John Ross Key, American From 1837-1920 - AKA  John R Key - Washington, D.C. Across The Potomac Charcoal On Paper For Sale - 11x19 Inches - Signed Lower Left.",
   "title": "Washington, D.C. Across the Potomac",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/7_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 260,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/across_the_potomac_original.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $4,500"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
