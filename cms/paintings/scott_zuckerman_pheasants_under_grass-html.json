@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695662728/scott-zuckerman-art-for-sale-pheasants-under-grass_gsbbex.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1681837463/IMG_1661_Pheasant_under_Grass_sm_cr_fr_e9meze.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Scott Zuckerman - Pheasants Under Grass Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1681837446/IMG_1661_Pheasant_under_Grass_zoom_cr_iowvpi.jpg",
   "mediumResImageWidth": 1400,
@@ -20,22 +20,12 @@
   "metaDescription": "Scott Zuckerman, American Born 1951 - Pheasants Under Grass Oil On Board Painting For Sale - 18.5x23.5 Inches - Signed Lower Left.",
   "scrollingHomepageImage": false,
   "title": "Pheasants under Grass",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1681837427/IMG_1661_Pheasant_under_Grass_full_gall_cr_fvp9zd.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Animal",
     "Sporting Art"
   ],
   "gridImageHeight": 277,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1681837476/IMG_1661_Pheasant_under_Grass_lr_cr_fr_u8lsnl.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $3,900"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
