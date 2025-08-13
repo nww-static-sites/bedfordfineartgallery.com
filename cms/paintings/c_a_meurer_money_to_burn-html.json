@@ -14,7 +14,7 @@
   "youtubeText": "Below is a short video (less than 1 minute) of this painting ",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1683462983/Meurer_Money_to_Burn_IMG_1714_sm_cr_fr_zrob7c.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Charles Alfred Meurer - Money To Burn Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1683462878/Meurer_Money_to_Burn_IMG_1714_zoom_cr_cilt1p.jpg",
   "mediumResImageWidth": 1400,
@@ -22,21 +22,11 @@
   "metaDescription": "Charles Alfred Meurer, American Artist From 1865-1955 - Money To Burn Oil On Board Painting For Sale - 5.75x7.75 Inches - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "Money to Burn",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1683462840/Meurer_Money_to_Burn_IMG_1714_gall_full_cr_m7kbhy.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Still Life"
   ],
   "gridImageHeight": 338,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1683463030/Meurer_Money_to_Burn_IMG_1714_lrg_cr_fr_f9iqv7.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $7,400"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
