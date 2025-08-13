@@ -14,7 +14,7 @@
   "youtubeText": "Below is a short video (less than 1 minute) of this painting ",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1675804719/Murphy_IMG_1545_sm_cr_fr_d618vc.jpg",
   "gridImageWidth": 377,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "John Francis Murphy - Early Autumn Reflection Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1675804690/Murphy_IMG_1545_zoom_cr_izbvno.jpg",
   "mediumResImageWidth": 1400,
@@ -22,21 +22,11 @@
   "metaDescription": "John Francis Murphy, American Artist From 1853-1921 - Early Autumn Reflection Oil On Board Painting For Sale - 7.5x9.75 Inches - Signed Lower Left.",
   "scrollingHomepageImage": false,
   "title": "Early Autumn Reflection",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1675804625/Murphy_IMG_1545_gall_full_cr_utk1vo.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 263,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1675804758/Murphy_IMG_1545_lrg_cr_fr_vay0xk.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $6,000"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
