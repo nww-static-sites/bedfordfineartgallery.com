@@ -9,27 +9,17 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722191078/bricher_bullock_point_ap_yeuyro.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722190997/Bricher_Bullock_Point_IMG_2280_sm_cr_fr_c9btbt.jpg",
-  "status": "New",
+  "status": "Sold",
   "metaTitle": "Alfred T. Bricher - Bullock Point Coastal Painting",
   "mainImageAltText": "Alfred T. Bricher - Bullock Point Coastal Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722190962/Bricher_Bullock_Point_IMG_2280_zoom_cr_lmmafi.jpg",
   "metaDescription": "Explore Alfred T. Bricher's Bullock Point, a captivating coastal painting that beautifully portrays serene waters & soft skies, reflecting nature’s charm.",
   "scrollingHomepageImage": false,
   "title": "Bullock Point",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722190923/Bricher_Bullock_Point_IMG_2280_full_gall_cr_kergdy.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Marine"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722191030/Bricher_Bullock_Point_IMG_2280_lrg_cr_fr_hxjovb.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $8,300"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
