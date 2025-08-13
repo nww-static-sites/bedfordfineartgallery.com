@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695661462/austin-c-wooster-victorian-art-for-sale-grapes-and-peaches_hpzb7r.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1677887391/Wooster_Grapes_Peaches_IMG_1601_sm_cr_fr_hyvsxz.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Austin C. Wooster - Grapes And Peaches Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1677887370/Wooster_Grapes_Peaches_IMG_1601_zoom_cr_pyochk.jpg",
   "mediumResImageWidth": 1400,
@@ -20,21 +20,11 @@
   "metaDescription": "Austin C. Wooster, American Artist From 1838-1913 - Aka  A.C. Wooster - Grapes And Peaches Oil On Board Painting For Sale - 10x10.5 Inches - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "Grapes and Peaches",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1678109505/wooster_graphes_and_peaches_grid_rqqpob.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Still Life"
   ],
   "gridImageHeight": 285,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1677887436/Wooster_Grapes_Peaches_IMG_1601_lrg_cr_fr_rl7ue6.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $3,200"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
