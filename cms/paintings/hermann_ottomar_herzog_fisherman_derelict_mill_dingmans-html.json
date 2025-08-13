@@ -14,7 +14,7 @@
   "youtubeText": "Below is a short video (less than 1 minute) of this painting ",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1688069114/Herzog_Fisherman_at_the_Derelict_Mill_IMG_1778_sm_cr_fr_dnbaix.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Hermann Herzog-Fisherman At Derelict Mill Near Dingman Ferry",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1688069068/Herzog_Fisherman_at_the_Derelict_Mill_IMG_1778_zoom_cr_w3qwkd.jpg",
   "mediumResImageWidth": 1400,
@@ -22,21 +22,11 @@
   "metaDescription": "Hermann Ottomar Herzog, German-american 1832-1932 - Fisherman At Derelict Mill Near Dingman's Ferry Oil On Canvas Painting - 21.75x26.75 - Signed Lower Left.",
   "scrollingHomepageImage": false,
   "title": "Fisherman at Derelict Mill near Dingman's Ferry",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1688069022/Herzog_Fisherman_at_the_Derelict_Mill_IMG_1778_gall_full_cr_m5oyqv.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 335,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1688069188/Herzog_Fisherman_at_the_Derelict_Mill_IMG_1778_lrg_cr_fr_alimx1.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $16,500"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
