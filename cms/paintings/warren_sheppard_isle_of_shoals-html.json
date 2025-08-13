@@ -9,27 +9,17 @@
   "featured": true,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1708907591/Sheppard_Isle_AP_yjtcxz.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1708907531/Sheppard_Isle_of_Shoals_IMG_2138_sm_cr_fr_qves6m.jpg",
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Warren Sheppard's Isle of Shoals Masterpiece",
   "mainImageAltText": "Warren Sheppard's Isle of Shoals Masterpiece",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1708907499/Sheppard_Isle_of_Shoals_IMG_2138_zoom_cr_rwjzzg.jpg",
   "metaDescription": "Explore Warren Sheppard's breathtaking Isle of Shoals painting, a vivid portrayal of nature's serene beauty and the artist's mastery of light and color.",
   "scrollingHomepageImage": false,
   "title": "Isle of Shoals",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1708907410/Sheppard_Isle_of_Shoals_IMG_2138_full_gall_cr_punoku.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Marine"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1708907563/Sheppard_Isle_of_Shoals_IMG_2138_lrg_cr_fr_z4jye9.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $5,500"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
