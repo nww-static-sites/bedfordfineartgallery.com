@@ -9,27 +9,17 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722189776/carr_in_the_field_ap_bxi6hq.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722189694/Carr_In_the_Field_IMG_2274_sm_cr_fr_qxxope.jpg",
-  "status": "New",
+  "status": "Sold",
   "metaTitle": "Henry Carr - Dogs in the Field Victorian Painting",
   "mainImageAltText": "Henry Carr - Dogs in the Field Victorian Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722189652/Carr_In_the_Field_IMG_2274_zoom_cr_wulids.jpg",
   "metaDescription": "Explore Henry Carr's Dogs in the Field, a charming Victorian painting that captures the playful energy of dogs in a picturesque countryside.",
   "scrollingHomepageImage": false,
   "title": "In the Field",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722189590/Carr_In_the_Field_IMG_2274_full_gall_cr_o4wizo.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Animal"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722189726/Carr_In_the_Field_IMG_2274_lrg_cr_fr_txcdba.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $4,200"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
