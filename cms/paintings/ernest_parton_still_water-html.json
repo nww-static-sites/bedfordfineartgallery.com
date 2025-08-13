@@ -11,7 +11,7 @@
   "youtubeEmbedLink": "https://www.youtube.com/shorts/zAj8ylalIGE",
   "youtubeText": "Below is a short video (less than 1 minute) of this painting ",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1715643391/Parton_Still_Water_IMG_2186_sm_cr_fr_ofxuny.jpg",
-  "status": "None",
+  "status": "Sold",
   "youtubeAltText": "Ernest Parton's Still Water Painting",
   "metaTitle": "Ernest Parton's Still Water Painting | Serene Masterpiece",
   "mainImageAltText": "Ernest Parton's Still Water Painting",
@@ -19,20 +19,10 @@
   "metaDescription": "Discover the serene beauty of Ernest Parton's \"Still Water\" painting. Experience the tranquility and masterful technique that define this timeless work of art.",
   "scrollingHomepageImage": false,
   "title": "Still Water",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1715643250/Parton_Still_Water_IMG_2186_full_gall_cr_vftn1p.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1715643413/Parton_Still_Water_IMG_2186_lrg_cr_fr_ykyoig.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $7,200"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
