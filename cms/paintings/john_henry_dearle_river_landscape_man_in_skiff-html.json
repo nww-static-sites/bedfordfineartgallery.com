@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693932189/john-henry-dearle-19th-century-painting-for-sale-river-landscape_knmicy.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687994514/Dearle_Man_in_Skiff_IMG_1845_sm_cr_fr_vyrstb.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "John Henry Dearle - River Landscape With Man In A Skiff",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687994387/Dearle_Man_in_Skiff_IMG_1845_zoom_crop_mexgfj.jpg",
   "mediumResImageWidth": 1400,
@@ -20,21 +20,11 @@
   "metaDescription": "John Henry Dearle, British Artist From 1860-1932 - River Landscape With Man In A Skiff Oil On Canvas Painting For Sale - 13.5x25.5 Inches - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "River Landscape with Man in a Skiff",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687994107/Dearle_Man_in_Skiff_IMG_1845_full_gall_cr_xyzfnu.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 298,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687994593/Dearle_Man_in_Skiff_IMG_1845_lrg_cr_fr_jt8zhu.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $3,321"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
