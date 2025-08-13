@@ -9,27 +9,17 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1730750892/huntington_hudson_valley_view_ap_tmjbkr.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1730750821/Huntington_Hudson_Valley_View_IMG_2327_sm_cr_fr_r3a7be.jpg",
-  "status": "New",
+  "status": "Sold",
   "metaTitle": "Daniel Huntington: Hudson Valley Landscape Painter",
   "mainImageAltText": "Daniel Huntington: Hudson Valley Landscape Painter",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1730750767/Huntington_IMG_2327_zoom_cr_qd2zns.jpg",
   "metaDescription": "Explore Daniel Huntington's \"A Hudson Valley View,\" a captivating landscape painting that showcases his mastery of the serene beauty of the Hudson River region.",
   "scrollingHomepageImage": false,
   "title": "A Hudson Valley View",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1730750740/Huntington_IMG_2327_full_gall_cr_sbtjix.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1730750844/Huntington_Hudson_Valley_View_IMG_2327_lrg_cr_fr_ujtmpe.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $12,000"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
