@@ -9,28 +9,18 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695129681/franklin-edward-morris-victorian-paintings-for-sale-fourth-of-july_vwwdgh.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693666274/Morris_Fourth_of_July_IMG_1959_sm_cr_fr_d6laby.jpg",
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Franklin Edward Morris Victorian Painting - Fourth of July",
   "mainImageAltText": "Franklin Edward Morris Victorian Painting for Sale - Fourth of July",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693837766/franklin_morris_fourth_grid_full_wa9pta.jpg",
   "metaDescription": "Immerse in Franklin E. Morris' Victorian depiction of the Fourth of July. A vibrant celebration of history and artistry. Elevate your collection today.",
   "scrollingHomepageImage": false,
   "title": "Fourth of July",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693837741/franklin_morris_fourth_grid_crop_nhzgtm.jpg",
+  "galleryCropImage": "",
   "tinyDescription": "6th Avenue from 18th St,. NYC",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693666318/Morris_Fourth_of_July_IMG_1959_lrg_cr_fr_cjshg8.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $12,750"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
