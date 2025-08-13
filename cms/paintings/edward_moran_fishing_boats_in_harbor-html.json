@@ -9,27 +9,17 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1730583890/moran_fishing_boats_in_harbor_ap2_wwkdde.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1730583792/Moran_Fishing_Boats_in_harbor_IMG_2322_sm_cr_fr_hamso3.jpg",
-  "status": "New",
+  "status": "Sold",
   "youtubeAltText": "Edward Moran's Fishing Boats in Harbor - 19th Century Art",
   "metaTitle": "Edward Moran's Fishing Boats in Harbor - 19th Century Art",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1730583747/Moran_Fishing_Boats_in_harbor_IMG_2322_zoom_cr_sv9oys.jpg",
   "metaDescription": "Edward Moran's 19th-century painting, Fishing Boats in Harbor, depicts a lively seaport scene with rich detail, showcasing boats at rest & the life of fishermen",
   "scrollingHomepageImage": false,
   "title": "Fishing Boats in Harbor",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1730583712/Moran_Fishing_Boats_in_harbor_IMG_2322_full_gall_cr_hufylc.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Marine"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1730583830/Moran_Fishing_Boats_in_harbor_IMG_2322_lrg_cr_fr_zi1hwz.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $9,600"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
