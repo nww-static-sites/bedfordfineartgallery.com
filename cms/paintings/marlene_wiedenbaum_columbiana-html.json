@@ -14,28 +14,18 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiedenbaum_small3.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Marlene Wiedenbaum - Drowned Lands Swamp Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiedenbaum_grid3.jpg",
   "mediumResImageWidth": 911,
   "mediumResImageHeight": 1248,
   "metaDescription": "Marlene Wiedenbaum is a member of the Degas Pastel Society; New York Society of Women Artists; Pastel Society of America, Society of Painters in Pastel & Others",
   "title": "Drowned Lands Swamp, Columbiana Co., NY",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiedenbaum_grid3_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 261,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiedenbaum_full3.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $2,800"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
