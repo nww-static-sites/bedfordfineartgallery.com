@@ -14,29 +14,19 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/dixon_lighthouse_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Francis Stillwell Dixon - Cape Neddick Lighthouse Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/dixon_lighthouse_grid.jpg",
   "mediumResImageWidth": 1058,
   "mediumResImageHeight": 881,
   "metaDescription": "Francis Stillwell Dixon, 1879-1967 - Cape Neddick Lighthouse, York, Maine Oil On Canvas -11.5x15.5 Inches - Signed Lower Right.",
   "title": "Cape Neddick Lighthouse, York, Maine",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/dixon_lighthouse_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape",
     "Marine"
   ],
   "gridImageHeight": 261,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/dixon_lighthouse_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $4,200"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
