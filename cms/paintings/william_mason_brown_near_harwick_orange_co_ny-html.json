@@ -8,26 +8,16 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1745949402/robbins_men_in_a_canoe_ap_f587hp.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1745950873/Brown_W_M_Near_Harwick_Orange_Co_NY_IMG_2426_sm_cr_fr_z0xkbx.jpg",
-  "status": "New",
+  "status": "Sold",
   "metaTitle": "William Mason Brown – Near Harwick, Orange Co., NY",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1745951138/Brown_W_M_Near_Harwick_Orange_Co_NY_IMG_2426_zoom_cr_fvbrj6.jpg",
   "metaDescription": "Discover William Mason Brown’s serene landscape painting near Harwick, Orange County, NY—an exquisite example of 19th-century American naturalism and detail.",
   "scrollingHomepageImage": false,
   "title": "Near Harwick, Orange Co., N.Y.",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1745951109/Brown_W_M_Near_Harwick_Orange_Co_NY_IMG_2426_full_gall_cr_vxbscb.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1745951329/Brown_W_M_Near_Harwick_Orange_Co_NY_IMG_2426_lrg_cr_fr_ub07ou.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $8,600"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
