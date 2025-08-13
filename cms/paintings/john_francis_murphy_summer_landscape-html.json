@@ -14,7 +14,7 @@
   "youtubeText": "Below is a short video (less than 1 minute) of this painting ",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684006360/Murphy_Summer_Landscape_IMG_1712_sm_cr_fr_fr4lr0.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "John Francis Murphy - Summer Landscape Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684006311/Murphy_Summer_Landscape_IMG_1712_zoom_cr_m6mcmi.jpg",
   "mediumResImageWidth": 1400,
@@ -22,21 +22,11 @@
   "metaDescription": "John Francis Murphy, American Artist From 1853-1921 - Summer Landscape Oil On Canvas Painting For Sale - 7.5x11.5 Inches - Signed Lower Left.",
   "scrollingHomepageImage": false,
   "title": "Summer Landscape",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684006232/Murphy_Summer_Landscape_IMG_1712_full_gall_cr_n50jze.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 298,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684006411/Murphy_Summer_Landscape_IMG_1712_lrg_cr_fr_sk9unf.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $3,900"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
