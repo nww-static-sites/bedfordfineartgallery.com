@@ -10,7 +10,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/lindsay_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Thomas Corwin Lindsay - Vigil Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/tcl_grid.jpg",
   "mediumResImageWidth": 1376,
@@ -22,9 +22,5 @@
   ],
   "gridImageHeight": 260,
   "highResImage": "",
-  "highlights": [
-    {
-      "highlight": "Competitively Priced $19,000"
-    }
-  ]
+  "highlights": []
 }
