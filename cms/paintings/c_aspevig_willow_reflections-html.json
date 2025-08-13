@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693416942/clyde-aspevig-19th-century-artwork-for-sale-willow-reflections_bnahto.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1678726184/Aspevig_Willow_Reflections_IMG_1576_sm_cr_fr_hk559f.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Clyde Aspevig - Willow Reflections Oil On Board Painting",
   "mainImageAltText": "Clyde Aspevig 19th Century Artwork for Sale - Willow Reflections",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1678726153/Aspevig_Willow_Reflections_IMG_1576_zoom_cr_f7dxab.jpg",
@@ -21,21 +21,11 @@
   "metaDescription": "Clyde Aspevig, American Artist Born 1951 - Willow Reflections Oil On Board Painting For Sale - 9.5x11.5 Inches - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "Willow Reflections",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1678726115/Aspevig_Willow_Reflections_IMG_1576_full_gall_cr_ab0kor.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 329,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1678726208/Aspevig_Willow_Reflections_IMG_1576_lrg_cr_fr_u1j9d4.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $5,800"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
