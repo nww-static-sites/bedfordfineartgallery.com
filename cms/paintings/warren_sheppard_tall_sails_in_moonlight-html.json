@@ -9,7 +9,7 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1734199322/sheppard_moonlight_ap_qqpteq.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1734196754/Sheppard_Moonlight_IMG_2358_sm_cr_fr_hcdo2n.jpg",
-  "status": "New",
+  "status": "Sold",
   "youtubeAltText": "Warren Sheppard Victorian Marine Painting for Sale",
   "metaTitle": "Warren Sheppard Victorian Marine Painting for Sale",
   "mainImageAltText": "Warren Sheppard Victorian Marine Painting for Sale",
@@ -17,20 +17,10 @@
   "metaDescription": "Own a piece of maritime history with Warren Sheppard's Victorian marine painting. Capturing dynamic seascapes, it reflects the artist's mastery of scenery.",
   "scrollingHomepageImage": false,
   "title": "Tall Sails in Moonlight",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1734196602/Sheppard_Moonlight_IMG_2358_full_gall_cr_srwrgc.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Marine"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1734196801/Sheppard_Moonlight_IMG_2358_lrg_cr_fr_ouswvp.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $7,500"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
