@@ -14,28 +14,18 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/smith_street_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Francis Hopkinson Smith - Venetian Street Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/smith_street_grid.jpg",
   "mediumResImageWidth": 1252,
   "mediumResImageHeight": 870,
   "metaDescription": "Francis Hopkinson Smith, American Painter From 1838-1915 - Venetian Street Water Color Painting For Sale - 13.25x22.75 Inches - Signed Lower Left.",
   "title": "Venetian Street",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/smith_street_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Genre"
   ],
   "gridImageHeight": 261,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/smith_street_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $14,000"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
