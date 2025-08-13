@@ -14,7 +14,7 @@
   "youtubeText": "Below is a short video (less than 1 minute) of this painting ",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1683990478/Johnson_Cows_in_Stream_IMG_1694_sm_cr_fr_zmipil.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "youtubeAltText": "David Johnson 19th Century Art for Sale - Cows in Stream ",
   "metaTitle": "David Johnson - Cows In Stream Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1683990398/Johnson_Cows_in_Stream_IMG_1694_zoom_cr_zi1xju.jpg",
@@ -23,21 +23,11 @@
   "metaDescription": "David Johnson, Artist From 1827-1908 - Cows In Stream Oil On Board Painting For Sale - 6.75x9 Inches - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "Cows in Stream",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1683990366/Johnson_Cows_in_Stream_IMG_1694_full_gall_cr_vsins2.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 319,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1683990547/Johnson_Cows_in_Stream_IMG_1694_lrg_cr_fr_isrfgg.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $4,900"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
