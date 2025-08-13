@@ -14,30 +14,20 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strain_feathers_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "John Paul Strain - Sacred Feathers Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strain_feathers_grid.jpg",
   "mediumResImageWidth": 1096,
   "mediumResImageHeight": 1233,
   "metaDescription": "John Paul Strain, American Artist From 1955-Present - Sacred Feathers Gouache Painting For Sale - 17x12.5 Inches - Signed Lower Right.",
   "title": "sacred feathers",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strain_feathers_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape",
     "Genre",
     "American Historic / Political"
   ],
   "gridImageHeight": 261,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/strain_feathers_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $6,000"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
