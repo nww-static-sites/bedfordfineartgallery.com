@@ -11,7 +11,7 @@
   "youtubeEmbedLink": "https://www.youtube.com/shorts/6W-tCilB48o",
   "youtubeText": "Below is a short video (less than 1 minute) of this painting ",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1714588779/Tcherepnine_Day_Lilies_IMG_1965_sm_cr_fr_n6twdg.jpg",
-  "status": "None",
+  "status": "Sold",
   "youtubeAltText": "Jessica Tcherepnine's Watercolor Lilies painting",
   "metaTitle": "Jessica Tcherepnine's Watercolor Lilies-Exquisite Floral Art",
   "mainImageAltText": "Jessica Tcherepnine's Watercolor Lilies painting",
@@ -19,20 +19,10 @@
   "metaDescription": "Explore the exquisite watercolor paintings of lilies by Jessica Tcherepnine. Discover the delicate beauty and vibrant colors of her floral masterpieces.",
   "scrollingHomepageImage": false,
   "title": "Day Lilies",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1714669848/day_lillies_grid_av9qmb.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Still Life"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1714588804/Tcherepnine_Day_Lilies_IMG_1965_lrg_cr_fr_zgcpee.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $3,300"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
