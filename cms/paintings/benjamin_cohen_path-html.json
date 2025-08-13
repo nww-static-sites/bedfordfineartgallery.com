@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cohen_path_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Benjamin Cohen - The Path to Glick’s Painting For Sale",
   "mainImageAltText": "Benjamin Cohen Victorian Painting for Sale - The Path to Glick’s",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cohen_path_grid.jpg",
@@ -22,21 +22,11 @@
   "mediumResImageHeight": 873,
   "metaDescription": "Benjamin Cohen, American Artist Born 1869 - The Path To Glick’s Oil On Board Canvas Painting For Sale - 23x38 Inches - Signed Lower Left.",
   "title": "The Path to Glick’s",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1680297387/Cohen_IMG_1210_2_.full_gall_cr_efjwa2.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 261,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cohen_path_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced  $4,800"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
