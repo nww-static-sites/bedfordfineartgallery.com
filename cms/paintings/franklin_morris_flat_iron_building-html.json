@@ -14,7 +14,7 @@
   "youtubeText": "Below is a short video (less than 1 minute) of this painting ",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684089813/Morris_Flat_Iron_IMG_1733_sm_cr_fr_iy0wcs.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "youtubeAltText": "Franklin Edward Morris Victorian Painting for Sale - Flat Iron Building",
   "metaTitle": "Franklin Edward Morris - Flat Iron Building Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684409562/morris_flat_iron_building_zoomed_gallery_crop_qbqay5.jpg",
@@ -23,21 +23,11 @@
   "metaDescription": "Franklin Edward Morris, American 1938-2009 - Flat Iron Building Oil On Canvas Painting For Sale - 23.5x16.5 Inches - Signed Lower Left.",
   "scrollingHomepageImage": false,
   "title": "Flat Iron Building",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684409542/morris_flat_iron_building_full_gallery_crop_dp52d6.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 261,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684089855/Morris_Flat_Iron_IMG_1733_lrg_cr_fr_whaogz.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $11,000"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
