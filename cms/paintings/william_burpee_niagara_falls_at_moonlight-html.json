@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693833200/william-burpee-art-for-sale-niagra-falls-in-moonlight_tabw5e.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1689341583/Burpee_Niagara_Falls_IMG_1786_sm_cr_fr_xj6s9w.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "William P. Burpee Niagara Falls Victorian Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1689341551/Burpee_Niagara_Falls_zoom_cr_cgchde.jpg",
   "mediumResImageWidth": 1400,
@@ -20,21 +20,11 @@
   "metaDescription": "Experience the majestic Niagara Falls through William P. Burpee's Victorian painting for sale. Bring nature's wonder into your home today.",
   "scrollingHomepageImage": false,
   "title": "Niagara Falls in Moonlight",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1689341517/Burpee_Niagara_Falls_IMG_1786_full_gall_cr_oinphy.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 247,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1689341757/Burpee_Niagara_Falls_IMG_1786_lrg_cr_fr_v6wp24.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $5,178"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
