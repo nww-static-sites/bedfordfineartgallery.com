@@ -14,28 +14,18 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/meakin_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Lewis Henry Meakin - Cape Ann Shore Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/meakin_grid.jpg",
   "mediumResImageWidth": 1246,
   "mediumResImageHeight": 870,
   "metaDescription": "Lewis Henry Meakin, American Artist From 1850-1917 - Cape Ann Shore Oil On Canvas Painting For Sale - 23.75x35.75 Inches - Signed Lower Left.",
   "title": "Cape Ann Shore",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/meakin_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 260,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/meakin_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively priced: $14,000"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
