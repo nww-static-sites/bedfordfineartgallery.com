@@ -8,27 +8,17 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1731169179/eggenhofer_the_watchers_ap_zpgpjl.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1731169113/Eggenhofer_The_Watchers_IMG_2330_sm_cr_fr_ehxv34.jpg",
-  "status": "New",
+  "status": "Sold",
   "metaTitle": "Nicke Eggenhofer \"The Watchers\" Victorian Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1731169074/Eggenhofer_The_Watchers_IMG_2330_zoom_cr_vln9jq.jpg",
   "metaDescription": "The Watchers by Nicke Eggenhofer is a Victorian painting that portrays a group of figures observing a dramatic scene, capturing the mood with striking detail.",
   "scrollingHomepageImage": false,
   "title": "The Watchers",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1731169045/Eggenhofer_The_Watchers_IMG_2330_full_gall_cr_fozur9.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Genre",
     "American Historic / Political"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1731169152/Eggenhofer_The_Watchers_IMG_2330_lrg_cr_fr_t9bypy.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $18,400"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
