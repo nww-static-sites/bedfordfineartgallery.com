@@ -9,28 +9,18 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693936702/frank-english-19th-century-painting-for-sale-hay-wagon_wy6opa.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693589934/English_IMG_1944_sm_cr_fr_e2rd0m.jpg",
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Frank F. English's Hay Wagon - 19th Century Art for Sale",
   "mainImageAltText": "Frank F. English 19th Century Paintings for Sale - Hay Wagon",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693589869/English_IMG_1944_zoom_cr_zsozhd.jpg",
   "metaDescription": "Own a piece of history with Frank F. English's 'Hay Wagon'. Discover and purchase this 19th-century masterpiece, a testament to English's evocative artistry.",
   "scrollingHomepageImage": false,
   "title": "Hay Wagon",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693589788/English_IMG_1944_full_gall_cr_tij2pw.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape",
     "Genre"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693589958/English_IMG_1944_lrg_cr_fr_ba0unn.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $1,800"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
