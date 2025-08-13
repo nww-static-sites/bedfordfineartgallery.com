@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695127015/edward-moran-artwork-for-sale-children-with-fishing-net-in-moonlight_dfs5kw.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1689525636/Moran_IMG_1877_sm_cr_fr_rkvax1.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Edward Moran - Victorian Moonlit Fishing Masterpiece",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1689525570/Moran_IMG_1877_zoom_cr_tx7uux.jpg",
   "mediumResImageWidth": 1400,
@@ -20,23 +20,13 @@
   "metaDescription": "Experience Edward Moran's evocative portrayal of children fishing in moonlight. A quintessential Victorian painting capturing innocence and nature's allure.",
   "scrollingHomepageImage": false,
   "title": "Children with Fishing Net in Moonlight",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1689525520/Moran_IMG_1877_full_gall_cr_gpvlyx.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape",
     "Marine",
     "Genre"
   ],
   "gridImageHeight": 338,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1689525671/Moran_IMG_1877_lrg_cr_fr_tqyuxt.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $38,000"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
