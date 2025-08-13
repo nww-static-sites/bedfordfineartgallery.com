@@ -9,27 +9,17 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722901220/champney_seine_ap_trgcys.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722901174/Champney_View_of_the_Seine_IMG_2276_sm_cr_fr_wv3bqq.jpg",
-  "status": "New",
+  "status": "Sold",
   "metaTitle": "James Wells Champney - View of the Seine Victorian Painting",
   "mainImageAltText": "James Wells Champney - View of the Seine Victorian Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722901149/Champney_View_of_the_Seine_IMG_2276_zoom_cr_awtfow.jpg",
   "metaDescription": "Discover James Wells Champney's View of the Seine, a stunning Victorian-era landscape capturing serene river scenes with remarkable detail and timeless beauty.",
   "scrollingHomepageImage": false,
   "title": "View of the Seine",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722901124/Champney_View_of_the_Seine_IMG_2276_full_gall_cr_r6pt0g.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722901197/Champney_View_of_the_Seine_IMG_2276_lrg_cr_fr_covjqe.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $4,500"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
