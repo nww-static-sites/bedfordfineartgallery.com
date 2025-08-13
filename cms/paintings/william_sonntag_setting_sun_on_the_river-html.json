@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695303929/william-louis-sonntag-art-for-sale-setting-sun-on-the-river_mrytky.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687962154/Sonntag_Sonntag_Setting_Sun_on_River_IMG_1755_sm_cr_fr_sgqsze.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "William Louis Sonntag - Setting Sun On The River Painting",
   "mainImageAltText": "William Louis Sonntag 19th Century Art for Sale - Setting Sun on the River",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687962076/Sonntag_Sonntag_Setting_Sun_on_River_IMG_1755_zoom_cr_wqk93n.jpg",
@@ -21,21 +21,11 @@
   "metaDescription": "William Louis Sonntag, American Artist From 1822-1900 - Setting Sun On The River Watercolor Painting For Sale - 5.5x5.5 Inches - Signed Lower Left.",
   "scrollingHomepageImage": false,
   "title": "Setting Sun on the River",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687962004/Sonntag_Setting_Sun_on_River_IMG_1755_full_gall_cr_kpl4t7.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 344,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687962180/Sonntag_Sonntag_Setting_Sun_on_River_IMG_1755_lrg_cr_fr_gq7i8j.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $1,800"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
