@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693417287/clyde-aspevig-19th-century-artwork-for-sale-shirley-lake_sjybxe.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1683465189/Aspevig_Shirley_Lake_IMG_1736_sm_cr_fr_seztpf.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Clyde Aspevig - Shirley Lake Painting For Sale",
   "mainImageAltText": "Clyde Aspevig 19th Century Artwork for Sale - Shirley Lake",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1683465134/Aspevig_Shirley_Lake_IMG_1736_zoom_cr_y2l3bz.jpg",
@@ -21,21 +21,11 @@
   "metaDescription": "Clyde Aspevig, American Artist Born 1951 - Shirley Lake Oil On Canvas Painting For Sale -  19.5x23.5 - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "Shirley Lake",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1683465041/Aspevig_Shirley_Lake_IMG_1736_full_gall_cr_xg2bqv.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 345,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1683465290/Aspevig_Shirley_Lake_IMG_1736_lrg_cr_fr_uwokke.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $12,200"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
