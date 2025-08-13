@@ -9,28 +9,18 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1708646313/shurtleff_waiting_ap2_isnozb.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1708646229/Shurtleff_Waiting_IMG_2130_sm_cr_fr_hyiltg.jpg",
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Roswell M. Shurtleff: Victorian Forest Paintings",
   "mainImageAltText": "Roswell Morse Shurtleff - Forest Victorian Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1708646198/Shurtleff_Waiting_IMG_2130_zoom_cr_aykkid.jpg",
   "metaDescription": "Step into the Victorian era with Roswell Morse Shurtleff’s paintings, where each forest scene tells a timeless story of beauty and mystery.",
   "scrollingHomepageImage": false,
   "title": "Waiting",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1708646168/Shurtleff_Waiting_IMG_2130_full_gall_cr_ja5c10.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape",
     "Genre"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1708646272/Shurtleff_Waiting_IMG_2130_lrg_cr_fr_dtwuho.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $2,500"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
