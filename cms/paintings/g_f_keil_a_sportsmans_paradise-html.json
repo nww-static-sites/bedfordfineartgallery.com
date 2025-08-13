@@ -11,28 +11,18 @@
   "youtubeEmbedLink": "https://www.youtube.com/shorts/aiQBUKl_xVA",
   "youtubeText": " Below is a short video (less than 1 minute) of this painting",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1708816879/Keil_IMG_2139_sm_gall_cr_qe2zvt.jpg",
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "G.F. Keil's 'Sportsman's Paradise' - Available Now",
   "mainImageAltText": "G. F. Keil - Sportsman's Paradise Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1708789767/Keil_IMG_2139_zoom_cr_qfzfdp.jpg",
   "metaDescription": "Secure your piece of tranquility with G.F. Keil's 'Sportsman's Paradise'. This exquisite painting captures the essence of the great outdoors, on sale now.",
   "scrollingHomepageImage": false,
   "title": "A Sportsman's Paradise",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1708789684/Keil_IMG_2139_full_gall_cr_pk5tx9.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape",
     "Animal"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1708789866/Keil_IMG_2139_lrg_gall_cr_iovj2g.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $5,848"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
