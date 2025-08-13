@@ -9,28 +9,18 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1725713765/s_s_carr_hydrangea_ap_dwsekw.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1725713723/Carr_IMG_2308_sm_cr_fr_bqyiat.jpg",
-  "status": "New",
+  "status": "Sold",
   "metaTitle": "Samuel S. Carr - The Hydrangea Bush Victorian Painting",
   "mainImageAltText": "Samuel S. Carr - The Hydrangea Bush Victorian Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1725713675/Carr_IMG_2308_zoom_cr_gwfhg5.jpg",
   "metaDescription": "Admire Samuel S. Carr's \"The Hydrangea Bush,\" a beautiful Victorian painting featuring delicate flowers, vibrant colors, and peaceful outdoor scenes.",
   "scrollingHomepageImage": false,
   "title": "The Hydrangea Bush",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1725713648/Carr_IMG_2308_full_gall_cr_f6vbrf.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Genre",
     "Landscape"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1725713742/Carr_IMG_2308_lrg_cr_fr_z9n5on.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $6,850"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
