@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695294252/frank-knox-morton-rehn-art-for-sale-boats-at-sunrise_g7nqgb.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687528969/Rehn_IMG_1758_sm_cr_fr_nwtyqf.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Frank Knox Morton Rehn - Boats At Sunrise Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687528894/Rehn_IMG_1758_zoom_cr_f973nn.jpg",
   "mediumResImageWidth": 1400,
@@ -20,21 +20,11 @@
   "metaDescription": "Frank Knox Morton Rehn, American Artist From 1848–1914 - Boats At Sunrise Oil On Canvas Painting For Sale - 15.25x27.5 Inches - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "Boats at Sunrise",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687528826/Rehn_IMG_1758_full_gall_cr_g8blur.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Marine"
   ],
   "gridImageHeight": 261,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687528997/Rehn_IMG_1758_lrg_cr_fr_ohesdi.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $3,900"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
