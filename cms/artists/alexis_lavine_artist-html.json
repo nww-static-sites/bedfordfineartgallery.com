@@ -2,5 +2,8 @@
   "hasLandingPage": true,
   "name": "Alexis Lavine",
   "tinyDescription": "American",
-  "slug": "alexis_lavine_artist-html"
+  "slug": "alexis_lavine_artist-html",
+  "paintings": [
+    "lavine_paw_paw_tunnel-html"
+  ]
 }
