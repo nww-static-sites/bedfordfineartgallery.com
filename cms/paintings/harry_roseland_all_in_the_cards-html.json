@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695298713/harry-herman-roseland-19th-century-art-for-sale-all-in-the-cards_d9jvb2.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1688256988/Roseland_All_in_the_Cards_IMG_1744_sm_cr_fr_uuhx1y.jpg",
   "gridImageWidth": 285,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Harry Herman Roseland - All In The Cards Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1707821206/roseland_all_in_the_cards_full_cjakkp.jpg",
   "mediumResImageWidth": 1400,
@@ -20,21 +20,11 @@
   "metaDescription": "Harry Herman Roseland, American Artist From 1868-1950 - All In The Cards Oil On Canvas Painting For Sale - 17.5x21.5 Inches - Signed Upper Left.",
   "scrollingHomepageImage": false,
   "title": "All in the Cards",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1707821177/roseland_all_in_the_cards_cropped_rzfni1.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Genre"
   ],
   "gridImageHeight": 235,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1688257029/Roseland_All_in_the_Cards_IMG_1744_lrg_cr_fr_jgewvp.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $8,720"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
