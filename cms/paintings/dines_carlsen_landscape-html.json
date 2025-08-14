@@ -14,28 +14,18 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/carlsen_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Dines Carlsen - CT Landscape Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/carlsen_grid.jpg",
   "mediumResImageWidth": 1524,
   "mediumResImageHeight": 1239,
   "metaDescription": "Dines Carlsen, American Artist From 1901-1966 - Ct Landscape Oil On Canvas Painting For Sale - 25x32 Inches - Signed Lower Right.",
   "title": "CT Landscape",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/carlsen_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 260,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/carlsen_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $12,000"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
