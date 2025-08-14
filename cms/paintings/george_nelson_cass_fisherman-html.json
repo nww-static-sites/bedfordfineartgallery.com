@@ -15,28 +15,18 @@
   "youtubeText": "Below is a short video (less than 1 minute) of this painting",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cass_fisherman_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "George Nelson Cass - Fishermen at Sunrise Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cass_fisherman_grid.jpg",
   "mediumResImageWidth": 1260,
   "mediumResImageHeight": 896,
   "metaDescription": "George Nelson Cass, American C. 1825-1882 - Fishermen At Sunrise Oil On Canvas Painting For Sale - 19.75x29.75 Inches - Signed Lower Left.",
   "title": "Fishermen at Sunrise",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cass_fisherman_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 261,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cass_fisherman_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $4,000"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
