@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693935247/george-drew-artwork-for-sale-spring-time-in-connecticut_j8eewe.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684065366/Drew_Spring_Time_IMG_1692_sm_cr_fr_okbk08.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "George W. Drew - Spring Time In Connecticut Oil On Board",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684065326/Drew_Spring_Time_IMG_1692_zoom_cr_zndhot.jpg",
   "mediumResImageWidth": 1400,
@@ -20,21 +20,11 @@
   "metaDescription": "George W. Drew, American Artist Born 1833 - Spring Time In Connecticut Oil On Board Painting For Sale - 7.5x9.5 Inches - Signed Lower Left.",
   "scrollingHomepageImage": false,
   "title": "Spring Time in Connecticut",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684065290/Drew_Spring_Time_IMG_1692_full_gall_cr_rfazjh.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 334,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684065472/Drew_Spring_Time_IMG_1692_lrg_cr_fr_rgbjae.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $2,400"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
