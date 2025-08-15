@@ -14,28 +14,18 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1674346912/cms-uploads/img_0246-m.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Francis Hopkinson Smith - Amsterdam Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0246-sm.jpg",
   "mediumResImageWidth": 1471,
   "mediumResImageHeight": 1137,
   "metaDescription": "Francis Hopkinson Smith, American Artist From 1838-1915 - Amsterdam Water Color Painting For Sale - 19x6 Inches - Signed Lower Left.",
   "title": "AMSTERDAM",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0246-sm_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Genre"
   ],
   "gridImageHeight": 260,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0246.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $14,500"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
