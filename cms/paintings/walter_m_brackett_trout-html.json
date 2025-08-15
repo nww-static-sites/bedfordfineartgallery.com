@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "https://www.youtube.com/embed/5MMCdD_wY0M?rel=0",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/trout_on_a_bank_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Walter M. Brackett - Trout on a Bank Painting For Sale",
   "mainImageAltText": "Walter M. Brackett Artwork for Sale - Trout on a Bank",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/trout_grid.jpg",
@@ -22,21 +22,11 @@
   "mediumResImageHeight": 843,
   "metaDescription": "Walter M. Brackett (American, 1823 - 1919) (aka  W.M.Brackett) Trout On A Bank Painting For Sale - Oil On Canvas - 11.75 X 19.5 Inches - Signed On Lower Right.",
   "title": "Trout on a Bank",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/trout_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Sporting Art"
   ],
   "gridImageHeight": 260,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/trout_on_a_bank_original.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $10,500"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
