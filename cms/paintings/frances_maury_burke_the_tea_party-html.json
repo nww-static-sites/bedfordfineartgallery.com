@@ -8,24 +8,14 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1755793397/burke_tea_party_ap2_beerks.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1755793345/Burke_Tea_Party_IMG_2505_sm_cr_fr_uyenup.jpg",
-  "status": "New",
+  "status": "Sold",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1755793311/Burke_Tea_Party_IMG_2505_zoom_cr_naehzn.jpg",
   "scrollingHomepageImage": false,
   "title": "The Tea Party",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1755793249/Burke_Tea_Party_IMG_2505_full_gall_cr_zi4cqj.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Genre"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1755793371/Burke_Tea_Party_IMG_2505_lrg_cr_fr_xlbt9s.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $4200"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
