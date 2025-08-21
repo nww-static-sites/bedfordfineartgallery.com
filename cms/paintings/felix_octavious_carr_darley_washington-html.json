@@ -14,28 +14,18 @@
   "youtubeEmbedLink": "https://www.youtube.com/embed/B32hJfyATDo?rel=0",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/darley_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Felix Octavius Carr Darley - Washington/Companions Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/darley_grid.jpg",
   "mediumResImageWidth": 1375,
   "mediumResImageHeight": 1115,
   "metaDescription": "Felix Octavius Carr Darley - Washington, Henry And Pendleton Going To The First Congress Sepia And Ink Wash For Sale 10x14.25 Inches - Signed Lower Left.",
   "title": "Washington, Henry and Pendleton Going to the First Congress",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/darley_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "American Historic / Political"
   ],
   "gridImageHeight": 260,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/darley.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $5,800"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
