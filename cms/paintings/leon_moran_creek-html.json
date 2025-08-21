@@ -14,29 +14,19 @@
   "youtubeEmbedLink": "https://www.youtube.com/embed/r9RQ7xGivHw?rel=0",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/moran_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Leon Moran - Crossing the Creek Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/moran_grid.jpg",
   "mediumResImageWidth": 1041,
   "mediumResImageHeight": 1262,
   "metaDescription": "Leon Moran, American Artist For Sale 1864-1941 - Crossing The Creek Oil On Canvas Painting For Sale - 15.5x11.5 Inches - Signed Lower Right.",
   "title": "Crossing the Creek",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/moran_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape",
     "Genre"
   ],
   "gridImageHeight": 260,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/moran_original.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $3,500"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
