@@ -9,27 +9,17 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1723499644/george_mccord_valley_scene__with__sunset_dg62xb.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1723499593/George_McCord_Valley_Scene_with_Sunset_IMG_2271_sm_cr_fr_pngzrg.jpg",
-  "status": "New",
+  "status": "Sold",
   "metaTitle": "George Herbert McCord - Valley Scene with Sunset Painting",
   "mainImageAltText": "George Herbert McCord - Valley Scene with Sunset Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1723499567/George_McCord_Valley_Scene_with_Sunset_IMG_2271_zoom_cr_djqjce.jpg",
   "metaDescription": "George Herbert McCord's \"Valley Scene with Sunset,\" a breathtaking landscape that captures the warm glow of a setting sun over a peaceful valley.",
   "scrollingHomepageImage": false,
   "title": "Valley Scene with Sunset",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1723499535/George_McCord_Valley_Scene_with_Sunset_IMG_2271_full_gall_cr_xd4rqd.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1723499617/George_McCord_Valley_Scene_with_Sunset_IMG_2271_lrg_sr_fr_f3blg8.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $7,800"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

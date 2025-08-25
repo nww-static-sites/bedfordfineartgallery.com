@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693830098/alfred-t-bricher-artwork-for-sale-rocky-shoreline_n95lda.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bricher-coastal-scene-img_1403-sm-cr-fr.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Alfred T. Bricher – Rocky Coastline Painting for Sale",
   "mainImageAltText": "Alfred T. Bricher Artwork for Sale - Rocky Shoreline Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bricher-coastal-scene-img_1403-zoom-cr-2-.jpg",
@@ -21,22 +21,12 @@
   "metaDescription": "Alfred T. Bricher, American Painter From 1837-1908 - Rocky Shoreline Oil On Canvas Painting For Sale - 9.75x19.75 Inches - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "Rocky Shoreline",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bricher-coastal-scene-img_1403-gallery-full-cr.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Marine",
     "Landscape"
   ],
   "gridImageHeight": 229,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/bricher-coastal-scene-img_1403-lrg-cr-fr.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professional conserved and framed"
-    },
-    {
-      "highlight": "Competitively priced $16,000"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

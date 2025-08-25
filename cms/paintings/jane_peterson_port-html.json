@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/peterson_port_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Jane Peterson Painting - Dutch Port - 20th Century American Fine Art",
   "mainImageAltText": "Jane Peterson Victorian Art for Sale - Dutch Port",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/peterson_port_grid.jpg",
@@ -22,22 +22,12 @@
   "mediumResImageHeight": 970,
   "metaDescription": "Discover Jane Peterson's Victorian-era masterpiece, \"Dutch Port,\" available for purchase. This vibrant work captures the essence of a bustling Dutch harbor.",
   "title": "Dutch Port",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/peterson_port_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape",
     "Marine"
   ],
   "gridImageHeight": 261,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/peterson_port_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $15,000"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

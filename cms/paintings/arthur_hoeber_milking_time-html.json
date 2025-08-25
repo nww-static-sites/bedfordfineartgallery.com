@@ -8,26 +8,16 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1740252733/hoeber_milking_time_ap_uczq0a.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1740252588/Hoeber_Milking_Time_IMG_2410_sm_cr_fr_tq90je.jpg",
-  "status": "Hold",
+  "status": "Sold",
   "metaTitle": "Arthur Hoeber Milking Time Farm Scene Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1740252561/Hoeber_Milking_Time_IMG_2410_zoom_cr_rfwzdc.jpg",
   "metaDescription": "Arthur Hoeber’s “Milking Time” captures a tranquil rural moment with warm light and pastoral charm, reflecting Victorian-era American farm life.",
   "scrollingHomepageImage": false,
   "title": "Milking Time, Nutley, New Jersey",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1740252508/Hoeber_Milking_Time_IMG_2410_full_gall_cr_ozdcjo.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1740252671/Hoeber_Milking_Time_IMG_2410_lrg_cr_fr_hcz0gt.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $12,698"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

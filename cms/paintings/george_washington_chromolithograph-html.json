@@ -11,7 +11,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695899197/george-washington-chromolithograph-artwork-for-sale-american-19th-century_apddub.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4109_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "George Washington Chromolithograph, American 19 Century Art",
   "mainImageAltText": "George Washington Chromolithograph American 19th Century Art",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4109_grid.jpg",
@@ -19,21 +19,11 @@
   "mediumResImageHeight": 1191,
   "metaDescription": "This Stunning 19th Century American Art Portrait Of George Washington May Have Been Printed As Part Of The 1876 Centennial.",
   "title": "George Washington chromolithograph, American 19th century",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4109_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "American Historic / Political"
   ],
   "gridImageHeight": 260,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_4109_original.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $2,200"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

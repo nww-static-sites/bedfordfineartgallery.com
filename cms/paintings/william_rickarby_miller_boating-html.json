@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/william_rickarby_miller_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "William Rickarby Miller - The Boating Party Painting",
   "mainImageAltText": "William Rickarby Miller Victorian Art for Sale - The Boating Party",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/william_rickarby_miller_grid.jpg",
@@ -22,22 +22,12 @@
   "mediumResImageHeight": 1517,
   "metaDescription": "William Rickarby Miller, British-american Artist From 1818-1893 - The Boating Party Oil On Canvas Painting For Sale - 14.5 X 11.5 Inches - Signed Lower Left.",
   "title": "The Boating Party",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/william_rickarby_miller_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape",
     "Genre"
   ],
   "gridImageHeight": 260,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/william_rickarby_miller_original.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $4,900"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

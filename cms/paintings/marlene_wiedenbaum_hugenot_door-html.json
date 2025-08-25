@@ -9,27 +9,17 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722194519/wiedenbaum_hugenot_door_keenos.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722194412/Wiedenbaum_Hugenot_Door_IMG_2286_sm_cr_fr_n2nswj.jpg",
-  "status": "New",
+  "status": "Sold",
   "metaTitle": "Marlene Wiedenbaum's Huguenot Door: A Historical Masterpiece",
   "mainImageAltText": "Marlene Wiedenbaum - Huguenot Door Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1723466545/wied_hugenot_grid_full_plzkki.jpg",
   "metaDescription": "Discover Marlene Wiedenbaum's Huguenot Door painting, a vivid portrayal of historical architecture, showcasing her skill in capturing detail and heritage.",
   "scrollingHomepageImage": false,
   "title": "Hugenot Door",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1723466531/wied_hugenot_grid_cropped_kqgy5v.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722194457/Wiedenbaum_Hugenot_Door_IMG_2286_lrg_cr_fr_v1fo8l.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $1,600"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

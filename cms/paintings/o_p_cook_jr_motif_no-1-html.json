@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693928260/otis-pierce-cook-jr-victorian-painting-for-sale-motif-no-1_aoijgc.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cook-img_1459-sm-cr-fr.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Otis Pierce Cook, Jr. Motif No. 1 painting for sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cook-img_1459-zoom-cr.jpg",
   "mediumResImageWidth": 1400,
@@ -20,21 +20,11 @@
   "metaDescription": "Otis Pierce Cook Jr, American Artist From 1900-1980 - Motif No. 1 Oil On Canvas Painting For Sale - 19.25x23.25 Inches - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "Motif No. 1",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cook-img_1459-gall-full-cr.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Marine"
   ],
   "gridImageHeight": 280,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cook-img_1459-lrg-cr-fr.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively priced $4,800"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

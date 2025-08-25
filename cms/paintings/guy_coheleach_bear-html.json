@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/coheleach_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Guy Coheleach - Brown Bear Catching Salmon Painting For Sale",
   "mainImageAltText": "Guy Coheleach Victorian Artwork for Sale - Brown Bear Catching Salmon",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/coheleach_grid.jpg",
@@ -22,22 +22,12 @@
   "mediumResImageHeight": 1040,
   "metaDescription": "Guy Coheleach, American Artist Born 1933 - Brown Bear Catching Salmon Oil On Board Painting For Sale - 5.5x11.25 Inches - Signed Lower Left.",
   "title": "Brown Bear Catching Salmon",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/coheleach_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Sporting Art",
     "Animal"
   ],
   "gridImageHeight": 261,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/coheleach_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $3,900"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

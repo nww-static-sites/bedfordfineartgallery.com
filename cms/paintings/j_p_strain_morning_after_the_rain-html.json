@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695309151/john-paul-strain-paintings-for-sale-morning-after-the-rain_xw8kr2.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1679157788/Strain_Morning_After_the_Rain_IMG_1621_sm_cr_fr_lguhpr.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "John Paul Strain - Morning After The Rain Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1679157684/Strain_Morning_After_the_Rain_IMG_1621_zoom_cr_fe3k6w.jpg",
   "mediumResImageWidth": 1400,
@@ -20,21 +20,11 @@
   "metaDescription": "John Paul Strain, American Artist From 1955 - Morning After The Rain Gouache Painting For Sale - 4.25x7.5 Inches - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "Morning After the Rain",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1679157639/Strain_Morning_After_the_Rain_IMG_1621_full_gall_cr_zvskwh.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 251,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1679157844/Strain_Morning_After_the_Rain_IMG_1621_larg_cr_fr_vines0.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $2,500"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

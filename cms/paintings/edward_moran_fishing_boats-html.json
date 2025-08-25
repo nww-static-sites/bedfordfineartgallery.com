@@ -9,27 +9,17 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722111896/moran_fishing_boats_ap_rzmewt.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722111842/Moran_Fishing_Boats_IMG_2255_sm_cr_fr_pofy3h.jpg",
-  "status": "New",
+  "status": "Sold",
   "metaTitle": "Edward Moran's 19th-Century Fishing Boats Painting",
   "mainImageAltText": "Edward Moran's 19th-Century Fishing Boats Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722111812/Moran_Fishing_Boats_IMG_2255_zoom_cr_deyxa2.jpg",
   "metaDescription": "Admire Edward Moran's 19th-century painting of fishing boats, where masterful brushstrokes capture the serene beauty and dynamic life of the sea.",
   "scrollingHomepageImage": false,
   "title": "Fishing Boats",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722111784/Moran_Fishing_Boats_IMG_2255_full_gall_cr_vgw9vo.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Marine"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722111866/Moran_Fishing_Boats_IMG_2255_lrg_cr_fr_b2nrur.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $20,500"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiedenbaum_small2.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Marlene Wiedenbaum - Hudson River Sunrise IV with Ducks",
   "mainImageAltText": "Marlene Wiedenbaum - Hudson River Sunrise IV with Ducks",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiedenbaum_grid2.jpg",
@@ -22,22 +22,12 @@
   "mediumResImageHeight": 1337,
   "metaDescription": "Explore Hudson River Sunrise IV with Ducks by Marlene Wiedenbaum, a stunning pastel artwork capturing a serene sunrise over the Hudson River adorned with ducks.",
   "title": "Hudson River Sunrise IV with Ducks",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiedenbaum_grid2_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape",
     "Animal"
   ],
   "gridImageHeight": 261,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/wiedenbaum_full2.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $1,400"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

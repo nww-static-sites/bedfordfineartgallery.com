@@ -9,12 +9,12 @@
   "slug": "arthur_fitzwilliam_tate_grouse_family-html",
   "dimensions": "Oil on canvas, 17.5 x 23.5 inches/Signed lower right \"A F Tait\" 1869 and lower left \"H. Hill\"",
   "featured": false,
-  "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695385980/arthur-fitzwilliam-tait-19th-century-paintings-for-sale-grouse-family_svbdmq.jpg",
+  "artOnWallImage": "",
   "metaKeywords": "",
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/tait_grousse_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Arthur Fitzwilliam Tait - Grouse Family Painting For Sale",
   "mainImageAltText": "Arthur Fitzwilliam Tait 19th Century Paintings for Sale - Grouse Family",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/tait_grousse_grid.jpg",
@@ -22,22 +22,12 @@
   "mediumResImageHeight": 1070,
   "metaDescription": "Aurthur Tait was born in Liverpool, England and later moved to Manchester. He taught himself to paint by copying art works at the Royal Manchester Institute.",
   "title": "Grouse Family",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/tait_grousse_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Sporting Art",
     "Animal"
   ],
   "gridImageHeight": 261,
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/tait_grousse_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $28,354"
-    }
-  ]
+  "highlights": []
 }

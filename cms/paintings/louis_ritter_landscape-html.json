@@ -14,29 +14,18 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0260-m.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Louis Ritter - East Gloucester Landscape Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0260-sm.jpg",
   "mediumResImageWidth": 1643,
   "mediumResImageHeight": 1244,
   "metaDescription": "Louis Ritter, American Artist From 1854-1892 - East Gloucester Landscape Oil On Canvas Painting For Sale - 30x43.5 Inches - Signed Lower Left.",
   "title": "East Gloucester Landscape",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0260-sm_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 260,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_0260.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $26,500",
-      "pairedPainting": "louis_ritter_east_glouster-html"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

@@ -9,27 +9,17 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722192006/wiedenbaum_tangerines___lace_ap_wq23dh.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722191922/Wiedenbaum_Tangerines_and_Lace_IMG_2281_sm_cr_fr_jyoknp.jpg",
-  "status": "New",
+  "status": "Sold",
   "metaTitle": "Marlene Wiedenbaum - Tangerines and Lace Still Life",
   "mainImageAltText": "Marlene Wiedenbaum - Tangerines and Lace Still Life",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1723553189/weid_tangerine_cropped_yulkww.jpg",
   "metaDescription": "Admire Marlene Wiedenbaum's Tangerines and Lace, a captivating still life painting blending rich colors of ripe tangerines with the delicate textures of lace.",
   "scrollingHomepageImage": false,
   "title": "Tangerines and Lace",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1723553189/weid_tangerine_cropped_yulkww.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Still Life"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722191966/Wiedenbaum_Tangerines_and_Lace_IMG_2281_lrg_cr_fr_lafu6b.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $1,600"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

@@ -14,28 +14,18 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rabes_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Max Friedrich Ferdinand Rabes - Young Woman Sitting on a Bench",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rabes_grid.jpg",
   "mediumResImageWidth": 967,
   "mediumResImageHeight": 807,
   "metaDescription": "Explore Max Friedrich Ferdinand Rabes' enchanting portrayal of a Young Woman Sitting on a Bench, a timeless piece capturing grace and contemplation.",
   "title": "Young Woman Sitting on a Bench",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rabes_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Genre"
   ],
   "gridImageHeight": 261,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rabes_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $6,500"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

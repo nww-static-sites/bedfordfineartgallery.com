@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1693830274/alfred-t-bricher-artwork-for-sale-moonrise-over-the-shore_nqs87y.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687442759/Bricher2_Moonrose_IMG_1812_sm_cr_fr_lu1wln.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Alfred T Bricher - Moonrise Over The Shore Painting For Sale",
   "mainImageAltText": "Alfred T. Bricher Victorian Paintings for Sale - Moonrise Over the Shore",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687442671/Bricher2_Moonrose_IMG_1812_zoom_cr_wtcwfr.jpg",
@@ -21,21 +21,11 @@
   "metaDescription": "Alfred T. Bricher, American Artist From 1837-1908 - Moonrise Over The Shore Watercolor/gouache Painting For Sale - 12.75x24.25 Inches - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "Moonrise over the Shore",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687442599/Bricher2_Moonrose_IMG_1812_ull_gall_cr_jhikjr.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Marine"
   ],
   "gridImageHeight": 239,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1687442828/Bricher2_Moonrose_IMG_1812_lrg_cr_fr_wzr21r.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $34,900"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

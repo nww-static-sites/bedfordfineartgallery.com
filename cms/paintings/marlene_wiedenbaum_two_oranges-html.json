@@ -9,27 +9,17 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722193375/wiedenbaum_two_oranges_ap_vsviyg.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722193238/Wiedenbaum_Two_Oranges_IMG_2283_sm_cr_fr_fjlqbu.jpg",
-  "status": "New",
+  "status": "Sold",
   "metaTitle": "Marlene Wiedenbaum - Two Oranges Still Life Painting",
   "mainImageAltText": "Marlene Wiedenbaum - Two Oranges Still Life Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1723557673/weid_oranges_cropped_ohdfvu.jpg",
   "metaDescription": "Admire Marlene Wiedenbaum's Two Oranges, a captivating still life painting that highlights the simplicity & beauty of everyday objects with rich color & texture",
   "scrollingHomepageImage": false,
   "title": "Two Oranges",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1723557673/weid_oranges_cropped_ohdfvu.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Still Life"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722193313/Wiedenbaum_Two_Oranges_IMG_2283_lrg_cr_fr_nz1b9l.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $1,600"
-    }
-  ]
+  "highlights": []
 }

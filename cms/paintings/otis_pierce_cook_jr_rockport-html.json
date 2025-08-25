@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cook_rockport_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Otis Pierce Cook, Jr. - Rockport, Massachusetts Painting",
   "mainImageAltText": "Otis Pierce Cook Victorian Painting for Sale - Rockport, Massachusetts",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cook_rockport_grid.jpg",
@@ -23,21 +23,11 @@
   "metaDescription": "Otis Pierce Cook Jr., American Painter - 1900-1980 - Rockport, Massachusetts Oil On Canvas Painting For Sale - 19.25x23.25 Inches - Signed Lower Right.",
   "scrollingHomepageImage": true,
   "title": "Rockport, Massachusetts",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cook_rockport_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 261,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/cook_rockport_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $4,200"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

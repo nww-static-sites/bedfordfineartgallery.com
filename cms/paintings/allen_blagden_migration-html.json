@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/blagden_migration_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Allen Blagden - Stormy Migration Painting For Sale",
   "mainImageAltText": "Allen Blagden - Stormy Migration Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/blagden_migration_grid.jpg",
@@ -22,22 +22,12 @@
   "mediumResImageHeight": 931,
   "metaDescription": "Allen Blagden, American Artist From B. 1938 - Stormy Migration Watercolor Painting For Sale - 30x22 Inches - Signed Lower Right.",
   "title": "Stormy Migration",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/blagden_migration_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape",
     "Sporting Art"
   ],
   "gridImageHeight": 261,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/blagden_migration_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $7,500"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

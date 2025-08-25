@@ -9,27 +9,17 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1709586081/cochran_AP_n5cxwr.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1709583898/New_England_Winter_Winter_IMG_2143_sm_cr_fr_elc0yn.jpg",
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Allen Dean Cochran Winter Art - For Sale Now",
   "mainImageAltText": "Allen Dean Cochran Winter Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1709583824/New_England_Winter_Winter_IMG_2143_zoom_cr_zkiyr3.jpg",
   "metaDescription": "Explore Allen Dean Cochran's winter landscapes for sale. Own a piece of serene, snow-covered beauty captured in his exquisite oil paintings.",
   "scrollingHomepageImage": false,
   "title": "A New England Winter",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1709583782/New_England_Winter_Winter_IMG_2143_full_gall_cr_gfkakf.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1709583934/New_England_Winter_Winter_IMG_2143_lrg_cr_fr_qob666.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $4,953"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

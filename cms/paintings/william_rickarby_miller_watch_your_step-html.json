@@ -9,28 +9,18 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1730581968/w_r_miller_watch_your_step_ap_jc7jst.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1730581918/W_R_Miller_IMG_2321_S_T_sm_cr_fr_uufkir.jpg",
-  "status": "New",
+  "status": "Sold",
   "metaTitle": "William Rickarby Miller's Morristown, N.Y. - Victorian Artwork",
   "mainImageAltText": "William Rickarby Miller's Victorian Artwork",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1730581893/W_R_Miller_IMG_2321_S_T_zoom_cr_vzvgw8.jpg",
   "metaDescription": "Miller's Victorian painting, Morristown, N.Y., captures a delicate scene of figures navigating a rustic path with rich detail and a storybook-like charm.",
   "scrollingHomepageImage": false,
   "title": "Morristown, N.Y.",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1737824560/W_R_Miller_IMG_2321_S_T_full_gall_cr_2_g3fmbx.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape",
     "Genre"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1730581941/W_R_Miller_IMG_2321_S_T_lrg_cr_fr_h4wfeh.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $5,500"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

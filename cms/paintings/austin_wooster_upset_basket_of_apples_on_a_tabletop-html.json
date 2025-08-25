@@ -13,7 +13,7 @@
   "youtubeEmbedLink": "https://www.youtube.com/embed/TTlJcp6fF38?si=pxQLAbl2wj98b96R?rel=0",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1677889010/Wooster_Spilled_Apples_IMG_1608_sm_cr_fr_djmapq.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Austin C. Wooster - Upset Basket Of Apples On A Tabletop",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1677888976/Wooster_Spilled_Apples_IMG_1608_zoom_cr_lrjvrx.jpg",
   "mediumResImageWidth": 1400,
@@ -21,21 +21,11 @@
   "metaDescription": "Austin C. Wooster, American Artist From 1838-1913 - Upset Basket Of Apples On A Tabletop Oil On Canvas Painting For Sale - 13.5x17.5 Inches - Signed Lower Right",
   "scrollingHomepageImage": false,
   "title": "Upset Basket of Apples on a Tabletop",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1677888950/Wooster_Spilled_Apples_IMG_1608_gall_full_cr_r4ezpi.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Still Life"
   ],
   "gridImageHeight": 264,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1677889039/Wooster_Spilled_Apples_IMG_1608_lrg_cr_fr_utesce.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $5,500"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

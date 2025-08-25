@@ -12,7 +12,7 @@
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1695310378/paul-strisik-paintings-for-sale-pierces-cove-maine_phcuov.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684202365/Strisik_Pierces_Cove_IMG_1743_sm_cr_fr_oqqias.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Paul Strisik - Pierces Cove, ME Watercolor Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684202169/Strisik_Pierces_Cove_IMG_1743_zoom_cr_f8nhgt.jpg",
   "mediumResImageWidth": 1400,
@@ -20,21 +20,11 @@
   "metaDescription": "Paul Strisik, American Artist From 1918-1998 - Pierce's Cove, Maine Watercolor Painting For Sale - 9.75x13.75 Inches - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "Pierce's Cove, Maine",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684202321/Strisik_Pierces_Cove_IMG_1743_full_gall_cr_xmigss.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Marine"
   ],
   "gridImageHeight": 392,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1684202389/Strisik_Pierces_Cove_IMG_1743_lrg_cr_fr_uqepmu.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $2,500"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

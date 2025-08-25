@@ -9,27 +9,17 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722193948/wiedenbaum_hugenot_door_ii_ap_f5rehk.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722193851/Wiedenbaum_Hugenot_Door_II_IMG_2284_sm_cr_fr_pnmkjl.jpg",
-  "status": "New",
+  "status": "Sold",
   "metaTitle": "Marlene Wiedenbaum's Huguenot Door II: Victorian Elegance",
   "mainImageAltText": "Marlene Wiedenbaum's Huguenot Door II: Victorian Elegance",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1723473135/wied_hugenot2_grid_cropped_xyljtq.jpg",
   "metaDescription": "Explore Marlene Wiedenbaum's \"Huguenot Door II,\" a Victorian painting that captures the intricate beauty and historical essence of a classic Huguenot door.",
   "scrollingHomepageImage": false,
   "title": "Hugenot Door II",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1723473135/wied_hugenot2_grid_cropped_xyljtq.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1722193889/Wiedenbaum_Hugenot_Door_II_IMG_2284_lrg_cr_fr_eji6c4.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $1,200"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

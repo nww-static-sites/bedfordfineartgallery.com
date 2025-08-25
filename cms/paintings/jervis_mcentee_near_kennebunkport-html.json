@@ -9,27 +9,17 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1731166486/mcentee_near_kennebunkport_ap_rlc1ps.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1731165218/McEntee_Near_Kennebunkport_IMG_2326_sm_cr_fr_guyvdf.jpg",
-  "status": "New",
+  "status": "Sold",
   "metaTitle": "Jervis McEntee: Near Kennebunkport Victorian Painting",
   "mainImageAltText": "Jervis McEntee: Near Kennebunkport Victorian Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1731165189/McEntee_Near_Kennebunkport_IMG_2326_zoom_cr_vku3na.jpg",
   "metaDescription": "Explore Jervis McEntee's Near Kennebunkport, Maine, a stunning landscape painting capturing the serene beauty of the Maine coastline with his artistic style.",
   "scrollingHomepageImage": false,
   "title": "Near Kennebunkport",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1731165168/McEntee_Near_Kennebunkport_IMG_2326_full_gall_cr_ouw502.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1731165253/McEntee_Near_Kennebunkport_IMG_2326_lrg_cr_fr_jpo4mj.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $15,000"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

@@ -14,29 +14,19 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/riab_small2.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Boris Riab - Pheasants in Flight Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/riab_grid2.jpg",
   "mediumResImageWidth": 1700,
   "mediumResImageHeight": 1252,
   "metaDescription": "Boris Riab, Artist From 1898-1975 - Pheasants In Flight Watercolor Painting For Sale 13x19.75 Inches - Signed Lower Right.",
   "title": "Pheasants in Flight",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/riab_grid2_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Sporting Art",
     "Animal"
   ],
   "gridImageHeight": 261,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/riab_full2.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $3,500"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

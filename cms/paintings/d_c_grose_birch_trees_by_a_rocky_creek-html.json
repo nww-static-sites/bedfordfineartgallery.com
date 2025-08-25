@@ -9,27 +9,17 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1706731883/Grose_Birch_Trees_AP_f1i9qq.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1706730301/Grose_Birch_Trees_by_Rocky_Creek_IMG_2107_2_sm_cr_fr_dxhdhq.jpg",
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "D.C. Grose's Birch Trees by Rocky Creek Artwork",
   "mainImageAltText": "D.C. Grose's Birch Trees by Rocky Creek Artwork",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1707821343/grose_birch_grid_full_f5e8yh.jpg",
   "metaDescription": "Delve into D.C. Grose's enchanting \"Birch Trees by Rocky Creek\" painting, a stunning showcase of delicate birches set against a rugged creek landscape.",
   "scrollingHomepageImage": false,
   "title": "Birch Trees by a Rocky Creek",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1707821323/grose_birch_grid_cropped_mplpxr.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1706730346/Grose_Birch_Trees_by_Rocky_Creek_IMG_2107_2_lrg_cr_fr_ap1wh8.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively priced $3,200"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }

@@ -14,29 +14,19 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/riab_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Boris Riab - Ducks in Flight Painting For Sale",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/riab_grid.jpg",
   "mediumResImageWidth": 1629,
   "mediumResImageHeight": 1202,
   "metaDescription": "Boris Riab, Artist From 1898-1975 - Ducks In Flight Watercolor Painting For Sale - 13x19.75 Inches - Signed Lower Right.",
   "title": "Ducks in Flight",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/riab_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Sporting Art",
     "Animal"
   ],
   "gridImageHeight": 261,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/riab_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $3,500"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
