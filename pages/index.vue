@@ -177,12 +177,11 @@
                 >
                     <div style="margin: auto">
                         <nuxt-img
-                            provider="cloudinary"
-                            src="shipping_options_ijojdq.png"
-                            width="1825"
-                            height="1254"
+                            src="/images/shipping_options.png"
+                            width="1200"
+                            height="825"
                             alt="Bedford Fine Art Gallery Shipping Options"
-                            style="max-width: 800px; margin: auto"
+                            style="max-width: 700px; margin: auto"
                         />
                     </div>
                 </div>
