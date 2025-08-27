@@ -9,27 +9,17 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1720099997/raser_violon_ap_xm3aru.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1720099932/Raser_violon_tambour_mandoline_IMG_2223_sm_cr_fr_icdc1v.jpg",
-  "status": "Hold",
+  "status": "Sold",
   "metaTitle": "Pierre Raser Violon, Tambour, Mandoline Painting For Sale",
   "mainImageAltText": "Pierre Raser Violon, Tambour, Mandoline Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1720099890/Raser_violon_tambour_mandoline_IMG_2223_zoom_cr_fhu695.jpg",
   "metaDescription": "Acquire \"Violon, Tambour, Mandoline\" by Pierre Raser, a captivating Victorian painting. Available at Bedford Fine Art Gallery to purchase options.",
   "scrollingHomepageImage": false,
   "title": "Violon, Tambour, Mandoline",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1720099834/Raser_violon_tambour_mandoline_IMG_2223_full_gall_cr_q6g24m.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Still Life"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1720099965/Raser_violon_tambour_mandoline_IMG_2223_lrg_cr_fr_alczqx.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $2,823"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
