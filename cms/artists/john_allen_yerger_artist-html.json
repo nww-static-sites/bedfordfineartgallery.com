@@ -2,5 +2,8 @@
   "hasLandingPage": true,
   "name": "John Allen Yerger",
   "tinyDescription": "American, 1935 - 2017",
-  "slug": "john_allen_yerger_artist-html"
+  "slug": "john_allen_yerger_artist-html",
+  "paintings": [
+    "john_allen_yerger_washington_trompe_loeil-html"
+  ]
 }
