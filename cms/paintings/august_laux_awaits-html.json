@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/laux_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "August Laux - She Awaits Painting For Sale",
   "mainImageAltText": "August Laux Victorian Painting for Sale - She Awaits",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/laux_grid2.jpg",
@@ -22,21 +22,11 @@
   "mediumResImageHeight": 962,
   "metaDescription": "August Laux, American Artist From 1847-1921 - She Awaits Oil On Canvas Painting For Sale - 19.25x29.25 Inches - Signed Lower Right.",
   "title": "She Awaits",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1674346912/cms-uploads/laux_grid2.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 260,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1680298359/Laux_Laux_She_Awaits_IMG_0776_2_lrg_cr_fr_gjeks8.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively priced  $6,900"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
