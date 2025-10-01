@@ -13,7 +13,7 @@
   "youtubeEmbedLink": "https://www.youtube.com/embed/9wf9xOfGhJs?si=RlY92jfTk9EBdCYR?rel=0",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_sm-cr-fr.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "James N Hess - A Much Appreciated Bath And Rubdown Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_1526-zoom-cra.jpg",
   "mediumResImageWidth": 1400,
@@ -21,22 +21,12 @@
   "metaDescription": "James N. Hess, American Artist From 1858–1890 - A Much Appreciated Bath And Rubdown Oil On Canvas Painting For Sale - 15.75 X 21.75 Inches/signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "A Much Appreciated Bath and Rubdown",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_1526-full-gall-cr.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Genre",
     "Animal"
   ],
   "gridImageHeight": 241,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/img_lrg-cr-fr.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively priced  $6,500"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
