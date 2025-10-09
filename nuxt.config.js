@@ -129,7 +129,9 @@ export default {
     },
     image: {
         cloudinary: {
-          baseURL: 'https://res.cloudinary.com/dg6smdedp/image/upload/'
+          baseURL: 'https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/'
+          // baseURL: 'https://res.cloudinary.com/dg6smdedp/image/upload/'
+
         }
     },
     sitemap: {
