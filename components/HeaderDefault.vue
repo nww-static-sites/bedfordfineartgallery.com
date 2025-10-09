@@ -5,7 +5,7 @@
             <header>
                 <div class="logo">
                     <nuxt-link to="/"
-                        ><nuxt-img provider="cloudinary" src="/logo.png" width="123" height="124" alt="American Sporting Art"
+                        ><nuxt-img provider="cloudinary" src="/logo.png" width="123" height="124" alt="Bedford Fine Art Gallery"
                     /></nuxt-link>
                 </div>
 
