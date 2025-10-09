@@ -8,27 +8,16 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1739466838/weyl_cows_in_pasture_guiding_the_cows_ap_jlarrn.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1739467328/Weyl_Cows_in_Pasture_by_a_Stream_IMG_2399_sm_cr_fr_zlaohp.jpg",
-  "status": "New",
+  "status": "Sold",
   "metaTitle": "Max Weyl – Cows in Pasture by a Stream Landscape Art",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1739467302/Weyl_Cows_in_Pasture_by_a_Stream_IMG_2399_zoom_cr_inucl4.jpg",
   "metaDescription": "Cows in Pasture by a Stream by Max Weyl captures a tranquil rural scene, showcasing his skill in depicting light, nature, and peaceful countryside life.",
   "scrollingHomepageImage": false,
   "title": "Cows in Pasture by a Stream",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1739467228/Weyl_Cows_in_Pasture_by_a_Stream_IMG_2399_full_gall_cr_bzxxlz.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1739467353/Weyl_Cows_in_Pasture_by_a_Stream_IMG_2399_lrg_cr_fr_suhptg.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $6,200",
-      "pairedPainting": "max_weyl_guiding_the_cows-html"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
