@@ -2,5 +2,8 @@
   "hasLandingPage": true,
   "name": "Pamela White",
   "tinyDescription": "American",
-  "slug": "pamela_white_artist-html"
+  "slug": "pamela_white_artist-html",
+  "paintings": [
+    "pamela_white_buttons-html"
+  ]
 }
