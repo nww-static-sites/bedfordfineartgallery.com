@@ -13,6 +13,9 @@
   "scrollingHomepageImage": false,
   "title": "Buttons",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1760541570/P_White_Buttons_IMG_2563_full_gall_cr_zastlo.jpg",
+  "categories": [
+    "Genre"
+  ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1760541677/P_White_Buttons_IMG_2563_lrg_cr_fr_nqsbkf.jpg",
   "highlights": [
     {
