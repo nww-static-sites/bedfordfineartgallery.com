@@ -215,6 +215,9 @@
     </div>
 </template>
 
+
+
+
 <script>
 import { artistNameWithTinyDescription } from '~/libs/artist'
 import ContactForm from '~/components/ContactForm'
@@ -230,14 +233,37 @@ import { getMetaTitleAndDescriptionAndKeywords } from '~/libs/meta'
 export default {
     components: { ContactForm, PaintingHeader, TestimonialsScroll, YouTubeVideo, Zoom },
     mixins: [PaintingVisitsMixin],
+
     async asyncData({ $content, route }) {
         const testimonials = await loadShortTestimonials($content)
         const painting = await $content('paintings', urlSlugToSlug(route.path)).fetch()
         painting.highlights = painting.highlights || []
 
+        // 🪄 Add this helper function to rewrite Cloudinary URLs to your custom domain
+        const replaceCloudinaryDomain = (value) => {
+            if (typeof value === 'string') {
+                return value.replaceAll(
+                    'https://res.cloudinary.com/dg6smdedp/',
+                    'https://images.bedfordfineartgallery.com/dg6smdedp/'
+                )
+            } else if (Array.isArray(value)) {
+                return value.map(replaceCloudinaryDomain)
+            } else if (value && typeof value === 'object') {
+                for (const key in value) {
+                    value[key] = replaceCloudinaryDomain(value[key])
+                }
+            }
+            return value
+        }
+
+        // Apply to the entire painting object
+        replaceCloudinaryDomain(painting)
+
         for (let i = 0; i < painting.highlights.length; i++) {
             if (painting.highlights[i].pairedPainting) {
-                const pairedPainting = await $content('paintings', painting.highlights[i].pairedPainting).only(['title']).fetch()
+                const pairedPainting = await $content('paintings', painting.highlights[i].pairedPainting)
+                    .only(['title'])
+                    .fetch()
                 painting.highlights[i].pairedPainting = {
                     slug: painting.highlights[i].pairedPainting,
                     title: pairedPainting.title,
@@ -245,10 +271,16 @@ export default {
             }
         }
 
-        painting.artist = await $content('artists', painting.artist).only(['name', 'tinyDescription', 'slug', 'alias', 'hasLandingPage']).fetch()
+        painting.artist = await $content('artists', painting.artist)
+            .only(['name', 'tinyDescription', 'slug', 'alias', 'hasLandingPage'])
+            .fetch()
+
+        // ✅ Apply replacement to artist data as well
+        replaceCloudinaryDomain(painting.artist)
 
         return { painting, testimonials }
     },
+
     computed: {
         artistNameWithTinyDescription() {
             return artistNameWithTinyDescription(this.painting.artist)
@@ -275,22 +307,25 @@ export default {
             return this.painting.highlights && this.painting.highlights.length > 0 && !this.sold
         },
         mediumResImage() {
-            return this.painting.mediumResImage.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
+            return this.painting.mediumResImage.replace(
+                'https://images.bedfordfineartgallery.com/dg6smdedp/image/upload',
+                ''
+            )
         },
         altText() {
             return this.painting.mainImageAltText || artistNameWithTinyDescription(this.painting.artist)
         },
     },
+
     mounted() {
         window.__nww__artplacerplaced = false
-        const $this = this
-        this.$nextTick(function () {
-            $this.maybeLoadArtPlacerScript()
-        })
+        this.$nextTick(() => this.maybeLoadArtPlacerScript())
     },
+
     updated() {
         this.maybeLoadArtPlacerScript()
     },
+
     methods: {
         maybeLoadArtPlacerScript() {
             if (!window.__nww__artplacerplaced) {
@@ -330,6 +365,7 @@ export default {
             }
         },
     },
+
     head() {
         const { title, description, keywords } = getMetaTitleAndDescriptionAndKeywords({
             content: this.painting,
@@ -338,21 +374,16 @@ export default {
         return {
             title,
             meta: [
-                {
-                    hid: 'description',
-                    name: 'description',
-                    content: description,
-                },
-                {
-                    hid: 'keywords',
-                    name: 'keywords',
-                    content: keywords,
-                },
+                { hid: 'description', name: 'description', content: description },
+                { hid: 'keywords', name: 'keywords', content: keywords },
             ],
         }
     },
 }
 </script>
+
+
+
 
 <style scoped>
 .artwork img {
