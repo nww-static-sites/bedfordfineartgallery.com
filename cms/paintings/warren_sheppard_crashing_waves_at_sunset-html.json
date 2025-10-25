@@ -9,7 +9,7 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1732999076/sheppard_crashing_waves_ap_cy5mea.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1732999022/Sheppard_Crashing_waves_IMG_2375_sm_cr_fr_vaje0l.jpg",
-  "status": "New",
+  "status": "Sold",
   "youtubeAltText": "Warren Sheppard Crashing Waves at Sunset Painting",
   "metaTitle": "Warren Sheppard Crashing Waves at Sunset Painting",
   "mainImageAltText": "Warren Sheppard Crashing Waves at Sunset Painting",
@@ -17,20 +17,10 @@
   "metaDescription": "Experience the beauty of Warren Sheppard's \"Crashing Waves at Sunset.\" This stunning painting captures the power of nature with dynamic waves & sunset hues.",
   "scrollingHomepageImage": false,
   "title": "Crashing Waves At Sunset",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1732998926/Sheppard_Crashing_waves_IMG_2375_full_gall_cr_rb6lap.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Marine"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1732999044/Sheppard_Crashing_waves_IMG_2375_lrg_cr_fr_ub0gwy.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $4,132"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
