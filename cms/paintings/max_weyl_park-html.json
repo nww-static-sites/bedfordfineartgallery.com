@@ -22,21 +22,11 @@
   "mediumResImageHeight": 1720,
   "metaDescription": "Max Weyl, American Artist From 1837-1914 - Rock Creek Park Oil On Canvas Painting For Sale - 18x22 Inches - Signed Lower Right.",
   "title": "Rock Creek Park",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rcp_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
   "gridImageHeight": 260,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/rock_creek_park_original.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $5,500"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
