@@ -9,28 +9,18 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1708123565/Beauregard_Sheep_AP_pjp95z.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1708123436/Beauregard_Guiding_the_Sheep_IMG_2126_sm_cr_fr_ahie7a.jpg",
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Charles Grant Beauregard: Guiding the Sheep Painting",
   "mainImageAltText": "Charles Grant Beauregard: Guiding the Sheep Painting",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1708123371/Beauregard_Guiding_the_Sheep_IMG_2126_zoom_cr_i6xyfc.jpg",
   "metaDescription": "Experience the pastoral charm of Charles Grant Beauregard's masterpiece, 'Guiding the Sheep'. Explore the serene countryside and timeless artistry.",
   "scrollingHomepageImage": false,
   "title": "Guiding the Sheep",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1708123332/Beauregard_Guiding_the_Sheep_IMG_2126_full_gall_cr_ttd3cs.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape",
     "Animal"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1708123485/Beauregard_Guiding_the_Sheep_IMG_2126_lrg_cr_fr_b83qzz.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $2,473"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
