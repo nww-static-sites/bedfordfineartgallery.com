@@ -8,24 +8,14 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1760543043/pamela_white_summer_figs_ap_full_kfpfyj.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1760542985/P_White_Summer_Figs_IMG_2565_sm_cr_fr_mrpnrp.jpg",
-  "status": "New",
+  "status": "Sold",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1760633558/figs_crop_dvkvon.jpg",
   "scrollingHomepageImage": false,
   "title": "Summer Figs",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1760633541/figs_full_z0tx7z.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Still Life"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1760543018/P_White_Summer_Figs_IMG_2565_lrg_cr_fr_cznvil.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $1,100"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
