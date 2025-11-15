@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "https://www.youtube.com/embed/oYRQ8mkBB2I?si=-euhogUGuEDG_hnl?rel=0",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/fox_harbor_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Robert Atkinson Fox - New York Harbor Painting for Sale",
   "mainImageAltText": "Robert Atkinson Fox 19th Century Paintings for Sale - New York Harbor",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/fox_harbor_grid.jpg",
@@ -23,22 +23,12 @@
   "metaDescription": "Robert Atkinson Fox began his career painting portraits which included those of Grover Cleveland, Benjamin Harrison and Sir John McDonald.",
   "scrollingHomepageImage": true,
   "title": "New York Harbor",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/fox_harbor_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape",
     "American Historic / Political"
   ],
   "gridImageHeight": 261,
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/cms-uploads/fox_harbor_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $6,200"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
