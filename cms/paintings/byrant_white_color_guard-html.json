@@ -8,24 +8,14 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1760385404/b_white_color_guard_ap_full_oe7for.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1760385340/B_Whte_Color_Guard_IMG_2554_sm_cr_fr_kuifgr.jpg",
-  "status": "New",
+  "status": "Sold",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1760453344/color_guard_crop_bzuo8s.jpg",
   "scrollingHomepageImage": false,
   "title": "Color Guard",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1760453320/color_guard_full_xdiol3.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Genre"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1760385370/B_Whte_Color_Guard_IMG_2554_lrg_cr_fr_eysclk.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $4,900"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
