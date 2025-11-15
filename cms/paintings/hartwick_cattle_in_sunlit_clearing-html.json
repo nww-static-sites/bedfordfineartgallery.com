@@ -1,17 +1,21 @@
 {
   "paintingWidth": 66.75,
   "body": "George Gunther Hartwick was born in Saxony, Germany. He immigrated to the United States in, probably, the 1840s, living first in New Haven, Connecticut, then moving to New York City in c. 1847. Hartwick became a member of the second-generation Hudson River School artists and painted scenes of the Hudson River Valley, Catskill Mountains and Niagara Falls in New York State, New England, Wissahickon Creek, Pennsylvania, and Bridal Veil Falls in the Yosemite Valley.\n\nHoused at the Washington’s Headquarters State Historic Site in Newburgh, New York, is a painting of General George Washington’s military headquarters by Hartwick. The building is where Washington gave his Newburgh address to handle the threatened uprising of the Continental Army over pay. Hartwick exhibited at the American Art Union and National Academy of Design; however, he appears to have preferred to sell his art through various reputable auction houses who handled only America’s best artists of that time. By 1870 Hardwick was living in New Jersey; whether he remained there for the remainder of his life is unknown.",
+  "artist": "gunther_hartwick_artist-html",
   "paintingHeight": 46.75,
   "slug": "hartwick_cattle_in_sunlit_clearing-html",
   "dimensions": "Oil on canvas, 39.75 x 60 inches/Signed lower left",
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1763224866/hartwick_cattle_in_sunlit_clearing_yadk91.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1763224758/Hartwick_Cattle_in_Sunlit_Clearing_sm_cr_fr_h0i0ga.jpg",
-  "status": "None",
+  "status": "New",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1763224722/Hartwick_Cattle_in_Sunlit_Clearing_zoom_cr_ktruzl.jpg",
   "scrollingHomepageImage": false,
   "title": "Cattle in Sunlit Clearing",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1763224652/Hartwick_Cattle_in_Sunlit_Clearing_full_gall_cr_r3arl4.jpg",
+  "categories": [
+    "Landscape"
+  ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1763224823/Hartwick_Cattle_in_Sunlit_Clearing_lrg_cr_fr_tvw8u3.jpg",
   "highlights": [
     {
