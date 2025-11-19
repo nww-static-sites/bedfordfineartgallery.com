@@ -75,14 +75,14 @@
                             </li>
                         </ul>
                     </div>
-                    <div v-if="showArtPlacer" class="breadcrumb view_on_wall" style="margin-top: 10px">
+                    <div v-if="showArtPlacer" class="breadcrumb view_on_wall" style="margin-top: 10px; display:none;">
                         <span id="artplacer2"></span>
                     </div>
-                    <div v-if="showArtPlacer" class="breadcrumb view_on_wall" style="margin-top: 10px">
+                    <div v-if="showArtPlacer" class="breadcrumb view_on_wall" style="margin-top: 10px; display: none">
                         <span id="artplacer1"></span>
                     </div>
 
-                    <div v-if="!isSold" style="width: 100%; max-width: 340px; margin: auto">
+                    <div v-if="!isSold" style="width: 100%; max-width: 340px; margin: auto; display: none;">
                         <p style="text-align: left; padding-bottom: 10px; padding-top: 20px; font-weight: bold">
                             Click the button above, then 3 easy steps:
                         </p>
