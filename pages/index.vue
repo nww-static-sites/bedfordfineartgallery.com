@@ -173,7 +173,7 @@
 
                 <div
                     class="flex_wrap"
-                    style="clear: both; padding-top: 25px; border-bottom: 1px solid #dddd85; padding-bottom: 25px"
+                    style="clear: both; padding-top: 25px; padding-bottom: 10px"
                 >
                     <div style="margin: auto">
                         <nuxt-img
@@ -184,6 +184,18 @@
                             style="max-width: 700px; margin: auto"
                         />
                     </div>
+                </div>
+
+                <div class="audio-card">
+                    <div class="audio-meta">
+                        <h4 class="audio-title">Click play below to learn about our shipping options:</h4>
+                    </div>
+                    <audio
+                        class="audio-player"
+                        src="/images/luvvoice.com-20251201-j23UN4.mp3"
+                        preload="metadata"
+                        controls
+                    ></audio>
                 </div>
 
                 <div class="flex_wrap" style="clear: both; padding-top: 15px">
@@ -973,53 +985,48 @@
 </template>
 
 <script setup>
-import { useHead } from '#imports';
+import { useHead } from '#imports'
 
 useHead({
-  script: [
-    {
-      type: 'application/ld+json',
-      children: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Bedford Fine Art Gallery",
-        "image": "https://res.cloudinary.com/dg6smdedp/image/upload/f_auto,q_auto,w_123,h_124/logo.png",
-        "@id": "",
-        "url": "https://bedfordfineartgallery.com",
-        "telephone": "724-459-0612",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "230 South Juliana St.",
-          "addressLocality": "Bedford",
-          "addressRegion": "PA",
-          "postalCode": "15522",
-          "addressCountry": "US"
+    script: [
+        {
+            type: 'application/ld+json',
+            children: JSON.stringify({
+                '@context': 'https://schema.org',
+                '@type': 'LocalBusiness',
+                name: 'Bedford Fine Art Gallery',
+                image: 'https://res.cloudinary.com/dg6smdedp/image/upload/f_auto,q_auto,w_123,h_124/logo.png',
+                '@id': '',
+                url: 'https://bedfordfineartgallery.com',
+                telephone: '724-459-0612',
+                address: {
+                    '@type': 'PostalAddress',
+                    streetAddress: '230 South Juliana St.',
+                    addressLocality: 'Bedford',
+                    addressRegion: 'PA',
+                    postalCode: '15522',
+                    addressCountry: 'US',
+                },
+                geo: {
+                    '@type': 'GeoCoordinates',
+                    latitude: 40.0160567,
+                    longitude: -78.5039377,
+                },
+                openingHoursSpecification: {
+                    '@type': 'OpeningHoursSpecification',
+                    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+                    opens: '10:00',
+                    closes: '17:00',
+                },
+            }),
         },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 40.0160567,
-          "longitude": -78.5039377
-        },
-        "openingHoursSpecification": {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday"
-          ],
-          "opens": "10:00",
-          "closes": "17:00"
-        }
-      })
-    }
-  ]
-});
+    ],
+})
 </script>
 
 <script>
+/* eslint-disable import/first */
+
 import ArtworkSlidingImages from '~/components/ArtworkSlidingImages'
 import ArtworkSlidingImagesHome from '~/components/ArtworkSlidingImagesHome'
 import GallerySlidingImages from '~/components/GallerySlidingImages'
@@ -1328,4 +1335,82 @@ export default {
     font-weight: bold;
     text-align: center;
 }
+ .audio-card {
+      max-width: 750px;
+      margin: 0 auto;
+      background: #fff;
+      border: 2px solid #800000; /* maroon border */
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      overflow: hidden;
+      padding: 15px;
+    }
+
+    .audio-cover {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      border-bottom: 2px solid #800000;
+    }
+
+    .audio-meta {
+      padding: 16px 20px 8px;
+      text-align: center;
+    }
+    .audio-title {
+      margin: 0;
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-align: center;
+      text-transform: none;
+      color: #800000; /* maroon title */
+    }
+    .audio-subtitle {
+      margin: 6px 0 0;
+      color: #555;
+      font-size: 0.95rem;
+      font-style: italic;
+    }
+
+    .audio-player {
+      width: 100%;
+      display: block;
+      margin: 12px 0 18px;
+      accent-color: #800000; /* maroon accent for play button, slider */
+    }
+
+    /* Decorative underline */
+    .audio-card::after {
+      content: "";
+      display: block;
+      height: 2px;
+      margin: 0 20px 18px;
+      background: linear-gradient(90deg, #800000, #ffffff);
+      opacity: 0.7;
+    }
+
+    /* WebKit-specific refinements */
+    .audio-player::-webkit-media-controls-panel {
+      background: #800000; /* maroon bar */
+      color: #ffffff;      /* white text/icons */
+      border-radius: 0;
+    }
+    .audio-player::-webkit-media-controls-play-button,
+    .audio-player::-webkit-media-controls-pause-button {
+      filter: invert(1); /* makes icons white */
+    }
+    .audio-player::-webkit-media-controls-current-time-display,
+    .audio-player::-webkit-media-controls-time-remaining-display {
+      color: #ffffff;
+      font-family: Georgia, serif;
+    }
+    .audio-player::-webkit-media-controls-timeline {
+      background: #ffffff;
+      border-radius: 999px;
+    }
+    .audio-player::-webkit-media-controls-volume-slider {
+      background: #ffffff;
+      border-radius: 999px;
+    }
 </style>
