@@ -402,8 +402,8 @@ export default {
     height: auto;
 }
 .audio-card {
-      max-width: 750px;
-      margin: 0 auto;
+      max-width: 550px;
+      margin: 20px auto;
       background: #fff;
       border: 2px solid #800000; /* maroon border */
       border-radius: 8px;
