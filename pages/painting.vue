@@ -140,6 +140,17 @@
                                 style="max-width: 800px; margin: auto;"
                         /></div>
                 </div>
+                      <div class="audio-card">
+                    <div class="audio-meta">
+                        <h4 class="audio-title">Click play below to learn about our shipping options:</h4>
+                    </div>
+                    <audio
+                        class="audio-player"
+                        src="/images/luvvoice.com-20251201-j23UN4.mp3"
+                        preload="metadata"
+                        controls
+                    ></audio>
+                </div>
                 </div>
 
                 <div class="col_60 artwork_details">
@@ -390,4 +401,82 @@ export default {
     width: 90% !important;
     height: auto;
 }
+.audio-card {
+      max-width: 750px;
+      margin: 0 auto;
+      background: #fff;
+      border: 2px solid #800000; /* maroon border */
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      overflow: hidden;
+      padding: 15px;
+    }
+
+    .audio-cover {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      border-bottom: 2px solid #800000;
+    }
+
+    .audio-meta {
+      padding: 16px 20px 8px;
+      text-align: center;
+    }
+    .audio-title {
+      margin: 0;
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-align: center;
+      text-transform: none;
+      color: #800000; /* maroon title */
+    }
+    .audio-subtitle {
+      margin: 6px 0 0;
+      color: #555;
+      font-size: 0.95rem;
+      font-style: italic;
+    }
+
+    .audio-player {
+      width: 100%;
+      display: block;
+      margin: 12px 0 18px;
+      accent-color: #800000; /* maroon accent for play button, slider */
+    }
+
+    /* Decorative underline */
+    .audio-card::after {
+      content: "";
+      display: block;
+      height: 2px;
+      margin: 0 20px 18px;
+      background: linear-gradient(90deg, #800000, #ffffff);
+      opacity: 0.7;
+    }
+
+    /* WebKit-specific refinements */
+    .audio-player::-webkit-media-controls-panel {
+      background: #800000; /* maroon bar */
+      color: #ffffff;      /* white text/icons */
+      border-radius: 0;
+    }
+    .audio-player::-webkit-media-controls-play-button,
+    .audio-player::-webkit-media-controls-pause-button {
+      filter: invert(1); /* makes icons white */
+    }
+    .audio-player::-webkit-media-controls-current-time-display,
+    .audio-player::-webkit-media-controls-time-remaining-display {
+      color: #ffffff;
+      font-family: Georgia, serif;
+    }
+    .audio-player::-webkit-media-controls-timeline {
+      background: #ffffff;
+      border-radius: 999px;
+    }
+    .audio-player::-webkit-media-controls-volume-slider {
+      background: #ffffff;
+      border-radius: 999px;
+    }
 </style>
