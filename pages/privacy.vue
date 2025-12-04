@@ -68,7 +68,7 @@
                             You can also opt out of all Remarketing advertising at the
                             <a href="https://www.networkadvertising.org/managing/opt_out.asp" target="_blank"
                                 >Network Advertising Initiative Opt Out Form</a
-                            >.
+                            >..
                         </li>
                     </ul>
                 </div>
