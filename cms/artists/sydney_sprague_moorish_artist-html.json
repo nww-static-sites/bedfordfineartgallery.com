@@ -2,5 +2,8 @@
   "hasLandingPage": true,
   "name": "Sydney Sprague Morrish",
   "tinyDescription": "British 1836 – 1899",
-  "slug": "sydney_sprague_moorish_artist-html"
+  "slug": "sydney_sprague_moorish_artist-html",
+  "paintings": [
+    "sydney_sprague_morrish_a_devonshire_orchard-html"
+  ]
 }
