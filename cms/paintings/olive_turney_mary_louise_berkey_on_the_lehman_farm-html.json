@@ -8,7 +8,7 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1764879273/turney_mary_louise_berkey_ap_dledj7.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1764879219/Turney_Mary_Louise_Berkey_on_the_Lehman_Farm_IMG_2596_T1_sm_cr_fr_guysnn.jpg",
-  "status": "New",
+  "status": "Sold",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1764935320/turney_lehman_farm_full_mjrmox.jpg",
   "scrollingHomepageImage": false,
   "title": "Mary Louise Berkey on the Lehman Farm",
@@ -17,15 +17,5 @@
     "Genre"
   ],
   "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1764879247/Turney_Mary_Louise_Berkey_on_the_Lehman_Farm_IMG_2596_T1_lrg_cr_fr_m807fa.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $800"
-    }
-  ]
+  "highlights": []
 }
