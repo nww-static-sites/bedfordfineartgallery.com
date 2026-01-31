@@ -12,20 +12,17 @@
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1768853169/A_F_King_Quiet_Stream_IMG_2598_zoom_cr_pweuj8.jpg",
   "scrollingHomepageImage": false,
   "title": "Quiet Stream",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1768853128/A_F_King_Quiet_Stream_IMG_2598_full_gall_cr_vy891o.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1768853246/A_F_King_Quiet_Stream_IMG_2598_lrg_cr_fr_emucz2.jpg",
+  "highResImage": "",
   "highlights": [
     {
       "highlight": "Available for purchase"
     },
     {
       "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $3,600"
     }
   ]
 }
