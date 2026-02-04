@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Thomas Henry Hope",
-   "metaTitle": "Thomas Henry Hope Paintings For Sale",
-   "metaDescription": "Explore Thomas Henry Hope's captivating paintings for sale. Elevate your collection with his emotive artistry and intricate compositions.",
-   "paintings" : [
-      "thomas_henry_hope_news-html"
-   ],
-   "slug" : "thomas_henry_hope_artwork-html",
-   "tinyDescription" : "English - American, 1832 - 1926"
+  "body": "Thomas Henry Hope's paintings are a testament to his artistic talent and unique perspective. While information on specific paintings for sale may vary, collectors and art enthusiasts can explore the world of Thomas Henry Hope's art through galleries, auctions, and online platforms. Owning one of his paintings provides an opportunity to appreciate his distinctive style and the beauty of his creations, making it a cherished addition to any art collection.",
+  "name": "Thomas Henry Hope",
+  "slug": "thomas_henry_hope_artwork-html",
+  "hasLandingPage": true,
+  "paintings": [
+    "thomas_henry_hope_news-html"
+  ],
+  "alias": "",
+  "metaTitle": "Thomas Henry Hope Paintings For Sale",
+  "metaDescription": "Explore Thomas Henry Hope's captivating paintings for sale. Elevate your collection with his emotive artistry and intricate compositions.",
+  "tinyDescription": "English - American, 1832 - 1926"
 }
