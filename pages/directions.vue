@@ -9,7 +9,7 @@
 <div class="col_40_flex">
 
 
-<nuxt-img provider="cloudinary" loading="lazy" class="art_detail" style="width: 100%; height:auto;" src="visit_gallery.jpg" width="587" height="725" alt="Bedford Fine Art Gallery
+<img loading="lazy" class="art_detail" style="width: 100%; height:auto;" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/visit_gallery.jpg" width="587" height="725" alt="Bedford Fine Art Gallery
 "/></div>
 
 <div class="col_60_flex artwork_details">
@@ -42,7 +42,7 @@ Bedford PA 15522<br>
 <!-- end testimonials mobile -->
 <div class="artwork_header"><h2 style="padding: 32px 0px 0px 0px;">Bedford, Pennsylvania</h2></div>
 <div class="bedford_banner">
-  <nuxt-img provider="cloudinary" loading="lazy" style="width: 100%; height:auto; display:block;" src="small_town.jpg" width="1868" height="414" alt=""/> </div>
+  <img loading="lazy" style="width: 100%; height:auto; display:block;" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/small_town.jpg" width="1868" height="414" alt=""/> </div>
 
    <div class="breadcrumb desktop_hide" style="margin-top: 15px; margin-bottom: 32px">
                             <a href="https://visitbedfordcounty.com/" target="_blank">
@@ -61,26 +61,26 @@ Bedford PA 15522<br>
 <div class="places_to_stay">
 <p class="oblique" style="margin-bottom: 1em; margin-top: 1em; font-weight: bold;">Some great historical places to stay in Bedford:</p>
 <ul>
-<li><nuxt-img provider="cloudinary" loading="lazy" src="bsr2.jpg" width="646" height="430" alt=""/>
+<li><img loading="lazy" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/bsr2.jpg" width="646" height="430" alt=""/>
 <p>Omni Bedford Spring Resort</p>
 </li>
-<li><nuxt-img provider="cloudinary" loading="lazy" src="Blue_Moon_Bedford.jpg" width="646" height="430" alt="Blue Moon Bed and Breakfast
+<li><img loading="lazy" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/Blue_Moon_Bedford.jpg" width="646" height="430" alt="Blue Moon Bed and Breakfast
 "/>
 <p>Blue Moon Bed and Breakfast</p>
 </li>
-<li><nuxt-img provider="cloudinary" loading="lazy" src="Chancellors_House.jpg" width="646" height="430" alt="The Chancellor's House
+<li><img loading="lazy" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/Chancellors_House.jpg" width="646" height="430" alt="The Chancellor's House
 "/>
 <p>The Chancellor's House</p>
 </li>
-<li><nuxt-img provider="cloudinary" loading="lazy" src="Golden_Eagle_Inn.jpg" width="646" height="430" alt="The Golden Eagle Inn
+<li><img loading="lazy" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/Golden_Eagle_Inn.jpg" width="646" height="430" alt="The Golden Eagle Inn
 "/>
 <p>The Golden Eagle Inn</p>
 </li>
-<li><nuxt-img provider="cloudinary" loading="lazy" src="Jean_Bonnet_Tavern.jpg" width="646" height="430" alt="Jean Bonnet Tavern
+<li><img loading="lazy" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/Jean_Bonnet_Tavern.jpg" width="646" height="430" alt="Jean Bonnet Tavern
 "/>
 <p>Jean Bonnet Tavern</p>
 </li>
-<li><nuxt-img provider="cloudinary" loading="lazy" src="pigeon_loft.jpg" width="646" height="430" alt="Pigeon Loft
+<li><img loading="lazy" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/pigeon_loft.jpg" width="646" height="430" alt="Pigeon Loft
 "/>
 <p>Pigeon Loft</p>
 </li>
@@ -91,7 +91,7 @@ Bedford PA 15522<br>
 
 <div class="visit_articles">
 <div class="visit_flex">
-<div class="visit_flex_thumb"><nuxt-link to="highlights_article_7.html"><nuxt-img provider="cloudinary" loading="lazy" src="bedford_sign.jpg" width="308" height="294" alt="Bedford Fine Art Gallery
+<div class="visit_flex_thumb"><nuxt-link to="highlights_article_7.html"><img src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/bedford_sign.jpg" width="308" height="294" alt="Bedford Fine Art Gallery
 " style="width: 100%; height:auto; border:1px solid #222222;"/></nuxt-link></div>
 <div><h2 style="text-align:left;">Destination</h2>
 <p>The Bedford Fine Art Gallery is "The Destination" not just an attraction along the way. The artworks presented in the Gallery are period originals, not copies, prints or other modes of imitation that exemplify the skill of the original artist, not that of the machine, which is a mere mechanical copyist.</p>
@@ -106,7 +106,7 @@ Bedford PA 15522<br>
 
 <div class="visit_flex">
 
-<div class="visit_flex_thumb"><nuxt-link to="highlights_article_6.html"><nuxt-img provider="cloudinary" loading="lazy" src="location.png" width="1213" height="226" alt="Location. Location. Location.
+<div class="visit_flex_thumb"><nuxt-link to="highlights_article_6.html"><img loading="lazy" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/location.png" width="1213" height="226" alt="Location. Location. Location.
 " style="width: 100%; height:auto; border:1px solid #222222;"/></nuxt-link></div>
 <div><h2 style="text-align:left;">Location. Location. Location.</h2><p>For approximately 250 years, Bedford has been a welcome stopping place for travelers.  Presidents and
 
@@ -119,7 +119,7 @@ soldiers, Indian traders and the first colonists of the west, all paused here.</
 
 <div class="visit_flex">
 
-<div class="visit_flex_thumb"><nuxt-link to="highlights_article.html"><nuxt-img provider="cloudinary" loading="lazy" src="legacy.jpg" width="412" height="216" alt="19th Century Fine Art Legacy
+<div class="visit_flex_thumb"><nuxt-link to="highlights_article.html"><img loading="lazy" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/legacy.jpg" width="412" height="216" alt="19th Century Fine Art Legacy
 " style="width: 100%; height:auto; border:1px solid #222222;"/></nuxt-link></div>
 <div><h2 style="text-align:left;">19th Century Fine Art Legacy</h2><p>The land upon which the Barclay house is built was part of a larger land grant given to Colonel Hugh
 
@@ -136,7 +136,7 @@ following the war.</p>
 
 <div class="visit_flex">
 
-<div class="visit_flex_thumb"><nuxt-link to="highlights_article_21.html"><nuxt-img provider="cloudinary" loading="lazy" src="architecture.jpg" width="412" height="216" alt="Geology and Landscape Art in 19th Century America
+<div class="visit_flex_thumb"><nuxt-link to="highlights_article_21.html"><img loading="lazy" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/architecture.jpg" width="412" height="216" alt="Geology and Landscape Art in 19th Century America
 " style="width: 100%; height:auto; border:1px solid #222222;"/></nuxt-link></div>
 <div><h2 style="text-align:left;">Bedford Fine Art Gallery's Architectural Venue</h2><p>The Barclay Mansion was built in 1889, during the late Victorian period. Although the house is Victorian
 
@@ -149,7 +149,7 @@ in age, it is reminiscent of the Renaissance Classical tradition with Italianate
 
 <div class="visit_flex">
 
-<div class="visit_flex_thumb"><nuxt-link to="highlights_article_20.html"><nuxt-img provider="cloudinary" loading="lazy" src="victorian.jpg" width="412" height="216" alt="Geology and Landscape Art in 19th Century America
+<div class="visit_flex_thumb"><nuxt-link to="highlights_article_20.html"><img loading="lazy" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/victorian.jpg" width="412" height="216" alt="Geology and Landscape Art in 19th Century America
 " style="width: 100%; height:auto; border:1px solid #222222;"/></nuxt-link></div>
 <div><h2 style="text-align:left;">Victorian Homes and Fine Art</h2><p>Each person is unique and stands apart from others; there will never be another “you”…at least
 
@@ -200,7 +200,7 @@ for a long, long time.  For the time being, you are one of a kind.</p>
                             Instagram
                         </h2>
                         <a href="https://www.instagram.com/bedfordfineartgallery/" target="_blank"
-                            ><nuxt-img provider="cloudinary" src="instagram_invite.jpg" width="675" height="525" alt=""
+                            ><img src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/instagram_invite.jpg" width="675" height="525" alt=""
                         /></a>
                         <div class="breadcrumb desktop_hide" style="margin-top: 15px; margin-bottom: 15px">
                             <a href="https://www.instagram.com/bedfordfineartgallery/" target="_blank"
@@ -256,10 +256,10 @@ for a long, long time.  For the time being, you are one of a kind.</p>
                             target="_blank"
                             rel="nofollow"
                             style="color: #000000"
-                            ><nuxt-img provider="cloudinary"
+                            ><img
                                 style="width: 100%; height: auto; max-width: 120px"
                                 class="social2"
-                                src="/images/bcvb.png"
+                                src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/images/bcvb.png"
                                 width="220"
                                 height="100"
                                 alt=""
