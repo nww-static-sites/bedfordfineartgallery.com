@@ -1,13 +1,13 @@
 <template>
     <div>
         <VueSlickCarousel v-bind="settings">
-            <div><nuxt-picture provider="cloudinary" src="sold_grid_carousel_1.jpg" /></div>
-            <div><nuxt-picture provider="cloudinary" src="sold_grid_carousel_2.jpg" /></div>
-            <div><nuxt-picture provider="cloudinary" src="sold_grid_carousel_3.jpg" /></div>
-            <div><nuxt-picture provider="cloudinary" src="sold_grid_carousel_4.jpg" /></div>
-            <div><nuxt-picture provider="cloudinary" src="sold_grid_carousel_5.jpg" /></div>
-            <div><nuxt-picture provider="cloudinary" src="sold_grid_carousel_6.jpg" /></div>
-            <div><nuxt-picture provider="cloudinary" src="sold_grid_carousel_7.jpg" /></div>
+            <div><img src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/sold_grid_carousel_1.jpg" width="1799" height="598" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
+<div><img src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/sold_grid_carousel_2.jpg" width="1799" height="598" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
+<div><img src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/sold_grid_carousel_3.jpg" width="1799" height="598" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
+<div><img src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/sold_grid_carousel_4.jpg" width="1799" height="598" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
+<div><img src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/sold_grid_carousel_5.jpg" width="1799" height="598" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
+<div><img src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/sold_grid_carousel_6.jpg" width="1799" height="598" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
+<div><img src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/sold_grid_carousel_7.jpg" width="1799" height="598" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
 
            </VueSlickCarousel>
     </div>

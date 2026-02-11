@@ -5,11 +5,10 @@
                 <div class="home_grid_3">
                     <div class="flex_home_logo_2">
                         <div>
-                            <nuxt-img
-                                provider="cloudinary"
+                            <img
                                 loading="lazy"
                                 class="home_lead_img"
-                                src="/gallery-sliding-images/gallery_exterior_homepage.jpg"
+                                src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/gallery-sliding-images/gallery_exterior_homepage.jpg"
                                 width="1200"
                                 height="800"
                                 alt="Bedford Fine Art Gallery"
@@ -35,11 +34,10 @@
                     <div>
                         <div>
                             <div style="display: block; width: 100%; padding-top: 0px">
-                                <nuxt-img
-                                    provider="cloudinary"
+                                <img
                                     class="home-lead-photo"
                                     loading="lazy"
-                                    src="/joan_jerry24_home.jpg"
+                                    src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/joan_jerry24_home.jpg"
                                     alt="Jerry and Joan"
                                 />
 
@@ -255,9 +253,8 @@
                             Instagram
                         </h2>
                         <a href="https://www.instagram.com/bedfordfineartgallery/" target="_blank"
-                            ><nuxt-img
-                                provider="cloudinary"
-                                src="instagram_invite.jpg"
+                            ><img
+                                src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/instagram_invite.jpg"
                                 width="675"
                                 height="525"
                                 alt="Bedford Fine Art Gallery Instagram"
@@ -300,22 +297,20 @@
                     </div>
                 </div>
                 <div style="padding-top: 32px; padding-bottom: 0px">
-                    <nuxt-img
-                        provider="cloudinary"
+                    <img
                         loading="lazy"
                         class="img_full"
-                        src="/whats_in_it_truncated.jpg"
+                        src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/whats_in_it_truncated.jpg"
                         width="1200"
                         height="172"
                         alt="19th Century Paintings"
                     />
                     <span v-if="readMore2"
                         ><div v-show="readMore2" class="p_list2">
-                            <nuxt-img
-                                provider="cloudinary"
+                            <img
                                 loading="lazy"
                                 class="img_full"
-                                src="/whats_in_it_full.jpg"
+                                src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/whats_in_it_full.jpg"
                                 width="1200"
                                 height="700"
                                 alt="19th Century Paintings"
@@ -340,14 +335,13 @@
                     art - here are some of the kind words they had to say:
                 </h2>
 
-                <nuxt-picture
-                    provider="cloudinary"
-                    :img-attrs="{ class: 'star_img' }"
+                <img
                     loading="lazy"
-                    src="star_reviews.png"
+                    src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/star_reviews.png"
                     width="1566"
                     height="283"
-                    alt=""
+                    class="star_img"
+                    alt="5 Star Reviews"
                 />
                 <div>
                     <p class="more" style="text-align: left">
@@ -363,14 +357,13 @@
                     >
                 </div>
 
-                <nuxt-picture
-                    provider="cloudinary"
-                    :img-attrs="{ class: 'star_img' }"
+                <img
                     loading="lazy"
-                    src="star_reviews.png"
+                    src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/star_reviews.png"
                     width="1566"
                     height="283"
-                    alt=""
+                    class="star_img"
+                    alt="5 Star Reviews"
                 />
                 <div>
                     <p class="more" style="text-align: left">
@@ -390,14 +383,13 @@
                     >
                 </div>
 
-                <nuxt-picture
-                    provider="cloudinary"
-                    :img-attrs="{ class: 'star_img' }"
-                    loading="lazy"
-                    src="star_reviews.png"
+                <img
+                loading="lazy"
+                    src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/star_reviews.png"
                     width="1566"
                     height="283"
-                    alt=""
+                    class="star_img"
+                    alt="5 Star Reviews"
                 />
                 <div>
                     <p class="more" style="text-align: left">
@@ -412,14 +404,13 @@
                     >
                 </div>
 
-                <nuxt-picture
-                    provider="cloudinary"
-                    :img-attrs="{ class: 'star_img' }"
+                <img
                     loading="lazy"
-                    src="star_reviews.png"
+                    src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/star_reviews.png"
                     width="1566"
                     height="283"
-                    alt=""
+                    class="star_img"
+                    alt="5 Star Reviews"
                 />
                 <div>
                     <p class="more" style="text-align: left">
@@ -490,11 +481,9 @@
 
         <div class="container primary" style="padding-bottom: 24px">
             <section class="wrapper clearfix as_seen_in_container">
-                <nuxt-img
-                    provider="cloudinary"
-                    loading="lazy"
+                <img
                     class="home_logo"
-                    src="logo.png"
+                    src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/logo.png"
                     width="123"
                     height="124"
                     style="width: 100%; height: auto"
@@ -658,12 +647,10 @@
 
                     <div class="artwork leadPhoto">
                         <nuxt-link to="Artists--Bios.html"
-                            ><nuxt-picture
-                                provider="cloudinary"
-                                :img-attrs="{ class: 'art_detail_img' }"
+                            ><img
                                 loading="lazy"
                                 class="art_detail"
-                                src="gallery_logo.jpg"
+                                src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/gallery_logo.jpg"
                                 width="798"
                                 height="515"
                         /></nuxt-link>
