@@ -8,8 +8,8 @@
                 </div>
 
                 <div class="highlights_thumbnail">
-                    <nuxt-picture provider="cloudinary" :img-attrs="{ class: 'art_detail_img' }" loading="lazy"
-                        src="poole_grid2.jpg" width="392" height="260" alt="19th Century Fine Art Legacy" />
+                    <img class="art_detail_img" loading="lazy"
+                        src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/poole_grid2.jpg" width="392" height="260" alt="19th Century Fine Art Legacy" />
                 </div>
                 <div class="highlights_prev">
                     <h2>Where is your gallery located?</h2>
@@ -38,8 +38,8 @@
                     "></span>
 
                 <div class="highlights_thumbnail">
-                    <nuxt-picture provider="cloudinary" :img-attrs="{ class: 'art_detail_img' }" loading="lazy"
-                        src="wall_grid.jpg" width="392" height="260"
+                    <img class="art_detail_img" loading="lazy"
+                        src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/wall_grid.jpg" width="392" height="260"
                         alt="The Perfect 19th Century Paintings for Your Home" />
                 </div>
                 <div class="highlights_prev">
@@ -68,8 +68,8 @@
                     "></span>
 
                 <div class="highlights_thumbnail">
-                    <nuxt-picture provider="cloudinary" :img-attrs="{ class: 'art_detail_img' }" loading="lazy"
-                        src="palmer_grid2.jpg" width="392" height="260"
+                    <img class="art_detail_img" loading="lazy"
+                        src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/palmer_grid2.jpg" width="392" height="260"
                         alt="Geology and Landscape Art in 19th Century America" />
                 </div>
                 <div class="highlights_prev">
@@ -101,8 +101,8 @@
                     "></span>
 
                 <div class="highlights_thumbnail">
-                    <nuxt-picture provider="cloudinary" :img-attrs="{ class: 'art_detail_img' }" loading="lazy"
-                        src="kaelin_grid.jpg" width="392" height="260" alt="Featured Artist - Harry Herman Roseland" />
+                    <img class="art_detail_img" loading="lazy"
+                        src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/kaelin_grid.jpg" width="392" height="260" alt="Featured Artist - Harry Herman Roseland" />
                 </div>
                 <div class="highlights_prev">
                     <h2>I am not familiar with fine art, how can you help me?</h2>
@@ -139,8 +139,8 @@
                     "></span>
 
                 <div class="highlights_thumbnail">
-                    <nuxt-picture provider="cloudinary" :img-attrs="{ class: 'art_detail_img' }" loading="lazy"
-                        src="jones_grid.jpg" width="392" height="260"
+                    <img class="art_detail_img" loading="lazy"
+                        src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/jones_grid.jpg" width="392" height="260"
                         alt="Geology and Landscape Art in 19th Century America" />
                 </div>
                 <div class="highlights_prev">
@@ -175,8 +175,8 @@
                     "></span>
 
                 <div class="highlights_thumbnail">
-                    <nuxt-picture provider="cloudinary" :img-attrs="{ class: 'art_detail_img' }" loading="lazy"
-                        src="hays12_grid.jpg" width="392" height="260" alt="Location. Location. Location." />
+                    <img class="art_detail_img" loading="lazy"
+                        src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/hays12_grid.jpg" width="392" height="260" alt="Location. Location. Location." />
                 </div>
                 <div class="highlights_prev">
                     <h2>Does your gallery have paintings only by local artists?</h2>
@@ -215,8 +215,8 @@
                     "></span>
 
                 <div class="highlights_thumbnail">
-                    <nuxt-picture provider="cloudinary" :img-attrs="{ class: 'art_detail_img' }" loading="lazy"
-                        src="moser_grid.jpg" width="392" height="260" alt="Bedford Fine Art Gallery" />
+                    <img class="art_detail_img" loading="lazy"
+                        src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/moser_grid.jpg" width="392" height="260" alt="Bedford Fine Art Gallery" />
                 </div>
                 <div class="highlights_prev">
                     <h2>Do you sell prints?</h2>
@@ -245,8 +245,8 @@
                     "></span>
 
                 <div class="highlights_thumbnail">
-                    <nuxt-picture provider="cloudinary" :img-attrs="{ class: 'art_detail_img' }" loading="lazy"
-                        src="thieme_grid.jpg" width="392" height="260" alt="Bedford Fine Art Gallery" />
+                    <img class="art_detail_img" loading="lazy"
+                        src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/thieme_grid.jpg" width="392" height="260" alt="Bedford Fine Art Gallery" />
                 </div>
                 <div class="highlights_prev">
                     <h2>Do you sell only oil paintings?</h2>
@@ -267,8 +267,8 @@
                     "></span>
 
                 <div class="highlights_thumbnail">
-                    <nuxt-picture provider="cloudinary" :img-attrs="{ class: 'art_detail_img' }" loading="lazy"
-                        src="marr_grid.jpg" width="392" height="260" alt="Bedford Fine Art Gallery" />
+                    <img class="art_detail_img" loading="lazy"
+                        src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/marr_grid.jpg" width="392" height="260" alt="Bedford Fine Art Gallery" />
                 </div>
                 <div class="highlights_prev">
                     <h2>What is the age of a painting?</h2>
@@ -298,8 +298,8 @@
                     "></span>
 
                 <div class="highlights_thumbnail">
-                    <nuxt-picture provider="cloudinary" :img-attrs="{ class: 'art_detail_img' }" loading="lazy"
-                        src="crane_grid.jpg" width="392" height="260" alt="Bedford Fine Art Gallery" />
+                    <img class="art_detail_img" loading="lazy"
+                        src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/crane_grid.jpg" width="392" height="260" alt="Bedford Fine Art Gallery" />
                 </div>
                 <div class="highlights_prev">
                     <h2>Who is the artist that painted it?</h2>
@@ -335,8 +335,8 @@
                     "></span>
 
                 <div class="highlights_thumbnail">
-                    <nuxt-picture provider="cloudinary" :img-attrs="{ class: 'art_detail_img' }" loading="lazy"
-                        src="mulhaupt_grid.jpg" width="392" height="260" alt="Bedford Fine Art Gallery" />
+                    <img class="art_detail_img" loading="lazy"
+                        src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/mulhaupt_grid.jpg" width="392" height="260" alt="Bedford Fine Art Gallery" />
                 </div>
                 <div class="highlights_prev">
                     <h2>Does each painting have a known history?</h2>
@@ -370,8 +370,8 @@
                     "></span>
 
                 <div class="highlights_thumbnail">
-                    <nuxt-picture provider="cloudinary" :img-attrs="{ class: 'art_detail_img' }" loading="lazy"
-                        src="linford_grid.jpg" width="392" height="260" alt="Bedford Fine Art Gallery" />
+                    <img class="art_detail_img" loading="lazy"
+                        src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/linford_grid.jpg" width="392" height="260" alt="Bedford Fine Art Gallery" />
                 </div>
                 <div class="highlights_prev">
                     <h2>Do I need to visit your gallery to purchase a painting?</h2>
@@ -404,8 +404,8 @@
                     "></span>
 
                 <div class="highlights_thumbnail">
-                    <nuxt-picture provider="cloudinary" :img-attrs="{ class: 'art_detail_img' }" loading="lazy"
-                        src="black_grid.jpg" width="392" height="260"
+                    <img class="art_detail_img" loading="lazy"
+                        src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/black_grid.jpg" width="392" height="260"
                         alt="How to Conserve, Restore, and Maintain 19th Century Paintings" />
                 </div>
                 <div class="highlights_prev">
@@ -434,8 +434,8 @@
                     "></span>
 
                 <div class="highlights_thumbnail">
-                    <nuxt-picture provider="cloudinary" :img-attrs="{ class: 'art_detail_img' }" loading="lazy"
-                        src="gruppe_grid.jpg" width="392" height="260" alt="FEATURED ARTIST – ALBERT FRANCIS KING" />
+                    <img class="art_detail_img" loading="lazy"
+                        src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/gruppe_grid.jpg" width="392" height="260" alt="FEATURED ARTIST – ALBERT FRANCIS KING" />
                 </div>
                 <div class="highlights_prev">
                     <h2>Can a painting be shipped to me?</h2>
@@ -468,8 +468,8 @@
                     "></span>
 
                 <div class="highlights_thumbnail">
-                    <nuxt-picture provider="cloudinary" :img-attrs="{ class: 'art_detail_img' }" loading="lazy"
-                        src="hgs_grid.jpg" width="392" height="260" alt="FEATURED ARTIST – JOHN HENTRY DOLPH" />
+                    <img class="art_detail_img" loading="lazy"
+                        src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/hgs_grid.jpg" width="392" height="260" alt="FEATURED ARTIST – JOHN HENTRY DOLPH" />
                 </div>
                 <div class="highlights_prev">
                     <h2>How is the value of a painting determined?</h2>
@@ -562,8 +562,8 @@
                     "></span>
 
                 <div class="highlights_thumbnail">
-                    <nuxt-picture provider="cloudinary" :img-attrs="{ class: 'art_detail_img' }" loading="lazy"
-                        src="stanlaws_grid.jpg" width="392" height="260" alt="FEATURED ARTIST – JOHN HENTRY DOLPH" />
+                    <img class="art_detail_img" loading="lazy"
+                        src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/stanlaws_grid.jpg" width="392" height="260" alt="FEATURED ARTIST – JOHN HENTRY DOLPH" />
                 </div>
                 <div class="highlights_prev">
                     <h2>What guarantees do you give me on a painting I purchase?</h2>

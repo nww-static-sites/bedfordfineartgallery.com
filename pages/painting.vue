@@ -131,9 +131,8 @@
                     </div>
                     <!-- end testimonials desktop -->
                     <div class="flex_wrap" style="clear: both; padding-top: 5px;">
-                <div style="margin:auto;"><nuxt-img
-                                provider="cloudinary"
-                                src="shipping_options_ijojdq.png"
+                <div style="margin:auto;"><img
+                                src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/shipping_options_ijojdq.png"
                                 width="1825"
                                 height="1254"
                                 alt="Bedford Fine Art Gallery Shipping Options"
