@@ -8,24 +8,14 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1763319223/george_t_hetzel_for_later_ap_yq7fhb.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1763319149/George_T_Hetzel_For_Later_IMG_2583_sm_cr_fr_n2fy9u.jpg",
-  "status": "Hold",
-  "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1763379520/hetzel_later_full_sw43uu.jpg",
+  "status": "Sold",
+  "gridImage": "",
   "scrollingHomepageImage": false,
   "title": "For Later",
   "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1763379505/hetzel_later_crop_svxjlh.jpg",
   "categories": [
     "Still Life"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1763319184/George_T_Hetzel_For_Later_IMG_2583_lrg_cr_fr_fwkuob.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $1,700"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
