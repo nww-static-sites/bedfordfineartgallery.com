@@ -8,24 +8,14 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1750528913/mosorjak_jaune_juillet_ap_hhxkjh.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1750528790/Mosorjak_Jaune_Juillet_IMG_2437_sm_cr_fr_ivy654.jpg",
-  "status": "New",
+  "status": "Sold",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1750528721/Mosorjak_Jaune_Juillet_IMG_2437_zoom_cr_rspsjr.jpg",
   "scrollingHomepageImage": false,
   "title": "Jaune Juillet",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1750528682/Mosorjak_Jaune_Juillet_IMG_2437_full_gall_cr_kgc1gn.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1750528831/Mosorjak_Jaune_Juillet_IMG_2437_lrg_cr_fr_ftfxkw.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $475"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
