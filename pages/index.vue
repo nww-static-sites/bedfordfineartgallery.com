@@ -8,7 +8,7 @@
                             <img
                                 loading="lazy"
                                 class="home_lead_img"
-                                src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/gallery-sliding-images/gallery_exterior_homepage.jpg"
+                                src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/gallery-sliding-images/gallery_exterior_homepage_800.jpg"
                                 width="1200"
                                 height="800"
                                 alt="Bedford Fine Art Gallery"
@@ -37,7 +37,7 @@
                                 <img
                                     class="home-lead-photo"
                                     loading="lazy"
-                                    src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/joan_jerry24_home.jpg"
+                                    src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/joan_jerry_26_homepage.jpg"
                                     alt="Jerry and Joan"
                                 />
 
