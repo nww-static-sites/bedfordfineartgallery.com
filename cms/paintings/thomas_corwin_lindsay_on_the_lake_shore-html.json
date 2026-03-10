@@ -8,24 +8,14 @@
   "featured": false,
   "artOnWallImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1760368357/lindsay_on_the_lake_shore_ap_full_qgojel.jpg",
   "mediumResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1760367392/Lindsay_IMG_2553_sm_cr_fr_pirowz.jpg",
-  "status": "New",
+  "status": "Sold",
   "gridImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1760367362/Lindsay_IMG_2553_zoom_cr_hqz5cq.jpg",
   "scrollingHomepageImage": false,
   "title": "On the Lake Shore",
-  "galleryCropImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1760367318/Lindsay_IMG_2553_full_gall_cr_pbkmeq.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "https://res.cloudinary.com/dg6smdedp/image/upload/v1760367417/Lindsay_IMG_2553_lrg_cr_fr_wzt027.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $10,200"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
