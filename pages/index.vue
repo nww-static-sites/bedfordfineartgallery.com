@@ -180,6 +180,7 @@
                             height="825"
                             alt="Bedford Fine Art Gallery Shipping Options"
                             style="max-width: 700px; margin: auto"
+                            loading="lazy"
                         />
                     </div>
                 </div>
@@ -258,6 +259,7 @@
                                 width="675"
                                 height="525"
                                 alt="Bedford Fine Art Gallery Instagram"
+                                loading="lazy"
                         /></a>
                         <div class="breadcrumb desktop_hide" style="margin-top: 15px; margin-bottom: 15px">
                             <a href="https://www.instagram.com/bedfordfineartgallery/" target="_blank"
@@ -488,6 +490,7 @@
                     height="124"
                     style="width: 100%; height: auto"
                     alt="19th Century Paintings"
+                    loading="lazy"
                 /><span>As Seen In:</span>
 
                 <div class="as_seen_in">

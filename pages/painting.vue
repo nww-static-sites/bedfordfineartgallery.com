@@ -137,6 +137,7 @@
                                 height="1254"
                                 alt="Bedford Fine Art Gallery Shipping Options"
                                 style="max-width: 800px; margin: auto;"
+                                loading="lazy"
                         /></div>
                 </div>
                       <div class="audio-card">

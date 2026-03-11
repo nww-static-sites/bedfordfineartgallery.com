@@ -200,7 +200,7 @@ for a long, long time.  For the time being, you are one of a kind.</p>
                             Instagram
                         </h2>
                         <a href="https://www.instagram.com/bedfordfineartgallery/" target="_blank"
-                            ><img src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/instagram_invite.jpg" width="675" height="525" alt=""
+                            ><img src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/instagram_invite.jpg" width="675" height="525" alt="" loading="lazy"
                         /></a>
                         <div class="breadcrumb desktop_hide" style="margin-top: 15px; margin-bottom: 15px">
                             <a href="https://www.instagram.com/bedfordfineartgallery/" target="_blank"
@@ -263,6 +263,7 @@ for a long, long time.  For the time being, you are one of a kind.</p>
                                 width="220"
                                 height="100"
                                 alt=""
+                                loading="lazy"
                             /><br />Member of the Bedford County Visitors Bureau</a
                         >
                         <p style="margin-top: 16px; margin-bottom: 0px; padding-bottom: 6px; display:none;">
