@@ -11,6 +11,7 @@
                     width="290"
                     height="200"
                     :alt="scrollingHomepageImage.title"
+                    loading="lazy"
             /></nuxt-link>
         </VueSlickCarousel>
     </div>
