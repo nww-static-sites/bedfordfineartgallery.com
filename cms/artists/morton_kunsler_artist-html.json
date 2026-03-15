@@ -3,5 +3,8 @@
   "name": "Morton Kunstler",
   "alias": "Mort Kunstler",
   "slug": "morton_kunsler_artist-html",
-  "tinyDescription": "American 1927 – 2025"
+  "tinyDescription": "American 1927 – 2025",
+  "paintings": [
+    "morton_kunstler_lincoln_memorial-html"
+  ]
 }
