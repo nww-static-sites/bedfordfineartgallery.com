@@ -47,8 +47,8 @@ export default {
             }
         }
 
-        w = 0
-        h = 0
+      w = Number(w) || 500
+      h = Number(h) || 0
 
         return {
             items: [
