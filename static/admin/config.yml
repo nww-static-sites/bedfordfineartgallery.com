@@ -11,7 +11,7 @@ media_library:
     api_key: 874875498277852
     output_filename_only: true
 show_preview_links: false
-publish_mode: editorial_workflow
+publish_mode: simple
 
 collections:
     - name: 'artists'
