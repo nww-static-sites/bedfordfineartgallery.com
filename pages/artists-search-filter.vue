@@ -15,7 +15,7 @@
                             v-model="searchTerm"
                             type="text"
                             placeholder="Search artists..."
-                            style="width: 100%; max-width: 420px; padding: 10px; font-size: 16px;margin:auto;display:block;"
+                            style="width: 100%; max-width: 420px; padding: 10px; font-size: 16px;margin:auto;display:block;border-radius:16px;"
                         />
                     </div>
 
