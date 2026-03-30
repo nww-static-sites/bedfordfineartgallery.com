@@ -25,7 +25,7 @@
                     <p v-if="hasAdditionalLink">
 						<nuxt-link :to="highlight.additionalLink.link" class="readmore">{{ highlight.additionalLink.text }}</nuxt-link>
 					</p>
-                    <p><nuxt-link :to="{ name: 'highlights' }" class="readmore">Back to Highlights</nuxt-link></p>
+                    <p><nuxt-link :to="{ name: 'highlights' }" class="readmore">Back to Blog</nuxt-link></p>
                 </div>
             </section>
         </div>

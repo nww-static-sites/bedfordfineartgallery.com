@@ -1,5 +1,10 @@
 <template>
     <div>
+         <div class="btn-container">
+            <a href="highlights.html" class="btn">Art Blog</a>
+            <a href="art_lovers_niche.htm" class="btn btn_active">Art Lovers' Niche</a>
+        </div>
+
         <div class="container primary">
             <section class="wrapper clearfix">
                 <div class="artwork_header">
@@ -7,11 +12,11 @@
                     <span class="hr"></span>
                 </div>
 
-                <HighlightPreview v-for="(highlight, index) in highlights" :key="`highlight-preview-${index}`" :highlight="highlight"/>
-
-                <nuxt-img provider="cloudinary" loading="lazy" src="/images/Top-Banner.jpg" alt="Art Lovers' Niche" style="width: 100%; height:auto; max-width:660px; margin:auto; display:block;"></nuxt-img>
-
-                <ArtLoversNicheArticlePreview v-for="(artLoversNicheArticle, index) in artLoversNicheArticles" :key="`artlover-preview-${index}`" :art-lovers-niche-article="artLoversNicheArticle" />
+                <HighlightPreview
+                    v-for="(highlight, index) in highlights"
+                    :key="`highlight-preview-${index}`"
+                    :highlight="highlight"
+                />
             </section>
         </div>
         <div
@@ -26,22 +31,62 @@
 </template>
 
 <script>
-import ArtLoversNicheArticlePreview from '~/components/ArtLoversNicheArticlePreview';
 import HighlightPreview from '~/components/HighlightPreview.vue'
 import TestimonialsScroll from '~/components/TestimonialsScroll'
 import { loadShortTestimonials } from '~/libs/testimonials'
 
 export default {
-    components: { ArtLoversNicheArticlePreview, HighlightPreview, TestimonialsScroll },
+    components: { HighlightPreview, TestimonialsScroll },
     async asyncData({ $content }) {
         return {
-            highlights: await $content("articles").sortBy('date', 'desc').fetch(),
-            artLoversNicheArticles: await $content("artLoversNicheArticles").sortBy('date', 'desc').fetch(),
+            highlights: await $content('articles').sortBy('date', 'desc').fetch(),
             testimonials: await loadShortTestimonials($content),
-        };
+        }
     },
 }
 </script>
+<style scoped>
+.btn-container {
+    max-width: 660px;
+    margin: 20px auto 0px auto;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btn {
+    background-color: #681d1e;
+    color: #f2f2f2;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    transition: opacity 0.2s ease;
+}
+.btn_active {
+    background-color: transparent;
+    border: 1px solid #681d1e;
+    color: #681d1e;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+/* Mobile stacking */
+@media (max-width: 480px) {
+    .btn-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+</style>
 
 <router>
   {
