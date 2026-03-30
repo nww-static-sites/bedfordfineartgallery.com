@@ -19,15 +19,7 @@
                 ></nuxt-img>
 
                 <div class="lead_callout_niche">
-                    <p
-                        style="
-                            text-align: center;
-                            max-width: 500px;
-                            margin: auto;
-                            padding-bottom: 1rem;
-                            padding-top: 1rem;
-                        "
-                    >
+                    <p style="text-align: center; max-width: 500px; margin: auto; padding-bottom: 1rem; padding-top: 1rem;">
                         Art Lovers' Niche provides you access to brief once-a-month exclusive updates. Explore unique,
                         newly discovered and featured fine art. Enter your email address below to join our newsletter:
                     </p>
@@ -139,15 +131,7 @@
                             </li>
                         </ul>
                     </div>
-                    <p
-                        style="
-                            text-align: center;
-                            max-width: 500px;
-                            margin: auto;
-                            padding-bottom: 1rem;
-                            padding-top: 1rem;
-                        "
-                    >
+                    <p style="text-align: center; max-width: 500px; margin: auto; padding-bottom: 1rem; padding-top: 1rem;">
                         Art Lovers' Niche provides you access to brief once-a-month exclusive updates. Explore unique,
                         newly discovered and featured fine art. Enter your email address below to join our newsletter:
                     </p>
