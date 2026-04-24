@@ -1,0 +1,17 @@
+{
+  "started_at": "2026-04-24T16:31:26.142Z",
+  "input": "migration/cloudinary-assets.json",
+  "output_directory": "migration/cloudinary-downloads",
+  "expected_assets": 5237,
+  "expected_bytes": 4144686068,
+  "downloaded": 5237,
+  "skipped": 0,
+  "failed": 0,
+  "downloaded_bytes": 4144686068,
+  "skipped_bytes": 0,
+  "failures": [],
+  "finished_at": "2026-04-24T16:35:51.939Z",
+  "actual_assets": 5237,
+  "actual_bytes": 4144686068,
+  "success": true
+}
