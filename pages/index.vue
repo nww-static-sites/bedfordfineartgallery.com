@@ -175,7 +175,7 @@
                 >
                     <div style="margin: auto">
                         <nuxt-img
-                            src="/images/shipping_options.png"
+                            src="shipping_options_1200.png"
                             width="1200"
                             height="825"
                             alt="Bedford Fine Art Gallery Shipping Options"

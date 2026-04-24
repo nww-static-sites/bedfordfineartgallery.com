@@ -33,6 +33,19 @@
   - `providers/bedford-img.js`
   - `migration/scripts/download-cloudinary-assets.mjs`
   - `migration/scripts/rewrite-cloudinary-urls.mjs`
+- Netlify deploy preview for PR `#3809` built successfully.
+- Preview smoke checks passed for representative page HTML:
+  - homepage
+  - main gallery
+  - available painting detail
+  - sold painting detail
+  - highlights index
+  - article detail
+  - Art Lovers Niche index
+  - Art Lovers Niche article detail
+  - directions
+  - `/admin/` freeze page
+- Preview smoke checks found one homepage image pointing to an unmigrated S3 key, `images/shipping_options.png`; this was fixed to use the uploaded `shipping_options_1200.png`.
 
 ## Not Run Locally
 
