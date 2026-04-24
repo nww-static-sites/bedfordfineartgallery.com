@@ -2,7 +2,7 @@
     <div>
         <VueSlickCarousel v-bind="settings">
             <div>
-                <nuxt-img provider="cloudinary"
+                <nuxt-img provider="bedford"
                     style="width: 100%; height: auto"
                     src="/mural_1.jpg"
                     width="864"
@@ -12,7 +12,7 @@
                 />
             </div>
             <div>
-                <nuxt-img provider="cloudinary"
+                <nuxt-img provider="bedford"
                     style="width: 100%; height: auto"
                     src="/mural_2.jpg"
                     width="864"
@@ -23,7 +23,7 @@
                 />
             </div>
             <div>
-                <nuxt-img provider="cloudinary"
+                <nuxt-img provider="bedford"
                     style="width: 100%; height: auto"
                     src="mural_3.jpg"
                     width="864"
@@ -34,7 +34,7 @@
                 />
             </div>
             <div>
-                <nuxt-img provider="cloudinary"
+                <nuxt-img provider="bedford"
                     style="width: 100%; height: auto"
                     src="/mural_4.jpg"
                     width="864"
@@ -45,7 +45,7 @@
                 />
             </div>
             <div>
-                <nuxt-img provider="cloudinary"
+                <nuxt-img provider="bedford"
                     style="width: 100%; height: auto"
                     src="/mural_5.jpg"
                     width="864"
@@ -56,7 +56,7 @@
                 />
             </div>
             <div>
-                <nuxt-img provider="cloudinary"
+                <nuxt-img provider="bedford"
                     style="width: 100%; height: auto"
                     src="/mural_6.jpg"
                     width="864"
@@ -67,7 +67,7 @@
                 />
             </div>
             <div>
-                <nuxt-img provider="cloudinary"
+                <nuxt-img provider="bedford"
                     style="width: 100%; height: auto"
                     src="/mural_7.jpg"
                     width="864"
@@ -78,7 +78,7 @@
                 />
             </div>
             <div>
-                <nuxt-img provider="cloudinary"
+                <nuxt-img provider="bedford"
                     style="width: 100%; height: auto"
                     src="/mural_8.jpg"
                     width="864"
@@ -89,7 +89,7 @@
                 />
             </div>
             <div>
-                <nuxt-img provider="cloudinary"
+                <nuxt-img provider="bedford"
                     style="width: 100%; height: auto"
                     src="/mural_9.jpg"
                     width="864"
@@ -100,7 +100,7 @@
                 />
             </div>
             <div>
-                <nuxt-img provider="cloudinary"
+                <nuxt-img provider="bedford"
                     style="width: 100%; height: auto"
                     src="/mural_10.jpg"
                     width="864"
@@ -111,7 +111,7 @@
                 />
             </div>
             <div>
-                <nuxt-img provider="cloudinary"
+                <nuxt-img provider="bedford"
                     style="width: 100%; height: auto"
                     src="/mural_11.jpg"
                     width="864"

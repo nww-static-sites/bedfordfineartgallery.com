@@ -8,7 +8,7 @@
             <div class="artist_col_img">
                 <nuxt-link v-if="gridImage" :to="artistLink"
                     ><nuxt-picture
-                        provider="cloudinary"
+                        provider="bedford"
                         loading="lazy"
                         :src="gridImage"
                         :alt="nameWithTinyDescription"
@@ -68,7 +68,7 @@ export default {
             const gridImage = this.paintingToGridImage[this.artist.paintings[0]]
                 ? this.paintingToGridImage[this.artist.paintings[0]].gridImage
                 : ''
-            return gridImage.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
+            return gridImage
         },
     },
 }

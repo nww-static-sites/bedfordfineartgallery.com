@@ -17,7 +17,7 @@
                     </div>
                     <div class="step_content step_flex">
                         <div class="step_flex_img">
-                            <nuxt-picture provider="cloudinary"
+                            <nuxt-picture provider="bedford"
                         :img-attrs="{class:'wall_img'}"
                         loading="lazy"
                         style="margin-bottom: 12px"
@@ -26,7 +26,7 @@
                         height="559"
                         alt="Upload a photo of your room"
                     />
-                     <nuxt-picture provider="cloudinary"
+                     <nuxt-picture provider="bedford"
                         :img-attrs="{class:'wall_img'}"
                         loading="lazy"
                         style="margin-bottom: 12px"
@@ -55,7 +55,7 @@
 
                     <div class="step_content step_flex">
                         <div class="step_flex_img">
-                            <nuxt-picture provider="cloudinary"
+                            <nuxt-picture provider="bedford"
                         :img-attrs="{class:'wall_img'}"
                         loading="lazy"
                         style="margin-bottom: 12px"
@@ -64,7 +64,7 @@
                         height="896"
                         alt="Define the area on which you want the painting to be placed"
                     />
-                            <nuxt-picture provider="cloudinary"
+                            <nuxt-picture provider="bedford"
                         :img-attrs="{class:'wall_img'}"
                         loading="lazy"
                         style="margin-bottom: 12px"
@@ -114,7 +114,7 @@
 
                     <div class="step_content step_flex">
                         <div class="step_flex_img">
-                            <nuxt-picture provider="cloudinary"
+                            <nuxt-picture provider="bedford"
                         :img-attrs="{class:'wall_img'}"
                         loading="lazy"
                         style="margin-bottom: 12px"
@@ -123,7 +123,7 @@
                         height="896"
                         alt="preview artwork on the wall"
                     />
-                      <nuxt-picture provider="cloudinary"
+                      <nuxt-picture provider="bedford"
                         :img-attrs="{class:'wall_img'}"
                         loading="lazy"
                         style="margin-bottom: 12px"
@@ -159,7 +159,7 @@
 
                     <div class="step_content step_flex">
                         <div class="step_flex_img">
-                             <nuxt-picture provider="cloudinary"
+                             <nuxt-picture provider="bedford"
                         :img-attrs="{class:'wall_img'}"
                         loading="lazy"
                         style="margin-bottom: 12px"

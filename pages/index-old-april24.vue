@@ -8,7 +8,7 @@
                             <div class="flex_home_logo_tagline">
                                 <div>
                                     <nuxt-img
-                                        provider="cloudinary"
+                                        provider="bedford"
                                         loading="lazy"
                                         class="home_logo"
                                         src="/logo.png"
@@ -23,7 +23,7 @@
                             </div>
                             <div style="display: block; width: 100%; padding-top: 10px">
                                 <nuxt-img
-                                    provider="cloudinary"
+                                    provider="bedford"
                                     class="home-lead-photo"
                                     loading="lazy"
                                     src="/joan_jerry24_home.jpg"
@@ -211,7 +211,7 @@
                         </h2>
                         <a href="https://www.instagram.com/bedfordfineartgallery/" target="_blank"
                             ><nuxt-img
-                                provider="cloudinary"
+                                provider="bedford"
                                 src="instagram_invite.jpg"
                                 width="675"
                                 height="525"
@@ -255,7 +255,7 @@
                 </div>
                 <div style="padding-top: 32px; padding-bottom: 0px">
                     <nuxt-img
-                        provider="cloudinary"
+                        provider="bedford"
                         loading="lazy"
                         class="img_full"
                         src="/whats_in_it_truncated.jpg"
@@ -266,7 +266,7 @@
                     <span v-if="readMore2"
                         ><div v-show="readMore2" class="p_list2">
                             <nuxt-img
-                                provider="cloudinary"
+                                provider="bedford"
                                 loading="lazy"
                                 class="img_full"
                                 src="/whats_in_it_full.jpg"
@@ -295,7 +295,7 @@
                 </h2>
 
                 <nuxt-picture
-                    provider="cloudinary"
+                    provider="bedford"
                     :img-attrs="{ class: 'star_img' }"
                     loading="lazy"
                     src="star_reviews.png"
@@ -318,7 +318,7 @@
                 </div>
 
                 <nuxt-picture
-                    provider="cloudinary"
+                    provider="bedford"
                     :img-attrs="{ class: 'star_img' }"
                     loading="lazy"
                     src="star_reviews.png"
@@ -345,7 +345,7 @@
                 </div>
 
                 <nuxt-picture
-                    provider="cloudinary"
+                    provider="bedford"
                     :img-attrs="{ class: 'star_img' }"
                     loading="lazy"
                     src="star_reviews.png"
@@ -367,7 +367,7 @@
                 </div>
 
                 <nuxt-picture
-                    provider="cloudinary"
+                    provider="bedford"
                     :img-attrs="{ class: 'star_img' }"
                     loading="lazy"
                     src="star_reviews.png"
@@ -445,7 +445,7 @@
         <div class="container primary" style="padding-bottom: 24px">
             <section class="wrapper clearfix as_seen_in_container">
                 <nuxt-img
-                    provider="cloudinary"
+                    provider="bedford"
                     loading="lazy"
                     class="home_logo"
                     src="logo.png"
@@ -592,7 +592,7 @@
                     <div class="artwork leadPhoto">
                         <nuxt-link to="Artists--Bios.html"
                             ><nuxt-picture
-                                provider="cloudinary"
+                                provider="bedford"
                                 :img-attrs="{ class: 'art_detail_img' }"
                                 loading="lazy"
                                 class="art_detail"

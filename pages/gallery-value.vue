@@ -12,7 +12,7 @@
                     <p>
                         <img
                             loading="lazy"
-                            src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/joan_jerry24_about.jpg"
+                            src="https://img.bedfordfineartgallery.com/joan_jerry24_about.jpg"
                             class="art_detail_img"
                             alt=""
                         />We would like to thank the thousands of fellow art-lovers who explore our website, join us for
@@ -77,7 +77,7 @@
                     <div class="video-container2" style="clear: both">
                         <YouTubeVideo link="https://www.youtube.com/embed/UlgTd5n_CEE?rel=0" />
                     </div>
-                    <!--<nuxt-img provider="cloudinary" class="art_detail" src="images/gallery_logo.jpg" width="798" height="515" alt="Bedford Fine Art Gallery "/>-->
+                    <!--<nuxt-img provider="bedford" class="art_detail" src="images/gallery_logo.jpg" width="798" height="515" alt="Bedford Fine Art Gallery "/>-->
 
                     <p class="oblique" style="margin-bottom: 1em; margin-top: 1em">
                         Take a virtual tour of our gallery

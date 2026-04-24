@@ -8,7 +8,7 @@
                             <img
                                 loading="lazy"
                                 class="home_lead_img"
-                                src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/gallery-sliding-images/gallery_exterior_homepage_800.jpg"
+                                src="https://img.bedfordfineartgallery.com/gallery-sliding-images/gallery_exterior_homepage_800.jpg"
                                 width="1200"
                                 height="800"
                                 alt="Bedford Fine Art Gallery"
@@ -17,7 +17,7 @@
                         <div class="logo_flex_sub">
                             <div>
                                 <nuxt-img
-                                    provider="cloudinary"
+                                    provider="bedford"
                                     loading="lazy"
                                     class="home_logo"
                                     src="/logo.png"
@@ -37,7 +37,7 @@
                                 <img
                                     class="home-lead-photo"
                                     loading="lazy"
-                                    src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/joan_jerry_26_homepage.jpg"
+                                    src="https://img.bedfordfineartgallery.com/joan_jerry_26_homepage.jpg"
                                     alt="Jerry and Joan"
                                 />
 
@@ -175,7 +175,7 @@
                 >
                     <div style="margin: auto">
                         <nuxt-img
-                            src="/images/shipping_options.png"
+                            src="shipping_options_1200.png"
                             width="1200"
                             height="825"
                             alt="Bedford Fine Art Gallery Shipping Options"
@@ -255,7 +255,7 @@
                         </h2>
                         <a href="https://www.instagram.com/bedfordfineartgallery/" target="_blank"
                             ><img
-                                src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/instagram_invite.jpg"
+                                src="https://img.bedfordfineartgallery.com/instagram_invite.jpg"
                                 width="675"
                                 height="525"
                                 alt="Bedford Fine Art Gallery Instagram"
@@ -302,7 +302,7 @@
                     <img
                         loading="lazy"
                         class="img_full"
-                        src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/whats_in_it_truncated.jpg"
+                        src="https://img.bedfordfineartgallery.com/whats_in_it_truncated.jpg"
                         width="1200"
                         height="172"
                         alt="19th Century Paintings"
@@ -312,7 +312,7 @@
                             <img
                                 loading="lazy"
                                 class="img_full"
-                                src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/whats_in_it_full.jpg"
+                                src="https://img.bedfordfineartgallery.com/whats_in_it_full.jpg"
                                 width="1200"
                                 height="700"
                                 alt="19th Century Paintings"
@@ -339,7 +339,7 @@
 
                 <img
                     loading="lazy"
-                    src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/star_reviews.png"
+                    src="https://img.bedfordfineartgallery.com/star_reviews.png"
                     width="1566"
                     height="283"
                     class="star_img"
@@ -361,7 +361,7 @@
 
                 <img
                     loading="lazy"
-                    src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/star_reviews.png"
+                    src="https://img.bedfordfineartgallery.com/star_reviews.png"
                     width="1566"
                     height="283"
                     class="star_img"
@@ -387,7 +387,7 @@
 
                 <img
                 loading="lazy"
-                    src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/star_reviews.png"
+                    src="https://img.bedfordfineartgallery.com/star_reviews.png"
                     width="1566"
                     height="283"
                     class="star_img"
@@ -408,7 +408,7 @@
 
                 <img
                     loading="lazy"
-                    src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/star_reviews.png"
+                    src="https://img.bedfordfineartgallery.com/star_reviews.png"
                     width="1566"
                     height="283"
                     class="star_img"
@@ -485,7 +485,7 @@
             <section class="wrapper clearfix as_seen_in_container">
                 <img
                     class="home_logo"
-                    src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/logo.png"
+                    src="https://img.bedfordfineartgallery.com/logo.png"
                     width="123"
                     height="124"
                     style="width: 100%; height: auto"
@@ -653,7 +653,7 @@
                             ><img
                                 loading="lazy"
                                 class="art_detail"
-                                src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/gallery_logo.jpg"
+                                src="https://img.bedfordfineartgallery.com/gallery_logo.jpg"
                                 width="798"
                                 height="515"
                         /></nuxt-link>
@@ -985,7 +985,7 @@ useHead({
                 '@context': 'https://schema.org',
                 '@type': 'LocalBusiness',
                 name: 'Bedford Fine Art Gallery',
-                image: 'https://res.cloudinary.com/dg6smdedp/image/upload/f_auto,q_auto,w_123,h_124/logo.png',
+                image: 'https://img.bedfordfineartgallery.com/logo.png',
                 '@id': '',
                 url: 'https://bedfordfineartgallery.com',
                 telephone: '724-459-0612',

@@ -3,13 +3,7 @@ backend:
     branch: main
 
 site_url: https://www.bedfordfineartgallery.com
-logo_url: https://res.cloudinary.com/dg6smdedp/image/upload/logo.png
-media_library:
-  name: cloudinary
-  config:
-    cloud_name: dg6smdedp
-    api_key: 874875498277852
-    output_filename_only: true
+logo_url: https://img.bedfordfineartgallery.com/logo.png
 show_preview_links: false
 publish_mode: simple
 

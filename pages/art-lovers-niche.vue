@@ -11,7 +11,7 @@
                     <span class="hr"></span>
                 </div>
                 <nuxt-img
-                    provider="cloudinary"
+                    provider="bedford"
                     loading="lazy"
                     src="/images/Top-Banner.jpg"
                     alt="Art Lovers' Niche"

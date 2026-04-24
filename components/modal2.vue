@@ -11,10 +11,10 @@
                     <p>Monthly Treasure Straight to your inbox</p>
                     <div class="guide_info_popup">
                         <nuxt-picture
-                            provider="cloudinary"
+                            provider="bedford"
                             :img-attrs="{ class: 'art_detail' }"
                             loading="lazy"
-                            src="https://res.cloudinary.com/dg6smdedp/image/upload/v1716460385/images/john_ross_key_country_garden.png"
+                            src="https://img.bedfordfineartgallery.com/images/john_ross_key_country_garden.png"
                             width="1400"
                             height="1222"
                             alt=""
@@ -91,7 +91,7 @@ export default {
             return this.submitStatus === 'submitting'
         },
         mediumResImageWithoutCloudinaryPrefix() {
-            return this.mediumResImage.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
+            return this.mediumResImage
         },
     },
     methods: {

@@ -9,7 +9,7 @@
                 </div>
                 <div class="highlights_thumbnail">
                     <nuxt-img
-                        provider="cloudinary"
+                        provider="bedford"
                         loading="lazy"
                         class="art_detail"
                         :src="image"
@@ -57,7 +57,7 @@ export default {
     },
     computed: {
         image() {
-            return this.highlight.image.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
+            return this.highlight.image
         },
         hasAdditionalLink() {
             return this.highlight.additionalLink && this.highlight.additionalLink.text && this.highlight.additionalLink.link

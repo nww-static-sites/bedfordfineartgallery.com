@@ -6,7 +6,7 @@
                 :key="scrollingHomepageImage.slug"
                 :to="scrollingHomepageImage.slug.replace('-html', '.html')"
                 ><nuxt-img
-                    provider="cloudinary"
+                    provider="bedford"
                     :src="getImage(scrollingHomepageImage)"
                     width="290"
                     height="200"
@@ -77,7 +77,7 @@ export default {
             const image = scrollingHomepageImage.gridImage
                 ? scrollingHomepageImage.gridImage
                 : scrollingHomepageImage.mediumResImage
-            return image.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
+            return image
         },
     },
 }

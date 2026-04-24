@@ -5,7 +5,7 @@
                 <ul class="productGrid2">
                     <li v-for="painting in paintings" :key="painting.slug">
                         <nuxt-link :to="`/ipad/${painting.slug.replace('-html', '.html')}`"
-                            ><nuxt-picture provider="cloudinary"
+                            ><nuxt-picture provider="bedford"
                                 :src="getPaintingImage(painting)"
                                 :alt="artistNameWithTinyDescription(painting.artist)"
                             />
@@ -33,7 +33,7 @@ export default {
       artistNameWithTinyDescription,
       getPaintingImage(painting) {
         const image = painting.gridImage || painting.mediumResImage || ''
-        return image.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
+        return image
       }
     },
 }

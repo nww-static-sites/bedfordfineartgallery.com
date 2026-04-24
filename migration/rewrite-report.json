@@ -1,0 +1,26 @@
+{
+  "target_host": "https://img.bedfordfineartgallery.com",
+  "files_changed": 1262,
+  "direct_image_url_replacements": 6844,
+  "provider_replacements": 143,
+  "legacy_helper_cleanups": 10,
+  "unresolved_urls_after_alias_handling": 0,
+  "manual_aliases": [
+    {
+      "old_key": "customer-images/99.jpg",
+      "new_key": "customer-images/99_zwy5rn.jpg",
+      "reason": "Historical reference did not have an exact exported Cloudinary public ID; closest exported customer image asset was used."
+    },
+    {
+      "old_key": "mailers/img/boskerck_mailer.jpg",
+      "new_key": "images/boskerck_mailer2_hqwtgt.jpg",
+      "reason": "Static mailer reference differed from the exported asset used by the CMS copy of the same mailer."
+    }
+  ],
+  "validation": {
+    "cms_json_parse_failures": 0,
+    "remaining_public_cloudinary_references": 0,
+    "unique_img_host_urls_checked": 4217,
+    "missing_img_host_urls": 0
+  }
+}

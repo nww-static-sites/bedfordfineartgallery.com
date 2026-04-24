@@ -93,3 +93,8 @@ sw.*
 # Local Netlify folder
 .netlify
 featured-painting-slugs.json
+
+# Local migration artifacts
+migration/cloudinary-downloads/
+migration/s3-dry-run.txt
+migration/s3-objects.json
