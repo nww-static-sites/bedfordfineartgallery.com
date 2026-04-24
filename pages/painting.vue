@@ -27,7 +27,7 @@
                         <div class="sold">
                             <span class="soldTag">sold</span>
                             <nuxt-picture
-                                provider="cloudinary"
+                                provider="bedford"
                                 loading="lazy"
                                 class="art_detail"
                                 :alt="altText"
@@ -132,7 +132,7 @@
                     <!-- end testimonials desktop -->
                     <div class="flex_wrap" style="clear: both; padding-top: 5px;">
                 <div style="margin:auto;"><img
-                                src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/shipping_options_1200.png"
+                                src="https://img.bedfordfineartgallery.com/shipping_options_1200.png"
                                 width="1825"
                                 height="1254"
                                 alt="Bedford Fine Art Gallery Shipping Options"
@@ -250,26 +250,6 @@ export default {
         const painting = await $content('paintings', urlSlugToSlug(route.path)).fetch()
         painting.highlights = painting.highlights || []
 
-        // 🪄 Add this helper function to rewrite Cloudinary URLs to your custom domain
-        const replaceCloudinaryDomain = (value) => {
-            if (typeof value === 'string') {
-                return value.replaceAll(
-                    'https://res.cloudinary.com/dg6smdedp/',
-                    'https://images.bedfordfineartgallery.com/dg6smdedp/'
-                )
-            } else if (Array.isArray(value)) {
-                return value.map(replaceCloudinaryDomain)
-            } else if (value && typeof value === 'object') {
-                for (const key in value) {
-                    value[key] = replaceCloudinaryDomain(value[key])
-                }
-            }
-            return value
-        }
-
-        // Apply to the entire painting object
-        replaceCloudinaryDomain(painting)
-
         for (let i = 0; i < painting.highlights.length; i++) {
             if (painting.highlights[i].pairedPainting) {
                 const pairedPainting = await $content('paintings', painting.highlights[i].pairedPainting)
@@ -285,9 +265,6 @@ export default {
         painting.artist = await $content('artists', painting.artist)
             .only(['name', 'tinyDescription', 'slug', 'alias', 'hasLandingPage'])
             .fetch()
-
-        // ✅ Apply replacement to artist data as well
-        replaceCloudinaryDomain(painting.artist)
 
         return { painting, testimonials }
     },
@@ -318,10 +295,7 @@ export default {
             return this.painting.highlights && this.painting.highlights.length > 0 && !this.sold
         },
         mediumResImage() {
-            return this.painting.mediumResImage.replace(
-                'https://images.bedfordfineartgallery.com/dg6smdedp/image/upload',
-                ''
-            )
+            return this.painting.mediumResImage
         },
         altText() {
             return this.painting.mainImageAltText || artistNameWithTinyDescription(this.painting.artist)

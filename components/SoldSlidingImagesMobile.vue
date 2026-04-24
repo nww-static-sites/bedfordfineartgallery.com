@@ -1,20 +1,20 @@
 <template>
     <div>
         <VueSlickCarousel v-bind="settings">
-            <div><img src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/sold_grid_carousel_mobile_1_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
-<div><img loading="lazy" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/sold_grid_carousel_mobile_2_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
-<div><img loading="lazy" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/sold_grid_carousel_mobile_3_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
-<div><img loading="lazy" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/sold_grid_carousel_mobile_4_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
-<div><img loading="lazy" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/sold_grid_carousel_mobile_5_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
-<div><img loading="lazy" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/sold_grid_carousel_mobile_6_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
-<div><img loading="lazy" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/sold_grid_carousel_mobile_7_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
-<div><img loading="lazy" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/sold_grid_carousel_mobile_8_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
-<div><img loading="lazy" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/sold_grid_carousel_mobile_9_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
-<div><img loading="lazy" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/sold_grid_carousel_mobile_10_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
-<div><img loading="lazy" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/sold_grid_carousel_mobile_11_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
-<div><img loading="lazy" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/sold_grid_carousel_mobile_12_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
-<div><img loading="lazy" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/sold_grid_carousel_mobile_13_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
-<div><img loading="lazy" src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/sold_grid_carousel_mobile_14_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
+            <div><img src="https://img.bedfordfineartgallery.com/sold_grid_carousel_mobile_1_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
+<div><img loading="lazy" src="https://img.bedfordfineartgallery.com/sold_grid_carousel_mobile_2_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
+<div><img loading="lazy" src="https://img.bedfordfineartgallery.com/sold_grid_carousel_mobile_3_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
+<div><img loading="lazy" src="https://img.bedfordfineartgallery.com/sold_grid_carousel_mobile_4_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
+<div><img loading="lazy" src="https://img.bedfordfineartgallery.com/sold_grid_carousel_mobile_5_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
+<div><img loading="lazy" src="https://img.bedfordfineartgallery.com/sold_grid_carousel_mobile_6_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
+<div><img loading="lazy" src="https://img.bedfordfineartgallery.com/sold_grid_carousel_mobile_7_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
+<div><img loading="lazy" src="https://img.bedfordfineartgallery.com/sold_grid_carousel_mobile_8_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
+<div><img loading="lazy" src="https://img.bedfordfineartgallery.com/sold_grid_carousel_mobile_9_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
+<div><img loading="lazy" src="https://img.bedfordfineartgallery.com/sold_grid_carousel_mobile_10_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
+<div><img loading="lazy" src="https://img.bedfordfineartgallery.com/sold_grid_carousel_mobile_11_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
+<div><img loading="lazy" src="https://img.bedfordfineartgallery.com/sold_grid_carousel_mobile_12_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
+<div><img loading="lazy" src="https://img.bedfordfineartgallery.com/sold_grid_carousel_mobile_13_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
+<div><img loading="lazy" src="https://img.bedfordfineartgallery.com/sold_grid_carousel_mobile_14_800.jpg" width="800" height="533" alt="Bedford Fine Art Gallery - 19th Century Fine Art"></div>
 
            </VueSlickCarousel>
     </div>

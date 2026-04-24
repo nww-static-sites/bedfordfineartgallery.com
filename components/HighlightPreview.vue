@@ -3,9 +3,9 @@
         <div class="highlights_thumbnail">
             <nuxt-link :to="highlight.slug.replace('-html', '.html')"
                 ><nuxt-img
-                    provider="cloudinary"
+                    provider="bedford"
                     loading="lazy"
-                    :src="highlight.gridImage.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')"
+                    :src="highlight.gridImage"
                     alt="19th Century Fine Art Legacy"
                     style="width: 100%; height: auto; border: 1px solid #222222"
             /></nuxt-link>

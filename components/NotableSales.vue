@@ -5,7 +5,7 @@
                 <div class="sold">
                     <span class="soldTag">sold</span
                     ><nuxt-link :to="painting.slug.replace('-html', '.html')"
-                        ><nuxt-picture provider="cloudinary"
+                        ><nuxt-picture provider="bedford"
                             loading="lazy"
                             :src="getImage(painting)"
                             :img-attrs="{alt: nameWithTinyDescription(painting.artist)}"
@@ -57,7 +57,7 @@ export default {
         },
         getImage(painting) {
             const image = painting.gridImage || painting.mediumResImage || ''
-            return image.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
+            return image
         }
     },
 }

@@ -2,7 +2,7 @@
     <div>
         <div class="highlights_thumbnail">
             <nuxt-link :to="artLoversNicheArticle.slug.replace('-html', '.html')"
-                ><nuxt-img provider="cloudinary"
+                ><nuxt-img provider="bedford"
                     loading="lazy"
                     src="/images/Top-Banner.jpg"
                     width="397"

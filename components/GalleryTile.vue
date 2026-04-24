@@ -5,7 +5,7 @@
 
             <nuxt-link :to="painting.slug.replace('-html', '.html')">
                 <nuxt-img
-                    provider="cloudinary"
+                    provider="bedford"
                     loading="lazy"
                     :src="galleryImage"
                     :alt="painting.mainImageAltText"
@@ -60,7 +60,7 @@ export default {
         galleryImage() {
             const galleryImage =
                 this.painting.galleryCropImage || this.painting.gridImage || this.painting.mediumResImage || ''
-            return galleryImage.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
+            return galleryImage
         },
     },
 }

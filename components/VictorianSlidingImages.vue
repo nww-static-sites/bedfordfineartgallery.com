@@ -1,11 +1,11 @@
 <template>
     <div>
         <VueSlickCarousel v-bind="settings">
-            <div><nuxt-picture provider="cloudinary" src="/vict_large_5_550.jpg" /></div>
-            <div><nuxt-picture provider="cloudinary" src="/vict_large_1_550.jpg" /></div>
-            <div><nuxt-picture provider="cloudinary" src="/vict_large_2_550.jpg" /></div>
-            <div><nuxt-picture provider="cloudinary" src="/vict_large_3_550.jpg" /></div>
-            <div><nuxt-picture provider="cloudinary" src="/vict_large_4_550.jpg" /></div>
+            <div><nuxt-picture provider="bedford" src="/vict_large_5_550.jpg" /></div>
+            <div><nuxt-picture provider="bedford" src="/vict_large_1_550.jpg" /></div>
+            <div><nuxt-picture provider="bedford" src="/vict_large_2_550.jpg" /></div>
+            <div><nuxt-picture provider="bedford" src="/vict_large_3_550.jpg" /></div>
+            <div><nuxt-picture provider="bedford" src="/vict_large_4_550.jpg" /></div>
         </VueSlickCarousel>
     </div>
 </template>

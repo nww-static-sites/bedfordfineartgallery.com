@@ -6,7 +6,7 @@
                     <div class="flex_home_logo_2">
                         <div>
                             <nuxt-img
-                                provider="cloudinary"
+                                provider="bedford"
                                 loading="lazy"
                                 class="home_lead_img"
                                 src="/gallery-sliding-images/gallery_exterior_homepage.jpg"
@@ -18,7 +18,7 @@
                         <div class="logo_flex_sub">
                             <div>
                                 <nuxt-img
-                                    provider="cloudinary"
+                                    provider="bedford"
                                     loading="lazy"
                                     class="home_logo"
                                     src="/logo.png"
@@ -36,7 +36,7 @@
                         <div>
                             <div style="display: block; width: 100%; padding-top: 0px">
                                 <nuxt-img
-                                    provider="cloudinary"
+                                    provider="bedford"
                                     class="home-lead-photo"
                                     loading="lazy"
                                     src="/joan_jerry24_home.jpg"
@@ -177,7 +177,7 @@
                 >
                     <div style="margin: auto">
                         <nuxt-img
-                            provider="cloudinary"
+                            provider="bedford"
                             src="shipping_options_ijojdq.png"
                             width="1825"
                             height="1254"
@@ -245,7 +245,7 @@
                         </h2>
                         <a href="https://www.instagram.com/bedfordfineartgallery/" target="_blank"
                             ><nuxt-img
-                                provider="cloudinary"
+                                provider="bedford"
                                 src="instagram_invite.jpg"
                                 width="675"
                                 height="525"
@@ -290,7 +290,7 @@
                 </div>
                 <div style="padding-top: 32px; padding-bottom: 0px">
                     <nuxt-img
-                        provider="cloudinary"
+                        provider="bedford"
                         loading="lazy"
                         class="img_full"
                         src="/whats_in_it_truncated.jpg"
@@ -301,7 +301,7 @@
                     <span v-if="readMore2"
                         ><div v-show="readMore2" class="p_list2">
                             <nuxt-img
-                                provider="cloudinary"
+                                provider="bedford"
                                 loading="lazy"
                                 class="img_full"
                                 src="/whats_in_it_full.jpg"
@@ -330,7 +330,7 @@
                 </h2>
 
                 <nuxt-picture
-                    provider="cloudinary"
+                    provider="bedford"
                     :img-attrs="{ class: 'star_img' }"
                     loading="lazy"
                     src="star_reviews.png"
@@ -353,7 +353,7 @@
                 </div>
 
                 <nuxt-picture
-                    provider="cloudinary"
+                    provider="bedford"
                     :img-attrs="{ class: 'star_img' }"
                     loading="lazy"
                     src="star_reviews.png"
@@ -380,7 +380,7 @@
                 </div>
 
                 <nuxt-picture
-                    provider="cloudinary"
+                    provider="bedford"
                     :img-attrs="{ class: 'star_img' }"
                     loading="lazy"
                     src="star_reviews.png"
@@ -402,7 +402,7 @@
                 </div>
 
                 <nuxt-picture
-                    provider="cloudinary"
+                    provider="bedford"
                     :img-attrs="{ class: 'star_img' }"
                     loading="lazy"
                     src="star_reviews.png"
@@ -480,7 +480,7 @@
         <div class="container primary" style="padding-bottom: 24px; display: none">
             <section class="wrapper clearfix as_seen_in_container">
                 <nuxt-img
-                    provider="cloudinary"
+                    provider="bedford"
                     loading="lazy"
                     class="home_logo"
                     src="logo.png"
@@ -648,7 +648,7 @@
                     <div class="artwork leadPhoto">
                         <nuxt-link to="Artists--Bios.html"
                             ><nuxt-picture
-                                provider="cloudinary"
+                                provider="bedford"
                                 :img-attrs="{ class: 'art_detail_img' }"
                                 loading="lazy"
                                 class="art_detail"
@@ -1000,7 +1000,7 @@ useHead({
                 '@context': 'https://schema.org',
                 '@type': 'LocalBusiness',
                 name: 'Bedford Fine Art Gallery',
-                image: 'https://res.cloudinary.com/dg6smdedp/image/upload/f_auto,q_auto,w_123,h_124/logo.png',
+                image: 'https://img.bedfordfineartgallery.com/logo.png',
                 '@id': '',
                 url: 'https://bedfordfineartgallery.com',
                 telephone: '724-459-0612',

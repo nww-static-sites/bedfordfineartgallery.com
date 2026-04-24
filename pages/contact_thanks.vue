@@ -4,7 +4,7 @@
             <section class="wrapper clearfix">
                 <div class="flex">
                     <div>
-                    <nuxt-picture provider="cloudinary"
+                    <nuxt-picture provider="bedford"
                             src="gallery_thanks.jpg"
                             width="660"
                             height="792"
@@ -36,7 +36,7 @@
                         </span>
                     </div>
                     <div>
-                        <nuxt-picture provider="cloudinary"
+                        <nuxt-picture provider="bedford"
                             :img-attrs="{class:'art_detail_img'}"
                             src="Jerry-and-Joan-web.jpg"
                             width="1200"

@@ -4,7 +4,7 @@
             <section class="wrapper clearfix">
                 <div class="flex">
                     <div>
-                        <nuxt-picture provider="cloudinary" :img-attrs="{ class: 'art_detail_img' }" src="gallery_thanks.jpg"
+                        <nuxt-picture provider="bedford" :img-attrs="{ class: 'art_detail_img' }" src="gallery_thanks.jpg"
                             width="660" height="792" alt="The Lookout
         " />
                     </div>
@@ -25,7 +25,7 @@
                         <span style="display: block; font-weight: bold; padding-top: 10px"> Beth L. </span>
                     </div>
                     <div>
-                        <nuxt-picture provider="cloudinary" :img-attrs="{ class: 'art_detail_img' }"
+                        <nuxt-picture provider="bedford" :img-attrs="{ class: 'art_detail_img' }"
                             src="joan_jerry24_art_lovers_niche.jpg" width="868" height="589" alt="" />
                     </div>
                 </div>

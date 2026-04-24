@@ -8,7 +8,7 @@
                 <div style="position: relative">
                     <h2>Interested in this painting?</h2>
                     <div class="guide_info_popup">
-                        <nuxt-img provider="cloudinary" class="art_detail" :alt="artistNameWithTinyDescription" :src="mediumResImageWithoutCloudinaryPrefix" />
+                        <nuxt-img provider="bedford" class="art_detail" :alt="artistNameWithTinyDescription" :src="mediumResImageWithoutCloudinaryPrefix" />
                     </div>
 
                     <RemodalText />
@@ -80,7 +80,7 @@ export default {
             return this.submitStatus === 'submitting'
         },
         mediumResImageWithoutCloudinaryPrefix() {
-            return this.mediumResImage.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
+            return this.mediumResImage
         }
     },
     methods: {

@@ -5,7 +5,7 @@
             <header>
                 <div class="logo">
                     <nuxt-link to="/"
-                        ><img src="https://images.bedfordfineartgallery.com/dg6smdedp/image/upload/logo.png" width="123" height="124" alt="Bedford Fine Art Gallery"
+                        ><img src="https://img.bedfordfineartgallery.com/logo.png" width="123" height="124" alt="Bedford Fine Art Gallery"
                     /></nuxt-link>
                 </div>
 

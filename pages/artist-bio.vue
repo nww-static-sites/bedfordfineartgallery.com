@@ -25,13 +25,13 @@
                     <li v-for="(painting, index) in filteredPaintings" :key="index">
                         <div v-if="isSoldOrHold(painting)" class="sold">
                             <span class="soldTag">{{ soldOrHoldText(painting) }}</span>
-                            <nuxt-link :to="`/${painting.replace('-html', '.html')}`"><nuxt-img provider="cloudinary"
+                            <nuxt-link :to="`/${painting.replace('-html', '.html')}`"><nuxt-img provider="bedford"
                                     :src="getGridImage(artist.paintingToObj[painting].gridImage)"
                                     :alt="nameWithTinyDescription" />
                             </nuxt-link>
                         </div>
                         <template v-else>
-                            <nuxt-link :to="`/${painting.replace('-html', '.html')}`"><nuxt-img provider="cloudinary"
+                            <nuxt-link :to="`/${painting.replace('-html', '.html')}`"><nuxt-img provider="bedford"
                                     :src="getGridImage(artist.paintingToObj[painting].gridImage)"
                                     :alt="nameWithTinyDescription" />
                             </nuxt-link>
@@ -135,7 +135,7 @@ export default {
             return this.artist.paintingToObj[painting].status.toLowerCase()
         },
         getGridImage(image) {
-            return image.replace('https://res.cloudinary.com/dg6smdedp/image/upload', '')
+            return image
         },
     },
     head() {
