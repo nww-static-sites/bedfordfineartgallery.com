@@ -46,6 +46,12 @@
   - directions
   - `/admin/` freeze page
 - Preview smoke checks found one homepage image pointing to an unmigrated S3 key, `images/shipping_options.png`; this was fixed to use the uploaded `shipping_options_1200.png`.
+- After the fix, the updated Netlify deploy preview passed:
+  - representative pages checked: `10`
+  - page status failures: `0`
+  - rendered Cloudinary leaks: `0`
+  - unique rendered `img.bedfordfineartgallery.com` image URLs checked with HEAD: `566`
+  - image HEAD failures: `0`
 
 ## Not Run Locally
 
