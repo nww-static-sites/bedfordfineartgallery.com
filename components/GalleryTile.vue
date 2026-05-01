@@ -5,6 +5,7 @@
 
             <nuxt-link :to="painting.slug.replace('-html', '.html')">
                 <nuxt-img
+                    class="artist_gallery_image"
                     provider="bedford"
                     loading="lazy"
                     :src="galleryImage"
@@ -78,5 +79,11 @@ export default {
     line-height: 12px;
     text-decoration: none;
     font-weight: normal;
+}
+
+.artist_gallery_image {
+    width: 100%;
+    aspect-ratio: 392 / 261;
+    object-fit: fill;
 }
 </style>
