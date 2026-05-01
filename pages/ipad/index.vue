@@ -5,7 +5,9 @@
                 <ul class="productGrid2">
                     <li v-for="painting in paintings" :key="painting.slug">
                         <nuxt-link :to="`/ipad/${painting.slug.replace('-html', '.html')}`"
-                            ><nuxt-picture provider="bedford"
+                            ><nuxt-picture
+                                class="ipad_gallery_image"
+                                provider="bedford"
                                 :src="getPaintingImage(painting)"
                                 :alt="artistNameWithTinyDescription(painting.artist)"
                             />
@@ -43,7 +45,19 @@ export default {
 .secondary {
     background-color: #222;
 }
+</style>
 
+<style>
+.ipad_gallery_image,
+.ipad_gallery_image img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 392 / 261;
+}
+
+.ipad_gallery_image img {
+    object-fit: fill;
+}
 </style>
 
 <router>
@@ -51,4 +65,3 @@ export default {
     path: '/ipad/'
   }
 </router>
-
