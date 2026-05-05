@@ -104,6 +104,13 @@ function createObjectKey(filename) {
 
 async function getChunkStore() {
     const { getStore } = await import('@netlify/blobs')
+    const siteID = process.env.BEDFORD_NETLIFY_BLOBS_SITE_ID
+    const token = process.env.BEDFORD_NETLIFY_BLOBS_TOKEN
+
+    if (siteID && token) {
+        return getStore(chunkStoreName, { siteID, token })
+    }
+
     return getStore(chunkStoreName)
 }
 
