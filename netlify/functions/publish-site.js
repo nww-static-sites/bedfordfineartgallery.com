@@ -1,6 +1,8 @@
 const https = require('https')
 
 const buildHookUrl = process.env.BEDFORD_NETLIFY_BUILD_HOOK_URL
+const publishStoreName = process.env.BEDFORD_CMS_PUBLISH_STORE || 'bedford-cms-publish-state'
+const publishCooldownMs = Number(process.env.BEDFORD_CMS_PUBLISH_COOLDOWN_MS || 10 * 60 * 1000)
 const allowedEmails = (process.env.BEDFORD_CMS_PUBLISH_EMAILS || [
     'andrew.sabourin@seoexperts.com',
     'joanhawk@comcast.net',
@@ -49,6 +51,55 @@ function triggerNetlifyBuild() {
     })
 }
 
+async function getPublishStore() {
+    const { getStore } = await import('@netlify/blobs')
+    const siteID = process.env.BEDFORD_NETLIFY_BLOBS_SITE_ID
+    const token = process.env.BEDFORD_NETLIFY_BLOBS_TOKEN
+
+    if (siteID && token) {
+        return getStore(publishStoreName, { siteID, token })
+    }
+
+    return getStore(publishStoreName)
+}
+
+async function getRecentPublish() {
+    try {
+        const store = await getPublishStore()
+        const publish = await store.get('latest', { type: 'json' })
+        const startedAt = Number(publish && publish.startedAt)
+
+        if (!Number.isFinite(startedAt) || Date.now() - startedAt >= publishCooldownMs) {
+            return null
+        }
+
+        return publish
+    } catch (error) {
+        return null
+    }
+}
+
+async function savePublishStart(email, startedAt) {
+    try {
+        const store = await getPublishStore()
+        await store.setJSON('latest', {
+            email,
+            startedAt,
+        })
+    } catch (error) {
+        return undefined
+    }
+}
+
+async function clearPublishStart() {
+    try {
+        const store = await getPublishStore()
+        await store.delete('latest')
+    } catch (error) {
+        return undefined
+    }
+}
+
 exports.handler = async (event, context) => {
     if (event.httpMethod !== 'POST') {
         return jsonResponse(405, { error: 'Method not allowed.' })
@@ -66,12 +117,25 @@ exports.handler = async (event, context) => {
     }
 
     try {
+        const recentPublish = await getRecentPublish()
+
+        if (recentPublish) {
+            return jsonResponse(409, {
+                error: 'A publish was already started. Please wait for the current Netlify deploy to finish before publishing again.',
+                startedAt: recentPublish.startedAt,
+            })
+        }
+
+        const startedAt = Date.now()
+        await savePublishStart(email, startedAt)
         await triggerNetlifyBuild()
 
         return jsonResponse(200, {
             message: 'Publish started. Netlify usually takes 7-10 minutes.',
+            startedAt,
         })
     } catch (error) {
+        await clearPublishStart()
         return jsonResponse(500, { error: error.message })
     }
 }

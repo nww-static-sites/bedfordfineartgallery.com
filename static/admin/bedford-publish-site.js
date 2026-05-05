@@ -1,6 +1,8 @@
 (function () {
     var endpoint = '/.netlify/functions/publish-site'
     var mountId = 'bedford-publish-site-panel'
+    var publishStorageKey = 'bedford-cms-publish-started-at'
+    var publishCooldownMs = 10 * 60 * 1000
     var identityListenerInstalled = false
 
     function createElement(tagName, attributes, children) {
@@ -49,6 +51,48 @@
         }
 
         return Promise.reject(new Error('Could not find your CMS login token. Please refresh and log in again.'))
+    }
+
+    function getStoredPublishStartedAt() {
+        try {
+            return Number(window.localStorage.getItem(publishStorageKey))
+        } catch (error) {
+            return null
+        }
+    }
+
+    function savePublishStartedAt(startedAt) {
+        try {
+            window.localStorage.setItem(publishStorageKey, String(startedAt))
+        } catch (error) {
+            return undefined
+        }
+    }
+
+    function getRemainingCooldown(startedAt) {
+        if (!Number.isFinite(startedAt)) {
+            return 0
+        }
+
+        return Math.max(0, publishCooldownMs - (Date.now() - startedAt))
+    }
+
+    function setPublishStarted(button, status, startedAt) {
+        var remaining = getRemainingCooldown(startedAt)
+
+        button.disabled = true
+        button.style.opacity = '0.7'
+        button.textContent = 'Publish Started'
+        status.textContent = 'Publish started. Netlify usually takes 7-10 minutes.'
+
+        if (remaining > 0) {
+            window.setTimeout(function () {
+                button.disabled = false
+                button.style.opacity = '1'
+                button.textContent = 'Publish Site'
+                status.textContent = 'CMS saves are queued in Git. Publish when your editing batch is ready.'
+            }, remaining)
+        }
     }
 
     function installPanel() {
@@ -106,7 +150,16 @@
             status,
         ])
 
+        if (getRemainingCooldown(getStoredPublishStartedAt()) > 0) {
+            setPublishStarted(button, status, getStoredPublishStartedAt())
+        }
+
         button.onclick = function () {
+            if (getRemainingCooldown(getStoredPublishStartedAt()) > 0) {
+                setPublishStarted(button, status, getStoredPublishStartedAt())
+                return
+            }
+
             if (!window.confirm('Publish all saved CMS changes to the live site now? Netlify usually takes 7-10 minutes.')) {
                 return
             }
@@ -141,6 +194,11 @@
                         }
 
                         if (!response.ok) {
+                            if (json.startedAt) {
+                                savePublishStartedAt(json.startedAt)
+                                setPublishStarted(button, status, json.startedAt)
+                            }
+
                             throw new Error(json.error || 'Could not start the publish.')
                         }
 
@@ -148,14 +206,24 @@
                     })
                 })
                 .then(function (json) {
+                    savePublishStartedAt(json.startedAt || Date.now())
+                    setPublishStarted(button, status, getStoredPublishStartedAt())
                     status.textContent = json.message || 'Publish started. Check Netlify deploys for progress.'
                 })
                 .catch(function (error) {
                     status.textContent = error.message
+                    if (getRemainingCooldown(getStoredPublishStartedAt()) <= 0) {
+                        button.disabled = false
+                        button.style.opacity = '1'
+                        button.textContent = 'Publish Site'
+                    }
                 })
                 .finally(function () {
-                    button.disabled = false
-                    button.style.opacity = '1'
+                    if (getRemainingCooldown(getStoredPublishStartedAt()) <= 0) {
+                        button.disabled = false
+                        button.style.opacity = '1'
+                        button.textContent = 'Publish Site'
+                    }
                 })
         }
 
