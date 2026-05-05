@@ -46,6 +46,28 @@
         })
     }
 
+    function parseUploadResponse(response) {
+        return response.text().then(function (text) {
+            var json = {}
+
+            if (text) {
+                try {
+                    json = JSON.parse(text)
+                } catch (error) {
+                    json = {
+                        error: text,
+                    }
+                }
+            }
+
+            if (!response.ok) {
+                throw new Error(json.error || 'Upload failed.')
+            }
+
+            return json
+        })
+    }
+
     function closeModal(modal) {
         if (modal && modal.parentNode) {
             modal.parentNode.removeChild(modal)
@@ -207,15 +229,13 @@
                     })
                 })
                 .then(function (response) {
-                    return response.json().then(function (json) {
-                        if (!response.ok) {
-                            throw new Error(json.error || 'Upload failed.')
-                        }
-
-                        return json
-                    })
+                    return parseUploadResponse(response)
                 })
                 .then(function (json) {
+                    if (!json.url) {
+                        throw new Error('Upload completed, but no image URL was returned.')
+                    }
+
                     handleInsert(json.url)
                     closeModal(modal)
                 })
