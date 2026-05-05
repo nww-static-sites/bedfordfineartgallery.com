@@ -4,6 +4,12 @@ backend:
 
 site_url: https://www.bedfordfineartgallery.com
 logo_url: https://img.bedfordfineartgallery.com/logo.png
+# Netlify CMS requires either media_folder or media_library to boot.
+# Cloudinary was removed during the image migration, and this fallback is not
+# the approved long-term upload workflow. Image fields below are URL text
+# fields so editors can paste S3-backed img.bedfordfineartgallery.com URLs.
+media_folder: static/admin/__cms_media_uploads_disabled
+public_folder: /admin/__cms_media_uploads_disabled
 show_preview_links: false
 publish_mode: simple
 
@@ -79,42 +85,37 @@ collections:
           - {
                 label: 'Gallery Crop Image',
                 name: 'galleryCropImage',
-                widget: 'image',
-                allow_multiple: false,
+                widget: 'string',
                 required: false,
-                hint: ' Image dimensions: 392 x 261 with black background. Full painting (without frame) cropped image used on the main gallery pages. This will show on the gallery pages.'
+                hint: 'Paste the full https://img.bedfordfineartgallery.com/... URL. Image dimensions: 392 x 261 with black background. Full painting (without frame) cropped image used on the main gallery pages. This will show on the gallery pages.'
             }
           - {
                 label: 'Grid Image',
                 name: 'gridImage',
-                widget: 'image',
-                allow_multiple: false,
+                widget: 'string',
                 required: false,
-                hint: 'Image dimensions: 392 x 261. Zoomed in (without frame) cropped image used on artist landing pages and the sold page. This will show on pages that list multiple paintings.'
+                hint: 'Paste the full https://img.bedfordfineartgallery.com/... URL. Image dimensions: 392 x 261. Zoomed in (without frame) cropped image used on artist landing pages and the sold page. This will show on pages that list multiple paintings.'
             }
           - {
                 label: 'Medium Res Image',
                 name: 'mediumResImage',
-                widget: 'image',
-                allow_multiple: false,
+                widget: 'string',
                 required: false,
-                hint: "Keep width or height around 1200px depending on painting orientation. Full painting with frame cropped image for mobile devices."
+                hint: "Paste the full https://img.bedfordfineartgallery.com/... URL. Keep width or height around 1200px depending on painting orientation. Full painting with frame cropped image for mobile devices."
             }
           - {
                 label: 'High Res Image',
                 name: 'highResImage',
-                widget: 'image',
-                allow_multiple: false,
+                widget: 'string',
                 required: false,
-                hint: 'Keep width or height around 2800px depending on painting orientation. Full painting with frame cropped image for desktop computers. This will show on the painting detail pages.'
+                hint: 'Paste the full https://img.bedfordfineartgallery.com/... URL. Keep width or height around 2800px depending on painting orientation. Full painting with frame cropped image for desktop computers. This will show on the painting detail pages.'
             }
           - {
                 label: 'Art On Wall Image',
                 name: 'artOnWallImage',
-                widget: 'image',
-                allow_multiple: false,
+                widget: 'string',
                 required: false,
-                hint: "Keep width or height around 1200px depending on painting orientation. Full painting with frame cropped image for mobile devices."
+                hint: "Paste the full https://img.bedfordfineartgallery.com/... URL. Keep width or height around 1200px depending on painting orientation. Full painting with frame cropped image for mobile devices."
             }
           - {
               label: 'Art On Wall Alt Text',
@@ -260,18 +261,16 @@ collections:
           - {
                 label: 'Grid Image',
                 name: 'gridImage',
-                widget: 'image',
-                allow_multiple: false,
+                widget: 'string',
                 required: false,
-                hint: 'This will be the grid image for the post on the highlights page',
+                hint: 'Paste the full https://img.bedfordfineartgallery.com/... URL. This will be the grid image for the post on the highlights page',
             }
           - {
                 label: 'Image',
                 name: 'image',
-                widget: 'image',
-                allow_multiple: false,
+                widget: 'string',
                 required: false,
-                hint: 'This will be the image for the post',
+                hint: 'Paste the full https://img.bedfordfineartgallery.com/... URL. This will be the image for the post',
             }
           - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Use control, shift, v to paste when copying from Microsoft Word' }
           - { label: 'YouTube Link', name: 'youtubeEmbedLink', widget: 'string', required: false, pattern: ["^((?:https?:)?\\/\\/)?((?:www|m)\\.)?((?:youtube\\.com|youtu.be))(\\/(?:[\\w\\-]+\\?v=|embed\\/|v\\/)?)([\\w\\-]+)(\\S+)?$", "Enter a valid YouTube URL"] }
