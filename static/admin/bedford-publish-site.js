@@ -1,9 +1,16 @@
 (function () {
     var endpoint = '/.netlify/functions/publish-site'
     var mountId = 'bedford-publish-site-panel'
-    var publishStorageKey = 'bedford-cms-publish-started-at'
-    var publishCooldownMs = 10 * 60 * 1000
+    var statusPollMs = 30000
     var identityListenerInstalled = false
+    var statusPollingInstalled = false
+    var panelButton = null
+    var panelStatus = null
+    var currentPublishStatus = {
+        state: 'checking',
+        canPublish: false,
+        message: 'Checking publish status...',
+    }
 
     function createElement(tagName, attributes, children) {
         var element = document.createElement(tagName)
@@ -53,46 +60,134 @@
         return Promise.reject(new Error('Could not find your CMS login token. Please refresh and log in again.'))
     }
 
-    function getStoredPublishStartedAt() {
-        try {
-            return Number(window.localStorage.getItem(publishStorageKey))
-        } catch (error) {
-            return null
-        }
+    function readJsonResponse(response) {
+        return response.text().then(function (text) {
+            var json = {}
+
+            if (text) {
+                try {
+                    json = JSON.parse(text)
+                } catch (error) {
+                    json = { error: text }
+                }
+            }
+
+            if (!response.ok) {
+                if (json.state) {
+                    applyPublishStatus(json)
+                }
+
+                throw new Error(json.error || 'Could not contact the publish service.')
+            }
+
+            return json
+        })
     }
 
-    function savePublishStartedAt(startedAt) {
-        try {
-            window.localStorage.setItem(publishStorageKey, String(startedAt))
-        } catch (error) {
-            return undefined
-        }
+    function requestPublishStatus(method) {
+        return getJwt(getIdentityUser())
+            .then(function (token) {
+                return fetch(endpoint, {
+                    method: method,
+                    headers: {
+                        authorization: 'Bearer ' + token,
+                        'content-type': 'application/json',
+                    },
+                    body: method === 'POST' ? JSON.stringify({ source: 'bedford-cms-admin' }) : undefined,
+                })
+            })
+            .then(readJsonResponse)
     }
 
-    function getRemainingCooldown(startedAt) {
-        if (!Number.isFinite(startedAt)) {
-            return 0
+    function commitSummary(json) {
+        if (!json || !json.gitShortCommit) {
+            return ''
         }
 
-        return Math.max(0, publishCooldownMs - (Date.now() - startedAt))
+        if (json.deployedShortCommit && json.deployedShortCommit !== json.gitShortCommit) {
+            return ' Saved ' + json.gitShortCommit + ', live ' + json.deployedShortCommit + '.'
+        }
+
+        return ' Live ' + json.gitShortCommit + '.'
     }
 
-    function setPublishStarted(button, status, startedAt) {
-        var remaining = getRemainingCooldown(startedAt)
+    function applyPublishStatus(json) {
+        currentPublishStatus = Object.assign({}, currentPublishStatus, json || {})
 
-        button.disabled = true
-        button.style.opacity = '0.7'
-        button.textContent = 'Publish Started'
-        status.textContent = 'Publish started. Netlify usually takes 7-10 minutes.'
-
-        if (remaining > 0) {
-            window.setTimeout(function () {
-                button.disabled = false
-                button.style.opacity = '1'
-                button.textContent = 'Publish Site'
-                status.textContent = 'CMS saves are queued in Git. Publish when your editing batch is ready.'
-            }, remaining)
+        if (!panelButton || !panelStatus) {
+            return
         }
+
+        panelButton.style.opacity = '1'
+
+        if (currentPublishStatus.state === 'publishing') {
+            panelButton.disabled = true
+            panelButton.style.opacity = '0.7'
+            panelButton.textContent = 'Publishing...'
+            panelStatus.textContent = currentPublishStatus.message || 'Publishing saved changes now.'
+            return
+        }
+
+        if (currentPublishStatus.canPublish) {
+            panelButton.disabled = false
+            panelButton.textContent = 'Publish Site'
+            panelStatus.textContent = (currentPublishStatus.message || 'Saved changes are waiting to publish.') + commitSummary(currentPublishStatus)
+            return
+        }
+
+        if (currentPublishStatus.state === 'current') {
+            panelButton.disabled = true
+            panelButton.style.opacity = '0.7'
+            panelButton.textContent = 'Nothing to Publish'
+            panelStatus.textContent = (currentPublishStatus.message || 'Live site is current.') + commitSummary(currentPublishStatus)
+            return
+        }
+
+        panelButton.disabled = true
+        panelButton.style.opacity = '0.7'
+        panelButton.textContent = 'Checking...'
+        panelStatus.textContent = currentPublishStatus.message || 'Checking publish status...'
+    }
+
+    function refreshPublishStatus() {
+        if (!getIdentityUser()) {
+            return Promise.resolve()
+        }
+
+        applyPublishStatus({
+            state: currentPublishStatus.state === 'checking' ? 'checking' : currentPublishStatus.state,
+            canPublish: false,
+            message: currentPublishStatus.state === 'checking' ? 'Checking publish status...' : currentPublishStatus.message,
+        })
+
+        return requestPublishStatus('GET')
+            .then(applyPublishStatus)
+            .catch(function (error) {
+                currentPublishStatus = {
+                    state: 'error',
+                    canPublish: false,
+                    message: error.message,
+                }
+                applyPublishStatus(currentPublishStatus)
+                if (panelButton) {
+                    panelButton.textContent = 'Status Error'
+                }
+            })
+    }
+
+    function installStatusPolling() {
+        if (statusPollingInstalled) {
+            return
+        }
+
+        statusPollingInstalled = true
+        window.setInterval(refreshPublishStatus, statusPollMs)
+        window.addEventListener('focus', refreshPublishStatus)
+        document.addEventListener('visibilitychange', function () {
+            if (!document.hidden) {
+                refreshPublishStatus()
+            }
+        })
     }
 
     function installPanel() {
@@ -101,19 +196,20 @@
         }
 
         if (document.getElementById(mountId)) {
+            refreshPublishStatus()
             return
         }
 
-        var status = createElement('div', {
+        panelStatus = createElement('div', {
             style: {
                 color: '#475569',
                 fontSize: '12px',
                 lineHeight: '1.35',
                 marginTop: '8px',
             },
-            text: 'CMS saves are queued in Git. Publish when your editing batch is ready.',
+            text: 'Checking publish status...',
         })
-        var button = createElement('button', {
+        panelButton = createElement('button', {
             type: 'button',
             style: {
                 background: '#742924',
@@ -126,7 +222,7 @@
                 padding: '10px 14px',
                 width: '100%',
             },
-            text: 'Publish Site',
+            text: 'Checking...',
         })
         var panel = createElement('div', {
             id: mountId,
@@ -138,7 +234,7 @@
                 boxSizing: 'border-box',
                 color: '#0f172a',
                 fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-                maxWidth: '260px',
+                maxWidth: '280px',
                 padding: '12px',
                 position: 'fixed',
                 bottom: '18px',
@@ -146,17 +242,13 @@
                 zIndex: '100001',
             },
         }, [
-            button,
-            status,
+            panelButton,
+            panelStatus,
         ])
 
-        if (getRemainingCooldown(getStoredPublishStartedAt()) > 0) {
-            setPublishStarted(button, status, getStoredPublishStartedAt())
-        }
-
-        button.onclick = function () {
-            if (getRemainingCooldown(getStoredPublishStartedAt()) > 0) {
-                setPublishStarted(button, status, getStoredPublishStartedAt())
+        panelButton.onclick = function () {
+            if (!currentPublishStatus.canPublish) {
+                refreshPublishStatus()
                 return
             }
 
@@ -164,70 +256,26 @@
                 return
             }
 
-            button.disabled = true
-            button.style.opacity = '0.7'
-            status.textContent = 'Starting Netlify publish...'
+            panelButton.disabled = true
+            panelButton.style.opacity = '0.7'
+            panelButton.textContent = 'Starting...'
+            panelStatus.textContent = 'Starting Netlify publish...'
 
-            getJwt(getIdentityUser())
-                .then(function (token) {
-                    return fetch(endpoint, {
-                        method: 'POST',
-                        headers: {
-                            authorization: 'Bearer ' + token,
-                            'content-type': 'application/json',
-                        },
-                        body: JSON.stringify({
-                            source: 'bedford-cms-admin',
-                        }),
-                    })
-                })
-                .then(function (response) {
-                    return response.text().then(function (text) {
-                        var json = {}
-
-                        if (text) {
-                            try {
-                                json = JSON.parse(text)
-                            } catch (error) {
-                                json = { error: text }
-                            }
-                        }
-
-                        if (!response.ok) {
-                            if (json.startedAt) {
-                                savePublishStartedAt(json.startedAt)
-                                setPublishStarted(button, status, json.startedAt)
-                            }
-
-                            throw new Error(json.error || 'Could not start the publish.')
-                        }
-
-                        return json
-                    })
-                })
+            requestPublishStatus('POST')
                 .then(function (json) {
-                    savePublishStartedAt(json.startedAt || Date.now())
-                    setPublishStarted(button, status, getStoredPublishStartedAt())
-                    status.textContent = json.message || 'Publish started. Check Netlify deploys for progress.'
+                    applyPublishStatus(json)
+                    window.setTimeout(refreshPublishStatus, 8000)
                 })
                 .catch(function (error) {
-                    status.textContent = error.message
-                    if (getRemainingCooldown(getStoredPublishStartedAt()) <= 0) {
-                        button.disabled = false
-                        button.style.opacity = '1'
-                        button.textContent = 'Publish Site'
-                    }
-                })
-                .finally(function () {
-                    if (getRemainingCooldown(getStoredPublishStartedAt()) <= 0) {
-                        button.disabled = false
-                        button.style.opacity = '1'
-                        button.textContent = 'Publish Site'
-                    }
+                    panelStatus.textContent = error.message
+                    window.setTimeout(refreshPublishStatus, 8000)
                 })
         }
 
         document.body.appendChild(panel)
+        applyPublishStatus(currentPublishStatus)
+        installStatusPolling()
+        refreshPublishStatus()
     }
 
     function installIdentityListeners() {
