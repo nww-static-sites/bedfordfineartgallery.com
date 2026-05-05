@@ -6,10 +6,18 @@
     var statusPollingInstalled = false
     var panelButton = null
     var panelStatus = null
+    var saveLabelObserverInstalled = false
     var currentPublishStatus = {
         state: 'checking',
         canPublish: false,
         message: 'Checking publish status...',
+    }
+    var cmsSaveLabels = {
+        Publish: 'Save',
+        'Publishing...': 'Saving...',
+        'Publish and create new': 'Save and create new',
+        'Publish and duplicate': 'Save and duplicate',
+        'Publish now': 'Save now',
     }
 
     function createElement(tagName, attributes, children) {
@@ -190,6 +198,81 @@
         })
     }
 
+    function replacementLabel(value) {
+        return cmsSaveLabels[value] || null
+    }
+
+    function replaceLabelText(element) {
+        if (!element || element.id === mountId || element.closest && element.closest('#' + mountId)) {
+            return
+        }
+
+        var text = element.textContent && element.textContent.trim()
+        var replacement = replacementLabel(text)
+
+        if (replacement) {
+            if (!element.children.length) {
+                element.textContent = replacement
+            } else {
+                Array.prototype.forEach.call(element.childNodes, function (node) {
+                    var nodeReplacement = node.nodeType === Node.TEXT_NODE && replacementLabel(node.nodeValue.trim())
+
+                    if (nodeReplacement) {
+                        node.nodeValue = nodeReplacement
+                    }
+                })
+            }
+        }
+
+        ;['aria-label', 'title'].forEach(function (attribute) {
+            var value = element.getAttribute && element.getAttribute(attribute)
+            var attributeReplacement = replacementLabel(value)
+
+            if (attributeReplacement) {
+                element.setAttribute(attribute, attributeReplacement)
+            }
+        })
+    }
+
+    function replaceCmsPublishLabels(root) {
+        var selectors = 'button, [role="button"], [role="menuitem"], [data-testid], span'
+        var scope = root && root.querySelectorAll ? root : document
+
+        if (scope.matches && scope.matches(selectors)) {
+            replaceLabelText(scope)
+        }
+
+        Array.prototype.forEach.call(scope.querySelectorAll(selectors), replaceLabelText)
+    }
+
+    function installCmsSaveLabels() {
+        if (saveLabelObserverInstalled) {
+            return
+        }
+
+        saveLabelObserverInstalled = true
+        replaceCmsPublishLabels(document)
+
+        new MutationObserver(function (mutations) {
+            mutations.forEach(function (mutation) {
+                if (mutation.type === 'characterData') {
+                    replaceLabelText(mutation.target.parentElement)
+                    return
+                }
+
+                Array.prototype.forEach.call(mutation.addedNodes, function (node) {
+                    if (node.nodeType === Node.ELEMENT_NODE) {
+                        replaceCmsPublishLabels(node)
+                    }
+                })
+            })
+        }).observe(document.body, {
+            childList: true,
+            characterData: true,
+            subtree: true,
+        })
+    }
+
     function installPanel() {
         if (!getIdentityUser()) {
             return
@@ -275,6 +358,7 @@
         document.body.appendChild(panel)
         applyPublishStatus(currentPublishStatus)
         installStatusPolling()
+        installCmsSaveLabels()
         refreshPublishStatus()
     }
 

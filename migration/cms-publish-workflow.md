@@ -14,6 +14,9 @@ button when they are ready for one production deploy.
   trigger Netlify automatic deploys.
 - `static/admin/bedford-publish-site.js` adds a publish status panel for logged-in
   CMS users and polls the server every 30 seconds.
+- The same admin script relabels Netlify CMS entry-level `Publish` actions as
+  `Save` so editors do not confuse saving content to Git with publishing the
+  public site.
 - `netlify/functions/publish-site.js` validates the Netlify Identity user and
   compares GitHub `main` with the latest successful Netlify production deploy.
 - When GitHub has unpublished commits, the button enables and can start one
