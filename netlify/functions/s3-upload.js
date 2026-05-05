@@ -88,9 +88,9 @@ function validateImage({ body, contentType, filename }) {
 
 function putObject({ key, body, contentType }) {
     return new Promise((resolve, reject) => {
-        const accessKeyId = process.env.AWS_ACCESS_KEY_ID
-        const secretAccessKey = process.env.AWS_SECRET_ACCESS_KEY
-        const sessionToken = process.env.AWS_SESSION_TOKEN
+        const accessKeyId = process.env.BEDFORD_AWS_ACCESS_KEY_ID
+        const secretAccessKey = process.env.BEDFORD_AWS_SECRET_ACCESS_KEY
+        const sessionToken = process.env.BEDFORD_AWS_SESSION_TOKEN
 
         if (!accessKeyId || !secretAccessKey) {
             reject(new Error('AWS credentials are not configured for the CMS upload function.'))
