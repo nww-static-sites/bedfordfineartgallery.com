@@ -19,9 +19,7 @@ button when they are ready for one production deploy.
 
 ## Netlify environment variables
 
-- `BEDFORD_NETLIFY_SITE_ID`: Bedford Netlify site ID.
 - `BEDFORD_NETLIFY_BUILD_HOOK_URL`: Netlify build hook URL used server-side to trigger a build.
-- `BEDFORD_NETLIFY_BUILD_TOKEN`: fallback Netlify API token used server-side to trigger a build.
 - `BEDFORD_CMS_PUBLISH_EMAILS`: comma-separated list of CMS users allowed to publish.
 
 ## Editor-facing behavior
