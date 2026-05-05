@@ -6,6 +6,7 @@ const region = process.env.BEDFORD_S3_REGION || 'us-east-2'
 const imageHost = (process.env.BEDFORD_IMAGE_HOST || 'https://img.bedfordfineartgallery.com').replace(/\/+$/, '')
 const uploadPrefix = (process.env.BEDFORD_UPLOAD_PREFIX || 'cms-uploads/').replace(/^\/+/, '')
 const maxBytes = Number(process.env.BEDFORD_UPLOAD_MAX_BYTES || 8 * 1024 * 1024)
+const chunkStoreName = process.env.BEDFORD_UPLOAD_CHUNK_STORE || 'bedford-cms-upload-chunks'
 
 const corsHeaders = {
     'Access-Control-Allow-Origin': process.env.BEDFORD_CMS_ORIGIN || 'https://www.bedfordfineartgallery.com',
@@ -68,12 +69,8 @@ function cleanFilename(filename) {
     return `${name}.${ext}`
 }
 
-function validateImage({ body, contentType, filename }) {
-    if (!body || !Buffer.isBuffer(body) || body.length === 0) {
-        throw new Error('No image file was received.')
-    }
-
-    if (body.length > maxBytes) {
+function validateImageMetadata({ contentType, filename, size }) {
+    if (typeof size === 'number' && size > maxBytes) {
         throw new Error(`Image is too large for CMS upload. Maximum is ${Math.floor(maxBytes / 1024 / 1024)} MB.`)
     }
 
@@ -84,6 +81,148 @@ function validateImage({ body, contentType, filename }) {
     if (!/\.(jpe?g|png|gif|webp)$/i.test(filename || '')) {
         throw new Error('Image filename must end in jpg, jpeg, png, gif, or webp.')
     }
+}
+
+function validateImage({ body, contentType, filename }) {
+    if (!body || !Buffer.isBuffer(body) || body.length === 0) {
+        throw new Error('No image file was received.')
+    }
+
+    validateImageMetadata({ body, contentType, filename, size: body.length })
+}
+
+function createObjectKey(filename) {
+    const now = new Date()
+    const datePath = [
+        now.getUTCFullYear(),
+        String(now.getUTCMonth() + 1).padStart(2, '0'),
+    ].join('/')
+    const random = crypto.randomBytes(4).toString('hex')
+
+    return `${uploadPrefix}${datePath}/${Date.now()}-${random}-${filename}`
+}
+
+async function getChunkStore() {
+    const { getStore } = await import('@netlify/blobs')
+    return getStore(chunkStoreName)
+}
+
+function parseChunkIndex(value) {
+    const index = Number(value)
+
+    if (!Number.isInteger(index) || index < 0) {
+        throw new Error('Invalid upload chunk index.')
+    }
+
+    return index
+}
+
+function parseTotalChunks(value) {
+    const total = Number(value)
+
+    if (!Number.isInteger(total) || total < 1 || total > 30) {
+        throw new Error('Invalid upload chunk count.')
+    }
+
+    return total
+}
+
+function parseUploadId(value) {
+    const uploadId = String(value || '')
+
+    if (!/^[a-z0-9-]{12,80}$/i.test(uploadId)) {
+        throw new Error('Invalid upload session.')
+    }
+
+    return uploadId
+}
+
+function chunkKey(uploadId, index) {
+    return `${uploadId}/part-${String(index).padStart(3, '0')}`
+}
+
+async function storeChunk(payload) {
+    const filename = cleanFilename(payload.filename)
+    const contentType = payload.contentType || 'application/octet-stream'
+    const size = Number(payload.size)
+    const uploadId = parseUploadId(payload.uploadId)
+    const index = parseChunkIndex(payload.index)
+    const total = parseTotalChunks(payload.total)
+    const body = Buffer.from(payload.base64 || '', 'base64')
+
+    validateImageMetadata({ contentType, filename, size })
+
+    if (!body.length) {
+        throw new Error('No image chunk was received.')
+    }
+
+    const store = await getChunkStore()
+    await store.set(chunkKey(uploadId, index), body.buffer.slice(body.byteOffset, body.byteOffset + body.byteLength), {
+        metadata: {
+            contentType,
+            createdAt: Date.now(),
+            filename,
+            index,
+            size,
+            total,
+        },
+    })
+
+    return jsonResponse(200, {
+        index,
+        received: true,
+    })
+}
+
+async function readChunk(store, uploadId, index) {
+    const value = await store.get(chunkKey(uploadId, index), { type: 'arrayBuffer' })
+
+    if (value === null) {
+        throw new Error(`Upload chunk ${index + 1} is missing. Please choose the image again.`)
+    }
+
+    return Buffer.from(value)
+}
+
+async function deleteChunks(store, uploadId, total) {
+    await Promise.all(
+        Array.from({ length: total }, (_, index) =>
+            store.delete(chunkKey(uploadId, index)).catch(() => undefined)
+        )
+    )
+}
+
+async function completeChunkedUpload(payload) {
+    const filename = cleanFilename(payload.filename)
+    const contentType = payload.contentType || 'application/octet-stream'
+    const size = Number(payload.size)
+    const uploadId = parseUploadId(payload.uploadId)
+    const total = parseTotalChunks(payload.total)
+
+    validateImageMetadata({ contentType, filename, size })
+
+    const store = await getChunkStore()
+    const chunks = []
+
+    for (let index = 0; index < total; index += 1) {
+        chunks.push(await readChunk(store, uploadId, index))
+    }
+
+    const body = Buffer.concat(chunks)
+    validateImage({ body, contentType, filename })
+
+    if (Number.isFinite(size) && body.length !== size) {
+        throw new Error('Uploaded image chunks did not match the selected file size. Please choose the image again.')
+    }
+
+    const key = createObjectKey(filename)
+    await putObject({ key, body, contentType })
+    await deleteChunks(store, uploadId, total)
+
+    return jsonResponse(200, {
+        key,
+        url: `${imageHost}/${key}`,
+    })
 }
 
 function putObject({ key, body, contentType }) {
@@ -192,20 +331,21 @@ exports.handler = async (event) => {
 
     try {
         const payload = JSON.parse(event.body || '{}')
+        if (payload.action === 'chunk') {
+            return await storeChunk(payload)
+        }
+
+        if (payload.action === 'complete') {
+            return await completeChunkedUpload(payload)
+        }
+
         const filename = cleanFilename(payload.filename)
         const contentType = payload.contentType || 'application/octet-stream'
         const body = Buffer.from(payload.base64 || '', 'base64')
 
         validateImage({ body, contentType, filename })
 
-        const now = new Date()
-        const datePath = [
-            now.getUTCFullYear(),
-            String(now.getUTCMonth() + 1).padStart(2, '0'),
-        ].join('/')
-        const random = crypto.randomBytes(4).toString('hex')
-        const key = `${uploadPrefix}${datePath}/${Date.now()}-${random}-${filename}`
-
+        const key = createObjectKey(filename)
         await putObject({ key, body, contentType })
 
         return jsonResponse(200, {

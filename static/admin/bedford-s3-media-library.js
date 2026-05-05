@@ -1,6 +1,8 @@
 (function () {
     var imageHost = 'https://img.bedfordfineartgallery.com'
     var uploadEndpoint = '/.netlify/functions/s3-upload'
+    var chunkSize = 2.5 * 1024 * 1024
+    var singleRequestMaxSize = 2.5 * 1024 * 1024
 
     function createElement(tagName, attributes, children) {
         var element = document.createElement(tagName)
@@ -65,6 +67,86 @@
             }
 
             return json
+        })
+    }
+
+    function createUploadId() {
+        var bytes = new Uint8Array(16)
+
+        if (window.crypto && window.crypto.getRandomValues) {
+            window.crypto.getRandomValues(bytes)
+        } else {
+            for (var index = 0; index < bytes.length; index += 1) {
+                bytes[index] = Math.floor(Math.random() * 256)
+            }
+        }
+
+        return Array.prototype.map.call(bytes, function (byte) {
+            return ('0' + byte.toString(16)).slice(-2)
+        }).join('')
+    }
+
+    function postJson(endpoint, payload) {
+        return fetch(endpoint, {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json',
+            },
+            body: JSON.stringify(payload),
+        }).then(function (response) {
+            return parseUploadResponse(response)
+        })
+    }
+
+    function uploadSmallFile(endpoint, file) {
+        return readFileAsBase64(file).then(function (base64) {
+            return postJson(endpoint, {
+                base64: base64,
+                contentType: file.type,
+                filename: file.name,
+            })
+        })
+    }
+
+    function uploadLargeFile(endpoint, file, updateStatus) {
+        var uploadId = createUploadId()
+        var total = Math.ceil(file.size / chunkSize)
+        var sequence = Promise.resolve()
+
+        Array.from({ length: total }).forEach(function (_, index) {
+            sequence = sequence.then(function () {
+                var start = index * chunkSize
+                var end = Math.min(start + chunkSize, file.size)
+                var chunk = file.slice(start, end)
+
+                updateStatus('Uploading to AWS... ' + Math.round((index / total) * 100) + '%')
+
+                return readFileAsBase64(chunk).then(function (base64) {
+                    return postJson(endpoint, {
+                        action: 'chunk',
+                        base64: base64,
+                        contentType: file.type,
+                        filename: file.name,
+                        index: index,
+                        size: file.size,
+                        total: total,
+                        uploadId: uploadId,
+                    })
+                })
+            })
+        })
+
+        return sequence.then(function () {
+            updateStatus('Finishing AWS upload...')
+
+            return postJson(endpoint, {
+                action: 'complete',
+                contentType: file.type,
+                filename: file.name,
+                size: file.size,
+                total: total,
+                uploadId: uploadId,
+            })
         })
     }
 
@@ -214,23 +296,12 @@
             status.textContent = 'Uploading to AWS...'
             fileInput.disabled = true
 
-            readFileAsBase64(file)
-                .then(function (base64) {
-                    return fetch(endpoint, {
-                        method: 'POST',
-                        headers: {
-                            'content-type': 'application/json',
-                        },
-                        body: JSON.stringify({
-                            base64: base64,
-                            contentType: file.type,
-                            filename: file.name,
-                        }),
-                    })
+            ;(file.size <= singleRequestMaxSize
+                ? uploadSmallFile(endpoint, file)
+                : uploadLargeFile(endpoint, file, function (message) {
+                    status.textContent = message
                 })
-                .then(function (response) {
-                    return parseUploadResponse(response)
-                })
+            )
                 .then(function (json) {
                     if (!json.url) {
                         throw new Error('Upload completed, but no image URL was returned.')
