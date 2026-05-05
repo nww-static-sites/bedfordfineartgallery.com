@@ -5,8 +5,9 @@ const bucket = process.env.BEDFORD_S3_BUCKET || 'img.bedfordfineartgallery.com'
 const region = process.env.BEDFORD_S3_REGION || 'us-east-2'
 const imageHost = (process.env.BEDFORD_IMAGE_HOST || 'https://img.bedfordfineartgallery.com').replace(/\/+$/, '')
 const uploadPrefix = (process.env.BEDFORD_UPLOAD_PREFIX || 'cms-uploads/').replace(/^\/+/, '')
-const maxBytes = Number(process.env.BEDFORD_UPLOAD_MAX_BYTES || 8 * 1024 * 1024)
+const maxBytes = Number(process.env.BEDFORD_UPLOAD_MAX_BYTES || 25 * 1024 * 1024)
 const chunkStoreName = process.env.BEDFORD_UPLOAD_CHUNK_STORE || 'bedford-cms-upload-chunks'
+const chunkMaxAgeMs = Number(process.env.BEDFORD_UPLOAD_CHUNK_MAX_AGE_MS || 24 * 60 * 60 * 1000)
 
 const corsHeaders = {
     'Access-Control-Allow-Origin': process.env.BEDFORD_CMS_ORIGIN || 'https://www.bedfordfineartgallery.com',
@@ -164,6 +165,10 @@ async function storeChunk(payload) {
     }
 
     const store = await getChunkStore()
+    if (index === 0) {
+        cleanupStaleChunks(store).catch(() => undefined)
+    }
+
     await store.set(chunkKey(uploadId, index), body.buffer.slice(body.byteOffset, body.byteOffset + body.byteLength), {
         metadata: {
             contentType,
@@ -197,6 +202,36 @@ async function deleteChunks(store, uploadId, total) {
             store.delete(chunkKey(uploadId, index)).catch(() => undefined)
         )
     )
+}
+
+async function cleanupStaleChunks(store) {
+    const cutoff = Date.now() - chunkMaxAgeMs
+    const staleKeys = []
+
+    for await (const page of store.list({ paginate: true })) {
+        for (const blob of page.blobs) {
+            if (!/\/part-\d+$/.test(blob.key)) {
+                continue
+            }
+
+            const result = await store.getMetadata(blob.key).catch(() => null)
+            const createdAt = Number(result && result.metadata && result.metadata.createdAt)
+
+            if (Number.isFinite(createdAt) && createdAt < cutoff) {
+                staleKeys.push(blob.key)
+            }
+
+            if (staleKeys.length >= 200) {
+                break
+            }
+        }
+
+        if (staleKeys.length >= 200) {
+            break
+        }
+    }
+
+    await Promise.all(staleKeys.map((key) => store.delete(key).catch(() => undefined)))
 }
 
 async function completeChunkedUpload(payload) {
