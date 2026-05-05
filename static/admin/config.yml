@@ -5,11 +5,12 @@ backend:
 site_url: https://www.bedfordfineartgallery.com
 logo_url: https://img.bedfordfineartgallery.com/logo.png
 # Netlify CMS requires either media_folder or media_library to boot.
-# Cloudinary was removed during the image migration, and this fallback is not
-# the approved long-term upload workflow. Image fields below are URL text
-# fields so editors can paste S3-backed img.bedfordfineartgallery.com URLs.
-media_folder: static/admin/__cms_media_uploads_disabled
-public_folder: /admin/__cms_media_uploads_disabled
+# This custom media library never uploads to Git. It accepts only URLs from
+# the S3-backed image host after images have been uploaded to the AWS bucket.
+media_library:
+    name: bedford_s3
+    config:
+        image_host: https://img.bedfordfineartgallery.com
 show_preview_links: false
 publish_mode: simple
 
