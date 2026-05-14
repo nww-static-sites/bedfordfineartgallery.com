@@ -5,8 +5,10 @@ const buildHookUrl = process.env.BEDFORD_NETLIFY_BUILD_HOOK_URL
 const netlifyStatusToken = process.env.BEDFORD_NETLIFY_STATUS_TOKEN || process.env.BEDFORD_NETLIFY_BLOBS_TOKEN
 const githubRepo = process.env.BEDFORD_GITHUB_REPO || 'nww-static-sites/bedfordfineartgallery.com'
 const githubBranch = process.env.BEDFORD_GITHUB_BRANCH || 'main'
+const githubToken = process.env.BEDFORD_GITHUB_TOKEN || process.env.GITHUB_TOKEN
 const publishStoreName = process.env.BEDFORD_CMS_PUBLISH_STORE || 'bedford-cms-publish-state'
 const publishCooldownMs = Number(process.env.BEDFORD_CMS_PUBLISH_COOLDOWN_MS || 2 * 60 * 1000)
+const publishStatusCacheMs = Number(process.env.BEDFORD_CMS_PUBLISH_STATUS_CACHE_MS || 60 * 1000)
 const activeDeployStates = new Set(['new', 'building', 'processing', 'uploading', 'enqueued', 'preparing', 'prepared'])
 const allowedEmails = (process.env.BEDFORD_CMS_PUBLISH_EMAILS || [
     'andrew.sabourin@seoexperts.com',
@@ -55,6 +57,11 @@ function requestJson(url, options = {}) {
                     return
                 }
 
+                if (response.statusCode === 403 && /API rate limit exceeded/i.test(body.message || body.error || '')) {
+                    reject(new Error('GitHub rate limit exceeded while checking CMS publish status. Please wait a few minutes and try again.'))
+                    return
+                }
+
                 reject(new Error(body.message || body.error || `Request returned ${response.statusCode}.`))
             })
         })
@@ -67,6 +74,19 @@ function requestJson(url, options = {}) {
 
         request.end()
     })
+}
+
+function githubHeaders() {
+    const headers = {
+        accept: 'application/vnd.github+json',
+        'user-agent': 'bedford-cms-publish-status',
+    }
+
+    if (githubToken) {
+        headers.authorization = `Bearer ${githubToken}`
+    }
+
+    return headers
 }
 
 function triggerNetlifyBuild() {
@@ -145,12 +165,54 @@ async function clearPublishStart() {
     }
 }
 
+async function getCachedPublishStatus() {
+    if (!Number.isFinite(publishStatusCacheMs) || publishStatusCacheMs <= 0) {
+        return null
+    }
+
+    try {
+        const store = await getPublishStore()
+        const cached = await store.get('status-cache', { type: 'json' })
+        const createdAt = Number(cached && cached.createdAt)
+
+        if (!Number.isFinite(createdAt) || Date.now() - createdAt >= publishStatusCacheMs) {
+            return null
+        }
+
+        return cached.status || null
+    } catch (error) {
+        return null
+    }
+}
+
+async function saveCachedPublishStatus(status) {
+    if (!Number.isFinite(publishStatusCacheMs) || publishStatusCacheMs <= 0) {
+        return undefined
+    }
+
+    try {
+        const store = await getPublishStore()
+        await store.setJSON('status-cache', {
+            createdAt: Date.now(),
+            status,
+        })
+    } catch (error) {
+        return undefined
+    }
+}
+
+async function clearCachedPublishStatus() {
+    try {
+        const store = await getPublishStore()
+        await store.delete('status-cache')
+    } catch (error) {
+        return undefined
+    }
+}
+
 async function getGitHead() {
     const commit = await requestJson(`https://api.github.com/repos/${githubRepo}/commits/${githubBranch}`, {
-        headers: {
-            accept: 'application/vnd.github+json',
-            'user-agent': 'bedford-cms-publish-status',
-        },
+        headers: githubHeaders(),
     })
 
     return {
@@ -192,10 +254,7 @@ async function getAheadBy(deployedCommit, gitCommit) {
 
     try {
         const comparison = await requestJson(`https://api.github.com/repos/${githubRepo}/compare/${deployedCommit}...${gitCommit}`, {
-            headers: {
-                accept: 'application/vnd.github+json',
-                'user-agent': 'bedford-cms-publish-status',
-            },
+            headers: githubHeaders(),
         })
 
         return Number(comparison.ahead_by) || 0
@@ -271,6 +330,18 @@ async function getPublishStatus() {
     }
 }
 
+async function getCachedOrFreshPublishStatus() {
+    const cached = await getCachedPublishStatus()
+
+    if (cached) {
+        return cached
+    }
+
+    const status = await getPublishStatus()
+    await saveCachedPublishStatus(status)
+    return status
+}
+
 function getAuthorizedEmail(context) {
     const user = context.clientContext && context.clientContext.user
     const email = String(user && user.email || '').toLowerCase()
@@ -298,11 +369,11 @@ exports.handler = async (event, context) => {
     }
 
     try {
-        const status = await getPublishStatus()
-
         if (event.httpMethod === 'GET') {
-            return jsonResponse(200, status)
+            return jsonResponse(200, await getCachedOrFreshPublishStatus())
         }
+
+        const status = await getPublishStatus()
 
         if (status.state === 'publishing') {
             return jsonResponse(409, {
@@ -330,6 +401,7 @@ exports.handler = async (event, context) => {
         }
 
         const startedAt = Date.now()
+        await clearCachedPublishStatus()
         await savePublishStart(authorization.email, startedAt)
         await triggerNetlifyBuild()
 

@@ -1,7 +1,7 @@
 (function () {
     var endpoint = '/.netlify/functions/publish-site'
     var mountId = 'bedford-publish-site-panel'
-    var statusPollMs = 30000
+    var statusPollMs = 120000
     var identityListenerInstalled = false
     var statusPollingInstalled = false
     var panelButton = null
