@@ -2,5 +2,8 @@
   "hasLandingPage": true,
   "name": "Henry Hintermeister",
   "tinyDescription": "American 1897 - 1970",
-  "slug": "henry_hintermeister_artist-html"
+  "slug": "henry_hintermeister_artist-html",
+  "paintings": [
+    "henry_hintermeister_sail_on_oh_ship_of_state-html"
+  ]
 }
