@@ -1,15 +1,20 @@
 {
   "paintingWidth": 31.38,
   "body": "Contemporary artist Judy York received fine art training at Wesleyan University in Middletown, Connecticut and Pratt Institute in New York City. In a 2008 Barnes and Noble interview, titled “The Queen of Art and Romance,” York states that she is “a storyteller pure and simple.”  York has created illustrations that feature as book covers for many book publishers, including Ballantine, Berkley, Dorchester, Harlequin and Zebra. As an artist and storyteller, she believes that it “her role to capture what she has read and what she hopes the author is trying to say as perfectly as possible.” Her illustrations are accurate portrayals of the authors’ intents--“a touch of magic,” the “lure of exotica,” “pursuit of history,” or “strong women.” York is a member The Graphic Artists Guild, The National Arts Club and The Salmagundi Club. “How Does Your Garden Grow?” is a quintessential York painting—a depiction of a Victorian gentlewoman picking a bouquet for a special room in her house.",
+  "highResImageHeight": 2402,
   "artist": "judy_york-html",
+  "highResImageWidth": 3000,
   "paintingHeight": 25.5,
   "slug": "j_york_genre-html",
   "dimensions": "Oil on canvas, 17.38 x 23.35 inches/Signed lower right",
   "featured": false,
   "mediumResImage": "https://img.bedfordfineartgallery.com/cms-uploads/york-img_1512-sm-cr-fr.jpg",
-  "status": "Sold",
+  "gridImageWidth": 392,
+  "status": "New",
   "metaTitle": "Judy York - How Does Your Garden Grow? painting for sale",
   "gridImage": "https://img.bedfordfineartgallery.com/cms-uploads/york-img_1512-zoom-cr.jpg",
+  "mediumResImageWidth": 1400,
+  "mediumResImageHeight": 1121,
   "metaDescription": "Judy York, American - AKA  Judith York - How Does Your Garden Grow? Oil On Canvas Painting For Sale - 17.38x23.35 Inches - Signed Lower Right.",
   "scrollingHomepageImage": false,
   "title": "How Does Your Garden Grow?",
@@ -17,12 +22,17 @@
   "categories": [
     "Genre"
   ],
-  "highResImage": "https://img.bedfordfineartgallery.com/cms-uploads/york-img_1512-lrg-cr-fr.jpg",
-  "highlights": [],
-  "gridImageWidth": 392,
   "gridImageHeight": 307,
-  "mediumResImageWidth": 1400,
-  "mediumResImageHeight": 1121,
-  "highResImageWidth": 3000,
-  "highResImageHeight": 2402
+  "highResImage": "https://img.bedfordfineartgallery.com/cms-uploads/york-img_1512-lrg-cr-fr.jpg",
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively priced $3,600"
+    }
+  ]
 }
