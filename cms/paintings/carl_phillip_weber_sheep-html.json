@@ -12,7 +12,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://img.bedfordfineartgallery.com/cms-uploads/weber_sheep_small.jpg",
   "gridImageWidth": 392,
-  "status": "Sold",
+  "status": "New",
   "metaTitle": "Carl Philipp Weber - Sheep on a Rocky Coastal Path Painting",
   "gridImage": "https://img.bedfordfineartgallery.com/cms-uploads/weber_sheep_grid.jpg",
   "mediumResImageWidth": 1254,
@@ -27,5 +27,15 @@
   ],
   "gridImageHeight": 261,
   "highResImage": "https://img.bedfordfineartgallery.com/cms-uploads/weber_sheep_full.jpg",
-  "highlights": []
+  "highlights": [
+    {
+      "highlight": "Available for purchase"
+    },
+    {
+      "highlight": "Professionally conserved and framed"
+    },
+    {
+      "highlight": "Competitively priced $4,500"
+    }
+  ]
 }
