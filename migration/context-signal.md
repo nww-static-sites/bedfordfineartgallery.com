@@ -1,11 +1,15 @@
 # Context signal
 
-Last updated: 2026-05-20 14:30 MST
+Last updated: 2026-05-20 15:59 MST
 
-Reload context before future Netlify, billing, support, CMS publish, or deployment work.
+Reload context before future Netlify, billing, support, CMS publish, deployment, or Bedford backup work.
 
 Recently touched or newly important files:
 
+- `/Users/x/Documents/Codex Projects/Cloudinary/bedford-backup-repeat-procedure.md`
+- `/Users/x/Documents/Codex Projects/Cloudinary/backup-run-log-2026-05-14.md`
+- `/Users/x/Documents/Codex Projects/Cloudinary/bedford-backup-plan-2026-05-14.md`
+- `/Users/x/Documents/Codex Projects/Cloudinary/windows-zip-compatibility-note-2026-05-15.md`
 - `migration/netlify-usage-billing-support-analysis-2026-05-13.md`
 - `migration/netlify-usage-before-after-timeline-2026-05-13.md`
 - `migration/netlify-credit-run-rate-forecast-2026-05-13.md`
@@ -20,6 +24,7 @@ Recently touched or newly important files:
 - `netlify/functions/s3-upload.js`
 - `validate-cms-relations.mjs`
 - `migration/cms-relation-validation-2026-05-20.md`
+- `migration/cms-slug-protection-2026-05-20.md`
 - `cms/paintings/edgar_longstaffe_stone_bridge_by_waterfall-html.json`
 - `cms/artists/e-longstaffe_artwork-html.json`
 - `static/admin/config.yml`
@@ -34,3 +39,9 @@ Reason:
 - A CMS relation validation pass now documents and fixes the Edgar Longstaffe
   missing-detail-page issue. The build runs `validate-cms-relations.mjs` before
   Nuxt generation so missing artist/painting relations fail clearly.
+- Existing CMS slug fields are now protected in the admin UI and restored by a
+  CMS `preSave` hook. This prevents ordinary editor changes from altering public
+  URLs or content relation ids after creation.
+- The first two-archive Bedford backup was completed 2026-05-14/15: client asset/content zip for Jerry and provider-only restore kit for maintainer.
+- The repeat procedure documents how to refresh Git/S3, build a client archive without provider operational details, build a provider restore kit without duplicating images, upload only the client zip to Google Drive, and share it restricted to Jerry/Joan.
+- Jerry reported Windows could not open the first client zip. Local zip tests passed, so a Windows-compatible replacement was built that keeps images as files but exports CMS content into one clean `cms-content-export.json` instead of raw CMS filenames.

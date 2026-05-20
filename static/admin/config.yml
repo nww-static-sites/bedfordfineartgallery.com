@@ -49,7 +49,7 @@ collections:
                 display_fields: ['title', 'tinyDescription'],
                 value_field: '{{slug}}',
             }
-          - { label: 'Slug', name: 'slug', widget: 'string', required: true, hint: 'Example: a_t_smith_artist-html File name that will appear in the browser address bar. NEVER CHANGE THE SLUG ONCE IT IS CREATED. THIS WILL BREAK THE ARTIST ON THE SITE AND POSSIBLY HIS PAINTINGS.', pattern: ["^(\\w|-)+-html$", "Slug must contain only letters, numbers, dashes, or underscores, and must end in -html"]  }
+          - { label: 'Slug', name: 'slug', widget: 'string', required: true, hint: 'Example: a_t_smith_artist-html. This controls the public URL and content links. It is protected after creation. Ask the site maintainer if this URL must change.', pattern: ["^(\\w|-)+-html$", "Slug must contain only letters, numbers, dashes, or underscores, and must end in -html"]  }
           - {
                 label: 'Meta Title',
                 name: 'metaTitle',
@@ -230,7 +230,7 @@ collections:
               widget: string,
               required: false,
             }
-          - { label: 'Slug', name: 'slug', widget: 'string', hint: 'Example: Example: albert_francis_king_fishing_hole-html File name that will appear in the browser address bar. NEVER CHANGE THE SLUG ONCE IT IS CREATED. THIS WILL BREAK THE PAINTING ON THE SITE AND POSSIBLY ITS ARTIST.', pattern: ["^(\\w|-)+-html$", "Slug must contain only letters, numbers, dashes, or underscores, and must end in -html"] }
+          - { label: 'Slug', name: 'slug', widget: 'string', hint: 'Example: albert_francis_king_fishing_hole-html. This controls the public URL and content links. It is protected after creation. Ask the site maintainer if this URL must change.', pattern: ["^(\\w|-)+-html$", "Slug must contain only letters, numbers, dashes, or underscores, and must end in -html"] }
           - {
                 label: 'Meta Title',
                 name: 'metaTitle',
@@ -303,7 +303,7 @@ collections:
             fields:
                 - { label: 'Text', name: 'text', widget: 'string', required: false }
                 - { label: 'Link', name: 'link', widget: 'string', required: false }
-          - { label: 'Slug', name: 'slug', widget: 'string' }
+          - { label: 'Slug', name: 'slug', widget: 'string', hint: 'This controls the public URL. It is protected after creation. Ask the site maintainer if this URL must change.' }
           - {
                 label: 'Meta Title',
                 name: 'metaTitle',
@@ -350,7 +350,7 @@ collections:
                 hint: 'This will show on the highlights list page'
             }
           - { label: 'Body', name: 'body', widget: 'text' }
-          - { label: 'Slug', name: 'slug', widget: 'string' }
+          - { label: 'Slug', name: 'slug', widget: 'string', hint: 'This controls the public URL. It is protected after creation. Ask the site maintainer if this URL must change.' }
           - {
                 label: 'Meta Title',
                 name: 'metaTitle',

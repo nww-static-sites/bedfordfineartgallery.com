@@ -7,6 +7,9 @@
     var panelButton = null
     var panelStatus = null
     var saveLabelObserverInstalled = false
+    var slugProtectionInstalled = false
+    var slugProtectionEventInstalled = false
+    var originalSlugByEntryKey = {}
     var currentPublishStatus = {
         state: 'checking',
         canPublish: false,
@@ -42,6 +45,37 @@
         })
 
         return element
+    }
+
+    function normalizedText(element) {
+        return (element && element.textContent ? element.textContent : '').replace(/\s+/g, ' ').trim()
+    }
+
+    function getEditorRoute() {
+        var hash = window.location.hash || ''
+        var entryMatch = hash.match(/\/collections\/([^/]+)\/entries\/([^/?#]+)/)
+
+        if (entryMatch) {
+            return {
+                collection: decodeURIComponent(entryMatch[1]),
+                entrySlug: decodeURIComponent(entryMatch[2]),
+                isExistingEntry: true,
+            }
+        }
+
+        return {
+            isExistingEntry: false,
+        }
+    }
+
+    function currentEntryKey() {
+        var route = getEditorRoute()
+
+        if (!route.isExistingEntry || !route.collection || !route.entrySlug) {
+            return ''
+        }
+
+        return route.collection + ':' + route.entrySlug
     }
 
     function getIdentityUser() {
@@ -273,6 +307,148 @@
         })
     }
 
+    function isSlugLabel(element) {
+        var text = normalizedText(element)
+
+        return text === 'Slug' || text.indexOf('Slug ') === 0
+    }
+
+    function findSlugControls(label) {
+        var root = label
+        var depth = 0
+
+        while (root && root !== document.body && depth < 8) {
+            var controls = root.querySelectorAll && root.querySelectorAll('input:not([type="hidden"]), textarea')
+
+            if (controls && controls.length) {
+                return [controls[0]]
+            }
+
+            root = root.parentElement
+            depth += 1
+        }
+
+        return []
+    }
+
+    function protectSlugControl(control, key) {
+        if (!control || !control.value) {
+            return
+        }
+
+        if (!originalSlugByEntryKey[key]) {
+            originalSlugByEntryKey[key] = control.value
+        }
+
+        var originalSlug = originalSlugByEntryKey[key]
+
+        control.value = originalSlug
+        control.readOnly = true
+        control.setAttribute('aria-readonly', 'true')
+        control.setAttribute('data-bedford-slug-protected', 'true')
+        control.setAttribute('title', 'Protected after creation. Ask the site maintainer if this URL must change.')
+        control.style.backgroundColor = '#f3f4f6'
+        control.style.borderColor = '#cbd5e1'
+        control.style.color = '#475569'
+        control.style.cursor = 'not-allowed'
+
+        if (!control.parentElement || control.parentElement.querySelector('[data-bedford-slug-note="true"]')) {
+            return
+        }
+
+        control.parentElement.appendChild(createElement('div', {
+            'data-bedford-slug-note': 'true',
+            style: {
+                color: '#742924',
+                fontSize: '12px',
+                lineHeight: '1.35',
+                marginTop: '6px',
+            },
+            text: 'Protected after creation. Ask the site maintainer if this URL must change.',
+        }))
+    }
+
+    function protectExistingSlugFields(root) {
+        var key = currentEntryKey()
+
+        if (!key) {
+            return
+        }
+
+        var scope = root && root.querySelectorAll ? root : document
+        var labels = []
+
+        if (scope.matches && isSlugLabel(scope)) {
+            labels.push(scope)
+        }
+
+        Array.prototype.forEach.call(scope.querySelectorAll('label, span, div'), function (element) {
+            if (isSlugLabel(element)) {
+                labels.push(element)
+            }
+        })
+
+        labels.forEach(function (label) {
+            Array.prototype.forEach.call(findSlugControls(label), function (control) {
+                protectSlugControl(control, key)
+            })
+        })
+    }
+
+    function protectEntrySlugBeforeSave(args) {
+        var key = currentEntryKey()
+        var originalSlug = key && originalSlugByEntryKey[key]
+        var entry = args && args.entry
+        var data = entry && entry.get && entry.get('data')
+
+        if (!originalSlug || !data || !data.get || !data.set) {
+            return data
+        }
+
+        if (data.get('slug') !== originalSlug) {
+            return data.set('slug', originalSlug)
+        }
+
+        return data
+    }
+
+    function installSlugProtection() {
+        if (!slugProtectionEventInstalled && window.CMS && typeof window.CMS.registerEventListener === 'function') {
+            slugProtectionEventInstalled = true
+            window.CMS.registerEventListener({
+                name: 'preSave',
+                handler: protectEntrySlugBeforeSave,
+            })
+        }
+
+        if (slugProtectionInstalled) {
+            protectExistingSlugFields(document)
+            return
+        }
+
+        slugProtectionInstalled = true
+        protectExistingSlugFields(document)
+
+        window.addEventListener('hashchange', function () {
+            window.setTimeout(function () {
+                protectExistingSlugFields(document)
+            }, 250)
+        })
+
+        new MutationObserver(function (mutations) {
+            mutations.forEach(function (mutation) {
+                Array.prototype.forEach.call(mutation.addedNodes, function (node) {
+                    if (node.nodeType === Node.ELEMENT_NODE) {
+                        protectExistingSlugFields(node)
+                    }
+                })
+            })
+        }).observe(document.body, {
+            childList: true,
+            subtree: true,
+        })
+    }
+
     function installPanel() {
         if (!getIdentityUser()) {
             return
@@ -359,6 +535,7 @@
         applyPublishStatus(currentPublishStatus)
         installStatusPolling()
         installCmsSaveLabels()
+        installSlugProtection()
         refreshPublishStatus()
     }
 
