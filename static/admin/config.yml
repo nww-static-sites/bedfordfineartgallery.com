@@ -47,7 +47,7 @@ collections:
                 collection: 'paintings',
                 search_fields: ['title', 'tinyDescription'],
                 display_fields: ['title', 'tinyDescription'],
-                value_field: 'slug',
+                value_field: '{{slug}}',
             }
           - { label: 'Slug', name: 'slug', widget: 'string', required: true, hint: 'Example: a_t_smith_artist-html File name that will appear in the browser address bar. NEVER CHANGE THE SLUG ONCE IT IS CREATED. THIS WILL BREAK THE ARTIST ON THE SITE AND POSSIBLY HIS PAINTINGS.', pattern: ["^(\\w|-)+-html$", "Slug must contain only letters, numbers, dashes, or underscores, and must end in -html"]  }
           - {
@@ -170,7 +170,7 @@ collections:
                     hint: 'Painting that is sold as a pair with this one',
                     search_fields: ['title', 'tinyDescription'],
                     display_fields: ['title', 'tinyDescription'],
-                    value_field: 'slug',
+                    value_field: '{{slug}}',
                   }
             default:
                 - { highlight: 'Available for purchase' }
@@ -187,7 +187,7 @@ collections:
                 collection: 'artists',
                 search_fields: ['name', 'tinyDescription'],
                 display_fields: ['name', 'tinyDescription'],
-                value_field: 'slug',
+                value_field: '{{slug}}',
                 hint: "Artist description/bio. Use 'Ctrl + Shift + V' to paste from a Word doc without the odd formatting."
             }
           - {
