@@ -1,4 +1,15 @@
 # Redirects from what the browser requests to what we serve
+
+# CMS slug normalization redirects - 2026-05-20
+/raymond_carter_misty_sails.html /c_myron_clark_sails.html 301
+/frank_harmon_myers_blue_green_deep.html /frank_harmon_myers_seascape.html 301
+/j_n_hess_horse_much_appreciated_bath.html /j_n_hess_horse_bath.html 301
+/highlights_article_15.html /highlights_article_15.html-1 301
+/how_to_buy_fine_art_a_collectors_guid_%20to_finding_original_paintings.html /how_to_buy_fine_art_a_collectors_guid_-to_finding_original_paintings.html 301
+/m_b_leisser_article,html /m_b_leisser_article.html 301
+/omni-bedford-springs-resort.html /omni_bedford_springs_resort 301
+/romanticism-vs-realism-paintings /romanticism-vs-realism-paintings-1 301
+
 /arthur_fitzwilliam_tait_grouse.html /arthur_fitzwilliam_tate_grouse_family.html
 /Gallery-Page-Three.html	/Artists--Bios.html
 /Gallery.html	/Artists--Bios.html

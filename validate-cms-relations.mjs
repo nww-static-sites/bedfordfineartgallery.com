@@ -4,6 +4,8 @@ import path from 'path'
 const collections = {
   artists: 'cms/artists',
   paintings: 'cms/paintings',
+  articles: 'cms/articles',
+  artLoversNicheArticles: 'cms/artLoversNicheArticles',
 }
 
 function readJsonCollection(name) {
@@ -36,15 +38,41 @@ function label(entry) {
   return entry.data.title || entry.data.name || entry.id
 }
 
+function routeFromSlug(slug) {
+  return `/${slug.replace('-html', '.html')}`
+}
+
 const errors = []
 const artists = readJsonCollection('artists')
 const paintings = readJsonCollection('paintings')
+const articles = readJsonCollection('articles')
+const artLoversNicheArticles = readJsonCollection('artLoversNicheArticles')
+const routeOwners = new Map()
+
+for (const [collectionName, entries] of Object.entries({
+  artists,
+  paintings,
+  articles,
+  artLoversNicheArticles,
+})) {
+  for (const entry of entries.values()) {
+    if (entry.data.slug && entry.data.slug !== entry.id) {
+      errors.push(`${entry.filePath}: ${collectionName} slug "${entry.data.slug}" must match entry id "${entry.id}"`)
+    }
+
+    if (entry.data.slug) {
+      const route = routeFromSlug(entry.data.slug)
+      const owner = `${collectionName}:${entry.filePath}`
+      if (routeOwners.has(route)) {
+        errors.push(`${entry.filePath}: ${collectionName} route "${route}" collides with ${routeOwners.get(route)}`)
+      } else {
+        routeOwners.set(route, owner)
+      }
+    }
+  }
+}
 
 for (const artist of artists.values()) {
-  if (artist.data.slug && artist.data.slug !== artist.id) {
-    errors.push(`${artist.filePath}: artist slug "${artist.data.slug}" must match entry id "${artist.id}"`)
-  }
-
   for (const paintingId of listValue(artist.data.paintings)) {
     if (!paintings.has(paintingId)) {
       errors.push(`${artist.filePath}: "${label(artist)}" references missing painting "${paintingId}"`)
@@ -72,4 +100,4 @@ if (errors.length > 0) {
   process.exit(1)
 }
 
-console.log(`CMS relation validation passed: ${artists.size} artists, ${paintings.size} paintings`)
+console.log(`CMS relation validation passed: ${artists.size} artists, ${paintings.size} paintings, ${articles.size} articles, ${artLoversNicheArticles.size} art lovers niche articles`)
