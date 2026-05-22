@@ -2,5 +2,8 @@
   "hasLandingPage": true,
   "name": "Robert McGregor",
   "tinyDescription": "Scottish 1847 – 1922",
-  "slug": "robert_mcgregor_artist-html"
+  "slug": "robert_mcgregor_artist-html",
+  "paintings": [
+    "robert_mcgregor_children_fishing-html"
+  ]
 }
