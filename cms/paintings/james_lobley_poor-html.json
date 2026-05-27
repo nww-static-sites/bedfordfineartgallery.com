@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://img.bedfordfineartgallery.com/cms-uploads/img_3942_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "James Lobley - Remember the Poor Painting For Sale",
   "mainImageAltText": "James Lobley - Remember the Poor Painting For Sale",
   "gridImage": "https://img.bedfordfineartgallery.com/cms-uploads/img_3942_grid.jpg",
@@ -23,21 +23,11 @@
   "metaDescription": "This fine watercolor is by a very well listed, sought after British artist, James Lobley. The symbolic composition \"Remember the Poor\" is typical.",
   "scrollingHomepageImage": true,
   "title": "Remember the Poor",
-  "galleryCropImage": "https://img.bedfordfineartgallery.com/cms-uploads/img_3942_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Genre"
   ],
   "gridImageHeight": 260,
-  "highResImage": "https://img.bedfordfineartgallery.com/cms-uploads/img_3942_original.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $2,200"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
