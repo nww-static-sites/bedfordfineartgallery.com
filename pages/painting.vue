@@ -188,7 +188,7 @@
                                 href="tel:1-724-459-0612"
                                 style="text-decoration: none; color: #841012"
                                 class="mobile_phone_link"
-                                >724-459-0612</a
+                                >(724-459-0612)</a
                             > anytime - no pressure ever<span style="display: block; padding-top: 16px; padding-bottom: 16px">OR</span
                             ><span
                                 style="
