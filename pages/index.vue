@@ -2,7 +2,7 @@
     <div>
         <div class="container primary">
             <section class="wrapper">
-                <div class="home_grid_3">
+                <div class="home_grid_3" style="margin-bottom: 0px;">
                     <div class="flex_home_logo_2">
                         <div>
                             <img
@@ -72,6 +72,7 @@
                         </div>
                     </div>
                 </div>
+              <div style="text-align: center; max-width: 660px; margin:auto;"><p style="margin:0; padding: 10px 24px; text-align: center; font-weight: bold; font-size: 17px;">Some paintings stop you mid-breath.  We find those paintings.</p></div>
                 <div style="padding-bottom: 24px" class="sliding_features">
                     <GallerySlidingImages />
                 </div>
