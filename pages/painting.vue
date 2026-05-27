@@ -182,6 +182,20 @@
                     <!--eslint-enable-->
 
                     <div id="contact_anchor" class="more_info">
+                      <NuxtImg
+  src="/images/form_img.jpg"
+  alt="Form Image"
+  style="
+    display: block;
+    margin: 0 auto;
+    max-width: 220px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+  "
+/>
                         <h3 style="text-transform: none; color: #841012; font-size: 1.1em; line-height: 1.3em">
                             Call Jerry
                             <a
