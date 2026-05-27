@@ -183,14 +183,13 @@
 
                     <div id="contact_anchor" class="more_info">
                         <h3 style="text-transform: none; color: #841012; font-size: 1.1em; line-height: 1.3em">
-                            Call now to talk about your interest in this painting:
+                            Call Jerry
                             <a
                                 href="tel:1-724-459-0612"
                                 style="text-decoration: none; color: #841012"
                                 class="mobile_phone_link"
                                 >724-459-0612</a
-                            ><span style="display: block; padding-top: 4px"> Jerry Hawk, Bedford Fine Art Gallery</span
-                            ><span style="display: block; padding-top: 16px; padding-bottom: 16px">OR</span
+                            > anytime - no pressure ever<span style="display: block; padding-top: 16px; padding-bottom: 16px">OR</span
                             ><span
                                 style="
                                     display: block;
@@ -199,10 +198,7 @@
                                     margin: auto;
                                     line-height: 24px;
                                 "
-                                >We don't know which of your own thoughts will convince yourself that a great decision
-                                is going to be made. Only you can find yourself doing so because it naturally and easily
-                                makes sense and feels right for you. So please feel free to ask any questions that allow
-                                you to recognize that is happening.</span
+                                >Send us an email</span
                             >
                         </h3>
 
