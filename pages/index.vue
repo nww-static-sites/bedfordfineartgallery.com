@@ -113,7 +113,7 @@
                         Bedford Fine Art Gallery is your best resource for finding paintings with that "wow factor",
                         that are the focal point in any room. The best testimonials to the fine art people have fallen
                         in love with are our notable sales to many happy customers throughout the United States and in
-                        select locations around the world.
+                        select locations around the world. Unique one-of-a-kind work.  Once sold, it is gone forever.
                     </p>
 
                     <h2
