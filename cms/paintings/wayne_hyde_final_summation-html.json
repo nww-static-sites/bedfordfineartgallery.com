@@ -11,7 +11,7 @@
   "youtubeEmbedLink": "https://www.youtube.com/embed/vM3SNYlasos?rel=0",
   "mediumResImage": "https://img.bedfordfineartgallery.com/cms-uploads/hyde_summation_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Wayne Hyde - The Final Summation Sculpture For Sale",
   "mainImageAltText": "Wayne Hyde Sculptures - The Final Summation Sculpture",
   "gridImage": "https://img.bedfordfineartgallery.com/cms-uploads/hyde_summation_grid.jpg",
@@ -20,18 +20,11 @@
   "metaDescription": "Wayne Hyde - The Final Summation Sculpture For Sale. Contemporary sculptor Wayne Hyde was born & raised in the Allegheny Mountains, near Bedford, Pennsylvania.",
   "scrollingHomepageImage": true,
   "title": "The Final Summation",
-  "galleryCropImage": "https://img.bedfordfineartgallery.com/cms-uploads/hyde_summation_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Sculpture"
   ],
   "gridImageHeight": 261,
   "highResImage": "",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Competitively Priced $3,700"
-    }
-  ]
+  "highlights": []
 }
