@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://img.bedfordfineartgallery.com/cms-uploads/ballvoine_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Jules Frederic Ballavoine - Young Woman with Flower Painting",
   "mainImageAltText": "Jules Frederic Ballavoine - Young Woman with Flower Painting",
   "gridImage": "https://img.bedfordfineartgallery.com/cms-uploads/ballvoine_grid.jpg",
@@ -24,21 +24,11 @@
   "metaDescription": "Jules Frederic Ballavoine, French Artist From 1844-1914 - Young Woman With Flowers Oil On Canvas Painting For Sale - 31x23 Inches - Signed Lower Right.",
   "artOnWallImageWidth": 3000,
   "title": "Young Woman with Flowers",
-  "galleryCropImage": "https://img.bedfordfineartgallery.com/cms-uploads/ballvoine_grid_gallery_crop.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Genre"
   ],
   "gridImageHeight": 260,
-  "highResImage": "https://img.bedfordfineartgallery.com/cms-uploads/ballvoine_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $5,000"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
