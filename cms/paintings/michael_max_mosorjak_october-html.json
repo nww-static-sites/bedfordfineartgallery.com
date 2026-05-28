@@ -8,26 +8,16 @@
   "featured": false,
   "artOnWallImage": "https://img.bedfordfineartgallery.com/mosorjak_october_ap_vzlwre.jpg",
   "mediumResImage": "https://img.bedfordfineartgallery.com/Mosorjak_October_IMG_2618_sm_cr_fr_dngl8q.jpg",
-  "status": "New",
+  "status": "Sold",
   "metaTitle": "Michael Max Mosorjak: October Painting for Sale",
   "gridImage": "https://img.bedfordfineartgallery.com/Mosorjak_October_IMG_2618_zoom_cr_nepiq5.jpg",
   "metaDescription": "Buy \"October,\" an original 14.25 x 19.25 signed oil on canvas painting by American artist Michael Max Mosorjak, available at Bedford Fine Art Gallery.",
   "scrollingHomepageImage": false,
   "title": "October",
-  "galleryCropImage": "https://img.bedfordfineartgallery.com/Mosorjak_October_IMG_2618_full_gall_cr_d6xbp2.jpg",
+  "galleryCropImage": "",
   "categories": [
     "Landscape"
   ],
-  "highResImage": "https://img.bedfordfineartgallery.com/Mosorjak_October_IMG_2618_lrg_cr_fr_ehqxzz.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Professionally conserved and framed"
-    },
-    {
-      "highlight": "Competitively Priced $2,225"
-    }
-  ]
+  "highResImage": "",
+  "highlights": []
 }
