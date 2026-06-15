@@ -134,15 +134,16 @@
                 <div class="home_grid_2 sub_flex">
                     <div>
                         <ul>
-                            <li>We have 34 years' experience and our art is the best-of-the-best</li>
+                            <li><span style="font-weight: bold;">Your home should feel like you — not like a hotel lobby.</span></li>
                             <li>
-                                For art lovers who are dissatisfied with the current way to purchase fine art, we
-                                provide new solutions to find what you truly love.
+                                Great collectors aren't art experts. They're people who bought what moved them and never looked back. 
                             </li>
                             <li>
-                                Unlike one-trick pony galleries that have high overhead and pushy sales techniques, we
-                                do not put any pressure on you or push you into art you may not love.
+                                The right piece doesn't just fill a wall. It changes how a room feels — at the end of a long day, when the light is low and the house is finally quiet. 
                             </li>
+                          <li>When you find it, give yourself 5 minutes with it. No distracti0ons. Just look. You'll know. </li>
+                          <li>That's the piece that makes guests stop mid-conversation and ask, “Where did you get that?”</li>
+                          <li><span style="font-weight: bold;">Bedford Fine Art Gallery — 39 years of helping people find the one.</span></li>
                         </ul>
                     </div>
 
