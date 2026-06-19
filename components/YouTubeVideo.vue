@@ -1,18 +1,25 @@
 <template>
-	<LazyYoutubeVideo :src="link" :iframe-attributes="iframeAttributes" :previewImageSize="previewImageSize" :alt="alt" />
+    <LazyYoutubeVideo
+        v-if="embedLink"
+        :src="embedLink"
+        :iframe-attributes="iframeAttributes"
+        :previewImageSize="previewImageSize"
+        :alt="alt"
+    />
 </template>
 
 <script>
 import 'vue-lazy-youtube-video/dist/style.css'
 import LazyYoutubeVideo from 'vue-lazy-youtube-video'
+import { normalizeYouTubeEmbedUrl } from '~/libs/youtube'
 
 export default {
-	components: { LazyYoutubeVideo },
-	props: {
-		link: {
-			type: String,
-			required: true,
-		},
+    components: { LazyYoutubeVideo },
+    props: {
+        link: {
+            type: String,
+            required: true,
+        },
         previewImageSize: {
             type: String,
             required: false,
@@ -20,10 +27,10 @@ export default {
         },
         alt: {
             type: String,
-            required: false
+            required: false,
         },
-	},
-	data() {
+    },
+    data() {
         return {
             iframeAttributes: {
                 width: 560,
@@ -33,6 +40,11 @@ export default {
                 allowfullscreen: false,
             },
         }
+    },
+    computed: {
+        embedLink() {
+            return normalizeYouTubeEmbedUrl(this.link)
+        },
     },
 }
 </script>

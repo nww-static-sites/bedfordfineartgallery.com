@@ -1,6 +1,6 @@
 # Context signal
 
-Last updated: 2026-06-19 08:55 MDT
+Last updated: 2026-06-19 09:45 MDT
 
 Reload context before future Netlify, billing, support, CMS publish, deployment, or Bedford backup work.
 
@@ -9,6 +9,9 @@ Recently touched or newly important files:
 - `migration/netlify-usage-recheck-2026-06-18.md`
 - `migration/cms-status-and-featured-gallery-fix-2026-06-18.md`
 - `migration/highlights-bullet-update-2026-06-19.md`
+- `migration/youtube-url-normalization-2026-06-19.md`
+- `components/YouTubeVideo.vue`
+- `libs/youtube.js`
 - `pages/painting.vue`
 - `static/admin/config.yml`
 - `cms/paintings/*.json`
@@ -91,3 +94,10 @@ Reason:
   sold-page bug was fixed in `pages/painting.vue`: `showHighlights()` now checks
   `!this.isSold` instead of `!this.sold`, so sold paintings hide the availability
   bullets. Hold behavior was intentionally left unchanged.
+- The Eugenia Shankland page exposed a YouTube embed bug: CMS allowed a
+  `youtu.be` share URL, but `vue-lazy-youtube-video` expects
+  `www.youtube.com/embed/...`. On click, YouTube resolved the iframe to a normal
+  watch URL and blocked it with `X-Frame-Options: SAMEORIGIN`. The shared
+  `components/YouTubeVideo.vue` wrapper now normalizes supported YouTube share,
+  watch, Shorts, and embed URLs through `libs/youtube.js`, and the CMS hints and
+  validation patterns document those accepted URL forms.

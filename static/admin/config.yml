@@ -223,7 +223,7 @@ collections:
                 required: false,
             }
           - { label: 'YouTube Text Above Video', name: 'youtubeText', widget: 'string', required: false, hint: "My Wonderfult Painting Video" }
-          - { label: 'YouTube Link', name: 'youtubeEmbedLink', widget: 'string', required: false, pattern: ["^((?:https?:)?\\/\\/)?((?:www|m)\\.)?((?:youtube\\.com|youtu.be))(\\/(?:[\\w\\-]+\\?v=|embed\\/|v\\/)?)([\\w\\-]+)(\\S+)?$", "Enter a valid YouTube URL"], hint: "Example link: https://www.youtube.com/embed/bGDNytl-QM0?rel=0 Can be obtained by viewing the video on your YouTube channel and clicking the 'share' button." }
+          - { label: 'YouTube Link', name: 'youtubeEmbedLink', widget: 'string', required: false, pattern: ["^((?:https?:)?\\/\\/)?((?:www|m)\\.)?(?:(?:youtube(?:-nocookie)?\\.com)\\/(?:watch\\?\\S*v=[\\w\\-]+\\S*|embed\\/[\\w\\-]+\\S*|shorts\\/[\\w\\-]+\\S*|v\\/[\\w\\-]+\\S*)|youtu\\.be\\/[\\w\\-]+\\S*)$", "Enter a valid YouTube URL"], hint: "Paste a YouTube share, watch, Shorts, or embed URL. The site converts it to an iframe-safe embed URL." }
           - {
               label: 'YouTube Alt Text',
               name: youtubeAltText,
@@ -289,7 +289,7 @@ collections:
                 hint: 'Uploads to the AWS bucket and saves a https://img.bedfordfineartgallery.com/... URL. This will be the image for the post',
             }
           - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Use control, shift, v to paste when copying from Microsoft Word' }
-          - { label: 'YouTube Link', name: 'youtubeEmbedLink', widget: 'string', required: false, pattern: ["^((?:https?:)?\\/\\/)?((?:www|m)\\.)?((?:youtube\\.com|youtu.be))(\\/(?:[\\w\\-]+\\?v=|embed\\/|v\\/)?)([\\w\\-]+)(\\S+)?$", "Enter a valid YouTube URL"] }
+          - { label: 'YouTube Link', name: 'youtubeEmbedLink', widget: 'string', required: false, pattern: ["^((?:https?:)?\\/\\/)?((?:www|m)\\.)?(?:(?:youtube(?:-nocookie)?\\.com)\\/(?:watch\\?\\S*v=[\\w\\-]+\\S*|embed\\/[\\w\\-]+\\S*|shorts\\/[\\w\\-]+\\S*|v\\/[\\w\\-]+\\S*)|youtu\\.be\\/[\\w\\-]+\\S*)$", "Enter a valid YouTube URL"], hint: "Paste a YouTube share, watch, Shorts, or embed URL. The site converts it to an iframe-safe embed URL." }
           - {
               label: 'YouTube Alt Text',
               name: youtubeAltText,
