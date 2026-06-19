@@ -54,3 +54,27 @@ confirmed:
 - computed `background-color: rgb(0, 0, 0)` before the follow-up adjustment to
   `#222222`
 - tile ratio remained about `1.50`
+
+## Follow-up background adjustment
+
+The first production fix used pure black letterboxing. User requested matching the
+page background instead.
+
+Updated `components/GalleryTile.vue` from `#000000` to `#222222` and pushed
+commit `6282bf4e` (`Match gallery tile letterbox background`) to `main` on
+2026-06-19.
+
+Netlify production deploy:
+
+- deploy id: `6a35704384e43f00083fca1c`
+- state: `ready`
+- published at: `2026-06-19T16:41:15.920Z`
+- deploy time: `230` seconds
+
+Live browser verification on `https://www.bedfordfineartgallery.com/Artists--Bios.html`
+confirmed the first `.artist_gallery_image` computed:
+
+- `object-fit: contain`
+- `object-position: 50% 50%`
+- `background-color: rgb(34, 34, 34)`
+- tile ratio about `1.50`

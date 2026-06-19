@@ -129,3 +129,8 @@ Reason:
   `6a356e73b0a5dd0008113399`, ready at `2026-06-19T16:33:48.874Z`. Live browser
   verification confirmed `/Artists--Bios.html` gallery tiles compute as
   `object-fit: contain` with centered positioning and dark tile background.
+- Follow-up commit `6282bf4e` changed the gallery tile letterbox background from
+  pure black to page-matching `#222222`. Netlify deploy
+  `6a35704384e43f00083fca1c` was ready and published at
+  `2026-06-19T16:41:15.920Z`; live browser verification confirmed
+  `background-color: rgb(34, 34, 34)`.
