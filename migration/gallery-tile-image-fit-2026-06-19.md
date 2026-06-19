@@ -32,3 +32,24 @@ centered with black letterboxing instead of distortion.
   - `object-position: 50% 50%`
   - `background-color: rgb(0, 0, 0)`
   - tile ratio remained about `1.50`, matching `392 / 261`.
+
+## Deployment
+
+Pushed commit `a5e41e34` (`Prevent gallery tile image distortion`) to `main` on
+2026-06-19.
+
+Netlify production deploy:
+
+- deploy id: `6a356e73b0a5dd0008113399`
+- state: `ready`
+- published at: `2026-06-19T16:33:48.874Z`
+- deploy time: `248` seconds
+
+Live verification on `https://www.bedfordfineartgallery.com/Artists--Bios.html`
+confirmed:
+
+- HTTP `200`
+- first `.artist_gallery_image` computed `object-fit: contain`
+- computed `object-position: 50% 50%`
+- computed `background-color: rgb(0, 0, 0)`
+- tile ratio remained about `1.50`
