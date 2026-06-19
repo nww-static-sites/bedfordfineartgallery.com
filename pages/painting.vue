@@ -238,6 +238,12 @@ import { urlSlugToSlug } from '~/libs/slug'
 import { loadShortTestimonials } from '~/libs/testimonials'
 import { getMetaTitleAndDescriptionAndKeywords } from '~/libs/meta'
 
+const hiddenHighlightTexts = new Set(['custom framing available'])
+
+function isVisibleHighlight(highlight) {
+    return highlight && !hiddenHighlightTexts.has(String(highlight.highlight || '').trim().toLowerCase())
+}
+
 export default {
     components: { ContactForm, PaintingHeader, TestimonialsScroll, YouTubeVideo, Zoom },
     mixins: [PaintingVisitsMixin],
@@ -245,7 +251,7 @@ export default {
     async asyncData({ $content, route }) {
         const testimonials = await loadShortTestimonials($content)
         const painting = await $content('paintings', urlSlugToSlug(route.path)).fetch()
-        painting.highlights = painting.highlights || []
+        painting.highlights = (painting.highlights || []).filter(isVisibleHighlight)
 
         for (let i = 0; i < painting.highlights.length; i++) {
             if (painting.highlights[i].pairedPainting) {

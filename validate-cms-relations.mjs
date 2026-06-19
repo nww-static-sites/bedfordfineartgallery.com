@@ -42,6 +42,7 @@ function routeFromSlug(slug) {
   return `/${slug.replace('-html', '.html')}`
 }
 
+const retiredPaintingHighlights = new Set(['custom framing available'])
 const errors = []
 const artists = readJsonCollection('artists')
 const paintings = readJsonCollection('paintings')
@@ -86,6 +87,12 @@ for (const painting of paintings.values()) {
   }
 
   for (const [index, highlight] of listValue(painting.data.highlights).entries()) {
+    const highlightText = String(highlight.highlight || '').trim()
+
+    if (retiredPaintingHighlights.has(highlightText.toLowerCase())) {
+      errors.push(`${painting.filePath}: highlight ${index + 1} uses retired text "${highlightText}"`)
+    }
+
     if (highlight.pairedPainting && !paintings.has(highlight.pairedPainting)) {
       errors.push(`${painting.filePath}: highlight ${index + 1} references missing paired painting "${highlight.pairedPainting}"`)
     }

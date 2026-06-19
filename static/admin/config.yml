@@ -176,7 +176,6 @@ collections:
                 - { highlight: 'Available for purchase' }
                 - { highlight: 'Only one exists' }
                 - { highlight: 'Competitively Priced $X,XXX' }
-                - { highlight: 'Custom framing available' }
           - { label: 'Body', name: 'body', widget: 'markdown', required: true, hint: "Artist description/bio. Use 'Ctrl + Shift + V' to paste from a Word doc without the odd formatting." }
           - {
                 label: 'Artist',

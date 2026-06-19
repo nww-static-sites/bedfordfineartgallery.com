@@ -1,6 +1,6 @@
 # Context signal
 
-Last updated: 2026-06-19 09:45 MDT
+Last updated: 2026-06-19 11:08 MDT
 
 Reload context before future Netlify, billing, support, CMS publish, deployment, or Bedford backup work.
 
@@ -9,6 +9,7 @@ Recently touched or newly important files:
 - `migration/netlify-usage-recheck-2026-06-18.md`
 - `migration/cms-status-and-featured-gallery-fix-2026-06-18.md`
 - `migration/highlights-bullet-update-2026-06-19.md`
+- `migration/custom-framing-highlight-retirement-2026-06-19.md`
 - `migration/youtube-url-normalization-2026-06-19.md`
 - `components/YouTubeVideo.vue`
 - `libs/youtube.js`
@@ -134,3 +135,8 @@ Reason:
   `6a35704384e43f00083fca1c` was ready and published at
   `2026-06-19T16:41:15.920Z`; live browser verification confirmed
   `background-color: rgb(34, 34, 34)`.
+- Jerry requested retiring the painting bullet `Custom framing available`.
+  Current painting content entries were removed, the CMS default was removed,
+  `pages/painting.vue` now filters that retired text if it sneaks back in, and
+  `validate-cms-relations.mjs` now fails clearly if painting content contains it.
+  Details are in `migration/custom-framing-highlight-retirement-2026-06-19.md`.
