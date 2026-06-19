@@ -139,4 +139,8 @@ Reason:
   Current painting content entries were removed, the CMS default was removed,
   `pages/painting.vue` now filters that retired text if it sneaks back in, and
   `validate-cms-relations.mjs` now fails clearly if painting content contains it.
-  Details are in `migration/custom-framing-highlight-retirement-2026-06-19.md`.
+  Commit `bb4b1642` deployed successfully to production via Netlify deploy
+  `6a357839b489a4000801af40`, ready/published at
+  `2026-06-19T17:15:31.376Z`. Live checks confirmed the retired text is absent
+  from affected painting pages and `/admin/config.yml`. Details are in
+  `migration/custom-framing-highlight-retirement-2026-06-19.md`.

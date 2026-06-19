@@ -34,4 +34,23 @@ appear on paintings again, and it should no longer be a default in the CMS.
 
 ## Deployment
 
-Pending push/deploy at time of initial note.
+Pushed commit `bb4b1642` (`Retire custom framing painting highlight`) to `main`
+on 2026-06-19.
+
+Netlify production deploy:
+
+- deploy id: `6a357839b489a4000801af40`
+- state: `ready`
+- published at: `2026-06-19T17:15:31.376Z`
+- deploy time: `248` seconds
+
+Live verification checked:
+
+- `https://www.bedfordfineartgallery.com/eugenia_shankland_george_washington_patriae_pater.html`
+- `https://www.bedfordfineartgallery.com/edgar_longstaffe_stone_bridge_by_waterfall.html`
+- `https://www.bedfordfineartgallery.com/edward_chalmers_leavitt_grapes_testing.html`
+- `https://www.bedfordfineartgallery.com/admin/config.yml`
+
+All returned HTTP `200` and none contained the retired text. The available
+sample pages still contained `Available for purchase` and `Only one exists`.
+The sold testing page did not show availability bullets.
