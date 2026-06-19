@@ -289,7 +289,7 @@ export default {
             return this.showArtPlacer ? this.painting.paintingHeight : ''
         },
         showHighlights() {
-            return this.painting.highlights && this.painting.highlights.length > 0 && !this.sold
+            return this.painting.highlights && this.painting.highlights.length > 0 && !this.isSold
         },
         mediumResImage() {
             return this.painting.mediumResImage

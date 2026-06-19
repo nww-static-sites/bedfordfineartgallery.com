@@ -1,6 +1,6 @@
 # Context signal
 
-Last updated: 2026-06-18 20:31 MDT
+Last updated: 2026-06-19 08:55 MDT
 
 Reload context before future Netlify, billing, support, CMS publish, deployment, or Bedford backup work.
 
@@ -8,6 +8,10 @@ Recently touched or newly important files:
 
 - `migration/netlify-usage-recheck-2026-06-18.md`
 - `migration/cms-status-and-featured-gallery-fix-2026-06-18.md`
+- `migration/highlights-bullet-update-2026-06-19.md`
+- `pages/painting.vue`
+- `static/admin/config.yml`
+- `cms/paintings/*.json`
 - `netlify/functions/publish-site.js`
 - `components/Gallery.vue`
 - `pages/artists-bios.vue`
@@ -81,3 +85,9 @@ Reason:
   exactly nine featured tiles and no duplicate featured links in the regular
   grid. The old `set-featured-painting-slugs.mjs` script is no longer run by
   `dev` or `generate`.
+- Jerry requested changing painting detail bullets from `Professionally
+  conserved and framed` to `Only one exists`. Existing content was rewritten in
+  200 painting JSON files and the CMS default was updated. A related
+  sold-page bug was fixed in `pages/painting.vue`: `showHighlights()` now checks
+  `!this.isSold` instead of `!this.sold`, so sold paintings hide the availability
+  bullets. Hold behavior was intentionally left unchanged.
