@@ -2,10 +2,13 @@
     var endpoint = '/.netlify/functions/publish-site'
     var mountId = 'bedford-publish-site-panel'
     var statusPollMs = 120000
+    var minimumStatusRefreshMs = 60000
     var identityListenerInstalled = false
     var statusPollingInstalled = false
     var panelButton = null
     var panelStatus = null
+    var lastStatusRefreshAt = 0
+    var pendingStatusRefresh = null
     var saveLabelObserverInstalled = false
     var slugProtectionInstalled = false
     var slugProtectionEventInstalled = false
@@ -191,18 +194,27 @@
         panelStatus.textContent = currentPublishStatus.message || 'Checking publish status...'
     }
 
-    function refreshPublishStatus() {
+    function refreshPublishStatus(force) {
         if (!getIdentityUser()) {
             return Promise.resolve()
         }
 
+        if (!force && pendingStatusRefresh) {
+            return pendingStatusRefresh
+        }
+
+        if (!force && lastStatusRefreshAt && Date.now() - lastStatusRefreshAt < minimumStatusRefreshMs) {
+            return Promise.resolve()
+        }
+
+        lastStatusRefreshAt = Date.now()
         applyPublishStatus({
             state: currentPublishStatus.state === 'checking' ? 'checking' : currentPublishStatus.state,
             canPublish: false,
             message: currentPublishStatus.state === 'checking' ? 'Checking publish status...' : currentPublishStatus.message,
         })
 
-        return requestPublishStatus('GET')
+        pendingStatusRefresh = requestPublishStatus('GET')
             .then(applyPublishStatus)
             .catch(function (error) {
                 currentPublishStatus = {
@@ -215,6 +227,11 @@
                     panelButton.textContent = 'Status Error'
                 }
             })
+            .then(function () {
+                pendingStatusRefresh = null
+            })
+
+        return pendingStatusRefresh
     }
 
     function installStatusPolling() {
@@ -507,7 +524,7 @@
 
         panelButton.onclick = function () {
             if (!currentPublishStatus.canPublish) {
-                refreshPublishStatus()
+                refreshPublishStatus(true)
                 return
             }
 
@@ -523,11 +540,15 @@
             requestPublishStatus('POST')
                 .then(function (json) {
                     applyPublishStatus(json)
-                    window.setTimeout(refreshPublishStatus, 8000)
+                    window.setTimeout(function () {
+                        refreshPublishStatus(true)
+                    }, 8000)
                 })
                 .catch(function (error) {
                     panelStatus.textContent = error.message
-                    window.setTimeout(refreshPublishStatus, 8000)
+                    window.setTimeout(function () {
+                        refreshPublishStatus(true)
+                    }, 8000)
                 })
         }
 
@@ -536,7 +557,7 @@
         installStatusPolling()
         installCmsSaveLabels()
         installSlugProtection()
-        refreshPublishStatus()
+        refreshPublishStatus(true)
     }
 
     function installIdentityListeners() {

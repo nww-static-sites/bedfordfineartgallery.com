@@ -101,3 +101,19 @@ Reason:
   `components/YouTubeVideo.vue` wrapper now normalizes supported YouTube share,
   watch, Shorts, and embed URLs through `libs/youtube.js`, and the CMS hints and
   validation patterns document those accepted URL forms.
+- Shawn's June 19 CMS save failure was traced to GitHub's authenticated REST API
+  rate limit: `Failed to persist entry: API_ERROR: API rate limit exceeded for
+  user ID 935847` at `2026-06-19 12:20:37 UTC`. GitHub user ID `935847` maps to
+  `srchulo` / Adam Hopkins, while the current local Codex GitHub token maps to
+  `srchulo-nww` and was not near its limit. Netlify API confirms Netlify
+  Identity and Git Gateway are enabled for
+  `nww-static-sites/bedfordfineartgallery.com`; the error likely came from the
+  CMS persistence path through Git Gateway, separate from the custom Publish Site
+  button. Details are in
+  `migration/github-cms-rate-limit-2026-06-19.md`.
+- Fixes applied 2026-06-19: the Netlify Git Gateway service instance was rotated
+  to the maintained `srchulo-nww` GitHub token, Netlify `BEDFORD_GITHUB_TOKEN`
+  was rotated to the same token, and `static/admin/bedford-publish-site.js` now
+  coalesces overlapping status checks and throttles non-forced focus/visibility
+  refreshes to once per minute. A fresh deploy is needed for the Function env var
+  rotation and admin script change to reach production.
