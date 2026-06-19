@@ -117,3 +117,6 @@ Reason:
   coalesces overlapping status checks and throttles non-forced focus/visibility
   refreshes to once per minute. A fresh deploy is needed for the Function env var
   rotation and admin script change to reach production.
+- Commit `79215dd9` deployed successfully to production via Netlify deploy
+  `6a3569fce842340008a87cc1`, ready at `2026-06-19T16:14:48.860Z`. Live checks
+  confirmed `/admin/`, `/Artists--Bios.html`, and the deployed admin script.

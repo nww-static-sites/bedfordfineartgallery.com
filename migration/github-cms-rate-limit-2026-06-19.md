@@ -107,3 +107,24 @@ Limitations:
   rate-limit error.
 - The Netlify `BEDFORD_GITHUB_TOKEN` env var update requires a fresh deploy for
   deployed Functions to receive the new value.
+
+## Deployment
+
+The code hardening and notes were pushed as commit `79215dd9`
+(`Rotate CMS GitHub auth and throttle status checks`) on 2026-06-19.
+
+Netlify production deploy:
+
+- deploy id: `6a3569fce842340008a87cc1`
+- state: `ready`
+- published at: `2026-06-19T16:14:48.860Z`
+- deploy time: `250` seconds
+
+Live checks after deploy:
+
+- `https://www.bedfordfineartgallery.com/admin/` returned HTTP `200`.
+- `https://www.bedfordfineartgallery.com/Artists--Bios.html` returned HTTP
+  `200`.
+- `https://www.bedfordfineartgallery.com/admin/bedford-publish-site.js` returned
+  HTTP `200` and contains the new `minimumStatusRefreshMs` /
+  `pendingStatusRefresh` throttling code.
