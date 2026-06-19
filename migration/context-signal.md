@@ -10,6 +10,7 @@ Recently touched or newly important files:
 - `migration/cms-status-and-featured-gallery-fix-2026-06-18.md`
 - `migration/highlights-bullet-update-2026-06-19.md`
 - `migration/custom-framing-highlight-retirement-2026-06-19.md`
+- `migration/shipping-audio-replacement-research-2026-06-19.md`
 - `migration/youtube-url-normalization-2026-06-19.md`
 - `components/YouTubeVideo.vue`
 - `libs/youtube.js`
@@ -144,3 +145,9 @@ Reason:
   `2026-06-19T17:15:31.376Z`. Live checks confirmed the retired text is absent
   from affected painting pages and `/admin/config.yml`. Details are in
   `migration/custom-framing-highlight-retirement-2026-06-19.md`.
+- Shipping audio research found the current site audio player in both
+  `pages/index.vue` and `pages/painting.vue`, both pointing at
+  `static/images/luvvoice.com-20251201-j23UN4.mp3`. The current MP3 is mono,
+  24 kHz, 48 kbps and about 442K. The exact script text is not stored in repo;
+  get/verify the transcript before generating replacement candidates. Details
+  are in `migration/shipping-audio-replacement-research-2026-06-19.md`.
