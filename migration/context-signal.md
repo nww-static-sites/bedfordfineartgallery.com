@@ -120,3 +120,8 @@ Reason:
 - Commit `79215dd9` deployed successfully to production via Netlify deploy
   `6a3569fce842340008a87cc1`, ready at `2026-06-19T16:14:48.860Z`. Live checks
   confirmed `/admin/`, `/Artists--Bios.html`, and the deployed admin script.
+- Gallery tile distortion on `/Artists--Bios.html` was fixed in
+  `components/GalleryTile.vue` by changing `.artist_gallery_image` from
+  `object-fit: fill` to `object-fit: contain`, adding centered positioning, and
+  adding a black tile background. Details are in
+  `migration/gallery-tile-image-fit-2026-06-19.md`.

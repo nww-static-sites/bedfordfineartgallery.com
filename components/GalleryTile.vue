@@ -82,9 +82,11 @@ export default {
 }
 
 .artist_gallery_image {
+    background-color: #000000;
     display: block;
     width: 100%;
     aspect-ratio: 392 / 261;
-    object-fit: fill;
+    object-fit: contain;
+    object-position: center;
 }
 </style>
