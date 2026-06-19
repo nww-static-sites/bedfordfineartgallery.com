@@ -16,11 +16,11 @@ Updated `components/GalleryTile.vue`:
 - changed `.artist_gallery_image` from `object-fit: fill` to
   `object-fit: contain`
 - added `object-position: center`
-- added `background-color: #000000`
+- added `background-color: #222222`
 
 This preserves the fixed gallery tile shape while preventing non-matching image
 ratios from being stretched. When an image is not exactly `392 x 261`, it is now
-centered with black letterboxing instead of distortion.
+centered with page-matching dark letterboxing instead of distortion.
 
 ## Verification
 
@@ -30,7 +30,7 @@ centered with black letterboxing instead of distortion.
   image computed style:
   - `object-fit: contain`
   - `object-position: 50% 50%`
-  - `background-color: rgb(0, 0, 0)`
+  - `background-color: rgb(0, 0, 0)` before the follow-up adjustment to `#222222`
   - tile ratio remained about `1.50`, matching `392 / 261`.
 
 ## Deployment
@@ -51,5 +51,6 @@ confirmed:
 - HTTP `200`
 - first `.artist_gallery_image` computed `object-fit: contain`
 - computed `object-position: 50% 50%`
-- computed `background-color: rgb(0, 0, 0)`
+- computed `background-color: rgb(0, 0, 0)` before the follow-up adjustment to
+  `#222222`
 - tile ratio remained about `1.50`

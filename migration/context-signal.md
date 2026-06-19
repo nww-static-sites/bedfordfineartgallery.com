@@ -123,9 +123,9 @@ Reason:
 - Gallery tile distortion on `/Artists--Bios.html` was fixed in
   `components/GalleryTile.vue` by changing `.artist_gallery_image` from
   `object-fit: fill` to `object-fit: contain`, adding centered positioning, and
-  adding a black tile background. Details are in
+  adding a dark `#222222` tile background. Details are in
   `migration/gallery-tile-image-fit-2026-06-19.md`.
 - Commit `a5e41e34` deployed successfully to production via Netlify deploy
   `6a356e73b0a5dd0008113399`, ready at `2026-06-19T16:33:48.874Z`. Live browser
   verification confirmed `/Artists--Bios.html` gallery tiles compute as
-  `object-fit: contain` with centered positioning and black background.
+  `object-fit: contain` with centered positioning and dark tile background.

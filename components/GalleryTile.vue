@@ -82,7 +82,7 @@ export default {
 }
 
 .artist_gallery_image {
-    background-color: #000000;
+    background-color: #222222;
     display: block;
     width: 100%;
     aspect-ratio: 392 / 261;
