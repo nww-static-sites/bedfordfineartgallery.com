@@ -1,11 +1,17 @@
 # Context signal
 
-Last updated: 2026-05-20 16:23 MST
+Last updated: 2026-06-18 20:31 MDT
 
 Reload context before future Netlify, billing, support, CMS publish, deployment, or Bedford backup work.
 
 Recently touched or newly important files:
 
+- `migration/netlify-usage-recheck-2026-06-18.md`
+- `migration/cms-status-and-featured-gallery-fix-2026-06-18.md`
+- `netlify/functions/publish-site.js`
+- `components/Gallery.vue`
+- `pages/artists-bios.vue`
+- `package.json`
 - `/Users/x/Documents/Codex Projects/Cloudinary/bedford-backup-repeat-procedure.md`
 - `/Users/x/Documents/Codex Projects/Cloudinary/backup-run-log-2026-05-14.md`
 - `/Users/x/Documents/Codex Projects/Cloudinary/bedford-backup-plan-2026-05-14.md`
@@ -53,3 +59,25 @@ Reason:
 - The first two-archive Bedford backup was completed 2026-05-14/15: client asset/content zip for Jerry and provider-only restore kit for maintainer.
 - The repeat procedure documents how to refresh Git/S3, build a client archive without provider operational details, build a provider restore kit without duplicating images, upload only the client zip to Google Drive, and share it restricted to Jerry/Joan.
 - Jerry reported Windows could not open the first client zip. Local zip tests passed, so a Windows-compatible replacement was built that keeps images as files but exports CMS content into one clean `cms-content-export.json` instead of raw CMS filenames.
+- A June 18 Netlify usage recheck found the current June 15-July 15 cycle at
+  `2.39 GB` bandwidth after about `3.53` days, projecting about `20.3 GB` or
+  `406` bandwidth credits for the month. Current-cycle deploy usage is only one
+  successful production deploy so far, projecting about `127` deploy credits if
+  the run-rate holds. Known projected subtotal before requests/compute is about
+  `534` credits, much lower than the May 13 forecast and likely inside the
+  Personal plan's `1000` included credits if requests/compute are modest. Free is
+  still not realistic because projected bandwidth alone exceeds 300 credits.
+- Joan's June CMS `Bad credentials` report was traced to the custom CMS
+  publish-status panel using an expired `BEDFORD_GITHUB_TOKEN`, not to the named
+  painting saves failing. The named Claudius W. Schreyer and Alfred Augustus
+  Glendening edits were present in GitHub and live. `publish-site.js` now retries
+  GitHub status checks without the configured token when GitHub returns `Bad
+  credentials`, and local function tests returned normal CMS status with a
+  deliberately bad token.
+- Jerry's red featured box report was traced to build-time/database featured
+  selection. `/Artists--Bios.html` now selects nine available paintings daily in
+  the browser using the `America/New_York` date, so the red box can rotate
+  without a Netlify deploy. Local generated-site browser verification showed
+  exactly nine featured tiles and no duplicate featured links in the regular
+  grid. The old `set-featured-painting-slugs.mjs` script is no longer run by
+  `dev` or `generate`.

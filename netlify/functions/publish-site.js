@@ -6,6 +6,7 @@ const netlifyStatusToken = process.env.BEDFORD_NETLIFY_STATUS_TOKEN || process.e
 const githubRepo = process.env.BEDFORD_GITHUB_REPO || 'nww-static-sites/bedfordfineartgallery.com'
 const githubBranch = process.env.BEDFORD_GITHUB_BRANCH || 'main'
 const githubToken = process.env.BEDFORD_GITHUB_TOKEN || process.env.GITHUB_TOKEN
+let githubTokenIsInvalid = false
 const publishStoreName = process.env.BEDFORD_CMS_PUBLISH_STORE || 'bedford-cms-publish-state'
 const publishCooldownMs = Number(process.env.BEDFORD_CMS_PUBLISH_COOLDOWN_MS || 2 * 60 * 1000)
 const publishStatusCacheMs = Number(process.env.BEDFORD_CMS_PUBLISH_STATUS_CACHE_MS || 60 * 1000)
@@ -57,12 +58,16 @@ function requestJson(url, options = {}) {
                     return
                 }
 
-                if (response.statusCode === 403 && /API rate limit exceeded/i.test(body.message || body.error || '')) {
+                const message = body.message || body.error || `Request returned ${response.statusCode}.`
+                const error = new Error(message)
+                error.statusCode = response.statusCode
+
+                if (response.statusCode === 403 && /API rate limit exceeded/i.test(message)) {
                     reject(new Error('GitHub rate limit exceeded while checking CMS publish status. Please wait a few minutes and try again.'))
                     return
                 }
 
-                reject(new Error(body.message || body.error || `Request returned ${response.statusCode}.`))
+                reject(error)
             })
         })
 
@@ -76,17 +81,45 @@ function requestJson(url, options = {}) {
     })
 }
 
-function githubHeaders() {
+function githubHeaders(useToken = true) {
     const headers = {
         accept: 'application/vnd.github+json',
         'user-agent': 'bedford-cms-publish-status',
     }
 
-    if (githubToken) {
+    if (githubToken && useToken && !githubTokenIsInvalid) {
         headers.authorization = `Bearer ${githubToken}`
     }
 
     return headers
+}
+
+function isBadGithubTokenError(error) {
+    return error && error.statusCode === 401 && /bad credentials/i.test(error.message || '')
+}
+
+async function requestGithubJson(url) {
+    if (githubTokenIsInvalid) {
+        return requestJson(url, {
+            headers: githubHeaders(false),
+        })
+    }
+
+    try {
+        return await requestJson(url, {
+            headers: githubHeaders(),
+        })
+    } catch (error) {
+        if (!githubToken || !isBadGithubTokenError(error)) {
+            throw error
+        }
+
+        githubTokenIsInvalid = true
+        console.log('WARN: BEDFORD_GITHUB_TOKEN is invalid; retrying CMS publish status check without a GitHub token.')
+        return requestJson(url, {
+            headers: githubHeaders(false),
+        })
+    }
 }
 
 function triggerNetlifyBuild() {
@@ -211,9 +244,7 @@ async function clearCachedPublishStatus() {
 }
 
 async function getGitHead() {
-    const commit = await requestJson(`https://api.github.com/repos/${githubRepo}/commits/${githubBranch}`, {
-        headers: githubHeaders(),
-    })
+    const commit = await requestGithubJson(`https://api.github.com/repos/${githubRepo}/commits/${githubBranch}`)
 
     return {
         sha: commit.sha,
@@ -253,9 +284,7 @@ async function getAheadBy(deployedCommit, gitCommit) {
     }
 
     try {
-        const comparison = await requestJson(`https://api.github.com/repos/${githubRepo}/compare/${deployedCommit}...${gitCommit}`, {
-            headers: githubHeaders(),
-        })
+        const comparison = await requestGithubJson(`https://api.github.com/repos/${githubRepo}/compare/${deployedCommit}...${gitCommit}`)
 
         return Number(comparison.ahead_by) || 0
     } catch (error) {

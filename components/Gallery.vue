@@ -165,6 +165,62 @@ function sortByNew (array) {
     return array
 }
 
+function easternDateKey(date) {
+    const parts = new Intl.DateTimeFormat('en-US', {
+        timeZone: 'America/New_York',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+    }).formatToParts(date || new Date())
+
+    const values = parts.reduce((result, part) => {
+        result[part.type] = part.value
+        return result
+    }, {})
+
+    return [values.year, values.month, values.day].join('-')
+}
+
+function hashString(value) {
+    let hash = 2166136261
+
+    for (let index = 0; index < value.length; index += 1) {
+        hash ^= value.charCodeAt(index)
+        hash = Math.imul(hash, 16777619)
+    }
+
+    return hash >>> 0
+}
+
+function seededRandom(seed) {
+    let value = seed >>> 0
+
+    return function () {
+        value += 0x6d2b79f5
+        let result = value
+        result = Math.imul(result ^ result >>> 15, result | 1)
+        result ^= result + Math.imul(result ^ result >>> 7, result | 61)
+        return ((result ^ result >>> 14) >>> 0) / 4294967296
+    }
+}
+
+function dailyFeaturedPaintings(paintings, count) {
+    const dateKey = easternDateKey()
+    const seed = hashString(dateKey + ':' + paintings.map((painting) => painting.slug).join('|'))
+    const random = seededRandom(seed)
+    const selected = paintings
+        .map((painting) => ({
+            painting,
+            score: random(),
+        }))
+        .sort((a, b) => a.score - b.score)
+        .slice(0, count)
+        .map((item) => item.painting)
+
+    sortByArtistLastName(selected)
+    return sortByNew(selected)
+}
+
 export default {
     components: { GalleryTile, YouTubeVideo },
     props: {
@@ -176,6 +232,11 @@ export default {
             type: Array,
             required: false,
             default: () => [],
+        },
+        dailyFeatured: {
+            type: Boolean,
+            required: false,
+            default: false,
         },
         category: {
             type: String,
@@ -221,11 +282,26 @@ export default {
         }
     },
     computed: {
+        activeFeaturedPaintings() {
+            if (!this.dailyFeatured) {
+                return this.sortedFeaturedPaintings
+            }
+
+            return dailyFeaturedPaintings(this.sortedPaintings, 9)
+        },
+        activePaintings() {
+            if (!this.dailyFeatured) {
+                return this.sortedPaintings
+            }
+
+            const featuredSlugs = new Set(this.activeFeaturedPaintings.map((painting) => painting.slug))
+            return this.sortedPaintings.filter((painting) => !featuredSlugs.has(painting.slug))
+        },
         filteredFeaturePaintings() {
-            return filterPaintings(this.sortedFeaturedPaintings, this.filter)
+            return filterPaintings(this.activeFeaturedPaintings, this.filter)
         },
         filteredPaintings() {
-            return filterPaintings(this.sortedPaintings, this.filter)
+            return filterPaintings(this.activePaintings, this.filter)
         },
     },
 }
