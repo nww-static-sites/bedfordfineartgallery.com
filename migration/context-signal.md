@@ -1,6 +1,6 @@
 # Context signal
 
-Last updated: 2026-06-19 11:08 MDT
+Last updated: 2026-06-21 17:34 MDT
 
 Reload context before future Netlify, billing, support, CMS publish, deployment, or Bedford backup work.
 
@@ -151,3 +151,20 @@ Reason:
   24 kHz, 48 kbps and about 442K. The exact script text is not stored in repo;
   get/verify the transcript before generating replacement candidates. Details
   are in `migration/shipping-audio-replacement-research-2026-06-19.md`.
+- A dry-run male OpenAI TTS preview was generated outside the repo at
+  `/Users/x/Documents/Codex Projects/Cloudinary/audio-previews/bedford-shipping-options-dry-run-male-2026-06-19.mp3`
+  and uploaded to Drive:
+  `https://drive.google.com/file/d/1t4TYvkHS3zkApxqOWtE1ofRP9d0x1sUR/view?usp=drivesdk`.
+  No website files were changed.
+- A second, cheerier male dry-run preview was generated outside the repo at
+  `/Users/x/Documents/Codex Projects/Cloudinary/audio-previews/bedford-shipping-options-dry-run-male-cheerful-2026-06-19.mp3`
+  and uploaded to Drive:
+  `https://drive.google.com/file/d/1iSTNx5NuWxai4lSdP52LUwT3X3MdQ3O8/view?usp=drivesdk`.
+  It uses `gpt-4o-mini-tts` voice `echo` and supersedes the too-serious first
+  preview for client review unless another direction is requested.
+- Jerry approved the cheerier `echo` preview on 2026-06-21. The approved MP3
+  was copied into `static/images/bedford-shipping-options-voiceover-2026-06-21.mp3`,
+  and the audio players in `pages/index.vue` and `pages/painting.vue` now point
+  to `/images/bedford-shipping-options-voiceover-2026-06-21.mp3`. The old
+  `luvvoice.com-20251201-j23UN4.mp3` file was left in place for stale cached
+  pages or direct old links.

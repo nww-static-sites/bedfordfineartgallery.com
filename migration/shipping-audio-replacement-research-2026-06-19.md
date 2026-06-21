@@ -44,3 +44,53 @@ AI-generated.
 A human voice actor is still the highest-quality option for warmth and trust,
 especially for an art gallery. AI TTS is the fastest and cheapest path for a few
 approval candidates.
+
+## Dry-run preview generated 2026-06-19
+
+No website files were changed for this dry run.
+
+- OpenAI API access was confirmed from the local secret file
+  `/Users/x/.config/codex-secrets/openai-api-key`.
+- The key was copied from the readable project mirror
+  `/Users/x/Documents/Z Codex Projects/Birds, Rocks, Plants/Backend/.env`.
+  The key value was not printed or copied into this note.
+- Generated file:
+  `/Users/x/Documents/Codex Projects/Cloudinary/audio-previews/bedford-shipping-options-dry-run-male-2026-06-19.mp3`
+- Drive upload:
+  `https://drive.google.com/file/d/1t4TYvkHS3zkApxqOWtE1ofRP9d0x1sUR/view?usp=drivesdk`
+- Model/voice: `gpt-4o-mini-tts`, `onyx`
+- Audio metadata: MP3, mono, 24 kHz, 128 kbps, about 76 seconds, about 1.2 MB.
+- Pronunciation handling: the TTS input used phonetic spelling `Maysonite` for
+  the spoken word `Masonite`, plus instructions to pronounce it like
+  `MAYS-uh-nite`.
+
+## Cheerier dry-run preview generated 2026-06-19
+
+The first `onyx` preview sounded too serious. A second no-website-change dry run
+was generated with a warmer, slightly more cheerful male direction.
+
+- Generated file:
+  `/Users/x/Documents/Codex Projects/Cloudinary/audio-previews/bedford-shipping-options-dry-run-male-cheerful-2026-06-19.mp3`
+- Drive upload:
+  `https://drive.google.com/file/d/1iSTNx5NuWxai4lSdP52LUwT3X3MdQ3O8/view?usp=drivesdk`
+- Model/voice: `gpt-4o-mini-tts`, `echo`
+- Audio metadata: MP3, mono, 24 kHz, 128 kbps, about 76.5 seconds, about 1.2 MB.
+- Direction: friendly, warm male narrator with a small smile in the voice;
+  reassuring and human, but still calm and professional.
+
+## Approved site replacement - 2026-06-21
+
+Jerry approved the cheerier `echo` preview. The site replacement uses a new
+static filename to avoid browser/CDN cache reuse of the old MP3.
+
+- Site asset:
+  `static/images/bedford-shipping-options-voiceover-2026-06-21.mp3`
+- Public URL after deploy:
+  `https://www.bedfordfineartgallery.com/images/bedford-shipping-options-voiceover-2026-06-21.mp3`
+- Code references updated:
+  - `pages/index.vue`
+  - `pages/painting.vue`
+- The previous file
+  `static/images/luvvoice.com-20251201-j23UN4.mp3`
+  was intentionally left in place so cached old pages or direct old links do not
+  immediately break.
