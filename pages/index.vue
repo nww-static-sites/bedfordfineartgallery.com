@@ -108,27 +108,24 @@
 
         <div class="container primary" style="padding-top: 32px">
             <section class="wrapper">
-                <div class="home_sales">
-                    <p class="home_thumbnails" style="color: rgba(16, 88, 185, 1); text-align: center">
-                        Bedford Fine Art Gallery is your best resource for finding paintings with that "wow factor",
-                        that are the focal point in any room. The best testimonials to the fine art people have fallen
-                        in love with are our notable sales to many happy customers throughout the United States and in
-                        select locations around the world. Unique one-of-a-kind work.  Once sold, it is gone forever.
-                    </p>
-
-                    <h2
-                        id="testimonialsAnchor"
-                        class="reverse_header"
-                        style="margin-top: 0px; color: rgba(16, 88, 185, 1)"
-                    >
-                        Some notable sales to many happy customers
-                    </h2>
-                </div>
-                <div class="homeSoldSlidingImagesMobile">
-                    <SoldSlidingImagesMobile />
-                </div>
-                <div class="homeSoldSlidingImagesDesktop">
-                    <SoldSlidingImages />
+                <div class="home_sales_panel">
+                    <div class="home_sales">
+                        <h2
+                            id="testimonialsAnchor"
+                            class="reverse_header"
+                        >
+                            Some notable sales to many happy customers
+                        </h2>
+                        <div class="home_thumbnails_wrap">
+                            <p class="home_thumbnails">
+                                Bedford Fine Art Gallery is your best resource for finding paintings with that "wow factor",
+                                that are the focal point in any room. The best testimonials to the fine art people have fallen
+                                in love with are our notable sales to many happy customers throughout the United States and in
+                                select locations around the world. Unique one-of-a-kind work.  Once sold, it is gone forever.
+                            </p>
+                        </div>
+                    </div>
+                    <SoldPaintingsMarquee :paintings="soldPaintings" />
                 </div>
 
                 <div class="home_grid_2 sub_flex">
@@ -1023,8 +1020,7 @@ import ArtworkSlidingImages from '~/components/ArtworkSlidingImages'
 import ArtworkSlidingImagesHome from '~/components/ArtworkSlidingImagesHome'
 import GallerySlidingImages from '~/components/GallerySlidingImages'
 import CustomerSlidingImages from '~/components/CustomerSlidingImages'
-import SoldSlidingImages from '~/components/SoldSlidingImages'
-import SoldSlidingImagesMobile from '~/components/SoldSlidingImagesMobile'
+import SoldPaintingsMarquee from '~/components/SoldPaintingsMarquee'
 import TestimonialsScroll from '~/components/TestimonialsScroll'
 import YouTubeVideo from '~/components/YouTubeVideo'
 import { loadGalleryPaintings } from '~/libs/paintings'
@@ -1057,8 +1053,7 @@ export default {
         ArtworkSlidingImagesHome,
         GallerySlidingImages,
         CustomerSlidingImages,
-        SoldSlidingImages,
-        SoldSlidingImagesMobile,
+        SoldPaintingsMarquee,
         TestimonialsScroll,
         YouTubeVideo,
     },
@@ -1069,6 +1064,10 @@ export default {
                 scrollingHomepageImage: true,
                 columns: ['title', 'slug', 'gridImage', 'mediumResImage', 'mainImageAltText'],
             }),
+            soldPaintings: await $content('paintings')
+                .only(['title', 'slug', 'gridImage', 'gridImageWidth', 'gridImageHeight'])
+                .where({ status: { $eq: 'Sold' } })
+                .fetch(),
             testimonials: await loadShortTestimonials($content),
         }
     },
@@ -1238,18 +1237,42 @@ export default {
     }
 }
 
-.homeSoldSlidingImagesMobile {
-    display: block;
+.home_sales_panel {
+    margin: 0 auto;
+    padding: clamp(22px, 4vw, 38px) clamp(14px, 3vw, 34px) clamp(18px, 3vw, 30px);
+    border-radius: 20px;
+    background: #222;
+    color: #f2f2f2;
 }
-.homeSoldSlidingImagesDesktop {
-    display: none;
+
+.home_sales {
+    max-width: 980px;
+    margin: 0 auto 20px;
+    text-align: center;
 }
-@media screen and (min-width: 560px) {
-    .homeSoldSlidingImagesMobile {
-        display: none;
-    }
-    .homeSoldSlidingImagesDesktop {
-        display: block;
+
+.home_sales .reverse_header {
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.home_thumbnails_wrap {
+    width: min(70%, 900px);
+    margin: 0 auto;
+}
+
+.home_sales .home_thumbnails {
+    margin: 0;
+    color: #fff;
+    text-align: left;
+    line-height: 1.65;
+}
+
+@media screen and (max-width: 700px) {
+    .home_thumbnails_wrap {
+        width: 100%;
     }
 }
 

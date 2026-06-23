@@ -94,3 +94,21 @@ static filename to avoid browser/CDN cache reuse of the old MP3.
   `static/images/luvvoice.com-20251201-j23UN4.mp3`
   was intentionally left in place so cached old pages or direct old links do not
   immediately break.
+
+Deployment and verification:
+
+- Commit: `e8d0c6ed` (`Replace shipping options audio`)
+- Netlify production deploy: `6a3875a1c8b6d2000892c6e3`
+- Deploy state: `ready`, published 2026-06-21 17:41 MDT.
+- Local `yarn run generate` passed, including CMS relation validation.
+- Local generated pages verified:
+  - `dist/index.html`
+  - `dist/eugenia_shankland_george_washington_patriae_pater.html`
+- Local HTTP smoke test served the new MP3 as `audio/mpeg`.
+- Live checks confirmed:
+  - `https://www.bedfordfineartgallery.com/`
+  - `https://www.bedfordfineartgallery.com/eugenia_shankland_george_washington_patriae_pater.html`
+  - `https://www.bedfordfineartgallery.com/images/bedford-shipping-options-voiceover-2026-06-21.mp3`
+- The live MP3 downloaded from the public URL matched the local committed MP3
+  by SHA-256:
+  `90bae26476f5f03804959fabcb16f0c2dba59cf884544f65618d0b7fa814acac`.
