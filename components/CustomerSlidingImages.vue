@@ -101,6 +101,7 @@
 <div><img src="https://img.bedfordfineartgallery.com/customer-images/99_zwy5rn.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
 <div><img src="https://img.bedfordfineartgallery.com/customer-images/111.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
 <div><img src="https://img.bedfordfineartgallery.com/customer-images/100.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/119.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
 
 <div><img src="https://img.bedfordfineartgallery.com/customer-images/103.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
 <div><img src="https://img.bedfordfineartgallery.com/customer-images/104.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
@@ -112,6 +113,8 @@
 <div><img src="https://img.bedfordfineartgallery.com/customer-images/115.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
 <div><img src="https://img.bedfordfineartgallery.com/customer-images/116.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
 <div><img src="https://img.bedfordfineartgallery.com/customer-images/117.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
+          <div><img src="https://img.bedfordfineartgallery.com/customer-images/118.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
+
 
                      
                      
