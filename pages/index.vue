@@ -116,12 +116,14 @@
                         >
                             Some notable sales to many happy customers
                         </h2>
-                        <p class="home_thumbnails">
-                            Bedford Fine Art Gallery is your best resource for finding paintings with that "wow factor",
-                            that are the focal point in any room. The best testimonials to the fine art people have fallen
-                            in love with are our notable sales to many happy customers throughout the United States and in
-                            select locations around the world. Unique one-of-a-kind work.  Once sold, it is gone forever.
-                        </p>
+                        <div class="home_thumbnails_wrap">
+                            <p class="home_thumbnails">
+                                Bedford Fine Art Gallery is your best resource for finding paintings with that "wow factor",
+                                that are the focal point in any room. The best testimonials to the fine art people have fallen
+                                in love with are our notable sales to many happy customers throughout the United States and in
+                                select locations around the world. Unique one-of-a-kind work.  Once sold, it is gone forever.
+                            </p>
+                        </div>
                     </div>
                     <SoldPaintingsMarquee :paintings="soldPaintings" />
                 </div>
@@ -1238,7 +1240,7 @@ export default {
 .home_sales_panel {
     margin: 0 auto;
     padding: clamp(22px, 4vw, 38px) clamp(14px, 3vw, 34px) clamp(18px, 3vw, 30px);
-    border-radius: 8px;
+    border-radius: 20px;
     background: #222;
     color: #f2f2f2;
 }
@@ -1253,13 +1255,25 @@ export default {
     margin-top: 0;
     margin-bottom: 12px;
     color: #fff;
+    font-weight: 700;
+}
+
+.home_thumbnails_wrap {
+    width: min(70%, 900px);
+    margin: 0 auto;
 }
 
 .home_sales .home_thumbnails {
-    max-width: 900px;
-    margin: 0 auto;
+    margin: 0;
     color: #fff;
+    text-align: left;
     line-height: 1.65;
+}
+
+@media screen and (max-width: 700px) {
+    .home_thumbnails_wrap {
+        width: 100%;
+    }
 }
 
 .home_grid_2 {

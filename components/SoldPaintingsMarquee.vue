@@ -31,6 +31,7 @@
                         decoding="async"
                         draggable="false"
                     >
+                    <span class="sold-marquee__sold-tag">SOLD</span>
                 </div>
             </div>
         </div>
@@ -255,6 +256,7 @@ export default {
 }
 
 .sold-marquee__item {
+    position: relative;
     flex: 0 0 clamp(96px, 28vw, 170px);
     height: clamp(76px, 19vw, 118px);
     display: flex;
@@ -269,6 +271,22 @@ export default {
     height: 100%;
     object-fit: contain;
     user-select: none;
+}
+
+.sold-marquee__sold-tag {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    z-index: 1;
+    padding: 2px 5px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.92);
+    color: #ab1719;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0;
+    pointer-events: none;
 }
 
 @media screen and (min-width: 700px) {

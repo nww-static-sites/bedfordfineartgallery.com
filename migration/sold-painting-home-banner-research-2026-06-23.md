@@ -268,3 +268,53 @@ Local verification:
   border radius, and white paragraph text.
 - Local browser watch over roughly 44 seconds confirmed the row kept advancing
   and all visible images were loaded.
+
+Updated deploy preview:
+
+- Commit: `a7deebd8bcc2e74801254b75981b91c13f84fb79`
+- Netlify deploy ID: `6a3b03a59119510008eccdf5`
+- Preview URL:
+  `https://deploy-preview-3810--stupefied-ramanujan-ca1b24.netlify.app/`
+
+Remote preview verification:
+
+- Netlify deploy reached `ready`.
+- Preview home page returned HTTP 200.
+- Preview HTML contains `14` SSR marquee items, `0` old
+  `sold_grid_carousel...` references, the dark panel CSS, and the requested
+  order.
+- Production home page still had `21` old composite refs and no new panel,
+  confirming live production was not changed.
+- Browser verification against the deployed preview confirmed the dark `#222`
+  panel, white text, 8px radius, small approximately `1950px` animated row, and
+  loaded visible images.
+- Remote browser watch over roughly 10 seconds confirmed the first visible
+  painting changed multiple times and the row kept advancing.
+
+## Second Preview Review Follow-Up - 2026-06-23
+
+User approved the revised preview direction and requested small visual tweaks:
+
+- Increase the panel border radius to about `20px`.
+- Make the "Some notable sales..." header bold.
+- Put the paragraph inside a centered approximately 70%-wide wrapper and
+  left-align the paragraph text inside it.
+- Add a tiny upper-left `SOLD` badge overlay on each scroller painting, inset
+  about 4px.
+
+Implementation:
+
+- `pages/index.vue` now uses `.home_thumbnails_wrap` at `width: min(70%, 900px)`
+  with the paragraph left-aligned inside it; the wrapper falls back to 100% on
+  small screens.
+- `.home_sales_panel` border radius changed from 8px to 20px.
+- `.home_sales .reverse_header` is explicitly bold.
+- `components/SoldPaintingsMarquee.vue` renders a tiny `SOLD` badge per visible
+  tile with white translucent background and red bold text.
+
+Local verification:
+
+- `yarn run generate` passed.
+- Generated `dist/index.html` includes the 20px panel radius, 70% paragraph
+  wrapper, left-aligned paragraph text, bold header styling, visible `SOLD`
+  badge markup, and `0` old `sold_grid_carousel...` references.

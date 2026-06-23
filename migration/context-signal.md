@@ -210,3 +210,15 @@ Reason:
   paragraph, scroller. Local generate passed; local browser verification showed
   the row advancing for about 44 seconds with loaded visible images and a much
   smaller ~1950px animated track.
+- Follow-up commit `a7deebd8` deployed to PR 3810 preview at
+  `https://deploy-preview-3810--stupefied-ramanujan-ca1b24.netlify.app/` via
+  Netlify deploy ID `6a3b03a59119510008eccdf5`, state `ready`. Remote checks
+  passed: HTTP 200, requested section order, dark panel CSS, 14 SSR row tiles,
+  0 old composite refs, small ~1950px animated track in browser, visible images
+  loaded, and row advanced over time. Production home page remained unchanged
+  with the old 21 composite refs at verification time.
+- Second user review requested visual polish on the same preview branch: 20px
+  panel radius, bold sold header, centered 70%-wide paragraph wrapper with
+  left-aligned text, and tiny upper-left `SOLD` badges on each scroller tile.
+  Local generate passed and generated HTML checks found the expected styling and
+  badge markup with 0 old composite refs.
