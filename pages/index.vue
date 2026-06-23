@@ -108,23 +108,23 @@
 
         <div class="container primary" style="padding-top: 32px">
             <section class="wrapper">
-                <div class="home_sales">
-                    <p class="home_thumbnails" style="color: rgba(16, 88, 185, 1); text-align: center">
-                        Bedford Fine Art Gallery is your best resource for finding paintings with that "wow factor",
-                        that are the focal point in any room. The best testimonials to the fine art people have fallen
-                        in love with are our notable sales to many happy customers throughout the United States and in
-                        select locations around the world. Unique one-of-a-kind work.  Once sold, it is gone forever.
-                    </p>
-
-                    <h2
-                        id="testimonialsAnchor"
-                        class="reverse_header"
-                        style="margin-top: 0px; color: rgba(16, 88, 185, 1)"
-                    >
-                        Some notable sales to many happy customers
-                    </h2>
+                <div class="home_sales_panel">
+                    <div class="home_sales">
+                        <h2
+                            id="testimonialsAnchor"
+                            class="reverse_header"
+                        >
+                            Some notable sales to many happy customers
+                        </h2>
+                        <p class="home_thumbnails">
+                            Bedford Fine Art Gallery is your best resource for finding paintings with that "wow factor",
+                            that are the focal point in any room. The best testimonials to the fine art people have fallen
+                            in love with are our notable sales to many happy customers throughout the United States and in
+                            select locations around the world. Unique one-of-a-kind work.  Once sold, it is gone forever.
+                        </p>
+                    </div>
+                    <SoldPaintingsMarquee :paintings="soldPaintings" />
                 </div>
-                <SoldPaintingsMarquee :paintings="soldPaintings" />
 
                 <div class="home_grid_2 sub_flex">
                     <div>
@@ -1233,6 +1233,33 @@ export default {
     .flex_wrap .flex_3 {
         margin-bottom: 1em;
     }
+}
+
+.home_sales_panel {
+    margin: 0 auto;
+    padding: clamp(22px, 4vw, 38px) clamp(14px, 3vw, 34px) clamp(18px, 3vw, 30px);
+    border-radius: 8px;
+    background: #222;
+    color: #f2f2f2;
+}
+
+.home_sales {
+    max-width: 980px;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.home_sales .reverse_header {
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+.home_sales .home_thumbnails {
+    max-width: 900px;
+    margin: 0 auto;
+    color: #fff;
+    line-height: 1.65;
 }
 
 .home_grid_2 {

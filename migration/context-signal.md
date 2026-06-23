@@ -192,3 +192,21 @@ Reason:
   passed; generated `dist/index.html` has 100 unique sold paintings duplicated
   once for scrolling and 0 old `sold_grid_carousel` references. This is for a
   Netlify Deploy Preview only; do not merge to `main` until approved.
+- PR `https://github.com/nww-static-sites/bedfordfineartgallery.com/pull/3810`
+  created for the sold-painting marquee preview. Netlify deploy preview
+  `https://deploy-preview-3810--stupefied-ramanujan-ca1b24.netlify.app/` is
+  ready from deploy ID `6a3afef71823790009f25b84` at commit `d33bf95d`. Preview
+  checks passed: HTTP 200, 100 unique sold paintings duplicated for scrolling,
+  0 old composite carousel refs, 0 links inside the sold marquee, and sampled
+  preview image URLs returned HTTP 200. Production home page still had the old
+  carousel at the time of verification, confirming the live site was not changed.
+- User review of preview 3810 found a black-strip repaint glitch and speed
+  inconsistency in the sold marquee. Follow-up on the same preview branch
+  reworked `components/SoldPaintingsMarquee.vue` to render a small visible
+  rotating window of sold paintings instead of one enormous transformed
+  duplicated strip, preload the selected daily images, and advance at a steady
+  step speed. `pages/index.vue` now groups the sold header, intro paragraph, and
+  scroller in a single dark `#222` rounded panel in the requested order: header,
+  paragraph, scroller. Local generate passed; local browser verification showed
+  the row advancing for about 44 seconds with loaded visible images and a much
+  smaller ~1950px animated track.

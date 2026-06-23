@@ -201,3 +201,70 @@ Deployment intent:
 - Push this branch and open a PR only to obtain a Netlify Deploy Preview.
 - Do not merge to `main` or production until the preview is reviewed and
   approved.
+
+## Deploy Preview Result - 2026-06-23
+
+PR: `https://github.com/nww-static-sites/bedfordfineartgallery.com/pull/3810`
+
+Preview URL:
+`https://deploy-preview-3810--stupefied-ramanujan-ca1b24.netlify.app/`
+
+Netlify deploy:
+
+- ID: `6a3afef71823790009f25b84`
+- Context: `deploy-preview`
+- State: `ready`
+- Commit: `d33bf95dfd017f77529eb6833f9d076e79fec4e3`
+
+Live production was not changed. Verification after Netlify preview was ready:
+
+- Preview home page returned HTTP 200.
+- Preview home page contains `200` marquee image nodes: 100 unique selected sold
+  paintings duplicated once for continuous scrolling.
+- Preview home page contains `0` old `sold_grid_carousel...` composite image
+  references.
+- Production home page still contains the old carousel: `21`
+  `sold_grid_carousel...` references and `0` new marquee nodes.
+- The sold marquee section contains `0` anchor tags, so the scrolling sold images
+  are not clickable.
+- Sampled 12 selected image URLs from the preview marquee; all returned HTTP 200.
+
+## Preview Review Follow-Up - 2026-06-23
+
+User reviewed deploy preview 3810 and reported:
+
+- Safari/browser display glitch: the marquee became a black strip after running
+  for a while, then repainted when the mouse moved over it or when the animation
+  restarted.
+- Motion felt slow at first, then faster after images loaded.
+- The sold intro paragraph, all-caps sold header, and sold scroller should be one
+  visual section in this order: header, paragraph, scroller.
+- The combined section should sit inside a rounded dark gray rectangle with
+  white text.
+
+Follow-up implementation:
+
+- Reworked `components/SoldPaintingsMarquee.vue` to avoid one enormous
+  transformed track. It now renders only enough visible tiles plus a buffer, then
+  rotates through the daily 100 selected paintings one step at a time.
+- The browser preloads the selected daily image URLs and starts animation after
+  the initial visible images load or a short fallback timer.
+- The old CSS keyframe animation over the full duplicated 100-painting strip was
+  removed.
+- Reordered `pages/index.vue` so the section is header, paragraph, scroller.
+- Added `.home_sales_panel` styling: dark `#222` rounded panel, white text, and
+  panel padding around all three elements.
+
+Local verification:
+
+- `yarn run generate` passed.
+- Generated `dist/index.html` contains `14` SSR marquee tiles, not the previous
+  huge `200`-node strip.
+- Generated `dist/index.html` contains `0` old `sold_grid_carousel...` composite
+  image references.
+- Local browser check confirmed the rendered row track was about `1950px` wide
+  at a 1280px viewport, versus the previous approximately 35,000px moving strip.
+- Local browser check confirmed the panel order, `#222` panel background, 8px
+  border radius, and white paragraph text.
+- Local browser watch over roughly 44 seconds confirmed the row kept advancing
+  and all visible images were loaded.
