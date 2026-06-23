@@ -182,3 +182,13 @@ Reason:
   sold-painting marquee on a feature branch/Netlify Deploy Preview, selecting
   100 deterministic daily-random sold thumbnails client-side from CMS data.
   Details are in `migration/sold-painting-home-banner-research-2026-06-23.md`.
+- Preview-only implementation started on branch
+  `codex/sold-marquee-preview-2026-06-23` on 2026-06-23. Latest `origin/main`
+  was merged into the branch before implementing. The branch adds
+  `libs/daily-random.js`, `components/SoldPaintingsMarquee.vue`, updates
+  `components/Gallery.vue` to share the deterministic daily random helpers, and
+  replaces the home page's two old sold composite-image divs in `pages/index.vue`
+  with one responsive marquee fed by CMS sold paintings. Local `yarn run generate`
+  passed; generated `dist/index.html` has 100 unique sold paintings duplicated
+  once for scrolling and 0 old `sold_grid_carousel` references. This is for a
+  Netlify Deploy Preview only; do not merge to `main` until approved.

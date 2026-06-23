@@ -158,3 +158,46 @@ straightforward. But "newly sold paintings always appear immediately" is not
 guaranteed; new sold items enter the eligible pool after publish, then have a
 100/688-ish chance of appearing on a given day. Guaranteeing immediate inclusion
 would require adding a `soldDate`/`dateSold` field or using a different rule.
+
+## Preview Implementation - 2026-06-23
+
+User approved preview-only implementation of the 100 random daily sold-painting
+marquee.
+
+Implementation branch: `codex/sold-marquee-preview-2026-06-23`.
+
+The branch was updated with latest `origin/main` before implementation. Current
+CMS counts after the merge:
+
+- Total painting JSON files: `876`
+- Sold paintings: `689`
+- Sold paintings with `gridImage`: `688`
+
+Implemented changes:
+
+- Added `libs/daily-random.js` to share the deterministic America/New_York daily
+  random helpers with the existing featured-gallery logic.
+- Updated `components/Gallery.vue` to import the shared helpers instead of
+  keeping duplicate local versions.
+- Added `components/SoldPaintingsMarquee.vue`.
+- Updated `pages/index.vue` to fetch sold painting thumbnail records and render
+  the new marquee in place of `.homeSoldSlidingImagesMobile` and
+  `.homeSoldSlidingImagesDesktop`.
+- Left `components/SoldSlidingImages.vue` and
+  `components/SoldSlidingImagesMobile.vue` untouched because old/secondary pages
+  still reference them.
+
+Verification:
+
+- `yarn run generate` passed.
+- Generated `dist/index.html` contains `200` marquee item nodes: 100 unique
+  sold paintings duplicated once for the seamless loop.
+- Generated `dist/index.html` has `0` references to old
+  `sold_grid_carousel...` composite images.
+- `git diff --check` passed.
+
+Deployment intent:
+
+- Push this branch and open a PR only to obtain a Netlify Deploy Preview.
+- Do not merge to `main` or production until the preview is reviewed and
+  approved.

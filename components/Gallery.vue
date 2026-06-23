@@ -118,6 +118,7 @@ Please click photos for a COMPLETE image and description. </div></div>
 <script>
 import GalleryTile from '~/components/GalleryTile'
 import YouTubeVideo from '~/components/YouTubeVideo'
+import { easternDateKey, hashString, seededRandom } from '~/libs/daily-random'
 import { whitespaceEmpty } from '~/libs/empty'
 
 function filterPaintings (paintings, filter) {
@@ -163,45 +164,6 @@ function sortByNew (array) {
     stableSort(array, sortFunction)
 
     return array
-}
-
-function easternDateKey(date) {
-    const parts = new Intl.DateTimeFormat('en-US', {
-        timeZone: 'America/New_York',
-        year: 'numeric',
-        month: '2-digit',
-        day: '2-digit',
-    }).formatToParts(date || new Date())
-
-    const values = parts.reduce((result, part) => {
-        result[part.type] = part.value
-        return result
-    }, {})
-
-    return [values.year, values.month, values.day].join('-')
-}
-
-function hashString(value) {
-    let hash = 2166136261
-
-    for (let index = 0; index < value.length; index += 1) {
-        hash ^= value.charCodeAt(index)
-        hash = Math.imul(hash, 16777619)
-    }
-
-    return hash >>> 0
-}
-
-function seededRandom(seed) {
-    let value = seed >>> 0
-
-    return function () {
-        value += 0x6d2b79f5
-        let result = value
-        result = Math.imul(result ^ result >>> 15, result | 1)
-        result ^= result + Math.imul(result ^ result >>> 7, result | 61)
-        return ((result ^ result >>> 14) >>> 0) / 4294967296
-    }
 }
 
 function dailyFeaturedPaintings(paintings, count) {

@@ -124,12 +124,7 @@
                         Some notable sales to many happy customers
                     </h2>
                 </div>
-                <div class="homeSoldSlidingImagesMobile">
-                    <SoldSlidingImagesMobile />
-                </div>
-                <div class="homeSoldSlidingImagesDesktop">
-                    <SoldSlidingImages />
-                </div>
+                <SoldPaintingsMarquee :paintings="soldPaintings" />
 
                 <div class="home_grid_2 sub_flex">
                     <div>
@@ -1023,8 +1018,7 @@ import ArtworkSlidingImages from '~/components/ArtworkSlidingImages'
 import ArtworkSlidingImagesHome from '~/components/ArtworkSlidingImagesHome'
 import GallerySlidingImages from '~/components/GallerySlidingImages'
 import CustomerSlidingImages from '~/components/CustomerSlidingImages'
-import SoldSlidingImages from '~/components/SoldSlidingImages'
-import SoldSlidingImagesMobile from '~/components/SoldSlidingImagesMobile'
+import SoldPaintingsMarquee from '~/components/SoldPaintingsMarquee'
 import TestimonialsScroll from '~/components/TestimonialsScroll'
 import YouTubeVideo from '~/components/YouTubeVideo'
 import { loadGalleryPaintings } from '~/libs/paintings'
@@ -1057,8 +1051,7 @@ export default {
         ArtworkSlidingImagesHome,
         GallerySlidingImages,
         CustomerSlidingImages,
-        SoldSlidingImages,
-        SoldSlidingImagesMobile,
+        SoldPaintingsMarquee,
         TestimonialsScroll,
         YouTubeVideo,
     },
@@ -1069,6 +1062,10 @@ export default {
                 scrollingHomepageImage: true,
                 columns: ['title', 'slug', 'gridImage', 'mediumResImage', 'mainImageAltText'],
             }),
+            soldPaintings: await $content('paintings')
+                .only(['title', 'slug', 'gridImage', 'gridImageWidth', 'gridImageHeight'])
+                .where({ status: { $eq: 'Sold' } })
+                .fetch(),
             testimonials: await loadShortTestimonials($content),
         }
     },
@@ -1235,21 +1232,6 @@ export default {
 @media screen and (max-width: 600px) {
     .flex_wrap .flex_3 {
         margin-bottom: 1em;
-    }
-}
-
-.homeSoldSlidingImagesMobile {
-    display: block;
-}
-.homeSoldSlidingImagesDesktop {
-    display: none;
-}
-@media screen and (min-width: 560px) {
-    .homeSoldSlidingImagesMobile {
-        display: none;
-    }
-    .homeSoldSlidingImagesDesktop {
-        display: block;
     }
 }
 
