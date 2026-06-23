@@ -1,6 +1,6 @@
 # Context signal
 
-Last updated: 2026-06-21 17:34 MDT
+Last updated: 2026-06-23 10:30 MDT
 
 Reload context before future Netlify, billing, support, CMS publish, deployment, or Bedford backup work.
 
@@ -11,6 +11,7 @@ Recently touched or newly important files:
 - `migration/highlights-bullet-update-2026-06-19.md`
 - `migration/custom-framing-highlight-retirement-2026-06-19.md`
 - `migration/shipping-audio-replacement-research-2026-06-19.md`
+- `migration/sold-painting-home-banner-research-2026-06-23.md`
 - `migration/youtube-url-normalization-2026-06-19.md`
 - `components/YouTubeVideo.vue`
 - `libs/youtube.js`
@@ -168,3 +169,16 @@ Reason:
   to `/images/bedford-shipping-options-voiceover-2026-06-21.mp3`. The old
   `luvvoice.com-20251201-j23UN4.mp3` file was left in place for stale cached
   pages or direct old links.
+- Commit `e8d0c6ed` deployed successfully to production via Netlify deploy
+  `6a3875a1c8b6d2000892c6e3`, ready/published at 2026-06-21 17:41 MDT. Local
+  generate passed, local and live HTML checks confirmed the home page and a
+  painting detail page use the new audio URL, and the live MP3 matched the local
+  committed MP3 by SHA-256.
+- Research on 2026-06-23 found the home page sold carousel is currently the two
+  divs `.homeSoldSlidingImagesMobile` and `.homeSoldSlidingImagesDesktop`, which
+  render hard-coded composite-image components. Those 21 composite JPGs total
+  about 11.03 MB. The CMS has 689 sold paintings, 688 with `gridImage`, and no
+  sold-date field. Recommended plan: preview a new home-page-only responsive
+  sold-painting marquee on a feature branch/Netlify Deploy Preview, selecting
+  100 deterministic daily-random sold thumbnails client-side from CMS data.
+  Details are in `migration/sold-painting-home-banner-research-2026-06-23.md`.
