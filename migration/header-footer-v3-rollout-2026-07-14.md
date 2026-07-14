@@ -80,7 +80,11 @@ homepage body remained unchanged.
   to return HTTP 500. The same inherited plugin is quiet on the production
   hostname, and the preview error does not affect rendering or navigation. No
   NextLead code was changed in this narrowly scoped rollout.
-- Production has not been changed.
+- The user completed desktop/mobile preview review and explicitly approved the
+  header/footer rollout for production on 2026-07-14.
+- Production deployment and post-deploy verification are now authorized; the
+  V3 homepage content remains explicitly outside this rollout.
 
-Do not merge pull request 3811 until the user explicitly approves the header
-and footer after desktop and mobile review.
+Pull request 3811 may now be merged. Verify the production header, footer,
+mobile menu, corrected logo asset, and unchanged homepage body after Netlify
+reports the production deploy ready.
