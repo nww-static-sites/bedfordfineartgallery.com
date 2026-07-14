@@ -1,6 +1,6 @@
 # Context signal
 
-Last updated: 2026-07-14 17:19 MDT
+Last updated: 2026-07-14 17:38 MDT
 
 Reload context before future Netlify, billing, support, CMS publish, deployment, or Bedford backup work.
 
@@ -72,6 +72,11 @@ Reason:
 - The user completed review of Deploy Preview 3811 and explicitly approved the
   shared V3 header/footer rollout for production on 2026-07-14. This approval
   does not include the V3 homepage content area, which remains deferred.
+- Pull request 3811 was merged as `e248614d`; Netlify production deploy
+  `6a56c57e015b7800080a3850` reached `ready`. Live desktop/mobile checks passed
+  for the header, footer, mobile navigation, corrected logo, overflow, and
+  unchanged homepage body. The production result is also recorded at
+  `/Users/x/Documents/Codex Projects/Cloudinary/bedford-header-footer-live-rollout-2026-07-14.md`.
 - Netlify account/API analysis found active use of Netlify Identity, Git Gateway, Functions, Blobs, build hooks, and the custom CMS publish workflow.
 - The account/site plan and billing state should be confirmed in the Netlify dashboard because API credit fields and current public pricing do not line up cleanly.
 - A before/after timeline now identifies the production image cutover, CMS publish workflow rollout, deploy-count changes, and the limits of API-visible bandwidth history.

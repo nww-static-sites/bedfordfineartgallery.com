@@ -88,3 +88,17 @@ homepage body remained unchanged.
 Pull request 3811 may now be merged. Verify the production header, footer,
 mobile menu, corrected logo asset, and unchanged homepage body after Netlify
 reports the production deploy ready.
+
+## Production result
+
+- Pull request 3811 was merged into `main` as `e248614d` after the final
+  Deploy Preview check passed.
+- Netlify production deploy `6a56c57e015b7800080a3850` reached `ready` and
+  was published on 2026-07-14.
+- The live root and corrected logo asset returned HTTP 200. The live 250 x 252
+  logo checksum matched the reviewed preview.
+- Desktop and mobile browser QA passed for the live header, footer, navigation,
+  overflow, corrected logo, payment-card removal, and unchanged homepage body.
+- The shared header/footer also passed on the live `/Artists--Bios.html` page,
+  with no browser console errors observed.
+- The V3 homepage content area remains deferred.
