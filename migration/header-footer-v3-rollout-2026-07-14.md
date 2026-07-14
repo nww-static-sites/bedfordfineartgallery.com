@@ -49,6 +49,19 @@ shared site header and footer.
 
 ## Deployment state
 
-The public Netlify Deploy Preview and pull request are pending. Production has
-not been changed.
+- Pull request: https://github.com/nww-static-sites/bedfordfineartgallery.com/pull/3811
+- Netlify Deploy Preview:
+  https://deploy-preview-3811--stupefied-ramanujan-ca1b24.netlify.app/
+- GitHub/Netlify reported the preview build successful, and the preview root
+  returned HTTP 200.
+- Deployed browser QA repeated the desktop, mobile, menu, local-logo, footer,
+  overflow, and unchanged-homepage checks described above. The shared chrome
+  also passed on `/Artists--Bios.html`.
+- The preview hostname causes the existing NextLead `SITE_LOAD` analytics call
+  to return HTTP 500. The same inherited plugin is quiet on the production
+  hostname, and the preview error does not affect rendering or navigation. No
+  NextLead code was changed in this narrowly scoped rollout.
+- Production has not been changed.
 
+Do not merge pull request 3811 until the user explicitly approves the header
+and footer after desktop and mobile review.

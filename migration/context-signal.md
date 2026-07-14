@@ -1,6 +1,6 @@
 # Context signal
 
-Last updated: 2026-07-14 14:03 MDT
+Last updated: 2026-07-14 14:18 MDT
 
 Reload context before future Netlify, billing, support, CMS publish, deployment, or Bedford backup work.
 
@@ -56,9 +56,11 @@ Reason:
 - Jerry approved V3 as the visual reference for future rollout work. The first
   rollout stage ports only the shared V3 header and footer into the current
   production codebase on an isolated preview branch. The existing homepage
-  body and all other page content remain unchanged. Local generation and
-  desktop/mobile browser QA passed; production must not change until the user
-  explicitly approves the public Deploy Preview. Details are in
+  body and all other page content remain unchanged. Pull request 3811 created
+  the successful public Netlify Deploy Preview at
+  `https://deploy-preview-3811--stupefied-ramanujan-ca1b24.netlify.app/`.
+  Local and deployed desktop/mobile browser QA passed. Production must not
+  change until the user explicitly approves the Deploy Preview. Details are in
   `migration/header-footer-v3-rollout-2026-07-14.md`.
 - Netlify account/API analysis found active use of Netlify Identity, Git Gateway, Functions, Blobs, build hooks, and the custom CMS publish workflow.
 - The account/site plan and billing state should be confirmed in the Netlify dashboard because API credit fields and current public pricing do not line up cleanly.
