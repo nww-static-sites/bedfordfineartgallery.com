@@ -1,11 +1,15 @@
 # Context signal
 
-Last updated: 2026-06-23 10:30 MDT
+Last updated: 2026-07-14 14:03 MDT
 
 Reload context before future Netlify, billing, support, CMS publish, deployment, or Bedford backup work.
 
 Recently touched or newly important files:
 
+- `migration/header-footer-v3-rollout-2026-07-14.md`
+- `components/HeaderDefault.vue`
+- `components/FooterDefault.vue`
+- `static/images/bedford-fine-art-gallery-logo.png`
 - `migration/netlify-usage-recheck-2026-06-18.md`
 - `migration/cms-status-and-featured-gallery-fix-2026-06-18.md`
 - `migration/highlights-bullet-update-2026-06-19.md`
@@ -49,6 +53,13 @@ Recently touched or newly important files:
 
 Reason:
 
+- Jerry approved V3 as the visual reference for future rollout work. The first
+  rollout stage ports only the shared V3 header and footer into the current
+  production codebase on an isolated preview branch. The existing homepage
+  body and all other page content remain unchanged. Local generation and
+  desktop/mobile browser QA passed; production must not change until the user
+  explicitly approves the public Deploy Preview. Details are in
+  `migration/header-footer-v3-rollout-2026-07-14.md`.
 - Netlify account/API analysis found active use of Netlify Identity, Git Gateway, Functions, Blobs, build hooks, and the custom CMS publish workflow.
 - The account/site plan and billing state should be confirmed in the Netlify dashboard because API credit fields and current public pricing do not line up cleanly.
 - A before/after timeline now identifies the production image cutover, CMS publish workflow rollout, deploy-count changes, and the limits of API-visible bandwidth history.
