@@ -59,6 +59,13 @@ matches the approved V3 header layout while giving it the intended sharper
 source image. A new public filename prevents browsers or Netlify from reusing
 the cached legacy bitmap.
 
+The correction was deployed from commit `ca492bc2`. The public asset returned
+HTTP 200 at 250 x 252 and matched the local SHA-256 checksum
+`1b64938ced48a38e0e040803060d8d657a8abf9fc7a2d8ac23cc1a3c49faec73`.
+Desktop browser QA confirmed a 100px rendered width; mobile browser QA
+confirmed a 76px rendered width and no horizontal overflow. The inherited
+homepage body remained unchanged.
+
 ## Deployment state
 
 - Pull request: https://github.com/nww-static-sites/bedfordfineartgallery.com/pull/3811

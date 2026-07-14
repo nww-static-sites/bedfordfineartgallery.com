@@ -1,6 +1,6 @@
 # Context signal
 
-Last updated: 2026-07-14 15:55 MDT
+Last updated: 2026-07-14 16:10 MDT
 
 Reload context before future Netlify, billing, support, CMS publish, deployment, or Bedford backup work.
 
@@ -67,7 +67,8 @@ Reason:
   restored and resized to 250 x 252 for the shared header, with the approved V3
   rendered size preserved. The V3 preview workspace source copies were also
   restored so a future preview build cannot overwrite the corrected asset with
-  the legacy file again.
+  the legacy file again. Deploy Preview 3811 now serves the corrected 250 x 252
+  asset from a cache-safe filename; desktop and mobile browser QA passed.
 - Netlify account/API analysis found active use of Netlify Identity, Git Gateway, Functions, Blobs, build hooks, and the custom CMS publish workflow.
 - The account/site plan and billing state should be confirmed in the Netlify dashboard because API credit fields and current public pricing do not line up cleanly.
 - A before/after timeline now identifies the production image cutover, CMS publish workflow rollout, deploy-count changes, and the limits of API-visible bandwidth history.
