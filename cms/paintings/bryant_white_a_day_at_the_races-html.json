@@ -9,7 +9,7 @@
   "featured": false,
   "artOnWallImage": "https://img.bedfordfineartgallery.com/bryant_white_a_day_at_the_races_ap_f16hhv.jpg",
   "mediumResImage": "https://img.bedfordfineartgallery.com/Bryant_White_A_Day_at_the_Races_IMG_2575_sm_cr_fr_fy5zxx.jpg",
-  "status": "New",
+  "status": "Sold",
   "metaTitle": "A Day at the Races by Bryant White: Bedford Fine Art Gallery",
   "mainImageAltText": "A Day at the Races by Bryant White",
   "gridImage": "https://img.bedfordfineartgallery.com/Bryant_White_A_Day_at_the_Races_IMG_2575_zoom_cr_da9dnd.jpg",
@@ -21,15 +21,5 @@
     "Genre"
   ],
   "highResImage": "https://img.bedfordfineartgallery.com/Bryant_White_A_Day_at_the_Races_IMG_2575_lrg_cr_fr_xdpih6.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Only one exists"
-    },
-    {
-      "highlight": "Competitively Priced $1,625"
-    }
-  ]
+  "highlights": []
 }
