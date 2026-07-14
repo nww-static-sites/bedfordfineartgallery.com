@@ -13,7 +13,7 @@ shared site header and footer.
 - Port the approved V3 header into `components/HeaderDefault.vue`.
 - Port the approved V3 footer into `components/FooterDefault.vue`.
 - Serve the improved Bedford logo locally from
-  `static/images/bedford-fine-art-gallery-logo.png`.
+  `static/images/bedford-fine-art-gallery-logo-v3-250.png`.
 - Preserve the fixed Art Lovers' Niche newsletter link.
 - Add a simple mobile navigation toggle to the shared header.
 - Remove the payment-card artwork from the shared footer.
@@ -46,6 +46,18 @@ shared site header and footer.
 - Mobile QA at 390 x 844 confirmed no new horizontal overflow, a working
   open/close navigation toggle, stacked footer content, and sufficient footer
   padding to keep the legal copy clear of the fixed newsletter link.
+
+## Logo correction
+
+The first preview commit accidentally packaged the legacy 123 x 124 logo file
+under the new local filename. This was detected during user review on
+2026-07-14. The asset was replaced from the intended bucket source,
+`https://img.bedfordfineartgallery.com/logo_fullsize.png`, resized to 250 x 252
+while preserving its proportions. The header's intrinsic width and height now
+match the corrected asset. Its rendered desktop size remains 100px wide, which
+matches the approved V3 header layout while giving it the intended sharper
+source image. A new public filename prevents browsers or Netlify from reusing
+the cached legacy bitmap.
 
 ## Deployment state
 
