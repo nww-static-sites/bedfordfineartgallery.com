@@ -1,12 +1,13 @@
 # Context signal
 
-Last updated: 2026-07-14 17:38 MDT
+Last updated: 2026-07-14 17:58 MDT
 
 Reload context before future Netlify, billing, support, CMS publish, deployment, or Bedford backup work.
 
 Recently touched or newly important files:
 
 - `migration/header-footer-v3-rollout-2026-07-14.md`
+- `/Users/x/Documents/Codex Projects/Cloudinary/bedford-public-page-inventory-and-deploy-efficiency-2026-07-14.md`
 - `components/HeaderDefault.vue`
 - `components/FooterDefault.vue`
 - `static/images/bedford-fine-art-gallery-logo-v3-250.png`
@@ -77,6 +78,11 @@ Reason:
   for the header, footer, mobile navigation, corrected logo, overflow, and
   unchanged homepage body. The production result is also recorded at
   `/Users/x/Documents/Codex Projects/Cloudinary/bedford-header-footer-live-rollout-2026-07-14.md`.
+- A generated-output audit counted 2,566 public HTML/HTM documents, including
+  all 877 iPad pages and 112 legacy mailers. It also found that only 402 of 403
+  artist landing pages were generated; `/george_t_hetzel_artist.html` is absent
+  and live returns 404. The audit and deploy-efficiency recommendations are in
+  `bedford-public-page-inventory-and-deploy-efficiency-2026-07-14.md`.
 - Netlify account/API analysis found active use of Netlify Identity, Git Gateway, Functions, Blobs, build hooks, and the custom CMS publish workflow.
 - The account/site plan and billing state should be confirmed in the Netlify dashboard because API credit fields and current public pricing do not line up cleanly.
 - A before/after timeline now identifies the production image cutover, CMS publish workflow rollout, deploy-count changes, and the limits of API-visible bandwidth history.
