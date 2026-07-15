@@ -1,6 +1,6 @@
 # Context signal
 
-Last updated: 2026-07-14 23:18 MDT
+Last updated: 2026-07-15 00:15 MDT
 
 Reload context before future Netlify, billing, support, CMS publish, deployment, or Bedford backup work.
 
@@ -71,7 +71,13 @@ Reason:
   route payload. The
   same branch repairs the missing `/george_t_hetzel_artist.html` route using the
   existing George T. Hetzel biography and both painting records. Production is
-  unchanged; a Deploy Preview and independent verification are still required.
+  unchanged. Pull request 3813 and its Deploy Preview are active. The Netlify
+  post-deploy plugin and an independent verifier pass the representative site,
+  iPad, George T. Hetzel, sitemap-preservation, and production-isolation checks.
+  A preview-only HTTP 500 was traced to the production NextLead API receiving a
+  Deploy Preview page-load event; production analytics now initializes only on
+  the canonical Bedford hostname. A live documentation-only build-skip test is
+  the next proof step.
 - Jerry approved V3 as the visual reference for future rollout work. The first
   rollout stage ports only the shared V3 header and footer into the current
   production codebase on an isolated preview branch. The existing homepage

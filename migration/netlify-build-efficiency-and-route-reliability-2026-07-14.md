@@ -3,7 +3,9 @@
 ## Status
 
 - Work is isolated on `cx/netlify-efficiency-and-route-fixes-2026-07-14`.
-- Functional commit: `f089555f`.
+- Pull request: https://github.com/nww-static-sites/bedfordfineartgallery.com/pull/3813
+- Deploy Preview: https://deploy-preview-3813--stupefied-ramanujan-ca1b24.netlify.app/
+- Latest verified functional commit: `de1b461a`.
 - Production has not been changed by this work.
 - The earlier cache benchmark PR 3812 remains separate and must not be merged.
 
@@ -30,6 +32,7 @@ Production also returned HTTP 404 for `/george_t_hetzel_artist.html`, although b
 13. George T. Hetzel's artist record now contains the existing biographical text and metadata. The artist template falls back across available painting image fields so both of his paintings render. `/george_t_hetzel_artist.html` now generates successfully.
 14. The deploy verifier permits removal of four generic template paths only after confirming each remains a production HTTP 404. This cleans dead sitemap entries without weakening preservation checks for real public routes.
 15. `scripts/stamp-deploy-ref.mjs` adds the invisible commit marker only to the homepage and Artists/Bios output after generation. This independently proves the new deploy on two pages without forcing every page and payload to change.
+16. Production NextLead analytics now initializes only on the canonical Bedford hostname. Deploy Previews no longer send preview page-load events to the production NextLead API, eliminating the preview-only HTTP 500 while preserving local-development and production behavior.
 
 ## Local proof
 
@@ -44,6 +47,11 @@ Production also returned HTTP 404 for `/george_t_hetzel_artist.html`, although b
   - `/george_t_hetzel_artist.html`: HTTP 404.
   - `/george_t_hetzel_burnished_forest_stream.html`: HTTP 200.
   - Local generated artist route: biography plus both linked paintings present.
+- Deploy Preview comparison:
+  - `/george_t_hetzel_artist.html`: HTTP 200 with George T. Hetzel biography.
+  - `/george_t_hetzel_burnished_forest_stream.html`: HTTP 200.
+  - `/george_t_hetzel_for_later.html`: HTTP 200.
+  - `/ipad/`: HTTP 200.
 
 ## Netlify behavior researched
 
@@ -60,17 +68,21 @@ Official references:
 - https://docs.netlify.com/build/configure-builds/environment-variables/
 - https://docs.netlify.com/build/caching/caching-overview/
 
-## Remaining preview proof
+## Preview proof status
 
-1. Push the isolated branch and create a pull request.
-2. Verify the resulting Deploy Preview independently with the smoke script and browser checks.
-3. Confirm production does not contain the preview commit.
-4. Confirm a documentation-only follow-up commit is skipped by the ignore command.
-5. Confirm a `[skip netlify]` pull-request title prevents an intentionally unnecessary preview, then restore the title.
+1. Pull request 3813 and its public Deploy Preview are active.
+2. The Netlify post-deploy plugin and a separate local verifier both pass all representative routes, V3 shared header/footer checks, the iPad route, George T. Hetzel routes, sitemap preservation, and production isolation.
+3. A fresh desktop browser load of functional commit `de1b461a` produced no new console error. The previous background HTTP 500 was traced to preview analytics reaching the production NextLead API and is fixed by the canonical-host guard.
+4. A documentation-only follow-up commit is being used as the live ignore-command test.
+5. The `[skip netlify]` pull-request-title behavior remains to be tested, after which the normal title must be restored.
 6. Do not merge or deploy to production without explicit user approval.
 
 ## Deploy Preview 3813 measurements
 
 - First preview revision, before the stable route-state path: 267 seconds and 7,454 uploaded files. The post-deploy plugin correctly reported the four dead production sitemap entries.
 - Second preview revision, with the narrowed sitemap verification but still before the stable path: 251 seconds and 4,909 uploaded files. Post-deploy plugin state: `success`.
-- The next revision introduces the stable route-state path and targeted two-page deploy stamp. One initial path transition is expected; the following tiny proof commit is the meaningful upload-reduction measurement.
+- Stable-path transition revision: 254 seconds and 7,329 uploaded files. This one-time churn was expected because every route moved from a commit-specific state directory to `/_nuxt/static/cx-v1`.
+- Minimal source-only proof revision: 251 seconds and exactly 2 uploaded files, `index.html` and `Artists--Bios.html`. The exact commit marker appeared on both pages and nowhere else.
+- Analytics-guard functional revision: 258 seconds and 7,436 uploaded files. A shared client-bundle change necessarily changed route HTML and hashed assets, but all verification passed and the preview-only API error stopped recurring.
+
+The two-file proof shows that upload churn is solved, but its 251-second duration also shows that upload was not the primary bottleneck. Full generation of 2,427 content routes, plus Netlify setup/plugin/function overhead, remains the dominant cost. Documentation-only build cancellation is therefore the high-value fast path.
