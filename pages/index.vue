@@ -1111,6 +1111,13 @@ export default {
     },
     head() {
         return {
+            meta: [
+                {
+                    hid: 'cx-cache-benchmark-home',
+                    name: 'cx-cache-benchmark-home',
+                    content: 'cx-cache-control-a-20260714-001',
+                },
+            ],
             script: [
                 {
                     src: 'https://identity.netlify.com/v1/netlify-identity-widget.js',
