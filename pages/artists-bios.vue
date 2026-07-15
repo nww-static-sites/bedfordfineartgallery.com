@@ -26,7 +26,7 @@ export default {
                 {
                     hid: 'cx-cache-benchmark-gallery',
                     name: 'cx-cache-benchmark-gallery',
-                    content: 'cx-cache-control-a-20260714-001',
+                    content: 'cx-cache-optimized-b-20260714-002',
                 },
             ],
         }
