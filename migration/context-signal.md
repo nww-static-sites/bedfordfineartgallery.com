@@ -1,6 +1,6 @@
 # Context signal
 
-Last updated: 2026-07-15 00:26 MDT
+Last updated: 2026-07-15 03:15 MDT
 
 Reload context before future Netlify, billing, support, CMS publish, deployment, or Bedford backup work.
 
@@ -84,6 +84,14 @@ Reason:
   checks passed, including the corrected logo, shared header/footer, George T.
   Hetzel page with both painting links, and the public iPad index. Production
   remains unchanged.
+- A follow-up legacy CMS compatibility audit found no changes to the admin CMS,
+  Git Gateway configuration, custom Publish Site UI, S3 upload UI, or either
+  Netlify Function. A historical real CMS painting save passed through the new
+  ignore command as site-affecting and required a build. The Deploy Preview
+  serves the admin assets, contains the Identity and publish-script markers,
+  deploys both Functions, and returns the expected 401 from the publish status
+  Function without authentication. An authenticated publish click was not used
+  because it would start an actual production build.
 - Jerry approved V3 as the visual reference for future rollout work. The first
   rollout stage ports only the shared V3 header and footer into the current
   production codebase on an isolated preview branch. The existing homepage

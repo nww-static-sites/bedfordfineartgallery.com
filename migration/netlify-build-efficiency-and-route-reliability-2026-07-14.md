@@ -111,3 +111,14 @@ Change pushed
 ```
 
 The important distinction is that deterministic output and stable route-state paths make deploys auditable and reduce needless upload, but they cannot make Nuxt 2 avoid rendering 2,427 routes. The only measured way to remove that dominant cost is to avoid starting the build when the source change cannot affect the site. Site-affecting changes still receive the full safety checks.
+
+## Legacy CMS and Publish Site compatibility audit
+
+- The branch does not modify `static/admin/index.html`, `static/admin/config.yml`, `static/admin/bedford-publish-site.js`, `static/admin/bedford-s3-media-library.js`, `netlify/functions/publish-site.js`, or `netlify/functions/s3-upload.js`.
+- The CMS still uses Git Gateway on `main` and adds `[skip netlify]` to ordinary create, update, delete, and media commits.
+- The custom Publish Site Function still authenticates the Netlify Identity user and POSTs to the existing `BEDFORD_NETLIFY_BUILD_HOOK_URL`.
+- A historical real CMS painting-save comparison was passed through `scripts/netlify-ignore-build.mjs`. The changed `cms/paintings/...json` file produced exit 1, meaning a build is required. The ignore rule skips only `migration/` notes and root AGENTS/README Markdown.
+- The verified Deploy Preview serves `/admin/`, `/admin/config.yml`, and `/admin/bedford-publish-site.js` with HTTP 200. The admin page contains both the Netlify Identity widget and custom Publish Site script.
+- The preview deploy includes the two Netlify Functions. An unauthenticated status request to `/.netlify/functions/publish-site` returned the expected HTTP 401 JSON response, proving routing and the authentication guard remain active.
+- The post-deploy smoke plugin passed on the preview. On production it skips preview-versus-production comparisons but still validates the representative public routes, admin Identity marker, shared header/footer, deploy stamp, iPad section, and George T. Hetzel pages.
+- An authenticated click was not performed because that would intentionally start a real production build. The unchanged UI/Function code, deployed Function guard, real CMS-change simulation, and successful full Deploy Preview together provide strong non-destructive compatibility evidence.
