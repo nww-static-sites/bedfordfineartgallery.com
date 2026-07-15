@@ -20,6 +20,17 @@ export default {
             category: 'All'
         }
     },
+    head() {
+        return {
+            meta: [
+                {
+                    hid: 'cx-cache-benchmark-gallery',
+                    name: 'cx-cache-benchmark-gallery',
+                    content: 'cx-cache-optimized-c-20260714-003',
+                },
+            ],
+        }
+    },
 }
 </script>
 
