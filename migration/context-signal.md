@@ -1,11 +1,20 @@
 # Context signal
 
-Last updated: 2026-07-14 17:19 MDT
+Last updated: 2026-07-14 23:18 MDT
 
 Reload context before future Netlify, billing, support, CMS publish, deployment, or Bedford backup work.
 
 Recently touched or newly important files:
 
+- `migration/netlify-build-efficiency-and-route-reliability-2026-07-14.md`
+- `netlify.toml`
+- `scripts/netlify-ignore-build.mjs`
+- `scripts/verify-deploy.mjs`
+- `netlify/plugins/post-deploy-smoke/`
+- `modules/cx-stable-content.js`
+- `validate-generated-routes.mjs`
+- `cms/artists/george_t_hetzel_artist-html.json`
+- `pages/artist-bio.vue`
 - `migration/header-footer-v3-rollout-2026-07-14.md`
 - `components/HeaderDefault.vue`
 - `components/FooterDefault.vue`
@@ -53,6 +62,13 @@ Recently touched or newly important files:
 
 Reason:
 
+- An isolated branch now removes repeat-build churn, preserves Nuxt's webpack
+  cache, validates all 2,427 expected generated public files, adds conservative
+  documentation-only build skipping, and adds post-deploy smoke verification.
+  Two same-commit local generations produced 7,611 byte-identical files. The
+  same branch repairs the missing `/george_t_hetzel_artist.html` route using the
+  existing George T. Hetzel biography and both painting records. Production is
+  unchanged; a Deploy Preview and independent verification are still required.
 - Jerry approved V3 as the visual reference for future rollout work. The first
   rollout stage ports only the shared V3 header and footer into the current
   production codebase on an isolated preview branch. The existing homepage
