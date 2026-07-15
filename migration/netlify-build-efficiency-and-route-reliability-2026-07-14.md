@@ -74,7 +74,7 @@ Official references:
 2. The Netlify post-deploy plugin and a separate local verifier both pass all representative routes, V3 shared header/footer checks, the iPad route, George T. Hetzel routes, sitemap preservation, and production isolation.
 3. A fresh desktop browser load of functional commit `de1b461a` produced no new console error. The previous background HTTP 500 was traced to preview analytics reaching the production NextLead API and is fixed by the canonical-host guard.
 4. Documentation-only commit `aabcb6f9` was canceled by the ignore command in about 3.1 seconds, before generation or publication. Netlify records this expected cancellation with state `error` and the message `Canceled build due to no content change`.
-5. The pull-request title now temporarily contains `[skip netlify]` for a separate live test. The normal title must be restored immediately after the result is recorded.
+5. Documentation-only commit `6500c122` was pushed while the pull-request title temporarily contained `[skip netlify]`. After more than 35 seconds, Netlify had created no deploy record and GitHub had received no Netlify status. The normal pull-request title was then restored.
 6. Do not merge or deploy to production without explicit user approval.
 
 ## Deploy Preview 3813 measurements
@@ -86,3 +86,28 @@ Official references:
 - Analytics-guard functional revision: 258 seconds and 7,436 uploaded files. A shared client-bundle change necessarily changed route HTML and hashed assets, but all verification passed and the preview-only API error stopped recurring.
 
 The two-file proof shows that upload churn is solved, but its 251-second duration also shows that upload was not the primary bottleneck. Full generation of 2,427 content routes, plus Netlify setup/plugin/function overhead, remains the dominant cost. Documentation-only build cancellation is therefore the high-value fast path.
+
+## Final browser verification
+
+- Desktop at 1280 x 900: no horizontal overflow, corrected 250 x 252 source logo, shared header and footer present, public Identity absent, and exact functional deploy ref present.
+- Mobile at 390 x 844: no horizontal overflow, corrected source logo dimensions, shared header and footer present, navigation rendered, and public Identity absent.
+- George T. Hetzel artist page: title and biography rendered, with links to both `george_t_hetzel_burnished_forest_stream.html` and `george_t_hetzel_for_later.html`.
+- iPad index: HTTP 200 and 186 visible iPad painting links in the mobile browser pass.
+- The Deploy Preview remains on verified functional commit `de1b461a`; later documentation-only commits intentionally did not publish a new preview.
+
+## Efficiency result
+
+```text
+Change pushed
+|
++-- Site-affecting file
+|   `-- Full Nuxt generation + validation + deploy smoke (~251-267 seconds)
+|
++-- Documentation only
+|   `-- Ignore command cancels before generation (~3.1 seconds)
+|
+`-- Preview intentionally unnecessary
+    `-- [skip netlify] in PR title creates no deploy attempt
+```
+
+The important distinction is that deterministic output and stable route-state paths make deploys auditable and reduce needless upload, but they cannot make Nuxt 2 avoid rendering 2,427 routes. The only measured way to remove that dominant cost is to avoid starting the build when the source change cannot affect the site. Site-affecting changes still receive the full safety checks.

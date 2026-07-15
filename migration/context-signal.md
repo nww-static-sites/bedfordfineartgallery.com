@@ -1,6 +1,6 @@
 # Context signal
 
-Last updated: 2026-07-15 00:15 MDT
+Last updated: 2026-07-15 00:26 MDT
 
 Reload context before future Netlify, billing, support, CMS publish, deployment, or Bedford backup work.
 
@@ -78,8 +78,12 @@ Reason:
   Deploy Preview page-load event; production analytics now initializes only on
   the canonical Bedford hostname. A live documentation-only commit was canceled
   by Netlify's ignore command in about 3.1 seconds without generation or
-  publication. A separate `[skip netlify]` pull-request-title test is in
-  progress; restore the normal PR title after recording its result.
+  publication. A separate documentation-only commit pushed while the PR title
+  contained `[skip netlify]` created no Netlify deploy record or GitHub Netlify
+  status; the normal PR title was restored. Final desktop and mobile browser
+  checks passed, including the corrected logo, shared header/footer, George T.
+  Hetzel page with both painting links, and the public iPad index. Production
+  remains unchanged.
 - Jerry approved V3 as the visual reference for future rollout work. The first
   rollout stage ports only the shared V3 header and footer into the current
   production codebase on an isolated preview branch. The existing homepage
