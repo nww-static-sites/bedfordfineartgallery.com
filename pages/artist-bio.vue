@@ -26,13 +26,13 @@
                         <div v-if="isSoldOrHold(painting)" class="sold">
                             <span class="soldTag">{{ soldOrHoldText(painting) }}</span>
                             <nuxt-link :to="`/${painting.replace('-html', '.html')}`"><nuxt-img provider="bedford"
-                                    :src="getGridImage(artist.paintingToObj[painting].gridImage)"
+                                    :src="getGridImage(artist.paintingToObj[painting])"
                                     :alt="nameWithTinyDescription" />
                             </nuxt-link>
                         </div>
                         <template v-else>
                             <nuxt-link :to="`/${painting.replace('-html', '.html')}`"><nuxt-img provider="bedford"
-                                    :src="getGridImage(artist.paintingToObj[painting].gridImage)"
+                                    :src="getGridImage(artist.paintingToObj[painting])"
                                     :alt="nameWithTinyDescription" />
                             </nuxt-link>
                         </template>
@@ -102,7 +102,7 @@ export default {
         artist.paintingToObj = await loadPaintings({
             $content,
             paintingSlugs: artist.paintings,
-            columns: ['slug', 'gridImage', 'status'],
+            columns: ['slug', 'galleryCropImage', 'gridImage', 'mediumResImage', 'status'],
         })
         return { artist }
     },
@@ -134,8 +134,8 @@ export default {
         soldOrHoldText(painting) {
             return this.artist.paintingToObj[painting].status.toLowerCase()
         },
-        getGridImage(image) {
-            return image
+        getGridImage(painting) {
+            return painting.galleryCropImage || painting.gridImage || painting.mediumResImage
         },
     },
     head() {

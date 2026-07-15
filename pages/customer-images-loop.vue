@@ -976,10 +976,6 @@
     </div>
 </template>
 
-<script setup>
-import { useHead } from '#imports'
-</script>
-
 <script>
 import ArtworkSlidingImages from '~/components/ArtworkSlidingImages'
 import ArtworkSlidingImagesHome from '~/components/ArtworkSlidingImagesHome'
@@ -991,42 +987,6 @@ import TestimonialsScroll from '~/components/TestimonialsScroll'
 import YouTubeVideo from '~/components/YouTubeVideo'
 import { loadGalleryPaintings } from '~/libs/paintings'
 import { loadShortTestimonials } from '~/libs/testimonials'
-
-useHead({
-    script: [
-        {
-            type: 'application/ld+json',
-            children: JSON.stringify({
-                '@context': 'https://schema.org',
-                '@type': 'LocalBusiness',
-                name: 'Bedford Fine Art Gallery',
-                image: 'https://img.bedfordfineartgallery.com/logo.png',
-                '@id': '',
-                url: 'https://bedfordfineartgallery.com',
-                telephone: '724-459-0612',
-                address: {
-                    '@type': 'PostalAddress',
-                    streetAddress: '230 South Juliana St.',
-                    addressLocality: 'Bedford',
-                    addressRegion: 'PA',
-                    postalCode: '15522',
-                    addressCountry: 'US',
-                },
-                geo: {
-                    '@type': 'GeoCoordinates',
-                    latitude: 40.0160567,
-                    longitude: -78.5039377,
-                },
-                openingHoursSpecification: {
-                    '@type': 'OpeningHoursSpecification',
-                    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-                    opens: '10:00',
-                    closes: '17:00',
-                },
-            }),
-        },
-    ],
-})
 
 const defaultConfig = {
     displayAmount: 4,
@@ -1105,17 +1065,6 @@ export default {
                 {
                     value: 'cubic-bezier(0.06, 0.29, 0.19, 1.4)',
                     label: 'cubic-bezier(0.06, 0.29, 0.19, 1.4)',
-                },
-            ],
-        }
-    },
-    head() {
-        return {
-            script: [
-                {
-                    src: 'https://identity.netlify.com/v1/netlify-identity-widget.js',
-                    async: true,
-                    defer: true,
                 },
             ],
         }
