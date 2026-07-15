@@ -1,11 +1,4 @@
-const buildEnvironment = Reflect.get(process, 'env')
-
-function readBuildEnvironment(name, fallback = '') {
-    return buildEnvironment[name] || fallback
-}
-
-const deployRef = readBuildEnvironment('COMMIT_REF', 'local')
-const staticAssetsVersion = deployRef.slice(0, 12)
+const staticAssetsVersion = 'cx-v1'
 
 export default {
     // Target: https://go.nuxtjs.dev/config-target
@@ -22,7 +15,6 @@ export default {
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
             { hid: 'description', name: 'description', content: 'Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings including 19th century oil paintings by some of the most renowned 19th century painters.' },
             { name: 'format-detection', content: 'telephone=no' },
-            { hid: 'cx-deploy-ref', name: 'cx-deploy-ref', content: deployRef },
         ],
         link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
         script: [

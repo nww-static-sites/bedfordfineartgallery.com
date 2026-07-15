@@ -65,7 +65,10 @@ Reason:
 - An isolated branch now removes repeat-build churn, preserves Nuxt's webpack
   cache, validates all 2,427 expected generated public files, adds conservative
   documentation-only build skipping, and adds post-deploy smoke verification.
-  Two same-commit local generations produced 7,611 byte-identical files. The
+  Two same-commit local generations produced 7,611 byte-identical files. A
+  three-run stable-path proof showed that changing only the deploy identity
+  changes exactly the homepage and Artists/Bios HTML files, rather than every
+  route payload. The
   same branch repairs the missing `/george_t_hetzel_artist.html` route using the
   existing George T. Hetzel biography and both painting records. Production is
   unchanged; a Deploy Preview and independent verification are still required.

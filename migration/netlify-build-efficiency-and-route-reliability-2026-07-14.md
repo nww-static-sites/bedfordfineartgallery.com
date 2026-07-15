@@ -16,7 +16,7 @@ Production also returned HTTP 404 for `/george_t_hetzel_artist.html`, although b
 ## Implemented changes
 
 1. `package.json` no longer deletes `node_modules/.cache` or runs `yarn cache clean --all` before every generation. Nuxt can now reuse its webpack snapshot. Generation uses `--fail-on-error` and runs CMS plus output-route validation.
-2. `nuxt.config.js` gives full-static assets a commit-derived version instead of Nuxt's current-time default. Sitemap `lastmod` no longer uses the build time.
+2. `nuxt.config.js` gives full-static route state a stable `cx-v1` directory instead of Nuxt's current-time default. The site revalidates `/_nuxt/static/*` in visitors' browsers while retaining long immutable caching for content-hashed webpack chunks. Netlify atomically invalidates edge assets per deploy. Sitemap `lastmod` no longer uses the build time.
 3. `modules/cx-stable-content.js` compensates for Nuxt Content 1.9's concurrent, timestamped database insertion. Files are parsed in parallel, inserted in stable path order, and volatile Loki creation timestamps are normalized.
 4. Testimonial records now use testimonial text as a stable secondary sort key when customer names tie.
 5. The generated manifest route array is sorted through Nuxt's supported `generate:manifest` hook.
@@ -29,6 +29,7 @@ Production also returned HTTP 404 for `/george_t_hetzel_artist.html`, although b
 12. The iPad index route now generates real content at `/ipad` instead of a generated 404 document.
 13. George T. Hetzel's artist record now contains the existing biographical text and metadata. The artist template falls back across available painting image fields so both of his paintings render. `/george_t_hetzel_artist.html` now generates successfully.
 14. The deploy verifier permits removal of four generic template paths only after confirming each remains a production HTTP 404. This cleans dead sitemap entries without weakening preservation checks for real public routes.
+15. `scripts/stamp-deploy-ref.mjs` adds the invisible commit marker only to the homepage and Artists/Bios output after generation. This independently proves the new deploy on two pages without forcing every page and payload to change.
 
 ## Local proof
 
@@ -36,6 +37,8 @@ Production also returned HTTP 404 for `/george_t_hetzel_artist.html`, although b
 - Same-commit repeat: webpack reported `Skipping webpack build as no changes detected` and completed in 54.31 seconds.
 - Two repeat outputs contained 7,611 files each and were byte-for-byte identical.
 - The final lint-only configuration adjustment produced output identical to the deterministic baseline.
+- Stable-path verification passed across three runs: a same-ref repeat was byte-identical, while changing only the deploy ref changed exactly `index.html` and `Artists--Bios.html` out of 7,611 files.
+- The stable-path same-ref repeat completed in 47.72 seconds with webpack reuse.
 - Lint error gate passed for all new JavaScript and deployment scripts.
 - Current production comparison:
   - `/george_t_hetzel_artist.html`: HTTP 404.
@@ -55,6 +58,7 @@ Official references:
 - https://docs.netlify.com/build/configure-builds/ignore-builds/
 - https://docs.netlify.com/extend/develop-and-share/develop-build-plugins/
 - https://docs.netlify.com/build/configure-builds/environment-variables/
+- https://docs.netlify.com/build/caching/caching-overview/
 
 ## Remaining preview proof
 
@@ -64,3 +68,9 @@ Official references:
 4. Confirm a documentation-only follow-up commit is skipped by the ignore command.
 5. Confirm a `[skip netlify]` pull-request title prevents an intentionally unnecessary preview, then restore the title.
 6. Do not merge or deploy to production without explicit user approval.
+
+## Deploy Preview 3813 measurements
+
+- First preview revision, before the stable route-state path: 267 seconds and 7,454 uploaded files. The post-deploy plugin correctly reported the four dead production sitemap entries.
+- Second preview revision, with the narrowed sitemap verification but still before the stable path: 251 seconds and 4,909 uploaded files. Post-deploy plugin state: `success`.
+- The next revision introduces the stable route-state path and targeted two-page deploy stamp. One initial path transition is expected; the following tiny proof commit is the meaningful upload-reduction measurement.
