@@ -245,3 +245,11 @@ Reason:
   left-aligned text, and tiny upper-left `SOLD` badges on each scroller tile.
   Local generate passed and generated HTML checks found the expected styling and
   badge markup with 0 old composite refs.
+- Context update 2026-07-14 MDT: an isolated three-run Netlify benchmark on PR
+  3812 tested removing `rm -rf node_modules/.cache` and
+  `yarn cache clean --all` from `yarn generate`. Control/optimized/warm deploy
+  times were 233/222/261 seconds, so cache preservation did not produce a
+  reliable speedup. All 2,452 HTML files and about 4,900 timestamped Nuxt static
+  payload paths churned on each tiny marker change, which is the stronger
+  bottleneck. Production was unchanged. Full details are in
+  `/Users/x/Documents/Codex Projects/Cloudinary/bedford-cache-preservation-benchmark-2026-07-14.md`.
