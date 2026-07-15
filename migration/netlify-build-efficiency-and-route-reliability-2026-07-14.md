@@ -28,6 +28,7 @@ Production also returned HTTP 404 for `/george_t_hetzel_artist.html`, although b
 11. Generic internal dynamic template routes are removed before concrete CMS routes are registered. This eliminates five meaningless failing generator paths while preserving every real CMS route.
 12. The iPad index route now generates real content at `/ipad` instead of a generated 404 document.
 13. George T. Hetzel's artist record now contains the existing biographical text and metadata. The artist template falls back across available painting image fields so both of his paintings render. `/george_t_hetzel_artist.html` now generates successfully.
+14. The deploy verifier permits removal of four generic template paths only after confirming each remains a production HTTP 404. This cleans dead sitemap entries without weakening preservation checks for real public routes.
 
 ## Local proof
 

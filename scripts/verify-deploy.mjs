@@ -9,6 +9,7 @@ const productionUrl = String(argumentsByName.get('--production-base') || process
 const commitRef = String(argumentsByName.get('--commit-ref') || process.env.COMMIT_REF || '')
 const context = String(process.env.CONTEXT || 'manual')
 const cacheBuster = Date.now()
+const knownDeadProductionPaths = new Set(['/art-lovers-niche-article', '/artist-bio', '/highlight', '/painting'])
 
 if (!baseUrl) {
     console.error('Deploy verification requires --base or DEPLOY_PRIME_URL.')
@@ -137,12 +138,34 @@ async function verifySitemapSuperset() {
     const previewPaths = sitemapPaths(await previewResponse.text())
     const productionPaths = sitemapPaths(await productionResponse.text())
     const missingPaths = [...productionPaths].filter((route) => !previewPaths.has(route)).sort()
+    const unexpectedMissingPaths = missingPaths.filter((route) => !knownDeadProductionPaths.has(route))
 
-    if (missingPaths.length > 0) {
-        throw new Error(`Preview sitemap dropped ${missingPaths.length} production route(s): ${missingPaths.join(', ')}`)
+    if (unexpectedMissingPaths.length > 0) {
+        throw new Error(
+            `Preview sitemap dropped ${unexpectedMissingPaths.length} production route(s): ${unexpectedMissingPaths.join(', ')}`
+        )
+    }
+
+    const removedDeadPaths = missingPaths.filter((route) => knownDeadProductionPaths.has(route))
+
+    for (const route of removedDeadPaths) {
+        const response = await fetch(`${productionUrl}${route}?cx_smoke=${cacheBuster}`, {
+            headers: {
+                'cache-control': 'no-cache',
+                'user-agent': 'Bedford deploy smoke verifier',
+            },
+        })
+
+        if (response.status !== 404) {
+            throw new Error(`Sitemap cleanup allowlist is stale: production ${route} returned ${response.status}`)
+        }
     }
 
     console.log(`PASS sitemap route preservation (${productionPaths.size} production routes retained)`)
+
+    if (removedDeadPaths.length > 0) {
+        console.log(`PASS sitemap dead-route cleanup (${removedDeadPaths.join(', ')})`)
+    }
 }
 
 async function verifyProductionIsolation() {
