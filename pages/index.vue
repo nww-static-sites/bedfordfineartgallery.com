@@ -1115,7 +1115,7 @@ export default {
                 {
                     hid: 'cx-cache-benchmark-home',
                     name: 'cx-cache-benchmark-home',
-                    content: 'cx-cache-optimized-b-20260714-002',
+                    content: 'cx-cache-optimized-c-20260714-003',
                 },
             ],
             script: [
