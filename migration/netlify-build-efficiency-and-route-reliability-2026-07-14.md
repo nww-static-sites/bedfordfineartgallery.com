@@ -73,8 +73,8 @@ Official references:
 1. Pull request 3813 and its public Deploy Preview are active.
 2. The Netlify post-deploy plugin and a separate local verifier both pass all representative routes, V3 shared header/footer checks, the iPad route, George T. Hetzel routes, sitemap preservation, and production isolation.
 3. A fresh desktop browser load of functional commit `de1b461a` produced no new console error. The previous background HTTP 500 was traced to preview analytics reaching the production NextLead API and is fixed by the canonical-host guard.
-4. A documentation-only follow-up commit is being used as the live ignore-command test.
-5. The `[skip netlify]` pull-request-title behavior remains to be tested, after which the normal title must be restored.
+4. Documentation-only commit `aabcb6f9` was canceled by the ignore command in about 3.1 seconds, before generation or publication. Netlify records this expected cancellation with state `error` and the message `Canceled build due to no content change`.
+5. The pull-request title now temporarily contains `[skip netlify]` for a separate live test. The normal title must be restored immediately after the result is recorded.
 6. Do not merge or deploy to production without explicit user approval.
 
 ## Deploy Preview 3813 measurements

@@ -76,8 +76,10 @@ Reason:
   iPad, George T. Hetzel, sitemap-preservation, and production-isolation checks.
   A preview-only HTTP 500 was traced to the production NextLead API receiving a
   Deploy Preview page-load event; production analytics now initializes only on
-  the canonical Bedford hostname. A live documentation-only build-skip test is
-  the next proof step.
+  the canonical Bedford hostname. A live documentation-only commit was canceled
+  by Netlify's ignore command in about 3.1 seconds without generation or
+  publication. A separate `[skip netlify]` pull-request-title test is in
+  progress; restore the normal PR title after recording its result.
 - Jerry approved V3 as the visual reference for future rollout work. The first
   rollout stage ports only the shared V3 header and footer into the current
   production codebase on an isolated preview branch. The existing homepage
