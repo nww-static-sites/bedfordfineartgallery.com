@@ -5,6 +5,7 @@ const deployRef = process.env.COMMIT_REF || 'local'
 const outputRoot = path.join(process.cwd(), 'dist')
 const stampedPages = ['index.html', 'Artists--Bios.html']
 
+// CX_DEPLOY_PROOF_20260715: this source-only change should alter only the two stamped pages.
 if (!/^(?:[0-9a-f]{7,64}|local)$/i.test(deployRef)) {
     throw new Error(`Refusing to stamp invalid deploy ref: ${deployRef}`)
 }
