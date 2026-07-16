@@ -1,3 +1,5 @@
+const staticAssetsVersion = 'cx-v1'
+
 export default {
     // Target: https://go.nuxtjs.dev/config-target
     target: 'static',
@@ -54,6 +56,7 @@ export default {
         '@nuxtjs/markdownit',
         // https://go.nuxtjs.dev/axios
         '@nuxtjs/axios',
+        '~/modules/cx-stable-content',
         '@nuxt/content',
         'nuxt-interpolation',
         '@nuxtjs/sitemap',
@@ -79,6 +82,19 @@ export default {
         trailingSlash: false,
         async extendRoutes(routes, resolve) {
             const { $content } = require('@nuxt/content')
+            const dynamicTemplateRouteNames = new Set([
+                'art-lovers-niche-article',
+                'artist-bio',
+                'highlight',
+                'painting',
+                'ipad-painting',
+            ])
+
+            for (let index = routes.length - 1; index >= 0; index--) {
+                if (dynamicTemplateRouteNames.has(routes[index].name)) {
+                    routes.splice(index, 1)
+                }
+            }
 
             const paintings = await $content('paintings').only(['slug']).fetch()
             paintings.forEach(function(painting) {
@@ -148,11 +164,21 @@ export default {
         ],
         defaults: {
             changefreq: 'weekly',
-            lastmod: new Date(),
+        },
+    },
+    hooks: {
+        'generate:manifest'(manifest) {
+            manifest.routes.sort((a, b) => a.localeCompare(b))
         },
     },
     generate: {
         subFolders: false,
         crawler: true,
+        cache: {
+            ignore: ['migration/**'],
+        },
+        staticAssets: {
+            version: staticAssetsVersion,
+        },
     },
 }

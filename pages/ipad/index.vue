@@ -62,6 +62,6 @@ export default {
 
 <router>
   {
-    path: '/ipad/'
+    path: '/ipad'
   }
 </router>

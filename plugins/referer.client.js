@@ -1,9 +1,17 @@
 import { v4 as uuidv4 } from 'uuid'
+import config from '~/config'
 import { getCookie, setCookie, setCookieIfNotEmpty } from '~/libs/cookie'
 import { googleConvert } from '~/libs/google-conversion'
 import NextLeadService from '~/services/NextLeadService'
 
 export default function setRefererOnAppLoad({ app }, inject) {
+    const hostname = window.location.hostname.toLowerCase()
+    const canonicalHostnames = new Set([config.domain, config.domain.replace(/^www\./, '')])
+
+    if (process.env.NODE_ENV === 'production' && !canonicalHostnames.has(hostname)) {
+        return
+    }
+
     const { referrer: referer } = document
     if (referer && new URL(referer).hostname.toLowerCase() !== window.location.hostname.toLowerCase()) {
         setCookieIfNotEmpty('referer', referer, 3650)

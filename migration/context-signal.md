@@ -1,11 +1,20 @@
 # Context signal
 
-Last updated: 2026-07-14 17:19 MDT
+Last updated: 2026-07-15 03:27 MDT
 
 Reload context before future Netlify, billing, support, CMS publish, deployment, or Bedford backup work.
 
 Recently touched or newly important files:
 
+- `migration/netlify-build-efficiency-and-route-reliability-2026-07-14.md`
+- `netlify.toml`
+- `scripts/netlify-ignore-build.mjs`
+- `scripts/verify-deploy.mjs`
+- `netlify/plugins/post-deploy-smoke/`
+- `modules/cx-stable-content.js`
+- `validate-generated-routes.mjs`
+- `cms/artists/george_t_hetzel_artist-html.json`
+- `pages/artist-bio.vue`
 - `migration/header-footer-v3-rollout-2026-07-14.md`
 - `components/HeaderDefault.vue`
 - `components/FooterDefault.vue`
@@ -53,6 +62,43 @@ Recently touched or newly important files:
 
 Reason:
 
+- An isolated branch now removes repeat-build churn, preserves Nuxt's webpack
+  cache, validates all 2,427 expected generated public files, adds conservative
+  documentation-only build skipping, and adds post-deploy smoke verification.
+  Two same-commit local generations produced 7,611 byte-identical files. A
+  three-run stable-path proof showed that changing only the deploy identity
+  changes exactly the homepage and Artists/Bios HTML files, rather than every
+  route payload. The
+  same branch repairs the missing `/george_t_hetzel_artist.html` route using the
+  existing George T. Hetzel biography and both painting records. Production is
+  unchanged. Pull request 3813 and its Deploy Preview are active. The Netlify
+  post-deploy plugin and an independent verifier pass the representative site,
+  iPad, George T. Hetzel, sitemap-preservation, and production-isolation checks.
+  A preview-only HTTP 500 was traced to the production NextLead API receiving a
+  Deploy Preview page-load event; production analytics now initializes only on
+  the canonical Bedford hostname. A live documentation-only commit was canceled
+  by Netlify's ignore command in about 3.1 seconds without generation or
+  publication. A separate documentation-only commit pushed while the PR title
+  contained `[skip netlify]` created no Netlify deploy record or GitHub Netlify
+  status; the normal PR title was restored. Final desktop and mobile browser
+  checks passed, including the corrected logo, shared header/footer, George T.
+  Hetzel page with both painting links, and the public iPad index. Production
+  remains unchanged.
+- A follow-up legacy CMS compatibility audit found no changes to the admin CMS,
+  Git Gateway configuration, custom Publish Site UI, S3 upload UI, or either
+  Netlify Function. A historical real CMS painting save passed through the new
+  ignore command as site-affecting and required a build. The Deploy Preview
+  serves the admin assets, contains the Identity and publish-script markers,
+  deploys both Functions, and returns the expected 401 from the publish status
+  Function without authentication. An authenticated publish click was not used
+  because it would start an actual production build.
+- Production-state verification on 2026-07-15 confirmed PR 3813 is still open
+  and unmerged. GitHub `main` and Netlify production both remain on `e248614d`,
+  the earlier shared header/footer rollout. Production lacks the new deploy
+  marker and the George T. artist route remains 404. Consequently, the live CMS
+  Publish Site button is still using the old production build setup; PR 3813
+  must be merged and successfully built before the new reliability/efficiency
+  setup becomes live.
 - Jerry approved V3 as the visual reference for future rollout work. The first
   rollout stage ports only the shared V3 header and footer into the current
   production codebase on an isolated preview branch. The existing homepage

@@ -1,0 +1,5 @@
+[build]
+  ignore = "node ./scripts/netlify-ignore-build.mjs"
+
+[[plugins]]
+  package = "./netlify/plugins/post-deploy-smoke"
