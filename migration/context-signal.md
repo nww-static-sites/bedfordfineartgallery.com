@@ -1,6 +1,6 @@
 # Context signal
 
-Last updated: 2026-07-16 00:46 MDT
+Last updated: 2026-07-16 00:56 MDT
 
 Reload context before future Netlify, billing, support, CMS publish, deployment, or Bedford backup work.
 
@@ -116,6 +116,9 @@ Reason:
   to make a small legitimate CMS edit, save it, use Publish Site, verify the
   live page, and report timing or errors. The user will review and manually send
   the draft.
+- Follow-up: the user rewrote the Shawn message and scheduled it to send at
+  6:00 AM. The workflow is now waiting on Shawn's live CMS Save and Publish
+  Site test rather than waiting on the user to send the request.
 - Jerry approved V3 as the visual reference for future rollout work. The first
   rollout stage ports only the shared V3 header and footer into the current
   production codebase on an isolated preview branch. The existing homepage

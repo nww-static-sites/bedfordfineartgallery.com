@@ -207,3 +207,5 @@ Publish Site build hook
   on the live page, and report the page, edit, publish timing, and any errors.
 - This final real-editor confirmation remains pending until the user reviews and
   manually sends the draft and Shawn completes the test.
+- Follow-up: the user rewrote the message and scheduled it to send at 6:00 AM.
+  The next pending event is Shawn's CMS Save and Publish Site test and report.
