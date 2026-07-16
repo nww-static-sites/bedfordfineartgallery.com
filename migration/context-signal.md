@@ -1,6 +1,6 @@
 # Context signal
 
-Last updated: 2026-07-16 00:23 MDT
+Last updated: 2026-07-16 00:46 MDT
 
 Reload context before future Netlify, billing, support, CMS publish, deployment, or Bedford backup work.
 
@@ -110,6 +110,12 @@ Reason:
   seconds, uploaded exactly the two deploy-stamped HTML files, and passed all
   production checks. GitHub `main` and live production now both point to
   `1c17e89d`. The new build, validation, and publish setup is live.
+- The user cannot perform the final authenticated CMS editor test because no
+  login is available and the Netlify Identity user allocation is full. An
+  unsent Gmail draft to `support@nittanyweb.com`, addressed to Shawn, asks him
+  to make a small legitimate CMS edit, save it, use Publish Site, verify the
+  live page, and report timing or errors. The user will review and manually send
+  the draft.
 - Jerry approved V3 as the visual reference for future rollout work. The first
   rollout stage ports only the shared V3 header and footer into the current
   production codebase on an isolated preview branch. The existing homepage

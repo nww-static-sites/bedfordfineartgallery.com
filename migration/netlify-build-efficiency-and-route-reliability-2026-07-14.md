@@ -195,3 +195,15 @@ Publish Site build hook
     |-- Warm-cache run: 181 seconds
     `-- Same-source output: two stamped HTML files uploaded
 ```
+
+## Real-editor confirmation request - 2026-07-16
+
+- The user does not have a Netlify CMS login and no additional Identity user
+  slot is available without a plan change.
+- An unsent Gmail draft was created from the connected support mailbox to
+  `support@nittanyweb.com`, addressed to Shawn.
+- The draft asks Shawn to make one small legitimate CMS edit, confirm Save does
+  not start a build, click the separate Publish Site button, verify the change
+  on the live page, and report the page, edit, publish timing, and any errors.
+- This final real-editor confirmation remains pending until the user reviews and
+  manually sends the draft and Shawn completes the test.
