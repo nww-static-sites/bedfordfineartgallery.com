@@ -1,6 +1,6 @@
 # Context signal
 
-Last updated: 2026-07-15 03:15 MDT
+Last updated: 2026-07-15 03:27 MDT
 
 Reload context before future Netlify, billing, support, CMS publish, deployment, or Bedford backup work.
 
@@ -92,6 +92,13 @@ Reason:
   deploys both Functions, and returns the expected 401 from the publish status
   Function without authentication. An authenticated publish click was not used
   because it would start an actual production build.
+- Production-state verification on 2026-07-15 confirmed PR 3813 is still open
+  and unmerged. GitHub `main` and Netlify production both remain on `e248614d`,
+  the earlier shared header/footer rollout. Production lacks the new deploy
+  marker and the George T. artist route remains 404. Consequently, the live CMS
+  Publish Site button is still using the old production build setup; PR 3813
+  must be merged and successfully built before the new reliability/efficiency
+  setup becomes live.
 - Jerry approved V3 as the visual reference for future rollout work. The first
   rollout stage ports only the shared V3 header and footer into the current
   production codebase on an isolated preview branch. The existing homepage

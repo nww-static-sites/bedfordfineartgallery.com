@@ -122,3 +122,12 @@ The important distinction is that deterministic output and stable route-state pa
 - The preview deploy includes the two Netlify Functions. An unauthenticated status request to `/.netlify/functions/publish-site` returned the expected HTTP 401 JSON response, proving routing and the authentication guard remain active.
 - The post-deploy smoke plugin passed on the preview. On production it skips preview-versus-production comparisons but still validates the representative public routes, admin Identity marker, shared header/footer, deploy stamp, iPad section, and George T. Hetzel pages.
 - An authenticated click was not performed because that would intentionally start a real production build. The unchanged UI/Function code, deployed Function guard, real CMS-change simulation, and successful full Deploy Preview together provide strong non-destructive compatibility evidence.
+
+## Production rollout state - 2026-07-15
+
+- Pull request 3813 remains open and unmerged at head `d10f3dd7`.
+- GitHub `main` remains at `e248614d`, the approved V3 shared header/footer rollout.
+- Netlify production deploy `6a56c57e015b7800080a3850` serves `e248614d`; it was published on 2026-07-14 and took 260 seconds.
+- The production homepage does not contain the new `cx-deploy-ref` marker, and production still returns HTTP 404 for `/george_t_hetzel_artist.html`.
+- Therefore the deterministic generation, cache preservation, documentation-only ignore rule, strict route validation, post-deploy smoke plugin, NextLead preview guard, and George T. route repair are Deploy Preview-only. The live CMS Publish Site button still invokes the pre-3813 production build setup.
+- Merging PR 3813 into `main` and allowing its production build to pass is required before any CMS publish uses the new setup.
