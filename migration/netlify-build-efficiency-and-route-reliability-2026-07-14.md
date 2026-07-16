@@ -2,11 +2,13 @@
 
 ## Status
 
-- Work is isolated on `cx/netlify-efficiency-and-route-fixes-2026-07-14`.
-- Pull request: https://github.com/nww-static-sites/bedfordfineartgallery.com/pull/3813
-- Deploy Preview: https://deploy-preview-3813--stupefied-ramanujan-ca1b24.netlify.app/
-- Latest verified functional commit: `de1b461a`.
-- Production has not been changed by this work.
+- Pull request 3813 was merged and the new setup is live in production.
+- Production source and deploy are aligned at `1c17e89d` after the controlled
+  CMS Publish Site build-hook proof.
+- The historical Deploy Preview remains available at
+  https://deploy-preview-3813--stupefied-ramanujan-ca1b24.netlify.app/.
+- Production rollout details and exact measurements are recorded at the end of
+  this note.
 - The earlier cache benchmark PR 3812 remains separate and must not be merged.
 
 ## Why this work was needed
@@ -68,14 +70,14 @@ Official references:
 - https://docs.netlify.com/build/configure-builds/environment-variables/
 - https://docs.netlify.com/build/caching/caching-overview/
 
-## Preview proof status
+## Historical preview proof status
 
-1. Pull request 3813 and its public Deploy Preview are active.
+1. Pull request 3813 and its public Deploy Preview were active during pre-merge verification.
 2. The Netlify post-deploy plugin and a separate local verifier both pass all representative routes, V3 shared header/footer checks, the iPad route, George T. Hetzel routes, sitemap preservation, and production isolation.
 3. A fresh desktop browser load of functional commit `de1b461a` produced no new console error. The previous background HTTP 500 was traced to preview analytics reaching the production NextLead API and is fixed by the canonical-host guard.
 4. Documentation-only commit `aabcb6f9` was canceled by the ignore command in about 3.1 seconds, before generation or publication. Netlify records this expected cancellation with state `error` and the message `Canceled build due to no content change`.
 5. Documentation-only commit `6500c122` was pushed while the pull-request title temporarily contained `[skip netlify]`. After more than 35 seconds, Netlify had created no deploy record and GitHub had received no Netlify status. The normal pull-request title was then restored.
-6. Do not merge or deploy to production without explicit user approval.
+6. The user later approved production rollout; see the 2026-07-16 rollout section below.
 
 ## Deploy Preview 3813 measurements
 
@@ -131,3 +133,65 @@ The important distinction is that deterministic output and stable route-state pa
 - The production homepage does not contain the new `cx-deploy-ref` marker, and production still returns HTTP 404 for `/george_t_hetzel_artist.html`.
 - Therefore the deterministic generation, cache preservation, documentation-only ignore rule, strict route validation, post-deploy smoke plugin, NextLead preview guard, and George T. route repair are Deploy Preview-only. The live CMS Publish Site button still invokes the pre-3813 production build setup.
 - Merging PR 3813 into `main` and allowing its production build to pass is required before any CMS publish uses the new setup.
+
+## Production rollout and publish-path proof - 2026-07-16
+
+This section supersedes the pre-rollout state above.
+
+1. The user explicitly approved the production rollout. Pull request 3813 was
+   squash-merged into `main` as commit
+   `6432c45116d4a021308fe83152f505603c341274`.
+2. Netlify production deploy `6a5873e1278c970008c8b589` completed successfully:
+   - state: `ready`
+   - plugin state: `success`
+   - deploy time: 243 seconds
+   - published: `2026-07-16T06:06:13.749Z`
+   - 4,876 files uploaded during the one-time production transition
+   - 393 redirect rules and two header rules processed
+   - `publish-site` and `s3-upload` Functions deployed
+   - no secret-scan matches
+3. The independent deploy verifier passed against both the canonical Bedford
+   domain and the Netlify production alias. It checked 15 representative routes,
+   including the homepage, shared header/footer pages, `/ipad/`, `/admin/`, the
+   restored George T. Hetzel artist route, and both linked George T. paintings.
+4. The live homepage and Artists/Bios page contained the exact invisible deploy
+   marker for `6432c451`. Public pages contained no Netlify Identity widget,
+   while `/admin/` contained it. All four admin assets returned HTTP 200. The
+   unauthenticated Publish Site status endpoint returned the expected HTTP 401
+   JSON response.
+5. A controlled CMS-publish-path proof then used an empty, non-visible commit
+   `1c17e89d401c5a33badf585c8825deb5a23cf159` with `[skip netlify]` in its commit
+   message. After 40 seconds, Netlify had created zero automatic deploys for the
+   commit.
+6. The exact `BEDFORD_NETLIFY_BUILD_HOOK_URL` stored in Netlify and used by the
+   custom Publish Site Function was then invoked directly. It returned HTTP 200
+   and created production deploy `6a58773756c5fa000820500f`, titled
+   `Deploy triggered by hook: CMS Publish Site`.
+7. The hook-triggered production deploy completed successfully:
+   - state: `ready`
+   - plugin state: `success`
+   - deploy time: 181 seconds
+   - published: `2026-07-16T06:19:26.104Z`
+   - exactly two files uploaded: `index.html` and `artists--bios.html`
+   - both Functions deployed
+   - no secret-scan matches
+8. The independent 15-route production verifier passed again after the hook
+   deployment. GitHub `main` and the latest ready production deploy both point
+   to `1c17e89d`, so the custom publish status comparison is clean and current.
+9. The proof did not impersonate a CMS editor or click the authenticated button
+   in a browser. It exercised the same saved-commit suppression and exact
+   server-side build-hook endpoint used by that button, while the unchanged
+   admin UI, deployed Function, Identity boundary, and authorization guard were
+   verified separately.
+
+Measured production behavior is now:
+
+```text
+CMS Save commit containing [skip netlify]
+`-- No automatic Netlify deploy
+
+Publish Site build hook
+`-- Full validated production deploy
+    |-- Warm-cache run: 181 seconds
+    `-- Same-source output: two stamped HTML files uploaded
+```

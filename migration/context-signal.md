@@ -1,6 +1,6 @@
 # Context signal
 
-Last updated: 2026-07-15 03:27 MDT
+Last updated: 2026-07-16 00:23 MDT
 
 Reload context before future Netlify, billing, support, CMS publish, deployment, or Bedford backup work.
 
@@ -99,6 +99,17 @@ Reason:
   Publish Site button is still using the old production build setup; PR 3813
   must be merged and successfully built before the new reliability/efficiency
   setup becomes live.
+- The user approved production rollout on 2026-07-16. PR 3813 was squash-merged
+  as `6432c451`; Netlify production deploy `6a5873e1278c970008c8b589`
+  completed in 243 seconds with the post-deploy plugin successful. Independent
+  verification passed on the canonical and Netlify production domains,
+  including the shared header/footer, iPad section, admin Identity boundary,
+  and restored George T. Hetzel routes. A controlled `[skip netlify]` commit
+  created no automatic deploy. Invoking the exact CMS Publish Site build hook
+  then produced deploy `6a58773756c5fa000820500f`, which completed in 181
+  seconds, uploaded exactly the two deploy-stamped HTML files, and passed all
+  production checks. GitHub `main` and live production now both point to
+  `1c17e89d`. The new build, validation, and publish setup is live.
 - Jerry approved V3 as the visual reference for future rollout work. The first
   rollout stage ports only the shared V3 header and footer into the current
   production codebase on an isolated preview branch. The existing homepage
