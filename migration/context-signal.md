@@ -1,11 +1,15 @@
 # Context signal
 
-Last updated: 2026-07-15 03:27 MDT
+Last updated: 2026-07-17 04:56 MDT
 
 Reload context before future Netlify, billing, support, CMS publish, deployment, or Bedford backup work.
 
 Recently touched or newly important files:
 
+- `migration/home-v3-production-rollout-2026-07-17.md`
+- `pages/index.vue`
+- `components/home/`
+- `components/SoldPaintingsMarquee.vue`
 - `migration/netlify-build-efficiency-and-route-reliability-2026-07-14.md`
 - `netlify.toml`
 - `scripts/netlify-ignore-build.mjs`
@@ -62,6 +66,15 @@ Recently touched or newly important files:
 
 Reason:
 
+- The client-approved V3 homepage has been integrated at the real Nuxt homepage
+  boundary on isolated branch `codex/home-v3-rollout-2026-07-17`. Shared
+  header/footer, CMS/admin, Functions, iPad, and non-home page source remain
+  unchanged. The final local build passed CMS validation, lint, all 2,427
+  generated-route checks, and desktop plus 390x844 Safari Technology Preview
+  review. The generated homepage SHA-256 is
+  `4791972da3cac12e913f335a079f80a39dc3a1861d19f8cceb71ba2f9e915f4c`.
+  A Netlify Deploy Preview and exact-source production promotion are the next
+  steps; production is still unchanged at this note update.
 - An isolated branch now removes repeat-build churn, preserves Nuxt's webpack
   cache, validates all 2,427 expected generated public files, adds conservative
   documentation-only build skipping, and adds post-deploy smoke verification.
