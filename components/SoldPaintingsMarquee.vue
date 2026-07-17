@@ -26,8 +26,8 @@
                         :width="painting.gridImageWidth || null"
                         :height="painting.gridImageHeight || null"
                         alt=""
-                        loading="eager"
-                        :fetchpriority="index < priorityImageCount ? 'high' : 'low'"
+                        :loading="lazyImages ? 'lazy' : 'eager'"
+                        :fetchpriority="lazyImages ? 'low' : index < priorityImageCount ? 'high' : 'low'"
                         decoding="async"
                         draggable="false"
                     >
@@ -59,6 +59,10 @@ export default {
             type: Array,
             required: true,
         },
+        lazyImages: {
+            type: Boolean,
+            default: false,
+        },
     },
     data() {
         return {
@@ -68,6 +72,7 @@ export default {
             stepWidth: 178,
             startTimer: null,
             resizeTimer: null,
+            visibilityObserver: null,
             visibleTileCount: DEFAULT_VISIBLE_TILE_COUNT,
         }
     },
@@ -107,23 +112,45 @@ export default {
         },
     },
     mounted() {
-        this.$nextTick(this.initializeMarquee)
+        this.$nextTick(this.initializeWhenVisible)
     },
     beforeDestroy() {
         window.clearTimeout(this.startTimer)
         window.clearTimeout(this.resizeTimer)
+        this.visibilityObserver?.disconnect()
         window.removeEventListener('resize', this.handleResize)
     },
     methods: {
+        initializeWhenVisible() {
+            if (!this.lazyImages || !('IntersectionObserver' in window)) {
+                this.initializeMarquee()
+                return
+            }
+
+            this.visibilityObserver = new IntersectionObserver(
+                (entries) => {
+                    if (!entries.some((entry) => entry.isIntersecting)) {
+                        return
+                    }
+
+                    this.visibilityObserver.disconnect()
+                    this.initializeMarquee()
+                },
+                { rootMargin: '300px 0px' }
+            )
+            this.visibilityObserver.observe(this.$refs.root)
+        },
         initializeMarquee() {
             this.updateMeasurements()
             window.addEventListener('resize', this.handleResize)
 
             this.preloadPaintingImages(this.visiblePaintings).then(this.startAnimation)
             this.startTimer = window.setTimeout(this.startAnimation, START_FALLBACK_MS)
-            window.setTimeout(() => {
-                this.preloadPaintingImages(this.selectedPaintings)
-            }, BACKGROUND_PRELOAD_DELAY_MS)
+            if (!this.lazyImages) {
+                window.setTimeout(() => {
+                    this.preloadPaintingImages(this.selectedPaintings)
+                }, BACKGROUND_PRELOAD_DELAY_MS)
+            }
         },
         updateMeasurements() {
             if (!this.$refs.root || !this.$refs.track) {
