@@ -1,6 +1,6 @@
 # Context signal
 
-Last updated: 2026-07-17 04:56 MDT
+Last updated: 2026-07-17 05:45 MDT
 
 Reload context before future Netlify, billing, support, CMS publish, deployment, or Bedford backup work.
 
@@ -67,14 +67,16 @@ Recently touched or newly important files:
 Reason:
 
 - The client-approved V3 homepage has been integrated at the real Nuxt homepage
-  boundary on isolated branch `codex/home-v3-rollout-2026-07-17`. Shared
-  header/footer, CMS/admin, Functions, iPad, and non-home page source remain
-  unchanged. The final local build passed CMS validation, lint, all 2,427
-  generated-route checks, and desktop plus 390x844 Safari Technology Preview
-  review. The generated homepage SHA-256 is
-  `4791972da3cac12e913f335a079f80a39dc3a1861d19f8cceb71ba2f9e915f4c`.
-  A Netlify Deploy Preview and exact-source production promotion are the next
-  steps; production is still unchanged at this note update.
+  boundary and is live. Shared header/footer, CMS/admin, Functions, iPad, and
+  non-home page source remain unchanged. Pull request 3814 and Deploy Preview
+  `6a5a0c1a1974f4000885468c` passed the independent route, sitemap,
+  production-isolation, and Safari Technology Preview checks before merge.
+  Production deploy `6a5a121b84c25b0008a8910a` published merge commit
+  `0444a94d7fe39a37fa79ac44fd8095129626d2bd` at
+  `2026-07-17T11:34:04.904Z`. All 15 live representative-route checks and final
+  desktop/mobile visual checks passed. The previous deploy
+  `6a58da75a6ebae0008157731` at `ed3bab7e` is the immediate rollback artifact.
+  Details are in `migration/home-v3-production-rollout-2026-07-17.md`.
 - An isolated branch now removes repeat-build churn, preserves Nuxt's webpack
   cache, validates all 2,427 expected generated public files, adds conservative
   documentation-only build skipping, and adds post-deploy smoke verification.

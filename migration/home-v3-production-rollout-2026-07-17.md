@@ -82,4 +82,33 @@ Final clean generation completed on 2026-07-17 in 65.16 seconds.
 
 ## Promotion Record
 
-Pending Deploy Preview and production promotion.
+- Pull request: `https://github.com/nww-static-sites/bedfordfineartgallery.com/pull/3814`
+- Verified source commit: `d8d6147cfb043c3ce0e204a339c9fe0a75801830`
+- Deploy Preview ID: `6a5a0c1a1974f4000885468c`
+- Deploy Preview URL:
+  `https://deploy-preview-3814--stupefied-ramanujan-ca1b24.netlify.app`
+- Deploy Preview status, representative-route verifier, sitemap-preservation
+  check, production-isolation check, and Safari Technology Preview desktop and
+  mobile review all passed before merge.
+- Merge/production commit: `0444a94d7fe39a37fa79ac44fd8095129626d2bd`
+- Production deploy ID: `6a5a121b84c25b0008a8910a`
+- Production created: `2026-07-17T11:29:31.618Z`
+- Production published: `2026-07-17T11:34:04.904Z`
+- Production state: `ready`
+- Post-production verification passed all 15 representative routes, including
+  `/`, shared header/footer routes, `/ipad/`, `/admin/`, and all three George T.
+  Hetzel checks.
+- Cache-busted Safari Technology Preview checks passed on the canonical live
+  domain at desktop and 390x844 mobile sizes. Lower-page video thumbnails,
+  shipping audio panel, full-width press strip, and footer rendered correctly.
+- After normalizing only the expected deploy-ref SHA, the verified Deploy
+  Preview and live homepage HTML were byte-identical with SHA-256
+  `08af0a8ec9705a22419f8dcecaff865cf0513f704a1fc0a5f25a14abf7dc30f8`.
+
+## Preserved Rollback
+
+- Previous production deploy ID: `6a58da75a6ebae0008157731`
+- Previous production commit: `ed3bab7eaacabcdc4c3c1823235a83d185b8d50b`
+- Previous production published: `2026-07-16T13:23:04.368Z`
+- The previous immutable deploy remains available as the immediate hosting
+  rollback artifact.
