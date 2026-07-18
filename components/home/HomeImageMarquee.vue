@@ -1,5 +1,10 @@
 <template>
-    <div class="bfa-marquee" :class="`bfa-marquee--${variant}`" :aria-label="label">
+    <div
+        class="bfa-marquee"
+        :class="`bfa-marquee--${variant}`"
+        :style="marqueeStyle"
+        :aria-label="label"
+    >
         <div class="bfa-marquee__track">
             <div v-for="group in 2" :key="group" class="bfa-marquee__group" :aria-hidden="group === 2 ? 'true' : null">
                 <component
@@ -26,6 +31,20 @@
 </template>
 
 <script>
+const GAP_WIDTH = 10
+const DESKTOP_PIXELS_PER_SECOND = 17
+const MOBILE_PIXELS_PER_SECOND = 19
+const ITEM_WIDTHS = {
+    artwork: {
+        desktop: 176,
+        mobile: 148,
+    },
+    customers: {
+        desktop: 196,
+        mobile: 174,
+    },
+}
+
 export default {
     name: 'HomeImageMarquee',
     props: {
@@ -42,6 +61,19 @@ export default {
             default: 'artwork',
         },
     },
+    computed: {
+        marqueeStyle() {
+            const itemCount = Math.max(this.images.length, 1)
+            const itemWidths = ITEM_WIDTHS[this.variant] || ITEM_WIDTHS.artwork
+            const desktopDuration = (itemCount * (itemWidths.desktop + GAP_WIDTH)) / DESKTOP_PIXELS_PER_SECOND
+            const mobileDuration = (itemCount * (itemWidths.mobile + GAP_WIDTH)) / MOBILE_PIXELS_PER_SECOND
+
+            return {
+                '--bfa-marquee-duration': `${desktopDuration.toFixed(2)}s`,
+                '--bfa-marquee-mobile-duration': `${mobileDuration.toFixed(2)}s`,
+            }
+        },
+    },
 }
 </script>
 
@@ -52,8 +84,9 @@ export default {
 }
 
 .bfa-marquee__track {
-    animation: bfa-marquee-scroll 110s linear infinite;
+    animation: bfa-marquee-scroll var(--bfa-marquee-duration, 110s) linear infinite;
     display: flex;
+    will-change: transform;
     width: max-content;
 }
 
@@ -96,11 +129,6 @@ export default {
     border-radius: 12px;
 }
 
-.bfa-marquee:hover .bfa-marquee__track,
-.bfa-marquee:focus-within .bfa-marquee__track {
-    animation-play-state: paused;
-}
-
 @keyframes bfa-marquee-scroll {
     from {
         transform: translate3d(0, 0, 0);
@@ -113,7 +141,7 @@ export default {
 
 @media screen and (max-width: 767px) {
     .bfa-marquee__track {
-        animation-duration: 82s;
+        animation-duration: var(--bfa-marquee-mobile-duration, 82s);
     }
 
     .bfa-marquee__item {

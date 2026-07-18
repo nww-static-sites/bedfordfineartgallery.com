@@ -104,11 +104,6 @@ export default {
     text-underline-offset: 3px;
 }
 
-.bfa-press:hover .bfa-press__track,
-.bfa-press:focus-within .bfa-press__track {
-    animation-play-state: paused;
-}
-
 @keyframes bfa-press-scroll {
     from {
         transform: translate3d(0, 0, 0);
