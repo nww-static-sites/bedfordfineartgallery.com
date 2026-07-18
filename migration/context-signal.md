@@ -1,11 +1,14 @@
 # Context signal
 
-Last updated: 2026-07-17 05:45 MDT
+Last updated: 2026-07-18 01:19 MDT
 
 Reload context before future Netlify, billing, support, CMS publish, deployment, or Bedford backup work.
 
 Recently touched or newly important files:
 
+- `migration/homepage-marquee-continuity-fix-2026-07-18.md`
+- `components/home/HomeImageMarquee.vue`
+- `components/home/HomePressMarquee.vue`
 - `migration/home-v3-production-rollout-2026-07-17.md`
 - `pages/index.vue`
 - `components/home/`
@@ -66,6 +69,20 @@ Recently touched or newly important files:
 
 Reason:
 
+- Jerry's report of a very fast, intermittent, hover-pausing happy-customer
+  strip was traced to CSS rather than legacy JavaScript. The 104-image customer
+  track and 10-image artwork track shared one fixed 110-second duration, making
+  the customer strip more than 11 times faster. Image-marquee durations now
+  derive from track length at 17 pixels per second on desktop and 19 on mobile.
+  Hover/focus pauses were removed from the customer, artwork, and As Seen In
+  strips; the correctly behaving sold-painting marquee was left unchanged.
+  Pull request 3816 and Deploy Preview `6a5b243a523bd500085159b8` passed full
+  generation, route, sitemap, production-isolation, source, and Safari
+  Technology Preview checks. Production deploy `6a5b267c7eff6d0007ba4bd9`
+  published merge commit `9a934aa6d9eb6283d5436182f255fa45bf961412` at
+  `2026-07-18T07:12:57.448Z`; post-production checks passed. The previous deploy
+  `6a5a121b84c25b0008a8910a` remains the immediate rollback artifact. Details
+  are in `migration/homepage-marquee-continuity-fix-2026-07-18.md`.
 - The client-approved V3 homepage has been integrated at the real Nuxt homepage
   boundary and is live. Shared header/footer, CMS/admin, Functions, iPad, and
   non-home page source remain unchanged. Pull request 3814 and Deploy Preview
