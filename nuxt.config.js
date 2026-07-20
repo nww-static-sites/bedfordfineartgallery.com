@@ -174,9 +174,9 @@ export default {
     generate: {
         subFolders: false,
         crawler: true,
-        cache: {
-            ignore: ['migration/**'],
-        },
+        // Concrete CMS routes are added during webpack compilation, so a
+        // content save must always rebuild the router before generation.
+        cache: false,
         staticAssets: {
             version: staticAssetsVersion,
         },
