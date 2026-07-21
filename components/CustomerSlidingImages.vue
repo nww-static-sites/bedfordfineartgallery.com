@@ -18,7 +18,7 @@
 <div><img src="https://img.bedfordfineartgallery.com/customer-images/14.jpg" width="290" height="200" alt="Couple holding ornate gold-framed 19th-century artwork" loading="lazy"></div>
 <div><img src="https://img.bedfordfineartgallery.com/customer-images/15.jpg" width="290" height="200" alt="Smiling male with a mountain landscape painting" loading="lazy"></div>
 <div><img src="https://img.bedfordfineartgallery.com/customer-images/16.jpg" width="290" height="200" alt="Male art lover holding a historic political artwork" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/17.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/17.jpg" width="290" height="200" alt="Elegant woman standing next to a large Victorian flower painting" loading="lazy"></div>
 <div><img src="https://img.bedfordfineartgallery.com/customer-images/68.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
 <div><img src="https://img.bedfordfineartgallery.com/customer-images/18.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
 <div><img src="https://img.bedfordfineartgallery.com/customer-images/19.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
