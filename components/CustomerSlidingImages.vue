@@ -19,22 +19,22 @@
 <div><img src="https://img.bedfordfineartgallery.com/customer-images/15.jpg" width="290" height="200" alt="Smiling male with a mountain landscape painting" loading="lazy"></div>
 <div><img src="https://img.bedfordfineartgallery.com/customer-images/16.jpg" width="290" height="200" alt="Male art lover holding a historic political artwork" loading="lazy"></div>
 <div><img src="https://img.bedfordfineartgallery.com/customer-images/17.jpg" width="290" height="200" alt="Elegant woman standing next to a large Victorian flower painting" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/68.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/18.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/19.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/20.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/21.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/22.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/23.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/24.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/67.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/68.jpg" width="290" height="200" alt="Smiling man beside a 19th-century genre painting" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/18.jpg" width="290" height="200" alt="Husband and wife smiling next to a historic American landscape" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/19.jpg" width="290" height="200" alt="Smiling woman showcasing her new historical fine art piece" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/20.jpg" width="290" height="200" alt="Female art lover holding a historic political artwork" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/21.jpg" width="290" height="200" alt="Couple holding a beautiful 19th-century autumn landscape" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/22.jpg" width="290" height="200" alt="Man with painting of Theodore Roosevelt" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/23.jpg" width="290" height="200" alt="Female customer holding a contemporary realism landscape" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/24.jpg" width="290" height="200" alt="Gentleman with a framed painting of a coastal scene" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/67.jpg" width="290" height="200" alt="man holding 19th century artwork" loading="lazy"></div>
 
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/25.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/47.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/64.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/26.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/27.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/28.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/25.jpg" width="290" height="200" alt="Man posing with a classic 19th-century river scene" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/47.jpg" width="290" height="200" alt="Happy couple holding their newly purchased 19th-century landscape painting" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/64.jpg" width="290" height="200" alt="Proud man holding a 19th-century ocean scene painting" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/26.jpg" width="290" height="200" alt="Man posing with a victorian waterfall painting" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/27.jpg" width="290" height="200" alt="Happy lady holding a classic 19th-century portrait" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/28.jpg" width="290" height="200" alt="Smiling man showcasing his new historical fine art piece" loading="lazy"></div>
 <div><img src="https://img.bedfordfineartgallery.com/customer-images/50.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
 <div><img src="https://img.bedfordfineartgallery.com/customer-images/45.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
 <div><img src="https://img.bedfordfineartgallery.com/customer-images/29.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
