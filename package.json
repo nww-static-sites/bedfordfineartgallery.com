@@ -6,8 +6,9 @@
         "dev": "node validate-cms-relations.mjs && nuxt",
         "build": "nuxt build",
         "start": "nuxt start",
-        "update:image-dimensions": "node update-image-width-height.mjs", 
+        "update:image-dimensions": "node update-image-width-height.mjs",
         "validate:cms": "node validate-cms-relations.mjs",
+        "verify:customer-alt": "node scripts/verify-customer-alt-text.mjs",
         "generate": "node validate-cms-relations.mjs && rm -rf dist .nuxt/dist/client/content && nuxt generate --modern --fail-on-error && for f in dist/*.htm.html; do mv -- \"$f\" \"${f%.htm.html}.htm\"; done && for f in dist/*.html.html; do mv -- \"$f\" \"${f%.html.html}.html\"; done && for f in dist/ipad/*.html.html; do mv -- \"$f\" \"${f%.html.html}.html\"; done && node scripts/stamp-deploy-ref.mjs && node validate-generated-routes.mjs",
         "verify:deploy": "node scripts/verify-deploy.mjs"
     },

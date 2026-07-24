@@ -30,7 +30,12 @@
             </section>
 
             <section class="bfa-home__panel bfa-home__panel--dark bfa-home__testimonials" aria-labelledby="bfa-home-testimonials-title">
-                <HomeImageMarquee :images="customerImages" label="Bedford Fine Art Gallery customers with their paintings" variant="customers" />
+                <HomeImageMarquee
+                    :images="customerImages"
+                    label="Bedford Fine Art Gallery customers with their paintings"
+                    variant="customers"
+                    decorative
+                />
                 <h2 id="bfa-home-testimonials-title" class="bfa-home__section-title">
                     Our customers are the best. Here's what they have to say.
                 </h2>
@@ -344,7 +349,7 @@ export default {
         customerImages() {
             return customerImageFiles.map((file) => ({
                 src: `https://img.bedfordfineartgallery.com/customer-images/${file}`,
-                alt: 'Bedford Fine Art Gallery customer with fine art',
+                alt: '',
                 width: 290,
                 height: 200,
             }))
