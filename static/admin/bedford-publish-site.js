@@ -12,7 +12,12 @@
     var saveLabelObserverInstalled = false
     var slugProtectionInstalled = false
     var slugProtectionEventInstalled = false
-    var originalSlugByEntryKey = {}
+    var slugProtectedCollections = {
+        artists: true,
+        paintings: true,
+        articles: true,
+        artLoversNicheArticles: true,
+    }
     var currentPublishStatus = {
         state: 'checking',
         canPublish: false,
@@ -74,11 +79,21 @@
     function currentEntryKey() {
         var route = getEditorRoute()
 
-        if (!route.isExistingEntry || !route.collection || !route.entrySlug) {
+        if (!route.isExistingEntry || !slugProtectedCollections[route.collection] || !route.entrySlug) {
             return ''
         }
 
         return route.collection + ':' + route.entrySlug
+    }
+
+    function currentCanonicalSlug() {
+        var route = getEditorRoute()
+
+        if (!route.isExistingEntry || !slugProtectedCollections[route.collection]) {
+            return ''
+        }
+
+        return route.entrySlug || ''
     }
 
     function getIdentityUser() {
@@ -348,18 +363,12 @@
         return []
     }
 
-    function protectSlugControl(control, key) {
-        if (!control || !control.value) {
+    function protectSlugControl(control, key, canonicalSlug) {
+        if (!control || !canonicalSlug) {
             return
         }
 
-        if (!originalSlugByEntryKey[key]) {
-            originalSlugByEntryKey[key] = control.value
-        }
-
-        var originalSlug = originalSlugByEntryKey[key]
-
-        control.value = originalSlug
+        control.value = canonicalSlug
         control.readOnly = true
         control.setAttribute('aria-readonly', 'true')
         control.setAttribute('data-bedford-slug-protected', 'true')
@@ -387,8 +396,9 @@
 
     function protectExistingSlugFields(root) {
         var key = currentEntryKey()
+        var canonicalSlug = currentCanonicalSlug()
 
-        if (!key) {
+        if (!key || !canonicalSlug) {
             return
         }
 
@@ -407,23 +417,22 @@
 
         labels.forEach(function (label) {
             Array.prototype.forEach.call(findSlugControls(label), function (control) {
-                protectSlugControl(control, key)
+                protectSlugControl(control, key, canonicalSlug)
             })
         })
     }
 
     function protectEntrySlugBeforeSave(args) {
-        var key = currentEntryKey()
-        var originalSlug = key && originalSlugByEntryKey[key]
+        var canonicalSlug = currentCanonicalSlug()
         var entry = args && args.entry
         var data = entry && entry.get && entry.get('data')
 
-        if (!originalSlug || !data || !data.get || !data.set) {
+        if (!canonicalSlug || !data || !data.get || !data.set || data.get('slug') === undefined) {
             return data
         }
 
-        if (data.get('slug') !== originalSlug) {
-            return data.set('slug', originalSlug)
+        if (data.get('slug') !== canonicalSlug) {
+            return data.set('slug', canonicalSlug)
         }
 
         return data
