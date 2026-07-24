@@ -3,7 +3,8 @@
         class="bfa-marquee"
         :class="`bfa-marquee--${variant}`"
         :style="marqueeStyle"
-        :aria-label="label"
+        :aria-label="decorative ? null : label"
+        :aria-hidden="decorative ? 'true' : null"
     >
         <div class="bfa-marquee__track">
             <div v-for="group in 2" :key="group" class="bfa-marquee__group" :aria-hidden="group === 2 ? 'true' : null">
@@ -17,7 +18,7 @@
                 >
                     <img
                         :src="image.src"
-                        :alt="image.alt || ''"
+                        :alt="decorative ? '' : (image.alt || '')"
                         :width="image.width || 290"
                         :height="image.height || 200"
                         loading="lazy"
@@ -59,6 +60,10 @@ export default {
         variant: {
             type: String,
             default: 'artwork',
+        },
+        decorative: {
+            type: Boolean,
+            default: false,
         },
     },
     computed: {
