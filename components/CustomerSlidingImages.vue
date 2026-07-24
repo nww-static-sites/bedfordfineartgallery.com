@@ -1,120 +1,120 @@
 <template>
-    <div>
+    <div aria-hidden="true">
         <VueSlickCarousel v-bind="settings">
-           <div><img src="https://img.bedfordfineartgallery.com/customer-images/1.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/2.jpg" width="290" height="200" alt="Couple smiling beside a 19th-century genre painting" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/3.jpg" width="290" height="200" alt="Smiling man holding a 19th-century landscape painting" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/4.jpg" width="290" height="200" alt="Happy lady posing with a 19th-century ocean landscape" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/5.jpg" width="290" height="200" alt="Proud man holding a classic 19th-century still life" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/6.jpg" width="290" height="200" alt="Smiling husband and wife posing with a framed antique marine painting" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/7.jpg" width="290" height="200" alt="Gentleman standing next to a large Victorian artwork" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/8.jpg" width="290" height="200" alt="Woman showing off her newly purchased contemporary artwork" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/9.jpg" width="290" height="200" alt="Two art lovers smiling with a framed antique painting" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/10.jpg" width="290" height="200" alt="Couple standing next to a beautiful 19th-century still life of flowers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/11.jpg" width="290" height="200" alt="Smiling couple standing in front of a small, framed still life of fruit" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/12.jpg" width="290" height="200" alt="Happy man customer posing with a framed creek painting" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/65.jpg" width="290" height="200" alt="Happy male buyer holding a rustic farm painting" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/13.jpg" width="290" height="200" alt="Married couple with a classic 19th-century seascape" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/14.jpg" width="290" height="200" alt="Couple holding ornate gold-framed 19th-century artwork" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/15.jpg" width="290" height="200" alt="Smiling male with a mountain landscape painting" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/16.jpg" width="290" height="200" alt="Male art lover holding a historic political artwork" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/17.jpg" width="290" height="200" alt="Elegant woman standing next to a large Victorian flower painting" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/68.jpg" width="290" height="200" alt="Smiling man beside a 19th-century genre painting" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/18.jpg" width="290" height="200" alt="Husband and wife smiling next to a historic American landscape" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/19.jpg" width="290" height="200" alt="Smiling woman showcasing her new historical fine art piece" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/20.jpg" width="290" height="200" alt="Female art lover holding a historic political artwork" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/21.jpg" width="290" height="200" alt="Couple holding a beautiful 19th-century autumn landscape" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/22.jpg" width="290" height="200" alt="Man with painting of Theodore Roosevelt" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/23.jpg" width="290" height="200" alt="Female customer holding a contemporary realism landscape" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/24.jpg" width="290" height="200" alt="Gentleman with a framed painting of a coastal scene" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/67.jpg" width="290" height="200" alt="man holding 19th century artwork" loading="lazy"></div>
+           <div><img src="https://img.bedfordfineartgallery.com/customer-images/1.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/2.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/3.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/4.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/5.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/6.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/7.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/8.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/9.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/10.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/11.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/12.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/65.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/13.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/14.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/15.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/16.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/17.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/68.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/18.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/19.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/20.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/21.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/22.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/23.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/24.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/67.jpg" width="290" height="200" alt="" loading="lazy"></div>
 
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/25.jpg" width="290" height="200" alt="Man posing with a classic 19th-century river scene" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/47.jpg" width="290" height="200" alt="Happy couple holding their newly purchased 19th-century landscape painting" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/64.jpg" width="290" height="200" alt="Proud man holding a 19th-century ocean scene painting" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/26.jpg" width="290" height="200" alt="Man posing with a victorian waterfall painting" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/27.jpg" width="290" height="200" alt="Happy lady holding a classic 19th-century portrait" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/28.jpg" width="290" height="200" alt="Smiling man showcasing his new historical fine art piece" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/50.jpg" width="290" height="200" alt="Man with 19th century landscape artwork" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/45.jpg" width="290" height="200" alt="Two happy customers holding a contemporary realism landscape" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/29.jpg" width="290" height="200" alt="Male gallery visitor posing with an antique forest landscape" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/61.jpg" width="290" height="200" alt="Man holding a detailed genre painting" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/30.jpg" width="290" height="200" alt="Two gentleman holding up their new victorian art" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/31.jpg" width="290" height="200" alt="Two gentleman holding up their new 19th century art" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/32.jpg" width="290" height="200" alt="Two gentleman holding up their new 19th century mountain landscape painting" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/33.jpg" width="290" height="200" alt="Happy gentleman posing with a 19th-century river landscape" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/46.jpg" width="290" height="200" alt="Proud man displaying his new art purchases in his home" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/59.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/34.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/35.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/63.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/43.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/49.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/56.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/76.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/36.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/37.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/66.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/38.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/39.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/40.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/58.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/75.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/41.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/42.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/44.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/51.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/52.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/85.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/53.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/80.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/54.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/55.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/57.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/81.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/25.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/47.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/64.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/26.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/27.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/28.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/50.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/45.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/29.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/61.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/30.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/31.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/32.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/33.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/46.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/59.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/34.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/35.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/63.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/43.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/49.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/56.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/76.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/36.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/37.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/66.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/38.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/39.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/40.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/58.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/75.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/41.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/42.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/44.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/51.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/52.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/85.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/53.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/80.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/54.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/55.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/57.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/81.jpg" width="290" height="200" alt="" loading="lazy"></div>
 
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/60.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/62.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/69.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/70.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/71.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/72.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/73.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/74.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/77.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/78.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/79.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/93.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/60.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/62.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/69.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/70.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/71.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/72.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/73.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/74.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/77.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/78.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/79.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/93.jpg" width="290" height="200" alt="" loading="lazy"></div>
 
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/90.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/93.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/90.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/93.jpg" width="290" height="200" alt="" loading="lazy"></div>
 
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/91.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div> <!-- first 90 changed to 91 -->
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/91.jpg" width="290" height="200" alt="" loading="lazy"></div> <!-- first 90 changed to 91 -->
 
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/113.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/113.jpg" width="290" height="200" alt="" loading="lazy"></div>
 
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/92.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/108.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/94.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/97.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/98.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/99_zwy5rn.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/111.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/100.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/119.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/92.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/108.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/94.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/97.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/98.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/99_zwy5rn.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/111.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/100.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/119.jpg" width="290" height="200" alt="" loading="lazy"></div>
 
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/103.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/104.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/105.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/106.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/109.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/112.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/103.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/104.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/105.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/106.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/109.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/112.jpg" width="290" height="200" alt="" loading="lazy"></div>
 
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/115.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/116.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-<div><img src="https://img.bedfordfineartgallery.com/customer-images/117.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-          <div><img src="https://img.bedfordfineartgallery.com/customer-images/118.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
-          <div><img src="https://img.bedfordfineartgallery.com/customer-images/120.jpg" width="290" height="200" alt="Bedford Fine Art Gallery Customers" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/115.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/116.jpg" width="290" height="200" alt="" loading="lazy"></div>
+<div><img src="https://img.bedfordfineartgallery.com/customer-images/117.jpg" width="290" height="200" alt="" loading="lazy"></div>
+          <div><img src="https://img.bedfordfineartgallery.com/customer-images/118.jpg" width="290" height="200" alt="" loading="lazy"></div>
+          <div><img src="https://img.bedfordfineartgallery.com/customer-images/120.jpg" width="290" height="200" alt="" loading="lazy"></div>
 
 
                      
