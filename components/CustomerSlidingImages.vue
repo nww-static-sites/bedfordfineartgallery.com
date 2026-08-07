@@ -115,6 +115,7 @@
 <div><img src="https://img.bedfordfineartgallery.com/customer-images/117.jpg" width="290" height="200" alt="" loading="lazy"></div>
           <div><img src="https://img.bedfordfineartgallery.com/customer-images/118.jpg" width="290" height="200" alt="" loading="lazy"></div>
           <div><img src="https://img.bedfordfineartgallery.com/customer-images/120.jpg" width="290" height="200" alt="" loading="lazy"></div>
+            <div><img src="https://img.bedfordfineartgallery.com/customer-images/121.jpg" width="290" height="200" alt="" loading="lazy"></div>
 
 
                      
