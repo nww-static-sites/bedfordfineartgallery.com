@@ -43,8 +43,13 @@ const checks = [
     { path: '/ipad/', includes: ['Bedford Fine Art Gallery'] },
     {
         path: '/admin/',
-        includes: ['Legacy content editor retired', 'permanently closed'],
+        includes: ['<h1>Unavailable</h1>', 'This login location is no longer available.'],
         excludes: [
+            'Netlify',
+            'Nittany Web Works',
+            'Extranet',
+            'content editor',
+            'tech@nittanyweb.com',
             'identity.netlify.com/v1/netlify-identity-widget.js',
             'unpkg.com/netlify-cms',
             '/admin/bedford-s3-media-library.js',
