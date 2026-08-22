@@ -6,3 +6,7 @@
 
 /_nuxt/static/*
   Cache-Control: public,max-age=0,must-revalidate
+
+/admin/*
+  Cache-Control: no-store, max-age=0
+  X-Robots-Tag: noindex, nofollow, noarchive

@@ -1,5 +1,9 @@
 # `/admin/` freeze
 
+> Historical migration note. Superseded on 2026-08-22 by
+> `migration/netlify-cms-retirement-2026-08-22.md`. The old CMS is now being
+> permanently retired and must not be restored as the production editor.
+
 ## What changed
 
 `static/admin/index.html` now renders a temporary maintenance page instead of loading Netlify Identity and Netlify CMS.

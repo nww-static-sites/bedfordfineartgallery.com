@@ -41,7 +41,16 @@ const checks = [
     { path: '/landscape_artwork.html', includes: ['cx_site-header', 'cx_site-footer'] },
     { path: '/victorian_art.html', includes: ['cx_site-header', 'cx_site-footer'] },
     { path: '/ipad/', includes: ['Bedford Fine Art Gallery'] },
-    { path: '/admin/', includes: ['identity.netlify.com/v1/netlify-identity-widget.js'] },
+    {
+        path: '/admin/',
+        includes: ['Legacy content editor retired', 'permanently closed'],
+        excludes: [
+            'identity.netlify.com/v1/netlify-identity-widget.js',
+            'unpkg.com/netlify-cms',
+            '/admin/bedford-s3-media-library.js',
+            '/admin/bedford-publish-site.js',
+        ],
+    },
     {
         path: '/george_t_hetzel_artist.html',
         includes: ['George T. Hetzel', 'Deputy Recorder of Allegheny County'],
@@ -117,6 +126,41 @@ async function verifyPage(check) {
     console.log(`PASS ${check.path}`)
 }
 
+async function verifyRetiredEndpoint(path, method = 'GET') {
+    const response = await fetch(`${baseUrl}${path}?cx_smoke=${cacheBuster}`, {
+        method,
+        headers: {
+            'cache-control': 'no-cache',
+            'content-type': 'application/json',
+            'user-agent': 'Bedford deploy smoke verifier',
+        },
+        body: method === 'POST' ? '{}' : undefined,
+    })
+    const body = await response.text()
+
+    if (response.status !== 410 || !body.includes('retired')) {
+        throw new Error(`${path} should be retired with HTTP 410; received ${response.status}.`)
+    }
+
+    console.log(`PASS ${path} retired (${response.status})`)
+}
+
+async function verifyRemovedAdminAsset(path) {
+    const response = await fetch(`${baseUrl}${path}?cx_smoke=${cacheBuster}`, {
+        headers: {
+            'cache-control': 'no-cache',
+            'user-agent': 'Bedford deploy smoke verifier',
+        },
+        redirect: 'manual',
+    })
+
+    if (response.status !== 404) {
+        throw new Error(`${path} should no longer be public; received ${response.status}.`)
+    }
+
+    console.log(`PASS ${path} removed (${response.status})`)
+}
+
 function sitemapPaths(xml) {
     return new Set(
         [...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => {
@@ -187,6 +231,11 @@ try {
     for (const check of checks) {
         await verifyPage(check)
     }
+    await verifyRetiredEndpoint('/.netlify/functions/s3-upload', 'POST')
+    await verifyRetiredEndpoint('/.netlify/functions/publish-site')
+    await verifyRemovedAdminAsset('/admin/config.yml')
+    await verifyRemovedAdminAsset('/admin/bedford-s3-media-library.js')
+    await verifyRemovedAdminAsset('/admin/bedford-publish-site.js')
     await verifySitemapSuperset()
     await verifyProductionIsolation()
     console.log(`Deploy verification passed for ${baseUrl}.`)
