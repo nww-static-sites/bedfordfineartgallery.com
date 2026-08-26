@@ -27,6 +27,7 @@
                         <div class="sold">
                             <span class="soldTag">sold</span>
                             <nuxt-picture
+                                v-if="mediumResImage"
                                 provider="bedford"
                                 loading="lazy"
                                 class="art_detail"
