@@ -52,9 +52,11 @@ export default {
         let painting
         try {
             painting = await $content('paintings', urlSlugToSlug(route.path.replace('/ipad/', ''))).fetch()
-            painting.artist = await $content('artists', painting.artist)
-                .only(['name', 'tinyDescription', 'slug', 'alias', 'hasLandingPage'])
-                .fetch()
+            painting.artist = painting.artist
+                ? await $content('artists', painting.artist)
+                      .only(['name', 'tinyDescription', 'slug', 'alias', 'hasLandingPage'])
+                      .fetch()
+                : { name: '', tinyDescription: '', slug: '', alias: '', hasLandingPage: false }
         } catch (e) {
             error({ statusCode: 404, message: 'Page not found' })
         }

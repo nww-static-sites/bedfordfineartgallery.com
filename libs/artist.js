@@ -1,5 +1,9 @@
 export const artistNameWithTinyDescription = (artist) => {
-    let nameWithTinyDescription = artist.name
+    if (!artist) {
+        return ''
+    }
+
+    let nameWithTinyDescription = artist.name || ''
     if (artist.tinyDescription) {
         nameWithTinyDescription += ` (${artist.tinyDescription})`
     }

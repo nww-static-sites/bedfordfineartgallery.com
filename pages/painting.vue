@@ -266,9 +266,11 @@ export default {
             }
         }
 
-        painting.artist = await $content('artists', painting.artist)
-            .only(['name', 'tinyDescription', 'slug', 'alias', 'hasLandingPage'])
-            .fetch()
+        painting.artist = painting.artist
+            ? await $content('artists', painting.artist)
+                  .only(['name', 'tinyDescription', 'slug', 'alias', 'hasLandingPage'])
+                  .fetch()
+            : { name: '', tinyDescription: '', slug: '', alias: '', hasLandingPage: false }
 
         return { painting, testimonials }
     },
