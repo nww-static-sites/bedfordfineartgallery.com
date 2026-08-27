@@ -63,20 +63,33 @@ for (const [collectionName, entries] of Object.entries({
 
     if (entry.data.slug) {
       const route = routeFromSlug(entry.data.slug)
+      const routeKey = route.toLocaleLowerCase('en-US')
       const owner = `${collectionName}:${entry.filePath}`
-      if (routeOwners.has(route)) {
-        errors.push(`${entry.filePath}: ${collectionName} route "${route}" collides with ${routeOwners.get(route)}`)
+      if (routeOwners.has(routeKey)) {
+        errors.push(`${entry.filePath}: ${collectionName} route "${route}" collides with ${routeOwners.get(routeKey)}`)
       } else {
-        routeOwners.set(route, owner)
+        routeOwners.set(routeKey, owner)
       }
     }
   }
 }
 
 for (const artist of artists.values()) {
-  for (const paintingId of listValue(artist.data.paintings)) {
+  const artistPaintings = listValue(artist.data.paintings)
+  const seenPaintings = new Set()
+  for (const paintingId of artistPaintings) {
+    if (seenPaintings.has(paintingId)) {
+      errors.push(`${artist.filePath}: "${label(artist)}" lists painting "${paintingId}" more than once`)
+      continue
+    }
+    seenPaintings.add(paintingId)
     if (!paintings.has(paintingId)) {
       errors.push(`${artist.filePath}: "${label(artist)}" references missing painting "${paintingId}"`)
+      continue
+    }
+    const painting = paintings.get(paintingId)
+    if ((painting.data.artist || '') !== artist.id) {
+      errors.push(`${artist.filePath}: "${label(artist)}" lists painting "${paintingId}", but that painting points to artist "${painting.data.artist || '(none)'}"`)
     }
   }
 }
@@ -84,6 +97,18 @@ for (const artist of artists.values()) {
 for (const painting of paintings.values()) {
   if (painting.data.artist && !artists.has(painting.data.artist)) {
     errors.push(`${painting.filePath}: "${label(painting)}" references missing artist "${painting.data.artist}"`)
+  }
+
+  const memberships = []
+  for (const artist of artists.values()) {
+    if (listValue(artist.data.paintings).includes(painting.id)) memberships.push(artist.id)
+  }
+  if (painting.data.artist) {
+    if (memberships.length !== 1 || memberships[0] !== painting.data.artist) {
+      errors.push(`${painting.filePath}: "${label(painting)}" points to artist "${painting.data.artist}", but its Artist-page memberships are [${memberships.join(', ') || '(none)'}]`)
+    }
+  } else if (memberships.length > 0) {
+    errors.push(`${painting.filePath}: unattributed painting "${label(painting)}" cannot appear on Artist page(s) [${memberships.join(', ')}]`)
   }
 
   for (const [index, highlight] of listValue(painting.data.highlights).entries()) {
