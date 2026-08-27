@@ -9,6 +9,7 @@
                 </div>
                 <div class="highlights_thumbnail">
                     <nuxt-img
+                        v-if="image"
                         provider="bedford"
                         loading="lazy"
                         class="art_detail"
