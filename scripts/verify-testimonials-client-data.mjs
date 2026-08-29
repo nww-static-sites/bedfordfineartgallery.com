@@ -1,6 +1,7 @@
 import crypto from 'node:crypto'
 import fs from 'node:fs'
 import path from 'node:path'
+import { validateTestimonials } from './testimonial-validation.mjs'
 
 const projectRoot = process.cwd()
 const sourceDirectory = path.join(projectRoot, 'cms', 'testimonials')
@@ -39,8 +40,10 @@ const sourceTestimonials = fs
         (a, b) =>
             a.name.localeCompare(b.name) ||
             a.shortTestimonial.localeCompare(b.shortTestimonial) ||
-            a.id.localeCompare(b.id)
+            a.id.localeCompare(b.id),
     )
+
+validateTestimonials(sourceTestimonials)
 
 if (!fs.existsSync(generatedFile)) {
     throw new Error(`Missing generated testimonial payload: ${generatedFile}`)
@@ -83,7 +86,7 @@ for (const file of generatedHtmlFiles) {
 }
 
 const duplicateCandidates = walkFiles(path.join(projectRoot, 'dist'), /\.(?:html?|js|json)$/).filter(
-    (file) => file !== generatedFile
+    (file) => file !== generatedFile,
 )
 
 for (const file of duplicateCandidates) {
@@ -95,5 +98,5 @@ for (const file of duplicateCandidates) {
 console.log(
     `Verified one shared client-loaded testimonial payload: ${sourceTestimonials.length} records, ` +
         `${generatedHtmlFiles.length} HTML files contain no embedded testimonial sample, ` +
-        `and ${duplicateCandidates.length} generated text assets contain no duplicate testimonial sample.`
+        `and ${duplicateCandidates.length} generated text assets contain no duplicate testimonial sample.`,
 )
