@@ -1,6 +1,7 @@
 import crypto from 'node:crypto'
 import fs from 'node:fs'
 import path from 'node:path'
+import { validateTestimonials } from './testimonial-validation.mjs'
 
 const projectRoot = process.cwd()
 const sourceDirectory = path.join(projectRoot, 'cms', 'testimonials')
@@ -30,8 +31,10 @@ const testimonials = fs
         (a, b) =>
             a.name.localeCompare(b.name) ||
             a.shortTestimonial.localeCompare(b.shortTestimonial) ||
-            a.id.localeCompare(b.id)
+            a.id.localeCompare(b.id),
     )
+
+validateTestimonials(testimonials)
 
 const canonicalTestimonials = JSON.stringify(testimonials)
 const output = {
