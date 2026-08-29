@@ -206,25 +206,19 @@
             style="padding-top: 24px; width: 100%; margin: 0px auto; background-color: rgba(16, 88, 185, 1)"
         >
             <section class="wrapper" style="max-width: 860px; margin: auto">
-                <TestimonialsScroll :testimonials="testimonials" />
+                <TestimonialsScroll />
             </section>
         </div>
     </div>
 </template>
 
 <script>
-import { loadShortTestimonials } from '~/libs/testimonials'
 import AboutSlidingImages from '~/components/AboutSlidingImages'
 import CustomerSlidingImages from '~/components/CustomerSlidingImages'
 import TestimonialsScroll from '~/components/TestimonialsScroll'
 
 export default {
     components: { AboutSlidingImages, CustomerSlidingImages, TestimonialsScroll },
-    async asyncData({ $content }) {
-        return {
-            testimonials: await loadShortTestimonials($content),
-        }
-    },
 }
 </script>
 

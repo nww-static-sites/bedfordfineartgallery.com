@@ -35,7 +35,7 @@
             style="padding-top: 24px; width: 100%; margin: 0px auto; background-color: rgba(16, 88, 185, 1)"
         >
             <section class="wrapper" style="max-width: 860px; margin: auto">
-                <TestimonialsScroll :testimonials="testimonials" />
+                <TestimonialsScroll />
             </section>
         </div>
     </div>
@@ -45,16 +45,14 @@
 import TestimonialsScroll from '~/components/TestimonialsScroll'
 import YouTubeVideo from '~/components/YouTubeVideo'
 import { urlSlugToSlug } from '~/libs/slug'
-import { loadShortTestimonials } from '~/libs/testimonials'
 import { getMetaTitleAndDescriptionAndKeywords } from '~/libs/meta'
 
 export default {
 	components: { TestimonialsScroll, YouTubeVideo },
     async asyncData({ $content, route }) {
-        const testimonials = await loadShortTestimonials($content)
         const highlight = await $content('articles', urlSlugToSlug(route.path)).fetch()
 
-        return { highlight, testimonials }
+        return { highlight }
     },
     computed: {
         image() {

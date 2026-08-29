@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <VueSlickCarousel v-bind="settings">
-            <div v-for="(testimonial, index) in testimonials" :key="index">
+    <div aria-live="polite" :aria-busy="loading ? 'true' : 'false'">
+        <VueSlickCarousel v-if="testimonials.length" v-bind="settings">
+            <div v-for="testimonial in testimonials" :key="testimonial.id">
                 <p class="reverse" style="text-align: left">
                     {{ testimonial.shortTestimonial }}
                 </p>
@@ -10,25 +10,27 @@
                 }}</span>
             </div>
         </VueSlickCarousel>
+        <p v-else-if="loadFailed" class="reverse" style="text-align: left">
+            Testimonials are temporarily unavailable.
+        </p>
+        <p v-else class="reverse" style="text-align: left">Loading testimonials&hellip;</p>
     </div>
 </template>
 
 <script>
 import VueSlickCarousel from 'vue-slick-carousel'
+import { loadShortTestimonialsClient } from '~/libs/testimonials-client'
 import 'vue-slick-carousel/dist/vue-slick-carousel.css'
 // optional style for arrows & dots
 import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 
 export default {
     components: { VueSlickCarousel },
-    props: {
-        testimonials: {
-            type: Array,
-            required: true,
-        },
-    },
     data() {
         return {
+            testimonials: [],
+            loading: true,
+            loadFailed: false,
             settings: {
                 arrows: true,
                 dots: false,
@@ -37,6 +39,18 @@ export default {
                 adaptiveHeight: true,
             },
         }
+    },
+    mounted() {
+        loadShortTestimonialsClient()
+            .then((testimonials) => {
+                this.testimonials = testimonials
+            })
+            .catch(() => {
+                this.loadFailed = true
+            })
+            .then(() => {
+                this.loading = false
+            })
     },
 }
 </script>

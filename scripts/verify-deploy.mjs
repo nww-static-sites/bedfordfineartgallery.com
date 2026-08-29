@@ -22,7 +22,8 @@ const checks = [
         includes: [
             'cx_site-header',
             'cx_site-footer',
-            '/images/bedford-fine-art-gallery-logo-v3-250.png',
+            'https://img.bedfordfineartgallery.com/images/bedford-fine-art-gallery-logo-v3-250.png',
+            'https://img.bedfordfineartgallery.com/images/bedford-shipping-options-voiceover-2026-06-21.mp3',
         ],
         excludes: ['identity.netlify.com/v1/netlify-identity-widget.js'],
         verifyDeployRef: true,
@@ -166,6 +167,26 @@ async function verifyRemovedAdminAsset(path) {
     console.log(`PASS ${path} removed (${response.status})`)
 }
 
+async function verifyMovedAsset(path, expectedDestination, expectedContentType) {
+    const response = await fetch(`${baseUrl}${path}?cx_smoke=${cacheBuster}`, {
+        headers: {
+            'cache-control': 'no-cache',
+            range: 'bytes=0-99',
+            'user-agent': 'Bedford deploy smoke verifier',
+        },
+    })
+
+    if (response.url.split('?')[0] !== expectedDestination || !response.ok) {
+        throw new Error(`${path} did not resolve to its verified asset-host destination.`)
+    }
+
+    if (!String(response.headers.get('content-type') || '').startsWith(expectedContentType)) {
+        throw new Error(`${path} returned an unexpected content type: ${response.headers.get('content-type')}`)
+    }
+
+    console.log(`PASS ${path} moved to asset host (${response.status})`)
+}
+
 function sitemapPaths(xml) {
     return new Set(
         [...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => {
@@ -241,6 +262,16 @@ try {
     await verifyRemovedAdminAsset('/admin/config.yml')
     await verifyRemovedAdminAsset('/admin/bedford-s3-media-library.js')
     await verifyRemovedAdminAsset('/admin/bedford-publish-site.js')
+    await verifyMovedAsset(
+        '/images/bedford-shipping-options-voiceover-2026-06-21.mp3',
+        'https://img.bedfordfineartgallery.com/images/bedford-shipping-options-voiceover-2026-06-21.mp3',
+        'audio/mpeg'
+    )
+    await verifyMovedAsset(
+        '/images/bedford-fine-art-gallery-logo-v3-250.png',
+        'https://img.bedfordfineartgallery.com/images/bedford-fine-art-gallery-logo-v3-250.png',
+        'image/png'
+    )
     await verifySitemapSuperset()
     await verifyProductionIsolation()
     console.log(`Deploy verification passed for ${baseUrl}.`)

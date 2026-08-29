@@ -14,7 +14,7 @@
                 <nuxt-link class="cx_site-header__logo-link" to="/" aria-label="Bedford Fine Art Gallery home">
                     <img
                         class="cx_site-header__logo"
-                        src="/images/bedford-fine-art-gallery-logo-v3-250.png"
+                        src="https://img.bedfordfineartgallery.com/images/bedford-fine-art-gallery-logo-v3-250.png"
                         width="250"
                         height="252"
                         alt="Bedford Fine Art Gallery"

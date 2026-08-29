@@ -7,6 +7,10 @@
 /_nuxt/static/*
   Cache-Control: public,max-age=0,must-revalidate
 
+/data/testimonials.json
+  Cache-Control: public,max-age=0,must-revalidate
+  Content-Type: application/json; charset=utf-8
+
 /admin/*
   Cache-Control: no-store, max-age=0
   X-Robots-Tag: noindex, nofollow, noarchive

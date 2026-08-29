@@ -39,7 +39,7 @@
                 <h2 id="bfa-home-testimonials-title" class="bfa-home__section-title">
                     Our customers are the best. Here's what they have to say.
                 </h2>
-                <HomeTestimonialFade :testimonials="testimonials" />
+                <HomeTestimonialFade />
                 <nuxt-link :to="{ name: 'testimonials' }" class="bfa-home__button bfa-home__button--soft">
                     Read More Testimonials
                 </nuxt-link>
@@ -209,7 +209,7 @@
                     </p>
                     <audio
                         ref="shippingAudio"
-                        src="/images/bedford-shipping-options-voiceover-2026-06-21.mp3"
+                        src="https://img.bedfordfineartgallery.com/images/bedford-shipping-options-voiceover-2026-06-21.mp3"
                         preload="metadata"
                         controls
                     />
@@ -273,10 +273,6 @@ export default {
             required: true,
         },
         soldPaintings: {
-            type: Array,
-            required: true,
-        },
-        testimonials: {
             type: Array,
             required: true,
         },

@@ -169,7 +169,7 @@
             style="padding-top: 24px; width: 100%; margin: 0px auto; background-color: rgba(16, 88, 185, 1)"
         >
             <section class="wrapper" style="max-width: 860px; margin: auto">
-                <TestimonialsScroll :testimonials="testimonials" />
+                <TestimonialsScroll />
             </section>
         </div>
     </div>
@@ -177,13 +177,11 @@
 
 <script>
 import ArtLoversNicheArticlePreview from '~/components/ArtLoversNicheArticlePreview'
-import { loadShortTestimonials } from '~/libs/testimonials'
 import TestimonialsScroll from '~/components/TestimonialsScroll'
 
 export default {
     async asyncData({ $content }) {
         return {
-            testimonials: await loadShortTestimonials($content),
             artLoversNicheArticles: await $content('artLoversNicheArticles').sortBy('date', 'desc').fetch(),
         }
     },

@@ -1,27 +1,34 @@
 <template>
-    <div class="bfa-testimonial-fade" aria-live="polite" @mouseenter="pause" @mouseleave="resume">
-        <div class="bfa-testimonial-fade__content" :class="{ 'is-fading': isFading }">
+    <div
+        class="bfa-testimonial-fade"
+        aria-live="polite"
+        :aria-busy="loading ? 'true' : 'false'"
+        @mouseenter="pause"
+        @mouseleave="resume"
+    >
+        <div v-if="testimonials.length" class="bfa-testimonial-fade__content" :class="{ 'is-fading': isFading }">
             <p class="bfa-testimonial-fade__quote">{{ currentTestimonial.shortTestimonial }}</p>
             <p class="bfa-testimonial-fade__name">{{ currentTestimonial.name }}</p>
         </div>
+        <p v-else-if="loadFailed" class="bfa-testimonial-fade__status">Testimonials are temporarily unavailable.</p>
+        <p v-else class="bfa-testimonial-fade__status">Loading testimonials&hellip;</p>
     </div>
 </template>
 
 <script>
+import { loadShortTestimonialsClient } from '~/libs/testimonials-client'
+
 const FADE_MS = 420
 const MIN_DWELL_MS = 7000
 const MAX_DWELL_MS = 18000
 
 export default {
     name: 'HomeTestimonialFade',
-    props: {
-        testimonials: {
-            type: Array,
-            required: true,
-        },
-    },
     data() {
         return {
+            testimonials: [],
+            loading: true,
+            loadFailed: false,
             currentIndex: 0,
             isFading: false,
             cycleTimer: null,
@@ -39,9 +46,19 @@ export default {
         },
     },
     mounted() {
-        if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-            this.scheduleNext()
-        }
+        loadShortTestimonialsClient()
+            .then((testimonials) => {
+                this.testimonials = testimonials
+                if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                    this.scheduleNext()
+                }
+            })
+            .catch(() => {
+                this.loadFailed = true
+            })
+            .then(() => {
+                this.loading = false
+            })
     },
     beforeDestroy() {
         this.clearTimers()
@@ -98,10 +115,15 @@ export default {
 }
 
 .bfa-testimonial-fade__quote,
-.bfa-testimonial-fade__name {
+.bfa-testimonial-fade__name,
+.bfa-testimonial-fade__status {
     color: #f2f2f2;
     letter-spacing: 0;
     text-align: left;
+}
+
+.bfa-testimonial-fade__status {
+    margin: 0;
 }
 
 .bfa-testimonial-fade__quote {

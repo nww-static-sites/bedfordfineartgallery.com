@@ -1,5 +1,12 @@
 # Redirects from what the browser requests to what we serve
 
+# Static media moved to the gallery asset host - 2026-08-28
+/images/bedford-shipping-options-voiceover-2026-06-21.mp3 https://img.bedfordfineartgallery.com/images/bedford-shipping-options-voiceover-2026-06-21.mp3 301
+/images/luvvoice.com-20251201-j23UN4.mp3 https://img.bedfordfineartgallery.com/images/luvvoice.com-20251201-j23UN4.mp3 301
+/images/shipping_options.png https://img.bedfordfineartgallery.com/images/shipping_options.png 301
+/images/form_img.jpg https://img.bedfordfineartgallery.com/images/form_img.jpg 301
+/images/bedford-fine-art-gallery-logo-v3-250.png https://img.bedfordfineartgallery.com/images/bedford-fine-art-gallery-logo-v3-250.png 301
+
 # CMS slug normalization redirects - 2026-05-20
 /raymond_carter_misty_sails.html /c_myron_clark_sails.html 301
 /frank_harmon_myers_blue_green_deep.html /frank_harmon_myers_seascape.html 301

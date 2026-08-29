@@ -12,12 +12,14 @@
                     <div
                         v-for="(testimonial, index) in testimonials"
                         :id="`testimonial-${index + 1}`"
-                        :key="index"
+                        :key="testimonial.id"
                         style="padding: 0px 10px 10px 10px; border-bottom: 1px solid #dfe1bc"
                     >
                         <p style="text-align: left">"{{ testimonial.longTestimonial }}"</p>
                         <span style="display: block; font-weight: bold; padding-top: 5px">{{ testimonial.name }}</span>
                     </div>
+                    <p v-if="loading" aria-live="polite">Loading testimonials&hellip;</p>
+                    <p v-else-if="loadFailed" aria-live="polite">Testimonials are temporarily unavailable.</p>
 
                     <div class="breadcrumb">
                         <nuxt-link to="/" style="width: 90%; margin: 0 auto 24px auto; max-width: 320px"
@@ -31,13 +33,27 @@
 </template>
 
 <script>
-import { loadLongTestimonials } from '~/libs/testimonials'
+import { loadLongTestimonialsClient } from '~/libs/testimonials-client'
 
 export default {
-    async asyncData({ $content }) {
+    data() {
         return {
-            testimonials: await loadLongTestimonials($content),
+            testimonials: [],
+            loading: true,
+            loadFailed: false,
         }
+    },
+    mounted() {
+        loadLongTestimonialsClient()
+            .then((testimonials) => {
+                this.testimonials = testimonials
+            })
+            .catch(() => {
+                this.loadFailed = true
+            })
+            .then(() => {
+                this.loading = false
+            })
     },
 }
 </script>

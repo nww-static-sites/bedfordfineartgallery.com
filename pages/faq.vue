@@ -587,7 +587,7 @@
         <div class="container footer_test"
             style="padding-top: 24px; width: 100%; margin: 0px auto; background-color: rgba(16, 88, 185, 1)">
             <section class="wrapper" style="max-width: 860px; margin: auto">
-                <TestimonialsScroll :testimonials="testimonials" />
+                <TestimonialsScroll />
             </section>
         </div>
     </div>
@@ -595,16 +595,10 @@
 
 
 <script>
-import { loadShortTestimonials } from '~/libs/testimonials'
 import TestimonialsScroll from '~/components/TestimonialsScroll'
 
 export default {
     components: { TestimonialsScroll },
-    async asyncData({ $content }) {
-        return {
-            testimonials: await loadShortTestimonials($content),
-        }
-    },
     data() {
         return {
             readMore: false,
