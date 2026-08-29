@@ -243,20 +243,7 @@ import HomePressMarquee from '~/components/home/HomePressMarquee'
 import HomeTestimonialFade from '~/components/home/HomeTestimonialFade'
 import HomeYouTube from '~/components/home/HomeYouTube'
 import SoldPaintingsMarquee from '~/components/SoldPaintingsMarquee'
-
-const customerImageFiles = [
-    '1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg',
-    '11.jpg', '12.jpg', '65.jpg', '13.jpg', '14.jpg', '15.jpg', '16.jpg', '17.jpg', '68.jpg', '18.jpg',
-    '19.jpg', '20.jpg', '21.jpg', '22.jpg', '23.jpg', '24.jpg', '67.jpg', '25.jpg', '47.jpg', '64.jpg',
-    '26.jpg', '27.jpg', '28.jpg', '50.jpg', '45.jpg', '29.jpg', '61.jpg', '30.jpg', '31.jpg', '32.jpg',
-    '33.jpg', '46.jpg', '59.jpg', '34.jpg', '35.jpg', '63.jpg', '43.jpg', '49.jpg', '56.jpg', '76.jpg',
-    '36.jpg', '37.jpg', '66.jpg', '38.jpg', '39.jpg', '40.jpg', '58.jpg', '75.jpg', '41.jpg', '42.jpg',
-    '44.jpg', '51.jpg', '52.jpg', '85.jpg', '53.jpg', '80.jpg', '54.jpg', '55.jpg', '57.jpg', '81.jpg',
-    '60.jpg', '62.jpg', '69.jpg', '70.jpg', '71.jpg', '72.jpg', '73.jpg', '74.jpg', '77.jpg', '78.jpg',
-    '79.jpg', '93.jpg', '90.jpg', '91.jpg', '113.jpg', '92.jpg', '108.jpg', '94.jpg', '97.jpg', '98.jpg',
-    '99_zwy5rn.jpg', '111.jpg', '100.jpg', '119.jpg', '103.jpg', '104.jpg', '105.jpg', '106.jpg', '109.jpg', '112.jpg',
-    '115.jpg', '116.jpg', '117.jpg', '118.jpg',
-]
+import customerImageFiles from '~/data/customer-images.json'
 
 export default {
     name: 'HomeRedesign',
