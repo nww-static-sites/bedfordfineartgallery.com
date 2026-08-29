@@ -1,5 +1,6 @@
 const { join } = require('path')
 const fs = require('graceful-fs').promises
+const clientLoadedContentDirectories = new Set(['/testimonials'])
 
 async function collectContentPaths(database, dir, files) {
     let entries = []
@@ -19,7 +20,12 @@ async function collectContentPaths(database, dir, files) {
         const stats = await fs.stat(path)
 
         if (stats.isDirectory()) {
-            database.dirs.push(database.normalizePath(path))
+            const normalizedPath = database.normalizePath(path)
+            if (clientLoadedContentDirectories.has(normalizedPath)) {
+                continue
+            }
+
+            database.dirs.push(normalizedPath)
             await collectContentPaths(database, path, files)
         } else if (stats.isFile()) {
             files.push(path)

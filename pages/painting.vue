@@ -125,7 +125,7 @@
                     >
                         <section class="wrapper" style="width: 90%; max-width: 860px; margin: auto">
                             <div class="home_test">
-                                <TestimonialsScroll :testimonials="testimonials" />
+                                <TestimonialsScroll />
                             </div>
                             <!--#include virtual="testimonials_scroll.html"-->
                         </section>
@@ -147,7 +147,7 @@
                     </div>
                     <audio
                         class="audio-player"
-                        src="/images/bedford-shipping-options-voiceover-2026-06-21.mp3"
+                        src="https://img.bedfordfineartgallery.com/images/bedford-shipping-options-voiceover-2026-06-21.mp3"
                         preload="metadata"
                         controls
                     ></audio>
@@ -236,7 +236,6 @@ import TestimonialsScroll from '~/components/TestimonialsScroll'
 import YouTubeVideo from '~/components/YouTubeVideo'
 import Zoom from '~/components/Zoom'
 import { urlSlugToSlug } from '~/libs/slug'
-import { loadShortTestimonials } from '~/libs/testimonials'
 import { getMetaTitleAndDescriptionAndKeywords } from '~/libs/meta'
 
 const hiddenHighlightTexts = new Set(['custom framing available'])
@@ -250,7 +249,6 @@ export default {
     mixins: [PaintingVisitsMixin],
 
     async asyncData({ $content, route }) {
-        const testimonials = await loadShortTestimonials($content)
         const painting = await $content('paintings', urlSlugToSlug(route.path)).fetch()
         painting.highlights = (painting.highlights || []).filter(isVisibleHighlight)
 
@@ -272,7 +270,7 @@ export default {
                   .fetch()
             : { name: '', tinyDescription: '', slug: '', alias: '', hasLandingPage: false }
 
-        return { painting, testimonials }
+        return { painting }
     },
 
     computed: {

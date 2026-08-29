@@ -2,14 +2,12 @@
     <HomeRedesign
         :scrolling-homepage-images="scrollingHomepageImages"
         :sold-paintings="soldPaintings"
-        :testimonials="testimonials"
     />
 </template>
 
 <script>
 import HomeRedesign from '~/components/home/HomeRedesign'
 import { loadGalleryPaintings } from '~/libs/paintings'
-import { loadShortTestimonials } from '~/libs/testimonials'
 
 export default {
     name: 'HomePage',
@@ -27,7 +25,6 @@ export default {
                 .only(['title', 'slug', 'gridImage', 'gridImageWidth', 'gridImageHeight'])
                 .where({ status: { $eq: 'Sold' } })
                 .fetch(),
-            testimonials: await loadShortTestimonials($content),
         }
     },
     head() {

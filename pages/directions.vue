@@ -34,7 +34,7 @@ Bedford PA 15522<br>
 <section class="wrapper" style="max-width: 860px; margin:auto;">
 
 <div class="home_test">
-                    <TestimonialsScroll :testimonials="testimonials" />
+                    <TestimonialsScroll />
                 </div>
 
 </section>
@@ -301,16 +301,10 @@ for a long, long time.  For the time being, you are one of a kind.</p>
 
 <script>
 import YouTubeVideo from '~/components/YouTubeVideo'
-import { loadShortTestimonials } from '~/libs/testimonials'
 import TestimonialsScroll from '~/components/TestimonialsScroll'
 
 export default {
     components: { TestimonialsScroll, YouTubeVideo },
-    async asyncData({ $content }) {
-        return {
-            testimonials: await loadShortTestimonials($content),
-        }
-    },
 }
 </script>
 
