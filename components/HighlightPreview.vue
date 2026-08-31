@@ -13,7 +13,7 @@
         <div class="highlights_prev">
             <h2>{{ highlight.title }}</h2>
             <p>
-				{{ getPostPreview(highlight.body) }}
+				{{ highlight.preview }}
             </p>
 
             <p><nuxt-link :to="highlight.slug.replace('-html', '.html')" class="readmore">Read More</nuxt-link></p>
@@ -26,8 +26,6 @@
 </template>
 
 <script>
-import { getPostPreview } from '~/libs/post'
-
 export default {
 	props: {
 		highlight: {
@@ -35,6 +33,5 @@ export default {
 			required: true,
 		}
 	},
-	methods: { getPostPreview },
 }
 </script>

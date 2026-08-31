@@ -40,7 +40,6 @@ const artLoversNicheArticles = loadCollection('artLoversNicheArticles')
 
 for (const painting of paintings) {
     expectedRoutes.add(routeOutputFile(painting.slug))
-    expectedRoutes.add(routeOutputFile(painting.slug, 'ipad'))
 }
 
 for (const artist of artists) {
@@ -70,5 +69,5 @@ if (missingRoutes.length > 0) {
 console.log(
     `Generated route validation passed: ${expectedRoutes.size} files ` +
         `(${paintings.length} paintings, ${artists.length} artists, ${articles.length} articles, ` +
-        `${artLoversNicheArticles.length} Art Lovers' Niche articles, and ${paintings.length} iPad paintings).`
+        `${artLoversNicheArticles.length} Art Lovers' Niche articles, and one shared iPad application shell).`
 )

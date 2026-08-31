@@ -94,6 +94,8 @@ sw.*
 .netlify
 featured-painting-slugs.json
 static/data/testimonials.json
+static/data/ipad-paintings-*.json
+static/data/ipad-paintings-manifest.json
 
 # Local migration artifacts
 migration/cloudinary-downloads/

@@ -25,7 +25,7 @@ export default {
                 "defer": true,
                 "type": "application/ld+json"
             },
-            {src:'pixel.js', type: 'text/javascript'}
+            { src: '/pixel.js', type: 'text/javascript' }
         ],
         __dangerouslyDisableSanitizers: ['script'],
     },
@@ -80,6 +80,7 @@ export default {
     },
     router: {
         trailingSlash: false,
+        prefetchLinks: false,
         async extendRoutes(routes, resolve) {
             const { $content } = require('@nuxt/content')
             const dynamicTemplateRouteNames = new Set([
@@ -132,13 +133,10 @@ export default {
                 })
             })
 
-            const ipadPaintings = await $content('paintings').only(['slug']).fetch()
-            ipadPaintings.forEach((ipadPainting) => {
-                routes.push({
-                    name: `ipad-${ipadPainting.slug}`,
-                    path: `/ipad/${ipadPainting.slug.replace('-html', '.html')}`,
-                    component: resolve(__dirname, 'pages/ipad/painting.vue')
-                })
+            routes.push({
+                name: 'ipad-painting-shell',
+                path: '/ipad/:slug',
+                component: resolve(__dirname, 'pages/ipad/index.vue')
             })
 
           }
