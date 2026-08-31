@@ -33,12 +33,24 @@
 <script>
 import HighlightPreview from '~/components/HighlightPreview.vue'
 import TestimonialsScroll from '~/components/TestimonialsScroll'
+import { getPostPreview } from '~/libs/post'
 
 export default {
     components: { HighlightPreview, TestimonialsScroll },
     async asyncData({ $content }) {
+        const highlights = await $content('articles')
+            .only(['slug', 'date', 'title', 'gridImage', 'body'])
+            .sortBy('date', 'desc')
+            .fetch()
+
         return {
-            highlights: await $content('articles').sortBy('date', 'desc').fetch(),
+            highlights: highlights.map(({ slug, date, title, gridImage, body }) => ({
+                slug,
+                date,
+                title,
+                gridImage,
+                preview: getPostPreview(body),
+            })),
         }
     },
 }
