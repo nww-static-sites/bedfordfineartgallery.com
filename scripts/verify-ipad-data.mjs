@@ -12,8 +12,12 @@ function fail(message) {
     process.exit(1)
 }
 
-if (!fs.existsSync(path.join(outputRoot, 'ipad.html'))) {
-    fail('dist/ipad.html is missing')
+if (!fs.existsSync(path.join(outputRoot, 'ipad-shell.html'))) {
+    fail('dist/ipad-shell.html is missing')
+}
+
+if (fs.existsSync(path.join(outputRoot, 'ipad.html'))) {
+    fail('dist/ipad.html would conflict with Netlify pretty-URL normalization')
 }
 
 if (!fs.existsSync(manifestPath)) {
@@ -74,7 +78,7 @@ if (fs.existsSync(generatedIpadDirectory)) {
 }
 
 const redirects = fs.readFileSync(redirectsPath, 'utf8')
-for (const expectedRule of ['/ipad/ /ipad 301!', '/ipad /ipad.html 200!', '/ipad/* /ipad.html 200!']) {
+for (const expectedRule of ['/ipad/ /ipad 301!', '/ipad /ipad-shell.html 200!', '/ipad/* /ipad-shell.html 200!']) {
     if (!redirects.includes(expectedRule)) {
         fail(`missing redirect rule: ${expectedRule}`)
     }

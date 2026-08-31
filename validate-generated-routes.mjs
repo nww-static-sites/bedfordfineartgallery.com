@@ -29,7 +29,7 @@ const expectedRoutes = new Set([
     'notable_sales.html',
     'landscape_artwork.html',
     'victorian_art.html',
-    'ipad.html',
+    'ipad-shell.html',
     path.join('admin', 'index.html'),
 ])
 

@@ -2,8 +2,8 @@
 
 # One kiosk application shell preserves every historical iPad painting URL.
 /ipad/ /ipad 301!
-/ipad /ipad.html 200!
-/ipad/* /ipad.html 200!
+/ipad /ipad-shell.html 200!
+/ipad/* /ipad-shell.html 200!
 
 # Retired duplicate/demo pages - 2026-08-30
 /index-old-april24 / 301!

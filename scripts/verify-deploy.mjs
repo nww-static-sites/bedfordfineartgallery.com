@@ -199,6 +199,24 @@ async function verifyIpadData() {
     console.log(`PASS shared iPad data (${data.paintings.length} paintings)`)
 }
 
+async function verifyIpadCacheHeaders() {
+    const manifestResponse = await fetchWithRetry(`${baseUrl}/data/ipad-paintings-manifest.json?cx_smoke=${cacheBuster}`)
+    const manifest = await manifestResponse.json()
+    const manifestCacheControl = String(manifestResponse.headers.get('cache-control') || '')
+
+    if (!manifestCacheControl.includes('must-revalidate') || manifestCacheControl.includes('immutable')) {
+        throw new Error(`iPad manifest has unsafe cache policy: ${manifestCacheControl}`)
+    }
+
+    const dataResponse = await fetchWithRetry(`${baseUrl}${manifest.file}?cx_smoke=${cacheBuster}`)
+    const dataCacheControl = String(dataResponse.headers.get('cache-control') || '')
+    if (!dataCacheControl.includes('immutable')) {
+        throw new Error(`versioned iPad data is not immutable: ${dataCacheControl}`)
+    }
+
+    console.log('PASS shared iPad cache policies')
+}
+
 async function verifyRemovedAdminAsset(path) {
     const response = await fetch(`${baseUrl}${path}?cx_smoke=${cacheBuster}`, {
         headers: {
@@ -306,6 +324,7 @@ try {
         await verifyPage(check)
     }
     await verifyIpadData()
+    await verifyIpadCacheHeaders()
     await verifyRemovedEndpoint('/.netlify/functions/s3-upload', 'POST')
     await verifyRemovedEndpoint('/.netlify/functions/publish-site')
     await verifyRedirect('/index-old-april24', '/')

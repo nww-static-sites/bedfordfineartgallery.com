@@ -11,7 +11,7 @@
         "test:testimonials": "node scripts/test-testimonial-validation.mjs",
         "verify:customer-alt": "node scripts/verify-customer-alt-text.mjs",
         "verify:customer-images": "node scripts/verify-customer-images.mjs --remote",
-        "generate": "node validate-cms-relations.mjs && node scripts/verify-customer-images.mjs --remote && node scripts/generate-testimonials-data.mjs && node scripts/generate-ipad-data.mjs && rm -rf dist .nuxt/dist/client/content && nuxt generate --modern --fail-on-error && for f in dist/*.htm.html; do mv -- \"$f\" \"${f%.htm.html}.htm\"; done && for f in dist/*.html.html; do mv -- \"$f\" \"${f%.html.html}.html\"; done && node scripts/stamp-deploy-ref.mjs && node validate-generated-routes.mjs && node scripts/verify-testimonials-client-data.mjs && node scripts/verify-ipad-data.mjs",
+        "generate": "node validate-cms-relations.mjs && node scripts/verify-customer-images.mjs --remote && node scripts/generate-testimonials-data.mjs && node scripts/generate-ipad-data.mjs && rm -rf dist .nuxt/dist/client/content && nuxt generate --modern --fail-on-error && for f in dist/*.htm.html; do mv -- \"$f\" \"${f%.htm.html}.htm\"; done && for f in dist/*.html.html; do mv -- \"$f\" \"${f%.html.html}.html\"; done && mv -- dist/ipad.html dist/ipad-shell.html && node scripts/stamp-deploy-ref.mjs && node validate-generated-routes.mjs && node scripts/verify-testimonials-client-data.mjs && node scripts/verify-ipad-data.mjs",
         "verify:deploy": "node scripts/verify-deploy.mjs"
     },
     "lint-staged": {
