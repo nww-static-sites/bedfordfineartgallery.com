@@ -56,7 +56,9 @@ export default {
     components: { ArtistPreview, ArtistNav, TestimonialsScroll },
 
     async asyncData({ $content }) {
-        const artists = await $content('artists').fetch()
+        const artists = await $content('artists')
+            .only(['name', 'slug', 'hasLandingPage', 'tinyDescription', 'paintings'])
+            .fetch()
 
         artists.sort((a, b) => {
             const artistNameA = a.name || ''

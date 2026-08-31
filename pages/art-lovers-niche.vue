@@ -180,12 +180,15 @@ import ArtLoversNicheArticlePreview from '~/components/ArtLoversNicheArticlePrev
 import TestimonialsScroll from '~/components/TestimonialsScroll'
 
 export default {
+    components: { TestimonialsScroll, ArtLoversNicheArticlePreview },
     async asyncData({ $content }) {
         return {
-            artLoversNicheArticles: await $content('artLoversNicheArticles').sortBy('date', 'desc').fetch(),
+            artLoversNicheArticles: await $content('artLoversNicheArticles')
+                .only(['slug', 'date', 'preview'])
+                .sortBy('date', 'desc')
+                .fetch(),
         }
     },
-    components: { TestimonialsScroll, ArtLoversNicheArticlePreview },
 }
 </script>
 

@@ -1,5 +1,18 @@
 # Redirects from what the browser requests to what we serve
 
+# One kiosk application shell preserves every historical iPad painting URL.
+/ipad /ipad-shell.html 200!
+/ipad.html /ipad-shell.html 200!
+/ipad/* /ipad-shell.html 200!
+
+# Retired duplicate/demo pages - 2026-08-30
+/index-old-april24 / 301!
+/index-old-april24.html / 301!
+/customer-images-loop.html / 301!
+/Artists-nav.html /Artists.html 301!
+/artists-search_filter.html /Artists.html 301!
+/testimonials_only.html /testimonials.htm 301!
+
 # Static media moved to the gallery asset host - 2026-08-28
 /images/bedford-shipping-options-voiceover-2026-06-21.mp3 https://img.bedfordfineartgallery.com/images/bedford-shipping-options-voiceover-2026-06-21.mp3 301
 /images/luvvoice.com-20251201-j23UN4.mp3 https://img.bedfordfineartgallery.com/images/luvvoice.com-20251201-j23UN4.mp3 301
@@ -423,6 +436,5 @@
 /auguste_toulmouche_art.html	/auguste_toulmouche_diary.html
 /lila_barr_hetzel_art.html	/lila_barr_hetzel_destiny.html
 /19th_century_italian_or_continental_school_art.html /19th_century_italian_or_continental_school_still_life.html
-/ipad /ipad/
 /e_gruppa_gloucester_harbor.html /e_gruppe_gloucester_harbor.html
 /arthur_burdett_frost_grouse.html /ab_frost_grouse.html

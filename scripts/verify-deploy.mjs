@@ -9,7 +9,19 @@ const productionUrl = String(argumentsByName.get('--production-base') || process
 const commitRef = String(argumentsByName.get('--commit-ref') || process.env.COMMIT_REF || '')
 const context = String(process.env.CONTEXT || 'manual')
 const cacheBuster = Date.now()
-const knownDeadProductionPaths = new Set(['/art-lovers-niche-article', '/artist-bio', '/highlight', '/painting'])
+const knownDeadProductionPaths = new Set([
+    '/art-lovers-niche-article',
+    '/artist-bio',
+    '/highlight',
+    '/painting',
+])
+const knownRetiredPreviewPaths = new Set([
+    '/index-old-april24',
+    '/customer-images-loop.html',
+    '/Artists-nav.html',
+    '/artists-search_filter.html',
+    '/testimonials_only.html',
+])
 
 if (!baseUrl) {
     console.error('Deploy verification requires --base or DEPLOY_PRIME_URL.')
@@ -42,6 +54,10 @@ const checks = [
     { path: '/landscape_artwork.html', includes: ['cx_site-header', 'cx_site-footer'] },
     { path: '/victorian_art.html', includes: ['cx_site-header', 'cx_site-footer'] },
     { path: '/ipad/', includes: ['Bedford Fine Art Gallery'] },
+    { path: '/ipad', includes: ['Bedford Fine Art Gallery'] },
+    { path: '/ipad.html', includes: ['Bedford Fine Art Gallery'] },
+    { path: '/ipad/a_a_glendening_sheep_wagon_path.html', includes: ['Bedford Fine Art Gallery'] },
+    { path: '/ipad/19th_century_italian_or_continental_school_still_life', includes: ['Bedford Fine Art Gallery'] },
     {
         path: '/admin/',
         includes: ['<h1>Unavailable</h1>', 'This login location is no longer available.'],
@@ -132,7 +148,7 @@ async function verifyPage(check) {
     console.log(`PASS ${check.path}`)
 }
 
-async function verifyRetiredEndpoint(path, method = 'GET') {
+async function verifyRemovedEndpoint(path, method = 'GET') {
     const response = await fetch(`${baseUrl}${path}?cx_smoke=${cacheBuster}`, {
         method,
         headers: {
@@ -142,13 +158,67 @@ async function verifyRetiredEndpoint(path, method = 'GET') {
         },
         body: method === 'POST' ? '{}' : undefined,
     })
-    const body = await response.text()
-
-    if (response.status !== 410 || !body.includes('retired')) {
-        throw new Error(`${path} should be retired with HTTP 410; received ${response.status}.`)
+    if (response.status !== 404) {
+        throw new Error(`${path} should be absent with HTTP 404; received ${response.status}.`)
     }
 
-    console.log(`PASS ${path} retired (${response.status})`)
+    console.log(`PASS ${path} removed (${response.status})`)
+}
+
+async function verifyRedirect(path, destination) {
+    const response = await fetch(`${baseUrl}${path}?cx_smoke=${cacheBuster}`, {
+        headers: {
+            'cache-control': 'no-cache',
+            'user-agent': 'Bedford deploy smoke verifier',
+        },
+        redirect: 'manual',
+    })
+    const location = response.headers.get('location')
+    const actualDestination = location ? new URL(location, baseUrl).pathname : ''
+
+    if (response.status !== 301 || actualDestination !== destination) {
+        throw new Error(`${path} should redirect permanently to ${destination}; received ${response.status} ${location}.`)
+    }
+
+    console.log(`PASS ${path} redirects to ${destination} (${response.status})`)
+}
+
+async function verifyIpadData() {
+    const manifestResponse = await fetchWithRetry(`${baseUrl}/data/ipad-paintings-manifest.json?cx_smoke=${cacheBuster}`)
+    const manifest = await manifestResponse.json()
+    const dataResponse = await fetchWithRetry(`${baseUrl}${manifest.file}`)
+    const data = await dataResponse.json()
+
+    if (!Array.isArray(data.paintings) || data.paintings.length !== manifest.paintingCount) {
+        throw new Error('Shared iPad data does not match its manifest.')
+    }
+
+    const knownPainting = data.paintings.find(
+        (painting) => painting.ipadPath === '/ipad/a_a_glendening_sheep_wagon_path.html'
+    )
+    if (!knownPainting || knownPainting.title !== 'Sheep by Wagon Path') {
+        throw new Error('Shared iPad data is missing the known kiosk painting check.')
+    }
+
+    console.log(`PASS shared iPad data (${data.paintings.length} paintings)`)
+}
+
+async function verifyIpadCacheHeaders() {
+    const manifestResponse = await fetchWithRetry(`${baseUrl}/data/ipad-paintings-manifest.json?cx_smoke=${cacheBuster}`)
+    const manifest = await manifestResponse.json()
+    const manifestCacheControl = String(manifestResponse.headers.get('cache-control') || '')
+
+    if (!manifestCacheControl.includes('must-revalidate') || manifestCacheControl.includes('immutable')) {
+        throw new Error(`iPad manifest has unsafe cache policy: ${manifestCacheControl}`)
+    }
+
+    const dataResponse = await fetchWithRetry(`${baseUrl}${manifest.file}?cx_smoke=${cacheBuster}`)
+    const dataCacheControl = String(dataResponse.headers.get('cache-control') || '')
+    if (!dataCacheControl.includes('immutable')) {
+        throw new Error(`versioned iPad data is not immutable: ${dataCacheControl}`)
+    }
+
+    console.log('PASS shared iPad cache policies')
 }
 
 async function verifyRemovedAdminAsset(path) {
@@ -208,7 +278,9 @@ async function verifySitemapSuperset() {
     const previewPaths = sitemapPaths(await previewResponse.text())
     const productionPaths = sitemapPaths(await productionResponse.text())
     const missingPaths = [...productionPaths].filter((route) => !previewPaths.has(route)).sort()
-    const unexpectedMissingPaths = missingPaths.filter((route) => !knownDeadProductionPaths.has(route))
+    const unexpectedMissingPaths = missingPaths.filter(
+        (route) => !knownDeadProductionPaths.has(route) && !knownRetiredPreviewPaths.has(route)
+    )
 
     if (unexpectedMissingPaths.length > 0) {
         throw new Error(
@@ -217,6 +289,7 @@ async function verifySitemapSuperset() {
     }
 
     const removedDeadPaths = missingPaths.filter((route) => knownDeadProductionPaths.has(route))
+    const retiredPreviewPaths = missingPaths.filter((route) => knownRetiredPreviewPaths.has(route))
 
     for (const route of removedDeadPaths) {
         const response = await fetch(`${productionUrl}${route}?cx_smoke=${cacheBuster}`, {
@@ -235,6 +308,10 @@ async function verifySitemapSuperset() {
 
     if (removedDeadPaths.length > 0) {
         console.log(`PASS sitemap dead-route cleanup (${removedDeadPaths.join(', ')})`)
+    }
+
+    if (retiredPreviewPaths.length > 0) {
+        console.log(`PASS sitemap retired-route cleanup (${retiredPreviewPaths.join(', ')})`)
     }
 }
 
@@ -257,8 +334,16 @@ try {
     for (const check of checks) {
         await verifyPage(check)
     }
-    await verifyRetiredEndpoint('/.netlify/functions/s3-upload', 'POST')
-    await verifyRetiredEndpoint('/.netlify/functions/publish-site')
+    await verifyIpadData()
+    await verifyIpadCacheHeaders()
+    await verifyRemovedEndpoint('/.netlify/functions/s3-upload', 'POST')
+    await verifyRemovedEndpoint('/.netlify/functions/publish-site')
+    await verifyRedirect('/index-old-april24', '/')
+    await verifyRedirect('/index-old-april24.html', '/')
+    await verifyRedirect('/customer-images-loop.html', '/')
+    await verifyRedirect('/Artists-nav.html', '/Artists.html')
+    await verifyRedirect('/artists-search_filter.html', '/Artists.html')
+    await verifyRedirect('/testimonials_only.html', '/testimonials.htm')
     await verifyRemovedAdminAsset('/admin/config.yml')
     await verifyRemovedAdminAsset('/admin/bedford-s3-media-library.js')
     await verifyRemovedAdminAsset('/admin/bedford-publish-site.js')
