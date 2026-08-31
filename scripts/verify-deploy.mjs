@@ -52,6 +52,8 @@ const checks = [
     { path: '/landscape_artwork.html', includes: ['cx_site-header', 'cx_site-footer'] },
     { path: '/victorian_art.html', includes: ['cx_site-header', 'cx_site-footer'] },
     { path: '/ipad/', includes: ['Bedford Fine Art Gallery'] },
+    { path: '/ipad', includes: ['Bedford Fine Art Gallery'] },
+    { path: '/ipad.html', includes: ['Bedford Fine Art Gallery'] },
     { path: '/ipad/a_a_glendening_sheep_wagon_path.html', includes: ['Bedford Fine Art Gallery'] },
     { path: '/ipad/19th_century_italian_or_continental_school_still_life', includes: ['Bedford Fine Art Gallery'] },
     {

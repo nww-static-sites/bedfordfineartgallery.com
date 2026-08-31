@@ -78,7 +78,11 @@ if (fs.existsSync(generatedIpadDirectory)) {
 }
 
 const redirects = fs.readFileSync(redirectsPath, 'utf8')
-for (const expectedRule of ['/ipad/ /ipad 301!', '/ipad /ipad-shell.html 200!', '/ipad/* /ipad-shell.html 200!']) {
+for (const expectedRule of [
+    '/ipad /ipad-shell.html 200!',
+    '/ipad.html /ipad-shell.html 200!',
+    '/ipad/* /ipad-shell.html 200!',
+]) {
     if (!redirects.includes(expectedRule)) {
         fail(`missing redirect rule: ${expectedRule}`)
     }
