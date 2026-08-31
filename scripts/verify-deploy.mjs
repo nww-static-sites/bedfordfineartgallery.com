@@ -14,6 +14,8 @@ const knownDeadProductionPaths = new Set([
     '/artist-bio',
     '/highlight',
     '/painting',
+])
+const knownRetiredPreviewPaths = new Set([
     '/index-old-april24',
     '/customer-images-loop.html',
     '/Artists-nav.html',
@@ -276,7 +278,9 @@ async function verifySitemapSuperset() {
     const previewPaths = sitemapPaths(await previewResponse.text())
     const productionPaths = sitemapPaths(await productionResponse.text())
     const missingPaths = [...productionPaths].filter((route) => !previewPaths.has(route)).sort()
-    const unexpectedMissingPaths = missingPaths.filter((route) => !knownDeadProductionPaths.has(route))
+    const unexpectedMissingPaths = missingPaths.filter(
+        (route) => !knownDeadProductionPaths.has(route) && !knownRetiredPreviewPaths.has(route)
+    )
 
     if (unexpectedMissingPaths.length > 0) {
         throw new Error(
@@ -285,6 +289,7 @@ async function verifySitemapSuperset() {
     }
 
     const removedDeadPaths = missingPaths.filter((route) => knownDeadProductionPaths.has(route))
+    const retiredPreviewPaths = missingPaths.filter((route) => knownRetiredPreviewPaths.has(route))
 
     for (const route of removedDeadPaths) {
         const response = await fetch(`${productionUrl}${route}?cx_smoke=${cacheBuster}`, {
@@ -303,6 +308,10 @@ async function verifySitemapSuperset() {
 
     if (removedDeadPaths.length > 0) {
         console.log(`PASS sitemap dead-route cleanup (${removedDeadPaths.join(', ')})`)
+    }
+
+    if (retiredPreviewPaths.length > 0) {
+        console.log(`PASS sitemap retired-route cleanup (${retiredPreviewPaths.join(', ')})`)
     }
 }
 

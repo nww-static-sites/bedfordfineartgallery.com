@@ -115,6 +115,21 @@ export default {
             paintings: [],
         }
     },
+    head() {
+        return {
+            script: [
+                {
+                    hid: 'ipad-trailing-slash-canonicalizer',
+                    innerHTML:
+                        "if (window.location.pathname === '/ipad/') { window.location.replace('/ipad' + window.location.search + window.location.hash) }",
+                    type: 'text/javascript',
+                },
+            ],
+            __dangerouslyDisableSanitizersByTagID: {
+                'ipad-trailing-slash-canonicalizer': ['innerHTML'],
+            },
+        }
+    },
     computed: {
         currentPath() {
             return decodeURIComponent(this.$route.path).replace(/\/$/, '') || '/ipad'
