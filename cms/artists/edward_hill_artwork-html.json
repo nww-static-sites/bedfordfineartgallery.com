@@ -1,12 +1,13 @@
 {
-    "alias" : "",
-   "hasLandingPage": true,
-   "name" : "Edward Hill",
-   "metaTitle": "Edward Hill Paintings For Sale",
-   "metaDescription": "Discover the brilliance of Edward Hill's paintings for sale. Immerse yourself in captivating landscapes and evocative artistry. Own a masterpiece today!",
-   "paintings" : [
-      "edward_hill_sheep-html"
-   ],
-   "slug" : "edward_hill_artwork-html",
-   "tinyDescription" : "American 1843 - 1923"
+  "alias": "",
+  "hasLandingPage": true,
+  "name": "Edward Hill",
+  "metaTitle": "Edward Hill Paintings For Sale",
+  "metaDescription": "Discover the brilliance of Edward Hill's paintings for sale. Immerse yourself in captivating landscapes and evocative artistry. Own a masterpiece today!",
+  "paintings": [
+    "edward_hill_sheep-html",
+    "edward-hill-waterfall-in-autumn-woods-html"
+  ],
+  "slug": "edward_hill_artwork-html",
+  "tinyDescription": "American 1843 - 1923"
 }
