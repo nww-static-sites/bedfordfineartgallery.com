@@ -1,0 +1,430 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Description": "Bedford private immutable static hosting with preview and production CloudFront distributions.",
+  "Parameters": {
+    "SiteBucketName": { "Type": "String" },
+    "LogBucketName": { "Type": "String" },
+    "ApexDomain": { "Type": "String", "Default": "bedfordfineartgallery.com" },
+    "WwwDomain": { "Type": "String", "Default": "www.bedfordfineartgallery.com" },
+    "EnableProductionAliases": { "Type": "String", "Default": "false", "AllowedValues": ["true", "false"] },
+    "CertificateArn": { "Type": "String", "Default": "" }
+  },
+  "Conditions": {
+    "UseProductionAliases": { "Fn::Equals": [{ "Ref": "EnableProductionAliases" }, "true"] }
+  },
+  "Resources": {
+    "SiteBucket": {
+      "Type": "AWS::S3::Bucket",
+      "DeletionPolicy": "Retain",
+      "UpdateReplacePolicy": "Retain",
+      "Properties": {
+        "BucketName": { "Ref": "SiteBucketName" },
+        "BucketEncryption": {
+          "ServerSideEncryptionConfiguration": [
+            { "ServerSideEncryptionByDefault": { "SSEAlgorithm": "AES256" } }
+          ]
+        },
+        "OwnershipControls": { "Rules": [{ "ObjectOwnership": "BucketOwnerEnforced" }] },
+        "PublicAccessBlockConfiguration": {
+          "BlockPublicAcls": true,
+          "BlockPublicPolicy": true,
+          "IgnorePublicAcls": true,
+          "RestrictPublicBuckets": true
+        },
+        "VersioningConfiguration": { "Status": "Enabled" },
+        "LifecycleConfiguration": {
+          "Rules": [
+            {
+              "Id": "BoundNoncurrentVersionsAndMultipartUploads",
+              "Status": "Enabled",
+              "NoncurrentVersionExpiration": { "NoncurrentDays": 30 },
+              "AbortIncompleteMultipartUpload": { "DaysAfterInitiation": 1 }
+            }
+          ]
+        },
+        "Tags": [
+          { "Key": "Project", "Value": "BedfordContentHosting" },
+          { "Key": "Purpose", "Value": "PrivateStaticSiteReleases" }
+        ]
+      }
+    },
+    "LogBucket": {
+      "Type": "AWS::S3::Bucket",
+      "DeletionPolicy": "Retain",
+      "UpdateReplacePolicy": "Retain",
+      "Properties": {
+        "BucketName": { "Ref": "LogBucketName" },
+        "AccessControl": "LogDeliveryWrite",
+        "BucketEncryption": {
+          "ServerSideEncryptionConfiguration": [
+            { "ServerSideEncryptionByDefault": { "SSEAlgorithm": "AES256" } }
+          ]
+        },
+        "OwnershipControls": { "Rules": [{ "ObjectOwnership": "BucketOwnerPreferred" }] },
+        "PublicAccessBlockConfiguration": {
+          "BlockPublicAcls": true,
+          "BlockPublicPolicy": true,
+          "IgnorePublicAcls": true,
+          "RestrictPublicBuckets": true
+        },
+        "LifecycleConfiguration": {
+          "Rules": [
+            { "Id": "ExpireRawCloudFrontLogs", "Status": "Enabled", "ExpirationInDays": 30 }
+          ]
+        },
+        "Tags": [
+          { "Key": "Project", "Value": "BedfordContentHosting" },
+          { "Key": "Purpose", "Value": "CloudFrontAccessLogs" }
+        ]
+      }
+    },
+    "OriginAccessControl": {
+      "Type": "AWS::CloudFront::OriginAccessControl",
+      "Properties": {
+        "OriginAccessControlConfig": {
+          "Name": "bedford-private-site-files-oac-v1",
+          "Description": "Signed CloudFront access to the private Bedford site-files bucket.",
+          "OriginAccessControlOriginType": "s3",
+          "SigningBehavior": "always",
+          "SigningProtocol": "sigv4"
+        }
+      }
+    },
+    "PreviewKeyValueStore": {
+      "Type": "AWS::CloudFront::KeyValueStore",
+      "Properties": {
+        "Name": "bedford-preview-routing-v1",
+        "Comment": "Preview active release and exact Bedford redirect data.",
+        "Tags": [{ "Key": "Project", "Value": "BedfordContentHosting" }]
+      }
+    },
+    "ProductionKeyValueStore": {
+      "Type": "AWS::CloudFront::KeyValueStore",
+      "Properties": {
+        "Name": "bedford-production-routing-v1",
+        "Comment": "Production active release and exact Bedford redirect data.",
+        "Tags": [{ "Key": "Project", "Value": "BedfordContentHosting" }]
+      }
+    },
+    "PreviewFunction": {
+      "Type": "AWS::CloudFront::Function",
+      "Properties": {
+        "Name": "bedford-preview-router-v1",
+        "AutoPublish": true,
+        "FunctionCode": "__FUNCTION_CODE__",
+        "FunctionConfig": {
+          "Comment": "Preview canonical redirects, route mapping, and immutable release selection.",
+          "Runtime": "cloudfront-js-2.0",
+          "KeyValueStoreAssociations": [{ "KeyValueStoreARN": { "Fn::GetAtt": ["PreviewKeyValueStore", "Arn"] } }]
+        },
+        "Tags": [{ "Key": "Project", "Value": "BedfordContentHosting" }]
+      }
+    },
+    "ProductionFunction": {
+      "Type": "AWS::CloudFront::Function",
+      "Properties": {
+        "Name": "bedford-production-router-v1",
+        "AutoPublish": true,
+        "FunctionCode": "__FUNCTION_CODE__",
+        "FunctionConfig": {
+          "Comment": "Production canonical redirects, route mapping, and immutable release selection.",
+          "Runtime": "cloudfront-js-2.0",
+          "KeyValueStoreAssociations": [{ "KeyValueStoreARN": { "Fn::GetAtt": ["ProductionKeyValueStore", "Arn"] } }]
+        },
+        "Tags": [{ "Key": "Project", "Value": "BedfordContentHosting" }]
+      }
+    },
+    "OriginAwareCachePolicy": {
+      "Type": "AWS::CloudFront::CachePolicy",
+      "Properties": {
+        "CachePolicyConfig": {
+          "Name": "bedford-origin-aware-v1",
+          "Comment": "Honor Bedford origin cache metadata without query/cookie/header cache variance.",
+          "MinTTL": 0,
+          "DefaultTTL": 0,
+          "MaxTTL": 31536000,
+          "ParametersInCacheKeyAndForwardedToOrigin": {
+            "EnableAcceptEncodingBrotli": true,
+            "EnableAcceptEncodingGzip": true,
+            "CookiesConfig": { "CookieBehavior": "none" },
+            "HeadersConfig": { "HeaderBehavior": "none" },
+            "QueryStringsConfig": { "QueryStringBehavior": "none" }
+          }
+        }
+      }
+    },
+    "ImmutableCachePolicy": {
+      "Type": "AWS::CloudFront::CachePolicy",
+      "Properties": {
+        "CachePolicyConfig": {
+          "Name": "bedford-immutable-v1",
+          "Comment": "One-year caching for content-addressed generated assets.",
+          "MinTTL": 31536000,
+          "DefaultTTL": 31536000,
+          "MaxTTL": 31536000,
+          "ParametersInCacheKeyAndForwardedToOrigin": {
+            "EnableAcceptEncodingBrotli": true,
+            "EnableAcceptEncodingGzip": true,
+            "CookiesConfig": { "CookieBehavior": "none" },
+            "HeadersConfig": { "HeaderBehavior": "none" },
+            "QueryStringsConfig": { "QueryStringBehavior": "none" }
+          }
+        }
+      }
+    },
+    "RevalidateCachePolicy": {
+      "Type": "AWS::CloudFront::CachePolicy",
+      "Properties": {
+        "CachePolicyConfig": {
+          "Name": "bedford-revalidate-v1",
+          "Comment": "Revalidate stable manifests and administrative content.",
+          "MinTTL": 0,
+          "DefaultTTL": 0,
+          "MaxTTL": 0,
+          "ParametersInCacheKeyAndForwardedToOrigin": {
+            "EnableAcceptEncodingBrotli": false,
+            "EnableAcceptEncodingGzip": false,
+            "CookiesConfig": { "CookieBehavior": "none" },
+            "HeadersConfig": { "HeaderBehavior": "none" },
+            "QueryStringsConfig": { "QueryStringBehavior": "none" }
+          }
+        }
+      }
+    },
+    "DefaultResponseHeadersPolicy": {
+      "Type": "AWS::CloudFront::ResponseHeadersPolicy",
+      "Properties": {
+        "ResponseHeadersPolicyConfig": {
+          "Name": "bedford-default-headers-v1",
+          "Comment": "Preserve the Bedford HSTS contract during the hosting migration.",
+          "SecurityHeadersConfig": {
+            "StrictTransportSecurity": {
+              "AccessControlMaxAgeSec": 31536000,
+              "IncludeSubdomains": false,
+              "Preload": false,
+              "Override": true
+            }
+          }
+        }
+      }
+    },
+    "AdminResponseHeadersPolicy": {
+      "Type": "AWS::CloudFront::ResponseHeadersPolicy",
+      "Properties": {
+        "ResponseHeadersPolicyConfig": {
+          "Name": "bedford-admin-headers-v1",
+          "Comment": "Keep the retired admin location out of indexes and caches.",
+          "CustomHeadersConfig": {
+            "Items": [
+              { "Header": "X-Robots-Tag", "Value": "noindex, nofollow, noarchive", "Override": true },
+              { "Header": "Cache-Control", "Value": "no-store,max-age=0", "Override": true }
+            ]
+          },
+          "SecurityHeadersConfig": {
+            "StrictTransportSecurity": {
+              "AccessControlMaxAgeSec": 31536000,
+              "IncludeSubdomains": false,
+              "Preload": false,
+              "Override": true
+            }
+          }
+        }
+      }
+    },
+    "PreviewDistribution": {
+      "Type": "AWS::CloudFront::Distribution",
+      "Properties": {
+        "DistributionConfig": {
+          "Comment": "Bedford immutable static-site preview",
+          "Enabled": true,
+          "HttpVersion": "http2and3",
+          "IPV6Enabled": true,
+          "PriceClass": "PriceClass_All",
+          "Origins": [
+            {
+              "Id": "PrivateSiteBucket",
+              "DomainName": { "Fn::GetAtt": ["SiteBucket", "RegionalDomainName"] },
+              "OriginAccessControlId": { "Fn::GetAtt": ["OriginAccessControl", "Id"] },
+              "S3OriginConfig": { "OriginAccessIdentity": "" }
+            }
+          ],
+          "DefaultCacheBehavior": {
+            "TargetOriginId": "PrivateSiteBucket",
+            "ViewerProtocolPolicy": "redirect-to-https",
+            "AllowedMethods": ["GET", "HEAD", "OPTIONS"],
+            "CachedMethods": ["GET", "HEAD", "OPTIONS"],
+            "Compress": true,
+            "CachePolicyId": { "Ref": "OriginAwareCachePolicy" },
+            "ResponseHeadersPolicyId": { "Ref": "DefaultResponseHeadersPolicy" },
+            "FunctionAssociations": [
+              { "EventType": "viewer-request", "FunctionARN": { "Fn::GetAtt": ["PreviewFunction", "FunctionARN"] } }
+            ]
+          },
+          "CacheBehaviors": [
+            { "PathPattern": "/_nuxt/static/*", "TargetOriginId": "PrivateSiteBucket", "ViewerProtocolPolicy": "redirect-to-https", "AllowedMethods": ["GET", "HEAD", "OPTIONS"], "CachedMethods": ["GET", "HEAD", "OPTIONS"], "Compress": true, "CachePolicyId": { "Ref": "RevalidateCachePolicy" }, "ResponseHeadersPolicyId": { "Ref": "DefaultResponseHeadersPolicy" }, "FunctionAssociations": [{ "EventType": "viewer-request", "FunctionARN": { "Fn::GetAtt": ["PreviewFunction", "FunctionARN"] } }] },
+            { "PathPattern": "/_nuxt/*", "TargetOriginId": "PrivateSiteBucket", "ViewerProtocolPolicy": "redirect-to-https", "AllowedMethods": ["GET", "HEAD", "OPTIONS"], "CachedMethods": ["GET", "HEAD", "OPTIONS"], "Compress": true, "CachePolicyId": { "Ref": "ImmutableCachePolicy" }, "ResponseHeadersPolicyId": { "Ref": "DefaultResponseHeadersPolicy" }, "FunctionAssociations": [{ "EventType": "viewer-request", "FunctionARN": { "Fn::GetAtt": ["PreviewFunction", "FunctionARN"] } }] },
+            { "PathPattern": "/data/ipad-paintings-manifest.json", "TargetOriginId": "PrivateSiteBucket", "ViewerProtocolPolicy": "redirect-to-https", "AllowedMethods": ["GET", "HEAD", "OPTIONS"], "CachedMethods": ["GET", "HEAD", "OPTIONS"], "Compress": true, "CachePolicyId": { "Ref": "RevalidateCachePolicy" }, "ResponseHeadersPolicyId": { "Ref": "DefaultResponseHeadersPolicy" }, "FunctionAssociations": [{ "EventType": "viewer-request", "FunctionARN": { "Fn::GetAtt": ["PreviewFunction", "FunctionARN"] } }] },
+            { "PathPattern": "/data/ipad-paintings-*.json", "TargetOriginId": "PrivateSiteBucket", "ViewerProtocolPolicy": "redirect-to-https", "AllowedMethods": ["GET", "HEAD", "OPTIONS"], "CachedMethods": ["GET", "HEAD", "OPTIONS"], "Compress": true, "CachePolicyId": { "Ref": "ImmutableCachePolicy" }, "ResponseHeadersPolicyId": { "Ref": "DefaultResponseHeadersPolicy" }, "FunctionAssociations": [{ "EventType": "viewer-request", "FunctionARN": { "Fn::GetAtt": ["PreviewFunction", "FunctionARN"] } }] },
+            { "PathPattern": "/data/testimonials.json", "TargetOriginId": "PrivateSiteBucket", "ViewerProtocolPolicy": "redirect-to-https", "AllowedMethods": ["GET", "HEAD", "OPTIONS"], "CachedMethods": ["GET", "HEAD", "OPTIONS"], "Compress": true, "CachePolicyId": { "Ref": "RevalidateCachePolicy" }, "ResponseHeadersPolicyId": { "Ref": "DefaultResponseHeadersPolicy" }, "FunctionAssociations": [{ "EventType": "viewer-request", "FunctionARN": { "Fn::GetAtt": ["PreviewFunction", "FunctionARN"] } }] },
+            { "PathPattern": "/admin/*", "TargetOriginId": "PrivateSiteBucket", "ViewerProtocolPolicy": "redirect-to-https", "AllowedMethods": ["GET", "HEAD", "OPTIONS"], "CachedMethods": ["GET", "HEAD", "OPTIONS"], "Compress": true, "CachePolicyId": { "Ref": "RevalidateCachePolicy" }, "ResponseHeadersPolicyId": { "Ref": "AdminResponseHeadersPolicy" }, "FunctionAssociations": [{ "EventType": "viewer-request", "FunctionARN": { "Fn::GetAtt": ["PreviewFunction", "FunctionARN"] } }] }
+          ],
+          "CustomErrorResponses": [
+            { "ErrorCode": 403, "ResponseCode": 404, "ResponsePagePath": "/errors/404.html", "ErrorCachingMinTTL": 10 },
+            { "ErrorCode": 404, "ResponseCode": 404, "ResponsePagePath": "/errors/404.html", "ErrorCachingMinTTL": 10 }
+          ],
+          "Logging": { "Bucket": { "Fn::GetAtt": ["LogBucket", "DomainName"] }, "IncludeCookies": false, "Prefix": "preview/" },
+          "ViewerCertificate": { "CloudFrontDefaultCertificate": true }
+        },
+        "Tags": [{ "Key": "Project", "Value": "BedfordContentHosting" }, { "Key": "Environment", "Value": "Preview" }]
+      }
+    },
+    "ProductionDistribution": {
+      "Type": "AWS::CloudFront::Distribution",
+      "Properties": {
+        "DistributionConfig": {
+          "Aliases": { "Fn::If": ["UseProductionAliases", [{ "Ref": "ApexDomain" }, { "Ref": "WwwDomain" }], { "Ref": "AWS::NoValue" }] },
+          "Comment": "Bedford immutable static-site production",
+          "Enabled": true,
+          "HttpVersion": "http2and3",
+          "IPV6Enabled": true,
+          "PriceClass": "PriceClass_All",
+          "Origins": [
+            {
+              "Id": "PrivateSiteBucket",
+              "DomainName": { "Fn::GetAtt": ["SiteBucket", "RegionalDomainName"] },
+              "OriginAccessControlId": { "Fn::GetAtt": ["OriginAccessControl", "Id"] },
+              "S3OriginConfig": { "OriginAccessIdentity": "" }
+            }
+          ],
+          "DefaultCacheBehavior": {
+            "TargetOriginId": "PrivateSiteBucket",
+            "ViewerProtocolPolicy": "redirect-to-https",
+            "AllowedMethods": ["GET", "HEAD", "OPTIONS"],
+            "CachedMethods": ["GET", "HEAD", "OPTIONS"],
+            "Compress": true,
+            "CachePolicyId": { "Ref": "OriginAwareCachePolicy" },
+            "ResponseHeadersPolicyId": { "Ref": "DefaultResponseHeadersPolicy" },
+            "FunctionAssociations": [
+              { "EventType": "viewer-request", "FunctionARN": { "Fn::GetAtt": ["ProductionFunction", "FunctionARN"] } }
+            ]
+          },
+          "CacheBehaviors": [
+            { "PathPattern": "/_nuxt/static/*", "TargetOriginId": "PrivateSiteBucket", "ViewerProtocolPolicy": "redirect-to-https", "AllowedMethods": ["GET", "HEAD", "OPTIONS"], "CachedMethods": ["GET", "HEAD", "OPTIONS"], "Compress": true, "CachePolicyId": { "Ref": "RevalidateCachePolicy" }, "ResponseHeadersPolicyId": { "Ref": "DefaultResponseHeadersPolicy" }, "FunctionAssociations": [{ "EventType": "viewer-request", "FunctionARN": { "Fn::GetAtt": ["ProductionFunction", "FunctionARN"] } }] },
+            { "PathPattern": "/_nuxt/*", "TargetOriginId": "PrivateSiteBucket", "ViewerProtocolPolicy": "redirect-to-https", "AllowedMethods": ["GET", "HEAD", "OPTIONS"], "CachedMethods": ["GET", "HEAD", "OPTIONS"], "Compress": true, "CachePolicyId": { "Ref": "ImmutableCachePolicy" }, "ResponseHeadersPolicyId": { "Ref": "DefaultResponseHeadersPolicy" }, "FunctionAssociations": [{ "EventType": "viewer-request", "FunctionARN": { "Fn::GetAtt": ["ProductionFunction", "FunctionARN"] } }] },
+            { "PathPattern": "/data/ipad-paintings-manifest.json", "TargetOriginId": "PrivateSiteBucket", "ViewerProtocolPolicy": "redirect-to-https", "AllowedMethods": ["GET", "HEAD", "OPTIONS"], "CachedMethods": ["GET", "HEAD", "OPTIONS"], "Compress": true, "CachePolicyId": { "Ref": "RevalidateCachePolicy" }, "ResponseHeadersPolicyId": { "Ref": "DefaultResponseHeadersPolicy" }, "FunctionAssociations": [{ "EventType": "viewer-request", "FunctionARN": { "Fn::GetAtt": ["ProductionFunction", "FunctionARN"] } }] },
+            { "PathPattern": "/data/ipad-paintings-*.json", "TargetOriginId": "PrivateSiteBucket", "ViewerProtocolPolicy": "redirect-to-https", "AllowedMethods": ["GET", "HEAD", "OPTIONS"], "CachedMethods": ["GET", "HEAD", "OPTIONS"], "Compress": true, "CachePolicyId": { "Ref": "ImmutableCachePolicy" }, "ResponseHeadersPolicyId": { "Ref": "DefaultResponseHeadersPolicy" }, "FunctionAssociations": [{ "EventType": "viewer-request", "FunctionARN": { "Fn::GetAtt": ["ProductionFunction", "FunctionARN"] } }] },
+            { "PathPattern": "/data/testimonials.json", "TargetOriginId": "PrivateSiteBucket", "ViewerProtocolPolicy": "redirect-to-https", "AllowedMethods": ["GET", "HEAD", "OPTIONS"], "CachedMethods": ["GET", "HEAD", "OPTIONS"], "Compress": true, "CachePolicyId": { "Ref": "RevalidateCachePolicy" }, "ResponseHeadersPolicyId": { "Ref": "DefaultResponseHeadersPolicy" }, "FunctionAssociations": [{ "EventType": "viewer-request", "FunctionARN": { "Fn::GetAtt": ["ProductionFunction", "FunctionARN"] } }] },
+            { "PathPattern": "/admin/*", "TargetOriginId": "PrivateSiteBucket", "ViewerProtocolPolicy": "redirect-to-https", "AllowedMethods": ["GET", "HEAD", "OPTIONS"], "CachedMethods": ["GET", "HEAD", "OPTIONS"], "Compress": true, "CachePolicyId": { "Ref": "RevalidateCachePolicy" }, "ResponseHeadersPolicyId": { "Ref": "AdminResponseHeadersPolicy" }, "FunctionAssociations": [{ "EventType": "viewer-request", "FunctionARN": { "Fn::GetAtt": ["ProductionFunction", "FunctionARN"] } }] }
+          ],
+          "CustomErrorResponses": [
+            { "ErrorCode": 403, "ResponseCode": 404, "ResponsePagePath": "/errors/404.html", "ErrorCachingMinTTL": 10 },
+            { "ErrorCode": 404, "ResponseCode": 404, "ResponsePagePath": "/errors/404.html", "ErrorCachingMinTTL": 10 }
+          ],
+          "Logging": { "Bucket": { "Fn::GetAtt": ["LogBucket", "DomainName"] }, "IncludeCookies": false, "Prefix": "production/" },
+          "ViewerCertificate": {
+            "Fn::If": [
+              "UseProductionAliases",
+              { "AcmCertificateArn": { "Ref": "CertificateArn" }, "MinimumProtocolVersion": "TLSv1.2_2021", "SslSupportMethod": "sni-only" },
+              { "CloudFrontDefaultCertificate": true }
+            ]
+          }
+        },
+        "Tags": [{ "Key": "Project", "Value": "BedfordContentHosting" }, { "Key": "Environment", "Value": "Production" }]
+      }
+    },
+    "SiteBucketPolicy": {
+      "Type": "AWS::S3::BucketPolicy",
+      "Properties": {
+        "Bucket": { "Ref": "SiteBucket" },
+        "PolicyDocument": {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Sid": "AllowPreviewCloudFrontRead",
+              "Effect": "Allow",
+              "Principal": { "Service": "cloudfront.amazonaws.com" },
+              "Action": "s3:GetObject",
+              "Resource": { "Fn::Sub": "${SiteBucket.Arn}/*" },
+              "Condition": { "StringEquals": { "AWS:SourceArn": { "Fn::Sub": "arn:${AWS::Partition}:cloudfront::${AWS::AccountId}:distribution/${PreviewDistribution}" } } }
+            },
+            {
+              "Sid": "AllowProductionCloudFrontRead",
+              "Effect": "Allow",
+              "Principal": { "Service": "cloudfront.amazonaws.com" },
+              "Action": "s3:GetObject",
+              "Resource": { "Fn::Sub": "${SiteBucket.Arn}/*" },
+              "Condition": { "StringEquals": { "AWS:SourceArn": { "Fn::Sub": "arn:${AWS::Partition}:cloudfront::${AWS::AccountId}:distribution/${ProductionDistribution}" } } }
+            }
+          ]
+        }
+      }
+    },
+    "PreviewFiveXxAlarm": {
+      "Type": "AWS::CloudWatch::Alarm",
+      "Properties": {
+        "AlarmName": "bedford-preview-cloudfront-5xx-rate",
+        "AlarmDescription": "Bedford preview CloudFront 5xx rate exceeds five percent.",
+        "Namespace": "AWS/CloudFront",
+        "MetricName": "5xxErrorRate",
+        "Dimensions": [{ "Name": "DistributionId", "Value": { "Ref": "PreviewDistribution" } }, { "Name": "Region", "Value": "Global" }],
+        "Statistic": "Average",
+        "Period": 300,
+        "EvaluationPeriods": 2,
+        "Threshold": 5,
+        "ComparisonOperator": "GreaterThanThreshold",
+        "TreatMissingData": "notBreaching"
+      }
+    },
+    "ProductionFiveXxAlarm": {
+      "Type": "AWS::CloudWatch::Alarm",
+      "Properties": {
+        "AlarmName": "bedford-production-cloudfront-5xx-rate",
+        "AlarmDescription": "Bedford production CloudFront 5xx rate exceeds five percent.",
+        "Namespace": "AWS/CloudFront",
+        "MetricName": "5xxErrorRate",
+        "Dimensions": [{ "Name": "DistributionId", "Value": { "Ref": "ProductionDistribution" } }, { "Name": "Region", "Value": "Global" }],
+        "Statistic": "Average",
+        "Period": 300,
+        "EvaluationPeriods": 2,
+        "Threshold": 5,
+        "ComparisonOperator": "GreaterThanThreshold",
+        "TreatMissingData": "notBreaching"
+      }
+    },
+    "BedfordFiveDollarBudget": {
+      "Type": "AWS::Budgets::Budget",
+      "Properties": {
+        "Budget": {
+          "BudgetName": "bedford-content-hosting-warning-5",
+          "BudgetLimit": { "Amount": 5, "Unit": "USD" },
+          "BudgetType": "COST",
+          "TimeUnit": "MONTHLY",
+          "CostFilters": { "TagKeyValue": ["user:Project$BedfordContentHosting"] }
+        }
+      }
+    },
+    "BedfordTenDollarBudget": {
+      "Type": "AWS::Budgets::Budget",
+      "Properties": {
+        "Budget": {
+          "BudgetName": "bedford-content-hosting-ceiling-10",
+          "BudgetLimit": { "Amount": 10, "Unit": "USD" },
+          "BudgetType": "COST",
+          "TimeUnit": "MONTHLY",
+          "CostFilters": { "TagKeyValue": ["user:Project$BedfordContentHosting"] }
+        }
+      }
+    }
+  },
+  "Outputs": {
+    "SiteBucketName": { "Value": { "Ref": "SiteBucket" } },
+    "LogBucketName": { "Value": { "Ref": "LogBucket" } },
+    "PreviewDistributionId": { "Value": { "Ref": "PreviewDistribution" } },
+    "PreviewDomainName": { "Value": { "Fn::GetAtt": ["PreviewDistribution", "DomainName"] } },
+    "PreviewKeyValueStoreArn": { "Value": { "Fn::GetAtt": ["PreviewKeyValueStore", "Arn"] } },
+    "ProductionDistributionId": { "Value": { "Ref": "ProductionDistribution" } },
+    "ProductionDomainName": { "Value": { "Fn::GetAtt": ["ProductionDistribution", "DomainName"] } },
+    "ProductionKeyValueStoreArn": { "Value": { "Fn::GetAtt": ["ProductionKeyValueStore", "Arn"] } },
+    "ProductionAliasesEnabled": { "Value": { "Ref": "EnableProductionAliases" } }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "ListBedfordSiteFilesOnly",
+      "Effect": "Allow",
+      "Action": [
+        "s3:GetBucketLocation",
+        "s3:ListBucket"
+      ],
+      "Resource": "arn:aws:s3:::bedford-site-files-775735255405-us-east-1",
+      "Condition": {
+        "StringLike": {
+          "s3:prefix": [
+            "releases/*",
+            "control/*",
+            "errors/*"
+          ]
+        }
+      }
+    },
+    {
+      "Sid": "PublishImmutableBedfordReleases",
+      "Effect": "Allow",
+      "Action": [
+        "s3:GetObject",
+        "s3:PutObject"
+      ],
+      "Resource": [
+        "arn:aws:s3:::bedford-site-files-775735255405-us-east-1/releases/*",
+        "arn:aws:s3:::bedford-site-files-775735255405-us-east-1/control/*",
+        "arn:aws:s3:::bedford-site-files-775735255405-us-east-1/errors/*"
+      ]
+    },
+    {
+      "Sid": "CleanupOnlyBedfordReleaseAndControlObjects",
+      "Effect": "Allow",
+      "Action": "s3:DeleteObject",
+      "Resource": [
+        "arn:aws:s3:::bedford-site-files-775735255405-us-east-1/releases/*",
+        "arn:aws:s3:::bedford-site-files-775735255405-us-east-1/control/*"
+      ]
+    },
+    {
+      "Sid": "ReadAndAtomicallyUpdateBedfordRoutingStores",
+      "Effect": "Allow",
+      "Action": [
+        "cloudfront-keyvaluestore:DescribeKeyValueStore",
+        "cloudfront-keyvaluestore:GetKey",
+        "cloudfront-keyvaluestore:ListKeys",
+        "cloudfront-keyvaluestore:PutKey",
+        "cloudfront-keyvaluestore:UpdateKeys"
+      ],
+      "Resource": [
+        "arn:aws:cloudfront::775735255405:key-value-store/58fa29d7-1dbb-406b-af6d-2796566a2d6e",
+        "arn:aws:cloudfront::775735255405:key-value-store/2043d3ba-fe3f-4fa7-a51c-271e3a58c627"
+      ]
+    },
+    {
+      "Sid": "ReadBedfordDistributionState",
+      "Effect": "Allow",
+      "Action": [
+        "cloudfront:GetDistribution",
+        "cloudfront:GetDistributionConfig"
+      ],
+      "Resource": [
+        "arn:aws:cloudfront::775735255405:distribution/EI5DPQPVUWVRF",
+        "arn:aws:cloudfront::775735255405:distribution/EUBYSFF1RVQRT"
+      ]
+    },
+    {
+      "Sid": "IdentifyPublisherCredential",
+      "Effect": "Allow",
+      "Action": "sts:GetCallerIdentity",
+      "Resource": "*"
+    }
+  ]
+}
