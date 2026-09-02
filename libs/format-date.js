@@ -1,5 +1,9 @@
-import { format } from 'date-fns'
+const displayDateFormatter = new Intl.DateTimeFormat('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+})
 
 export const formatDateNoTime = function (utcString) {
-    return utcString ? format(new Date(utcString), 'PP') : null
+    return utcString ? displayDateFormatter.format(new Date(utcString)) : null
 }
