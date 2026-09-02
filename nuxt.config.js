@@ -54,21 +54,13 @@ export default {
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [
         '@nuxtjs/markdownit',
-        // https://go.nuxtjs.dev/axios
-        '@nuxtjs/axios',
         '~/modules/cx-stable-content',
-        '@nuxt/content',
+        '~/modules/cx-build-only-content',
         'nuxt-interpolation',
         '@nuxtjs/sitemap',
     ],
     content: {
         dir: 'cms',
-    },
-
-    // Axios module configuration: https://go.nuxtjs.dev/config-axios
-    axios: {
-        // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-        baseURL: '/',
     },
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
