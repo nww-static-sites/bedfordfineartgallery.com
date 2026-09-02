@@ -14,6 +14,8 @@ const values = new Map([
 const source = fs.readFileSync(path.join(root, 'cloudfront-function.js'), 'utf8')
     .replace("import cf from 'cloudfront';", '')
     .concat('\nglobalThis.__handler = handler;\n')
+assert.ok(!/for\s*\([^;)]*\sof\s/.test(source), 'CloudFront runtime does not support for-of loops')
+assert.ok(!/\w+\(\s*await\s/.test(source), 'CloudFront runtime does not support await inside arguments')
 const context = {
     cf: { kvs: () => ({ get: async (key) => {
         if (!values.has(key)) throw new Error('missing')
@@ -32,6 +34,7 @@ assert.equal((await request('/')).uri, `/releases/${active}/index.html`)
 assert.equal((await request('/Artists')).uri, `/releases/${active}/Artists.html`)
 assert.equal((await request('/Artists.html')).uri, `/releases/${active}/Artists.html`)
 assert.equal((await request('/admin/')).uri, `/releases/${active}/admin/index.html`)
+assert.equal((await request('/errors/404.html')).uri, '/errors/404.html')
 assert.equal((await request('/ipad/george_t_hetzel.html')).uri, `/releases/${active}/ipad-shell.html`)
 assert.equal((await request('/highlights_article_15.html-1')).uri, `/releases/${active}/highlights_article_15.html`)
 assert.equal((await request('/old.html')).headers.location.value, '/new.html')

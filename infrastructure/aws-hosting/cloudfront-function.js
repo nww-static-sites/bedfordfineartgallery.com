@@ -5,12 +5,15 @@ const releasePattern = /^[0-9a-f]{40}$/;
 
 function serializedQuery(querystring) {
     const pairs = [];
-    for (const key of Object.keys(querystring || {})) {
+    const keys = Object.keys(querystring || {});
+    for (let keyIndex = 0; keyIndex < keys.length; keyIndex += 1) {
+        const key = keys[keyIndex];
         const entry = querystring[key] || {};
         const values = Array.isArray(entry.multiValue)
             ? entry.multiValue.map((item) => item.value)
             : [entry.value];
-        for (const value of values) {
+        for (let valueIndex = 0; valueIndex < values.length; valueIndex += 1) {
+            const value = values[valueIndex];
             pairs.push(`${encodeURIComponent(key)}=${encodeURIComponent(value || '')}`);
         }
     }
@@ -36,7 +39,10 @@ function redirect(location, querystring, statusCode) {
 
 async function optionalRedirect(activeRelease, uri) {
     try {
-        const value = JSON.parse(await kvs.get(`r:${activeRelease}:${uri}`));
+        // CloudFront's runtime accepts await assignments, but not await as a
+        // nested function argument.
+        const serializedValue = await kvs.get(`r:${activeRelease}:${uri}`);
+        const value = JSON.parse(serializedValue);
         if (value && typeof value.location === 'string' && value.location) return value;
     } catch (error) {
         // A missing exact redirect is the normal path for most requests.
@@ -51,6 +57,10 @@ async function handler(event) {
     if (host === 'bedfordfineartgallery.com') {
         return redirect(`https://www.bedfordfineartgallery.com${request.uri}`, request.querystring, 301);
     }
+
+    // CloudFront's custom 403/404 response re-requests this one stable object.
+    // It intentionally lives outside the active immutable release prefix.
+    if (request.uri === '/errors/404.html') return request;
 
     let activeRelease = '';
     try {
