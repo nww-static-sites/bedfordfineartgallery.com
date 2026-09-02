@@ -8,7 +8,7 @@
   "featured": false,
   "artOnWallImage": "https://img.bedfordfineartgallery.com/mosorjak_laurel_highland_ap_qiyyo1.jpg",
   "mediumResImage": "https://img.bedfordfineartgallery.com/Mosorjak_Laurel_Highland_sm_cr_fr_udligi.jpg",
-  "status": "Hold",
+  "status": "Sold",
   "gridImage": "https://img.bedfordfineartgallery.com/Mosorjak_Laurel_Highland_zoom_cr_wujfnv.jpg",
   "scrollingHomepageImage": false,
   "title": "Laurel Highland",
@@ -17,15 +17,5 @@
     "Landscape"
   ],
   "highResImage": "https://img.bedfordfineartgallery.com/Mosorjak_Laurel_Highland_lrg_cr_fr_hsdedr.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Only one exists"
-    },
-    {
-      "highlight": "Competitively Priced $5,875"
-    }
-  ]
+  "highlights": []
 }
