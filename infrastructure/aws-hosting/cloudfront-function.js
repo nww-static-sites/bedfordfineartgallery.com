@@ -91,7 +91,7 @@ async function handler(event) {
     } else if (originPath === '/admin' || originPath === '/admin/') {
         originPath = '/admin/index.html';
     } else if (originPath === '/highlights_article_15.html-1') {
-        originPath = '/highlights_article_15.html';
+        originPath = '/highlights_article_15.html-1.html';
     } else {
         const lastSegment = originPath.slice(originPath.lastIndexOf('/') + 1);
         if (lastSegment && !lastSegment.includes('.')) originPath += '.html';
