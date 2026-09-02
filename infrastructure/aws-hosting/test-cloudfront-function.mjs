@@ -36,7 +36,7 @@ assert.equal((await request('/Artists.html')).uri, `/releases/${active}/Artists.
 assert.equal((await request('/admin/')).uri, `/releases/${active}/admin/index.html`)
 assert.equal((await request('/errors/404.html')).uri, '/errors/404.html')
 assert.equal((await request('/ipad/george_t_hetzel.html')).uri, `/releases/${active}/ipad-shell.html`)
-assert.equal((await request('/highlights_article_15.html-1')).uri, `/releases/${active}/highlights_article_15.html`)
+assert.equal((await request('/highlights_article_15.html-1')).uri, `/releases/${active}/highlights_article_15.html-1.html`)
 assert.equal((await request('/old.html')).headers.location.value, '/new.html')
 assert.equal((await request('/media.mp3')).headers.location.value, 'https://img.bedfordfineartgallery.com/media.mp3')
 assert.equal(
