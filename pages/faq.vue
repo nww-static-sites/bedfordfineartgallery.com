@@ -411,7 +411,7 @@
                 <div class="highlights_prev">
                     <h2>How do I purchase fine art from you?</h2>
                     <p class="more2">
-                        We accept checks (via mail or in person) and major credit cards (in person or over the phone).
+                        We accept checks (via mail or in person).
                         We also offer a lay-away-plan. We ask that you put down a portion of the painting’s purchase
                         price to hold it and then make regular payments. <span v-if="readMore12"></span>
                         <span v-else></span><span v-show="readMore12">You will not be able to take receipt of the
