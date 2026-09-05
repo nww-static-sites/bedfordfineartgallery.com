@@ -91,19 +91,36 @@ def validate_document(document):
 
 
 class RoutingStore:
-    def __init__(self, arn, client=None, sleeper=time.sleep):
+    def __init__(self, arn, client=None, sleeper=time.sleep, clock=time.monotonic):
         if arn not in STORES:
             raise RuntimeError('Routing store is outside Bedford scope')
         self.arn = arn
         self.client = client or boto3.Session(profile_name='default').client(
             'cloudfront-keyvaluestore', region_name='us-east-1', config=Config(
-                connect_timeout=5, read_timeout=20, max_pool_connections=12,
-                retries={'mode':'standard','total_max_attempts':4}))
+                connect_timeout=5, read_timeout=20, max_pool_connections=4,
+                retries={'mode':'standard','total_max_attempts':6}))
         self.sleep = sleeper
+        self.clock = clock
         self.metrics = Counter()
         self.counter_lock = threading.Lock()
+        self.request_lock = threading.Lock()
+        self.next_request_at = 0.0
+        # Pace actual HTTP attempts, including SDK retries, across all threads.
+        # This is a conservative local ceiling, not an asserted AWS quota.
+        self.sdk_pacing = hasattr(self.client, 'meta')
+        if self.sdk_pacing:
+            self.client.meta.events.register('before-send.cloudfront-keyvaluestore', self.pace_request)
+
+    def pace_request(self, **kwargs):
+        with self.request_lock:
+            delay = max(0.0, self.next_request_at - self.clock())
+            if delay:
+                self.sleep(delay)
+            self.next_request_at = self.clock() + 0.05
 
     def call(self, operation, **arguments):
+        if not self.sdk_pacing:
+            self.pace_request()
         with self.counter_lock:
             self.metrics[operation] += 1
         try:
@@ -111,6 +128,7 @@ class RoutingStore:
         except ClientError as error:
             with self.counter_lock:
                 self.metrics['errors_'+error.response.get('Error', {}).get('Code', 'unknown')] += 1
+                self.metrics['sdk_retries'] += error.response.get('ResponseMetadata', {}).get('RetryAttempts', 0)
             raise
         except UNCERTAIN_WRITE:
             with self.counter_lock:
@@ -145,7 +163,7 @@ class RoutingStore:
             for attempt in range(4):
                 description = self.describe()
                 pending = {}
-                with ThreadPoolExecutor(max_workers=12) as pool:
+                with ThreadPoolExecutor(max_workers=4) as pool:
                     existing = list(pool.map(self.get, [key for key, _ in batch]))
                 for (key, value), old in zip(batch, existing):
                     if old is not None and old != value:
@@ -177,7 +195,7 @@ class RoutingStore:
             key, expected = row
             if self.get(key) != expected:
                 raise RuntimeError('Routing readback differs: '+key)
-        with ThreadPoolExecutor(max_workers=12) as pool:
+        with ThreadPoolExecutor(max_workers=4) as pool:
             list(pool.map(one, records.items()))
 
     def seed(self, document):
