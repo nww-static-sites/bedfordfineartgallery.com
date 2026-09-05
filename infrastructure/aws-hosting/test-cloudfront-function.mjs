@@ -8,6 +8,7 @@ const root = path.dirname(fileURLToPath(import.meta.url))
 const active = 'a'.repeat(40)
 const values = new Map([
     ['@active', active],
+    [`@config:${active}`, '1'.repeat(64)],
     [`r:${active}:/old.html`, JSON.stringify({ status: 301, location: '/new.html' })],
     [`r:${active}:/media.mp3`, JSON.stringify({ status: 301, location: 'https://img.bedfordfineartgallery.com/media.mp3' })],
 ])
@@ -20,7 +21,7 @@ const context = {
     cf: { kvs: () => ({ get: async (key) => {
         if (!values.has(key)) throw new Error('missing')
         return values.get(key)
-    } }) },
+    }, exists: async (key) => values.has(key) }) },
     encodeURIComponent,
 }
 vm.createContext(context)
@@ -47,7 +48,26 @@ assert.equal(
     (await request('/Artists', 'bedfordfineartgallery.com', { x: { value: '1' } })).headers.location.value,
     'https://www.bedfordfineartgallery.com/Artists?x=1',
 )
+const table = 'c'.repeat(64)
+values.set(`@config:${active}`, JSON.stringify({ v: 2, routeSet: table }))
+values.set(`@routes-ready:${table}`, JSON.stringify({ v: 2, routeSet: table, count: 1 }))
+values.set(`r2:${table}:/old.html`, JSON.stringify({ status: 301, location: '/shared.html' }))
+assert.equal((await request('/old.html')).headers.location.value, '/shared.html')
+assert.equal((await request('/Artists')).uri, `/releases/${active}/Artists.html`)
+values.delete(`@routes-ready:${table}`)
+assert.equal((await request('/Artists')).statusCode, 503)
+values.set(`@routes-ready:${table}`, JSON.stringify({ v: 2, routeSet: table, count: -1 }))
+assert.equal((await request('/')).statusCode, 503)
+values.set(`@config:${active}`, 'broken')
+assert.equal((await request('/')).statusCode, 503)
+values.set(`@config:${active}`, '1'.repeat(64))
+assert.equal((await request('/old.html')).headers.location.value, '/new.html')
+values.set(`r:${active}:/old.html`, '{')
+assert.equal((await request('/old.html')).statusCode, 503)
+values.delete(`@config:${active}`)
+assert.equal((await request('/')).statusCode, 503)
 values.delete('@active')
 assert.equal((await request('/')).statusCode, 503)
 
-console.log('cloudfront_function_tests=pass routing=exact+ipad+extensionless+canonical active=fail-closed')
+assert.ok(Buffer.byteLength(source) < 10000)
+console.log('cloudfront_function_tests=pass routing=legacy+shared+ipad+extensionless+canonical readiness=fail-closed rollback=pass')
