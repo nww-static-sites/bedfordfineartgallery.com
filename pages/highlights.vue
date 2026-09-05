@@ -39,16 +39,17 @@ export default {
     components: { HighlightPreview, TestimonialsScroll },
     async asyncData({ $content }) {
         const highlights = await $content('articles')
-            .only(['slug', 'date', 'title', 'gridImage', 'body'])
+            .only(['slug', 'date', 'title', 'gridImage', 'gridImageAltText', 'body'])
             .sortBy('date', 'desc')
             .fetch()
 
         return {
-            highlights: highlights.map(({ slug, date, title, gridImage, body }) => ({
+            highlights: highlights.map(({ slug, date, title, gridImage, gridImageAltText, body }) => ({
                 slug,
                 date,
                 title,
                 gridImage,
+                gridImageAltText,
                 preview: getPostPreview(body),
             })),
         }

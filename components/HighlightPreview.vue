@@ -1,16 +1,16 @@
 <template>
     <div>
-        <div class="highlights_thumbnail">
+        <div v-if="highlight.gridImage" class="highlights_thumbnail">
             <nuxt-link :to="highlight.slug.replace('-html', '.html')"
                 ><nuxt-img
                     provider="bedford"
                     loading="lazy"
                     :src="highlight.gridImage"
-                    alt="19th Century Fine Art Legacy"
+                    :alt="highlight.gridImageAltText || highlight.title || 'Gallery article image'"
                     style="width: 100%; height: auto; border: 1px solid #222222"
             /></nuxt-link>
         </div>
-        <div class="highlights_prev">
+        <div class="highlights_prev" :class="{ 'article-without-image': !highlight.gridImage }">
             <h2>{{ highlight.title }}</h2>
             <p>
 				{{ highlight.preview }}
@@ -35,3 +35,7 @@ export default {
 	},
 }
 </script>
+
+<style scoped>
+.article-without-image { float: none; width: 100%; margin-left: 0; }
+</style>
