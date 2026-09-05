@@ -150,8 +150,8 @@
 
                     <h4>Layaway Plan</h4>
                     <p>
-                        Bedford Fine Art Gallery offers a convenient, flexible layaway plan, as well as accepting major
-                        credit cards. If we personally ever had a major purchase that required us to make payments, we
+                        Bedford Fine Art Gallery offers a convenient, flexible layaway plan.
+                        If we personally ever had a major purchase that required us to make payments, we
                         have always been very disciplined and regimented with an established payment schedule. This
                         helped us build trust and a great relationship with everyone in the fine art community over the
                         past 25 years. Through time, this allowed us to acquire top-of-the-line artwork to enjoy and
