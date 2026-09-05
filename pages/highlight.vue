@@ -3,26 +3,26 @@
         <div class="container primary">
             <section class="wrapper clearfix">
                 <div class="artwork_header">
-                    <h1>Highlights</h1>
-                    <h2>{{ highlight.title }}</h2>
+                    <p class="article-section-label">Highlights</p>
+                    <h1 class="article-title">{{ highlight.title }}</h1>
                     <span class="hr"></span>
                 </div>
-                <div class="highlights_thumbnail">
+                <div v-if="image" class="highlights_thumbnail">
                     <nuxt-img
                         v-if="image"
                         provider="bedford"
                         loading="lazy"
                         class="art_detail"
                         :src="image"
-                        alt="19th Century Fine Art Legacy"
+                        :alt="highlight.imageAltText || highlight.title || 'Gallery article image'"
                         style="width: 100%; height: auto; border: 1px solid #222222"
                     />
                 </div>
-                <div class="highlights_prev">
+                <div class="highlights_prev" :class="{ 'article-without-image': !image }">
 					<YouTubeVideo v-if="highlight.youtubeEmbedLink" :link="highlight.youtubeEmbedLink" :alt="highlight.youtubeAltText" />
 					<br v-if="highlight.youtubeEmbedLink" />
 
-					<div v-interpolation v-html="$md.render(highlight.body)" />
+					<div class="article-body" v-interpolation v-html="$md.render(highlight.body)" />
                     <p v-if="hasAdditionalLink">
 						<nuxt-link :to="highlight.additionalLink.link" class="readmore">{{ highlight.additionalLink.text }}</nuxt-link>
 					</p>
@@ -85,3 +85,13 @@ export default {
     },
 }
 </script>
+
+<style scoped>
+.article-section-label { font-size: 1.4em; text-align: center; text-transform: uppercase; line-height: 1.1; color: #732824; margin: 0; padding: 0; }
+.article-title { font-size: 1.2em; color: inherit; padding: 10px 0; }
+.article-body { overflow-wrap: anywhere; }
+.article-body ::v-deep img { max-width: 100%; height: auto; }
+.article-body ::v-deep table { max-width: 100%; }
+.article-body ::v-deep pre { overflow-x: auto; }
+.article-without-image { float: none; width: 100%; margin-left: 0; }
+</style>
