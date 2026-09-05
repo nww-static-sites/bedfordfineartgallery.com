@@ -50,3 +50,30 @@ adjacent Extranet publisher/editor contract suites. The scale fixture performs
 100 publications with unrelated historical rows and rejects any ListKeys call.
 Real rollout also requires CloudFront runtime testing, preview rollback proof,
 two content-preserving publications, and the site's route/asset/iPad verifiers.
+
+## September 5, 2026 preview acceptance
+
+The first 414-rule shared table took 10.486 seconds to prepare and verify;
+reusing it took 0.231 seconds with zero redirect writes or historical scans.
+Initial and repeated preview HTTP checks took 72.991 and 27.294 seconds. These
+are individual observations, not a guaranteed range or a percentile. The
+compatible reader also passed actual CloudFront runtime tests (8–12% utilization),
+the representative site/iPad/media verifier, and guarded legacy rollback.
+
+Beta's default Node 14 runs the existing routing compiler, but the broader
+site checker requires a modern Node with fetch/top-level await. Run that checker
+from the established Mac runtime; do not upgrade system Node for this test.
+An isolated Podman test must use the normal publisher working directory and
+`/run/bedford-publisher`, as the service does. Preserve the real queue, retain
+the common publication lock during preview checks, and restore/verify preview
+before resuming the service. SDK call counts are logical operations plus
+reported SDK retries, including retries returned with error responses.
+
+The first real production bootstrap stopped safely before activation on a
+GetKey throttle with the original 12-thread burst. The corrected SDK shares a
+20-attempt/second local pacing ceiling across four threads, including actual
+HTTP retries, and uses six bounded standard SDK attempts. This is conservative
+application pacing, not a claimed AWS quota. Both successful and failed routing
+phases retain retry metrics. Unchanged-table reuse still performs only constant
+targeted reads/association writes. Offline tests exercise the actual SDK retry
+pipeline with its HTTP transport replaced, plus concurrent request pacing.

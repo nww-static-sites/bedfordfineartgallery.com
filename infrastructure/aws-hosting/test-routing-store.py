@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Offline fault/scale/compiler fixtures. Never constructs a live AWS client."""
 from collections import Counter
+from concurrent.futures import ThreadPoolExecutor
 import hashlib
 import json
 import os
@@ -9,6 +10,11 @@ import subprocess
 import tempfile
 import threading
 import unittest
+from unittest.mock import patch
+import boto3
+from botocore import UNSIGNED
+from botocore.awsrequest import AWSResponse
+from botocore.config import Config
 from botocore.exceptions import ClientError, ReadTimeoutError
 from bedford_routing_store import RoutingStore, STORES, STORE_LIMIT, canonical, validate_document
 
@@ -105,6 +111,52 @@ class RoutingTests(unittest.TestCase):
         self.fake.read_fault=lambda key: (_ for _ in ()).throw(fail('AccessDeniedException'))
         with self.assertRaises(ClientError):self.store.seed(document())
         self.assertEqual(self.fake.writes,[])
+    def test_sdk_retries_on_error_responses_are_counted(self):
+        error=ClientError({'Error':{'Code':'ThrottlingException','Message':'fixture'},'ResponseMetadata':{'RetryAttempts':3}},'GetKey')
+        self.fake.read_fault=lambda key: (_ for _ in ()).throw(error)
+        with self.assertRaises(ClientError):self.store.get('@active')
+        self.assertEqual(self.store.metrics['sdk_retries'],3)
+        self.assertEqual(self.store.metrics['errors_ThrottlingException'],1)
+    def test_concurrent_requests_have_one_shared_pacing_clock(self):
+        clock={'now':0.0}; starts=[]
+        def pause(seconds):clock['now']+=seconds
+        store=RoutingStore(sorted(STORES)[0],client=self.fake,sleeper=pause,clock=lambda:clock['now'])
+        self.fake.read_fault=lambda key:starts.append(clock['now'])
+        self.fake.rows['known']='value'
+        with ThreadPoolExecutor(max_workers=4) as pool:
+            self.assertEqual(list(pool.map(store.get,['known']*40)),['value']*40)
+        self.assertAlmostEqual(clock['now'],1.95,places=8)
+        self.assertEqual(len(starts),40)
+    def test_real_sdk_retries_are_paced_and_bounded_without_network(self):
+        # Real botocore signing/event/retry pipeline; the wire is replaced.
+        client=boto3.Session(aws_access_key_id='fixture',aws_secret_access_key='fixture').client(
+            'cloudfront-keyvaluestore',region_name='us-east-1',config=Config(
+                signature_version=UNSIGNED,retries={'mode':'standard','total_max_attempts':6}))
+        clock={'now':0.0};starts=[]
+        def pause(seconds):clock['now']+=seconds
+        store=RoutingStore(sorted(STORES)[0],client=client,sleeper=pause,clock=lambda:clock['now'])
+        class Raw:
+            def __init__(self,body):self.body=body
+            def stream(self,*args,**kwargs):yield self.body
+        def wire(request,**kwargs):
+            starts.append(clock['now'])
+            if len(starts)<=3:
+                return AWSResponse(request.url,429,{'content-type':'application/json','x-amzn-errortype':'ThrottlingException'},Raw(b'{"message":"fixture"}'))
+            return AWSResponse(request.url,200,{'content-type':'application/json'},Raw(b'{"Value":"ready"}'))
+        with patch.object(client._endpoint.http_session,'send',side_effect=wire),patch('botocore.endpoint.time.sleep',side_effect=pause):
+            self.assertEqual(store.get('@active'),'ready')
+        self.assertEqual(len(starts),4)
+        self.assertTrue(all(b-a>=0.05-1e-9 for a,b in zip(starts,starts[1:])))
+        self.assertEqual(store.metrics['sdk_retries'],3)
+        starts.clear()
+        def denied(request,**kwargs):
+            starts.append(clock['now'])
+            return AWSResponse(request.url,429,{'content-type':'application/json','x-amzn-errortype':'ThrottlingException'},Raw(b'{"message":"fixture"}'))
+        with patch.object(client._endpoint.http_session,'send',side_effect=denied),patch('botocore.endpoint.time.sleep',side_effect=pause):
+            with self.assertRaises(ClientError):store.get('@active')
+        self.assertEqual(len(starts),6)
+        self.assertEqual(store.metrics['sdk_retries'],8)
+        self.assertEqual(store.metrics['errors_ThrottlingException'],1)
     def test_readback_corruption_does_not_write_ready(self):
         doc=document()
         def corrupt(client,puts):
