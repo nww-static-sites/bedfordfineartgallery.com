@@ -2,6 +2,7 @@ import cf from 'cloudfront';
 
 const kvs = cf.kvs();
 const releasePattern = /^[0-9a-f]{40}$/;
+const digestPattern = /^[0-9a-f]{64}$/;
 
 function serializedQuery(querystring) {
     const pairs = [];
@@ -37,17 +38,39 @@ function redirect(location, querystring, statusCode) {
     };
 }
 
-async function optionalRedirect(activeRelease, uri) {
-    try {
-        // CloudFront's runtime accepts await assignments, but not await as a
-        // nested function argument.
-        const serializedValue = await kvs.get(`r:${activeRelease}:${uri}`);
-        const value = JSON.parse(serializedValue);
-        if (value && typeof value.location === 'string' && value.location) return value;
-    } catch (error) {
-        // A missing exact redirect is the normal path for most requests.
-    }
-    return null;
+function unavailable() {
+    return {
+        statusCode: 503,
+        statusDescription: 'Service Unavailable',
+        headers: {
+            'cache-control': { value: 'no-store,max-age=0' },
+            'content-type': { value: 'text/plain; charset=utf-8' },
+        },
+        body: 'Temporarily unavailable.',
+    };
+}
+
+async function routePrefix(activeRelease) {
+    const configuration = await kvs.get(`@config:${activeRelease}`);
+    if (digestPattern.test(configuration)) return `r:${activeRelease}:`;
+    const value = JSON.parse(configuration);
+    if (!value || value.v !== 2 || !digestPattern.test(value.routeSet || '')) throw new Error('configuration');
+    const markerText = await kvs.get(`@routes-ready:${value.routeSet}`);
+    const marker = JSON.parse(markerText);
+    if (!marker || marker.v !== 2 || marker.routeSet !== value.routeSet ||
+        !Number.isInteger(marker.count) || marker.count < 0) throw new Error('readiness');
+    return `r2:${value.routeSet}:`;
+}
+
+async function optionalRedirect(prefix, uri) {
+    // Missing routes are normal; failed store reads and malformed values are not.
+    const key = prefix + uri;
+    const exists = await kvs.exists(key);
+    if (!exists) return null;
+    const serializedValue = await kvs.get(key);
+    const value = JSON.parse(serializedValue);
+    if (!value || value.status !== 301 || typeof value.location !== 'string' || !value.location) throw new Error('redirect');
+    return value;
 }
 
 async function handler(event) {
@@ -69,18 +92,16 @@ async function handler(event) {
         activeRelease = '';
     }
     if (!releasePattern.test(activeRelease)) {
-        return {
-            statusCode: 503,
-            statusDescription: 'Service Unavailable',
-            headers: {
-                'cache-control': { value: 'no-store,max-age=0' },
-                'content-type': { value: 'text/plain; charset=utf-8' },
-            },
-            body: 'Temporarily unavailable.',
-        };
+        return unavailable();
     }
 
-    const exact = await optionalRedirect(activeRelease, request.uri);
+    let exact;
+    try {
+        const prefix = await routePrefix(activeRelease);
+        exact = await optionalRedirect(prefix, request.uri);
+    } catch (error) {
+        return unavailable();
+    }
     if (exact) return redirect(exact.location, request.querystring, Number(exact.status) || 301);
 
     let originPath = request.uri;
