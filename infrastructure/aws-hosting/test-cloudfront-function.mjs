@@ -69,5 +69,35 @@ assert.equal((await request('/')).statusCode, 503)
 values.delete('@active')
 assert.equal((await request('/')).statusCode, 503)
 
+const retained = 'b'.repeat(40)
+const base = `/_nuxt/r/${retained}/`
+assert.equal((await request(base+'chunk.js')).statusCode,404)
+values.set('@assets:'+retained,'nuxt-r-v1')
+assert.equal((await request(base+'LICENSES')).uri,'/releases/'+retained+base+'LICENSES')
+assert.equal((await request(base+'nested/LICENSES')).statusCode,404)
+for (const suffix of ['runtime.123abc.js','style.123abc.css','fonts/example.woff2',`static/${retained}/árvíztűrő-html/payload.js`]) {
+    assert.equal((await request(base+suffix)).uri,`/releases/${retained}${base}${suffix}`)
+}
+for (const suffix of ['../control/x.json','%2e%2e/control/x.js','%252e%252e/x.js','x%2fsecret.js','x%5csecret.js',
+    'a//b.js','a/./b.js','x?z.js','x#z.js','config.json','index.html','.env','x%00.js','%zz.js']) {
+    assert.equal((await request(base+suffix)).statusCode,404,suffix)
+}
+for (const route of ['/_nuxt/r','/_nuxt/r/','/_nuxt/r/not-a-release/chunk.js',`/_nuxt/r/${retained.toUpperCase()}/chunk.js`]) assert.equal((await request(route)).statusCode,404)
+values.set('@assets:'+retained,'invalid')
+assert.equal((await request(base+'chunk.js')).statusCode,503)
+values.set('@assets:'+retained,'nuxt-r-v1')
+values.set('@asset-path:/_nuxt/legacy.123abc.js',retained)
+values.set('@asset-path:/data/ipad-paintings-123456abcdef.json',retained)
+for (const current of [active,retained,active]) {
+    values.set('@active',current);values.set('@config:'+current,'1'.repeat(64))
+    assert.equal((await request(base+'chunk.js')).uri,`/releases/${retained}${base}chunk.js`)
+    assert.equal((await request('/_nuxt/legacy.123abc.js')).uri,`/releases/${retained}/_nuxt/legacy.123abc.js`)
+    assert.equal((await request('/data/ipad-paintings-123456abcdef.json')).uri,`/releases/${retained}/data/ipad-paintings-123456abcdef.json`)
+    assert.equal((await request('/data/testimonials.json')).uri,`/releases/${current}/data/testimonials.json`)
+    assert.equal((await request('/data/ipad-paintings-manifest.json')).uri,`/releases/${current}/data/ipad-paintings-manifest.json`)
+}
+values.set('@asset-path:/_nuxt/legacy.123abc.js','malformed')
+assert.equal((await request('/_nuxt/legacy.123abc.js')).statusCode,503)
+
 assert.ok(Buffer.byteLength(source) < 10000)
 console.log('cloudfront_function_tests=pass routing=legacy+shared+ipad+extensionless+canonical readiness=fail-closed rollback=pass')

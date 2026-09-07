@@ -73,6 +73,53 @@ async function optionalRedirect(prefix, uri) {
     return value;
 }
 
+function missingAsset() {
+    return { statusCode: 404, statusDescription: 'Not Found',
+        headers: { 'cache-control': { value: 'no-store,max-age=0' }, 'content-type': { value: 'text/plain; charset=utf-8' } },
+        body: 'Not found.' };
+}
+
+function safeAssetPath(uri) {
+    // Decode once. Reject ambiguous/encoded separators, traversal and double encoding.
+    if (uri.length > 2048 || /%(?:2f|5c)/i.test(uri)) return '';
+    let value;
+    try { value = decodeURIComponent(uri); } catch (error) { return ''; }
+    if (/[\u0000-\u0020\u007f\\?#%]/.test(value)) return '';
+    const parts = value.split('/');
+    for (let i = 1; i < parts.length; i += 1) {
+        if (!parts[i] || parts[i] === '.' || parts[i] === '..') return '';
+    }
+    return value;
+}
+
+async function retainedAsset(uri) {
+    if (uri === '/_nuxt/r' || uri.startsWith('/_nuxt/r/')) {
+        const clean = safeAssetPath(uri);
+        const match = clean.match(/^\/_nuxt\/r\/([0-9a-f]{40})\/(LICENSES|.+\.(?:js|css|woff2?|ttf|eot|svg|png|jpe?g|gif|webp|avif))$/);
+        if (!match) return { response: missingAsset() };
+        const key = `@assets:${match[1]}`;
+        const exists = await kvs.exists(key);
+        if (!exists) return { response: missingAsset() };
+        const marker = await kvs.get(key);
+        if (marker !== 'nuxt-r-v1') throw new Error('asset-readiness');
+        return { uri: `/releases/${match[1]}${uri}` };
+    }
+    // Transitional content-hashed addresses only. The uploader verifies equal bytes
+    // across retained manifests before assigning an immutable path to one release.
+    if ((uri.startsWith('/_nuxt/') && !uri.startsWith('/_nuxt/static/')) ||
+        /^\/data\/ipad-paintings-[0-9a-f]+\.json$/.test(uri)) {
+        if (!safeAssetPath(uri)) return { response: missingAsset() };
+        const key = `@asset-path:${uri}`;
+        const exists = await kvs.exists(key);
+        if (exists) {
+            const release = await kvs.get(key);
+            if (!releasePattern.test(release)) throw new Error('asset-mapping');
+            return { uri: `/releases/${release}${uri}` };
+        }
+    }
+    return null;
+}
+
 async function handler(event) {
     const request = event.request;
     const host = String(request.headers.host && request.headers.host.value || '').toLowerCase();
@@ -84,6 +131,12 @@ async function handler(event) {
     // CloudFront's custom 403/404 response re-requests this one stable object.
     // It intentionally lives outside the active immutable release prefix.
     if (request.uri === '/errors/404.html') return request;
+
+    try {
+        const asset = await retainedAsset(request.uri);
+        if (asset && asset.response) return asset.response;
+        if (asset && asset.uri) { request.uri = asset.uri; return request; }
+    } catch (error) { return unavailable(); }
 
     let activeRelease = '';
     try {

@@ -1,4 +1,8 @@
-const staticAssetsVersion = 'cx-v1'
+// A public tab keeps requesting its own release, including lazy-loaded payloads.
+// Local development keeps the standard path; production requires the worker's ID.
+const releaseAssetVersion = process.env.COMMIT_REF || ''
+if (releaseAssetVersion && !/^[0-9a-f]{40}$/.test(releaseAssetVersion)) throw new Error('Invalid asset release identity')
+const staticAssetsVersion = releaseAssetVersion || 'local-development'
 
 export default {
     // Target: https://go.nuxtjs.dev/config-target
@@ -65,6 +69,7 @@ export default {
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {
+        publicPath: releaseAssetVersion ? `/_nuxt/r/${releaseAssetVersion}/` : '/_nuxt/',
         transpile: ['vue-picture-swipe'],
     },
     loading: {
