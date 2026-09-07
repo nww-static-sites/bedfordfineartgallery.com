@@ -95,7 +95,7 @@ function safeAssetPath(uri) {
 async function retainedAsset(uri) {
     if (uri === '/_nuxt/r' || uri.startsWith('/_nuxt/r/')) {
         const clean = safeAssetPath(uri);
-        const match = clean.match(/^\/_nuxt\/r\/([0-9a-f]{40})\/(.+\.(?:js|css|woff2?|ttf|eot|svg|png|jpe?g|gif|webp|avif))$/);
+        const match = clean.match(/^\/_nuxt\/r\/([0-9a-f]{40})\/(LICENSES|.+\.(?:js|css|woff2?|ttf|eot|svg|png|jpe?g|gif|webp|avif))$/);
         if (!match) return { response: missingAsset() };
         const key = `@assets:${match[1]}`;
         const exists = await kvs.exists(key);

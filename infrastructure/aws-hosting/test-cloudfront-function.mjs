@@ -73,6 +73,8 @@ const retained = 'b'.repeat(40)
 const base = `/_nuxt/r/${retained}/`
 assert.equal((await request(base+'chunk.js')).statusCode,404)
 values.set('@assets:'+retained,'nuxt-r-v1')
+assert.equal((await request(base+'LICENSES')).uri,'/releases/'+retained+base+'LICENSES')
+assert.equal((await request(base+'nested/LICENSES')).statusCode,404)
 for (const suffix of ['runtime.123abc.js','style.123abc.css','fonts/example.woff2',`static/${retained}/árvíztűrő-html/payload.js`]) {
     assert.equal((await request(base+suffix)).uri,`/releases/${retained}${base}${suffix}`)
 }
