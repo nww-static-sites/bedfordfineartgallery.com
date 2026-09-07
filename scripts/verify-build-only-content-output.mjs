@@ -7,8 +7,11 @@ import { fileURLToPath } from 'url'
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const generatedRoot = path.join(projectRoot, 'dist')
 const clientRoot = path.join(generatedRoot, '_nuxt')
+const releaseClientRoot = /^[0-9a-f]{40}$/.test(process.env.COMMIT_REF || '')
+    ? path.join(clientRoot, 'r', process.env.COMMIT_REF) : clientRoot
 const forbiddenDirectories = [
     path.join(clientRoot, 'content'),
+    path.join(releaseClientRoot, 'content'),
     path.join(projectRoot, '.nuxt', 'dist', 'client', 'content'),
 ]
 const forbiddenBundleMarkers = [
