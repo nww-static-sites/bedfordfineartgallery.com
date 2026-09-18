@@ -59,6 +59,7 @@ export default {
     modules: [
         '@nuxtjs/markdownit',
         '~/modules/cx-stable-content',
+        '~/modules/cx-niche-thumbnails',
         '~/modules/cx-build-only-content',
         'nuxt-interpolation',
         '@nuxtjs/sitemap',
