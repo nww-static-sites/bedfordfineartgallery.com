@@ -11,7 +11,9 @@
             /></nuxt-link>
         </div>
         <div class="highlights_prev" :class="{ 'article-without-image': !highlight.gridImage }">
-            <h2>{{ highlight.title }}</h2>
+            <h2 class="article-preview-title">
+                <nuxt-link :to="highlight.slug.replace('-html', '.html')">{{ highlight.title }}</nuxt-link>
+            </h2>
             <p>
 				{{ highlight.preview }}
             </p>
@@ -37,5 +39,12 @@ export default {
 </script>
 
 <style scoped>
+.article-preview-title { font-weight: 700; }
+.article-preview-title a,
+.article-preview-title a:visited,
+.article-preview-title a:hover,
+.article-preview-title a:focus,
+.article-preview-title a:active { color: inherit; font: inherit; text-decoration: none; }
+.article-preview-title a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
 .article-without-image { float: none; width: 100%; margin-left: 0; }
 </style>
