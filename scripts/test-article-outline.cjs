@@ -53,6 +53,16 @@ async function render(article) { return renderer.renderToString(new Vue({...comp
     for (const article of [guide, { title:'Short', body:'Only **bold** text.' }, { ...guide, showTableOfContents:true }, { ...guide, showTableOfContents:true,tableOfContentsTitle:'<img onerror=bad> Guide' }]) {
         const html = await render(article)
         assert.match(html, /class="article-section-label">Art Blog<\/p>/)
+        assert.match(html, /<header class="article-heading">/)
+        assert.match(html, /class="article-intro/)
+        assert.match(html, /<\/header>\s*<div class="highlights_prev article-main/)
+        assert.doesNotMatch(html, /class="highlights_thumbnail"/)
+        if (article.image) {
+            assert(html.indexOf('class="article-cover"') < html.indexOf('class="article-title"'))
+        } else {
+            assert.match(html, /article-intro-without-image/)
+            assert.doesNotMatch(html, /class="article-cover"/)
+        }
         assert.equal(html.includes('<nav'), article.showTableOfContents === true)
         assert.doesNotMatch(html, /<img onerror/)
         if (article.showTableOfContents) assert.equal((html.match(/href="#article-/g)||[]).length,15)
