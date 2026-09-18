@@ -105,22 +105,22 @@ export default {
 .article-intro { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 20px; align-items: center; max-width: 1100px; margin: 0 auto; text-align: left; }
 .article-cover { min-width: 0; }
 .article-cover .art_detail { display: block; width: 100%; height: auto; max-height: 420px; object-fit: contain; margin: 0 auto; }
-.article-title { font-size: 4rem; font-size: clamp(2rem, 5vw, 4rem); font-weight: 700; color: inherit; text-align: left; line-height: 1.12; overflow-wrap: anywhere; margin: 0; padding: 0; }
+.article-title { font-size: 3rem; font-size: clamp(1.5rem, 3.75vw, 3rem); font-weight: 700; color: inherit; text-align: left; line-height: 1.12; overflow-wrap: anywhere; margin: 0; padding: 0; }
 .article-intro-without-image { grid-template-columns: minmax(0, 1fr); }
 .article-main { float: none; width: 100%; margin: 0; }
-.article-body { overflow-wrap: anywhere; }
+.article-body { font-size: 1.1em; overflow-wrap: anywhere; }
 .article-body ::v-deep strong, .article-body ::v-deep b,
 .article-body ::v-deep h1, .article-body ::v-deep h2, .article-body ::v-deep h3,
 .article-body ::v-deep h4, .article-body ::v-deep h5, .article-body ::v-deep h6 { font-weight: 700; }
 .article-body ::v-deep em, .article-body ::v-deep i { font-style: italic; }
 .article-body ::v-deep h2[id] { scroll-margin-top: 110px; }
 .article-body ::v-deep h2[id]:focus-visible { outline: 2px solid #732824; outline-offset: 4px; }
-.article-contents { padding: 18px 20px; margin: 0 0 26px; border: 1px solid #d6c9b5; border-radius: 6px; background: #faf7f1; overflow-wrap: anywhere; text-align: left; }
+.article-contents { font-size: 1.1em; padding: 18px 20px; margin: 0 0 26px; border: 1px solid #d6c9b5; border-radius: 6px; background: #faf7f1; overflow-wrap: anywhere; text-align: left; }
 .article-contents .article-contents-title { font-size: 1.1em; font-weight: 700; margin: 0 0 10px; padding: 0; }
 .article-contents ul { list-style: none; margin: 0; padding: 0; }
 .article-contents li { display: block; width: auto; margin: 0 0 8px; line-height: 1.4; }
 .article-contents li:last-child { margin-bottom: 0; }
-.article-contents a { color: #732824; text-align: left; padding: 3px 0; border: 0; text-decoration: underline; text-underline-offset: 3px; }
+.article-contents a { font-size: 0.9em; color: #732824; text-align: left; padding: 3px 0; border: 0; text-decoration: underline; text-underline-offset: 3px; }
 .article-contents a:focus-visible { outline: 2px solid #732824; outline-offset: 3px; }
 .article-body ::v-deep img { max-width: 100%; height: auto; }
 .article-body ::v-deep table { max-width: 100%; }
@@ -129,6 +129,6 @@ export default {
 @media (max-width: 700px) {
     .article-intro { grid-template-columns: minmax(0, 1fr); }
     .article-cover { width: 100%; max-width: 360px; margin: 0 auto; }
-    .article-title { font-size: 2rem; }
+    .article-title { font-size: 1.5rem; }
 }
 </style>

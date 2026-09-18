@@ -42,6 +42,14 @@ Vue.component('nuxt-link', { functional:true, render:(h,c) => h('a',c.data,c.chi
 Vue.component('TestimonialsScroll', { render:h => h('div') })
 Vue.component('YouTubeVideo', { render:h => h('div') })
 const parsed = compiler.parseComponent(fs.readFileSync(path.join(root,'pages/highlight.vue'),'utf8'))
+check(() => {
+    const css = parsed.styles[0].content
+    assert.match(css, /font-size: clamp\(1\.5rem, 3\.75vw, 3rem\)/)
+    assert.match(css, /\.article-body \{ font-size: 1\.1em;/)
+    assert.match(css, /\.article-contents \{ font-size: 1\.1em;/)
+    assert.match(css, /\.article-contents a \{ font-size: 0\.9em;/)
+    assert.match(css, /@media \(max-width: 700px\)[\s\S]*\.article-title \{ font-size: 1\.5rem; \}/)
+})
 assert.deepEqual(compiler.compile(parsed.template.content).errors, [])
 // Load actual component logic, substituting only its imports for inert test stubs.
 const script = parsed.script.content.replace(/^import .*$/gm, '').replace('export default', 'return')
