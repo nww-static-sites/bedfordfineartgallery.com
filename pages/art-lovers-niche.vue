@@ -10,13 +10,15 @@
                     <h1>Art Lovers' Niche</h1>
                     <span class="hr"></span>
                 </div>
-                <nuxt-img
-                    provider="bedford"
-                    loading="lazy"
-                    src="/images/Top-Banner.jpg"
-                    alt="Art Lovers' Niche"
-                    style="width: 100%; height: auto; max-width: 660px; margin: auto; display: block"
-                ></nuxt-img>
+                <div class="niche-banner">
+                    <img
+                        src="/images/art-lovers-niche-banner-20260921.png"
+                        alt="Art Lovers' Niche"
+                        width="1983"
+                        height="793"
+                        decoding="async"
+                    />
+                </div>
 
                 <div class="lead_callout_niche">
                     <p style="text-align: center; max-width: 500px; margin: auto; padding-bottom: 1rem; padding-top: 1rem;">
@@ -193,6 +195,27 @@ export default {
 </script>
 
 <style scoped>
+.niche-banner {
+    position: relative;
+    width: 100%;
+    max-width: 660px;
+    aspect-ratio: 1983 / 528;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: clamp(20px, 6vw, 40px);
+    background: #f9f9f2;
+}
+
+.niche-banner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: translateY(-16%);
+}
+
 .search {
     border: 1px solid #222;
     overflow: auto;
