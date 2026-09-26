@@ -29,7 +29,7 @@
                     <div class="search" style="margin-bottom: 1.2rem">
                         <form
                             id="remsform"
-                            action="https://accept.nittanyweb.com/remote_add_name.cgi"
+                            action="https://beta.ecommerceplatform.com/forms/mems_list.cgi"
                             method="post"
                             name="remsform"
                             style="display: flex; justify-content: space-evenly"
@@ -140,7 +140,7 @@
                     <div class="search" style="margin-bottom: 1.2rem">
                         <form
                             id="remsform"
-                            action="https://accept.nittanyweb.com/remote_add_name.cgi"
+                            action="https://beta.ecommerceplatform.com/forms/mems_list.cgi"
                             method="post"
                             name="remsform"
                             style="display: flex; justify-content: space-evenly"
