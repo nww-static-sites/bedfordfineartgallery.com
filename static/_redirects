@@ -1,3 +1,6 @@
+/confirm-join /mems-confirm-legacy.html 301
+/confirm-join/ /mems-confirm-legacy.html 301
+/confirm-join/index.cgi /mems-confirm-legacy.html 301
 # Redirects from what the browser requests to what we serve
 
 # One kiosk application shell preserves every historical iPad painting URL.

@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><meta name="referrer" content="no-referrer"><title>Confirm your mailing-list subscription — Bedford Fine Art Gallery</title></head>
+<body><main><h1>Confirm your mailing-list subscription</h1><p id="message">Opening the secure confirmation service…</p><p><a id="continue" href="https://beta.ecommerceplatform.com/forms/mems-confirm/">Continue to the confirmation service</a></p><noscript><p>Please enable JavaScript to continue with the confirmation link from your email.</p></noscript></main>
+<script>
+(function () {
+  var token = window.location.search.slice(1);
+  try { token = decodeURIComponent(token); } catch (error) { token = ''; }
+  token = token.replace(/=$/, '');
+  if (!/^(?:v2_[a-f0-9]{64}|[a-f0-9]{32})$/.test(token)) {
+    document.getElementById('message').textContent = 'Please open the complete confirmation link from your email.';
+    return;
+  }
+  var destination = 'https://beta.ecommerceplatform.com/forms/mems-confirm/?' + token;
+  document.getElementById('continue').href = destination;
+  window.location.replace(destination);
+}());
+</script></body></html>

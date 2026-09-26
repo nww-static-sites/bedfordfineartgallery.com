@@ -15,7 +15,7 @@
                     <div class="search">
                         <form
                             id="remsform"
-                            action="https://accept.nittanyweb.com/remote_add_name.cgi"
+                            action="https://beta.ecommerceplatform.com/forms/mems_list.cgi"
                             method="post"
                             name="remsform"
                         >
