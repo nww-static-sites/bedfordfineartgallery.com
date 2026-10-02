@@ -16,6 +16,7 @@ export default {
         },
         meta: [
             { charset: 'utf-8' },
+            { hid: 'pinterest-domain-verify', name: 'p:domain_verify', content: '61ba49fc5302d3eea4a305edc9436dc2' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
             { hid: 'description', name: 'description', content: 'Historic gallery of 19th century paintings for sale, featuring the 19th century art of European, British and American 19th century artists. Many 1800s paintings including 19th century oil paintings by some of the most renowned 19th century painters.' },
             { name: 'format-detection', content: 'telephone=no' },
