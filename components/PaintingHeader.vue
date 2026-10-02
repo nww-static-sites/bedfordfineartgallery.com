@@ -11,7 +11,7 @@
         <p v-if="painting.dimensions" class="dimensions">{{ painting.dimensions }}</p>
 
         <span class="hr"></span>
-      <p style="text-align: center; font-weight: bold; font-size: 18px; padding-top: 1rem;">Before reading further, take a moment with this painting — notice what it stirs in you.</p>
+      <p style="text-align: center; font-weight: bold; font-size: 18px; padding-top: 1rem;">Take a moment with this painting. Notice what it stirs in you. Not decor, but a story you get to keep looking at. This is the piece people ask about the moment they walk in.</p>
     </div>
 </template>
 
