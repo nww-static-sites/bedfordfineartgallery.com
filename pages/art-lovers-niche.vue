@@ -33,6 +33,7 @@
                             <input
                                 id="e"
                                 type="text"
+                                class="newsletter-email"
                                 placeholder="Email Address"
                                 name="e"
                                 aria-label="Email Address"
@@ -144,6 +145,7 @@
                             <input
                                 id="e"
                                 type="text"
+                                class="newsletter-email"
                                 placeholder="Email Address"
                                 name="e"
                                 aria-label="Email Address"
@@ -242,7 +244,7 @@ export default {
     margin: 0;
 }
 
-.search input[type='text'] {
+.search .newsletter-email {
     border: 0px;
     flex: 1;
     min-width: 0;
@@ -252,7 +254,7 @@ export default {
     background: #f9f9f2;
 }
 
-.search input[type='text']:focus {
+.search .newsletter-email:focus {
     outline: 2px solid #222;
     outline-offset: -3px;
 }
