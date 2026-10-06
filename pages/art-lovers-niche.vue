@@ -6,10 +6,6 @@
         </div>
         <div class="container primary">
             <section class="wrapper clearfix">
-                <div class="artwork_header">
-                    <h1>Art Lovers' Niche</h1>
-                    <span class="hr"></span>
-                </div>
                 <div class="niche-banner">
                     <img
                         src="/images/art-lovers-niche-banner-20260921.png"
@@ -21,9 +17,10 @@
                 </div>
 
                 <div class="lead_callout_niche">
-                    <p style="text-align: center; max-width: 500px; margin: auto; padding-bottom: 1rem; padding-top: 1rem;">
-                        Art Lovers' Niche provides you access to brief once-a-month exclusive updates. Explore unique,
-                        newly discovered and featured fine art. Enter your email address below to join our newsletter:
+                    <h1 class="newsletter-heading">A Newsletter For People Who Love Fine Art</h1>
+                    <p class="newsletter-intro">
+                        Explore unique, newly discovered and featured fine art.
+                        Enter your email address below to join our newsletter:
                     </p>
 
                     <div class="search" style="margin-bottom: 1.2rem">
@@ -32,14 +29,13 @@
                             action="https://beta.ecommerceplatform.com/forms/mems_list.cgi"
                             method="post"
                             name="remsform"
-                            style="display: flex; justify-content: space-evenly"
                         >
                             <input
                                 id="e"
                                 type="text"
                                 placeholder="Email Address"
                                 name="e"
-                                style="flex: 1; margin-bottom: 0px"
+                                aria-label="Email Address"
                             />
                             <input id="m2" name="m" type="hidden" value="88" />
                             <input id="l2" name="l" type="hidden" value="1263" />
@@ -49,7 +45,7 @@
                                 type="hidden"
                                 value="https://www.bedfordfineartgallery.com/mailing_list_thanks.htm"
                             />
-                            <input style="margin-bottom: 0px" type="submit" value="Join Our Newsletter" />
+                            <input type="submit" value="Join Newsletter" />
                         </form>
                     </div>
 
@@ -60,7 +56,8 @@
                     />
 
                     <div class="lower_content">
-                        <p>
+                        <h3>Join Our Club, The Art Lovers' Niche</h3>
+                        <p class="club-quote">
                             "My wife is an artist, and I am a financial advisor, different in many ways. My bride has
                             always desired a collection in fine art. My fear has always been the numbers, what am I
                             paying for, is there an investment value, and is it a fair value? A single customer with two
@@ -133,9 +130,9 @@
                             </li>
                         </ul>
                     </div>
-                    <p style="text-align: center; max-width: 500px; margin: auto; padding-bottom: 1rem; padding-top: 1rem;">
-                        Art Lovers' Niche provides you access to brief once-a-month exclusive updates. Explore unique,
-                        newly discovered and featured fine art. Enter your email address below to join our newsletter:
+                    <p class="newsletter-intro">
+                        Explore unique, newly discovered and featured fine art.
+                        Enter your email address below to join our newsletter:
                     </p>
                     <div class="search" style="margin-bottom: 1.2rem">
                         <form
@@ -143,14 +140,13 @@
                             action="https://beta.ecommerceplatform.com/forms/mems_list.cgi"
                             method="post"
                             name="remsform"
-                            style="display: flex; justify-content: space-evenly"
                         >
                             <input
                                 id="e"
                                 type="text"
                                 placeholder="Email Address"
                                 name="e"
-                                style="flex: 1; margin-bottom: 0px"
+                                aria-label="Email Address"
                             />
                             <input id="m2" name="m" type="hidden" value="88" />
                             <input id="l2" name="l" type="hidden" value="1263" />
@@ -160,7 +156,7 @@
                                 type="hidden"
                                 value="https://www.bedfordfineartgallery.com/mailing_list_thanks.htm"
                             />
-                            <input style="margin-bottom: 0px" type="submit" value="Join Our Newsletter" />
+                            <input type="submit" value="Join Newsletter" />
                         </form>
                     </div>
                 </div>
@@ -195,6 +191,24 @@ export default {
 </script>
 
 <style scoped>
+.newsletter-heading {
+    font-size: clamp(1.4em, 3vw, 1.65em);
+    font-weight: bold;
+    text-transform: none;
+    line-height: 1.3;
+    padding: 0;
+    margin: 1rem auto 0;
+    text-align: center;
+}
+.newsletter-intro {
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    padding: 1rem 0;
+    font-size: 1.1em;
+    line-height: 1.8em;
+}
+
 .niche-banner {
     position: relative;
     width: 100%;
@@ -218,47 +232,44 @@ export default {
 
 .search {
     border: 1px solid #222;
-    overflow: auto;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+    overflow: hidden;
+    border-radius: 12px;
     max-width: 550px;
     margin: 0 auto 0px auto;
+}
+.search form {
+    display: flex;
+    margin: 0;
 }
 
 .search input[type='text'] {
     border: 0px;
-    width: 40%;
-    padding: 10px 10px;
+    flex: 1;
+    min-width: 0;
+    width: 0;
+    margin: 0;
+    padding: 10px;
     background: #f9f9f2;
-}
-@media only screen and (min-width: 650px) {
-    .search input[type='text'] {
-        border: 0px;
-        width: 70%;
-        padding: 10px 10px;
-        background: #f9f9f2;
-    }
 }
 
 .search input[type='text']:focus {
-    outline: 0;
+    outline: 2px solid #222;
+    outline-offset: -3px;
 }
 
 .search input[type='submit'] {
     border: 0px;
-    background: none;
-    background-color: rgba(16, 88, 185, 1);
+    background-color: #222;
     color: #fff;
-    float: right;
+    flex: 0 0 auto;
+    margin: 0;
     padding: 10px;
-    border-radius-top-right: 5px;
-    -moz-border-radius-top-right: 5px;
-    -webkit-border-radius-top-right: 5px;
-    border-radius-bottom-right: 5px;
-    -moz-border-radius-bottom-right: 5px;
-    -webkit-border-radius-bottom-right: 5px;
+    border-radius: 0;
     cursor: pointer;
+}
+.search input[type='submit']:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: -4px;
 }
 
 .search input {
@@ -285,10 +296,16 @@ export default {
     margin-left: 16px;
 }
 
+.lower_content p,
 .lower_content li {
     font-size: 1.1em;
     line-height: 1.8em;
+}
+.lower_content li {
     margin-bottom: 1em;
+}
+.lower_content .club-quote {
+    margin-bottom: 1.8em;
 }
 
 .lower_content h3 {
