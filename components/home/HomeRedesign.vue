@@ -3,7 +3,7 @@
         <div class="bfa-home__flow">
             <section class="bfa-home__intro" aria-labelledby="bfa-home-intro-title">
                 <h1 id="bfa-home-intro-title" class="bfa-home__intro-title">
-                    Some paintings stop you mid-breath. We find those paintings.
+                    Some paintings stop you mid-breath. We find those paintings for you.
                 </h1>
                 <div class="bfa-home__intro-grid">
                     <p class="bfa-home__intro-copy">
