@@ -12,7 +12,7 @@
   "artOnWallImage": "https://img.bedfordfineartgallery.com/michael-mosorjak-victorian-painting-for-sale-pathway-to-ava_sxgg2g.jpg",
   "mediumResImage": "https://img.bedfordfineartgallery.com/cms-uploads/mosorjak-ava-img_1462-sm-cr-fr.jpg",
   "gridImageWidth": 307,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Michael Mosorjak Pathway to Ava painting For Sale",
   "gridImage": "https://img.bedfordfineartgallery.com/cms-uploads/mosorjak-ava-img_1462-zoom-cr.jpg",
   "mediumResImageWidth": 1400,
@@ -26,15 +26,5 @@
   ],
   "gridImageHeight": 266,
   "highResImage": "https://img.bedfordfineartgallery.com/cms-uploads/mosorjak-ava-img_1462-lrg-cr-fr.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Only one exists"
-    },
-    {
-      "highlight": "Competitively priced $3,650"
-    }
-  ]
+  "highlights": []
 }
