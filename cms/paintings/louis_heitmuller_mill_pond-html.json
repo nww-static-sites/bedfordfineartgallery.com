@@ -14,7 +14,7 @@
   "youtubeEmbedLink": "",
   "mediumResImage": "https://img.bedfordfineartgallery.com/cms-uploads/heitmuller_mill_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Louis Heitmuller - Mill Pond - 19th Century American Fine Art",
   "gridImage": "https://img.bedfordfineartgallery.com/cms-uploads/heitmuller_mill_grid.jpg",
   "mediumResImageWidth": 1115,
@@ -27,15 +27,5 @@
   ],
   "gridImageHeight": 261,
   "highResImage": "https://img.bedfordfineartgallery.com/cms-uploads/heitmuller_mill_full.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Only one exists"
-    },
-    {
-      "highlight": "Competitively Priced $1,800"
-    }
-  ]
+  "highlights": []
 }
