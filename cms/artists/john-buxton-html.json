@@ -2,5 +2,8 @@
   "hasLandingPage": true,
   "name": "John Buxton",
   "tinyDescription": "American",
-  "slug": "john-buxton-html"
+  "slug": "john-buxton-html",
+  "paintings": [
+    "solo-so-sweet-html"
+  ]
 }
