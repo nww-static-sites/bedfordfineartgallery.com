@@ -8,7 +8,7 @@
   "featured": false,
   "artOnWallImage": "https://img.bedfordfineartgallery.com/alexis_lavine_conversation_ap_nezv8f.jpg",
   "mediumResImage": "https://img.bedfordfineartgallery.com/Lavine_Conversation_IMG_2493_sm_cr_fr_yeej2r.jpg",
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Alexis Lavine Painting | People Walking Down a Path",
   "gridImage": "https://img.bedfordfineartgallery.com/lavine_conversation_crop_jui3jg.jpg",
   "metaDescription": "Explore Alexis Lavine's captivating watercolor painting of people walking down a path. Add this beautiful, traditional-style landscape to your collection.",
@@ -20,15 +20,5 @@
     "Landscape"
   ],
   "highResImage": "https://img.bedfordfineartgallery.com/Lavine_Conversation_IMG_2493_lrg_cr_fr_dege2c.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Only one exists"
-    },
-    {
-      "highlight": "Competitively Priced $1,180"
-    }
-  ]
+  "highlights": []
 }
