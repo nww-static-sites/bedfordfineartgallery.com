@@ -8,7 +8,7 @@
   "featured": false,
   "artOnWallImage": "https://img.bedfordfineartgallery.com/lavine_awakening_2_ap_yina32.jpg",
   "mediumResImage": "https://img.bedfordfineartgallery.com/Lavine_Awakening_IMG_2535_sm_cr_fr_bkvyvp.jpg",
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "\"Awakening\" by Alexis Lavine | Original Art for Sale",
   "gridImage": "https://img.bedfordfineartgallery.com/Lavine_Awakening_IMG_2535_zoom_cr_dg0sks.jpg",
   "metaDescription": "View and purchase \"Awakening\" by acclaimed contemporary painter Alexis Lavine. Explore fine original artwork for your collection at Bedford Fine Art.",
@@ -20,15 +20,5 @@
     "Landscape"
   ],
   "highResImage": "https://img.bedfordfineartgallery.com/Lavine_Awakening_IMG_2535_lrg_cr_fr_rp5xne.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Only one exists"
-    },
-    {
-      "highlight": "Competitively Priced $485"
-    }
-  ]
+  "highlights": []
 }
