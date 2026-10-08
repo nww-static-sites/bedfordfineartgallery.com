@@ -8,7 +8,7 @@
   "featured": false,
   "artOnWallImage": "https://img.bedfordfineartgallery.com/mosorjak_across_the_marsh_ap_iy9ssy.jpg",
   "mediumResImage": "https://img.bedfordfineartgallery.com/Mosorjak_Across_the_Marsh_IMG_2619_sm_cr_fr_gmc1hn.jpg",
-  "status": "New",
+  "status": "Sold",
   "gridImage": "https://img.bedfordfineartgallery.com/Mosorjak_Across_the_Marsh_IMG_2619_zoom_cr_jelggj.jpg",
   "scrollingHomepageImage": false,
   "title": "Across the Marsh",
@@ -17,15 +17,5 @@
     "Landscape"
   ],
   "highResImage": "https://img.bedfordfineartgallery.com/Mosorjak_Across_the_Marsh_IMG_2619_lrg_cr_fr_sqdog7.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Only one exists"
-    },
-    {
-      "highlight": "Competitively Priced $ 275"
-    }
-  ]
+  "highlights": []
 }
