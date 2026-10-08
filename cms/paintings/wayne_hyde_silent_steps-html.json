@@ -11,7 +11,7 @@
   "youtubeEmbedLink": "https://www.youtube.com/embed/bGDNytl-QM0?rel=0",
   "mediumResImage": "https://img.bedfordfineartgallery.com/cms-uploads/hyde_steps_small.jpg",
   "gridImageWidth": 392,
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Wayne Hyde Sculptures - Silent Steps Sculpture For Sale",
   "mainImageAltText": "Wayne Hyde Sculptures - Silent Steps Sculpture",
   "gridImage": "https://img.bedfordfineartgallery.com/cms-uploads/hyde_steps_grid.jpg",
@@ -26,12 +26,5 @@
   ],
   "gridImageHeight": 261,
   "highResImage": "",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Competitively Priced $4,500"
-    }
-  ]
+  "highlights": []
 }
