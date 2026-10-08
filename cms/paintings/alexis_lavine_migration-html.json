@@ -8,7 +8,7 @@
   "featured": false,
   "artOnWallImage": "https://img.bedfordfineartgallery.com/lavine_migration_ap_a9ul4d.jpg",
   "mediumResImage": "https://img.bedfordfineartgallery.com/Lavine_Migration_IMG_2537_sm_cr_fr_nwuv0r.jpg",
-  "status": "None",
+  "status": "Sold",
   "metaTitle": "Alexis Lavine - Migration (Watercolor) | Bedford Fine Art",
   "gridImage": "https://img.bedfordfineartgallery.com/Lavine_Migration_IMG_2537_zoom_cr_oqinwf.jpg",
   "metaDescription": "Discover \"Migration,\" an exquisite original watercolor painting by award-winning American artist Alexis Lavine. Available now at Bedford Fine Art Gallery.",
@@ -19,15 +19,5 @@
     "Landscape"
   ],
   "highResImage": "https://img.bedfordfineartgallery.com/Lavine_Migration_IMG_2537_lrg_cr_fr_owgcns.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Only one exists"
-    },
-    {
-      "highlight": "Competitively Priced $325"
-    }
-  ]
+  "highlights": []
 }
