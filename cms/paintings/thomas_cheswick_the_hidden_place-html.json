@@ -9,7 +9,7 @@
   "featured": false,
   "artOnWallImage": "https://img.bedfordfineartgallery.com/creswick_ap_tjdim7.jpg",
   "mediumResImage": "https://img.bedfordfineartgallery.com/Creswick_IMG_2408_sm_cr_fr_qhf1fs.jpg",
-  "status": "New",
+  "status": "Sold",
   "youtubeAltText": "Thomas Cheswick – The Hidden Place Victorian Painting",
   "metaTitle": "Thomas Cheswick – The Hidden Place Victorian Painting",
   "mainImageAltText": "Thomas Cheswick – The Hidden Place Victorian Painting",
@@ -22,15 +22,5 @@
     "Landscape"
   ],
   "highResImage": "https://img.bedfordfineartgallery.com/Creswick_IMG_2408_lrg_cr_fr_gy5wy9.jpg",
-  "highlights": [
-    {
-      "highlight": "Available for purchase"
-    },
-    {
-      "highlight": "Only one exists"
-    },
-    {
-      "highlight": "Competitively Priced $3,217"
-    }
-  ]
+  "highlights": []
 }
