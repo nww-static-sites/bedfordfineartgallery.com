@@ -37,5 +37,8 @@
   "mediumResImageWidth": 1200,
   "mediumResImageHeight": 1030,
   "highResImageWidth": 2400,
-  "highResImageHeight": 2060
+  "highResImageHeight": 2060,
+  "artOnWallImage": "https://img.bedfordfineartgallery.com/cms-uploads/2026/10/1792510216770-da787cce-dolph-the-three-brothers-ap.jpg",
+  "artOnWallImageWidth": 2940,
+  "artOnWallImageHeight": 1760
 }
