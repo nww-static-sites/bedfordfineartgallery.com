@@ -5,7 +5,7 @@
   "categories": [
     "Landscape"
   ],
-  "dimensions": "Oil on linen/aluminum",
+  "dimensions": "Oil on linen/aluminum, 11.75 x 8.5 inches/signed lower left",
   "featured": false,
   "galleryCropImage": "https://img.bedfordfineartgallery.com/cms-uploads/2026/10/1792521795825-4328c4c3-witucki-an-inimate-garden-of-stone-img-2756-full-gall-cr.jpg",
   "gridImage": "https://img.bedfordfineartgallery.com/cms-uploads/2026/10/1792521820136-12f9b9c1-witucki-an-inimate-garden-of-stone-img-2756-zoom-cr.jpg",
@@ -40,5 +40,6 @@
   "highResImageWidth": 2392,
   "highResImageHeight": 2976,
   "artOnWallImageWidth": 3000,
-  "artOnWallImageHeight": 2671
+  "artOnWallImageHeight": 2671,
+  "artOnWallAltText": "An Intimate Garden of Stone by Sean M. Witucki"
 }
