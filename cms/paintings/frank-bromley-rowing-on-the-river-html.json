@@ -38,5 +38,8 @@
   "mediumResImageWidth": 1200,
   "mediumResImageHeight": 863,
   "highResImageWidth": 2400,
-  "highResImageHeight": 1726
+  "highResImageHeight": 1726,
+  "artOnWallImage": "https://img.bedfordfineartgallery.com/cms-uploads/2026/10/1793061970112-3e60bab4-bromley-rowing-on-the-river.jpg",
+  "artOnWallImageWidth": 3000,
+  "artOnWallImageHeight": 2000
 }
