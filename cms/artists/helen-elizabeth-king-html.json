@@ -3,5 +3,8 @@
   "hasLandingPage": true,
   "name": "Helen Elizabeth King",
   "tinyDescription": "American, died 1917",
-  "slug": "helen-elizabeth-king-html"
+  "slug": "helen-elizabeth-king-html",
+  "paintings": [
+    "helen-elizabeth-king-massachusetts-coast-html"
+  ]
 }
