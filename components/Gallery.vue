@@ -13,7 +13,7 @@
                 </div>
                 <div class="flex">
                     <div>
-                <input v-model="filter" type="text" class="form-control search-box" placeholder="Filter by Artist Name" autocomplete="off" />
+                <input v-model="filter" type="text" class="form-control search-box" placeholder="Filter by Artist or Title" autocomplete="off" />
                     </div>
                     <div class="txt_right">
 
@@ -126,7 +126,10 @@ function filterPaintings (paintings, filter) {
         return paintings
     }
 
-    return paintings.filter(painting => painting.artist.name.toLowerCase().includes(filter.toLowerCase()))
+    const term = filter.toLowerCase()
+    return paintings.filter(painting =>
+        painting.artist.name.toLowerCase().includes(term) || (painting.title || '').toLowerCase().includes(term)
+    )
 }
 
 const stableSort = (arr, compare) => arr
