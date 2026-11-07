@@ -1,13 +1,6 @@
 <template>
     <div class="cx_site-header">
-        <a
-            class="cx_site-newsletter"
-            href="https://www.bedfordfineartgallery.com/art_lovers_niche.htm"
-            target="_blank"
-            rel="noopener"
-        >
-            Read The Art Lovers' Niche, Our Newsletter
-        </a>
+        <NewsletterPopup />
 
         <div class="cx_site-header__frame">
             <header class="cx_site-header__masthead">
@@ -69,7 +62,10 @@
 </template>
 
 <script>
+import NewsletterPopup from '~/components/NewsletterPopup'
+
 export default {
+    components: { NewsletterPopup },
     data() {
         return {
             mobileMenuOpen: false,
@@ -179,22 +175,6 @@ export default {
     display: none;
 }
 
-.cx_site-newsletter {
-    background: #db2222;
-    border-radius: 6px 6px 0 0;
-    bottom: 1px;
-    color: #fff;
-    display: block;
-    font-size: 12px;
-    font-weight: 700;
-    padding: 15px 10px;
-    position: fixed;
-    right: 10px;
-    text-align: center;
-    text-decoration: none;
-    width: 300px;
-    z-index: 9999;
-}
 
 @media screen and (max-width: 720px) {
     .cx_site-header {
@@ -279,10 +259,5 @@ export default {
         width: 100%;
     }
 
-    .cx_site-newsletter {
-        left: 12px;
-        right: 12px;
-        width: auto;
-    }
 }
 </style>
