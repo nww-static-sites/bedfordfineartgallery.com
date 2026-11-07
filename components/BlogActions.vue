@@ -5,10 +5,10 @@
         </a>
         <a class="blog-action" href="/art_lovers_niche.htm">
             <span class="blog-action-title">Join the Art Lovers' Niche</span>
-            <span class="blog-action-description">A newsletter for people who love fine art.</span>
+            <span class="blog-action-description">A newsletter for lovers of fine art.</span>
         </a>
         <a class="blog-action" href="/Artists--Bios.html">
-            <span class="blog-action-title">Visit Online Gallery</span>
+            <span class="blog-action-title">Visit The Online Gallery</span>
             <span class="blog-action-description">Find a painting that speaks to you.</span>
         </a>
     </nav>
