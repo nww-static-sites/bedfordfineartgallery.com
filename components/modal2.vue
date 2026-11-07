@@ -21,29 +21,7 @@
                         />
                     </div>
 
-                    <form
-                        id="remsform"
-                        action="https://accept.nittanyweb.com/remote_add_name.cgi"
-                        method="post"
-                        name="remsform"
-                    >
-                        <input
-                            id="e"
-                            type="text"
-                            placeholder="Email Address"
-                            name="e"
-                            style="margin-bottom: 8px; margin-top: 15px"
-                        />
-                        <input id="m2" name="m" type="hidden" value="88" />
-                        <input id="l2" name="l" type="hidden" value="1263" />
-                        <input
-                            id="r"
-                            name="r"
-                            type="hidden"
-                            value="https://www.bedfordfineartgallery.com/mailing_list_thanks.htm"
-                        />
-                        <input type="submit" value="Join the Movement" />
-                    </form>
+                    <NewsletterSignup input-id="niche-modal-email" />
 
                     <button class="button button-x" @click="$emit('close')">X</button>
                 </div>
@@ -54,8 +32,10 @@
 
 <script>
 import NextLeadMixin from '~/mixins/NextLeadMixin'
+import NewsletterSignup from '~/components/NewsletterSignup'
 
 export default {
+    components: { NewsletterSignup },
     mixins: [NextLeadMixin],
     props: {
         mediumResImage: {

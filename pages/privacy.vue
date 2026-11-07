@@ -1,8 +1,6 @@
 <template>
     <div>
-        <a class="join_absolute" href="https://www.bedfordfineartgallery.com/art_lovers_niche.htm" target="_blank" rel="noopener">Like our site?  Get our monthly newsletter!</a>
-        
-        <div class="container primary">
+<div class="container primary">
             <section class="wrapper clearfix">
                 <div class="artwork_header">
                     <h1>Privacy Policy</h1>
@@ -31,6 +29,12 @@
                         maintain data accuracy, and ensure the correct use of information, we have put in place
                         appropriate physical, electronic, and managerial procedures to safeguard and secure the
                         information we collect online.
+                    </p>
+                    <p>
+                        <span class="subHeader">Newsletter Spam Protection</span> Our newsletter signup forms use
+                        Cloudflare Turnstile to distinguish people from automated requests. Cloudflare processes
+                        browser and device signals for this security check. See the
+                        <a href="https://www.cloudflare.com/cloudflare-customer-dpa/turnstile/" target="_blank" rel="noopener">Cloudflare Turnstile Privacy Addendum</a>.
                     </p>
                     <p>
                         <span class="subHeader">Remarketing</span> We may at times use the Remarketing method of
@@ -106,22 +110,6 @@ export default {
 
     line-height: 1.8em;
     margin-bottom: 1em;
-}
-.join_absolute {
-    background: #db2222;
-    color: white;
-    padding: 15px 10px;
-    position: fixed;
-    bottom: 1px;
-    right: 10px;
-    width: 300px;
-    display: block;
-    text-align: center;
-    z-index: 9999;
-    font-size: 13px;
-    font-weight: bold;
-    border-radius: 6px 6px 0px 0px;
-    text-decoration: none;
 }
 </style>
 

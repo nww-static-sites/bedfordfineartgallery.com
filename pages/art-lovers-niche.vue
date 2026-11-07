@@ -24,30 +24,7 @@
                     </p>
 
                     <div class="search" style="margin-bottom: 1.2rem">
-                        <form
-                            id="remsform"
-                            action="https://beta.ecommerceplatform.com/forms/mems_list.cgi"
-                            method="post"
-                            name="remsform"
-                        >
-                            <input
-                                id="e"
-                                type="text"
-                                class="newsletter-email"
-                                placeholder="Email Address"
-                                name="e"
-                                aria-label="Email Address"
-                            />
-                            <input id="m2" name="m" type="hidden" value="88" />
-                            <input id="l2" name="l" type="hidden" value="1263" />
-                            <input
-                                id="r"
-                                name="r"
-                                type="hidden"
-                                value="https://www.bedfordfineartgallery.com/mailing_list_thanks.htm"
-                            />
-                            <input type="submit" value="Join Newsletter" />
-                        </form>
+                        <NewsletterSignup input-id="niche-top-email" />
                     </div>
 
                     <ArtLoversNicheArticlePreview
@@ -136,30 +113,7 @@
                         Enter your email address below to join our newsletter:
                     </p>
                     <div class="search" style="margin-bottom: 1.2rem">
-                        <form
-                            id="remsform"
-                            action="https://beta.ecommerceplatform.com/forms/mems_list.cgi"
-                            method="post"
-                            name="remsform"
-                        >
-                            <input
-                                id="e"
-                                type="text"
-                                class="newsletter-email"
-                                placeholder="Email Address"
-                                name="e"
-                                aria-label="Email Address"
-                            />
-                            <input id="m2" name="m" type="hidden" value="88" />
-                            <input id="l2" name="l" type="hidden" value="1263" />
-                            <input
-                                id="r"
-                                name="r"
-                                type="hidden"
-                                value="https://www.bedfordfineartgallery.com/mailing_list_thanks.htm"
-                            />
-                            <input type="submit" value="Join Newsletter" />
-                        </form>
+                        <NewsletterSignup input-id="niche-bottom-email" />
                     </div>
                 </div>
             </section>
@@ -178,9 +132,10 @@
 <script>
 import ArtLoversNicheArticlePreview from '~/components/ArtLoversNicheArticlePreview'
 import TestimonialsScroll from '~/components/TestimonialsScroll'
+import NewsletterSignup from '~/components/NewsletterSignup'
 
 export default {
-    components: { TestimonialsScroll, ArtLoversNicheArticlePreview },
+    components: { TestimonialsScroll, ArtLoversNicheArticlePreview, NewsletterSignup },
     async asyncData({ $content }) {
         return {
             artLoversNicheArticles: await $content('artLoversNicheArticles')
