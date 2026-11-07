@@ -4,7 +4,9 @@
             v-show="!success"
             ref="form"
             class="aln__form"
-            :aria-busy="busy ? 'true' : 'false'"
+            method="post"
+            action="https://beta.ecommerceplatform.com/forms/mems_list.cgi"
+            :aria-busy="!ready || busy ? 'true' : 'false'"
             @submit.prevent="submit"
         >
             <label class="aln__sr-only" :for="inputId">Your email</label>
@@ -18,6 +20,7 @@
                 autocomplete="email"
                 inputmode="email"
                 required
+                :disabled="!ready"
                 :readonly="busy"
             />
             <input type="hidden" name="m" value="88" />
@@ -27,7 +30,7 @@
                 class="aln__join"
                 :class="{ 'is-busy': busy }"
                 type="submit"
-                :disabled="busy"
+                :disabled="!ready || busy"
                 @click.prevent="submit"
             >
                 {{ busy ? 'Joining…' : 'Join Newsletter' }}
@@ -67,7 +70,10 @@ export default {
         popup: { type: Boolean, default: false },
     },
     data() {
-        return { email: '', busy: false, status: '', success: false }
+        return { email: '', ready: false, busy: false, status: '', success: false }
+    },
+    mounted() {
+        this.ready = true
     },
     computed: {
         message() {
@@ -76,7 +82,7 @@ export default {
     },
     methods: {
         async submit() {
-            if (this.busy || !this.$refs.form.reportValidity()) return
+            if (!this.ready || this.busy || !this.$refs.form.reportValidity()) return
             this.busy = true
             this.status = ''
             try {
