@@ -32,7 +32,7 @@
                     <p v-if="hasAdditionalLink">
 						<nuxt-link :to="highlight.additionalLink.link" class="readmore">{{ highlight.additionalLink.text }}</nuxt-link>
 					</p>
-                    <p><nuxt-link :to="{ name: 'highlights' }" class="readmore">Back to Blog</nuxt-link></p>
+                    <BlogActions show-back />
                 </div>
             </section>
         </div>
@@ -50,12 +50,13 @@
 <script>
 import TestimonialsScroll from '~/components/TestimonialsScroll'
 import YouTubeVideo from '~/components/YouTubeVideo'
+import BlogActions from '~/components/BlogActions.vue'
 import { urlSlugToSlug } from '~/libs/slug'
 import { getMetaTitleAndDescriptionAndKeywords } from '~/libs/meta'
 import ArticleOutline from '~/libs/article-outline'
 
 export default {
-	components: { TestimonialsScroll, YouTubeVideo },
+	components: { TestimonialsScroll, YouTubeVideo, BlogActions },
     async asyncData({ $content, route }) {
         const highlight = await $content('articles', urlSlugToSlug(route.path)).fetch()
 
