@@ -34,17 +34,17 @@
 import HighlightPreview from '~/components/HighlightPreview.vue'
 import TestimonialsScroll from '~/components/TestimonialsScroll'
 import { getPostPreview } from '~/libs/post'
+import { compareArticles } from '~/libs/article-order'
 
 export default {
     components: { HighlightPreview, TestimonialsScroll },
     async asyncData({ $content }) {
         const highlights = await $content('articles')
             .only(['slug', 'date', 'title', 'gridImage', 'gridImageAltText', 'body'])
-            .sortBy('date', 'desc')
             .fetch()
 
         return {
-            highlights: highlights.map(({ slug, date, title, gridImage, gridImageAltText, body }) => ({
+            highlights: highlights.sort(compareArticles).map(({ slug, date, title, gridImage, gridImageAltText, body }) => ({
                 slug,
                 date,
                 title,
