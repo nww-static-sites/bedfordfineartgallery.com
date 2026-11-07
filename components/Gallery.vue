@@ -6,7 +6,7 @@
                     <ul>
                         <li v-for="link in headerLinks" :key="link.name">
                             <nuxt-link :to="{ name: link.routeName }" :class="{ active: category === link.name }">{{
-                                link.name
+                                link.label || link.name
                             }}</nuxt-link>
                         </li>
                     </ul>
@@ -238,7 +238,7 @@ export default {
                 { routeName: 'marine-artwork', name: 'Marine' },
                 { routeName: 'still-life-artwork', name: 'Still Life' },
                 { routeName: 'genre-artwork', name: 'Genre' },
-                { routeName: 'historical-and-political-artwork', name: 'American Historic / Political' },
+                { routeName: 'historical-and-political-artwork', name: 'American Historic / Political', label: 'Americana' },
                 { routeName: 'sporting-art', name: 'Sporting Art' },
                 { routeName: 'animal-artwork', name: 'Animal' },
                 { routeName: 'sculpture', name: 'Sculpture' },
