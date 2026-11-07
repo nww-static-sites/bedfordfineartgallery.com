@@ -17,6 +17,7 @@
                     :key="`highlight-preview-${index}`"
                     :highlight="highlight"
                 />
+                <BlogActions />
             </section>
         </div>
         <div
@@ -33,11 +34,12 @@
 <script>
 import HighlightPreview from '~/components/HighlightPreview.vue'
 import TestimonialsScroll from '~/components/TestimonialsScroll'
+import BlogActions from '~/components/BlogActions.vue'
 import { getPostPreview } from '~/libs/post'
 import { compareArticles } from '~/libs/article-order'
 
 export default {
-    components: { HighlightPreview, TestimonialsScroll },
+    components: { HighlightPreview, TestimonialsScroll, BlogActions },
     async asyncData({ $content }) {
         const highlights = await $content('articles')
             .only(['slug', 'date', 'title', 'gridImage', 'gridImageAltText', 'body'])
