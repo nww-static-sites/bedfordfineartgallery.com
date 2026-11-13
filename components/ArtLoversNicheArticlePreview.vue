@@ -8,7 +8,7 @@
         <div class="highlights_prev niche-preview-text">
             <h2 class="niche-preview-title"><nuxt-link :to="articlePath">Art Lovers' Niche - {{ date }}</nuxt-link></h2>
             <p>{{ artLoversNicheArticle.preview }}</p>
-            <p><nuxt-link :to="articlePath" class="readmore">Read More</nuxt-link></p>
+            <p><nuxt-link :to="articlePath" class="niche-read-more">Read More</nuxt-link></p>
         </div>
     </div>
 </template>
@@ -39,8 +39,31 @@ export default {
 .niche-preview-title a:hover,
 .niche-preview-title a:focus,
 .niche-preview-title a:active { color: inherit; font: inherit; text-decoration: none; }
+.niche-preview .niche-read-more {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 8px 16px;
+    border-radius: 19px;
+    background: #823631;
+    color: #fff8ed;
+    font-size: 1.0625rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: none;
+    transition: background-color 150ms ease;
+}
+.niche-preview .niche-read-more:hover { background: #903e38; }
+.niche-read-more:focus-visible,
 .niche-preview-title a:focus-visible,
 .niche-preview-image:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.niche-preview .niche-read-more:focus-visible { outline-color: #823631; }
+@media (max-width: 480px) {
+    .niche-preview .niche-read-more { border-radius: 17px; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .niche-preview .niche-read-more { transition: none; }
+}
 @media (min-width: 650px) {
     .niche-preview-with-image { grid-template-columns: 220px minmax(0, 1fr); }
 }
