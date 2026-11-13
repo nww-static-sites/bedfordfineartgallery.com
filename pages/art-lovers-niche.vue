@@ -27,11 +27,14 @@
                         <NewsletterSignup input-id="niche-top-email" />
                     </div>
 
-                    <ArtLoversNicheArticlePreview
-                        v-for="article in recentArticles"
-                        :key="article.slug"
-                        :art-lovers-niche-article="article"
-                    />
+                    <section class="recent-articles" aria-label="Latest articles">
+                        <ArtLoversNicheArticlePreview
+                            v-for="article in recentArticles"
+                            :key="article.slug"
+                            :art-lovers-niche-article="article"
+                            compact
+                        />
+                    </section>
 
                     <section v-if="archiveYears.length" class="niche-archive" aria-labelledby="past-articles">
                         <div class="archive-controls">
@@ -189,20 +192,13 @@
                 </div>
             </section>
         </div>
-        <div
-            class="container footer_test"
-            style="padding-top: 24px; width: 100%; margin: 0px auto; background-color: rgba(16, 88, 185, 1)"
-        >
-            <section class="wrapper" style="max-width: 860px; margin: auto">
-                <TestimonialsScroll />
-            </section>
-        </div>
+        <NicheTestimonialMarquee />
     </div>
 </template>
 
 <script>
 import ArtLoversNicheArticlePreview from '~/components/ArtLoversNicheArticlePreview'
-import TestimonialsScroll from '~/components/TestimonialsScroll'
+import NicheTestimonialMarquee from '~/components/NicheTestimonialMarquee'
 import NewsletterSignup from '~/components/NewsletterSignup'
 
 const recentArticleCount = 12
@@ -213,7 +209,7 @@ const clubTabs = [
 ]
 
 export default {
-    components: { TestimonialsScroll, ArtLoversNicheArticlePreview, NewsletterSignup },
+    components: { NicheTestimonialMarquee, ArtLoversNicheArticlePreview, NewsletterSignup },
     async asyncData({ $content }) {
         return {
             artLoversNicheArticles: await $content('artLoversNicheArticles')
@@ -368,6 +364,16 @@ export default {
 
 .niche-archive {
     margin: 24px auto;
+}
+.recent-articles {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+}
+@media (min-width: 960px) {
+    .recent-articles {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 24px clamp(40px, 5vw, 72px);
+    }
 }
 .archive-controls,
 .club-tabs {

@@ -1,5 +1,5 @@
 <template>
-    <div class="niche-preview" :class="{ 'niche-preview-with-image': image }">
+    <div class="niche-preview" :class="{ 'niche-preview-with-image': image, 'niche-preview-compact': compact }">
         <nuxt-link v-if="image" :to="articlePath" class="niche-preview-image">
             <img
                 :src="image.src" :width="image.width" :height="image.height"
@@ -19,6 +19,7 @@ import { formatDateNoTime } from '~/libs/format-date'
 export default {
     props: {
         artLoversNicheArticle: { type: Object, required: true },
+        compact: { type: Boolean, default: false },
     },
     computed: {
         date() { return formatDateNoTime(this.artLoversNicheArticle.date) },
@@ -66,6 +67,11 @@ export default {
 }
 @media (min-width: 650px) {
     .niche-preview-with-image { grid-template-columns: 220px minmax(0, 1fr); }
+}
+@media (min-width: 960px) {
+    .niche-preview-compact.niche-preview-with-image { grid-template-columns: minmax(0, 30%) minmax(0, 1fr); }
+    .niche-preview-compact .niche-preview-image { max-width: 100%; }
+    .niche-preview-compact .niche-preview-image img { max-width: 100%; height: auto; }
 }
 @media (max-width: 300px) {
     .niche-preview-image img { max-width: 100%; }
