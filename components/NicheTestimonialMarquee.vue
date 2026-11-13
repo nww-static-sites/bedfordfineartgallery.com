@@ -1,5 +1,5 @@
 <template>
-    <section class="niche-testimonials" aria-label="Customer testimonials">
+    <section id="niche-testimonials" class="niche-testimonials" aria-label="Customer testimonials">
         <div class="testimonial-window">
             <div ref="track" class="testimonial-track">
                 <div
@@ -20,8 +20,17 @@
         </div>
         <div class="testimonial-links">
             <nuxt-link to="/testimonials.htm">Read all testimonials</nuxt-link>
-            <button v-if="canAnimate && visibleQuotes.length > 1" type="button" @click="toggleMotion">
-                {{ paused ? 'Resume scrolling' : 'Pause scrolling' }}
+            <button
+                v-if="canAnimate && visibleQuotes.length > 1"
+                type="button"
+                :aria-label="paused ? 'Play testimonials' : 'Pause testimonials'"
+                :title="paused ? 'Play testimonials' : 'Pause testimonials'"
+                @click="toggleMotion"
+            >
+                <svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+                    <path v-if="paused" d="M4 2.5 13 8l-9 5.5z" fill="currentColor" />
+                    <path v-else d="M4 2.5h3v11H4zm5 0h3v11H9z" fill="currentColor" />
+                </svg>
             </button>
         </div>
     </section>
@@ -31,14 +40,20 @@
 import { loadShortTestimonialsClient } from '~/libs/testimonials-client'
 
 // The middle of the journey is faster than the edges. Each 85%-wide quote
-// remains entirely in view for about 26 seconds around the seamless swap.
+// remains entirely in view for about 22 seconds around the seamless swap.
 const motion = [
     { transform: 'translateX(0)', offset: 0, easing: 'ease-in' },
     { transform: 'translateX(-7.5%)', offset: 0.2, easing: 'ease-in-out' },
     { transform: 'translateX(-92.5%)', offset: 0.8, easing: 'ease-out' },
     { transform: 'translateX(-100%)', offset: 1 },
 ]
-const motionOptions = { duration: 64000, fill: 'forwards' }
+const motionOptions = { duration: 64000 / 1.15, fill: 'forwards' }
+
+function hasReadableLength(quote) {
+    const words =
+        quote.match(/[\p{L}\p{N}][\p{L}\p{M}\p{N}]*(?:['’\u2010\u2011-][\p{L}\p{N}][\p{L}\p{M}\p{N}]*)*/gu) || []
+    return words.length >= 10 && words.length <= 40
+}
 
 export default {
     data() {
@@ -72,7 +87,7 @@ export default {
         loadShortTestimonialsClient()
             .then((rows) => {
                 if (this.disposed) return
-                this.quotes = rows.filter((row) => row.shortTestimonial.trim())
+                this.quotes = rows.filter((row) => hasReadableLength(row.shortTestimonial))
                 this.loading = false
                 this.$nextTick(this.syncMotion)
             })
@@ -132,18 +147,31 @@ export default {
 
 <style scoped>
 .niche-testimonials {
-    --quote-lines: 4;
-    --quote-leading: 1.5;
+    --quote-lines: 3;
+    --quote-leading: 1.3;
     --quote-size: clamp(1.1875rem, 2vw, 1.5rem);
+    --previous-lines: 4;
+    --previous-controls: 44px;
+    /* Preserve 60% of the former quote window, padding, and controls together. */
+    --band-height: calc((var(--previous-lines) * 1.5 * var(--quote-size) + 2.25rem + 40px + var(--previous-controls)) * 0.6);
+    --control-height: 32px;
     width: 100%;
-    padding: 22px 0 18px;
+    height: var(--band-height);
+    position: relative;
     background: #ddd1ad;
     color: #4a3022;
 }
 .testimonial-window {
     position: relative;
     overflow: hidden;
-    height: calc(var(--quote-lines) * var(--quote-leading) * var(--quote-size) + 2.25rem);
+    height: calc(var(--band-height) - var(--control-height));
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    align-items: center;
+}
+.testimonial-track,
+.testimonial-message {
+    grid-area: 1 / 1;
 }
 .testimonial-track {
     display: flex;
@@ -152,6 +180,7 @@ export default {
 .testimonial-slide {
     flex: 0 0 100%;
     min-width: 0;
+    align-self: center;
 }
 .testimonial-quote {
     width: 85%;
@@ -188,30 +217,35 @@ export default {
     font: italic var(--quote-size) / var(--quote-leading) Georgia, 'Times New Roman', serif;
 }
 .testimonial-links {
+    position: absolute;
+    inset: auto 7.5% 0;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    gap: 4px 16px;
-    width: 85%;
-    margin: 0 auto;
+    height: var(--control-height);
     font-size: 0.9375rem;
 }
 .testimonial-links a,
 .testimonial-links button {
     display: inline-flex;
-    min-height: 44px;
+    min-height: var(--control-height);
     align-items: center;
     color: inherit;
     text-decoration: underline;
     text-underline-offset: 3px;
 }
 .testimonial-links button {
+    justify-content: center;
+    width: var(--control-height);
     padding: 0;
     border: 0;
-    background: none;
+    border-radius: 50%;
+    background: transparent;
     font: inherit;
     cursor: pointer;
+}
+.testimonial-links button:hover {
+    background: rgb(74 48 34 / 10%);
 }
 .testimonial-links a:focus-visible,
 .testimonial-links button:focus-visible {
@@ -220,13 +254,13 @@ export default {
 }
 @media (max-width: 650px) {
     .niche-testimonials {
-        --quote-lines: 5;
+        --previous-lines: 5;
     }
 }
 @media (max-width: 380px) {
-    .testimonial-links {
-        flex-direction: column;
-        align-items: flex-start;
+    .niche-testimonials {
+        --previous-controls: 92px;
+        --quote-lines: 4;
     }
 }
 </style>
