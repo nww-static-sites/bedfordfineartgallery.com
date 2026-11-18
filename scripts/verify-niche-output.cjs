@@ -22,6 +22,7 @@ assert(articles.every((article,index)=>!index||article.date<=articles[index-1].d
 for(const article of articles){
  assert.deepStrictEqual(JSON.parse(JSON.stringify(article.listingImage || null)),manifest.images[article.slug])
  assert(!Object.prototype.hasOwnProperty.call(article,'body'))
+ if (article.nicheTitle) assert(article.listingImage && article.listingImage.alt.trim(), 'New Niche article is missing its listing image: ' + article.slug)
 }
 assert.strictEqual(rows.length,Math.min(12,articles.length))
 const archived=Array.from(articles).slice(12)
