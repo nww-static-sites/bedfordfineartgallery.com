@@ -6,7 +6,8 @@
                 :alt="image.alt" loading="lazy" decoding="async" />
         </nuxt-link>
         <div class="highlights_prev niche-preview-text">
-            <h2 class="niche-preview-title"><nuxt-link :to="articlePath">Art Lovers' Niche - {{ date }}</nuxt-link></h2>
+            <h2 class="niche-preview-title"><nuxt-link :to="articlePath">{{ cardTitle }}</nuxt-link></h2>
+            <p v-if="artLoversNicheArticle.nicheTitle" class="niche-preview-date">{{ date }}</p>
             <p>{{ artLoversNicheArticle.preview }}</p>
             <p><nuxt-link :to="articlePath" class="niche-read-more">Read More</nuxt-link></p>
         </div>
@@ -22,7 +23,15 @@ export default {
         compact: { type: Boolean, default: false },
     },
     computed: {
-        date() { return formatDateNoTime(this.artLoversNicheArticle.date) },
+        date() {
+            const value = this.artLoversNicheArticle.date
+            if (this.artLoversNicheArticle.nicheTitle) {
+                return new Intl.DateTimeFormat('en-US', { timeZone: 'UTC', month: 'short', day: 'numeric', year: 'numeric' })
+                    .format(new Date(value.slice(0, 10) + 'T12:00:00Z'))
+            }
+            return formatDateNoTime(value)
+        },
+        cardTitle() { return this.artLoversNicheArticle.nicheTitle || "Art Lovers' Niche - " + this.date },
         articlePath() { return this.artLoversNicheArticle.slug.replace('-html', '.html') },
         image() { return this.artLoversNicheArticle.listingImage || null },
     },

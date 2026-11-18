@@ -33,6 +33,7 @@ module.exports = function nicheThumbnails() {
     this.nuxt.hook('content:file:beforeInsert', (document) => {
         if (document.dir === '/artLoversNicheArticles') {
             document.listingImage = images[document.slug] || null
+            if (document.nicheFormat === 'niche-v7') document.nicheTitle = document.niche.title
         }
     })
 }
