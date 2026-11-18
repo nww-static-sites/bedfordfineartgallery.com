@@ -16,7 +16,6 @@
             <input v-model="newsletterOptIn" type="checkbox" name="newsletter-opt-in" :disabled="fieldsDisabled" />
             <span>{{ newsletterConsentText }}</span>
         </label>
-        <nuxt-link class="privacy-link" to="/privacy.htm">Privacy Policy</nuxt-link>
 
         <label :for="`${fieldId}-comments`">Message</label>
         <textarea
@@ -177,7 +176,6 @@ export default {
 <style scoped>
 .email-use,
 .newsletter-choice,
-.privacy-link,
 .inquiry-status {
     font-size: 16px;
     line-height: 1.45;
@@ -203,10 +201,6 @@ export default {
     padding: 0;
     margin: 2px 0 0;
     accent-color: #841012;
-}
-
-.privacy-link {
-    text-decoration: underline;
 }
 
 .inquiry-status:empty {
