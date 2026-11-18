@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-18",
+  "preview": "Jerry and Joan share what’s new at Bedford Fine Art Gallery and offer a first look at a newly acquired James Fairman seascape.",
+  "nicheFormat": "niche-v7",
+  "niche": {
+    "title": "All New! We Have Some Exciting Things to Share",
+    "opening": {
+      "src": "https://img.bedfordfineartgallery.com/cms-uploads/2026/11/1795018592719-abae6e05-jerry-americana-wide.jpg",
+      "alt": "Jerry standing beside a framed portrait of George Washington in the Americana Room",
+      "caption": "Jerry in the Americana Room.",
+      "link": "https://www.bedfordfineartgallery.com/art-lovers-review-assets/d6aab720f499/jerry-original.jpg",
+      "ratio": 1.7777777777777777
+    },
+    "firstHeading": "Update",
+    "firstFirst": "Hope you all are doing well and getting ready to enjoy the holidays! Joan and I are devoted to our passion, fine art, and continue to improve your Bedford Fine Art Gallery experience. We recently worked with our website developer and completed a meaningful upgrade to the way the website is organized and delivered. We revisited the entire website and, although you may not notice a difference on the surface, the changes to the website have produced many benefits, including:\n\n• Faster page loading.\n• Better experience for visitors using mobile devices.",
+    "firstSecond": "You can see through this newsletter that we have also changed the format of Art Lovers’ Niche. We will continue the Art Lovers’ Niche once-a-month no-spam, no-clutter, update to you that gives you value-added information, such as:\n\n• New paintings and recent finds (with some new paintings exclusively being shown to our Art Lovers’ Niche community before we post them on the website)\n• Artist stories and the history behind the art\n• Gallery news, plus local tips if you’re planning a visit to Bedford, PA\n• Insight that makes you a more confident art lover",
+    "painting1": {
+      "src": "https://www.bedfordfineartgallery.com/art-lovers-review-assets/d6aab720f499/hulme-grid.jpg",
+      "alt": "Arundel Park by Frederick William Hulme",
+      "caption": "Arundel Park — Frederick William Hulme",
+      "link": "https://www.bedfordfineartgallery.com/frederick-william-hulme-arundel-park.html",
+      "ratio": 1.3333333333333333
+    },
+    "painting2": {
+      "src": "https://www.bedfordfineartgallery.com/art-lovers-review-assets/d6aab720f499/van-boskerck-grid.jpg",
+      "alt": "Old Canal by Robert Ward Van Boskerck",
+      "caption": "Old Canal — Robert Ward Van Boskerck",
+      "link": "https://www.bedfordfineartgallery.com/robert_ward_van_boskerck_old_canal.html",
+      "ratio": 1.3333333333333333
+    },
+    "painting3": {
+      "src": "https://www.bedfordfineartgallery.com/art-lovers-review-assets/d6aab720f499/bromley-grid.jpg",
+      "alt": "Rowing on the River by Frank Bromley",
+      "caption": "Rowing on the River — Frank Bromley",
+      "link": "https://www.bedfordfineartgallery.com/frank-bromley-rowing-on-the-river.html",
+      "ratio": 1.3333333333333333
+    },
+    "painting4": {
+      "src": "https://www.bedfordfineartgallery.com/art-lovers-review-assets/d6aab720f499/buxton-grid.jpg",
+      "alt": "Endeerment by John Buxton",
+      "caption": "Endeerment — John Buxton",
+      "link": "https://www.bedfordfineartgallery.com/john-buxton-endeerment.html",
+      "ratio": 1.3333333333333333
+    },
+    "secondHeading": "Featured Artist: James Fairman (American 1826-1904)",
+    "secondFirst": "Below, we’re sharing with you a first-look at a new James Fairman painting, before it appears on our gallery website. We hope you delight in the subtleties of its beauty.",
+    "secondSecond": "Scottish-born James Fairman and his brother were brought to New York City when he was six years old. Encouraged in art when he was a child, at age 18 he took art classes at the National Academy of Design. Starting inauspiciously as a book binder for Harper’s publishing house in Manhattan, Fairman was eventually to become a landscape painter “without peer” as one newspaper of the day stated. He served in the Northern army during the American Civil War as a Colonel and he was to retain “Colonel” with his name throughout his life. It was only after the war that he fully pursued art as a career. Fairman did not embrace any particular “school” of painting although he spent a number of years in Dusseldorf, Germany; London, England, and Paris, France. Col. Fairman himself said that he belongs to “The Eclectic School”—“a class of artists that professes not to attach itself distinctly to the French or Dusseldorf, or Munich, or any other school, but having studied in all or several of the leading schools, aims at adopting good qualities from each.” During the 1870s, he visited the Holy Land and became the preeminent painter of Jerusalem in the United States. He traveled also throughout New England—Connecticut and Maine and the Catskill Mountains in New York State. Fairman did not belong to, or exhibit much at, the usual art venues of that time, preferring instead to promote his own work and obtain his own patrons—a task at which he was more successful than many of his peers. He did exhibit variously at the National Academy of Design, Brooklyn Art Association and the Pennsylvania Academy of the Fine Arts.",
+    "featured": {
+      "src": "https://www.bedfordfineartgallery.com/art-lovers-review-assets/d6aab720f499/joan-fairman-wide-v2.jpg",
+      "alt": "Joan rests her hand on the gilt frame of James Fairman’s seascape of a sailing ship in rough water",
+      "caption": "Joan with a new seascape by James Fairman",
+      "link": "https://www.bedfordfineartgallery.com/art-lovers-review-assets/d6aab720f499/joan-original.jpg",
+      "ratio": 1.136173767752715
+    },
+    "quote": "This world is but a canvas to our imaginations.",
+    "quoteAuthor": "Henry David Thoreau"
+  },
+  "slug": "all-new-we-have-some-exciting-things-to-share-html"
+}
