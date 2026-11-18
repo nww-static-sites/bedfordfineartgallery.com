@@ -213,7 +213,7 @@ export default {
     async asyncData({ $content }) {
         return {
             artLoversNicheArticles: await $content('artLoversNicheArticles')
-                .only(['slug', 'date', 'preview', 'listingImage'])
+                .only(['slug', 'date', 'preview', 'listingImage', 'nicheTitle'])
                 .sortBy('date', 'desc')
                 .fetch(),
         }
