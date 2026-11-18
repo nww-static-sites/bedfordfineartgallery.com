@@ -71,13 +71,13 @@ export default {
         this.debouncedUpdateForm = debounce(NextLeadService.updateForm, 500)
     },
     methods: {
-        async submitToNextLead({ recaptchaToken }) {
+        async submitToNextLead({ recaptchaToken, additionalFields = [] }) {
             this.debouncedUpdateForm.cancel()
-            await Promise.all([
+            const [response] = await Promise.all([
                 NextLeadService.submitForm({
                     uuid: this.nextLeadUUID,
                     formName: this.formName,
-                    formValues: this.formValuesPayload,
+                    formValues: [...this.formValuesPayload, ...additionalFields],
                     formPage: this.formPage,
                     recaptchaToken: recaptchaToken || this.recaptchaToken,
                     sessionId: this.$sessionId,
@@ -91,6 +91,7 @@ export default {
             ])
 
             this.nextLeadUUID = uuidv4()
+            return response
         },
         isFormEmpty() {
             return this.fieldsToSubmitComputed.every((field) => {
