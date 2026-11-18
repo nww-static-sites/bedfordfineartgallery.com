@@ -9,9 +9,10 @@
 
                 <div class="lead_callout" style="max-width: 800px; margin: auto">
                     <p>
-                        We respect your privacy 100%, and will not share any personal information collected through our
-                        contact forms with any third parties, and this information will only be used to communicate with
-                        you at your request.
+                        When you contact Bedford Fine Art Gallery, we use the information you provide to respond to your
+                        inquiry. If you choose to subscribe to Art Lovers' Niche, we use your email address to send you new
+                        artwork, artist stories, and gallery news. You can unsubscribe using the link in any newsletter.
+                        We use service providers to help us handle inquiries and deliver the newsletter.
                     </p>
                     <p>
                         <span class="subHeader">Our Commitment To Your Privacy</span> Your privacy is important to us. To
