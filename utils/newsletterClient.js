@@ -9,19 +9,25 @@ function loadTurnstile() {
             const script = document.createElement('script')
             script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit'
             script.async = true
-            script.onload = resolve
-            script.onerror = () => {
+            const fail = () => {
+                clearTimeout(timer)
                 scriptPromise = null
                 script.remove()
                 reject(new Error('verification_failed'))
             }
+            const timer = setTimeout(fail, 12000)
+            script.onload = () => {
+                clearTimeout(timer)
+                resolve()
+            }
+            script.onerror = fail
             document.head.appendChild(script)
         })
     }
     return scriptPromise
 }
 
-async function tokenFor(element) {
+export async function requestTurnstileToken(element, widgetSitekey, action) {
     await loadTurnstile()
     return new Promise((resolve, reject) => {
         let widget
@@ -35,26 +41,30 @@ async function tokenFor(element) {
             else resolve(token)
         }
         const timer = setTimeout(() => finish(true), 25000)
-        widget = window.turnstile.render(element, {
-            sitekey,
-            action: 'bedford_newsletter',
-            execution: 'execute',
-            'response-field': false,
-            retry: 'never',
-            callback: (token) => finish(false, token),
-            'error-callback': () => {
-                finish(true)
-                return true
-            },
-            'timeout-callback': () => finish(true),
-            'expired-callback': () => finish(true),
-        })
-        window.turnstile.execute(widget)
+        try {
+            widget = window.turnstile.render(element, {
+                sitekey: widgetSitekey,
+                action,
+                execution: 'execute',
+                'response-field': false,
+                retry: 'never',
+                callback: (token) => finish(false, token),
+                'error-callback': () => {
+                    finish(true)
+                    return true
+                },
+                'timeout-callback': () => finish(true),
+                'expired-callback': () => finish(true),
+            })
+            window.turnstile.execute(widget)
+        } catch (error) {
+            finish(true)
+        }
     })
 }
 
 export async function joinNewsletter(email, challengeElement, onSaving) {
-    const token = await tokenFor(challengeElement)
+    const token = await requestTurnstileToken(challengeElement, sitekey, 'bedford_newsletter')
     const data = new URLSearchParams({
         e: email.trim(),
         m: '88',

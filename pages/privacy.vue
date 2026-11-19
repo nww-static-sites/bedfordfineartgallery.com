@@ -32,7 +32,7 @@
                         information we collect online.
                     </p>
                     <p>
-                        <span class="subHeader">Newsletter Spam Protection</span> Our newsletter signup forms use
+                        <span class="subHeader">Form Spam Protection</span> Our inquiry and newsletter signup forms use
                         Cloudflare Turnstile to distinguish people from automated requests. Cloudflare processes
                         browser and device signals for this security check. See the
                         <a href="https://www.cloudflare.com/cloudflare-customer-dpa/turnstile/" target="_blank" rel="noopener">Cloudflare Turnstile Privacy Addendum</a>.
