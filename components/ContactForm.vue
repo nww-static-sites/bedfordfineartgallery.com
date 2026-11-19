@@ -16,28 +16,26 @@
             autocomplete="email"
             placeholder="Email Address"
             aria-label="Email Address"
-            :aria-describedby="`${fieldId}-email-use`"
+            maxlength="254"
             :disabled="fieldsDisabled"
             required
         />
-        <p :id="`${fieldId}-email-use`" class="email-use">We will only use your email to reply to your inquiry.</p>
         <textarea
             :id="`${fieldId}-comments`"
             v-model="form.comments"
             name="comments"
             placeholder="Type your message here."
             aria-label="Message"
+            maxlength="6000"
             :disabled="fieldsDisabled"
         ></textarea>
         <label class="newsletter-choice">
             <input v-model="newsletterOptIn" type="checkbox" name="newsletter-opt-in" :disabled="fieldsDisabled" />
             <span>{{ newsletterConsentText }}</span>
         </label>
-        <div class="buttons">
-            <button type="submit" class="submit" :disabled="fieldsDisabled">
-                {{ isSubmitting ? 'Sending…' : 'Send Message' }}
-            </button>
-        </div>
+        <button type="submit" class="submit" :disabled="fieldsDisabled">
+            {{ isSubmitting ? 'Sending…' : 'Send Message' }}
+        </button>
         <p class="inquiry-status" :class="submitStatus" role="status" aria-atomic="true">
             <template v-if="statusMessage">
                 <span v-if="statusIcon" aria-hidden="true">{{ statusIcon }}</span>
@@ -260,20 +258,17 @@ export default {
 }
 
 .inquiry-form textarea {
+    display: block;
+    margin-top: 8px;
     min-height: 148px;
     resize: vertical;
 }
 
-.email-use,
 .newsletter-choice,
 .inquiry-status,
 .inquiry-detail {
     font-size: 16px;
     line-height: 1.45;
-}
-
-.email-use {
-    margin: 5px 0 14px;
 }
 
 .newsletter-choice {
@@ -300,10 +295,11 @@ export default {
     border-radius: 12px;
     color: #fff8ed;
     cursor: pointer;
+    display: block;
     font-size: 17px;
     font-weight: 700;
     letter-spacing: normal;
-    margin: 12px 0 0;
+    margin: 8px 0 0;
     min-height: 46px;
     padding: 10px 20px;
     text-transform: none;

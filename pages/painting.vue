@@ -187,7 +187,7 @@
                             Call Jerry at <a href="tel:+17244590612">1-724-459-0612</a> anytime (no pressure ever)
                         </p>
                         <p class="painting-inquiry__intro">
-                            If you prefer Email instead of a Phone Call, use this form to send us a Message:
+                            If you prefer Email instead, use this form to send us a Message:
                         </p>
 
                         <ContactForm
@@ -365,7 +365,8 @@ export default {
     background: #ddd1ad;
     border-radius: 20px;
     color: #444;
-    padding: 24px;
+    margin-bottom: 20px;
+    padding: 20px 24px 12px;
 }
 
 .painting-inquiry__phone,
@@ -373,7 +374,7 @@ export default {
     color: #444;
     font-size: 18px;
     line-height: 1.45;
-    margin: 0 0 12px;
+    margin: 0 0 6px;
 }
 
 .painting-inquiry__phone {
@@ -389,7 +390,7 @@ export default {
 @media (max-width: 915px) {
     .painting-inquiry {
         border-radius: 16px;
-        padding: 20px 16px;
+        padding: 16px 16px 12px;
     }
 }
 
