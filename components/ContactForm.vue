@@ -316,6 +316,7 @@ export default {
 
 .inquiry-status {
     margin: 12px 0 0;
+    padding: 0;
     font-weight: 700;
 }
 
@@ -329,6 +330,7 @@ export default {
 
 .inquiry-detail {
     margin: 4px 0 0;
+    padding: 0;
 }
 
 .inquiry-status:empty {

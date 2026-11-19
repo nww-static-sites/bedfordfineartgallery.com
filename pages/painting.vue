@@ -375,6 +375,7 @@ export default {
     font-size: 18px;
     line-height: 1.45;
     margin: 0 0 6px;
+    padding: 0;
 }
 
 .painting-inquiry__phone {
