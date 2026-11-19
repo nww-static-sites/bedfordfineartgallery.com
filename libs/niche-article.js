@@ -115,7 +115,7 @@
     }
     function mailer(record) {
         // MEMS appends the unsubscribe link and derives the plain-text part from this HTML.
-        const address = '<p class="niche-postal-address" style="margin:16px 0 0;font-family:Arial,sans-serif;font-size:15px;line-height:22px;color:#3e3934;">' +
+        const address = '<p class="niche-postal-address" align="center" style="margin:16px 0 0;text-align:center;font-family:Arial,sans-serif;font-size:15px;line-height:22px;color:#3e3934;">' +
             'Bedford Fine Art Gallery<br>230 South Juliana Street<br>Bedford, PA 15522</p>'
         return '<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>' +
             escape(record.niche.title) + '</title><style>' + css + '</style></head><body style="margin:0;padding:24px 10px;background:#f3f0ea;">' +
