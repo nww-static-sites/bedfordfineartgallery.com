@@ -68,27 +68,49 @@ export default {
         },
     },
     created() {
-        this.debouncedUpdateForm = debounce(NextLeadService.updateForm, 500)
+        this.debouncedUpdateForm = this.saveNextLeadDraft
+            ? debounce(this.updateVerifiedDraft, 1500)
+            : debounce(NextLeadService.updateForm, 500)
+    },
+    beforeDestroy() {
+        this.debouncedUpdateForm.cancel()
     },
     methods: {
-        async submitToNextLead({ recaptchaToken, additionalFields = [] }) {
+        updateVerifiedDraft(payload) {
+            const previous = this.nextLeadDraft || Promise.resolve()
+            this.nextLeadDraft = previous.then(() => this.saveNextLeadDraft(payload)).catch(() => {})
+        },
+        async waitForNextLeadDraft() {
             this.debouncedUpdateForm.cancel()
-            const [response] = await Promise.all([
-                NextLeadService.submitForm({
-                    uuid: this.nextLeadUUID,
-                    formName: this.formName,
-                    formValues: [...this.formValuesPayload, ...additionalFields],
-                    formPage: this.formPage,
-                    recaptchaToken: recaptchaToken || this.recaptchaToken,
-                    sessionId: this.$sessionId,
-                }),
+            await this.nextLeadDraft
+        },
+        async submitToNextLead({ recaptchaToken, turnstileToken, deliveryReceipt, additionalFields = [] }) {
+            this.debouncedUpdateForm.cancel()
+            const uuid = this.nextLeadUUID
+            const submission = NextLeadService.submitForm({
+                uuid,
+                formName: this.formName,
+                formValues: [...this.formValuesPayload, ...additionalFields],
+                formPage: this.formPage,
+                recaptchaToken: recaptchaToken || this.recaptchaToken,
+                turnstileToken,
+                deliveryReceipt,
+                sessionId: this.$sessionId,
+            })
+            const activity = () =>
                 NextLeadService.logActivity({
                     type: 'SUBMIT_FORM',
                     formName: this.formName,
                     sessionId: this.$sessionId,
-                    formUUID: this.nextLeadUUID,
-                }),
-            ])
+                    formUUID: uuid,
+                })
+            const response = deliveryReceipt ? await submission : (await Promise.all([submission, activity()]))[0]
+            if (deliveryReceipt && response.data.status === true) {
+                // Analytics should never change the outcome shown for an accepted inquiry.
+                Promise.resolve()
+                    .then(() => activity())
+                    .catch(() => {})
+            }
 
             this.nextLeadUUID = uuidv4()
             return response

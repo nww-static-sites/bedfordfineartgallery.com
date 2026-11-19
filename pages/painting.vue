@@ -182,27 +182,13 @@
                     <div v-interpolation class="detail_content" v-html="$md.render(painting.body)" />
                     <!--eslint-enable-->
 
-                    <div id="contact_anchor" class="more_info">
-                     
-                        <h3 style="text-transform: none; color: #841012; font-size: 1.1em; line-height: 1.3em">
-                            Call Jerry
-                            <a
-                                href="tel:1-724-459-0612"
-                                style="text-decoration: none; color: #841012"
-                                class="mobile_phone_link"
-                                >(724-459-0612)</a
-                            > anytime - no pressure ever<span style="display: block; padding-top: 16px; padding-bottom: 16px">OR</span
-                            ><span
-                                style="
-                                    display: block;
-                                    color: #841012;
-                                    max-width: 450px;
-                                    margin: auto;
-                                    line-height: 24px;
-                                "
-                                >Send us an email</span
-                            >
-                        </h3>
+                    <div id="contact_anchor" class="more_info painting-inquiry">
+                        <p class="painting-inquiry__phone">
+                            Call Jerry at <a href="tel:+17244590612">1-724-459-0612</a> anytime (no pressure ever)
+                        </p>
+                        <p class="painting-inquiry__intro">
+                            If you prefer Email instead of a Phone Call, use this form to send us a Message:
+                        </p>
 
                         <ContactForm
                             form-name="Painting"
@@ -375,6 +361,38 @@ export default {
 
 
 <style scoped>
+.painting-inquiry {
+    background: #ddd1ad;
+    border-radius: 20px;
+    color: #444;
+    padding: 24px;
+}
+
+.painting-inquiry__phone,
+.painting-inquiry__intro {
+    color: #444;
+    font-size: 18px;
+    line-height: 1.45;
+    margin: 0 0 12px;
+}
+
+.painting-inquiry__phone {
+    font-weight: 700;
+}
+
+.painting-inquiry__phone a {
+    color: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+@media (max-width: 915px) {
+    .painting-inquiry {
+        border-radius: 16px;
+        padding: 20px 16px;
+    }
+}
+
 .artwork img {
     width: 90% !important;
     height: auto;
