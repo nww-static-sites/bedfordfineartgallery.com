@@ -3,7 +3,7 @@ const sitekey = '0x4AAAAAAF3En7HtDWKMaOj9'
 let scriptPromise
 
 function loadTurnstile() {
-    if (window.turnstile) return Promise.resolve()
+    if (typeof window.turnstile?.render === 'function') return Promise.resolve()
     if (!scriptPromise) {
         scriptPromise = new Promise((resolve, reject) => {
             const script = document.createElement('script')
@@ -17,6 +17,10 @@ function loadTurnstile() {
             }
             const timer = setTimeout(fail, 12000)
             script.onload = () => {
+                if (typeof window.turnstile?.render !== 'function') {
+                    fail()
+                    return
+                }
                 clearTimeout(timer)
                 resolve()
             }
@@ -52,30 +56,23 @@ export async function requestTurnstileToken(element, widgetSitekey, action) {
             }
             const timer = setTimeout(() => finish('client_timeout'), 25000)
             try {
-                turnstile.ready(() => {
-                    if (finished) return
-                    try {
-                        // Callers request verification only when they need a new token.
-                        widget = turnstile.render(element, {
-                            sitekey: widgetSitekey,
-                            action,
-                            'response-field': false,
-                            retry: 'never',
-                            callback: (token) => finish(token ? '' : 'missing_token', token),
-                            'error-callback': (code) => {
-                                finish(/^\d{6}$/.test(code) ? code : 'challenge_error')
-                                return true
-                            },
-                            'unsupported-callback': () => finish('unsupported_browser'),
-                            'timeout-callback': () => finish('challenge_timeout'),
-                            'expired-callback': () => finish('challenge_expired'),
-                        })
-                    } catch (error) {
-                        finish('widget_render')
-                    }
+                // The script's load event gates explicit rendering. Turnstile's ready() rejects async scripts.
+                widget = turnstile.render(element, {
+                    sitekey: widgetSitekey,
+                    action,
+                    'response-field': false,
+                    retry: 'never',
+                    callback: (token) => finish(token ? '' : 'missing_token', token),
+                    'error-callback': (code) => {
+                        finish(/^\d{6}$/.test(code) ? code : 'challenge_error')
+                        return true
+                    },
+                    'unsupported-callback': () => finish('unsupported_browser'),
+                    'timeout-callback': () => finish('challenge_timeout'),
+                    'expired-callback': () => finish('challenge_expired'),
                 })
             } catch (error) {
-                finish('widget_ready')
+                finish('widget_render')
             }
         })
     } finally {
