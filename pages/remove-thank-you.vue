@@ -1,64 +1,64 @@
 <template>
-    <div>
+    <div class="container primary">
+        <section class="wrapper clearfix">
+            <div class="artwork_header">
+                <h1>Unsubscribe</h1>
+                <span class="hr"></span>
+            </div>
 
-
-<div class="container primary">
-<section class="wrapper clearfix">
-<div class="artwork_header">
-  <h1>Unsubscribe</h1>
-  <span class="hr"></span></div>
-
-
-<div class="lead_callout" style="margin-bottom:200px;">
-<p style="text-align:center; color: #222;">Your email address has been removed.</p>
-
-<p><a style="display:block; max-width:300px; background:#222222; color:#f2f2f2; text-decoration:none; padding: 12px; margin: auto; margin-top: 12px; text-align:center;" href="Artists--Bios.html">VIEW OUR GALLERY</a></p>
-</div>
-
-
-
-
-
-
-
-
-</section>
-</div>
+            <div class="unsubscribe-result">
+                <p>
+                    If this email address was subscribed, it has been removed from the Art Lovers’ Niche mailing list.
+                </p>
+                <nuxt-link :to="{ name: 'artists-bios' }">View our gallery</nuxt-link>
+            </div>
+        </section>
     </div>
 </template>
 
 <style scoped>
-.flex {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.flex > div {
-    width: 32%;
-}
-.flex img {
-    width: 100%;
-    height: auto;
+.unsubscribe-result {
+    background: #ddd1ad;
+    border-radius: 20px;
+    color: #444;
+    margin: 0 auto 32px;
+    max-width: 560px;
+    padding: 20px;
 }
 
-@media screen and (max-width: 860px) {
-    .flex > div {
-        width: 100%;
-    }
-    .mobile_1 {
-        order: -1;
-    }
-    .flex img {
-        max-width: 350px;
-        margin: 15px auto;
-        display: block;
+.unsubscribe-result p {
+    font-size: 18px;
+    line-height: 1.45;
+    margin: 0 0 16px;
+}
+
+.unsubscribe-result a {
+    background: #823631;
+    border-radius: 8px;
+    color: #fff8ed;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+.unsubscribe-result a:focus-visible {
+    outline: 2px solid #642620;
+    outline-offset: 2px;
+}
+
+@media (max-width: 480px) {
+    .unsubscribe-result {
+        border-radius: 16px;
+        padding: 16px;
     }
 }
 </style>
 
 <router>
     {
-      path: '/remove_thank_you.htm',
-      caseSensitive: true,
+        path: '/remove_thank_you.htm',
+        caseSensitive: true,
     }
-  </router>
+</router>
