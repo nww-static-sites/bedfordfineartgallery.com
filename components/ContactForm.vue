@@ -141,14 +141,18 @@ export default {
                 submitting: 'Sending email…',
                 sent: 'Email Sent',
                 error: 'Email Failed to Send',
+                verification_error: 'Email Failed to Send',
                 unconfirmed: 'Email Status Unconfirmed',
             }[this.submitStatus]
         },
         statusIcon() {
-            return { sent: '✓', error: '✕' }[this.submitStatus]
+            return { sent: '✓', error: '✕', verification_error: '✕' }[this.submitStatus]
         },
         statusDetail() {
             if (this.submitStatus === 'unconfirmed') return 'Please call Jerry to confirm he received your message.'
+            if (this.submitStatus === 'verification_error') {
+                return 'The security check could not finish. Please try again or call Jerry.'
+            }
             if (this.submitStatus !== 'error') return ''
             return this.submissionAccepted ? 'Please call Jerry about your inquiry.' : 'Please try again or call Jerry.'
         },
@@ -205,12 +209,13 @@ export default {
             this.submitStatus = 'submitting'
             let requestStarted = false
             try {
+                // Finish the existing draft before starting another Turnstile widget for this form.
+                await this.waitForNextLeadDraft()
                 const turnstileToken = await requestTurnstileToken(
                     this.$refs.inquiryChallenge,
                     inquirySitekey,
                     'bedford_inquiry',
                 )
-                await this.waitForNextLeadDraft()
                 requestStarted = true
                 const response = await this.submitToNextLead({
                     additionalFields,
@@ -225,6 +230,10 @@ export default {
                 if (optedIn) this.subscribe(email)
                 this.submitStatus = await NextLeadService.waitForInquiryEmail(response.data.deliveryReceipt)
             } catch (error) {
+                if (!requestStarted && error.message === 'verification_failed') {
+                    this.submitStatus = 'verification_error'
+                    return
+                }
                 this.submitStatus =
                     this.submissionAccepted ||
                     (requestStarted &&
@@ -324,7 +333,8 @@ export default {
     color: #225321;
 }
 
-.inquiry-status.error {
+.inquiry-status.error,
+.inquiry-status.verification_error {
     color: #891f27;
 }
 

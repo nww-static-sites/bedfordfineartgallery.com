@@ -28,39 +28,65 @@ function loadTurnstile() {
 }
 
 export async function requestTurnstileToken(element, widgetSitekey, action) {
-    await loadTurnstile()
-    return new Promise((resolve, reject) => {
-        let widget
-        let finished = false
-        const finish = (error, token) => {
-            if (finished) return
-            finished = true
-            clearTimeout(timer)
-            if (widget !== undefined) window.turnstile.remove(widget)
-            if (error) reject(new Error('verification_failed'))
-            else resolve(token)
+    try {
+        await loadTurnstile()
+    } catch (error) {
+        console.warn('Turnstile verification failed', action, 'script_load')
+        throw error
+    }
+    const turnstile = window.turnstile
+    let widget
+    try {
+        return await new Promise((resolve, reject) => {
+            let finished = false
+            const finish = (reason, token) => {
+                if (finished) return
+                finished = true
+                clearTimeout(timer)
+                if (reason) {
+                    console.warn('Turnstile verification failed', action, reason)
+                    reject(new Error('verification_failed'))
+                } else {
+                    resolve(token)
+                }
+            }
+            const timer = setTimeout(() => finish('client_timeout'), 25000)
+            try {
+                turnstile.ready(() => {
+                    if (finished) return
+                    try {
+                        // Callers request verification only when they need a new token.
+                        widget = turnstile.render(element, {
+                            sitekey: widgetSitekey,
+                            action,
+                            'response-field': false,
+                            retry: 'never',
+                            callback: (token) => finish(token ? '' : 'missing_token', token),
+                            'error-callback': (code) => {
+                                finish(/^\d{6}$/.test(code) ? code : 'challenge_error')
+                                return true
+                            },
+                            'unsupported-callback': () => finish('unsupported_browser'),
+                            'timeout-callback': () => finish('challenge_timeout'),
+                            'expired-callback': () => finish('challenge_expired'),
+                        })
+                    } catch (error) {
+                        finish('widget_render')
+                    }
+                })
+            } catch (error) {
+                finish('widget_ready')
+            }
+        })
+    } finally {
+        if (typeof widget === 'string') {
+            try {
+                turnstile.remove(widget)
+            } catch (error) {
+                console.warn('Turnstile widget cleanup failed', action)
+            }
         }
-        const timer = setTimeout(() => finish(true), 25000)
-        try {
-            widget = window.turnstile.render(element, {
-                sitekey: widgetSitekey,
-                action,
-                execution: 'execute',
-                'response-field': false,
-                retry: 'never',
-                callback: (token) => finish(false, token),
-                'error-callback': () => {
-                    finish(true)
-                    return true
-                },
-                'timeout-callback': () => finish(true),
-                'expired-callback': () => finish(true),
-            })
-            window.turnstile.execute(widget)
-        } catch (error) {
-            finish(true)
-        }
-    })
+    }
 }
 
 export async function joinNewsletter(email, challengeElement, onSaving) {
