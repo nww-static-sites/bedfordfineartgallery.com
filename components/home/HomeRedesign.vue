@@ -35,9 +35,6 @@
                 </h2>
                 <HomeTestimonialFade />
                 <CustomerSlidingImages />
-                <nuxt-link :to="{ name: 'testimonials' }" class="bfa-home__button bfa-home__button--soft">
-                    Read More Testimonials
-                </nuxt-link>
             </section>
 
             <section class="bfa-home__panel bfa-home__panel--tan bfa-home__sold" aria-labelledby="bfa-home-sold-title">
@@ -529,11 +526,6 @@ export default {
 
 .bfa-home__testimonials .bfa-home__section-title {
     margin-bottom: 2px;
-}
-
-.bfa-home__testimonials .bfa-home__button {
-    margin-top: 8px;
-    width: 250px;
 }
 
 .bfa-home__sold {
