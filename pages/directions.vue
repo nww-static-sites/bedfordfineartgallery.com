@@ -29,17 +29,7 @@ Bedford PA 15522<br>
 
 </div>
 
-<!-- testimonials mobile -->
-<div class="container" style="padding-top: 24px; width: 100%; margin:0px auto; background-color: rgba(16,88,185,1.00);margin-top: 24px;border-radius: 6px;">
-<section class="wrapper" style="max-width: 860px; margin:auto;">
-
-<div class="home_test">
-                    <TestimonialsScroll />
-                </div>
-
-</section>
-</div>
-<!-- end testimonials mobile -->
+<TestimonialsScroll style="margin-top: 24px; border-radius: 6px" />
 <div class="artwork_header"><h2 style="padding: 32px 0px 0px 0px;">Bedford, Pennsylvania</h2></div>
 <div class="bedford_banner">
   <img loading="lazy" style="width: 100%; height:auto; display:block;" src="https://img.bedfordfineartgallery.com/small_town.jpg" width="1868" height="414" alt=""/> </div>

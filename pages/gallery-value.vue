@@ -13,8 +13,10 @@
                         <img
                             loading="lazy"
                             src="https://img.bedfordfineartgallery.com/joan_jerry24_about.jpg"
-                            class="art_detail_img"
-                            alt=""
+                            class="art_detail_img about-portrait"
+                            width="868"
+                            height="573"
+                            alt="Joan and Jerry Hawk"
                         />We would like to thank the thousands of fellow art-lovers who explore our website, join us for
                         email updates via Art Lovers’ Niche, follow us on Instagram, and stop to see us at the gallery.
                         Many of you are already familiar with Bedford Fine Art Gallery, but we want to take this
@@ -201,14 +203,7 @@
             </section>
         </div>
 
-        <div
-            class="container footer_test"
-            style="padding-top: 24px; width: 100%; margin: 0px auto; background-color: rgba(16, 88, 185, 1)"
-        >
-            <section class="wrapper" style="max-width: 860px; margin: auto">
-                <TestimonialsScroll />
-            </section>
-        </div>
+        <TestimonialsScroll />
     </div>
 </template>
 
@@ -233,18 +228,6 @@ export default {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.about_slideshow .footer_test .slick-prev::before,
-.about_slideshow .slick-next::before,
-.about_slideshow .slick-prev::before,
-.about_slideshow .slick-next::before {
-    font-family: 'slick';
-    font-size: 20px;
-    line-height: 1;
-    opacity: 0.75;
-    color: black !important;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
 .about_slideshow .artwork img {
     width: 100%;
     height: auto;
@@ -253,6 +236,20 @@ export default {
     margin-left: 0;
     margin-right: 0;
     padding-top: 0;
+}
+</style>
+
+<style scoped>
+.lead_callout .about-portrait {
+    max-width: 375px;
+    border-radius: 12px;
+}
+
+@media (max-width: 639px) {
+    .lead_callout .about-portrait {
+        float: none;
+        margin: 0 auto 10px;
+    }
 }
 </style>
 

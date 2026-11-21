@@ -277,12 +277,7 @@
                 src="bfa_customers_map.png" width="2092" height="994" alt="Bedford Fine Art satisfied art customers in the USA, Canada and UK
 " />
         </div>
-        <div class="container footer_test"
-            style="padding-top: 24px; width: 100%; margin: 0px auto; background-color: rgba(16, 88, 185, 1)">
-            <section class="wrapper" style="max-width: 860px; margin: auto">
-                <TestimonialsScroll />
-            </section>
-        </div>
+        <TestimonialsScroll />
     </div>
 </template>
 

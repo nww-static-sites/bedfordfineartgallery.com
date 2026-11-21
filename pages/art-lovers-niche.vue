@@ -192,13 +192,13 @@
                 </div>
             </section>
         </div>
-        <NicheTestimonialMarquee />
+        <TestimonialsScroll id="niche-testimonials" />
     </div>
 </template>
 
 <script>
 import ArtLoversNicheArticlePreview from '~/components/ArtLoversNicheArticlePreview'
-import NicheTestimonialMarquee from '~/components/NicheTestimonialMarquee'
+import TestimonialsScroll from '~/components/TestimonialsScroll'
 import NewsletterSignup from '~/components/NewsletterSignup'
 
 const recentArticleCount = 12
@@ -209,7 +209,7 @@ const clubTabs = [
 ]
 
 export default {
-    components: { NicheTestimonialMarquee, ArtLoversNicheArticlePreview, NewsletterSignup },
+    components: { TestimonialsScroll, ArtLoversNicheArticlePreview, NewsletterSignup },
     async asyncData({ $content }) {
         return {
             artLoversNicheArticles: await $content('artLoversNicheArticles')

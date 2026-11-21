@@ -30,12 +30,7 @@
             </section>
 
             <section class="bfa-home__panel bfa-home__panel--dark bfa-home__testimonials" aria-labelledby="bfa-home-testimonials-title">
-                <HomeImageMarquee
-                    :images="customerImages"
-                    label="Bedford Fine Art Gallery customers with their paintings"
-                    variant="customers"
-                    decorative
-                />
+                <CustomerSlidingImages />
                 <h2 id="bfa-home-testimonials-title" class="bfa-home__section-title">
                     Our customers are the best. Here's what they have to say.
                 </h2>
@@ -238,16 +233,17 @@
 </template>
 
 <script>
+import CustomerSlidingImages from '~/components/CustomerSlidingImages'
 import HomeImageMarquee from '~/components/home/HomeImageMarquee'
 import HomePressMarquee from '~/components/home/HomePressMarquee'
 import HomeTestimonialFade from '~/components/home/HomeTestimonialFade'
 import HomeYouTube from '~/components/home/HomeYouTube'
 import SoldPaintingsMarquee from '~/components/SoldPaintingsMarquee'
-import customerImageFiles from '~/data/customer-images.json'
 
 export default {
     name: 'HomeRedesign',
     components: {
+        CustomerSlidingImages,
         HomeImageMarquee,
         HomePressMarquee,
         HomeTestimonialFade,
@@ -329,14 +325,6 @@ export default {
         }
     },
     computed: {
-        customerImages() {
-            return customerImageFiles.map((file) => ({
-                src: `https://img.bedfordfineartgallery.com/customer-images/${file}`,
-                alt: '',
-                width: 290,
-                height: 200,
-            }))
-        },
         artworkImages() {
             return this.scrollingHomepageImages
                 .filter((painting) => painting && (painting.gridImage || painting.mediumResImage))

@@ -118,19 +118,7 @@
                         :link="painting.youtubeEmbedLink"
                         :alt="painting.youtubeAltText"
                     />
-                    <!-- testimonials desktop -->
-                    <div
-                        class="container test_int_desktop"
-                        style="padding-top: 24px; width: 90%; margin: 20px auto; background-color: rgba(16, 88, 185, 1)"
-                    >
-                        <section class="wrapper" style="width: 90%; max-width: 860px; margin: auto">
-                            <div class="home_test">
-                                <TestimonialsScroll />
-                            </div>
-                            <!--#include virtual="testimonials_scroll.html"-->
-                        </section>
-                    </div>
-                    <!-- end testimonials desktop -->
+                    <TestimonialsScroll class="test_int_desktop" style="width: 90%; margin: 20px auto" />
                     <div class="flex_wrap" style="clear: both; padding-top: 5px;">
                 <div style="margin:auto;"><img
                                 src="https://img.bedfordfineartgallery.com/shipping_options_1200.png"
