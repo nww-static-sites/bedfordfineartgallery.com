@@ -5,12 +5,14 @@ import https from 'node:https'
 const imageHost = 'https://img.bedfordfineartgallery.com/customer-images/'
 const manifestPath = new URL('../data/customer-images.json', import.meta.url)
 const homepagePath = new URL('../components/home/HomeRedesign.vue', import.meta.url)
-const legacySliderPath = new URL('../components/CustomerSlidingImages.vue', import.meta.url)
+const aboutPath = new URL('../pages/gallery-value.vue', import.meta.url)
+const customerSliderPath = new URL('../components/CustomerSlidingImages.vue', import.meta.url)
 
-const [manifestText, homepage, legacySlider] = await Promise.all([
+const [manifestText, homepage, about, customerSlider] = await Promise.all([
     readFile(manifestPath, 'utf8'),
     readFile(homepagePath, 'utf8'),
-    readFile(legacySliderPath, 'utf8'),
+    readFile(aboutPath, 'utf8'),
+    readFile(customerSliderPath, 'utf8'),
 ])
 
 const customerImageFiles = JSON.parse(manifestText)
@@ -32,30 +34,24 @@ for (const requiredFile of ['120.jpg', '121.jpg', '122.jpg']) {
     assert.ok(customerImageFiles.includes(requiredFile), `Customer image manifest is missing ${requiredFile}.`)
 }
 
+for (const [page, template] of [['Homepage', homepage], ['About page', about]]) {
+    assert.match(template, /<CustomerSlidingImages\s*\/>/, `${page} must use the shared customer photo scroller.`)
+}
+
 assert.match(
-    homepage,
+    customerSlider,
     /import customerImageFiles from '~\/data\/customer-images\.json'/,
-    'Homepage must import the shared customer image manifest.',
-)
-assert.equal(
-    homepage.includes('const customerImageFiles = ['),
-    false,
-    'Homepage still contains a separate hardcoded customer image list.',
+    'The shared scroller must import the customer image manifest.',
 )
 assert.match(
-    legacySlider,
-    /import customerImageFiles from '~\/data\/customer-images\.json'/,
-    'Legacy slider must import the shared customer image manifest.',
+    customerSlider,
+    /customerImageFiles\.map\(/,
+    'The shared scroller must render the images from the manifest.',
 )
 assert.match(
-    legacySlider,
-    /v-for="image in customerImages"/,
-    'Legacy slider must render the shared customer image manifest.',
-)
-assert.equal(
-    /<img\s+src="https:\/\/img\.bedfordfineartgallery\.com\/customer-images\//.test(legacySlider),
-    false,
-    'Legacy slider still contains hardcoded customer image elements.',
+    customerSlider,
+    /<HomeImageMarquee\s+:images="customerImages"\s+variant="customers"/,
+    'The shared scroller must use the customer photo variant of the marquee.',
 )
 
 function requestImage(file) {
