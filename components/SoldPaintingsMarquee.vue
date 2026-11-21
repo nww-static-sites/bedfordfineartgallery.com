@@ -43,7 +43,6 @@ import { dailyRandomSelection } from '~/libs/daily-random'
 
 const DAILY_SOLD_PAINTING_COUNT = 100
 const DEFAULT_VISIBLE_TILE_COUNT = 14
-const STEP_DURATION_MS = 1800
 const START_FALLBACK_MS = 2500
 const BACKGROUND_PRELOAD_DELAY_MS = 300
 const RESIZE_DEBOUNCE_MS = 150
@@ -106,8 +105,7 @@ export default {
         },
         trackStyle() {
             return {
-                '--sold-marquee-duration': `${STEP_DURATION_MS}ms`,
-                '--sold-marquee-step': `${this.stepWidth}px`,
+                '--sold-marquee-step': String(this.stepWidth),
             }
         },
     },
@@ -278,8 +276,8 @@ export default {
 }
 
 .sold-marquee--ready .sold-marquee__track--animate {
-    transition: transform var(--sold-marquee-duration, 1800ms) linear;
-    transform: translate3d(calc(var(--sold-marquee-step, 178px) * -1), 0, 0);
+    transition: transform calc(var(--sold-marquee-step) * 1s / var(--bfa-marquee-pixels-per-second)) linear;
+    transform: translate3d(calc(var(--sold-marquee-step) * -1px), 0, 0);
 }
 
 .sold-marquee__item {
@@ -341,7 +339,8 @@ export default {
         -webkit-overflow-scrolling: touch;
     }
 
-    .sold-marquee__track {
+    .sold-marquee__track,
+    .sold-marquee--ready .sold-marquee__track--animate {
         transition: none;
         transform: translate3d(0, 0, 0);
         padding-bottom: 6px;

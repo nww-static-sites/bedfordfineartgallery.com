@@ -33,8 +33,6 @@
 
 <script>
 const GAP_WIDTH = 10
-const DESKTOP_PIXELS_PER_SECOND = 17
-const MOBILE_PIXELS_PER_SECOND = 19
 const ITEM_WIDTHS = {
     artwork: {
         desktop: 176,
@@ -70,12 +68,10 @@ export default {
         marqueeStyle() {
             const itemCount = Math.max(this.images.length, 1)
             const itemWidths = ITEM_WIDTHS[this.variant] || ITEM_WIDTHS.artwork
-            const desktopDuration = (itemCount * (itemWidths.desktop + GAP_WIDTH)) / DESKTOP_PIXELS_PER_SECOND
-            const mobileDuration = (itemCount * (itemWidths.mobile + GAP_WIDTH)) / MOBILE_PIXELS_PER_SECOND
 
             return {
-                '--bfa-marquee-duration': `${desktopDuration.toFixed(2)}s`,
-                '--bfa-marquee-mobile-duration': `${mobileDuration.toFixed(2)}s`,
+                '--bfa-marquee-desktop-distance': String(itemCount * (itemWidths.desktop + GAP_WIDTH)),
+                '--bfa-marquee-mobile-distance': String(itemCount * (itemWidths.mobile + GAP_WIDTH)),
             }
         },
     },
@@ -89,7 +85,7 @@ export default {
 }
 
 .bfa-marquee__track {
-    animation: bfa-marquee-scroll var(--bfa-marquee-duration, 110s) linear infinite;
+    animation: bfa-marquee-scroll calc(var(--bfa-marquee-desktop-distance) * 1s / var(--bfa-marquee-pixels-per-second)) linear infinite;
     display: flex;
     will-change: transform;
     width: max-content;
@@ -146,7 +142,7 @@ export default {
 
 @media screen and (max-width: 767px) {
     .bfa-marquee__track {
-        animation-duration: var(--bfa-marquee-mobile-duration, 82s);
+        animation-duration: calc(var(--bfa-marquee-mobile-distance) * 1s / var(--bfa-marquee-pixels-per-second));
     }
 
     .bfa-marquee__item {

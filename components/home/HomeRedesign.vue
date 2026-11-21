@@ -30,11 +30,11 @@
             </section>
 
             <section class="bfa-home__panel bfa-home__panel--dark bfa-home__testimonials" aria-labelledby="bfa-home-testimonials-title">
-                <CustomerSlidingImages />
                 <h2 id="bfa-home-testimonials-title" class="bfa-home__section-title">
                     Our customers are the best. Here's what they have to say.
                 </h2>
                 <HomeTestimonialFade />
+                <CustomerSlidingImages />
                 <nuxt-link :to="{ name: 'testimonials' }" class="bfa-home__button bfa-home__button--soft">
                     Read More Testimonials
                 </nuxt-link>
@@ -269,7 +269,7 @@ export default {
                 { label: 'Marine', to: { name: 'marine-artwork' } },
                 { label: 'Still Life', to: { name: 'still-life-artwork' } },
                 { label: 'Genre', to: { name: 'genre-artwork' } },
-                { label: 'Historical / Political', to: { name: 'historical-and-political-artwork' } },
+                { label: 'Americana', to: { name: 'historical-and-political-artwork' } },
                 { label: 'Sporting Art', to: { name: 'sporting-art' } },
                 { label: 'Animal', to: { name: 'animal-artwork' } },
                 { label: 'Sculptures', to: { name: 'sculpture' } },
@@ -528,7 +528,7 @@ export default {
 }
 
 .bfa-home__testimonials .bfa-home__section-title {
-    margin: 14px 0 2px;
+    margin-bottom: 2px;
 }
 
 .bfa-home__testimonials .bfa-home__button {
@@ -697,6 +697,7 @@ export default {
 }
 
 .bfa-home__categories nav {
+    border-top: 0;
     display: flex;
     flex-wrap: wrap;
     gap: 10px 14px;
@@ -986,10 +987,6 @@ export default {
 
     .bfa-home__testimonials {
         padding: 16px 10px;
-    }
-
-    .bfa-home__testimonials .bfa-home__section-title {
-        margin-top: 12px;
     }
 
     .bfa-home__sold-copy,

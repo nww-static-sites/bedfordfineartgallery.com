@@ -2,7 +2,7 @@
     <section class="bfa-press" aria-label="Publications featuring Bedford Fine Art Gallery">
         <p class="bfa-press__label">As Seen In</p>
         <div class="bfa-press__viewport">
-            <div class="bfa-press__track">
+            <div ref="track" class="bfa-press__track" :style="{ '--bfa-press-distance': String(groupWidth) }">
                 <div v-for="group in 2" :key="group" class="bfa-press__group" :aria-hidden="group === 2 ? 'true' : null">
                     <component
                         :is="publication.href ? 'a' : 'span'"
@@ -27,6 +27,8 @@ export default {
     name: 'HomePressMarquee',
     data() {
         return {
+            groupWidth: 0,
+            resizeObserver: null,
             publications: [
                 { name: 'American Art Review' },
                 {
@@ -47,6 +49,24 @@ export default {
                 },
             ],
         }
+    },
+    mounted() {
+        this.measureGroup()
+        if ('ResizeObserver' in window) {
+            this.resizeObserver = new window.ResizeObserver(this.measureGroup)
+            this.resizeObserver.observe(this.$refs.track.firstElementChild)
+        } else {
+            window.addEventListener('resize', this.measureGroup)
+        }
+    },
+    beforeDestroy() {
+        this.resizeObserver?.disconnect()
+        window.removeEventListener('resize', this.measureGroup)
+    },
+    methods: {
+        measureGroup() {
+            this.groupWidth = this.$refs.track.firstElementChild.getBoundingClientRect().width
+        },
     },
 }
 </script>
@@ -76,7 +96,7 @@ export default {
 }
 
 .bfa-press__track {
-    animation: bfa-press-scroll 65s linear infinite;
+    animation: bfa-press-scroll calc(var(--bfa-press-distance) * 1s / var(--bfa-marquee-pixels-per-second)) linear infinite;
     display: flex;
     width: max-content;
 }
