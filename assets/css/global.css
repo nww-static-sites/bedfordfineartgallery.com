@@ -106,6 +106,16 @@ section {
     display: block;
 }
 
+:root {
+    --bfa-marquee-pixels-per-second: 17;
+}
+
+@media screen and (max-width: 767px) {
+    :root {
+        --bfa-marquee-pixels-per-second: 19;
+    }
+}
+
 body {
     line-height: 1.5;
     font-size: 100%;
