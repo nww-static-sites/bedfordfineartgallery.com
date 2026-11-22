@@ -30,6 +30,12 @@ import TestimonialsScroll from '~/components/TestimonialsScroll'
 import { renderFaq, sortFaqs } from '~/libs/faq'
 
 export default {
+    head() {
+        return {
+            title: "Fine Art and Gallery FAQs | Bedford Fine Art Gallery",
+            meta: [{ hid: 'description', name: 'description', content: "Find answers to common questions about Bedford Fine Art Gallery and its paintings. Use the gallery’s contact and visit information when you need help with a particular work." }],
+        }
+    },
     components: { TestimonialsScroll },
     async asyncData({ $content }) {
         const records = await $content('faqs').fetch()

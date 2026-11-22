@@ -36,6 +36,12 @@
 import { loadLongTestimonialsClient } from '~/libs/testimonials-client'
 
 export default {
+    head() {
+        return {
+            title: "Customer Testimonials | Bedford Fine Art Gallery",
+            meta: [{ hid: 'description', name: 'description', content: "Read what collectors and gallery visitors say about Bedford Fine Art Gallery. The testimonials share their experiences viewing artwork and working with the gallery." }],
+        }
+    },
     data() {
         return {
             testimonials: [],

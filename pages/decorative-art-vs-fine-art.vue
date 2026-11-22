@@ -110,6 +110,17 @@ inventing new aesthetics pointillism, pipsme! All this is just to make noise.</p
     </div>
 </template>
 
+<script>
+export default {
+    head() {
+        return {
+            title: "Decorative Art vs. Fine Art | Bedford Fine Art Gallery",
+            meta: [{ hid: 'description', name: 'description', content: "Read Bedford Fine Art Gallery’s guide to the difference between decorative paintings and fine art. Use the comparison when deciding what kind of work you want to collect." }],
+        }
+    },
+}
+</script>
+
 <style scoped>
 </style>
 
