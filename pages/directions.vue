@@ -257,11 +257,6 @@ for a long, long time.  For the time being, you are one of a kind.</p>
                             </a>
                         </li>
                         <li>
-                            <a href="https://web.archive.org/web/20231217223242/http://www.solux.net/cgi-bin/tlistore/infopages/artwork.html" target="_blank" rel="nofollow noopener">
-                                SoLux Lighting (Archived)
-                            </a>
-                        </li>
-                        <li>
                             <a href="https://www.ushistory.org/" target="_blank" rel="nofollow noopener">
                                 ushistory.org
                             </a>
@@ -453,7 +448,7 @@ export default {
 }
 .interesting_links ul {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 12px;
     margin: 0;
     padding: 0;
