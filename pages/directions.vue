@@ -9,7 +9,7 @@
 <div class="col_40_flex">
 
 
-<img loading="lazy" class="art_detail" style="width: 100%; height:auto;" src="https://img.bedfordfineartgallery.com/visit_gallery.jpg" width="587" height="725" alt="Bedford Fine Art Gallery
+<img loading="lazy" class="art_detail visit_gallery_photo" src="https://img.bedfordfineartgallery.com/visit_gallery.jpg" width="587" height="725" alt="Bedford Fine Art Gallery
 "/></div>
 
 <div class="col_60_flex artwork_details">
@@ -23,7 +23,7 @@ Sunday hours by appointment: call 724-459-0612</p>
 <h4>our Address</h4>
 <p>230 South Juliana St.<br>
 Bedford PA 15522<br>
-<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d6111.283002318528!2d-78.50823720915139!3d40.0164547085346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x89ca5259554ad163%3A0xe6062281f0ec6f2f!2s230+S+Juliana+St%2C+Bedford%2C+PA+15522!3m2!1d40.0164548!2d-78.5036238!5e0!3m2!1sen!2sus!4v1444137907050" width="600" height="450" frameborder="0" style="border:0; width: 100%; height:auto; margin-top: 8px;" allowfullscreen></iframe>
+<iframe class="visit_map" title="Google map to Bedford Fine Art Gallery" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d6111.283002318528!2d-78.50823720915139!3d40.0164547085346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x89ca5259554ad163%3A0xe6062281f0ec6f2f!2s230+S+Juliana+St%2C+Bedford%2C+PA+15522!3m2!1d40.0164548!2d-78.5036238!5e0!3m2!1sen!2sus!4v1444137907050" width="600" height="450" allowfullscreen></iframe>
 </p>
 </div>
 
@@ -83,10 +83,10 @@ Bedford PA 15522<br>
 <div class="visit_flex">
 <div class="visit_flex_thumb"><nuxt-link to="highlights_article_7.html"><img src="https://img.bedfordfineartgallery.com/bedford_sign.jpg" width="308" height="294" alt="Bedford Fine Art Gallery
 " style="width: 100%; height:auto; border:1px solid #222222;"/></nuxt-link></div>
-<div><h2 style="text-align:left;">Destination</h2>
+<div><h2><nuxt-link to="highlights_article_7.html">Destination</nuxt-link></h2>
 <p>The Bedford Fine Art Gallery is "The Destination" not just an attraction along the way. The artworks presented in the Gallery are period originals, not copies, prints or other modes of imitation that exemplify the skill of the original artist, not that of the machine, which is a mere mechanical copyist.</p>
 
-<p><nuxt-link class="readmore" to="highlights_article_7.html">Read More</nuxt-link></p>
+<p><nuxt-link class="visit_button readmore" to="highlights_article_7.html">Read Mode</nuxt-link></p>
 
 
 
@@ -98,11 +98,11 @@ Bedford PA 15522<br>
 
 <div class="visit_flex_thumb"><nuxt-link to="highlights_article_6.html"><img loading="lazy" src="https://img.bedfordfineartgallery.com/location.png" width="1213" height="226" alt="Location. Location. Location.
 " style="width: 100%; height:auto; border:1px solid #222222;"/></nuxt-link></div>
-<div><h2 style="text-align:left;">Location. Location. Location.</h2><p>For approximately 250 years, Bedford has been a welcome stopping place for travelers.  Presidents and
+<div><h2><nuxt-link to="highlights_article_6.html">Location. Location. Location.</nuxt-link></h2><p>For approximately 250 years, Bedford has been a welcome stopping place for travelers.  Presidents and
 
 soldiers, Indian traders and the first colonists of the west, all paused here.</p>
 
-<p><nuxt-link class="readmore" to="highlights_article_6.html">Read More</nuxt-link></p>
+<p><nuxt-link class="visit_button readmore" to="highlights_article_6.html">Read Mode</nuxt-link></p>
 
 
 </div></div>
@@ -111,7 +111,7 @@ soldiers, Indian traders and the first colonists of the west, all paused here.</
 
 <div class="visit_flex_thumb"><nuxt-link to="highlights_article.html"><img loading="lazy" src="https://img.bedfordfineartgallery.com/legacy.jpg" width="412" height="216" alt="19th Century Fine Art Legacy
 " style="width: 100%; height:auto; border:1px solid #222222;"/></nuxt-link></div>
-<div><h2 style="text-align:left;">19th Century Fine Art Legacy</h2><p>The land upon which the Barclay house is built was part of a larger land grant given to Colonel Hugh
+<div><h2><nuxt-link to="highlights_article.html">19th Century Fine Art Legacy</nuxt-link></h2><p>The land upon which the Barclay house is built was part of a larger land grant given to Colonel Hugh
 
 Barclay by William Penn.  Hugh Barclay, who served during the Revolutionary War, was Bedford’s first Post
 
@@ -119,7 +119,7 @@ Master and patriarch of the Barclay family.  The Barclay family rose to prominen
 
 following the war.</p>
 
-<p><nuxt-link class="readmore" to="highlights_article.html">Read More</nuxt-link></p>
+<p><nuxt-link class="visit_button readmore" to="highlights_article.html">Read Mode</nuxt-link></p>
 
 
 </div></div>
@@ -128,11 +128,11 @@ following the war.</p>
 
 <div class="visit_flex_thumb"><nuxt-link to="highlights_article_21.html"><img loading="lazy" src="https://img.bedfordfineartgallery.com/architecture.jpg" width="412" height="216" alt="Geology and Landscape Art in 19th Century America
 " style="width: 100%; height:auto; border:1px solid #222222;"/></nuxt-link></div>
-<div><h2 style="text-align:left;">Bedford Fine Art Gallery's Architectural Venue</h2><p>The Barclay Mansion was built in 1889, during the late Victorian period. Although the house is Victorian
+<div><h2><nuxt-link to="highlights_article_21.html">Bedford Fine Art Gallery's Architectural Venue</nuxt-link></h2><p>The Barclay Mansion was built in 1889, during the late Victorian period. Although the house is Victorian
 
 in age, it is reminiscent of the Renaissance Classical tradition with Italianate style details.</p>
 
-<p><nuxt-link class="readmore" to="highlights_article_21.html">Read More</nuxt-link></p>
+<p><nuxt-link class="visit_button readmore" to="highlights_article_21.html">Read Mode</nuxt-link></p>
 
 
 </div></div>
@@ -141,11 +141,11 @@ in age, it is reminiscent of the Renaissance Classical tradition with Italianate
 
 <div class="visit_flex_thumb"><nuxt-link to="highlights_article_20.html"><img loading="lazy" src="https://img.bedfordfineartgallery.com/victorian.jpg" width="412" height="216" alt="Geology and Landscape Art in 19th Century America
 " style="width: 100%; height:auto; border:1px solid #222222;"/></nuxt-link></div>
-<div><h2 style="text-align:left;">Victorian Homes and Fine Art</h2><p>Each person is unique and stands apart from others; there will never be another “you”…at least
+<div><h2><nuxt-link to="highlights_article_20.html">Victorian Homes and Fine Art</nuxt-link></h2><p>Each person is unique and stands apart from others; there will never be another “you”…at least
 
 for a long, long time.  For the time being, you are one of a kind.</p>
 
-<p><nuxt-link class="readmore" to="highlights_article_20.html">Read More</nuxt-link></p>
+<p><nuxt-link class="visit_button readmore" to="highlights_article_20.html">Read Mode</nuxt-link></p>
 
 
 </div>
@@ -171,10 +171,11 @@ for a long, long time.  For the time being, you are one of a kind.</p>
                         <div class="video-container">
                             <YouTubeVideo link="https://www.youtube.com/embed/oY3C5t3A1zQ?rel=0" />
                         </div>
-                        <div class="breadcrumb desktop_hide" style="margin-top: 15px; margin-bottom: 15px">
-                            <nuxt-link :to="{ name: 'art-lovers-niche' }"
-                        >Join us at art lovers' niche<br />don't miss out!</nuxt-link>
-                        </div>
+                        <p class="visit_social_action">
+                            <nuxt-link class="visit_button" :to="{ name: 'art-lovers-niche' }">
+                                Join Art Lovers' Niche
+                            </nuxt-link>
+                        </p>
                     </div>
                     <div>
                         <h2
@@ -189,14 +190,14 @@ for a long, long time.  For the time being, you are one of a kind.</p>
                         >
                             Instagram
                         </h2>
-                        <a href="https://www.instagram.com/bedfordfineartgallery/" target="_blank"
-                            ><img src="https://img.bedfordfineartgallery.com/instagram_invite.jpg" width="675" height="525" alt="" loading="lazy"
+                        <a href="https://www.instagram.com/bedfordfineartgallery/" target="_blank" rel="noopener"
+                            ><img src="https://img.bedfordfineartgallery.com/instagram_invite.jpg" width="675" height="525" alt="Bedford Fine Art Gallery on Instagram" loading="lazy"
                         /></a>
-                        <div class="breadcrumb desktop_hide" style="margin-top: 15px; margin-bottom: 15px">
-                            <a href="https://www.instagram.com/bedfordfineartgallery/" target="_blank"
-                                >Follow us on Instagram</a
-                            >
-                        </div>
+                        <p class="visit_social_action">
+                            <a class="visit_button" href="https://www.instagram.com/bedfordfineartgallery/" target="_blank" rel="noopener">
+                                Follow us on Instagram
+                            </a>
+                        </p>
                     </div>
 
                             <div>
@@ -238,51 +239,26 @@ for a long, long time.  For the time being, you are one of a kind.</p>
                     </div>
                 </div>
 
-                <div class="interesting_links" style="padding-top: 32px;">
-
-<h4>Interesting Links</h4>
-                        <a
-                            href="https://visitbedfordcounty.com/directory_category/shopping/"
-                            target="_blank"
-                            rel="nofollow"
-                            style="color: #000000"
-                            ><img
-                                style="width: 100%; height: auto; max-width: 120px"
-                                class="social2"
-                                src="https://img.bedfordfineartgallery.com/images/bcvb.png"
-                                width="220"
-                                height="100"
-                                alt=""
-                                loading="lazy"
-                            /><br />Member of the Bedford County Visitors Bureau</a
-                        >
-                        <p style="margin-top: 16px; margin-bottom: 0px; padding-bottom: 6px; display:none;">
-                            Bedford Fine Art Gallery is a member of the
-                            <a
-                                style="color: #000000"
-                                rel="nofollow"
-                                href="http://www.bedfordbusinessdirectory.com/"
-                                target="_blank"
-                                >Bedford Business Directory</a
-                            >.
-                        </p>
-
-                        <p style="margin-top: 4px; margin-bottom: 0px">
-                            <a
-                                href="http://solux.net/cgi-bin/tlistore/infopages/index.html"
-                                target="_blank"
-                                style="color: #000000"
-                                rel="nofollow"
-                                >SoLux Lighting</a
-                            >
-                        </p>
-                        <p style="margin-top: 4px; margin-bottom: 0px">
-                            <a href="http://www.ushistory.org/" target="_blank" style="color: #000000" rel="nofollow"
-                                >ushistory.org</a
-                            >
-                        </p>
-
-                </div>
+                <section class="interesting_links" aria-labelledby="interesting-links-title">
+                    <h2 id="interesting-links-title">Interesting Links</h2>
+                    <ul>
+                        <li>
+                            <a href="https://visitbedfordcounty.com/directory_category/shopping/" target="_blank" rel="nofollow noopener">
+                                Bedford County Visitors Bureau
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://solux.net/cgi-bin/tlistore/infopages/index.html" target="_blank" rel="nofollow noopener">
+                                SoLux Lighting
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.ushistory.org/" target="_blank" rel="nofollow noopener">
+                                ushistory.org
+                            </a>
+                        </li>
+                    </ul>
+                </section>
 
 </section>
 </div>
@@ -303,12 +279,31 @@ export default {
     width: 90%;
     height: auto;
 }
+.visit_gallery_photo {
+    width: 75%;
+    height: auto;
+}
+.visit_map {
+    width: 100%;
+    height: auto;
+    margin-top: 8px;
+    border: 0;
+}
+.visit_map,
+.places_to_stay img,
+.visit_social img {
+    border-radius: 12px;
+}
 .video-container {
     position: relative;
     padding-bottom: 0;
     padding-top: 0;
     height: auto;
     overflow: visible;
+}
+.visit_social .video-container {
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .col_flex,
@@ -356,33 +351,48 @@ export default {
 .visit_flex img {
     max-width: 300px;
 }
-
-@media only screen and (max-width: 760px) {
-    .col_flex,
-    .places_to_stay ul,
-    .visit_flex {
-    }
-    .visit_flex {
-        gap: 0px;
-    }
-
-    .places_to_stay ul,
-    .visit_flex,
-    .visit_social {
-        grid-template-columns: 1fr;
-    }
+.visit_flex h2 {
+    text-align: left;
+    font-weight: 700;
+}
+.visit_flex h2 a {
+    color: inherit;
+    text-decoration: none;
+}
+.visit_flex h2 a:hover,
+.visit_flex h2 a:focus-visible {
+    color: #742924;
 }
 
-.readmore {
-    background-color: #681d1e;
-    color: #f2f2f2;
-    padding: 12px;
+.visit_button,
+.interesting_links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    max-width: 100%;
+    padding: 8px 20px;
+    border-radius: 999px;
+    font-size: 17px;
+    line-height: 1.35;
+    text-align: center;
     text-decoration: none;
+    text-transform: none;
+}
+.visit_button {
+    background-color: #681d1e;
+    color: #f9f9f2;
+}
+.visit_button:hover,
+.visit_button:focus-visible {
+    background-color: #541717;
+}
+.readmore {
     margin-top: 16px;
-    display: inline-block;
-    font-size: 18px;
-    text-transform: uppercase;
-    border-radius: 4px;
+}
+.visit_social_action {
+    margin: 15px 0;
+    text-align: center;
 }
 
 .bedford_banner {
@@ -394,6 +404,56 @@ export default {
     max-width: 426px;
     margin: auto;
     display: block;
+}
+
+.interesting_links {
+    margin-top: 32px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #d9d9d9;
+    border-radius: 16px;
+}
+.interesting_links h2 {
+    margin: 0 0 14px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+}
+.interesting_links ul {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.interesting_links a {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    color: #681d1e;
+    font-weight: 600;
+}
+.interesting_links a:hover,
+.interesting_links a:focus-visible {
+    background-color: #f8efee;
+    border-color: #681d1e;
+}
+
+@media only screen and (max-width: 760px) {
+    .visit_flex {
+        gap: 0;
+    }
+
+    .places_to_stay ul,
+    .visit_flex,
+    .visit_social,
+    .interesting_links ul {
+        grid-template-columns: 1fr;
+    }
 }
 </style>
 
