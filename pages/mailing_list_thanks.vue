@@ -34,6 +34,17 @@
     </div>
 </template>
 
+<script>
+export default {
+    head() {
+        return {
+            title: "Newsletter Signup Confirmation | Bedford Fine Art Gallery",
+            meta: [{ hid: 'description', name: 'description', content: "Newsletter Signup Confirmation for Bedford Fine Art Gallery. Return to the gallery website for further information." }],
+        }
+    },
+}
+</script>
+
 <style scoped>
 .flex {
     display: flex;

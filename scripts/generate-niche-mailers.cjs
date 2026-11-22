@@ -41,7 +41,13 @@ for (const file of fs.readdirSync(input).sort()) {
         !sitemap.includes(articlePath)) {
         throw new Error('Website output does not match the saved Niche article: ' + file)
     }
-    const mailer = niche.mailer(record)
+    let mailer = niche.mailer(record)
+    if (record.mailerMetaTitle) {
+        mailer = mailer.replace(/<title>[^<]*<\/title>/, () => '<title>' + niche.escape(record.mailerMetaTitle) + '</title>')
+    }
+    if (record.mailerMetaDescription) {
+        mailer = mailer.replace('</head>', () => '<meta name="description" content="' + niche.escape(record.mailerMetaDescription) + '"></head>')
+    }
     if (sitemap.includes(niche.mailerPath(record.slug)) || listing.includes(niche.mailerPath(record.slug))) {
         throw new Error('The mailer must stay outside the site listing and sitemap: ' + target)
     }
