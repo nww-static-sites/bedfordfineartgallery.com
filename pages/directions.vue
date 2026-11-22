@@ -21,8 +21,16 @@ Sunday hours by appointment: call 724-459-0612</p>
 
 
 <h4>our Address</h4>
-<p>230 South Juliana St.<br>
-Bedford PA 15522<br>
+<div class="visit_address">
+    <span>230 South Juliana St.<br>Bedford PA 15522</span>
+    <a
+        class="visit_button visit_directions"
+        href="https://www.google.com/maps/dir/?api=1&amp;destination=Bedford+Fine+Art+Gallery%2C+230+South+Juliana+St%2C+Bedford%2C+PA+15522"
+        target="_blank"
+        rel="noopener"
+    >Get Directions</a>
+</div>
+<p>
 <iframe class="visit_map" title="Google map to Bedford Fine Art Gallery" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d6111.283002318528!2d-78.50823720915139!3d40.0164547085346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x89ca5259554ad163%3A0xe6062281f0ec6f2f!2s230+S+Juliana+St%2C+Bedford%2C+PA+15522!3m2!1d40.0164548!2d-78.5036238!5e0!3m2!1sen!2sus!4v1444137907050" width="600" height="450" allowfullscreen></iframe>
 </p>
 </div>
@@ -34,10 +42,11 @@ Bedford PA 15522<br>
 <div class="bedford_banner">
   <img loading="lazy" style="width: 100%; height:auto; display:block;" src="https://img.bedfordfineartgallery.com/small_town.jpg" width="1868" height="414" alt=""/> </div>
 
-   <div class="breadcrumb desktop_hide" style="margin-top: 15px; margin-bottom: 32px">
-                            <a href="https://visitbedfordcounty.com/" target="_blank">
-                        Bedford County Visitors Bureau</a>
-                        </div>
+<p class="visit_bureau">
+    <a class="visit_button" href="https://visitbedfordcounty.com/" target="_blank" rel="noopener">
+        Bedford County Visitors Bureau
+    </a>
+</p>
   <p class="oblique" style="margin-bottom: 1em; margin-top: 1em; font-weight: bold;">
                         Take a virtual tour of our gallery
                     </p>
@@ -86,7 +95,7 @@ Bedford PA 15522<br>
 <div><h2><nuxt-link to="highlights_article_7.html">Destination</nuxt-link></h2>
 <p>The Bedford Fine Art Gallery is "The Destination" not just an attraction along the way. The artworks presented in the Gallery are period originals, not copies, prints or other modes of imitation that exemplify the skill of the original artist, not that of the machine, which is a mere mechanical copyist.</p>
 
-<p><nuxt-link class="visit_button readmore" to="highlights_article_7.html">Read Mode</nuxt-link></p>
+<p><nuxt-link class="visit_button readmore" to="highlights_article_7.html">Read More</nuxt-link></p>
 
 
 
@@ -102,7 +111,7 @@ Bedford PA 15522<br>
 
 soldiers, Indian traders and the first colonists of the west, all paused here.</p>
 
-<p><nuxt-link class="visit_button readmore" to="highlights_article_6.html">Read Mode</nuxt-link></p>
+<p><nuxt-link class="visit_button readmore" to="highlights_article_6.html">Read More</nuxt-link></p>
 
 
 </div></div>
@@ -119,7 +128,7 @@ Master and patriarch of the Barclay family.  The Barclay family rose to prominen
 
 following the war.</p>
 
-<p><nuxt-link class="visit_button readmore" to="highlights_article.html">Read Mode</nuxt-link></p>
+<p><nuxt-link class="visit_button readmore" to="highlights_article.html">Read More</nuxt-link></p>
 
 
 </div></div>
@@ -132,7 +141,7 @@ following the war.</p>
 
 in age, it is reminiscent of the Renaissance Classical tradition with Italianate style details.</p>
 
-<p><nuxt-link class="visit_button readmore" to="highlights_article_21.html">Read Mode</nuxt-link></p>
+<p><nuxt-link class="visit_button readmore" to="highlights_article_21.html">Read More</nuxt-link></p>
 
 
 </div></div>
@@ -145,7 +154,7 @@ in age, it is reminiscent of the Renaissance Classical tradition with Italianate
 
 for a long, long time.  For the time being, you are one of a kind.</p>
 
-<p><nuxt-link class="visit_button readmore" to="highlights_article_20.html">Read Mode</nuxt-link></p>
+<p><nuxt-link class="visit_button readmore" to="highlights_article_20.html">Read More</nuxt-link></p>
 
 
 </div>
@@ -283,6 +292,12 @@ export default {
     width: 75%;
     height: auto;
 }
+.visit_address {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 16px;
+}
 .visit_map {
     width: 100%;
     height: auto;
@@ -290,6 +305,7 @@ export default {
     border: 0;
 }
 .visit_map,
+.bedford_banner img,
 .places_to_stay img,
 .visit_social img {
     border-radius: 12px;
@@ -387,6 +403,9 @@ export default {
 .visit_button:focus-visible {
     background-color: #541717;
 }
+.visit_directions {
+    padding-inline: 12px;
+}
 .readmore {
     margin-top: 16px;
 }
@@ -397,6 +416,10 @@ export default {
 
 .bedford_banner {
     padding-bottom: 10px;
+}
+.visit_bureau {
+    margin: 15px 0 32px;
+    text-align: center;
 }
 .visit_social img {
     width: 100%;
@@ -434,13 +457,8 @@ export default {
     height: 100%;
     background-color: #fff;
     border: 1px solid #d9d9d9;
-    color: #681d1e;
+    color: #5f5f5f;
     font-weight: 600;
-}
-.interesting_links a:hover,
-.interesting_links a:focus-visible {
-    background-color: #f8efee;
-    border-color: #681d1e;
 }
 
 @media only screen and (max-width: 760px) {
