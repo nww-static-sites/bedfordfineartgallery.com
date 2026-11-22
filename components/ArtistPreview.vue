@@ -1,8 +1,6 @@
 <template>
     <div>
-		<div v-if="artist.header" class="artist_wrap">
-			<p :id="`Artist-${artist.header}`" class="artist-header">{{ artist.header }}</p>
-		</div>
+        <h3 v-if="artist.header" :id="`Artist-${artist.header}`" class="artist-header">{{ artist.header }}</h3>
 
         <div v-if="hasPaintings" class="artist_wrap">
             <div class="artist_col_img">
@@ -22,9 +20,10 @@
                         <nuxt-link :to="artistLink">{{ nameWithTinyDescription }}</nuxt-link>
                     </p>
                     <ul>
-                        <li class="artistheader">Painting:</li>
                         <li v-for="(painting, index) in artist.paintings" :key="index">
-                            <nuxt-link :to="`/${painting.replace('-html', '.html')}`">{{ index + 1 }}</nuxt-link>
+                            <nuxt-link class="artist-painting-link" :to="`/${painting.replace('-html', '.html')}`">
+                                Painting {{ index + 1 }}
+                            </nuxt-link>
                         </li>
                     </ul>
                 </div>
@@ -76,16 +75,19 @@ export default {
 
 <style scoped>
 .artist-header {
-    background: #EEEEDB;
+    background: #eeeedb;
     color: #5a0a0b;
-    margin: 10px 0px 5px 0px;
+    max-width: 800px;
+    margin: 10px auto 16px;
     padding: 6px 12px;
-    display: block;
-	font-size: 1.2em;
-	border-radius: 0px;
-    width: 100%;
-    text-align:center;
-    border-bottom: 1px solid #dfddbb;
+    font-size: 1.2em;
+    border-radius: 10px;
     font-weight: bold;
+    scroll-margin-top: 16px;
+}
+
+.artist_container ul li .artist-painting-link {
+    padding: 4px 9px;
+    font-size: 16px;
 }
 </style>

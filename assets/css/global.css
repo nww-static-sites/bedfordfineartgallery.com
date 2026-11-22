@@ -2191,23 +2191,32 @@ ul.checkmark a:visited {
 }
 .artists_navigation ul {
     display: flex;
-    justify-content:center;
-    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    padding: 5px 5px;
-    border-radius: 5px;
-    background: #dfddbb;
-max-width: 800px;
-margin: 0px auto 15px auto;
-
+    gap: 8px;
+    max-width: 800px;
+    margin: 0 auto 20px;
 }
-.artists_navigation ul li a {
+
+.artists_navigation li a,
+.artists_navigation li span {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
     color: #5a0a0b;
-    display: inline-block;
-    padding: 5px 5px 1px 5px;
+    background: #dfddbb;
+    border-radius: 9px;
+    font-size: 17px;
     text-decoration: none;
-    margin: 5px;
-    border-bottom: 1px solid #5a0a0b;
+}
+
+.artists_navigation li a:hover {
+    background: #d3cfa5;
+}
+
+.artists_navigation li span {
+    opacity: 0.55;
 }
 
 .above_video_txt {
