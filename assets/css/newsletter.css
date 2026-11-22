@@ -1,7 +1,9 @@
-/* Scoped component: no Bedford page selectors are changed. */
-.aln {
+:root {
   --aln-maroon: #823631;
   --aln-cream: #fff8ed;
+}
+
+.aln {
   --aln-gold: #dfc49c;
   --aln-edge: 20px;
   position: fixed;

@@ -23,7 +23,7 @@
                         v-for="(artist, index) in filteredArtists"
                         :key="index"
                         :artist="artist"
-                        :painting-to-grid-image="paintingToGridImage"
+                        :paintings-by-slug="paintingsBySlug"
                     />
 
                     <div v-if="filteredArtists.length === 0" style="margin-top: 20px;">
@@ -69,9 +69,7 @@ export default {
                 )
         })
 
-        const paintingSlugs = artists.map((artist) =>
-            artist.paintings && artist.paintings.length > 0 ? artist.paintings[0] : ''
-        )
+        const paintingSlugs = [...new Set(artists.flatMap((artist) => artist.paintings || []))]
 
         let lastLetter = ''
         artists.forEach((artist) => {
@@ -84,7 +82,7 @@ export default {
 
         return {
             artists,
-            paintingToGridImage: await loadPaintings({ $content, paintingSlugs }),
+            paintingsBySlug: await loadPaintings({ $content, paintingSlugs, columns: ['slug', 'gridImage', 'status'] }),
         }
     },
 

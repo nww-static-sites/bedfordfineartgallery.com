@@ -23,6 +23,7 @@
                         <li v-for="(painting, index) in artist.paintings" :key="index">
                             <nuxt-link class="artist-painting-link" :to="`/${painting.replace('-html', '.html')}`">
                                 Painting {{ index + 1 }}
+                                <span v-if="isSold(painting)" class="artist-painting-sold">SOLD</span>
                             </nuxt-link>
                         </li>
                     </ul>
@@ -39,7 +40,7 @@ export default {
             type: Object,
             required: true,
         },
-        paintingToGridImage: {
+        paintingsBySlug: {
             type: Object,
             required: true,
         },
@@ -64,10 +65,12 @@ export default {
             return nameWithTinyDescription
         },
         gridImage() {
-            const gridImage = this.paintingToGridImage[this.artist.paintings[0]]
-                ? this.paintingToGridImage[this.artist.paintings[0]].gridImage
-                : ''
-            return gridImage
+            return this.paintingsBySlug[this.artist.paintings[0]]?.gridImage || ''
+        },
+    },
+    methods: {
+        isSold(painting) {
+            return this.paintingsBySlug[painting]?.status === 'Sold'
         },
     },
 }
@@ -93,7 +96,21 @@ export default {
 }
 
 .artist_container ul li .artist-painting-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     padding: 4px 9px;
     font-size: 16px;
+    white-space: nowrap;
+}
+
+.artist-painting-sold {
+    padding: 2px 4px;
+    border-radius: 4px;
+    background: var(--aln-maroon);
+    color: var(--aln-cream);
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1.15;
 }
 </style>
