@@ -257,8 +257,8 @@ for a long, long time.  For the time being, you are one of a kind.</p>
                             </a>
                         </li>
                         <li>
-                            <a href="https://solux.net/cgi-bin/tlistore/infopages/index.html" target="_blank" rel="nofollow noopener">
-                                SoLux Lighting
+                            <a href="https://web.archive.org/web/20231217223242/http://www.solux.net/cgi-bin/tlistore/infopages/artwork.html" target="_blank" rel="nofollow noopener">
+                                SoLux Lighting (Archived)
                             </a>
                         </li>
                         <li>
@@ -404,7 +404,14 @@ export default {
     background-color: #541717;
 }
 .visit_directions {
-    padding-inline: 12px;
+    min-height: 26.4px;
+    padding: 4.8px 7.2px;
+    background-color: #404040;
+    font-size: 10.2px;
+}
+.visit_directions:hover,
+.visit_directions:focus-visible {
+    background-color: #303030;
 }
 .readmore {
     margin-top: 16px;
