@@ -23,7 +23,8 @@
                         <li v-for="(painting, index) in artist.paintings" :key="index">
                             <nuxt-link class="artist-painting-link" :to="`/${painting.replace('-html', '.html')}`">
                                 Painting {{ index + 1 }}
-                                <span v-if="isSold(painting)" class="artist-painting-sold">SOLD</span>
+                                <span v-if="isSold(painting)" class="artist-painting-status artist-painting-sold">SOLD</span>
+                                <span v-else class="artist-painting-status artist-painting-available">AVAILABLE</span>
                             </nuxt-link>
                         </li>
                     </ul>
@@ -98,19 +99,26 @@ export default {
 .artist_container ul li .artist-painting-link {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: 5px;
     padding: 4px 9px;
     font-size: 16px;
     white-space: nowrap;
 }
 
-.artist-painting-sold {
-    padding: 2px 4px;
-    border-radius: 4px;
-    background: var(--aln-maroon);
+.artist-painting-status {
+    padding: 1px 3px;
+    border-radius: 3px;
     color: var(--aln-cream);
-    font-size: 11px;
+    font-size: 9px;
     font-weight: 700;
     line-height: 1.15;
+}
+
+.artist-painting-sold {
+    background: var(--aln-maroon);
+}
+
+.artist-painting-available {
+    background: #267f42;
 }
 </style>
