@@ -76,6 +76,17 @@
     </div>
 </template>
 
+<script>
+export default {
+    head() {
+        return {
+            title: "How to Evaluate an Art Gallery | Bedford Fine Art Gallery",
+            meta: [{ hid: 'description', name: 'description', content: "Read Bedford Fine Art Gallery’s guide to evaluating an art gallery before buying. Use it to ask informed questions about a gallery and its work." }],
+        }
+    },
+}
+</script>
+
 <style scoped>
 </style>
 

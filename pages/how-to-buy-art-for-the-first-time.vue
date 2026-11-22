@@ -32,6 +32,17 @@ Weigh whether this will be a one-time purchase, or the start of a collection.  E
     </div>
 </template>
 
+<script>
+export default {
+    head() {
+        return {
+            title: "How to Buy Fine Art for the First Time | Bedford Fine Art Gallery",
+            meta: [{ hid: 'description', name: 'description', content: "Read Bedford Fine Art Gallery’s guide for first-time buyers. Use it to prepare questions and think through what makes a painting a good fit for your home and collection." }],
+        }
+    },
+}
+</script>
+
 <style scoped>
 </style>
 

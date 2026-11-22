@@ -163,6 +163,12 @@
     import TestimonialsScroll from '~/components/TestimonialsScroll'
 
     export default {
+    head() {
+        return {
+            title: "Fine Art Collector Guides | Bedford Fine Art Gallery",
+            meta: [{ hid: 'description', name: 'description', content: "Find Bedford Fine Art Gallery’s practical guides to collecting. Topics include first purchases, assessing a gallery, and caring for 19th-century paintings." }],
+        }
+    },
         components: { TestimonialsScroll },
     }
 </script>
