@@ -20,7 +20,7 @@
                         <nuxt-link :to="artistLink">{{ nameWithTinyDescription }}</nuxt-link>
                     </p>
                     <ul>
-                        <li v-for="(painting, index) in artist.paintings" :key="index">
+                        <li v-for="(painting, index) in orderedPaintings" :key="painting">
                             <nuxt-link class="artist-painting-link" :to="`/${painting.replace('-html', '.html')}`">
                                 Painting {{ index + 1 }}
                                 <span v-if="isSold(painting)" class="artist-painting-status artist-painting-sold">SOLD</span>
@@ -51,6 +51,15 @@ export default {
     computed: {
         hasPaintings() {
             return this.artist.paintings && this.artist.paintings.length > 0
+        },
+        orderedPaintings() {
+            const available = []
+            const sold = []
+            for (const painting of this.artist.paintings || []) {
+                const group = this.isSold(painting) ? sold : available
+                group.push(painting)
+            }
+            return available.concat(sold)
         },
         artistLink() {
             return this.artist.hasLandingPage
