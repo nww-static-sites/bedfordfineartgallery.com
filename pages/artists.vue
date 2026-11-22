@@ -9,6 +9,19 @@
                 </div>
 
                 <div class="col_100">
+                    <div class="artists-filters" role="group" aria-label="Artist filters">
+                        <button
+                            v-for="filter in artistFilters"
+                            :key="filter.id"
+                            type="button"
+                            :aria-pressed="artistFilter === filter.id ? 'true' : 'false'"
+                            aria-controls="artist-directory-list"
+                            @click="artistFilter = filter.id"
+                        >
+                            {{ filter.label }}
+                        </button>
+                    </div>
+
                     <input
                         v-model="searchTerm"
                         class="artists-search"
@@ -19,15 +32,17 @@
 
                     <ArtistNav :section-letters="sectionLetters" />
 
-                    <ArtistPreview
-                        v-for="(artist, index) in filteredArtists"
-                        :key="index"
-                        :artist="artist"
-                        :paintings-by-slug="paintingsBySlug"
-                    />
+                    <div id="artist-directory-list">
+                        <ArtistPreview
+                            v-for="artist in filteredArtists"
+                            :key="artist.slug"
+                            :artist="artist"
+                            :paintings-by-slug="paintingsBySlug"
+                        />
 
-                    <div v-if="filteredArtists.length === 0" style="margin-top: 20px;">
-                        No artists found.
+                        <div v-if="filteredArtists.length === 0" style="margin-top: 20px;">
+                            No artists found.
+                        </div>
                     </div>
                 </div>
             </section>
@@ -40,9 +55,16 @@
 
 <script>
 import { loadPaintings } from '~/libs/paintings'
+import { isSoldPainting } from '~/utils/paintingStatus'
 import ArtistPreview from '~/components/ArtistPreview'
 import ArtistNav from '~/components/ArtistNav'
 import TestimonialsScroll from '~/components/TestimonialsScroll'
+
+const artistFilters = [
+    { id: 'featured', label: 'Featured Artists' },
+    { id: 'past', label: 'Past Artists' },
+    { id: 'all', label: 'All Artists' },
+]
 
 export default {
     head() {
@@ -77,15 +99,6 @@ export default {
 
         const paintingSlugs = [...new Set(artists.flatMap((artist) => artist.paintings || []))]
 
-        let lastLetter = ''
-        artists.forEach((artist) => {
-            const lastNameFirstLetter = artist.name.trim().split(' ').pop().toUpperCase()[0]
-            if (lastNameFirstLetter !== lastLetter) {
-                lastLetter = lastNameFirstLetter
-                artist.header = lastLetter
-            }
-        })
-
         return {
             artists,
             paintingsBySlug: await loadPaintings({ $content, paintingSlugs, columns: ['slug', 'gridImage', 'status'] }),
@@ -94,6 +107,8 @@ export default {
 
     data() {
         return {
+            artistFilters,
+            artistFilter: 'featured',
             searchTerm: '',
         }
     },
@@ -105,11 +120,13 @@ export default {
         filteredArtists() {
             const term = this.searchTerm.trim().toLowerCase()
 
-            const filtered = !term
-                ? this.artists
-                : this.artists.filter((artist) =>
-                      (artist.name || '').toLowerCase().includes(term)
-                  )
+            const filtered = this.artists.filter((artist) => {
+                if (!artist.paintings?.length || !(artist.name || '').toLowerCase().includes(term)) return false
+                if (this.artistFilter === 'all') return true
+
+                const hasAvailablePainting = artist.paintings.some((slug) => !isSoldPainting(this.paintingsBySlug[slug]))
+                return this.artistFilter === 'featured' ? hasAvailablePainting : !hasAvailablePainting
+            })
 
             // Rebuild headers so letters still display correctly after filtering
             let lastLetter = ''
@@ -143,6 +160,43 @@ export default {
 
 .artists-directory .artwork_header h1 {
     font-weight: 700;
+}
+
+.artists-filters {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+    max-width: 480px;
+    margin: 0 auto 16px;
+}
+
+.artists-filters button {
+    min-height: 44px;
+    padding: 8px;
+    border: 1px solid #c8b8a6;
+    border-radius: 12px;
+    background: #f9f6ec;
+    color: #612824;
+    font: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+    cursor: pointer;
+}
+
+.artists-filters button:hover {
+    background: #efe7d7;
+}
+
+.artists-filters button[aria-pressed='true'] {
+    border-color: var(--aln-maroon);
+    background: var(--aln-maroon);
+    color: var(--aln-cream);
+}
+
+.artists-filters button:focus-visible {
+    outline: 2px solid var(--aln-maroon);
+    outline-offset: 2px;
 }
 
 .artists-search {
