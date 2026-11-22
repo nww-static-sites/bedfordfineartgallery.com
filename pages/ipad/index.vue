@@ -117,6 +117,8 @@ export default {
     },
     head() {
         return {
+            meta: [{ hid: 'description', name: 'description', content: "Browse paintings on the gallery’s in-person iPad catalog. Ask gallery staff about a particular artwork." }],
+            title: "Bedford Fine Art Gallery - In-Gallery Catalog",
             script: [
                 {
                     hid: 'ipad-trailing-slash-canonicalizer',

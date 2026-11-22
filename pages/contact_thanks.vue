@@ -50,6 +50,17 @@
     </div>
 </template>
 
+<script>
+export default {
+    head() {
+        return {
+            title: "Painting Inquiry Confirmation | Bedford Fine Art Gallery",
+            meta: [{ hid: 'description', name: 'description', content: "Painting Inquiry Confirmation for Bedford Fine Art Gallery. Return to the gallery website for further information." }],
+        }
+    },
+}
+</script>
+
 <style scoped>
 .flex {
     display: flex;

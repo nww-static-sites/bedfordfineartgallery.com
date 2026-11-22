@@ -47,6 +47,12 @@
 import TestimonialsScroll from '~/components/TestimonialsScroll'
 
 export default {
+    head() {
+        return {
+            title: "Unsubscribe | Bedford Fine Art Gallery",
+            meta: [{ hid: 'description', name: 'description', content: "Unsubscribe for Bedford Fine Art Gallery. Return to the gallery website for further information." }],
+        }
+    },
     components: { TestimonialsScroll },
 }
 </script>

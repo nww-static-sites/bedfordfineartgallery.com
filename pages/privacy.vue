@@ -87,6 +87,12 @@
 import TestimonialsScroll from '~/components/TestimonialsScroll'
 
 export default {
+    head() {
+        return {
+            title: "Privacy Policy | Bedford Fine Art Gallery",
+            meta: [{ hid: 'description', name: 'description', content: "Read how Bedford Fine Art Gallery uses information received through inquiries and optional newsletter subscriptions. The policy explains why information is collected and when service providers are involved." }],
+        }
+    },
     components: { TestimonialsScroll },
 }
 </script>

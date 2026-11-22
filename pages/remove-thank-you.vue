@@ -16,6 +16,17 @@
     </div>
 </template>
 
+<script>
+export default {
+    head() {
+        return {
+            title: "Newsletter Unsubscribe Confirmation | Bedford Fine Art Gallery",
+            meta: [{ hid: 'description', name: 'description', content: "Newsletter Unsubscribe Confirmation for Bedford Fine Art Gallery. Return to the gallery website for further information." }],
+        }
+    },
+}
+</script>
+
 <style scoped>
 .unsubscribe-result {
     background: #ddd1ad;
