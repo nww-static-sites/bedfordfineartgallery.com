@@ -46,6 +46,17 @@ Today the term "fine art" encompasses many types of art movements, including mod
     </div>
 </template>
 
+<script>
+export default {
+    head() {
+        return {
+            title: "How to Judge Fine Art Value | Bedford Fine Art Gallery",
+            meta: [{ hid: 'description', name: 'description', content: "Read a gallery guide to judging the value of fine art. Use its buying context when comparing paintings and speaking with a dealer." }],
+        }
+    },
+}
+</script>
+
 <style scoped>
 </style>
 
