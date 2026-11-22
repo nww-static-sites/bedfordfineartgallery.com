@@ -86,6 +86,12 @@ export default {
     scroll-margin-top: 16px;
 }
 
+.artist_col_img ::v-deep img {
+    display: block;
+    aspect-ratio: 392 / 261;
+    object-fit: contain;
+}
+
 .artist_container ul li .artist-painting-link {
     padding: 4px 9px;
     font-size: 16px;
