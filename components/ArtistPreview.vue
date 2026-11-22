@@ -35,6 +35,8 @@
 </template>
 
 <script>
+import { isSoldPainting } from '~/utils/paintingStatus'
+
 export default {
     props: {
         artist: {
@@ -71,7 +73,7 @@ export default {
     },
     methods: {
         isSold(painting) {
-            return this.paintingsBySlug[painting]?.status === 'Sold'
+            return isSoldPainting(this.paintingsBySlug[painting])
         },
     },
 }
@@ -106,7 +108,7 @@ export default {
 }
 
 .artist-painting-status {
-    padding: 1px 3px;
+    padding: 1px 3px 2px;
     border-radius: 3px;
     color: var(--aln-cream);
     font-size: 9px;
