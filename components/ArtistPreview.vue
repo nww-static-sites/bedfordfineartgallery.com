@@ -115,7 +115,7 @@ export default {
 }
 
 .artist-painting-sold {
-    background: var(--aln-maroon);
+    background: #943f38;
 }
 
 .artist-painting-available {
