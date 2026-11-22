@@ -213,6 +213,12 @@ import CustomerSlidingImages from '~/components/CustomerSlidingImages'
 import TestimonialsScroll from '~/components/TestimonialsScroll'
 
 export default {
+    head() {
+        return {
+            title: "About Bedford Fine Art Gallery | Our Story",
+            meta: [{ hid: 'description', name: 'description', content: "Meet Joan and Jerry Hawk and learn the history of Bedford Fine Art Gallery. Read how their experience as collectors shapes what they bring to the gallery." }],
+        }
+    },
     components: { AboutSlidingImages, CustomerSlidingImages, TestimonialsScroll },
 }
 </script>

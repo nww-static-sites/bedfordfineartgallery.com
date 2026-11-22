@@ -25,7 +25,7 @@ export default {
     },
     head() {
         return {
-            title: 'Victorian Landscape Art For Sale: Timeless Beauty & Elegance',
+            title: "Victorian & 19th-Century Landscape Paintings for Sale",
             meta: [
                 {
                     hid: 'description',

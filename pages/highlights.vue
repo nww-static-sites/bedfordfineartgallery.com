@@ -32,6 +32,12 @@ import { getPostPreview } from '~/libs/post'
 import { compareArticles } from '~/libs/article-order'
 
 export default {
+    head() {
+        return {
+            title: "Fine Art Blog | Painting Stories and Collector Guides | Bedford Fine Art Gallery",
+            meta: [{ hid: 'description', name: 'description', content: "Read Bedford Fine Art Gallery’s articles on artists, paintings and art collecting. Browse profiles, artwork stories and practical advice for living with fine art." }],
+        }
+    },
     components: { HighlightPreview, TestimonialsScroll, BlogActions },
     async asyncData({ $content }) {
         const highlights = await $content('articles')

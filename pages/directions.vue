@@ -274,6 +274,12 @@ import YouTubeVideo from '~/components/YouTubeVideo'
 import TestimonialsScroll from '~/components/TestimonialsScroll'
 
 export default {
+    head() {
+        return {
+            title: "Visit Bedford Fine Art Gallery in Bedford, PA | Directions and Hours",
+            meta: [{ hid: 'description', name: 'description', content: "Plan your visit to Bedford Fine Art Gallery in historic Bedford, Pennsylvania. Find the location, directions and visiting information before you make the trip." }],
+        }
+    },
     components: { TestimonialsScroll, YouTubeVideo },
 }
 </script>

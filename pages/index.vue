@@ -29,6 +29,8 @@ export default {
     },
     head() {
         return {
+            meta: [{ hid: 'description', name: 'description', content: "Browse original 19th-century paintings at Bedford Fine Art Gallery in Bedford, Pennsylvania. Explore available works, see the gallery’s notable sales and meet Joan and Jerry Hawk." }],
+            title: "19th Century Paintings for Sale | Bedford Fine Art Gallery",
             script: [
                 {
                     type: 'application/ld+json',

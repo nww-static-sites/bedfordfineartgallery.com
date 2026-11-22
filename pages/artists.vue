@@ -45,6 +45,12 @@ import ArtistNav from '~/components/ArtistNav'
 import TestimonialsScroll from '~/components/TestimonialsScroll'
 
 export default {
+    head() {
+        return {
+            title: "19th-Century Artists & Paintings | Bedford Fine Art Gallery",
+            meta: [{ hid: 'description', name: 'description', content: "Browse featured artists and open their pages to see related paintings. The directory brings historical and more recent artists into one place." }],
+        }
+    },
     components: { ArtistPreview, ArtistNav, TestimonialsScroll },
 
     async asyncData({ $content }) {
