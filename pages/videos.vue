@@ -30,6 +30,12 @@
 import YouTubeVideo from '~/components/YouTubeVideo'
 
 export default {
+    head() {
+        return {
+            title: "Gallery Videos | Bedford Fine Art Gallery",
+            meta: [{ hid: 'description', name: 'description', content: "Watch Bedford Fine Art Gallery’s videos, including Different by Design. Hear more about the gallery and its approach to helping people find paintings." }],
+        }
+    },
   components: { YouTubeVideo },
 }
 </script>

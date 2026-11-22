@@ -195,6 +195,12 @@
     import TestimonialsScroll from '~/components/TestimonialsScroll'
 
     export default {
+    head() {
+        return {
+            title: "Preview a Painting on Your Wall | Bedford Fine Art Gallery",
+            meta: [{ hid: 'description', name: 'description', content: "Picture a gallery painting in your own room. Upload a room photo, define the wall area and enter its height to position the painting." }],
+        }
+    },
         components: { TestimonialsScroll },
     }
 </script>

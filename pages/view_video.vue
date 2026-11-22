@@ -30,6 +30,12 @@
 import YouTubeVideo from '~/components/YouTubeVideo'
 
 export default {
+    head() {
+        return {
+            title: "Dr. Terri Nicole Sawyer on Bedford Fine Art Gallery",
+            meta: [{ hid: 'description', name: 'description', content: "Watch Dr. Terri Nicole Sawyer discuss Bedford Fine Art Gallery. The video presents her perspective on the gallery’s work with collectors." }],
+        }
+    },
   components: { YouTubeVideo },
 }
 </script>

@@ -77,12 +77,12 @@ export default {
         })
 
         return {
-            title: this.newFormat ? this.artLoversNicheArticle.niche.title : title,
+            title: this.newFormat ? (this.artLoversNicheArticle.metaTitle || this.artLoversNicheArticle.niche.title) : title,
             meta: [
                 {
                     hid: 'description',
                     name: 'description',
-                    content: this.newFormat ? this.artLoversNicheArticle.preview : description,
+                    content: this.newFormat ? (this.artLoversNicheArticle.metaDescription || this.artLoversNicheArticle.preview) : description,
                 },
                 {
                     hid: 'keywords',
