@@ -45,6 +45,17 @@ This article is a quick guide to give you some ideas on how to display your art.
     </div>
 </template>
 
+<script>
+export default {
+    head() {
+        return {
+            title: "How to Display Fine Art | Bedford Fine Art Gallery",
+            meta: [{ hid: 'description', name: 'description', content: "Read Bedford Fine Art Gallery’s guide to displaying fine art at home. Use the display advice when deciding how to give a painting a place in your room." }],
+        }
+    },
+}
+</script>
+
 <style scoped>
 </style>
 
