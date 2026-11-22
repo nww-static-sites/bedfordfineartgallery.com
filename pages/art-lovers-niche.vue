@@ -209,6 +209,12 @@ const clubTabs = [
 ]
 
 export default {
+    head() {
+        return {
+            title: "Art Lovers’ Niche Newsletter and Archive | Bedford Fine Art Gallery",
+            meta: [{ hid: 'description', name: 'description', content: "Explore the Art Lovers’ Niche newsletter for new paintings, artist stories and collecting advice. Browse earlier issues by year or sign up for the next edition." }],
+        }
+    },
     components: { TestimonialsScroll, ArtLoversNicheArticlePreview, NewsletterSignup },
     async asyncData({ $content }) {
         return {

@@ -290,7 +290,8 @@ export default {
     components: { TestimonialsScroll, VictorianSlidingImages, YouTubeVideo },
     head() {
         return {
-            title: 'Victorian Art For Sale - Bedford Fine Art Gallery',
+            meta: [{ hid: 'description', name: 'description', content: "Explore Victorian paintings and ideas for displaying historic artwork in today’s interiors. The gallery brings together landscapes, genre scenes and still lifes." }],
+            title: "Victorian Art for Sale | Bedford Fine Art Gallery",
         }
     },
 }

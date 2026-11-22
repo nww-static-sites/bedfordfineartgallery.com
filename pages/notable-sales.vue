@@ -9,6 +9,12 @@ import { loadGalleryPaintings } from '~/libs/paintings'
 const category = 'Past Sales'
 
 export default {
+    head() {
+        return {
+            title: "Notable Painting Sales | Bedford Fine Art Gallery",
+            meta: [{ hid: 'description', name: 'description', content: "Browse examples of paintings placed with collectors by Bedford Fine Art Gallery. The gallery’s sold archive shows the range of artists and subjects it has handled." }],
+        }
+    },
     components: { Gallery },
     async asyncData({ $content }) {
         return {
